@@ -74,50 +74,7 @@ font-style: normal;
 font-size: .95em;
 }
 
-#navbar b.rtop,
-#navbar b.rbottom
-{
-display:block;
-background: white
-}
-
-#navbar b.rtop b
-{
-display: block;
-height: 1px;
-overflow: hidden;
-background-color: #80a0a0;
-}
-
-#navbar b.rbottom b
-{
-display: block;
-height: 1px;
-overflow: hidden;
-background-color: #80a0a0;
-}
-
-#navbar b.r1
-{
-margin: 0 5px;
-}
-
-#navbar b.r2
-{
-margin: 0 3px;
-}
-
-#navbar b.r3
-{
-margin: 0 2px;
-}
-
-#navbar b.rtop b.r4,
-#navbar b.rbottom b.r4
-{
-margin: 0 1px;
-height: 1px;
-}
+/* -------------------------------------------------------------------------- */
 
 #top
 {
@@ -196,7 +153,6 @@ color: #99003f;
 #main h2
 {
 font-size: 1.2em;
-margin-bottom: 0ex;
 color: #99003f;
 }
 
@@ -275,69 +231,15 @@ border-top: 2px solid #e8e8e8;
 text-align: center;
 }
 
-/* background is used to draw a rounded cartouche around a h2 */
+/* rounded cartouche -------------------------------------------------------- */
 
-.background
+.cartouche
 {
+margin-top: 0ex;
+margin-bottom: 0ex;
 background: #e8e8e8;
-color: #99003f;
-margin-top: 0;
-}
-
-.background h2
-{
-font-size: 1.2em;
-height: 0.8em;
-margin-bottom: 0;
-margin-top: 0;
-color: #99003f;
-}
-
-.background b.rtop,
-.background b.rbottom
-{
-display:block;
-background: white
-}
-
-.background b.rtop b,
-.background b.rbottom b
-{
-display: block;
-height: 1px;
-overflow: hidden;
-background: #e8e8e8;
-}
-
-.background b.r1
-{
-margin: 0 5px;
-}
-
-.background b.r2
-{
-margin: 0 3px;
-}
-
-.background b.r3
-{
-margin: 0 2px;
-}
-
-.background b.rtop b.r4,
-.background b.rbottom b.r4
-{
-margin: 0 1px;
-height: 1px;
-}
-
-.background h1,
-.background h2,
-.background p
-{
-padding-top: 0;
-margin-top: 0;
-padding-bottom: 8px;
+border-radius: 8px;
+padding: 4px;
 }
 
 /* miscellaneous styles ---------------------------------------------- */

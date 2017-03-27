@@ -2298,10 +2298,15 @@ nx-libs                                      Yaakov Selkowitz
 obby                                         Yaakov Selkowitz
 obconf                                       Yaakov Selkowitz
 obconf-qt                                    Yaakov Selkowitz
-ocaml                                        Damien Doligez
+ocaml                                        Yaakov Selkowitz
+ocaml-camlp4                                 Yaakov Selkowitz
+ocaml-camlp5                                 Yaakov Selkowitz
 ocaml-facile                                 Yaakov Selkowitz
+ocaml-findlib                                Yaakov Selkowitz
 ocaml-lablgl                                 Yaakov Selkowitz
 ocaml-lablgtk2                               Yaakov Selkowitz
+ocaml-labltk                                 Yaakov Selkowitz
+ocaml-ocamlbuild                             Yaakov Selkowitz
 ocl-icd                                      Yaakov Selkowitz
 oclock                                       Yaakov Selkowitz
 octave                                       Marco Atzeri

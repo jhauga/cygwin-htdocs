@@ -3033,7 +3033,6 @@ rbio                                         Marco Atzeri
 rc                                           Jari Aalto
 rcs                                          Achim Gratz
 rdiff-backup                                 David Rothenberger
-rdtool                                       Jari Aalto
 readline                                     Eric Blake
 rebase                                       Corinna Vinschen
 recode                                       Corinna Vinschen
@@ -3158,6 +3157,7 @@ ruby-raindrops                               Yaakov Selkowitz
 ruby-rake                                    Yaakov Selkowitz
 ruby-rake-compiler                           Yaakov Selkowitz
 ruby-rdoc                                    Yaakov Selkowitz
+ruby-rdtool                                  Yaakov Selkowitz
 ruby-redcarpet                               David Stacey
 ruby-rsvg2                                   Yaakov Selkowitz
 ruby-sass                                    Yaakov Selkowitz

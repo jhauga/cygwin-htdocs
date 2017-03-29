@@ -2476,7 +2476,9 @@ perl-Carp                                    Achim Gratz
 perl-CGI                                     Achim Gratz/Yaakov Selkowitz
 perl-Class-Accessor                          Achim Gratz
 perl-Class-Data-Inheritable                  Achim Gratz
+perl-Class-Inspector                         Achim Gratz
 perl-Class-Singleton                         Achim Gratz/Yaakov Selkowitz
+perl-Class-Tiny                              Achim Gratz
 perl-Class-XSAccessor                        Achim Gratz
 perl-Clone                                   Achim Gratz/Yaakov Selkowitz
 perl-common-sense                            Achim Gratz
@@ -2685,6 +2687,7 @@ perl-Readonly-XS                             Achim Gratz/Ken Brown
 perl-Regexp-Common                           Achim Gratz/Ken Brown
 perl-Role-Tiny                               Achim Gratz
 perl-Scalar-List-Utils                       Achim Gratz
+perl-Scope-Guard                             Achim Gratz
 perl-SGMLSpm                                 Yaakov Selkowitz
 perl-Socket                                  Achim Gratz/Yaakov Selkowitz
 perl-Socket6                                 Achim Gratz
@@ -2709,6 +2712,7 @@ perl-Test-Differences                        Achim Gratz
 perl-Test-EOL                                Achim Gratz
 perl-Test-Exception                          Achim Gratz
 perl-Test-Fatal                              Achim Gratz
+perl-Test-File-ShareDir                      Achim Gratz
 perl-Test-Harness                            Achim Gratz
 perl-Test-Inter                              Achim Gratz
 perl-Test-LeakTrace                          Achim Gratz

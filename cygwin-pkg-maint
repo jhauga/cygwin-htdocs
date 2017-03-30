@@ -203,6 +203,7 @@ calligra-l10n-zh_TW                          Yaakov Selkowitz
 calm                                         Jon Turney
 camd                                         Marco Atzeri
 cantarell-fonts                              Yaakov Selkowitz
+cantata                                      Yaakov Selkowitz
 cantor                                       Yaakov Selkowitz
 caribou                                      Yaakov Selkowitz
 carlito-fonts                                Yaakov Selkowitz
@@ -571,6 +572,9 @@ glw                                          Yaakov Selkowitz
 gmic                                         Yaakov Selkowitz
 gmime2.6                                     Yaakov Selkowitz
 gmp                                          Achim Gratz
+gmpc                                         Yaakov Selkowitz
+gmpc-libnotify                               Yaakov Selkowitz
+gmpc-plugins                                 Yaakov Selkowitz
 gmult                                        Yaakov Selkowitz
 gnome-activity-journal                       Yaakov Selkowitz
 gnome-applets                                Yaakov Selkowitz
@@ -1299,6 +1303,8 @@ libmetalink                                  Yaakov Selkowitz
 libmikmod                                    Yaakov Selkowitz
 libmng                                       Dr. Volker Zell
 libmodplug                                   Yaakov Selkowitz
+libmpd                                       Yaakov Selkowitz
+libmpdclient                                 Yaakov Selkowitz
 libmspack                                    Yaakov Selkowitz
 libmspub0.1                                  Yaakov Selkowitz
 libmusicbrainz5                              Yaakov Selkowitz
@@ -1374,6 +1380,7 @@ libuninameslist                              Yaakov Selkowitz
 libunique1.0                                 Yaakov Selkowitz
 libunique3.0                                 Yaakov Selkowitz
 libunistring                                 Erwin Waterlander
+libupnp                                      Yaakov Selkowitz
 libusb-win32                                 Yaakov Selkowitz
 libusb1.0                                    Yaakov Selkowitz
 libustr                                      ORPHANED (Charles Wilson)
@@ -2242,7 +2249,9 @@ mousetweaks                                  Yaakov Selkowitz
 mozjs24                                      Yaakov Selkowitz
 mozo                                         Yaakov Selkowitz
 mp4v2                                        Yaakov Selkowitz
+mpc                                          Yaakov Selkowitz
 mpclib                                       Achim Gratz
+mpd                                          Yaakov Selkowitz
 mpfr                                         Achim Gratz
 mpg123                                       Yaakov Selkowitz
 mscgen                                       David Stacey
@@ -2265,6 +2274,8 @@ nc6                                          Corinna Vinschen
 nccmp                                        Remik Ziemlinski
 ncdu                                         Christian Franke
 ncftp                                        Jari Aalto
+ncmpc                                        Yaakov Selkowitz
+ncmpcpp                                      Yaakov Selkowitz
 ncompress                                    Yaakov Selkowitz
 ncurses                                      Yaakov Selkowitz
 ncview                                       Marco Atzeri
@@ -2983,6 +2994,7 @@ qiv                                          Jari Aalto
 qjson                                        Yaakov Selkowitz
 qmmp                                         Yaakov Selkowitz
 qmmp-plugin-pack                             Yaakov Selkowitz
+qmpdclient                                   Yaakov Selkowitz
 qoauth                                       Yaakov Selkowitz
 qpdf                                         Marco Atzeri
 qpdfview                                     Yaakov Selkowitz
@@ -3585,6 +3597,7 @@ xfce4-fsguard-plugin                         Yaakov Selkowitz
 xfce4-genmon-plugin                          Yaakov Selkowitz
 xfce4-indicator-plugin                       Yaakov Selkowitz
 xfce4-mailwatch-plugin                       Yaakov Selkowitz
+xfce4-mpc-plugin                             Yaakov Selkowitz
 xfce4-notes-plugin                           Yaakov Selkowitz
 xfce4-notifyd                                Yaakov Selkowitz
 xfce4-panel                                  Yaakov Selkowitz

@@ -474,6 +474,7 @@ fluxbox                                      Yaakov Selkowitz
 focuswriter                                  Yaakov Selkowitz
 folks                                        Yaakov Selkowitz
 font-util                                    Yaakov Selkowitz
+fontawesome-fonts                            Yaakov Selkowitz
 fontconfig                                   Yaakov Selkowitz
 fontforge                                    Yaakov Selkowitz
 fontsproto                                   Yaakov Selkowitz
@@ -2287,6 +2288,7 @@ nmh                                          David Levine
 nosleep                                      Andrew Schulman
 notification-daemon                          Yaakov Selkowitz
 noto-cjk-fonts                               Yaakov Selkowitz
+noto-emoji-fonts                             Yaakov Selkowitz
 noto-fonts                                   Yaakov Selkowitz
 novprog                                      Yaakov Selkowitz
 nrss                                         Jari Aalto

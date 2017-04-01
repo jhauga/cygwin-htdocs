@@ -2567,6 +2567,7 @@ perl-File-HomeDir                            Achim Gratz
 perl-File-Listing                            Achim Gratz/Yaakov Selkowitz
 perl-File-pushd                              Achim Gratz
 perl-File-Remove                             Achim Gratz
+perl-File-ShareDir                           Achim Gratz
 perl-File-Slurp                              Achim Gratz/Ken Brown
 perl-File-Slurp-Tiny                         Achim Gratz
 perl-File-Slurper                            Achim Gratz

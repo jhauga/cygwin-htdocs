@@ -204,6 +204,7 @@ JRP,https://cygwin.com/ml/cygwin-apps/2006-02/msg00119.html,For taking over the 
 JT,https://cygwin.com/ml/cygwin-apps/2015-01/msg00086.html,For 14 years of contributions to Cygwin.,,,1
 JT,https://cygwin.com/ml/cygwin-apps/2004-10/msg00050.html,"For years of supporting <tt>postgres</tt>, and for just being a long time contributor to Cygwin.",2
 
+JTy,https://cygwin.com/ml/cygwin-apps/2017-03/msg00024.html,For overhauling the <a href='https://cygwin.com/packages.html'>Cygwin packaging guide</a>.
 JTy,https://cygwin.com/ml/cygwin/2016-06/msg00142.html,"For debugging a ""fun"" problem in <tt>llvm</tt>."
 JTy,https://cygwin.com/ml/cygwin-apps/2016-03/msg00050.html,For developing <tt>calm</tt> as a replacement for <tt>upset</tt>.,1,1
 JTy,https://cygwin.com/ml/cygwin-apps/2016-01/msg00039.html,"For coding a replacement for incver_ifdep in setup. No, I don't know what that does but people seem to be very happy about it. Inquiring Minds will have to read the thread."
@@ -224,6 +225,7 @@ JTy,https://cygwin.com/ml/cygwin/2009-07/msg00451.html,For taking over maintaine
 JY,https://cygwin.com/ml/cygwin-apps/2012-10/msg00199.html,For adopting the <tt>w32api</tt> package.
 JY,https://cygwin.com/ml/cygwin-apps/2012-08/msg00029.html
 
+KB,https://cygwin.com/ml/cygwin-apps/2017-03/msg00012.html,For adopting the orphaned <tt>potrace</tt> package.
 KB,https://cygwin.com/ml/cygwin/2016-06/msg00016.html,For going to great lengths to track down a regression.
 KB,https://cygwin.com/ml/cygwin/2015-09/msg00309.html,For getting a <tt>luajit</tt> patch in upstream.
 KB,https://cygwin.com/ml/cygwin-apps/2015-07/msg00253.html,For helping with the Great Perl Update of 2015.
@@ -291,6 +293,8 @@ PAH,https://cygwin.com/ml/cygwin/2004-05/msg00502.html,For high quality contribu
 PAH,https://cygwin.com/ml/cygwin/2003-06/msg00344.html,For providing data to help track down a bug.
 
 PB,https://cygwin.com/ml/cygwin/2007-03/msg00863.html,For not being afraid to climb on that ol' soapbox re: <a href='https://cygwin.com/acronyms/#3PP'>3PPs</a>.
+
+PC,http://cygwin.com/ml/cygwin/2017-03/msg00413.html,For shocking and audacious disservice to the community.
 
 PF,https://cygwin.com/ml/cygwin-apps/2015-01/msg00089.html,For adopting the orphaned <tt>rpm</tt> package.
 PF,https://cygwin.com/ml/cygwin/2013-06/msg00250.html,For offering a simple solution to a long-standing problem.

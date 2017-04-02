@@ -2,6 +2,7 @@
 2048-qt                                      Yaakov Selkowitz
 4ti2                                         Yue Ren/Marco Atzeri
 a2ps                                         Yaakov Selkowitz
+a52dec                                       Yaakov Selkowitz
 aalib                                        Dr. Volker Zell
 abiword                                      Yaakov Selkowitz
 abiword-docs                                 Yaakov Selkowitz
@@ -19,13 +20,13 @@ afio                                         Jari Aalto
 aiksaurus                                    Yaakov Selkowitz
 akonadi                                      Yaakov Selkowitz
 alacarte                                     Yaakov Selkowitz
+alarm-clock-applet                           Yaakov Selkowitz
 alef-fonts                                   Yaakov Selkowitz
 alexandria                                   Yaakov Selkowitz
 algol68g                                     Thomas Wolff
 alternatives                                 ORPHANED (Charles Wilson)
 alure                                        Bastian Germann
 amd                                          Marco Atzeri
-amor                                         Yaakov Selkowitz
 analitza                                     Yaakov Selkowitz
 anjuta                                       Yaakov Selkowitz
 annoyance-filter                             Jari Aalto
@@ -142,6 +143,8 @@ boost                                        Yaakov Selkowitz
 botan1.10                                    Yaakov Selkowitz
 bovo                                         Yaakov Selkowitz
 boxes                                        Jari Aalto
+breeze                                       Yaakov Selkowitz
+breeze-gtk                                   Yaakov Selkowitz
 breeze-icons                                 Yaakov Selkowitz
 bsdiff                                       Marco Atzeri
 bsfilter                                     Jari Aalto
@@ -161,7 +164,6 @@ cadaver                                      Dr. Volker Zell
 cairo                                        Yaakov Selkowitz
 cairomm1.0                                   Yaakov Selkowitz
 caja                                         Yaakov Selkowitz
-caja-actions                                 Yaakov Selkowitz
 caja-extensions                              Yaakov Selkowitz
 caja-follow-symlink                          Yaakov Selkowitz
 caja-python                                  Yaakov Selkowitz
@@ -201,6 +203,7 @@ calligra-l10n-zh_TW                          Yaakov Selkowitz
 calm                                         Jon Turney
 camd                                         Marco Atzeri
 cantarell-fonts                              Yaakov Selkowitz
+cantata                                      Yaakov Selkowitz
 cantor                                       Yaakov Selkowitz
 caribou                                      Yaakov Selkowitz
 carlito-fonts                                Yaakov Selkowitz
@@ -242,7 +245,6 @@ clinfo                                       Yaakov Selkowitz
 clisp                                        Ken Brown
 cln                                          Yaakov Selkowitz
 cloc                                         Jari Aalto
-cloog-isl                                    Achim Gratz
 clutter-gst2.0                               Yaakov Selkowitz
 clutter-gst3.0                               Yaakov Selkowitz
 clutter-gtk0.10                              Yaakov Selkowitz
@@ -320,6 +322,7 @@ cygwin64-w32api-headers                      Yaakov Selkowitz
 cygwin64-w32api-runtime                      Yaakov Selkowitz
 cygwin64-zlib                                Yaakov Selkowitz
 cyrus-sasl                                   David Rothenberger
+d-feet                                       Yaakov Selkowitz
 damageproto                                  Yaakov Selkowitz
 dash                                         Eric Blake
 datefudge                                    Yaakov Selkowitz
@@ -382,6 +385,7 @@ docbook-xsl                                  Yaakov Selkowitz
 docbook-xsl-ns                               Yaakov Selkowitz
 docbook2X                                    Yaakov Selkowitz
 dog                                          Jari Aalto
+dolphin                                      Yaakov Selkowitz
 dolphin-plugins                              Yaakov Selkowitz
 dos2unix                                     Erwin Waterlander
 dosbox                                       Yaakov Selkowitz
@@ -451,6 +455,7 @@ figlet                                       Jari Aalto
 file                                         Corinna Vinschen/Yaakov Selkowitz
 file-roller                                  Yaakov Selkowitz
 filelight                                    Yaakov Selkowitz
+filemanager-actions                          Yaakov Selkowitz
 filezilla                                    Yaakov Selkowitz
 findutils                                    Eric Blake
 fish                                         Andrew Schulman
@@ -470,6 +475,7 @@ fluxbox                                      Yaakov Selkowitz
 focuswriter                                  Yaakov Selkowitz
 folks                                        Yaakov Selkowitz
 font-util                                    Yaakov Selkowitz
+fontawesome-fonts                            Yaakov Selkowitz
 fontconfig                                   Yaakov Selkowitz
 fontforge                                    Yaakov Selkowitz
 fontsproto                                   Yaakov Selkowitz
@@ -482,6 +488,7 @@ four-in-a-row                                Yaakov Selkowitz
 free42                                       Yaakov Selkowitz
 freeglut                                     Dr. Volker Zell
 freerdp                                      Yaakov Selkowitz
+freerdp1.2                                   Yaakov Selkowitz
 freetds                                      Yaakov Selkowitz
 freetype2                                    Yaakov Selkowitz
 fribidi                                      Yaakov Selkowitz
@@ -543,6 +550,7 @@ girara                                       Yaakov Selkowitz
 git                                          Adam Dinwoodie
 git-oodiff                                   Jari Aalto
 git-review                                   David Rothenberger
+gitg                                         Yaakov Selkowitz
 gjs                                          Yaakov Selkowitz
 gl2ps                                        Marco Atzeri
 glabels                                      Yaakov Selkowitz
@@ -554,6 +562,7 @@ glew                                         Yaakov Selkowitz
 glib1.2                                      Yaakov Selkowitz
 glib2.0                                      Yaakov Selkowitz
 glib2.0-networking                           Yaakov Selkowitz
+glib2.0-openssl                              Yaakov Selkowitz
 glibmm2.4                                    Yaakov Selkowitz
 glm                                          Yaakov Selkowitz
 glpk                                         Marco Atzeri
@@ -563,9 +572,13 @@ glw                                          Yaakov Selkowitz
 gmic                                         Yaakov Selkowitz
 gmime2.6                                     Yaakov Selkowitz
 gmp                                          Achim Gratz
+gmpc                                         Yaakov Selkowitz
+gmpc-libnotify                               Yaakov Selkowitz
+gmpc-plugins                                 Yaakov Selkowitz
 gmult                                        Yaakov Selkowitz
 gnome-activity-journal                       Yaakov Selkowitz
 gnome-applets                                Yaakov Selkowitz
+gnome-autoar                                 Yaakov Selkowitz
 gnome-backgrounds                            Yaakov Selkowitz
 gnome-calculator                             Yaakov Selkowitz
 gnome-calendar                               Yaakov Selkowitz
@@ -603,10 +616,12 @@ gnome-panel                                  Yaakov Selkowitz
 gnome-python                                 Yaakov Selkowitz
 gnome-python-desktop                         Yaakov Selkowitz
 gnome-python-extras                          Yaakov Selkowitz
+gnome-recipes                                Yaakov Selkowitz
 gnome-robots                                 Yaakov Selkowitz
 gnome-screenshot                             Yaakov Selkowitz
 gnome-session                                Yaakov Selkowitz
 gnome-settings-daemon                        Yaakov Selkowitz
+gnome-ssh-askpass                            Yaakov Selkowitz
 gnome-sudoku                                 Yaakov Selkowitz
 gnome-system-log                             Yaakov Selkowitz
 gnome-system-monitor                         Yaakov Selkowitz
@@ -618,6 +633,7 @@ gnome-themes-standard                        Yaakov Selkowitz
 gnome-todo                                   Yaakov Selkowitz
 gnome-tweak-tool                             Yaakov Selkowitz
 gnome-user-docs                              Yaakov Selkowitz
+gnome-user-share                             Yaakov Selkowitz
 gnome-vfs2                                   Yaakov Selkowitz
 gnome-vfsmm2.6                               Yaakov Selkowitz
 gnome-weather                                Yaakov Selkowitz
@@ -648,6 +664,7 @@ goocanvas2.0                                 Yaakov Selkowitz
 goocanvasmm2.0                               Yaakov Selkowitz
 google-breakpad                              Jon Turney
 gottet                                       Yaakov Selkowitz
+gpaste                                       Yaakov Selkowitz
 gperf                                        Eric Blake
 gpgme                                        Yaakov Selkowitz
 gpicview                                     Yaakov Selkowitz
@@ -664,6 +681,8 @@ grep                                         Eric Blake
 grepmail                                     Jari Aalto
 grilo0.2                                     Yaakov Selkowitz
 grilo0.2-plugins                             Yaakov Selkowitz
+grilo0.3                                     Yaakov Selkowitz
+grilo0.3-plugins                             Yaakov Selkowitz
 groff                                        Achim Gratz
 gsasl                                        Yaakov Selkowitz
 gsettings-desktop-schemas                    Yaakov Selkowitz
@@ -740,6 +759,7 @@ hspell                                       Yaakov Selkowitz
 html2ps                                      Yaakov Selkowitz
 htmldoc                                      Yaakov Selkowitz
 httpd                                        Yaakov Selkowitz
+httpd-mod_dnssd                              Yaakov Selkowitz
 httperf                                      Dr. Volker Zell
 httpie                                       Yaakov Selkowitz
 httping                                      Jari Aalto
@@ -773,6 +793,7 @@ ibus-m17n                                    Yaakov Selkowitz
 ibus-pinyin                                  Yaakov Selkowitz
 ibus-qt                                      Yaakov Selkowitz
 ibus-skk                                     Yaakov Selkowitz
+ibus-typing-booster                          Yaakov Selkowitz
 ibus-unikey                                  Yaakov Selkowitz
 ibus-xkb                                     Yaakov Selkowitz
 iceauth                                      Yaakov Selkowitz
@@ -837,6 +858,7 @@ juffed                                       Yaakov Selkowitz
 juk                                          Yaakov Selkowitz
 kaccessible                                  Yaakov Selkowitz
 kactivities                                  Yaakov Selkowitz
+kactivitymanagerd                            Yaakov Selkowitz
 kajongg                                      Yaakov Selkowitz
 kalgebra                                     Yaakov Selkowitz
 kalzium                                      Yaakov Selkowitz
@@ -861,11 +883,13 @@ kchmviewer                                   Yaakov Selkowitz
 kcolorchooser                                Yaakov Selkowitz
 kcoloredit                                   Yaakov Selkowitz
 kcron                                        Yaakov Selkowitz
-kde-base-artwork                             Yaakov Selkowitz
 kde-baseapps                                 Yaakov Selkowitz
+kde-cli-tools                                Yaakov Selkowitz
 kde-dev-scripts                              Yaakov Selkowitz
 kde-dev-utils                                Yaakov Selkowitz
+kde-gtk-config                               Yaakov Selkowitz
 kde-l10n-ar                                  Yaakov Selkowitz
+kde-l10n-ast                                 Yaakov Selkowitz
 kde-l10n-bg                                  Yaakov Selkowitz
 kde-l10n-bs                                  Yaakov Selkowitz
 kde-l10n-ca                                  Yaakov Selkowitz
@@ -875,6 +899,7 @@ kde-l10n-da                                  Yaakov Selkowitz
 kde-l10n-de                                  Yaakov Selkowitz
 kde-l10n-el                                  Yaakov Selkowitz
 kde-l10n-en_GB                               Yaakov Selkowitz
+kde-l10n-eo                                  Yaakov Selkowitz
 kde-l10n-es                                  Yaakov Selkowitz
 kde-l10n-et                                  Yaakov Selkowitz
 kde-l10n-eu                                  Yaakov Selkowitz
@@ -924,20 +949,18 @@ kde-l10n-wa                                  Yaakov Selkowitz
 kde-l10n-zh_CN                               Yaakov Selkowitz
 kde-l10n-zh_TW                               Yaakov Selkowitz
 kde-runtime                                  Yaakov Selkowitz
-kde-wallpapers                               Yaakov Selkowitz
 kde-workspace                                Yaakov Selkowitz
-kdeartwork                                   Yaakov Selkowitz
+kdecoration2                                 Yaakov Selkowitz
 kdeedu-data                                  Yaakov Selkowitz
 kdegraphics-mobipocket                       Yaakov Selkowitz
-kdegraphics-strigi-analyzer                  Yaakov Selkowitz
 kdegraphics-thumbnailers                     Yaakov Selkowitz
 kdelibs                                      Yaakov Selkowitz
-kdenetwork-strigi-analyzers                  Yaakov Selkowitz
 kdepimlibs                                   Yaakov Selkowitz
 kdeplasma-addons                             Yaakov Selkowitz
 kdesdk-kioslaves                             Yaakov Selkowitz
-kdesdk-strigi-analyzers                      Yaakov Selkowitz
 kdesdk-thumbnailers                          Yaakov Selkowitz
+kdesvn                                       Yaakov Selkowitz
+kdevplatform                                 Yaakov Selkowitz
 kdewebdev                                    Yaakov Selkowitz
 kdf                                          Yaakov Selkowitz
 kdiamond                                     Yaakov Selkowitz
@@ -947,19 +970,24 @@ keybinder                                    Yaakov Selkowitz
 keybinder3.0                                 Yaakov Selkowitz
 keychain                                     Jari Aalto
 kf5-attica                                   Yaakov Selkowitz
+kf5-baloo                                    Yaakov Selkowitz
+kf5-baloo-widgets                            Yaakov Selkowitz
 kf5-frameworkintegration                     Yaakov Selkowitz
 kf5-gpgmepp                                  Yaakov Selkowitz
+kf5-grantleetheme                            Yaakov Selkowitz
 kf5-kactivities                              Yaakov Selkowitz
 kf5-kactivities-stats                        Yaakov Selkowitz
 kf5-kapidox                                  Yaakov Selkowitz
 kf5-karchive                                 Yaakov Selkowitz
 kf5-kauth                                    Yaakov Selkowitz
 kf5-kbookmarks                               Yaakov Selkowitz
+kf5-kcalcore                                 Yaakov Selkowitz
 kf5-kcmutils                                 Yaakov Selkowitz
 kf5-kcodecs                                  Yaakov Selkowitz
 kf5-kcompletion                              Yaakov Selkowitz
 kf5-kconfig                                  Yaakov Selkowitz
 kf5-kconfigwidgets                           Yaakov Selkowitz
+kf5-kcontacts                                Yaakov Selkowitz
 kf5-kcoreaddons                              Yaakov Selkowitz
 kf5-kcrash                                   Yaakov Selkowitz
 kf5-kdbusaddons                              Yaakov Selkowitz
@@ -967,32 +995,42 @@ kf5-kdeclarative                             Yaakov Selkowitz
 kf5-kded                                     Yaakov Selkowitz
 kf5-kdelibs4support                          Yaakov Selkowitz
 kf5-kdesignerplugin                          Yaakov Selkowitz
+kf5-kdesu                                    Yaakov Selkowitz
 kf5-kdewebkit                                Yaakov Selkowitz
+kf5-kdgantt2                                 Yaakov Selkowitz
 kf5-kdnssd                                   Yaakov Selkowitz
 kf5-kdoctools                                Yaakov Selkowitz
 kf5-kemoticons                               Yaakov Selkowitz
 kf5-kfilemetadata                            Yaakov Selkowitz
 kf5-kglobalaccel                             Yaakov Selkowitz
 kf5-kguiaddons                               Yaakov Selkowitz
+kf5-kholidays                                Yaakov Selkowitz
 kf5-khtml                                    Yaakov Selkowitz
 kf5-ki18n                                    Yaakov Selkowitz
 kf5-kiconthemes                              Yaakov Selkowitz
 kf5-kidletime                                Yaakov Selkowitz
 kf5-kimageformats                            Yaakov Selkowitz
+kf5-kimap                                    Yaakov Selkowitz
 kf5-kinit                                    Yaakov Selkowitz
 kf5-kio                                      Yaakov Selkowitz
+kf5-kio-extras                               Yaakov Selkowitz
+kf5-kirigami                                 Yaakov Selkowitz
 kf5-kitemmodels                              Yaakov Selkowitz
 kf5-kitemviews                               Yaakov Selkowitz
 kf5-kjobwidgets                              Yaakov Selkowitz
 kf5-kjs                                      Yaakov Selkowitz
 kf5-kjsembed                                 Yaakov Selkowitz
+kf5-kldap                                    Yaakov Selkowitz
+kf5-kmbox                                    Yaakov Selkowitz
 kf5-kmediaplayer                             Yaakov Selkowitz
+kf5-kmime                                    Yaakov Selkowitz
 kf5-knewstuff                                Yaakov Selkowitz
 kf5-knotifications                           Yaakov Selkowitz
 kf5-knotifyconfig                            Yaakov Selkowitz
 kf5-kpackage                                 Yaakov Selkowitz
 kf5-kparts                                   Yaakov Selkowitz
 kf5-kpeople                                  Yaakov Selkowitz
+kf5-kpimtextedit                             Yaakov Selkowitz
 kf5-kplotting                                Yaakov Selkowitz
 kf5-kpty                                     Yaakov Selkowitz
 kf5-kross                                    Yaakov Selkowitz
@@ -1007,8 +1045,12 @@ kf5-kwidgetsaddons                           Yaakov Selkowitz
 kf5-kwindowsystem                            Yaakov Selkowitz
 kf5-kxmlgui                                  Yaakov Selkowitz
 kf5-kxmlrpcclient                            Yaakov Selkowitz
+kf5-libkdcraw                                Yaakov Selkowitz
 kf5-libkdegames                              Yaakov Selkowitz
+kf5-libkexiv2                                Yaakov Selkowitz
+kf5-libkipi                                  Yaakov Selkowitz
 kf5-libkmahjongg                             Yaakov Selkowitz
+kf5-libkscreen                               Yaakov Selkowitz
 kf5-plasma                                   Yaakov Selkowitz
 kf5-solid                                    Yaakov Selkowitz
 kf5-sonnet                                   Yaakov Selkowitz
@@ -1021,12 +1063,15 @@ kget                                         Yaakov Selkowitz
 kgoldrunner                                  Yaakov Selkowitz
 kgpg                                         Yaakov Selkowitz
 khangman                                     Yaakov Selkowitz
+khelpcenter                                  Yaakov Selkowitz
+khotkeys                                     Yaakov Selkowitz
 khronos-opengl-registry                      Jon Turney
 kiconedit                                    Yaakov Selkowitz
 kid3                                         Yaakov Selkowitz
 kig                                          Yaakov Selkowitz
 kigo                                         Yaakov Selkowitz
 killbots                                     Yaakov Selkowitz
+kinfocenter                                  Yaakov Selkowitz
 kiriki                                       Yaakov Selkowitz
 kiten                                        Yaakov Selkowitz
 kjumpingcube                                 Yaakov Selkowitz
@@ -1037,6 +1082,7 @@ klines                                       Yaakov Selkowitz
 klu                                          Marco Atzeri
 kmag                                         Yaakov Selkowitz
 kmahjongg                                    Yaakov Selkowitz
+kmenuedit                                    Yaakov Selkowitz
 kmines                                       Yaakov Selkowitz
 kmix                                         Yaakov Selkowitz
 kmousetool                                   Yaakov Selkowitz
@@ -1061,16 +1107,19 @@ krdc                                         Yaakov Selkowitz
 krename                                      Yaakov Selkowitz
 kreversi                                     Yaakov Selkowitz
 krfb                                         Yaakov Selkowitz
+krita                                        Yaakov Selkowitz
 kross-interpreters                           Yaakov Selkowitz
 kruler                                       Yaakov Selkowitz
+kscreen                                      Yaakov Selkowitz
 kshisen                                      Yaakov Selkowitz
 ksirk                                        Yaakov Selkowitz
 ksnakeduel                                   Yaakov Selkowitz
-ksnapshot                                    Yaakov Selkowitz
 kspaceduel                                   Yaakov Selkowitz
 ksquares                                     Yaakov Selkowitz
+ksshaskpass                                  Yaakov Selkowitz
 kstars                                       Yaakov Selkowitz
 ksudoku                                      Yaakov Selkowitz
+ksysguard                                    Yaakov Selkowitz
 ksystemlog                                   Yaakov Selkowitz
 kteatime                                     Yaakov Selkowitz
 ktimer                                       Yaakov Selkowitz
@@ -1081,8 +1130,11 @@ ktuberling                                   Yaakov Selkowitz
 kturtle                                      Yaakov Selkowitz
 kubrick                                      Yaakov Selkowitz
 kwalletmanager                               Yaakov Selkowitz
+kwalletmanager5                              Yaakov Selkowitz
 kwebkitpart                                  Yaakov Selkowitz
+kwin                                         Yaakov Selkowitz
 kwordquiz                                    Yaakov Selkowitz
+kwrited                                      Yaakov Selkowitz
 ladspa-blop                                  Yaakov Selkowitz
 ladspa-bs2b                                  Yaakov Selkowitz
 ladspa-caps                                  Yaakov Selkowitz
@@ -1188,6 +1240,7 @@ libgit2                                      Yaakov Selkowitz
 libgit2-glib1.0                              Yaakov Selkowitz
 libglade2.0                                  Yaakov Selkowitz
 libglademm2.4                                Yaakov Selkowitz
+libgnome-games-support                       Yaakov Selkowitz
 libgnome-keyring                             Yaakov Selkowitz
 libgnome2                                    Yaakov Selkowitz
 libgnomecanvas2                              Yaakov Selkowitz
@@ -1228,6 +1281,8 @@ libkkc-data                                  Yaakov Selkowitz
 libkmahjongg                                 Yaakov Selkowitz
 libkomparediff2                              Yaakov Selkowitz
 libksba                                      Marco Atzeri
+libkscreen                                   Yaakov Selkowitz
+libksysguard                                 Yaakov Selkowitz
 libktorrent                                  Yaakov Selkowitz
 liblangtag                                   Yaakov Selkowitz
 libLASi                                      Yaakov Selkowitz
@@ -1249,6 +1304,8 @@ libmetalink                                  Yaakov Selkowitz
 libmikmod                                    Yaakov Selkowitz
 libmng                                       Dr. Volker Zell
 libmodplug                                   Yaakov Selkowitz
+libmpd                                       Yaakov Selkowitz
+libmpdclient                                 Yaakov Selkowitz
 libmspack                                    Yaakov Selkowitz
 libmspub0.1                                  Yaakov Selkowitz
 libmusicbrainz5                              Yaakov Selkowitz
@@ -1263,6 +1320,7 @@ libodfgen0.1                                 Yaakov Selkowitz
 libofx                                       Yaakov Selkowitz
 libogg                                       David Rothenberger
 libopenraw                                   Yaakov Selkowitz
+libosinfo                                    Yaakov Selkowitz
 libotf                                       Yaakov Selkowitz
 libpagemaker0.0                              Yaakov Selkowitz
 libpaper                                     Yaakov Selkowitz
@@ -1323,10 +1381,13 @@ libuninameslist                              Yaakov Selkowitz
 libunique1.0                                 Yaakov Selkowitz
 libunique3.0                                 Yaakov Selkowitz
 libunistring                                 Erwin Waterlander
+libupnp                                      Yaakov Selkowitz
 libusb-win32                                 Yaakov Selkowitz
 libusb1.0                                    Yaakov Selkowitz
 libustr                                      ORPHANED (Charles Wilson)
 libverto                                     Yaakov Selkowitz
+libvirt                                      Yaakov Selkowitz
+libvirt-glib1.0                              Yaakov Selkowitz
 libvisio0.1                                  Yaakov Selkowitz
 libvncserver                                 Yaakov Selkowitz
 libvoikko                                    Yaakov Selkowitz
@@ -1474,6 +1535,7 @@ malaga                                       Yaakov Selkowitz
 man-db                                       Chris J. Breisch/Yaakov Selkowitz
 man-pages-posix                              Corinna Vinschen
 marble                                       Yaakov Selkowitz
+marblewidget                                 Yaakov Selkowitz
 marco                                        Yaakov Selkowitz
 marisa                                       Yaakov Selkowitz
 mate-applets                                 Yaakov Selkowitz
@@ -1496,6 +1558,7 @@ mate-terminal                                Yaakov Selkowitz
 mate-themes                                  Yaakov Selkowitz
 mate-themes-extras                           ORPHANED (Yaakov Selkowitz)
 mate-user-guide                              Yaakov Selkowitz
+mate-user-share                              Yaakov Selkowitz
 mate-utils                                   Yaakov Selkowitz
 maxima                                       Achim Gratz
 mboxcheck                                    Jari Aalto
@@ -1519,8 +1582,10 @@ metis                                        Marco Atzeri
 mhash                                        ORPHANED
 micro-httpd                                  Jari Aalto
 midori                                       Yaakov Selkowitz
+milou                                        Yaakov Selkowitz
 mined                                        Thomas Wolff
 ming                                         Dr. Volker Zell
+mingw64-i686-a52dec                          Yaakov Selkowitz
 mingw64-i686-aalib                           Yaakov Selkowitz
 mingw64-i686-adwaita-icon-theme              Yaakov Selkowitz
 mingw64-i686-atk1.0                          Yaakov Selkowitz
@@ -1592,6 +1657,7 @@ mingw64-i686-goocanvas2.0                    Yaakov Selkowitz
 mingw64-i686-goocanvasmm2.0                  Yaakov Selkowitz
 mingw64-i686-google-breakpad                 Jon Turney
 mingw64-i686-gsettings-desktop-schemas       Yaakov Selkowitz
+mingw64-i686-gsl                             Yaakov Selkowitz
 mingw64-i686-gsm                             Yaakov Selkowitz
 mingw64-i686-gstreamer1.0                    Yaakov Selkowitz
 mingw64-i686-gstreamer1.0-plugins-bad-free   Yaakov Selkowitz
@@ -1627,6 +1693,7 @@ mingw64-i686-jbigkit                         Yaakov Selkowitz
 mingw64-i686-json-c                          Yaakov Selkowitz
 mingw64-i686-json-glib1.0                    Yaakov Selkowitz
 mingw64-i686-kqoauth                         Yaakov Selkowitz
+mingw64-i686-lapack                          Yaakov Selkowitz
 mingw64-i686-lasem0.4                        Yaakov Selkowitz
 mingw64-i686-lcms                            Yaakov Selkowitz
 mingw64-i686-lcms2                           Yaakov Selkowitz
@@ -1842,6 +1909,7 @@ mingw64-i686-yaml                            Yaakov Selkowitz
 mingw64-i686-zeromq                          Yaakov Selkowitz
 mingw64-i686-zlib                            Yaakov Selkowitz
 mingw64-i686-zziplib                         Yaakov Selkowitz
+mingw64-x86_64-a52dec                        Yaakov Selkowitz
 mingw64-x86_64-aalib                         Yaakov Selkowitz
 mingw64-x86_64-adwaita-icon-theme            Yaakov Selkowitz
 mingw64-x86_64-atk1.0                        Yaakov Selkowitz
@@ -1913,6 +1981,7 @@ mingw64-x86_64-goocanvas2.0                  Yaakov Selkowitz
 mingw64-x86_64-goocanvasmm2.0                Yaakov Selkowitz
 mingw64-x86_64-google-breakpad               Jon Turney
 mingw64-x86_64-gsettings-desktop-schemas     Yaakov Selkowitz
+mingw64-x86_64-gsl                           Yaakov Selkowitz
 mingw64-x86_64-gsm                           Yaakov Selkowitz
 mingw64-x86_64-gstreamer1.0                  Yaakov Selkowitz
 mingw64-x86_64-gstreamer1.0-plugins-bad-free Yaakov Selkowitz
@@ -1948,6 +2017,7 @@ mingw64-x86_64-jbigkit                       Yaakov Selkowitz
 mingw64-x86_64-json-c                        Yaakov Selkowitz
 mingw64-x86_64-json-glib1.0                  Yaakov Selkowitz
 mingw64-x86_64-kqoauth                       Yaakov Selkowitz
+mingw64-x86_64-lapack                        Yaakov Selkowitz
 mingw64-x86_64-lasem0.4                      Yaakov Selkowitz
 mingw64-x86_64-lcms                          Yaakov Selkowitz
 mingw64-x86_64-lcms2                         Yaakov Selkowitz
@@ -2180,7 +2250,9 @@ mousetweaks                                  Yaakov Selkowitz
 mozjs24                                      Yaakov Selkowitz
 mozo                                         Yaakov Selkowitz
 mp4v2                                        Yaakov Selkowitz
+mpc                                          Yaakov Selkowitz
 mpclib                                       Achim Gratz
+mpd                                          Yaakov Selkowitz
 mpfr                                         Achim Gratz
 mpg123                                       Yaakov Selkowitz
 mscgen                                       David Stacey
@@ -2203,6 +2275,8 @@ nc6                                          Corinna Vinschen
 nccmp                                        Remik Ziemlinski
 ncdu                                         Christian Franke
 ncftp                                        Jari Aalto
+ncmpc                                        Yaakov Selkowitz
+ncmpcpp                                      Yaakov Selkowitz
 ncompress                                    Yaakov Selkowitz
 ncurses                                      Yaakov Selkowitz
 ncview                                       Marco Atzeri
@@ -2226,6 +2300,7 @@ nmh                                          David Levine
 nosleep                                      Andrew Schulman
 notification-daemon                          Yaakov Selkowitz
 noto-cjk-fonts                               Yaakov Selkowitz
+noto-emoji-fonts                             Yaakov Selkowitz
 noto-fonts                                   Yaakov Selkowitz
 novprog                                      Yaakov Selkowitz
 nrss                                         Jari Aalto
@@ -2233,13 +2308,19 @@ nspr                                         Yaakov Selkowitz
 nss                                          Yaakov Selkowitz
 ntl                                          Yue Ren/Marco Atzeri
 nttcp                                        Jari Aalto
+nx-libs                                      Yaakov Selkowitz
 obby                                         Yaakov Selkowitz
 obconf                                       Yaakov Selkowitz
 obconf-qt                                    Yaakov Selkowitz
-ocaml                                        Damien Doligez
+ocaml                                        Yaakov Selkowitz
+ocaml-camlp4                                 Yaakov Selkowitz
+ocaml-camlp5                                 Yaakov Selkowitz
 ocaml-facile                                 Yaakov Selkowitz
+ocaml-findlib                                Yaakov Selkowitz
 ocaml-lablgl                                 Yaakov Selkowitz
 ocaml-lablgtk2                               Yaakov Selkowitz
+ocaml-labltk                                 Yaakov Selkowitz
+ocaml-ocamlbuild                             Yaakov Selkowitz
 ocl-icd                                      Yaakov Selkowitz
 oclock                                       Yaakov Selkowitz
 octave                                       Marco Atzeri
@@ -2347,10 +2428,13 @@ orage                                        Yaakov Selkowitz
 ORBit2                                       Yaakov Selkowitz
 orc                                          Yaakov Selkowitz
 orpie                                        Andrew Schulman
+osinfo-db                                    Yaakov Selkowitz
+osinfo-db-tools                              Yaakov Selkowitz
 osslsigncode                                 Jon Turney
 ots                                          Yaakov Selkowitz
 outguess                                     Jari Aalto
 overpass-fonts                               Yaakov Selkowitz
+oxygen                                       Yaakov Selkowitz
 oxygen-fonts                                 Yaakov Selkowitz
 oxygen-icons                                 Yaakov Selkowitz
 p11-kit                                      Yaakov Selkowitz
@@ -2389,10 +2473,11 @@ perl-Algorithm-Diff                          Achim Gratz
 perl-Alien-wxWidgets                         Yaakov Selkowitz
 perl-Archive-Extract                         Achim Gratz
 perl-Archive-Zip                             Achim Gratz/Yaakov Selkowitz
-perl-Authen-SASL                             Yaakov Selkowitz
-perl-Authen-SASL-XS                          Yaakov Selkowitz
+perl-Authen-SASL                             Achim Gratz/Yaakov Selkowitz
+perl-Authen-SASL-XS                          Achim Gratz/Yaakov Selkowitz
 perl-autovivification                        Achim Gratz/Ken Brown
 perl-B-Generate                              Achim Gratz
+perl-B-Hooks-EndOfScope                      Achim Gratz
 perl-Business-ISBN                           Achim Gratz/Ken Brown
 perl-Business-ISBN-Data                      Achim Gratz/Ken Brown
 perl-Business-ISMN                           Achim Gratz/Ken Brown
@@ -2402,9 +2487,12 @@ perl-Cairo-GObject                           Yaakov Selkowitz
 perl-Canary-Stability                        Achim Gratz
 perl-Capture-Tiny                            Achim Gratz/Ken Brown
 perl-Carp                                    Achim Gratz
-perl-CGI                                     Yaakov Selkowitz
+perl-CGI                                     Achim Gratz/Yaakov Selkowitz
 perl-Class-Accessor                          Achim Gratz
-perl-Class-Singleton                         Yaakov Selkowitz
+perl-Class-Data-Inheritable                  Achim Gratz
+perl-Class-Inspector                         Achim Gratz
+perl-Class-Singleton                         Achim Gratz/Yaakov Selkowitz
+perl-Class-Tiny                              Achim Gratz
 perl-Class-XSAccessor                        Achim Gratz
 perl-Clone                                   Achim Gratz/Yaakov Selkowitz
 perl-common-sense                            Achim Gratz
@@ -2435,23 +2523,25 @@ perl-Data-GUID                               Achim Gratz
 perl-Data-OptList                            Achim Gratz
 perl-Data-Uniqid                             Achim Gratz
 perl-Data-UUID                               Achim Gratz
-perl-Date-Manip                              Yaakov Selkowitz
+perl-Date-Manip                              Achim Gratz/Yaakov Selkowitz
 perl-Date-Simple                             Achim Gratz/Ken Brown
-perl-DateTime                                Yaakov Selkowitz
-perl-DateTime-Locale                         Yaakov Selkowitz
-perl-DateTime-TimeZone                       Yaakov Selkowitz
+perl-DateTime                                Achim Gratz/Yaakov Selkowitz
+perl-DateTime-Locale                         Achim Gratz/Yaakov Selkowitz
+perl-DateTime-TimeZone                       Achim Gratz/Yaakov Selkowitz
 perl-DBD-mysql                               Achim Gratz/Yaakov Selkowitz
 perl-DBD-SQLite                              Achim Gratz/Yaakov Selkowitz
 perl-DBI                                     Achim Gratz/Yaakov Selkowitz
 perl-Devel-Autoflush                         Achim Gratz
 perl-Devel-CheckLib                          Achim Gratz
 perl-Devel-GlobalDestruction                 Achim Gratz
+perl-Devel-StackTrace                        Achim Gratz
 perl-Devel-Symdump                           Achim Gratz
 perl-Digest-BubbleBabble                     Achim Gratz
 perl-Digest-GOST                             Achim Gratz
 perl-Digest-HMAC                             Achim Gratz/Yaakov Selkowitz
 perl-Digest-SHA                              Achim Gratz
 perl-Digest-SHA1                             Achim Gratz/Yaakov Selkowitz
+perl-Dist-CheckConflicts                     Achim Gratz
 perl-Encode-EUCJPASCII                       Achim Gratz/Ken Brown
 perl-Encode-HanExtra                         Achim Gratz/Ken Brown
 perl-Encode-ISO2022                          Achim Gratz
@@ -2459,6 +2549,8 @@ perl-Encode-JIS2K                            Achim Gratz/Ken Brown
 perl-Encode-JISX0213                         Achim Gratz
 perl-Encode-Locale                           Achim Gratz/Yaakov Selkowitz
 perl-Error                                   Achim Gratz
+perl-Eval-Closure                            Achim Gratz
+perl-Exception-Class                         Achim Gratz
 perl-Exporter-Tiny                           Achim Gratz
 perl-ExtUtils-CBuilder                       Achim Gratz
 perl-ExtUtils-Depends                        Achim Gratz/Yaakov Selkowitz
@@ -2467,7 +2559,7 @@ perl-ExtUtils-Helpers                        Achim Gratz
 perl-ExtUtils-LibBuilder                     Achim Gratz/Ken Brown
 perl-ExtUtils-MakeMaker                      Achim Gratz
 perl-ExtUtils-PkgConfig                      Achim Gratz/Yaakov Selkowitz
-perl-ExtUtils-XSpp                           Yaakov Selkowitz
+perl-ExtUtils-XSpp                           Achim Gratz/Yaakov Selkowitz
 perl-File-Copy-Recursive                     Achim Gratz
 perl-File-Find-Object                        Achim Gratz
 perl-File-Find-Object-Rule                   Achim Gratz
@@ -2476,13 +2568,15 @@ perl-File-HomeDir                            Achim Gratz
 perl-File-Listing                            Achim Gratz/Yaakov Selkowitz
 perl-File-pushd                              Achim Gratz
 perl-File-Remove                             Achim Gratz
+perl-File-ShareDir                           Achim Gratz
+perl-File-ShareDir-Install                   Achim Gratz
 perl-File-Slurp                              Achim Gratz/Ken Brown
 perl-File-Slurp-Tiny                         Achim Gratz
 perl-File-Slurper                            Achim Gratz
 perl-File-Which                              Achim Gratz
-perl-Finance-Quote                           Yaakov Selkowitz
+perl-Finance-Quote                           Achim Gratz/Yaakov Selkowitz
 perl-Font-AFM                                Achim Gratz
-perl-Font-TTF                                Yaakov Selkowitz
+perl-Font-TTF                                Achim Gratz/Yaakov Selkowitz
 perl-GD                                      Yaakov Selkowitz
 perl-Getopt-ArgvFile                         Achim Gratz/Yaakov Selkowitz
 perl-gettext                                 Achim Gratz/Yaakov Selkowitz
@@ -2504,19 +2598,19 @@ perl-Gtk2-Spell                              Yaakov Selkowitz
 perl-Gtk2-Unique                             Yaakov Selkowitz
 perl-Gtk2-WebKit                             Yaakov Selkowitz
 perl-Gtk3                                    Yaakov Selkowitz
-perl-HTML-Element-Extended                   Yaakov Selkowitz
-perl-HTML-Format                             Yaakov Selkowitz
+perl-HTML-Element-Extended                   Achim Gratz/Yaakov Selkowitz
 perl-HTML-Formatter                          Achim Gratz
 perl-HTML-Parser                             Achim Gratz/Yaakov Selkowitz
-perl-HTML-TableExtract                       Yaakov Selkowitz
+perl-HTML-TableExtract                       Achim Gratz/Yaakov Selkowitz
 perl-HTML-Tagset                             Achim Gratz/Yaakov Selkowitz
-perl-HTML-Tree                               Yaakov Selkowitz
+perl-HTML-Tree                               Achim Gratz/Yaakov Selkowitz
 perl-HTTP-Cookies                            Achim Gratz/Yaakov Selkowitz
 perl-HTTP-Daemon                             Achim Gratz/Yaakov Selkowitz
 perl-HTTP-Date                               Achim Gratz/Yaakov Selkowitz
 perl-HTTP-Message                            Achim Gratz/Yaakov Selkowitz
 perl-HTTP-Negotiate                          Achim Gratz/Yaakov Selkowitz
 perl-HTTP-Tiny                               Achim Gratz
+perl-Importer                                Achim Gratz
 perl-inc-latest                              Achim Gratz
 perl-Inline                                  Achim Gratz
 perl-Inline-Files                            Achim Gratz
@@ -2536,13 +2630,13 @@ perl-JSON                                    Achim Gratz
 perl-JSON-MaybeXS                            Achim Gratz
 perl-JSON-PP                                 Achim Gratz
 perl-JSON-XS                                 Achim Gratz
-perl-KDE4                                    Yaakov Selkowitz
 perl-Lchown                                  Achim Gratz
 perl-libwww-perl                             Achim Gratz
-perl-libxml-perl                             Yaakov Selkowitz
+perl-libxml-perl                             Achim Gratz/Yaakov Selkowitz
 perl-Lingua-Translit                         Achim Gratz
 perl-List-AllUtils                           Achim Gratz/Ken Brown
 perl-List-MoreUtils                          Achim Gratz/Ken Brown
+perl-List-MoreUtils-XS                       Achim Gratz/Ken Brown
 perl-List-SomeUtils                          Achim Gratz
 perl-List-UtilsBy                            Achim Gratz
 perl-Log-Log4perl                            Achim Gratz/Ken Brown
@@ -2552,8 +2646,10 @@ perl-LWP-Protocol-https                      Achim Gratz/Ken Brown
 perl-Mail-Box                                Achim Gratz
 perl-Mail-Box-Parser-C                       Achim Gratz
 perl-Mail-IMAPClient                         Achim Gratz
+perl-Mail-Message                            Achim Gratz
+perl-Mail-Transport                          Achim Gratz
 perl-MailTools                               Achim Gratz/Yaakov Selkowitz
-perl-Math-Int64                              Yaakov Selkowitz
+perl-Math-Int64                              Achim Gratz/Yaakov Selkowitz
 perl-Metabase-Client-Simple                  Achim Gratz
 perl-Metabase-Fact                           Achim Gratz
 perl-MIME-Base32                             Achim Gratz
@@ -2561,59 +2657,70 @@ perl-MIME-Charset                            Achim Gratz/Ken Brown
 perl-MIME-tools                              Achim Gratz/Yaakov Selkowitz
 perl-MIME-Types                              Achim Gratz
 perl-Module-Build                            Achim Gratz
-perl-Module-Implementation                   Yaakov Selkowitz
+perl-Module-Implementation                   Achim Gratz/Yaakov Selkowitz
 perl-Module-Load-Conditional                 Achim Gratz
 perl-Module-Metadata                         Achim Gratz
-perl-Module-Pluggable                        Yaakov Selkowitz
-perl-Module-Runtime                          Yaakov Selkowitz
+perl-Module-Pluggable                        Achim Gratz/Yaakov Selkowitz
+perl-Module-Runtime                          Achim Gratz/Yaakov Selkowitz
 perl-Module-ScanDeps                         Achim Gratz/Yaakov Selkowitz
 perl-Module-Signature                        Achim Gratz
 perl-Mojolicious                             Achim Gratz
 perl-Mozilla-CA                              Achim Gratz/Ken Brown
+perl-MRO-Compat                              Achim Gratz
+perl-namespace-autoclean                     Achim Gratz
+perl-namespace-clean                         Achim Gratz
 perl-Net-DNS                                 Achim Gratz
 perl-Net-DNS-SEC                             Achim Gratz
 perl-Net-HTTP                                Achim Gratz/Yaakov Selkowitz
 perl-Net-IP                                  Achim Gratz
-perl-Net-SMTP-SSL                            Yaakov Selkowitz
+perl-Net-SMTP-SSL                            Achim Gratz/Yaakov Selkowitz
 perl-Net-SSLeay                              Achim Gratz/Yaakov Selkowitz
 perl-Net-XMPP                                Achim Gratz
 perl-Number-Compare                          Achim Gratz/Ken Brown
 perl-Object-Realize-Later                    Achim Gratz
 perl-OpenGL                                  Yaakov Selkowitz
+perl-Package-Stash                           Achim Gratz
+perl-Package-Stash-XS                        Achim Gratz
 perl-PadWalker                               Achim Gratz
 perl-Pango                                   Yaakov Selkowitz
 perl-PAR                                     Achim Gratz/Yaakov Selkowitz
 perl-PAR-Dist                                Achim Gratz/Yaakov Selkowitz
 perl-PAR-Packer                              Yaakov Selkowitz
 perl-Params-Util                             Achim Gratz/Yaakov Selkowitz
-perl-Params-Validate                         Yaakov Selkowitz
+perl-Params-Validate                         Achim Gratz/Yaakov Selkowitz
+perl-Params-ValidationCompiler               Achim Gratz
 perl-Parse-CPAN-Meta                         Achim Gratz
 perl-Parse-RecDescent                        Achim Gratz
 perl-Path-Class                              Achim Gratz
+perl-Path-Tiny                               Achim Gratz
 perl-Pod-Coverage                            Achim Gratz
 perl-Pod-Escapes                             Achim Gratz
 perl-Pod-Simple                              Achim Gratz
 perl-POD2-Base                               Achim Gratz
 perl-Probe-Perl                              Achim Gratz
 perl-Proc-ProcessTable                       Achim Gratz/Yaakov Selkowitz
-perl-Qt4                                     Yaakov Selkowitz
 perl-Readonly                                Achim Gratz/Ken Brown
 perl-Readonly-XS                             Achim Gratz/Ken Brown
 perl-Regexp-Common                           Achim Gratz/Ken Brown
+perl-Role-Tiny                               Achim Gratz
 perl-Scalar-List-Utils                       Achim Gratz
+perl-Scope-Guard                             Achim Gratz
 perl-SGMLSpm                                 Yaakov Selkowitz
 perl-Socket                                  Achim Gratz/Yaakov Selkowitz
 perl-Socket6                                 Achim Gratz
+perl-Specio                                  Achim Gratz
 perl-Spiffy                                  Achim Gratz
 perl-Sub-Exporter                            Achim Gratz
 perl-Sub-Exporter-Progressive                Achim Gratz
 perl-Sub-Identify                            Achim Gratz
+perl-Sub-Info                                Achim Gratz
 perl-Sub-Install                             Achim Gratz
 perl-Sub-Uplevel                             Achim Gratz
 perl-SUPER                                   Achim Gratz
 perl-Tee                                     Achim Gratz
 perl-Term-ReadLine-Gnu                       Achim Gratz/Yaakov Selkowitz
 perl-Term-ReadLine-Perl                      Achim Gratz
+perl-Term-Table                              Achim Gratz
 perl-TermReadKey                             Achim Gratz
 perl-Test-Base                               Achim Gratz
 perl-Test-CPAN-Meta                          Achim Gratz
@@ -2622,9 +2729,12 @@ perl-Test-Differences                        Achim Gratz
 perl-Test-EOL                                Achim Gratz
 perl-Test-Exception                          Achim Gratz
 perl-Test-Fatal                              Achim Gratz
+perl-Test-File-ShareDir                      Achim Gratz
 perl-Test-Harness                            Achim Gratz
+perl-Test-Inter                              Achim Gratz
 perl-Test-LeakTrace                          Achim Gratz
 perl-Test-MockModule                         Achim Gratz
+perl-Test-Needs                              Achim Gratz
 perl-Test-NoTabs                             Achim Gratz
 perl-Test-NoWarnings                         Achim Gratz
 perl-Test-Pod                                Achim Gratz
@@ -2640,6 +2750,8 @@ perl-Test-Warn                               Achim Gratz
 perl-Test-Warnings                           Achim Gratz
 perl-Test-Without-Module                     Achim Gratz
 perl-Test-YAML                               Achim Gratz
+perl-Test2-Plugin-NoWarnings                 Achim Gratz
+perl-Test2-Suite                             Achim Gratz
 perl-Text-BibTeX                             Achim Gratz/Ken Brown
 perl-Text-CharWidth                          Achim Gratz/Yaakov Selkowitz
 perl-Text-CSV                                Achim Gratz/David Stacey
@@ -2664,26 +2776,27 @@ perl-Unicode-LineBreak                       Achim Gratz/Ken Brown
 perl-Unicode-Normalize                       Achim Gratz/Ken Brown
 perl-URI                                     Achim Gratz/Yaakov Selkowitz
 perl-User-Identity                           Achim Gratz
+perl-Variable-Magic                          Achim Gratz
 perl-Win32                                   Achim Gratz
 perl-Win32-API                               Yaakov Selkowitz
 perl-Win32-GUI                               Yaakov Selkowitz
 perl-WWW-Curl                                Achim Gratz
 perl-WWW-RobotRules                          Achim Gratz/Yaakov Selkowitz
 perl-Wx                                      Yaakov Selkowitz
-perl-XML-DOM                                 Yaakov Selkowitz
+perl-XML-DOM                                 Achim Gratz/Yaakov Selkowitz
 perl-XML-LibXML                              Achim Gratz/Yaakov Selkowitz
 perl-XML-LibXML-Simple                       Achim Gratz/Ken Brown
 perl-XML-LibXSLT                             Achim Gratz/Ken Brown
 perl-XML-NamespaceSupport                    Achim Gratz/Yaakov Selkowitz
 perl-XML-Parser                              Achim Gratz/Yaakov Selkowitz
-perl-XML-RegExp                              Yaakov Selkowitz
+perl-XML-RegExp                              Achim Gratz/Yaakov Selkowitz
 perl-XML-SAX                                 Achim Gratz/Yaakov Selkowitz
 perl-XML-SAX-Base                            Achim Gratz/Yaakov Selkowitz
 perl-XML-SAX-Expat                           Achim Gratz
 perl-XML-Simple                              Achim Gratz/Yaakov Selkowitz
 perl-XML-Stream                              Achim Gratz
 perl-XML-Writer                              Achim Gratz/Ken Brown
-perl-XML-XPath                               Yaakov Selkowitz
+perl-XML-XPath                               Achim Gratz/Yaakov Selkowitz
 perl-XSLoader                                Achim Gratz
 perl-YAML                                    Achim Gratz/Yaakov Selkowitz
 perl-YAML-LibYAML                            Achim Gratz
@@ -2691,8 +2804,6 @@ perl-YAML-Tiny                               Achim Gratz
 phodav                                       Yaakov Selkowitz
 phonon                                       Yaakov Selkowitz
 phonon-backend-gstreamer                     Yaakov Selkowitz
-phonon4qt5                                   Yaakov Selkowitz
-phonon4qt5-backend-gstreamer                 Yaakov Selkowitz
 php                                          Yaakov Selkowitz
 php-Archive_Tar                              Yaakov Selkowitz
 php-Console_Getopt                           Yaakov Selkowitz
@@ -2703,8 +2814,10 @@ php-XML_Util                                 Yaakov Selkowitz
 picard                                       Dr. Volker Zell
 picmi                                        Yaakov Selkowitz
 pidgin                                       Yaakov Selkowitz
+pidgin-facebook                              Yaakov Selkowitz
 pidgin-funyahoo-plusplus                     Yaakov Selkowitz
 pidgin-indicator                             Yaakov Selkowitz
+pidgin-skypeweb                              Yaakov Selkowitz
 pinentry                                     Marco Atzeri
 pinfo                                        Andrew Schulman
 ping                                         Marco Atzeri
@@ -2713,6 +2826,12 @@ pixman                                       Yaakov Selkowitz
 pkg-config                                   Yaakov Selkowitz
 pl                                           Corinna Vinschen
 planet                                       Yaakov Selkowitz
+plasma-desktop                               Yaakov Selkowitz
+plasma-integration                           Yaakov Selkowitz
+plasma-pa                                    Yaakov Selkowitz
+plasma-sdk                                   Yaakov Selkowitz
+plasma-workspace                             Yaakov Selkowitz
+plasma-workspace-wallpapers                  Yaakov Selkowitz
 ploticus                                     Andrew Schulman
 ploticus-doc                                 Andrew Schulman
 plotutils                                    Marco Atzeri
@@ -2736,7 +2855,7 @@ portmidi                                     Yaakov Selkowitz
 posh                                         Jari Aalto
 postfix                                      Christian Franke
 postgresql                                   Marco Atzeri
-potrace                                      Jari Aalto
+potrace                                      Ken Brown
 poxml                                        Yaakov Selkowitz
 presentproto                                 Yaakov Selkowitz
 prison                                       Yaakov Selkowitz
@@ -2760,25 +2879,29 @@ pv                                           Aaron Schneider
 pwgen                                        Jari Aalto
 pwget                                        Jari Aalto
 pylint                                       Jari Aalto
-python                                       Yaakov Selkowitz
-python-backports.ssl_match_hostname          ORPHANED (Yaakov Selkowitz)
+python-appdirs                               Yaakov Selkowitz
+python-backports.shutil_get_terminal_size    Yaakov Selkowitz
+python-backports.ssl_match_hostname          Yaakov Selkowitz
 python-beautifulsoup                         Yaakov Selkowitz
 python-boto                                  Yaakov Selkowitz
 python-bsddb3                                Yaakov Selkowitz
+python-bugzilla                              Yaakov Selkowitz
 python-cairo                                 Yaakov Selkowitz
 python-cffi                                  Yaakov Selkowitz
 python-chardet                               Yaakov Selkowitz
 python-chm                                   Yaakov Selkowitz
+python-clang                                 Yaakov Selkowitz
 python-cloudfiles                            Yaakov Selkowitz
 python-configobj                             Mike DePaulo
 python-crypto                                Jari Aalto
 python-cryptography                          Yaakov Selkowitz
 python-cython                                Yaakov Selkowitz
 python-dbus                                  Yaakov Selkowitz
+python-decorator                             Yaakov Selkowitz
 python-discid                                Dr. Volker Zell
-python-doc                                   Yaakov Selkowitz
-python-docutils                              Tony Kelman
+python-docutils                              Tony Kelman/Yaakov Selkowitz
 python-dropbox                               Yaakov Selkowitz
+python-enchant                               Yaakov Selkowitz
 python-enum34                                Yaakov Selkowitz
 python-fastimport                            Ken Brown
 python-feedparser                            Jari Aalto
@@ -2791,9 +2914,15 @@ python-gtksourceview2                        Yaakov Selkowitz
 python-h5py                                  Chris LeBlanc
 python-htmltmpl                              Yaakov Selkowitz
 python-httplib2                              Yaakov Selkowitz
+python-idna                                  Yaakov Selkowitz
 python-imaging                               Yaakov Selkowitz
+python-ipaddr                                Yaakov Selkowitz
+python-ipaddress                             Yaakov Selkowitz
+python-ipython                               Yaakov Selkowitz
+python-ipython_genutils                      Yaakov Selkowitz
 python-isodate                               Yaakov Selkowitz
 python-jinja2                                Tony Kelman
+python-libvirt                               Yaakov Selkowitz
 python-lockfile                              Yaakov Selkowitz
 python-logilab-astng                         Jari Aalto
 python-logilab-common                        Jari Aalto
@@ -2802,15 +2931,21 @@ python-mako                                  Yaakov Selkowitz
 python-markupsafe                            Yaakov Selkowitz
 python-mutagen                               Dr. Volker Zell
 python-mx                                    Yaakov Selkowitz
+python-nose                                  Yaakov Selkowitz
 python-numpy                                 Yaakov Selkowitz
 python-odf                                   Yaakov Selkowitz
 python-opengl                                Yaakov Selkowitz
 python-opengl-accelerate                     Yaakov Selkowitz
 python-openssl                               Yaakov Selkowitz
 python-orbit                                 Yaakov Selkowitz
+python-packaging                             Yaakov Selkowitz
 python-paramiko                              Jari Aalto
+python-pathlib2                              Yaakov Selkowitz
 python-pexpect                               Yaakov Selkowitz
+python-pickleshare                           Yaakov Selkowitz
+python-pip                                   Yaakov Selkowitz
 python-ply                                   Yaakov Selkowitz
+python-ptyprocess                            Yaakov Selkowitz
 python-pyasn1                                Yaakov Selkowitz
 python-pyatspi                               Yaakov Selkowitz
 python-pycparser                             Yaakov Selkowitz
@@ -2827,55 +2962,34 @@ python-rdflib                                Yaakov Selkowitz
 python-reportlab                             Yaakov Selkowitz
 python-requests                              Yaakov Selkowitz
 python-setuptools                            Yaakov Selkowitz
+python-simplegeneric                         Yaakov Selkowitz
 python-simplejson                            Yaakov Selkowitz
 python-sip                                   Yaakov Selkowitz
 python-six                                   Yaakov Selkowitz
 python-sphinx                                Tony Kelman
+python-traitlets                             Yaakov Selkowitz
 python-twisted                               Yaakov Selkowitz
 python-unidecode                             Yaakov Selkowitz
 python-urllib3                               Yaakov Selkowitz
 python-webkit                                Yaakov Selkowitz
+python-wheel                                 Yaakov Selkowitz
 python-xdg                                   Yaakov Selkowitz
 python-yaml                                  Yaakov Selkowitz
 python-zmq                                   Yaakov Selkowitz
 python-zope.interface                        Yaakov Selkowitz
+python2                                      Yaakov Selkowitz
+python2-doc                                  Yaakov Selkowitz
 python3                                      Yaakov Selkowitz
-python3-bsddb3                               Yaakov Selkowitz
 python3-cairo                                Yaakov Selkowitz
-python3-cffi                                 Yaakov Selkowitz
-python3-chardet                              Yaakov Selkowitz
 python3-configobj                            Mike DePaulo
-python3-cryptography                         Yaakov Selkowitz
-python3-cython                               Yaakov Selkowitz
-python3-dbus                                 Yaakov Selkowitz
 python3-doc                                  Yaakov Selkowitz
 python3-docutils                             Yaakov Selkowitz
 python3-h5py                                 Chris LeBlanc
-python3-imaging                              Yaakov Selkowitz
-python3-lxml                                 Yaakov Selkowitz
-python3-mako                                 Yaakov Selkowitz
-python3-markupsafe                           Yaakov Selkowitz
-python3-numpy                                Yaakov Selkowitz
-python3-openssl                              Yaakov Selkowitz
-python3-ply                                  Yaakov Selkowitz
-python3-pyasn1                               Yaakov Selkowitz
-python3-pycparser                            Yaakov Selkowitz
-python3-pygments                             Yaakov Selkowitz
 python3-pykde4                               Yaakov Selkowitz
-python3-pyparsing                            Yaakov Selkowitz
 python3-pyqt4                                Yaakov Selkowitz
 python3-pyqt5                                Yaakov Selkowitz
-python3-requests                             Yaakov Selkowitz
-python3-setuptools                           Yaakov Selkowitz
-python3-simplejson                           Yaakov Selkowitz
 python3-sip                                  Yaakov Selkowitz
-python3-six                                  Yaakov Selkowitz
-python3-unidecode                            Yaakov Selkowitz
-python3-urllib3                              Yaakov Selkowitz
 python3-xdg                                  Yaakov Selkowitz
-python3-yaml                                 Yaakov Selkowitz
-python3-zmq                                  Yaakov Selkowitz
-python3-zope.interface                       Yaakov Selkowitz
 pyzy                                         Yaakov Selkowitz
 qca                                          Yaakov Selkowitz
 qhull                                        Marco Atzeri
@@ -2884,6 +2998,7 @@ qiv                                          Jari Aalto
 qjson                                        Yaakov Selkowitz
 qmmp                                         Yaakov Selkowitz
 qmmp-plugin-pack                             Yaakov Selkowitz
+qmpdclient                                   Yaakov Selkowitz
 qoauth                                       Yaakov Selkowitz
 qpdf                                         Marco Atzeri
 qpdfview                                     Yaakov Selkowitz
@@ -2940,7 +3055,6 @@ rbio                                         Marco Atzeri
 rc                                           Jari Aalto
 rcs                                          Achim Gratz
 rdiff-backup                                 David Rothenberger
-rdtool                                       Jari Aalto
 readline                                     Eric Blake
 rebase                                       Corinna Vinschen
 recode                                       Corinna Vinschen
@@ -2988,8 +3102,9 @@ ruby-bundler                                 Yaakov Selkowitz
 ruby-byebug                                  Yaakov Selkowitz
 ruby-cairo                                   Yaakov Selkowitz
 ruby-cairo-gobject                           Yaakov Selkowitz
-ruby-celluloid                               Yaakov Selkowitz
 ruby-clutter                                 Yaakov Selkowitz
+ruby-clutter-gdk                             Yaakov Selkowitz
+ruby-clutter-gstreamer                       Yaakov Selkowitz
 ruby-clutter-gtk                             Yaakov Selkowitz
 ruby-coffee-rails                            Yaakov Selkowitz
 ruby-coffee-script                           Yaakov Selkowitz
@@ -2998,6 +3113,7 @@ ruby-columnize                               Yaakov Selkowitz
 ruby-curses                                  Yaakov Selkowitz
 ruby-dbus                                    Yaakov Selkowitz
 ruby-debug_inspector                         Yaakov Selkowitz
+ruby-did_you_mean                            Yaakov Selkowitz
 ruby-erubis                                  Yaakov Selkowitz
 ruby-execjs                                  Yaakov Selkowitz
 ruby-gdk3                                    Yaakov Selkowitz
@@ -3027,7 +3143,6 @@ ruby-journey                                 Yaakov Selkowitz
 ruby-jquery-rails                            Yaakov Selkowitz
 ruby-json                                    Yaakov Selkowitz
 ruby-kgio                                    Yaakov Selkowitz
-ruby-korundum4                               Yaakov Selkowitz
 ruby-listen                                  Yaakov Selkowitz
 ruby-locale                                  Yaakov Selkowitz
 ruby-loofah                                  Yaakov Selkowitz
@@ -3035,12 +3150,11 @@ ruby-mail                                    Yaakov Selkowitz
 ruby-marc                                    Yaakov Selkowitz
 ruby-mime-types                              Yaakov Selkowitz
 ruby-minitest                                Yaakov Selkowitz
-ruby-minitest4                               Yaakov Selkowitz
-ruby-minitest5                               Yaakov Selkowitz
 ruby-molinillo                               Yaakov Selkowitz
 ruby-multi_json                              Yaakov Selkowitz
 ruby-mysql2                                  Yaakov Selkowitz
 ruby-net-http-persistent                     Yaakov Selkowitz
+ruby-net-telnet                              Yaakov Selkowitz
 ruby-nokogiri                                Yaakov Selkowitz
 ruby-oj                                      Yaakov Selkowitz
 ruby-pango                                   Yaakov Selkowitz
@@ -3048,9 +3162,9 @@ ruby-pg                                      Yaakov Selkowitz
 ruby-pkg-config                              Yaakov Selkowitz
 ruby-polyglot                                Yaakov Selkowitz
 ruby-poppler                                 Yaakov Selkowitz
+ruby-power_assert                            Yaakov Selkowitz
 ruby-psych                                   Yaakov Selkowitz
 ruby-puppet-lint                             David Stacey
-ruby-qt4                                     Yaakov Selkowitz
 ruby-racc                                    Yaakov Selkowitz
 ruby-rack                                    Yaakov Selkowitz
 ruby-rack-cache                              Yaakov Selkowitz
@@ -3065,6 +3179,7 @@ ruby-raindrops                               Yaakov Selkowitz
 ruby-rake                                    Yaakov Selkowitz
 ruby-rake-compiler                           Yaakov Selkowitz
 ruby-rdoc                                    Yaakov Selkowitz
+ruby-rdtool                                  Yaakov Selkowitz
 ruby-redcarpet                               David Stacey
 ruby-rsvg2                                   Yaakov Selkowitz
 ruby-sass                                    Yaakov Selkowitz
@@ -3080,6 +3195,7 @@ ruby-thor                                    Yaakov Selkowitz
 ruby-thread_safe                             Yaakov Selkowitz
 ruby-tilt                                    Yaakov Selkowitz
 ruby-timers                                  Yaakov Selkowitz
+ruby-tk                                      Yaakov Selkowitz
 ruby-treetop                                 Yaakov Selkowitz
 ruby-turbolinks                              Yaakov Selkowitz
 ruby-tzinfo                                  Yaakov Selkowitz
@@ -3088,7 +3204,9 @@ ruby-unicorn                                 Yaakov Selkowitz
 ruby-vte                                     Yaakov Selkowitz
 ruby-vte3                                    Yaakov Selkowitz
 ruby-web-console                             Yaakov Selkowitz
+ruby-webkit-gtk                              Yaakov Selkowitz
 ruby-webkit-gtk2                             Yaakov Selkowitz
+ruby-xmlrpc                                  Yaakov Selkowitz
 ruby-yajl                                    Yaakov Selkowitz
 ruby-zoom                                    Yaakov Selkowitz
 rubygems                                     Yaakov Selkowitz
@@ -3105,6 +3223,7 @@ scite                                        Yaakov Selkowitz
 scons                                        David Rothenberger
 scowl                                        Yaakov Selkowitz
 screen                                       Andrew Schulman
+screenruler                                  Yaakov Selkowitz
 scribus                                      Yaakov Selkowitz
 scrnsaverproto                               Yaakov Selkowitz
 SDL                                          Yaakov Selkowitz
@@ -3122,7 +3241,7 @@ SDL_sound                                    Yaakov Selkowitz
 SDL_ttf                                      Yaakov Selkowitz
 sdparm                                       Yaakov Selkowitz
 seahorse                                     Yaakov Selkowitz
-sed                                          Corinna Vinschen
+sed                                          Eric Blake
 sendmail                                     Daniel Boland
 sendxmpp                                     Jari Aalto
 serf                                         David Rothenberger
@@ -3152,9 +3271,6 @@ slang                                        Marco Atzeri
 slrn                                         Marco Atzeri
 slv2                                         Yaakov Selkowitz
 smartmontools                                Christian Franke
-smokegen                                     Yaakov Selkowitz
-smokekde                                     Yaakov Selkowitz
-smokeqt                                      Yaakov Selkowitz
 smproxy                                      Yaakov Selkowitz
 sng                                          Andrew Schulman
 snownews                                     Yaakov Selkowitz
@@ -3168,6 +3284,7 @@ sox                                          Yaakov Selkowitz
 soxr                                         Yaakov Selkowitz
 spambayes                                    Jari Aalto
 spamoracle                                   Jari Aalto
+spectacle                                    Yaakov Selkowitz
 speech-dispatcher                            Yaakov Selkowitz
 speex                                        David Rothenberger
 speexdsp                                     David Rothenberger
@@ -3206,8 +3323,10 @@ svn_load_dirs                                David Rothenberger
 sweeper                                      Yaakov Selkowitz
 swell-foop                                   Yaakov Selkowitz
 swig                                         Yaakov Selkowitz
+symbola-fonts                                Yaakov Selkowitz
 symlinks                                     Jari Aalto
 syslog-ng                                    Corinna Vinschen
+systemsettings                               Yaakov Selkowitz
 sysvinit                                     Dr. Volker Zell
 t1lib                                        Dr. Volker Zell
 t1utils                                      Yaakov Selkowitz
@@ -3230,6 +3349,7 @@ tcm                                          Dr. Volker Zell
 tcp_wrappers                                 ORPHANED (Charles Wilson)
 tcsh                                         Corinna Vinschen
 tdb                                          Yaakov Selkowitz
+teckit                                       Ken Brown
 ted                                          Dr. Volker Zell
 telepathy-farstream                          Yaakov Selkowitz
 telepathy-gabble                             Yaakov Selkowitz
@@ -3335,6 +3455,7 @@ tnftp                                        Jari Aalto
 totem                                        Yaakov Selkowitz
 totem-pl-parser                              Yaakov Selkowitz
 transmission                                 Yaakov Selkowitz
+transmission-remote-gtk                      Yaakov Selkowitz
 transset                                     Yaakov Selkowitz
 trayer                                       Yaakov Selkowitz
 tree                                         Jari Aalto
@@ -3355,6 +3476,7 @@ umfpack                                      Marco Atzeri
 unace                                        Jari Aalto
 unalz                                        Jari Aalto
 unfs3                                        Yaakov Selkowitz
+unicode-cldr-emoji-annotation                Yaakov Selkowitz
 unicode-ucd                                  Yaakov Selkowitz
 unifdef                                      Jari Aalto
 unifont                                      Yaakov Selkowitz
@@ -3384,6 +3506,7 @@ viewres                                      Yaakov Selkowitz
 vim                                          Yaakov Selkowitz
 vinagre                                      Yaakov Selkowitz
 vino                                         Yaakov Selkowitz
+virt-manager                                 Yaakov Selkowitz
 vorbis-tools                                 David Rothenberger
 vte                                          Yaakov Selkowitz
 vte2.90                                      Yaakov Selkowitz
@@ -3419,6 +3542,7 @@ x11perf                                      Yaakov Selkowitz
 x11vnc                                       Yaakov Selkowitz
 xapian-bindings                              Yaakov Selkowitz
 xapian-core                                  Yaakov Selkowitz
+xapps                                        Yaakov Selkowitz
 xarchiver                                    Yaakov Selkowitz
 xauth                                        Yaakov Selkowitz
 xbiff                                        Yaakov Selkowitz
@@ -3477,6 +3601,7 @@ xfce4-fsguard-plugin                         Yaakov Selkowitz
 xfce4-genmon-plugin                          Yaakov Selkowitz
 xfce4-indicator-plugin                       Yaakov Selkowitz
 xfce4-mailwatch-plugin                       Yaakov Selkowitz
+xfce4-mpc-plugin                             Yaakov Selkowitz
 xfce4-notes-plugin                           Yaakov Selkowitz
 xfce4-notifyd                                Yaakov Selkowitz
 xfce4-panel                                  Yaakov Selkowitz
@@ -3549,6 +3674,8 @@ xorg-x11-fonts                               Yaakov Selkowitz
 xpad                                         Yaakov Selkowitz
 xpdf                                         Dr. Volker Zell
 xplanet                                      Yaakov Selkowitz
+xplayer                                      Yaakov Selkowitz
+xplayer-plparser                             Yaakov Selkowitz
 xpr                                          Yaakov Selkowitz
 xprop                                        Yaakov Selkowitz
 xproto                                       Yaakov Selkowitz

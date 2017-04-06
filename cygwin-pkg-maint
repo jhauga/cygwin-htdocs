@@ -1577,6 +1577,7 @@ menu-cache                                   Yaakov Selkowitz
 mercurial                                    Jari Aalto
 mesa                                         Yaakov Selkowitz
 mesa-demos                                   Yaakov Selkowitz
+meson                                        Jon Turney
 metacity                                     Yaakov Selkowitz
 metis                                        Marco Atzeri
 mhash                                        ORPHANED
@@ -2295,6 +2296,7 @@ nfs-server                                   Yaakov Selkowitz
 nghttp2                                      Yaakov Selkowitz
 nginx                                        Yaakov Selkowitz
 ngspice                                      Marco Atzeri
+ninja                                        Jon Turney
 ninvaders                                    David Stacey
 nmh                                          David Levine
 nosleep                                      Andrew Schulman

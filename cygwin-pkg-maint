@@ -2882,6 +2882,8 @@ pwgen                                        Jari Aalto
 pwget                                        Jari Aalto
 pylint                                       Jari Aalto
 python-appdirs                               Yaakov Selkowitz
+python-asn1crypto                            Yaakov Selkowitz
+python-attrs                                 Yaakov Selkowitz
 python-backports.shutil_get_terminal_size    Yaakov Selkowitz
 python-backports.ssl_match_hostname          Yaakov Selkowitz
 python-beautifulsoup                         Yaakov Selkowitz
@@ -2914,6 +2916,7 @@ python-goocanvas                             Yaakov Selkowitz
 python-gtk2.0                                Yaakov Selkowitz
 python-gtksourceview2                        Yaakov Selkowitz
 python-h5py                                  Chris LeBlanc
+python-html5lib                              Yaakov Selkowitz
 python-htmltmpl                              Yaakov Selkowitz
 python-httplib2                              Yaakov Selkowitz
 python-idna                                  Yaakov Selkowitz
@@ -2949,6 +2952,7 @@ python-pip                                   Yaakov Selkowitz
 python-ply                                   Yaakov Selkowitz
 python-ptyprocess                            Yaakov Selkowitz
 python-pyasn1                                Yaakov Selkowitz
+python-pyasn1-modules                        Yaakov Selkowitz
 python-pyatspi                               Yaakov Selkowitz
 python-pycparser                             Yaakov Selkowitz
 python-pygame                                Yaakov Selkowitz
@@ -2963,6 +2967,8 @@ python-pyrex                                 Yaakov Selkowitz
 python-rdflib                                Yaakov Selkowitz
 python-reportlab                             Yaakov Selkowitz
 python-requests                              Yaakov Selkowitz
+python-rsa                                   Yaakov Selkowitz
+python-service_identity                      Yaakov Selkowitz
 python-setuptools                            Yaakov Selkowitz
 python-simplegeneric                         Yaakov Selkowitz
 python-simplejson                            Yaakov Selkowitz
@@ -2973,6 +2979,7 @@ python-traitlets                             Yaakov Selkowitz
 python-twisted                               Yaakov Selkowitz
 python-unidecode                             Yaakov Selkowitz
 python-urllib3                               Yaakov Selkowitz
+python-webencodings                          Yaakov Selkowitz
 python-webkit                                Yaakov Selkowitz
 python-wheel                                 Yaakov Selkowitz
 python-xdg                                   Yaakov Selkowitz

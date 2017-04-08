@@ -2658,6 +2658,7 @@ perl-MIME-Base32                             Achim Gratz
 perl-MIME-Charset                            Achim Gratz/Ken Brown
 perl-MIME-tools                              Achim Gratz/Yaakov Selkowitz
 perl-MIME-Types                              Achim Gratz
+perl-Mock-Config                             Achim Gratz
 perl-Module-Build                            Achim Gratz
 perl-Module-Implementation                   Achim Gratz/Yaakov Selkowitz
 perl-Module-Load-Conditional                 Achim Gratz

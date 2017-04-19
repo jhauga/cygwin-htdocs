@@ -246,6 +246,25 @@ etc...
   mailing list post</a> for more discussion and current limitations.
 </p>
 
+<h3>Environment Variables</h3>
+
+<p>
+  The following environment variables are used to communicate information from
+  the setup program to post-install and pre-remove scripts:
+</p>
+
+<ul>
+  <li>
+    <b>CYGWINFORALL</b> contains "-A" if installing for "All Users" (This also
+    implies setup is running with elevated permissions), and is unset otherwise.
+    This is intended to be used as an option to <tt>cygpath</tt>
+    or <tt>mkshortcut</tt>, or in shell conditionals such as <tt>test -z</tt>
+    or <tt>test -n</tt>.
+  </li>
+</ul>
+
+</p>
+
 </div>
 </body>
 </html>

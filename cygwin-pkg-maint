@@ -1183,6 +1183,7 @@ libcdr0.1                                    Yaakov Selkowitz
 libchamplain0.12                             Yaakov Selkowitz
 libchewing                                   Yaakov Selkowitz
 libcroco0.6                                  Yaakov Selkowitz
+libconfuse1                                  Åke Rehnman
 libcryptui                                   Yaakov Selkowitz
 libcue                                       Yaakov Selkowitz
 libcuefile                                   Yaakov Selkowitz
@@ -1222,6 +1223,7 @@ libfontenc                                   Yaakov Selkowitz
 libfpx                                       Dr. Volker Zell
 libfreehand0.1                               Yaakov Selkowitz
 libFS                                        Yaakov Selkowitz
+libftdi1                                     Åke Rehnman
 libgadu                                      Yaakov Selkowitz
 libgames-support                             Yaakov Selkowitz
 libgc                                        ORPHANED (Bob Heckel)

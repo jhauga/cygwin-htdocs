@@ -137,16 +137,16 @@ directory on cygwin.com will look like this:</p>
     lftp cygwin.com:/x86/release> ls grep
     drwxrwsr-x   3 cygwin   cygstage     4096 Oct 12 19:47 .
     drwxrwsr-x   3 cygwin   cygstage     4096 Oct 12 18:28 ..
-    -rw-r--r--   1 cygwin   cygstage  1204708 Oct 12 19:46 grep-2.14-3-src.tar.xz
+    -rw-r--r--   1 cygwin   cygstage      356 Oct 12 19:47 grep-2.14-3.hint
     -rw-r--r--   1 cygwin   cygstage   229284 Oct 12 19:47 grep-2.14-3.tar.xz
+    -rw-r--r--   1 cygwin   cygstage  1204708 Oct 12 19:46 grep-2.14-3-src.tar.xz
     drwxrwsr-x   2 cygwin   cygstage     4096 Oct 12 19:47 grep-debuginfo
-    -rw-r--r--   1 cygwin   cygstage      356 Oct 12 19:47 setup.hint
 
     lftp cygwin.com:/x86/release> ls grep/grep-debuginfo
     drwxrwsr-x   2 cygwin   cygstage     4096 Oct 12 19:47 .
     drwxrwsr-x   3 cygwin   cygstage     4096 Oct 12 19:47 ..
+    -rw-r--r--   1 cygwin   cygstage      356 Oct 12 19:47 grep-debuginfo-2.14-3.hint
     -rw-r--r--   1 cygwin   cygstage   877404 Oct 12 19:47 grep-debuginfo-2.14-3.tar.xz
-    -rw-r--r--   1 cygwin   cygstage      356 Oct 12 19:47 setup.hint
 
     lftp cygwin.com:/x86/release> put /dev/null -o !ready
 </pre>
@@ -161,7 +161,7 @@ directory on cygwin.com will look like this:</p>
 
 <p>The package directories should exactly mirror what is currently in
 the release directory.  So, it should be a hierarchy containing
-<tt>.tar.xz</tt> files and <tt>setup.hint</tt> files.</p>
+<tt>.tar.xz</tt> files and <tt>.hint</tt> files.</p>
 
 <p>The <tt>!ready</tt> file is used to tell
 <tt>calm</tt> (the script which creates setup.ini) that any files older

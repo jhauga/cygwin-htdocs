@@ -1,15 +1,11 @@
-The gold star page is now generated from a page template and a database of awardees,
-award types, and awards.  This is way easier and more consistent than the old method
-of manually maintaining the page, which required a lot of typing of biolerplate HTML
-and moving entries around.
-
-To update the gold star page:
+The gold star page is generated from a page template and a database of awardees,
+award types, and awards. To update the page:
 
 (1) cd src
 (2) Add the new award entry(ies) to awards.csv.
 (3) Add corresponding new entries to awardees.csv and award_types.csv, if needed.
 (4) Run make. This will regenerate ../index.html.
-(5) cd .. and commit the changes in git.
+(5) cd .. and commit and push the changes in git.
 
 make runs make_awards_list.pl, which rebuilds index.html based on the contents of the following files:
 

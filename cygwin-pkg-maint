@@ -1183,8 +1183,8 @@ libcdio-paranoia                             Yaakov Selkowitz
 libcdr0.1                                    Yaakov Selkowitz
 libchamplain0.12                             Yaakov Selkowitz
 libchewing                                   Yaakov Selkowitz
-libcroco0.6                                  Yaakov Selkowitz
 libconfuse1                                  Åke Rehnman
+libcroco0.6                                  Yaakov Selkowitz
 libcryptui                                   Yaakov Selkowitz
 libcue                                       Yaakov Selkowitz
 libcuefile                                   Yaakov Selkowitz
@@ -1898,6 +1898,7 @@ mingw64-i686-taglib                          Yaakov Selkowitz
 mingw64-i686-tcl                             Yaakov Selkowitz
 mingw64-i686-tiff                            Yaakov Selkowitz
 mingw64-i686-tk                              Yaakov Selkowitz
+mingw64-i686-unbound                         Yaakov Selkowitz
 mingw64-i686-usbredir                        Yaakov Selkowitz
 mingw64-i686-wavpack                         Yaakov Selkowitz
 mingw64-i686-webkitgtk                       Yaakov Selkowitz
@@ -2222,6 +2223,7 @@ mingw64-x86_64-taglib                        Yaakov Selkowitz
 mingw64-x86_64-tcl                           Yaakov Selkowitz
 mingw64-x86_64-tiff                          Yaakov Selkowitz
 mingw64-x86_64-tk                            Yaakov Selkowitz
+mingw64-x86_64-unbound                       Yaakov Selkowitz
 mingw64-x86_64-usbredir                      Yaakov Selkowitz
 mingw64-x86_64-wavpack                       Yaakov Selkowitz
 mingw64-x86_64-webkitgtk                     Yaakov Selkowitz
@@ -3491,6 +3493,7 @@ umbrello                                     Yaakov Selkowitz
 umfpack                                      Marco Atzeri
 unace                                        Jari Aalto
 unalz                                        Jari Aalto
+unbound                                      Yaakov Selkowitz
 unfs3                                        Yaakov Selkowitz
 unicode-cldr-emoji-annotation                Yaakov Selkowitz
 unicode-ucd                                  Yaakov Selkowitz

@@ -292,6 +292,7 @@ cvsps                                        ORPHANED (Eric Blake)
 cvsutils                                     Eric Blake
 cxsparse                                     Marco Atzeri
 cygcheck-dep                                 Mikhail Usenko
+cygextreg                                    Joni Eskelinen
 cygport                                      Yaakov Selkowitz
 cygrunsrv                                    Corinna Vinschen
 cygutils                                     Mark Geisert

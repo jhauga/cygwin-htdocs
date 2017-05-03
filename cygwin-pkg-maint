@@ -650,7 +650,7 @@ gnugo                                        ORPHANED
 gnumeric                                     Yaakov Selkowitz
 gnupg                                        Marco Atzeri
 gnuplot                                      Dr. Volker Zell
-gnutls                                       Dr. Volker Zell
+gnutls                                       Dr. Volker Zell/Yaakov Selkowitz
 gob2                                         Yaakov Selkowitz
 gobby                                        Yaakov Selkowitz
 gobby0.5                                     Yaakov Selkowitz
@@ -842,7 +842,7 @@ iso-codes                                    Yaakov Selkowitz
 isomaster                                    Christian Franke
 isoquery                                     Yaakov Selkowitz
 itstool                                      Yaakov Selkowitz
-jasper                                       Dr. Volker Zell
+jasper                                       Dr. Volker Zell/Yaakov Selkowitz
 jbig2dec                                     Yaakov Selkowitz
 jbigkit                                      Yaakov Selkowitz
 jgraph                                       Dr. Volker Zell
@@ -1264,7 +1264,7 @@ libICE                                       Yaakov Selkowitz
 libiconv                                     Yaakov Selkowitz
 libid3tag                                    Yaakov Selkowitz
 libIDL2                                      Yaakov Selkowitz
-libidn                                       Dr. Volker Zell
+libidn                                       Dr. Volker Zell/Yaakov Selkowitz
 libidn2                                      Yaakov Selkowitz
 libindicator                                 Yaakov Selkowitz
 libinfinity0.6                               Yaakov Selkowitz
@@ -1371,7 +1371,7 @@ libssh                                       Yaakov Selkowitz
 libssh2                                      Yaakov Selkowitz
 libstaroffice0.0                             Yaakov Selkowitz
 libstatgrab                                  Yaakov Selkowitz
-libtasn1                                     Dr. Volker Zell
+libtasn1                                     Dr. Volker Zell/Yaakov Selkowitz
 libthai                                      Yaakov Selkowitz
 libtheora                                    David Rothenberger
 libtiger                                     Yaakov Selkowitz
@@ -2297,7 +2297,7 @@ netcdf                                       Marco Atzeri
 netcdf-cxx4                                  Marco Atzeri
 netcdf-fortran                               Marco Atzeri
 netpbm                                       Yaakov Selkowitz
-nettle                                       Dr. Volker Zell
+nettle                                       Dr. Volker Zell/Yaakov Selkowitz
 newmail                                      Jari Aalto
 nfrotz                                       Jon Turney
 nfs-server                                   Yaakov Selkowitz

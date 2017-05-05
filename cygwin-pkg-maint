@@ -1827,6 +1827,7 @@ mingw64-i686-nghttp2                         Yaakov Selkowitz
 mingw64-i686-nspr                            Yaakov Selkowitz
 mingw64-i686-nss                             Yaakov Selkowitz
 mingw64-i686-openal                          Yaakov Selkowitz
+mingw64-i686-opencv                          Yaakov Selkowitz
 mingw64-i686-openexr                         Yaakov Selkowitz
 mingw64-i686-openjpeg                        Yaakov Selkowitz
 mingw64-i686-openjpeg2                       Yaakov Selkowitz
@@ -2153,6 +2154,7 @@ mingw64-x86_64-nghttp2                       Yaakov Selkowitz
 mingw64-x86_64-nspr                          Yaakov Selkowitz
 mingw64-x86_64-nss                           Yaakov Selkowitz
 mingw64-x86_64-openal                        Yaakov Selkowitz
+mingw64-x86_64-opencv                        Yaakov Selkowitz
 mingw64-x86_64-openexr                       Yaakov Selkowitz
 mingw64-x86_64-openjpeg                      Yaakov Selkowitz
 mingw64-x86_64-openjpeg2                     Yaakov Selkowitz

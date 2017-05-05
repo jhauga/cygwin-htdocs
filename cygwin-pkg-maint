@@ -1145,6 +1145,7 @@ ladspa-pvoc                                  Yaakov Selkowitz
 ladspa-sdk                                   Yaakov Selkowitz
 ladspa-swh-plugins                           Yaakov Selkowitz
 ladspa-vcf                                   Yaakov Selkowitz
+lame                                         Yaakov Selkowitz
 lapack                                       Marco Atzeri
 lasem0.4                                     Yaakov Selkowitz
 latex2rtf                                    Yaakov Selkowitz
@@ -1700,6 +1701,7 @@ mingw64-i686-jbigkit                         Yaakov Selkowitz
 mingw64-i686-json-c                          Yaakov Selkowitz
 mingw64-i686-json-glib1.0                    Yaakov Selkowitz
 mingw64-i686-kqoauth                         Yaakov Selkowitz
+mingw64-i686-lame                            Yaakov Selkowitz
 mingw64-i686-lapack                          Yaakov Selkowitz
 mingw64-i686-lasem0.4                        Yaakov Selkowitz
 mingw64-i686-lcms                            Yaakov Selkowitz
@@ -2025,6 +2027,7 @@ mingw64-x86_64-jbigkit                       Yaakov Selkowitz
 mingw64-x86_64-json-c                        Yaakov Selkowitz
 mingw64-x86_64-json-glib1.0                  Yaakov Selkowitz
 mingw64-x86_64-kqoauth                       Yaakov Selkowitz
+mingw64-x86_64-lame                          Yaakov Selkowitz
 mingw64-x86_64-lapack                        Yaakov Selkowitz
 mingw64-x86_64-lasem0.4                      Yaakov Selkowitz
 mingw64-x86_64-lcms                          Yaakov Selkowitz

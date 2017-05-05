@@ -3439,8 +3439,6 @@ texlive-collection-latexrecommended          Ken Brown
 texlive-collection-latexrecommended-doc      Ken Brown
 texlive-collection-luatex                    Ken Brown
 texlive-collection-luatex-doc                Ken Brown
-texlive-collection-mathextra                 Ken Brown
-texlive-collection-mathextra-doc             Ken Brown
 texlive-collection-mathscience               Ken Brown
 texlive-collection-mathscience-doc           Ken Brown
 texlive-collection-metapost                  Ken Brown
@@ -3455,8 +3453,6 @@ texlive-collection-pstricks                  Ken Brown
 texlive-collection-pstricks-doc              Ken Brown
 texlive-collection-publishers                Ken Brown
 texlive-collection-publishers-doc            Ken Brown
-texlive-collection-science                   Ken Brown
-texlive-collection-science-doc               Ken Brown
 texlive-collection-xetex                     Ken Brown
 texlive-collection-xetex-doc                 Ken Brown
 TeXmacs                                      Marco Atzeri

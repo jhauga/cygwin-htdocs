@@ -1173,6 +1173,7 @@ libart_lgpl_2                                Yaakov Selkowitz
 libass                                       Yaakov Selkowitz
 libassuan                                    Marco Atzeri
 libasyncns                                   Yaakov Selkowitz
+libatomic_ops                                Andy Li
 libbinio                                     Yaakov Selkowitz
 libbonobo2                                   Yaakov Selkowitz
 libbonoboui2                                 Yaakov Selkowitz
@@ -1230,7 +1231,7 @@ libFS                                        Yaakov Selkowitz
 libftdi1                                     Åke Rehnman
 libgadu                                      Yaakov Selkowitz
 libgames-support                             Yaakov Selkowitz
-libgc                                        ORPHANED (Bob Heckel)
+libgc                                        Andy Li
 libgcrypt                                    Yaakov Selkowitz
 libgda5.0                                    Yaakov Selkowitz
 libgdamm5.0                                  Yaakov Selkowitz

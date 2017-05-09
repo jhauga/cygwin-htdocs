@@ -1713,6 +1713,7 @@ mingw64-i686-libao                           Yaakov Selkowitz
 mingw64-i686-libarchive                      Yaakov Selkowitz
 mingw64-i686-libart_lgpl2                    Yaakov Selkowitz
 mingw64-i686-libass                          Yaakov Selkowitz
+mingw64-i686-libatomic_ops                   Yaakov Selkowitz
 mingw64-i686-libbonobo2                      Yaakov Selkowitz
 mingw64-i686-libbonoboui2                    Yaakov Selkowitz
 mingw64-i686-libbs2b                         Yaakov Selkowitz
@@ -2040,6 +2041,7 @@ mingw64-x86_64-libao                         Yaakov Selkowitz
 mingw64-x86_64-libarchive                    Yaakov Selkowitz
 mingw64-x86_64-libart_lgpl2                  Yaakov Selkowitz
 mingw64-x86_64-libass                        Yaakov Selkowitz
+mingw64-x86_64-libatomic_ops                 Yaakov Selkowitz
 mingw64-x86_64-libbonobo2                    Yaakov Selkowitz
 mingw64-x86_64-libbonoboui2                  Yaakov Selkowitz
 mingw64-x86_64-libbs2b                       Yaakov Selkowitz

@@ -31,6 +31,8 @@ AH,https://cygwin.com/ml/cygwin-xfree/2005-08/msg00081.html,For the offer to tak
 AK,https://cygwin.com/ml/cygwin-apps/2011-11/msg00088.html,For integrating Mintty shortcuts into setup.
 AK,https://cygwin.com/ml/cygwin-apps/2010-07/msg00177.html,For overhauling automatic dependency selection in setup.
 
+AL,https://cygwin.com/ml/cygwin-apps/2017-05/msg00069.html,For adopting the orphaned <tt>libatomic_ops</tt> and <tt>libgc</tt> packages.,2
+
 AP,https://cygwin.com/ml/cygwin/2009-05/msg00180.html,"For adding the package search feature in setup (hear, hear)."
 
 AS,https://cygwin.com/ml/cygwin-apps/2015-10/msg00074.html,For inventing the stinkbomb award.,,,,,,,1

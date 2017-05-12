@@ -152,6 +152,7 @@ bsflite                                      Dr. Volker Zell
 btf                                          Marco Atzeri
 build-docbook-catalog                        Yaakov Selkowitz
 buildbot-slave                               Jon Turney
+buildbot-worker                              Jon Turney
 busybox                                      Christian Franke
 bvi                                          Jari Aalto
 byacc                                        Yaakov Selkowitz

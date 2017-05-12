@@ -2929,6 +2929,7 @@ python-enchant                               Yaakov Selkowitz
 python-enum34                                Yaakov Selkowitz
 python-fastimport                            Ken Brown
 python-feedparser                            Jari Aalto
+python-future                                Jon Turney
 python-gdata                                 ORPHANED (Chris Sutcliffe)
 python-gi                                    Yaakov Selkowitz
 python-gobject                               Yaakov Selkowitz

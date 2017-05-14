@@ -1187,7 +1187,7 @@ libcdio-paranoia                             Yaakov Selkowitz
 libcdr0.1                                    Yaakov Selkowitz
 libchamplain0.12                             Yaakov Selkowitz
 libchewing                                   Yaakov Selkowitz
-libconfuse1                                  Åke Rehnman
+libconfuse1                                  Ake Rehnman
 libcroco0.6                                  Yaakov Selkowitz
 libcryptui                                   Yaakov Selkowitz
 libcue                                       Yaakov Selkowitz
@@ -1229,7 +1229,7 @@ libfontenc                                   Yaakov Selkowitz
 libfpx                                       Dr. Volker Zell
 libfreehand0.1                               Yaakov Selkowitz
 libFS                                        Yaakov Selkowitz
-libftdi1                                     Åke Rehnman
+libftdi1                                     Ake Rehnman
 libgadu                                      Yaakov Selkowitz
 libgames-support                             Yaakov Selkowitz
 libgc                                        Andy Li
@@ -3530,7 +3530,7 @@ usbutils                                     Yaakov Selkowitz
 util-linux                                   Yaakov Selkowitz
 uw-imap                                      Dr. Volker Zell
 vala                                         Yaakov Selkowitz
-varnish                                      Jorge Díaz
+varnish                                      Jorge Diaz
 vcdimager                                    Yaakov Selkowitz
 verne-backgrounds                            Yaakov Selkowitz
 vfu                                          Jari Aalto

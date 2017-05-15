@@ -199,11 +199,11 @@ etc...
 <p>
   Note that the setup program runs all the post-install scripts after all
   desired packages have been installed, that is, it does not run each package's
-  post-install script immediately after installing that package. Note,
-  furthermore, that the order in which the scripts are run is not
-  guaranteed. Therefore, if your package depends on others which have their own
-  post-install scripts, you cannot assume in your script that the other
-  packages' scripts have already been run.
+  post-install script immediately after installing that package.
+</p>
+<p>
+  Post-install scripts are run in dependency order.  If dependency loops exist,
+  the order in which those package's scripts are run is undefined.
 </p>
 
 <h3>Pre-remove scripts</h3>

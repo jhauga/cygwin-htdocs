@@ -17,6 +17,7 @@ adwaita-qt                                   Yaakov Selkowitz
 aewm++                                       Jari Aalto
 aewm++-goodies                               Jari Aalto
 afio                                         Jari Aalto
+aften                                        Yaakov Selkowitz
 aiksaurus                                    Yaakov Selkowitz
 akonadi                                      Yaakov Selkowitz
 alacarte                                     Yaakov Selkowitz
@@ -1599,6 +1600,7 @@ ming                                         Dr. Volker Zell
 mingw64-i686-a52dec                          Yaakov Selkowitz
 mingw64-i686-aalib                           Yaakov Selkowitz
 mingw64-i686-adwaita-icon-theme              Yaakov Selkowitz
+mingw64-i686-aften                           Yaakov Selkowitz
 mingw64-i686-atk1.0                          Yaakov Selkowitz
 mingw64-i686-atkmm1.6                        Yaakov Selkowitz
 mingw64-i686-audiofile                       Yaakov Selkowitz
@@ -1927,6 +1929,7 @@ mingw64-i686-zziplib                         Yaakov Selkowitz
 mingw64-x86_64-a52dec                        Yaakov Selkowitz
 mingw64-x86_64-aalib                         Yaakov Selkowitz
 mingw64-x86_64-adwaita-icon-theme            Yaakov Selkowitz
+mingw64-x86_64-aften                         Yaakov Selkowitz
 mingw64-x86_64-atk1.0                        Yaakov Selkowitz
 mingw64-x86_64-atkmm1.6                      Yaakov Selkowitz
 mingw64-x86_64-audiofile                     Yaakov Selkowitz

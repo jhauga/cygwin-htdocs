@@ -3420,14 +3420,9 @@ texlive-collection-fontutils                 Ken Brown
 texlive-collection-fontutils-doc             Ken Brown
 texlive-collection-formatsextra              Ken Brown
 texlive-collection-games                     Ken Brown
-texlive-collection-genericextra              Ken Brown
-texlive-collection-genericextra-doc          Ken Brown
-texlive-collection-genericrecommended        Ken Brown
-texlive-collection-genericrecommended-doc    Ken Brown
 texlive-collection-htmlxml                   Ken Brown
 texlive-collection-humanities                Ken Brown
 texlive-collection-humanities-doc            Ken Brown
-texlive-collection-langafrican               Ken Brown
 texlive-collection-langarabic                Ken Brown
 texlive-collection-langchinese               Ken Brown
 texlive-collection-langcjk                   Ken Brown
@@ -3438,7 +3433,6 @@ texlive-collection-langeuropean              Ken Brown
 texlive-collection-langfrench                Ken Brown
 texlive-collection-langgerman                Ken Brown
 texlive-collection-langgreek                 Ken Brown
-texlive-collection-langindic                 Ken Brown
 texlive-collection-langitalian               Ken Brown
 texlive-collection-langjapanese              Ken Brown
 texlive-collection-langkorean                Ken Brown
@@ -3460,10 +3454,10 @@ texlive-collection-metapost                  Ken Brown
 texlive-collection-metapost-doc              Ken Brown
 texlive-collection-music                     Ken Brown
 texlive-collection-music-doc                 Ken Brown
-texlive-collection-omega                     Ken Brown
 texlive-collection-pictures                  Ken Brown
 texlive-collection-pictures-doc              Ken Brown
-texlive-collection-plainextra                Ken Brown
+texlive-collection-plaingeneric              Ken Brown
+texlive-collection-plaingeneric-doc          Ken Brown
 texlive-collection-pstricks                  Ken Brown
 texlive-collection-pstricks-doc              Ken Brown
 texlive-collection-publishers                Ken Brown

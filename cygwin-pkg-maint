@@ -536,6 +536,7 @@ geocode-glib                                 Yaakov Selkowitz
 GeoIP                                        Yaakov Selkowitz
 GeoIP-database                               Yaakov Selkowitz
 geoipupdate                                  Yaakov Selkowitz
+geomview                                     Ken Brown
 geos                                         Marco Atzeri
 getent                                       Corinna Vinschen
 getmail                                      Jari Aalto

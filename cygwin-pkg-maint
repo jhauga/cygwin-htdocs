@@ -2919,6 +2919,7 @@ python-boto                                  Yaakov Selkowitz
 python-bsddb3                                Yaakov Selkowitz
 python-bugzilla                              Yaakov Selkowitz
 python-cairo                                 Yaakov Selkowitz
+python-certifi                               Yaakov Selkowitz
 python-cffi                                  Yaakov Selkowitz
 python-chardet                               Yaakov Selkowitz
 python-chm                                   Yaakov Selkowitz

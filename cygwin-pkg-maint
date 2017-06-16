@@ -2895,7 +2895,7 @@ procmail                                     Daniel Boland
 procps                                       OBSOLETE (Corinna Vinschen)
 procps-ng                                    Wayne Porter
 proj                                         Marco Atzeri
-protobuf                                     ORPHANED (Reini Urban)
+protobuf                                     Achim Gratz
 pscan                                        Jari Aalto
 psiconv                                      Yaakov Selkowitz
 psmisc                                       Corinna Vinschen

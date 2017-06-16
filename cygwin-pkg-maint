@@ -1373,6 +1373,7 @@ libSM                                        Yaakov Selkowitz
 libsmi                                       Dr. Volker Zell
 libsndfile                                   Yaakov Selkowitz
 libsodium                                    Yaakov Selkowitz
+libsolv                                      Jon Turney
 libsoup2.4                                   Yaakov Selkowitz
 libspectre                                   Yaakov Selkowitz
 libspiro                                     Yaakov Selkowitz
@@ -1796,6 +1797,7 @@ mingw64-i686-libsidplayfp                    Yaakov Selkowitz
 mingw64-i686-libsigc++2.0                    Yaakov Selkowitz
 mingw64-i686-libsndfile                      Yaakov Selkowitz
 mingw64-i686-libsodium                       Yaakov Selkowitz
+mingw64-i686-libsolv                         Jon Turney
 mingw64-i686-libsoup2.4                      Yaakov Selkowitz
 mingw64-i686-libssh2                         Yaakov Selkowitz
 mingw64-i686-libstaroffice0.0                Yaakov Selkowitz
@@ -2125,6 +2127,7 @@ mingw64-x86_64-libsidplayfp                  Yaakov Selkowitz
 mingw64-x86_64-libsigc++2.0                  Yaakov Selkowitz
 mingw64-x86_64-libsndfile                    Yaakov Selkowitz
 mingw64-x86_64-libsodium                     Yaakov Selkowitz
+mingw64-x86_64-libsolv                       Jon Turney
 mingw64-x86_64-libsoup2.4                    Yaakov Selkowitz
 mingw64-x86_64-libssh2                       Yaakov Selkowitz
 mingw64-x86_64-libstaroffice0.0              Yaakov Selkowitz

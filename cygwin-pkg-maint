@@ -2924,6 +2924,7 @@ python-backports.shutil_get_terminal_size    Yaakov Selkowitz
 python-backports.ssl_match_hostname          Yaakov Selkowitz
 python-beautifulsoup                         Yaakov Selkowitz
 python-boto                                  Yaakov Selkowitz
+python-bs4                                   Yaakov Selkowitz
 python-bsddb3                                Yaakov Selkowitz
 python-bugzilla                              Yaakov Selkowitz
 python-cairo                                 Yaakov Selkowitz
@@ -2945,8 +2946,10 @@ python-dropbox                               Yaakov Selkowitz
 python-enchant                               Yaakov Selkowitz
 python-enum34                                Yaakov Selkowitz
 python-fastimport                            Ken Brown
+python-faulthandler                          Yaakov Selkowitz
 python-feedparser                            Jari Aalto
 python-future                                Jon Turney
+python-futures                               Yaakov Selkowitz
 python-gdata                                 ORPHANED (Chris Sutcliffe)
 python-gi                                    Yaakov Selkowitz
 python-gobject                               Yaakov Selkowitz
@@ -2972,7 +2975,8 @@ python-logilab-common                        Jari Aalto
 python-lxml                                  Yaakov Selkowitz
 python-mako                                  Yaakov Selkowitz
 python-markupsafe                            Yaakov Selkowitz
-python-mutagen                               Dr. Volker Zell
+python-musicbrainzngs                        Yaakov Selkowitz
+python-mutagen                               Dr. Volker Zell/Yaakov Selkowitz
 python-mx                                    Yaakov Selkowitz
 python-nose                                  Yaakov Selkowitz
 python-numpy                                 Yaakov Selkowitz
@@ -2996,6 +3000,7 @@ python-pycparser                             Yaakov Selkowitz
 python-pygame                                Yaakov Selkowitz
 python-pygments                              Yaakov Selkowitz
 python-pykde4                                Yaakov Selkowitz
+python-pylast                                Yaakov Selkowitz
 python-pynotify                              Yaakov Selkowitz
 python-pyparsing                             Yaakov Selkowitz
 python-pypdf                                 Yaakov Selkowitz

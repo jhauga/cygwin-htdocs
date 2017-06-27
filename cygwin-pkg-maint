@@ -1810,6 +1810,7 @@ mingw64-i686-libtiger                        Yaakov Selkowitz
 mingw64-i686-libunistring                    Yaakov Selkowitz
 mingw64-i686-libusb                          Yaakov Selkowitz
 mingw64-i686-libusb1.0                       Yaakov Selkowitz
+mingw64-i686-libvirt                         Yaakov Selkowitz
 mingw64-i686-libvisio0.1                     Yaakov Selkowitz
 mingw64-i686-libvorbis                       Yaakov Selkowitz
 mingw64-i686-libvpx                          Yaakov Selkowitz
@@ -1859,6 +1860,7 @@ mingw64-i686-pixman                          Yaakov Selkowitz
 mingw64-i686-pkg-config                      Yaakov Selkowitz
 mingw64-i686-poppler                         Yaakov Selkowitz
 mingw64-i686-popt                            Yaakov Selkowitz
+mingw64-i686-portablexdr                     Yaakov Selkowitz
 mingw64-i686-portaudio                       Yaakov Selkowitz
 mingw64-i686-postgresql                      Yaakov Selkowitz
 mingw64-i686-pthreads                        Jonathan Yong
@@ -2141,6 +2143,7 @@ mingw64-x86_64-libtiger                      Yaakov Selkowitz
 mingw64-x86_64-libunistring                  Yaakov Selkowitz
 mingw64-x86_64-libusb                        Yaakov Selkowitz
 mingw64-x86_64-libusb1.0                     Yaakov Selkowitz
+mingw64-x86_64-libvirt                       Yaakov Selkowitz
 mingw64-x86_64-libvisio0.1                   Yaakov Selkowitz
 mingw64-x86_64-libvorbis                     Yaakov Selkowitz
 mingw64-x86_64-libvpx                        Yaakov Selkowitz
@@ -2190,6 +2193,7 @@ mingw64-x86_64-pixman                        Yaakov Selkowitz
 mingw64-x86_64-pkg-config                    Yaakov Selkowitz
 mingw64-x86_64-poppler                       Yaakov Selkowitz
 mingw64-x86_64-popt                          Yaakov Selkowitz
+mingw64-x86_64-portablexdr                   Yaakov Selkowitz
 mingw64-x86_64-portaudio                     Yaakov Selkowitz
 mingw64-x86_64-postgresql                    Yaakov Selkowitz
 mingw64-x86_64-pthreads                      Jonathan Yong

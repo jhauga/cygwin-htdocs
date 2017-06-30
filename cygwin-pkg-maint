@@ -656,6 +656,7 @@ gnuchess                                     Yaakov Selkowitz
 gnugo                                        ORPHANED
 gnumeric                                     Yaakov Selkowitz
 gnupg                                        Marco Atzeri
+gnupg2                                       Marco Atzeri
 gnuplot                                      Dr. Volker Zell
 gnutls                                       Dr. Volker Zell/Yaakov Selkowitz
 gob2                                         Yaakov Selkowitz
@@ -672,6 +673,7 @@ goocanvas2.0                                 Yaakov Selkowitz
 goocanvasmm2.0                               Yaakov Selkowitz
 google-breakpad                              Jon Turney
 gottet                                       Yaakov Selkowitz
+gpa                                          Marco Atzeri
 gpaste                                       Yaakov Selkowitz
 gperf                                        Eric Blake
 gpgme                                        Yaakov Selkowitz
@@ -2341,6 +2343,7 @@ noto-cjk-fonts                               Yaakov Selkowitz
 noto-emoji-fonts                             Yaakov Selkowitz
 noto-fonts                                   Yaakov Selkowitz
 novprog                                      Yaakov Selkowitz
+npth                                         Marco Atzeri
 nrss                                         Jari Aalto
 nspr                                         Yaakov Selkowitz
 nss                                          Yaakov Selkowitz

@@ -1474,7 +1474,6 @@ llvm3.5                                      Yaakov Selkowitz
 lmdb                                         Yaakov Selkowitz
 lndir                                        Yaakov Selkowitz
 login                                        Corinna Vinschen/Yaakov Selkowitz
-logiweb                                      Klaus Grue
 lohit-assamese-fonts                         Yaakov Selkowitz
 lohit-bengali-fonts                          Yaakov Selkowitz
 lohit-devanagari-fonts                       Yaakov Selkowitz
@@ -3506,7 +3505,6 @@ tigervnc                                     Yaakov Selkowitz
 time                                         Andrew Schulman
 timidity++                                   Yaakov Selkowitz
 tin                                          Corinna Vinschen
-tinyirc                                      Jari Aalto
 tinyxml2                                     David Stacey
 tirc                                         Jari Aalto
 tmux                                         Michael Wild

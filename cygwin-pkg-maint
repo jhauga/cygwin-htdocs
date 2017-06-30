@@ -731,7 +731,6 @@ gtkmm3.0                                     Yaakov Selkowitz
 gtkperf                                      Mike DePaulo
 gtksourceview2.0                             Yaakov Selkowitz
 gtksourceview3.0                             Yaakov Selkowitz
-gtksourceviewmm2.0                           Yaakov Selkowitz
 gtksourceviewmm3.0                           Yaakov Selkowitz
 gtkspell                                     Yaakov Selkowitz
 gtkspell3                                    Yaakov Selkowitz
@@ -1395,7 +1394,6 @@ libtimidity                                  Yaakov Selkowitz
 libtirpc                                     Yaakov Selkowitz
 libtool                                      Yaakov Selkowitz
 libtorrent                                   Marco Atzeri
-libungif                                     Yaakov Selkowitz
 libuninameslist                              Yaakov Selkowitz
 libunique1.0                                 Yaakov Selkowitz
 libunique3.0                                 Yaakov Selkowitz

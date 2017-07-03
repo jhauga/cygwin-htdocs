@@ -122,45 +122,56 @@ an explanation of those options.)
 For other options, search the mailing lists with terms such as 
 <a class="ulink" href="http://www.google.com/search?q=cygwin+automated+setup" target="_top">cygwin automated setup</a> or
 <a class="ulink" href="http://www.google.com/search?q=automated+cygwin+install" target="_top">automated cygwin install</a>.
-</p></td></tr><tr class="question"><td align="left" valign="top"><a name="faq.setup.cli"></a><p><b>2.3.</b></p></td><td align="left" valign="top"><p>Does Setup accept command-line arguments?</p></td></tr><tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>Yes, the full listing is written to the <code class="literal">setup.log</code> file 
-when you run <code class="literal">setup-x86.exe --help</code> or
-<code class="literal">setup-x86_64.exe --help</code>. The current options are:
+</p></td></tr><tr class="question"><td align="left" valign="top"><a name="faq.setup.cli"></a><p><b>2.3.</b></p></td><td align="left" valign="top"><p>Does Setup accept command-line arguments?</p></td></tr><tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>Yes, run <code class="literal">setup-x86.exe --help</code> or
+<code class="literal">setup-x86_64.exe --help</code> for a list.
 </p><pre class="screen">
-Command Line Options:
- -D --download                     Download from internet
- -L --local-install                Install from local directory
- -s --site                         Download site
- -O --only-site                    Ignore all sites except for -s
- -R --root                         Root installation directory
- -x --remove-packages              Specify packages to uninstall
- -c --remove-categories            Specify categories to uninstall
- -P --packages                     Specify packages to install
- -C --categories                   Specify entire categories to install
- -p --proxy                        HTTP/FTP proxy (host:port)
+    --allow-unsupported-windows    Allow old, unsupported Windows versions
  -a --arch                         architecture to install (x86_64 or x86)
- -q --quiet-mode                   Unattended setup mode
- -M --package-manager              Semi-attended chooser-only mode
- -B --no-admin                     Do not check for and enforce running as
-                                   Administrator
- -h --help                         print help
- -l --local-package-dir            Local package directory
- -r --no-replaceonreboot           Disable replacing in-use files on next
-                                   reboot.
- -X --no-verify                    Don't verify setup.ini signatures
- -n --no-shortcuts                 Disable creation of desktop and start menu
-                                   shortcuts
- -N --no-startmenu                 Disable creation of start menu shortcut
- -d --no-desktop                   Disable creation of desktop shortcut
- -K --pubkey                       URL of extra public key file (gpg format)
- -S --sexpr-pubkey                 Extra public key in s-expr format
- -u --untrusted-keys               Use untrusted keys from last-extrakeys
- -U --keep-untrusted-keys          Use untrusted keys and retain all
- -g --upgrade-also                 also upgrade installed packages
+ -C --categories                   Specify entire categories to install
  -o --delete-orphans               remove orphaned packages
  -A --disable-buggy-antivirus      Disable known or suspected buggy anti virus
                                    software packages during execution.
-</pre><p>
-</p></td></tr><tr class="question"><td align="left" valign="top"><a name="faq.setup.noroot"></a><p><b>2.4.</b></p></td><td align="left" valign="top"><p>Can I install Cygwin without administrator rights?</p></td></tr><tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>Yes.  The default installation requests administrator rights because
+ -D --download                     Download from internet
+ -f --force-current                select the current version for all packages
+ -h --help                         print help
+ -I --include-source               Automatically include source download
+ -i --ini-basename                 Use a different basename, e.g. "foo",
+                                   instead of "setup"
+ -U --keep-untrusted-keys          Use untrusted keys and retain all
+ -L --local-install                Install from local directory
+ -l --local-package-dir            Local package directory
+ -m --mirror-mode                  Skip availability check when installing from
+                                   local directory (requires local directory to
+                                   be clean mirror!)
+ -B --no-admin                     Do not check for and enforce running as
+                                   Administrator
+ -d --no-desktop                   Disable creation of desktop shortcut
+ -r --no-replaceonreboot           Disable replacing in-use files on next
+                                   reboot.
+ -n --no-shortcuts                 Disable creation of desktop and start menu
+                                   shortcuts
+ -N --no-startmenu                 Disable creation of start menu shortcut
+ -X --no-verify                    Don't verify setup.ini signatures
+ -O --only-site                    Ignore all sites except for -s
+ -M --package-manager              Semi-attended chooser-only mode
+ -P --packages                     Specify packages to install
+ -p --proxy                        HTTP/FTP proxy (host:port)
+ -Y --prune-install                prune the installation to only the requested
+                                   packages
+ -K --pubkey                       URL of extra public key file (gpg format)
+ -q --quiet-mode                   Unattended setup mode
+ -c --remove-categories            Specify categories to uninstall
+ -x --remove-packages              Specify packages to uninstall
+ -R --root                         Root installation directory
+ -S --sexpr-pubkey                 Extra public key in s-expr format
+ -s --site                         Download site
+ -u --untrusted-keys               Use untrusted keys from last-extrakeys
+ -g --upgrade-also                 also upgrade installed packages
+    --user-agent                   User agent string for HTTP requests
+ -v --verbose                      Verbose output
+ -W --wait                         When elevating, wait for elevated child
+                                   process
+</pre></td></tr><tr class="question"><td align="left" valign="top"><a name="faq.setup.noroot"></a><p><b>2.4.</b></p></td><td align="left" valign="top"><p>Can I install Cygwin without administrator rights?</p></td></tr><tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>Yes.  The default installation requests administrator rights because
 this allows to set up the Cygwin environment so that all users can start
 a Cygwin shell out of the box.  However, if you don't have administrator
 rights for your machine, and the admins don't want to install it for you,
@@ -922,7 +933,7 @@ installed distribution.
 </p></td></tr><tr class="question"><td align="left" valign="top"><a name="faq.using.missing-packages"></a><p><b>4.24.</b></p></td><td align="left" valign="top"><p>Why isn't package XYZ available in Cygwin?</p></td></tr><tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>Probably because there is nobody willing or able to maintain it.  It
 takes time, and the priority for the Cygwin Team is the Cygwin package.
 The rest is a volunteer effort.  Want to contribute?  See
-<a class="ulink" href="https://cygwin.com/setup.html" target="_top">https://cygwin.com/setup.html</a>.
+<a class="ulink" href="https://cygwin.com/packaging.html" target="_top">https://cygwin.com/packaging.html</a>.
 </p></td></tr><tr class="question"><td align="left" valign="top"><a name="faq.using.old-packages"></a><p><b>4.25.</b></p></td><td align="left" valign="top"><p>Why is the Cygwin package of XYZ so out of date?</p></td></tr><tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>(Also: Why is the version of package XYZ older than the version that I
 can download from the XYZ web site?  Why is the version of package XYZ
 older than the version that I installed on my linux system?  Is there
@@ -1297,7 +1308,7 @@ often implements its functions by installing hooks into various parts of the sys
 including both the Explorer shell and the underlying kernel.  Sometimes these hooks
 are not implemented in an entirely transparent fashion, and cause changes in the
 behaviour which affect the operation of other programs, such as Cygwin.
-</p><p>Among the software that has been found to cause difficulties are:</p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem"><p>AR Soft RAM Disk</p></li><li class="listitem"><p>ATI Catalyst (some versions)</p></li><li class="listitem"><p>AVAST (disable FILESYSTEM and BEHAVIOR realtime shields)</p></li><li class="listitem"><p>Avira AntiVir</p></li><li class="listitem"><p>BitDefender</p></li><li class="listitem"><p>Bufferzone from Trustware</p></li><li class="listitem"><p>ByteMobile laptop optimization client</p></li><li class="listitem"><p>COMODO Firewall Pro</p></li><li class="listitem"><p>Citrix Metaframe Presentation Server/XenApp (see <a class="ulink" href="http://support.citrix.com/article/CTX107825" target="_top">Citrix Support page</a>)</p></li><li class="listitem"><p>Credant Guardian Shield</p></li><li class="listitem"><p>Earthlink Total-Access</p></li><li class="listitem"><p>Forefront TMG</p></li><li class="listitem"><p>Google Desktop</p></li><li class="listitem"><p>Iolo System Mechanic/AntiVirus/Firewall</p></li><li class="listitem"><p>Kerio, Agnitum or ZoneAlarm Personal Firewall</p></li><li class="listitem"><p>LanDesk</p></li><li class="listitem"><p>Lavasoft Web Companion</p></li><li class="listitem"><p>Lenovo IPS Core Service (ipssvc)</p></li><li class="listitem"><p>Lenovo RapidBoot Shield</p></li><li class="listitem"><p>Logitech webcam software with "Logitech process monitor" service</p></li><li class="listitem"><p>MacType</p></li><li class="listitem"><p>NOD32 Antivirus</p></li><li class="listitem"><p>NVIDIA GeForce (some versions)</p></li><li class="listitem"><p>Norton/McAfee/Symantec antivirus or antispyware</p></li><li class="listitem"><p>PC Tools Spyware Doctor</p></li><li class="listitem"><p>Panda Internet Security</p></li><li class="listitem"><p>Sonic Solutions burning software containing DLA component (when DLA disabled)</p></li><li class="listitem"><p>Sophos Anti-Virus 7</p></li><li class="listitem"><p>Spybot S&amp;D TeaTimer</p></li><li class="listitem"><p>Various programs by Wave Systems Corp using wxvault.dll, including Embassy Trust Suite and Embassy Security Center</p></li><li class="listitem"><p>Webroot Spy Sweeper with Antivirus</p></li><li class="listitem"><p>Windows Defender </p></li><li class="listitem"><p>Windows LiveOneCare</p></li><li class="listitem"><p>IBM Security Trusteer Rapport (see <a class="ulink" href="http://www-03.ibm.com/software/products/en/trusteer-rapport" target="_top">its home page</a></p></li></ul></div><p>Sometimes these problems can be worked around, by temporarily or partially
+</p><p>Among the software that has been found to cause difficulties are:</p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem"><p>AR Soft RAM Disk</p></li><li class="listitem"><p>ATI Catalyst (some versions)</p></li><li class="listitem"><p>AVAST (disable FILESYSTEM and BEHAVIOR realtime shields)</p></li><li class="listitem"><p>Avira AntiVir</p></li><li class="listitem"><p>BitDefender</p></li><li class="listitem"><p>Bufferzone from Trustware</p></li><li class="listitem"><p>ByteMobile laptop optimization client</p></li><li class="listitem"><p>COMODO Firewall Pro</p></li><li class="listitem"><p>COMODO Internet Security</p></li><li class="listitem"><p>ConEmu (try disabling "Inject ConEmuHk" or see <a class="ulink" href="https://conemu.github.io/en/ConEmuHk.html#Third_party_problems" target="_top">ConEmuHk documentation</a>)</p></li><li class="listitem"><p>Citrix Metaframe Presentation Server/XenApp (see <a class="ulink" href="http://support.citrix.com/article/CTX107825" target="_top">Citrix Support page</a>)</p></li><li class="listitem"><p>Credant Guardian Shield</p></li><li class="listitem"><p>Earthlink Total-Access</p></li><li class="listitem"><p>Forefront TMG</p></li><li class="listitem"><p>Google Desktop</p></li><li class="listitem"><p>Iolo System Mechanic/AntiVirus/Firewall</p></li><li class="listitem"><p>Kerio, Agnitum or ZoneAlarm Personal Firewall</p></li><li class="listitem"><p>LanDesk</p></li><li class="listitem"><p>Lavasoft Web Companion</p></li><li class="listitem"><p>Lenovo IPS Core Service (ipssvc)</p></li><li class="listitem"><p>Lenovo RapidBoot Shield</p></li><li class="listitem"><p>Logitech webcam software with "Logitech process monitor" service</p></li><li class="listitem"><p>MacType</p></li><li class="listitem"><p>NOD32 Antivirus</p></li><li class="listitem"><p>NVIDIA GeForce (some versions)</p></li><li class="listitem"><p>Norton/McAfee/Symantec antivirus or antispyware</p></li><li class="listitem"><p>PC Tools Spyware Doctor</p></li><li class="listitem"><p>Panda Internet Security</p></li><li class="listitem"><p>Sonic Solutions burning software containing DLA component (when DLA disabled)</p></li><li class="listitem"><p>Sophos Anti-Virus 7</p></li><li class="listitem"><p>Spybot S&amp;D TeaTimer</p></li><li class="listitem"><p>Various programs by Wave Systems Corp using wxvault.dll, including Embassy Trust Suite and Embassy Security Center</p></li><li class="listitem"><p>Webroot Spy Sweeper with Antivirus</p></li><li class="listitem"><p>Windows Defender </p></li><li class="listitem"><p>Windows LiveOneCare</p></li><li class="listitem"><p>IBM Security Trusteer Rapport (see <a class="ulink" href="http://www-03.ibm.com/software/products/en/trusteer-rapport" target="_top">its home page</a>)</p></li></ul></div><p>Sometimes these problems can be worked around, by temporarily or partially
 disabling the offending software.  For instance, it may be possible to disable
 on-access scanning in your antivirus, or configure it to ignore files under the
 Cygwin installation root.  Often, unfortunately, this is not possible; even disabling
@@ -1563,17 +1574,14 @@ error?</a></dt><dt>6.11. <a href="faq.html#faq.programming.winmain">Why the unde
 volunteers to prepare and maintain packages, because the priority of the
 Cygwin Team is Cygwin itself.
 </p><p>The Cygwin Package Contributor's Guide at
-<a class="ulink" href="https://cygwin.com/setup.html" target="_top">https://cygwin.com/setup.html</a> details everything you need to know
-about being a package maintainer. The quickest way to get started is to
-read the <span class="emphasis"><em>Initial packaging procedure, script-based</em></span> section on
-that page.  The <code class="literal">generic-build-script</code> found there works well for
-most packages. 
+<a class="ulink" href="https://cygwin.com/packages.html" target="_top">https://cygwin.com/packages.html</a> details everything you need to know
+about Cygwin packaging.
 </p><p>For questions about package maintenance, use the cygwin-apps mailing
 list (start at <a class="ulink" href="https://cygwin.com/lists.html" target="_top">https://cygwin.com/lists.html</a>) <span class="emphasis"><em>after</em></span>
 searching and browsing the cygwin-apps list archives, of course.  Be
 sure to look at the <span class="emphasis"><em>Submitting a package</em></span> checklist at
-<a class="ulink" href="https://cygwin.com/setup.html" target="_top">https://cygwin.com/setup.html</a> before sending an ITP (Intent To
-Package) email to cygwin-apps.
+<a class="ulink" href="https://cygwin.com/packaging-contributors-guide.html#submitting" target="_top">https://cygwin.com/packaging-contributors-guide.html#submitting</a>
+before sending an ITP (Intent To Package) email to cygwin-apps.
 </p><p>You should also announce your intentions to the general cygwin list, in
 case others were thinking the same thing.
 </p></td></tr><tr class="question"><td align="left" valign="top"><a name="faq.programming.contribute"></a><p><b>6.2.</b></p></td><td align="left" valign="top"><p>How do I contribute to Cygwin?</p></td></tr><tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>If you want to contribute to Cygwin itself, see

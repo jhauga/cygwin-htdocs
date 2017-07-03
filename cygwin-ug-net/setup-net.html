@@ -97,14 +97,11 @@ the cache is no longer necessary, but you may want to retain the
 packages as backups, for installing Cygwin to another system,
 or in case you need to reinstall a package.
 </p></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="setup-connection"></a>Connection Method</h3></div></div></div><p>
-The <code class="literal">Direct Connection</code> method of downloading will 
-directly download the packages, while the IE5 method will leverage your 
-IE5 cache for performance. If your organisation uses a proxy server or
-auto-configuration scripts, the IE5 method also uses these settings.
-If you have a proxy server, you can manually type it into 
-the <code class="literal">Use Proxy</code> section. Unfortunately, 
-<span class="command"><strong>setup.exe</strong></span> does not currently support password
-authorization for proxy servers.
+The <code class="literal">Direct Connection</code> method of downloading will
+directly connect.  If your system is configured to use a proxy server or
+auto-configuration scripts, the <code class="literal">Use System Proxy Settings</code>
+method uses those settings.  Alternatively, you can manually enter proxy
+settings into the <code class="literal">Use HTTP/FTP Proxy</code> section.
 </p></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="setup-mirror"></a>Choosing Mirrors</h3></div></div></div><p>
 Since there is no way of knowing from where you will be downloading
 Cygwin, you need to choose at least one mirror site.  Cygwin mirrors 
@@ -193,10 +190,7 @@ which will start your default shell as specified
 in <code class="filename">/etc/passwd</code>.
 </p></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="setup-postinstall"></a>Post-Install Scripts</h3></div></div></div><p>
 Last of all, <span class="command"><strong>setup.exe</strong></span> will run any post-install
-scripts to finish correctly setting up installed packages. Since each
-script is run separately, several windows may pop up. If you are 
-interested in what is being done, see the Cygwin Package Contributor's
-Guide at <a class="ulink" href="https://cygwin.com/setup.html" target="_top">https://cygwin.com/setup.html</a>
+scripts to finish correctly setting up installed packages.
 When the last post-install script is completed, <span class="command"><strong>setup.exe</strong></span> 
 will display a box announcing the completion. A few packages, such as
 the OpenSSH server, require some manual site-specific configuration. 

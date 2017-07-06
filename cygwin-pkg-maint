@@ -1280,6 +1280,7 @@ libid3tag                                    Yaakov Selkowitz
 libIDL2                                      Yaakov Selkowitz
 libidn                                       Dr. Volker Zell/Yaakov Selkowitz
 libidn2                                      Yaakov Selkowitz
+libimagequant                                Yaakov Selkowitz
 libindicator                                 Yaakov Selkowitz
 libinfinity0.6                               Yaakov Selkowitz
 libiodbc                                     Yaakov Selkowitz
@@ -1771,6 +1772,7 @@ mingw64-i686-libid3tag                       Yaakov Selkowitz
 mingw64-i686-libIDL2                         Yaakov Selkowitz
 mingw64-i686-libidn                          Yaakov Selkowitz
 mingw64-i686-libidn2                         Yaakov Selkowitz
+mingw64-i686-libimagequant                   Yaakov Selkowitz
 mingw64-i686-libjpeg-turbo                   Yaakov Selkowitz
 mingw64-i686-libkate                         Yaakov Selkowitz
 mingw64-i686-liblangtag                      Yaakov Selkowitz
@@ -2104,6 +2106,7 @@ mingw64-x86_64-libid3tag                     Yaakov Selkowitz
 mingw64-x86_64-libIDL2                       Yaakov Selkowitz
 mingw64-x86_64-libidn                        Yaakov Selkowitz
 mingw64-x86_64-libidn2                       Yaakov Selkowitz
+mingw64-x86_64-libimagequant                 Yaakov Selkowitz
 mingw64-x86_64-libjpeg-turbo                 Yaakov Selkowitz
 mingw64-x86_64-libkate                       Yaakov Selkowitz
 mingw64-x86_64-liblangtag                    Yaakov Selkowitz

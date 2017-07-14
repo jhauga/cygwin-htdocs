@@ -960,6 +960,7 @@ kde-l10n-zh_CN                               Yaakov Selkowitz
 kde-l10n-zh_TW                               Yaakov Selkowitz
 kde-runtime                                  Yaakov Selkowitz
 kde-workspace                                Yaakov Selkowitz
+kdebugsettings                               Yaakov Selkowitz
 kdecoration2                                 Yaakov Selkowitz
 kdeedu-data                                  Yaakov Selkowitz
 kdegraphics-mobipocket                       Yaakov Selkowitz
@@ -971,10 +972,12 @@ kdesdk-kioslaves                             Yaakov Selkowitz
 kdesdk-thumbnailers                          Yaakov Selkowitz
 kdesvn                                       Yaakov Selkowitz
 kdevplatform                                 Yaakov Selkowitz
-kdewebdev                                    Yaakov Selkowitz
+kdewebdev                                    ORPHANED (Yaakov Selkowitz)
 kdf                                          Yaakov Selkowitz
+kdialog                                      Yaakov Selkowitz
 kdiamond                                     Yaakov Selkowitz
 kdiff3                                       Yaakov Selkowitz
+keditbookmarks                               Yaakov Selkowitz
 keepassx                                     David Stacey
 keybinder                                    Yaakov Selkowitz
 keybinder3.0                                 Yaakov Selkowitz
@@ -983,15 +986,17 @@ kf5-attica                                   Yaakov Selkowitz
 kf5-baloo                                    Yaakov Selkowitz
 kf5-baloo-widgets                            Yaakov Selkowitz
 kf5-frameworkintegration                     Yaakov Selkowitz
-kf5-gpgmepp                                  Yaakov Selkowitz
+kf5-gpgmepp                                  ORPHANED (Yaakov Selkowitz)
 kf5-grantleetheme                            Yaakov Selkowitz
 kf5-kactivities                              Yaakov Selkowitz
 kf5-kactivities-stats                        Yaakov Selkowitz
 kf5-kapidox                                  Yaakov Selkowitz
 kf5-karchive                                 Yaakov Selkowitz
 kf5-kauth                                    Yaakov Selkowitz
+kf5-kblog                                    Yaakov Selkowitz
 kf5-kbookmarks                               Yaakov Selkowitz
 kf5-kcalcore                                 Yaakov Selkowitz
+kf5-kcalutils                                Yaakov Selkowitz
 kf5-kcmutils                                 Yaakov Selkowitz
 kf5-kcodecs                                  Yaakov Selkowitz
 kf5-kcompletion                              Yaakov Selkowitz
@@ -1007,7 +1012,7 @@ kf5-kdelibs4support                          Yaakov Selkowitz
 kf5-kdesignerplugin                          Yaakov Selkowitz
 kf5-kdesu                                    Yaakov Selkowitz
 kf5-kdewebkit                                Yaakov Selkowitz
-kf5-kdgantt2                                 Yaakov Selkowitz
+kf5-kdgantt2                                 ORPHANED (Yaakov Selkowitz)
 kf5-kdnssd                                   Yaakov Selkowitz
 kf5-kdoctools                                Yaakov Selkowitz
 kf5-kemoticons                               Yaakov Selkowitz
@@ -1018,6 +1023,7 @@ kf5-kholidays                                Yaakov Selkowitz
 kf5-khtml                                    Yaakov Selkowitz
 kf5-ki18n                                    Yaakov Selkowitz
 kf5-kiconthemes                              Yaakov Selkowitz
+kf5-kidentitymanagement                      Yaakov Selkowitz
 kf5-kidletime                                Yaakov Selkowitz
 kf5-kimageformats                            Yaakov Selkowitz
 kf5-kimap                                    Yaakov Selkowitz
@@ -1049,12 +1055,14 @@ kf5-krunner                                  Yaakov Selkowitz
 kf5-kservice                                 Yaakov Selkowitz
 kf5-ktexteditor                              Yaakov Selkowitz
 kf5-ktextwidgets                             Yaakov Selkowitz
+kf5-ktnef                                    Yaakov Selkowitz
 kf5-kunitconversion                          Yaakov Selkowitz
 kf5-kwallet                                  Yaakov Selkowitz
 kf5-kwidgetsaddons                           Yaakov Selkowitz
 kf5-kwindowsystem                            Yaakov Selkowitz
 kf5-kxmlgui                                  Yaakov Selkowitz
 kf5-kxmlrpcclient                            Yaakov Selkowitz
+kf5-libkcddb                                 Yaakov Selkowitz
 kf5-libkdcraw                                Yaakov Selkowitz
 kf5-libkdegames                              Yaakov Selkowitz
 kf5-libkexiv2                                Yaakov Selkowitz
@@ -1065,9 +1073,12 @@ kf5-plasma                                   Yaakov Selkowitz
 kf5-prison                                   Yaakov Selkowitz
 kf5-solid                                    Yaakov Selkowitz
 kf5-sonnet                                   Yaakov Selkowitz
+kf5-syndication                              Yaakov Selkowitz
 kf5-syntax-highlighting                      Yaakov Selkowitz
 kf5-threadweaver                             Yaakov Selkowitz
 kfilemetadata                                Yaakov Selkowitz
+kfilereplace                                 Yaakov Selkowitz
+kfind                                        Yaakov Selkowitz
 kfourinline                                  Yaakov Selkowitz
 kgb                                          Jari Aalto
 kgeography                                   Yaakov Selkowitz
@@ -1083,6 +1094,7 @@ kid3                                         Yaakov Selkowitz
 kig                                          Yaakov Selkowitz
 kigo                                         Yaakov Selkowitz
 killbots                                     Yaakov Selkowitz
+kimagemapeditor                              Yaakov Selkowitz
 kinfocenter                                  Yaakov Selkowitz
 kiriki                                       Yaakov Selkowitz
 kiten                                        Yaakov Selkowitz
@@ -1091,6 +1103,7 @@ klavaro                                      Yaakov Selkowitz
 klettres                                     Yaakov Selkowitz
 klickety                                     Yaakov Selkowitz
 klines                                       Yaakov Selkowitz
+klinkstatus                                  Yaakov Selkowitz
 klu                                          Marco Atzeri
 kmag                                         Yaakov Selkowitz
 kmahjongg                                    Yaakov Selkowitz
@@ -2954,6 +2967,7 @@ python-chm                                   Yaakov Selkowitz
 python-clang                                 Yaakov Selkowitz
 python-cloudfiles                            Yaakov Selkowitz
 python-configobj                             Mike DePaulo
+python-constantly                            Yaakov Selkowitz
 python-crypto                                Jari Aalto
 python-cryptography                          Yaakov Selkowitz
 python-cython                                Yaakov Selkowitz
@@ -2981,6 +2995,7 @@ python-htmltmpl                              Yaakov Selkowitz
 python-httplib2                              Yaakov Selkowitz
 python-idna                                  Yaakov Selkowitz
 python-imaging                               Yaakov Selkowitz
+python-incremental                           Yaakov Selkowitz
 python-ipaddr                                Yaakov Selkowitz
 python-ipaddress                             Yaakov Selkowitz
 python-ipython                               Yaakov Selkowitz

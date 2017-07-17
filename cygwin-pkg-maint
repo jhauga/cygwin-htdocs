@@ -114,8 +114,8 @@ aview                                        Jari Aalto
 avogadro                                     Yaakov Selkowitz
 babl                                         Yaakov Selkowitz
 balance                                      Dr. Volker Zell
-baloo                                        Yaakov Selkowitz
-baloo-widgets                                Yaakov Selkowitz
+baloo                                        ORPHANED (Yaakov Selkowitz)
+baloo-widgets                                ORPHANED (Yaakov Selkowitz)
 baobab                                       Yaakov Selkowitz
 base-cygwin                                  Corinna Vinschen
 base-files                                   Achim Gratz
@@ -879,7 +879,7 @@ kapow                                        Yaakov Selkowitz
 kapptemplate                                 Yaakov Selkowitz
 kasumi                                       Yaakov Selkowitz
 kate                                         Yaakov Selkowitz
-kate4                                        Yaakov Selkowitz
+kate4                                        ORPHANED (Yaakov Selkowitz)
 katomic                                      Yaakov Selkowitz
 kblackbox                                    Yaakov Selkowitz
 kblocks                                      Yaakov Selkowitz
@@ -893,7 +893,7 @@ kchmviewer                                   Yaakov Selkowitz
 kcolorchooser                                Yaakov Selkowitz
 kcoloredit                                   Yaakov Selkowitz
 kcron                                        Yaakov Selkowitz
-kde-baseapps                                 Yaakov Selkowitz
+kde-baseapps                                 ORPHANED (Yaakov Selkowitz)
 kde-cli-tools                                Yaakov Selkowitz
 kde-dev-scripts                              Yaakov Selkowitz
 kde-dev-utils                                Yaakov Selkowitz
@@ -1076,7 +1076,7 @@ kf5-sonnet                                   Yaakov Selkowitz
 kf5-syndication                              Yaakov Selkowitz
 kf5-syntax-highlighting                      Yaakov Selkowitz
 kf5-threadweaver                             Yaakov Selkowitz
-kfilemetadata                                Yaakov Selkowitz
+kfilemetadata                                ORPHANED (Yaakov Selkowitz)
 kfilereplace                                 Yaakov Selkowitz
 kfind                                        Yaakov Selkowitz
 kfourinline                                  Yaakov Selkowitz
@@ -1123,7 +1123,7 @@ kompare                                      Yaakov Selkowitz
 konqueror                                    Yaakov Selkowitz
 konquest                                     Yaakov Selkowitz
 konsole                                      Yaakov Selkowitz
-konsole4                                     Yaakov Selkowitz
+konsole4                                     ORPHANED (Yaakov Selkowitz)
 konversation                                 Yaakov Selkowitz
 kpat                                         Yaakov Selkowitz
 kqtquickcharts                               Yaakov Selkowitz

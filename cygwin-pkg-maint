@@ -893,6 +893,7 @@ kchmviewer                                   Yaakov Selkowitz
 kcolorchooser                                Yaakov Selkowitz
 kcoloredit                                   Yaakov Selkowitz
 kcron                                        Yaakov Selkowitz
+kdb3                                         Yaakov Selkowitz
 kde-baseapps                                 ORPHANED (Yaakov Selkowitz)
 kde-cli-tools                                Yaakov Selkowitz
 kde-dev-scripts                              Yaakov Selkowitz
@@ -979,6 +980,7 @@ kdiamond                                     Yaakov Selkowitz
 kdiff3                                       Yaakov Selkowitz
 keditbookmarks                               Yaakov Selkowitz
 keepassx                                     David Stacey
+kexi                                         Yaakov Selkowitz
 keybinder                                    Yaakov Selkowitz
 keybinder3.0                                 Yaakov Selkowitz
 keychain                                     Jari Aalto
@@ -1126,11 +1128,13 @@ konsole                                      Yaakov Selkowitz
 konsole4                                     ORPHANED (Yaakov Selkowitz)
 konversation                                 Yaakov Selkowitz
 kpat                                         Yaakov Selkowitz
+kproperty3                                   Yaakov Selkowitz
 kqtquickcharts                               Yaakov Selkowitz
 krb5                                         Yaakov Selkowitz
 krb5-auth-dialog                             Yaakov Selkowitz
 krdc                                         Yaakov Selkowitz
 krename                                      Yaakov Selkowitz
+kreport3                                     Yaakov Selkowitz
 kreversi                                     Yaakov Selkowitz
 krfb                                         Yaakov Selkowitz
 krita                                        Yaakov Selkowitz

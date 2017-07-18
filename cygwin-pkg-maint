@@ -1301,19 +1301,18 @@ libiodbc                                     Yaakov Selkowitz
 libisocodes                                  Yaakov Selkowitz
 libjpeg-turbo                                Yaakov Selkowitz
 libkate                                      David Rothenberger
-libkcddb                                     Yaakov Selkowitz
-libkdcraw                                    Yaakov Selkowitz
-libkdeedu                                    Yaakov Selkowitz
+libkcddb                                     ORPHANED (Yaakov Selkowitz)
+libkdcraw                                    ORPHANED (Yaakov Selkowitz)
 libkdegames                                  Yaakov Selkowitz
 libkeduvocdocument                           Yaakov Selkowitz
-libkexiv2                                    Yaakov Selkowitz
-libkipi                                      Yaakov Selkowitz
+libkexiv2                                    ORPHANED (Yaakov Selkowitz)
+libkipi                                      ORPHANED (Yaakov Selkowitz)
 libkkc                                       Yaakov Selkowitz
 libkkc-data                                  Yaakov Selkowitz
-libkmahjongg                                 Yaakov Selkowitz
+libkmahjongg                                 ORPHANED (Yaakov Selkowitz)
 libkomparediff2                              Yaakov Selkowitz
 libksba                                      Marco Atzeri
-libkscreen                                   Yaakov Selkowitz
+libkscreen                                   ORPHANED (Yaakov Selkowitz)
 libksysguard                                 Yaakov Selkowitz
 libktorrent                                  Yaakov Selkowitz
 liblangtag                                   Yaakov Selkowitz

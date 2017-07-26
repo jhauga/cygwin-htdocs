@@ -3029,6 +3029,7 @@ python-orbit                                 Yaakov Selkowitz
 python-packaging                             Yaakov Selkowitz
 python-paramiko                              Jari Aalto
 python-pathlib2                              Yaakov Selkowitz
+python-pbr                                   Yaakov Selkowitz
 python-pexpect                               Yaakov Selkowitz
 python-pickleshare                           Yaakov Selkowitz
 python-pip                                   Yaakov Selkowitz

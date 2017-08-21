@@ -2567,6 +2567,7 @@ perl-Carp                                    Achim Gratz
 perl-CGI                                     Achim Gratz/Yaakov Selkowitz
 perl-Class-Accessor                          Achim Gratz
 perl-Class-Data-Inheritable                  Achim Gratz
+perl-Class-Factory-Util                      Achim Gratz/Ken Brown
 perl-Class-Inspector                         Achim Gratz
 perl-Class-Singleton                         Achim Gratz/Yaakov Selkowitz
 perl-Class-Tiny                              Achim Gratz
@@ -2603,6 +2604,9 @@ perl-Data-UUID                               Achim Gratz
 perl-Date-Manip                              Achim Gratz/Yaakov Selkowitz
 perl-Date-Simple                             Achim Gratz/Ken Brown
 perl-DateTime                                Achim Gratz/Yaakov Selkowitz
+perl-DateTime-Calendar-Julian                Achim Gratz/Ken Brown
+perl-DateTime-Format-Builder                 Achim Gratz/Ken Brown
+perl-DateTime-Format-Strptime                Achim Gratz/Ken Brown
 perl-DateTime-Locale                         Achim Gratz/Yaakov Selkowitz
 perl-DateTime-TimeZone                       Achim Gratz/Yaakov Selkowitz
 perl-DBD-mysql                               Achim Gratz/Yaakov Selkowitz
@@ -2758,6 +2762,7 @@ perl-Net-XMPP                                Achim Gratz
 perl-Number-Compare                          Achim Gratz/Ken Brown
 perl-Object-Realize-Later                    Achim Gratz
 perl-OpenGL                                  Yaakov Selkowitz
+perl-Package-DeprecationManager              Achim Gratz/Ken Brown
 perl-Package-Stash                           Achim Gratz
 perl-Package-Stash-XS                        Achim Gratz
 perl-PadWalker                               Achim Gratz
@@ -2772,6 +2777,7 @@ perl-Parse-CPAN-Meta                         Achim Gratz
 perl-Parse-RecDescent                        Achim Gratz
 perl-Path-Class                              Achim Gratz
 perl-Path-Tiny                               Achim Gratz
+perl-PerlIO-utf8_strict                      Achim Gratz/Ken Brown
 perl-Pod-Coverage                            Achim Gratz
 perl-Pod-Escapes                             Achim Gratz
 perl-Pod-Simple                              Achim Gratz
@@ -2787,6 +2793,7 @@ perl-Scope-Guard                             Achim Gratz
 perl-SGMLSpm                                 Yaakov Selkowitz
 perl-Socket                                  Achim Gratz/Yaakov Selkowitz
 perl-Socket6                                 Achim Gratz
+perl-Sort-Key                                Achim Gratz/Ken Brown
 perl-Specio                                  Achim Gratz
 perl-Spiffy                                  Achim Gratz
 perl-Sub-Exporter                            Achim Gratz

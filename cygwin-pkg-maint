@@ -278,7 +278,7 @@ cppcheck                                     David Stacey
 cppi                                         Eric Blake
 cppunit                                      Yaakov Selkowitz
 cron                                         Pierre A. Humblet
-crypt                                        Corinna Vinschen
+crypt                                        Corinna Vinschen/Yaakov Selkowitz
 cscope                                       Jari Aalto
 csih                                         Corinna Vinschen
 ctags                                        Frank Fesevur/Warren Young

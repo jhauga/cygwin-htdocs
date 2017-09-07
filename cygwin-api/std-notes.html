@@ -51,7 +51,8 @@ return -1 and set errno to ENOSYS.  <code class="function">grantpt</code> and
 available when cygserver is running.</p><p>The Linux-specific function <code class="function">quotactl</code> only implements
 what works on Windows:  Windows only supports user block quotas on NTFS, no
 group quotas, no inode quotas, no time constraints.</p><p><code class="function">qsort_r</code> is available in both BSD and GNU flavors,
-depending on whether _BSD_SOURCE or _GNU_SOURCE is defined when compiling.</p><p><code class="function">basename</code> is available in both POSIX and GNU flavors,
+depending on whether _BSD_SOURCE or _GNU_SOURCE is defined when compiling.</p><p>The Linux-specific function <code class="function">renameat2</code> only
+supports the RENAME_NOREPLACE flag.</p><p><code class="function">basename</code> is available in both POSIX and GNU flavors,
 depending on whether libgen.h is included or not.</p><p><code class="function">sigpause</code> is available in both BSD and SysV/XSI
 flavors, depending on whether _XOPEN_SOURCE is defined when compiling.</p><p><code class="function">strerror_r</code> is available in both POSIX and GNU
 flavors, depending on whether _GNU_SOURCE is defined when compiling.</p><p><code class="function">dladdr</code> always sets the Dl_info members dli_sname and

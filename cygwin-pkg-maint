@@ -721,10 +721,8 @@ gtk2.0-engines                               Yaakov Selkowitz
 gtk2.0-engines-murrine                       Yaakov Selkowitz
 gtk2.0-engines-smooth                        Yaakov Selkowitz
 gtk3                                         Yaakov Selkowitz
-gtk3-engines-unico                           Yaakov Selkowitz
 gtkglarea2.0                                 Yaakov Selkowitz
 gtkglext1.0                                  Yaakov Selkowitz
-gtkhtml4.0                                   Yaakov Selkowitz
 gtkimageview                                 Yaakov Selkowitz
 gtkmathview                                  Yaakov Selkowitz
 gtkmm2.4                                     Yaakov Selkowitz
@@ -1016,7 +1014,6 @@ kf5-kdelibs4support                          Yaakov Selkowitz
 kf5-kdesignerplugin                          Yaakov Selkowitz
 kf5-kdesu                                    Yaakov Selkowitz
 kf5-kdewebkit                                Yaakov Selkowitz
-kf5-kdgantt2                                 ORPHANED (Yaakov Selkowitz)
 kf5-kdnssd                                   Yaakov Selkowitz
 kf5-kdoctools                                Yaakov Selkowitz
 kf5-kemoticons                               Yaakov Selkowitz
@@ -1335,7 +1332,6 @@ libmatemixer                                 Yaakov Selkowitz
 libmateweather                               Yaakov Selkowitz
 libmatroska                                  David Stacey
 libmcrypt                                    Dr. Volker Zell
-libmediaart1.0                               Yaakov Selkowitz
 libmediaart2.0                               Yaakov Selkowitz
 libmediainfo                                 Yaakov Selkowitz
 libmetalink                                  Yaakov Selkowitz
@@ -1437,7 +1433,6 @@ libwnck                                      Yaakov Selkowitz
 libwnck3                                     Yaakov Selkowitz
 libwpd0.10                                   Yaakov Selkowitz
 libwpg0.3                                    Yaakov Selkowitz
-libwps0.3                                    ORPHANED (Yaakov Selkowitz)
 libwps0.4                                    Yaakov Selkowitz
 libX11                                       Yaakov Selkowitz
 libXau                                       Yaakov Selkowitz
@@ -1582,7 +1577,6 @@ mate-calc                                    Yaakov Selkowitz
 mate-common                                  Yaakov Selkowitz
 mate-control-center                          Yaakov Selkowitz
 mate-desktop                                 Yaakov Selkowitz
-mate-dialogs                                 ORPHANED (Yaakov Selkowitz)
 mate-icon-theme                              Yaakov Selkowitz
 mate-indicator-applet                        Yaakov Selkowitz
 mate-media                                   Yaakov Selkowitz
@@ -1711,8 +1705,6 @@ mingw64-i686-gtk-vnc                         Yaakov Selkowitz
 mingw64-i686-gtk2.0                          Yaakov Selkowitz
 mingw64-i686-gtk3                            Yaakov Selkowitz
 mingw64-i686-gtkglext1.0                     Yaakov Selkowitz
-mingw64-i686-gtkhtml3.14                     Yaakov Selkowitz
-mingw64-i686-gtkhtml4.0                      Yaakov Selkowitz
 mingw64-i686-gtkmm2.4                        Yaakov Selkowitz
 mingw64-i686-gtkmm3.0                        Yaakov Selkowitz
 mingw64-i686-gtksourceview2.0                Yaakov Selkowitz
@@ -1842,7 +1834,6 @@ mingw64-i686-libwebp                         Yaakov Selkowitz
 mingw64-i686-libwmf                          Yaakov Selkowitz
 mingw64-i686-libwpd0.10                      Yaakov Selkowitz
 mingw64-i686-libwpg0.3                       Yaakov Selkowitz
-mingw64-i686-libwps0.3                       ORPHANED (Yaakov Selkowitz)
 mingw64-i686-libwps0.4                       Yaakov Selkowitz
 mingw64-i686-libxml++2.6                     Yaakov Selkowitz
 mingw64-i686-libxml2                         Yaakov Selkowitz
@@ -2046,8 +2037,6 @@ mingw64-x86_64-gtk-vnc                       Yaakov Selkowitz
 mingw64-x86_64-gtk2.0                        Yaakov Selkowitz
 mingw64-x86_64-gtk3                          Yaakov Selkowitz
 mingw64-x86_64-gtkglext1.0                   Yaakov Selkowitz
-mingw64-x86_64-gtkhtml3.14                   Yaakov Selkowitz
-mingw64-x86_64-gtkhtml4.0                    Yaakov Selkowitz
 mingw64-x86_64-gtkmm2.4                      Yaakov Selkowitz
 mingw64-x86_64-gtkmm3.0                      Yaakov Selkowitz
 mingw64-x86_64-gtksourceview2.0              Yaakov Selkowitz
@@ -2177,7 +2166,6 @@ mingw64-x86_64-libwebp                       Yaakov Selkowitz
 mingw64-x86_64-libwmf                        Yaakov Selkowitz
 mingw64-x86_64-libwpd0.10                    Yaakov Selkowitz
 mingw64-x86_64-libwpg0.3                     Yaakov Selkowitz
-mingw64-x86_64-libwps0.3                     ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-libwps0.4                     Yaakov Selkowitz
 mingw64-x86_64-libxml++2.6                   Yaakov Selkowitz
 mingw64-x86_64-libxml2                       Yaakov Selkowitz

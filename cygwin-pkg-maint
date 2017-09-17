@@ -2622,9 +2622,11 @@ perl-Eval-Closure                            Achim Gratz
 perl-Exception-Class                         Achim Gratz
 perl-Exporter-Tiny                           Achim Gratz
 perl-ExtUtils-CBuilder                       Achim Gratz
+perl-ExtUtils-Config                         Achim Gratz
 perl-ExtUtils-Depends                        Achim Gratz/Yaakov Selkowitz
 perl-ExtUtils-F77                            Achim Gratz
 perl-ExtUtils-Helpers                        Achim Gratz
+perl-ExtUtils-InstallPaths                   Achim Gratz
 perl-ExtUtils-LibBuilder                     Achim Gratz/Ken Brown
 perl-ExtUtils-MakeMaker                      Achim Gratz
 perl-ExtUtils-PkgConfig                      Achim Gratz/Yaakov Selkowitz
@@ -2728,6 +2730,7 @@ perl-MIME-tools                              Achim Gratz/Yaakov Selkowitz
 perl-MIME-Types                              Achim Gratz
 perl-Mock-Config                             Achim Gratz
 perl-Module-Build                            Achim Gratz
+perl-Module-Build-Tiny                       Achim Gratz
 perl-Module-Implementation                   Achim Gratz/Yaakov Selkowitz
 perl-Module-Load-Conditional                 Achim Gratz
 perl-Module-Metadata                         Achim Gratz

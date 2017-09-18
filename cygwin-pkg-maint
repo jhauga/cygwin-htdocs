@@ -3175,6 +3175,7 @@ rsync                                        Jari Aalto
 rtf2html-htdig                               Jari Aalto
 rtorrent                                     Marco Atzeri
 ruby                                         Yaakov Selkowitz
+ruby-actioncable                             Yaakov Selkowitz
 ruby-actionmailer                            Yaakov Selkowitz
 ruby-actionpack                              Yaakov Selkowitz
 ruby-actionview                              Yaakov Selkowitz
@@ -3201,10 +3202,12 @@ ruby-coffee-rails                            Yaakov Selkowitz
 ruby-coffee-script                           Yaakov Selkowitz
 ruby-coffee-script-source                    Yaakov Selkowitz
 ruby-columnize                               Yaakov Selkowitz
+ruby-concurrent-ruby                         Yaakov Selkowitz
 ruby-curses                                  Yaakov Selkowitz
 ruby-dbus                                    Yaakov Selkowitz
 ruby-debug_inspector                         Yaakov Selkowitz
 ruby-did_you_mean                            Yaakov Selkowitz
+ruby-erubi                                   Yaakov Selkowitz
 ruby-erubis                                  Yaakov Selkowitz
 ruby-execjs                                  Yaakov Selkowitz
 ruby-gdk3                                    Yaakov Selkowitz
@@ -3239,13 +3242,16 @@ ruby-locale                                  Yaakov Selkowitz
 ruby-loofah                                  Yaakov Selkowitz
 ruby-mail                                    Yaakov Selkowitz
 ruby-marc                                    Yaakov Selkowitz
+ruby-method_source                           Yaakov Selkowitz
 ruby-mime-types                              Yaakov Selkowitz
+ruby-mime-types-data                         Yaakov Selkowitz
 ruby-minitest                                Yaakov Selkowitz
 ruby-molinillo                               Yaakov Selkowitz
 ruby-multi_json                              Yaakov Selkowitz
 ruby-mysql2                                  Yaakov Selkowitz
 ruby-net-http-persistent                     Yaakov Selkowitz
 ruby-net-telnet                              Yaakov Selkowitz
+ruby-nio4r                                   Yaakov Selkowitz
 ruby-nokogiri                                Yaakov Selkowitz
 ruby-oj                                      Yaakov Selkowitz
 ruby-openssl                                 Yaakov Selkowitz
@@ -3256,6 +3262,7 @@ ruby-polyglot                                Yaakov Selkowitz
 ruby-poppler                                 Yaakov Selkowitz
 ruby-power_assert                            Yaakov Selkowitz
 ruby-psych                                   Yaakov Selkowitz
+ruby-puma                                    Yaakov Selkowitz
 ruby-puppet-lint                             David Stacey
 ruby-racc                                    Yaakov Selkowitz
 ruby-rack                                    Yaakov Selkowitz
@@ -3290,6 +3297,7 @@ ruby-timers                                  Yaakov Selkowitz
 ruby-tk                                      Yaakov Selkowitz
 ruby-treetop                                 Yaakov Selkowitz
 ruby-turbolinks                              Yaakov Selkowitz
+ruby-turbolinks-source                       Yaakov Selkowitz
 ruby-tzinfo                                  Yaakov Selkowitz
 ruby-uglifier                                Yaakov Selkowitz
 ruby-unicorn                                 Yaakov Selkowitz
@@ -3298,6 +3306,8 @@ ruby-vte3                                    Yaakov Selkowitz
 ruby-web-console                             Yaakov Selkowitz
 ruby-webkit-gtk                              Yaakov Selkowitz
 ruby-webkit-gtk2                             Yaakov Selkowitz
+ruby-websocket-driver                        Yaakov Selkowitz
+ruby-websocket-extensions                    Yaakov Selkowitz
 ruby-xmlrpc                                  Yaakov Selkowitz
 ruby-yajl                                    Yaakov Selkowitz
 ruby-zoom                                    Yaakov Selkowitz

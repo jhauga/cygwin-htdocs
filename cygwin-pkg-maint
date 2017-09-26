@@ -2760,7 +2760,7 @@ perl-PadWalker                               Achim Gratz
 perl-Pango                                   Yaakov Selkowitz
 perl-PAR                                     Achim Gratz/Yaakov Selkowitz
 perl-PAR-Dist                                Achim Gratz/Yaakov Selkowitz
-perl-PAR-Packer                              Yaakov Selkowitz
+perl-PAR-Packer                              Ken Brown
 perl-Params-Util                             Achim Gratz/Yaakov Selkowitz
 perl-Params-Validate                         Achim Gratz/Yaakov Selkowitz
 perl-Params-ValidationCompiler               Achim Gratz

@@ -3,7 +3,7 @@
 4ti2                                         Yue Ren/Marco Atzeri
 a2ps                                         Yaakov Selkowitz
 a52dec                                       Yaakov Selkowitz
-aalib                                        Dr. Volker Zell
+aalib                                        ORPHANED (Dr. Volker Zell)
 abiword                                      Yaakov Selkowitz
 abiword-docs                                 Yaakov Selkowitz
 abook                                        Jari Aalto
@@ -54,10 +54,10 @@ artwiz-aleczapka-fonts                       Yaakov Selkowitz
 ascii                                        Yaakov Selkowitz
 asciidoc                                     ORPHANED (Eric Blake)
 asciinema                                    Yaakov Selkowitz
-aspell                                       Dr. Volker Zell
+aspell                                       ORPHANED (Dr. Volker Zell)
 aspell-ar                                    Yaakov Selkowitz
 aspell-bn                                    Yaakov Selkowitz
-aspell-de                                    Dr. Volker Zell
+aspell-de                                    ORPHANED (Dr. Volker Zell)
 aspell-en                                    Yaakov Selkowitz
 aspell-es                                    Yaakov Selkowitz
 aspell-fr                                    Yaakov Selkowitz
@@ -65,11 +65,11 @@ aspell-he                                    Yaakov Selkowitz
 aspell-hi                                    Yaakov Selkowitz
 aspell-it                                    Yaakov Selkowitz
 aspell-pa                                    Yaakov Selkowitz
-aspell-pl                                    Dr. Volker Zell
+aspell-pl                                    ORPHANED (Dr. Volker Zell)
 aspell-pt_BR                                 Yaakov Selkowitz
 aspell-pt_PT                                 Yaakov Selkowitz
 aspell-ru                                    Yaakov Selkowitz
-aspell-sv                                    Dr. Volker Zell
+aspell-sv                                    ORPHANED (Dr. Volker Zell)
 aspell-vi                                    Yaakov Selkowitz
 aspell-yi                                    Yaakov Selkowitz
 astyle                                       ORPHANED (Chris Sutcliffe)
@@ -114,7 +114,7 @@ avahi                                        Yaakov Selkowitz
 aview                                        Jari Aalto
 avogadro                                     Yaakov Selkowitz
 babl                                         Yaakov Selkowitz
-balance                                      Dr. Volker Zell
+balance                                      ORPHANED (Dr. Volker Zell)
 baloo                                        ORPHANED (Yaakov Selkowitz)
 baloo-widgets                                ORPHANED (Yaakov Selkowitz)
 baobab                                       Yaakov Selkowitz
@@ -150,7 +150,7 @@ breeze-gtk                                   Yaakov Selkowitz
 breeze-icons                                 Yaakov Selkowitz
 bsdiff                                       Marco Atzeri
 bsfilter                                     Jari Aalto
-bsflite                                      Dr. Volker Zell
+bsflite                                      ORPHANED (Dr. Volker Zell)
 btf                                          Marco Atzeri
 build-docbook-catalog                        Yaakov Selkowitz
 buildbot-slave                               Jon Turney
@@ -164,7 +164,7 @@ bzr-fastimport                               Ken Brown
 c-ares                                       Yaakov Selkowitz
 ca-certificates                              Yaakov Selkowitz
 cabextract                                   Stuart Caie
-cadaver                                      Dr. Volker Zell
+cadaver                                      ORPHANED (Dr. Volker Zell)
 cairo                                        Yaakov Selkowitz
 cairomm1.0                                   Yaakov Selkowitz
 caja                                         Yaakov Selkowitz
@@ -262,7 +262,7 @@ cogl                                         Yaakov Selkowitz
 colamd                                       Marco Atzeri
 colordiff                                    ORPHANED (Kostya Altukhov)
 colorgcc                                     Jari Aalto
-compface                                     Dr. Volker Zell
+compface                                     ORPHANED (Dr. Volker Zell)
 compositeproto                               Yaakov Selkowitz
 connect-proxy                                Marco Atzeri
 connectagram                                 Yaakov Selkowitz
@@ -332,9 +332,9 @@ damageproto                                  Yaakov Selkowitz
 dash                                         Eric Blake
 datefudge                                    Yaakov Selkowitz
 dateutils                                    Yaakov Selkowitz
-db                                           Dr. Volker Zell
-db4.5                                        Dr. Volker Zell
-db4.8                                        Dr. Volker Zell
+db                                           ORPHANED (Dr. Volker Zell)
+db4.5                                        ORPHANED (Dr. Volker Zell)
+db4.8                                        ORPHANED (Dr. Volker Zell)
 dblatex                                      Yaakov Selkowitz
 dbus                                         Yaakov Selkowitz
 dbus-glib                                    Yaakov Selkowitz
@@ -417,7 +417,7 @@ empathy                                      Yaakov Selkowitz
 enca                                         Yaakov Selkowitz
 enchant                                      Yaakov Selkowitz
 engrampa                                     Yaakov Selkowitz
-enscript                                     Dr. Volker Zell
+enscript                                     ORPHANED (Dr. Volker Zell)
 eog                                          Yaakov Selkowitz
 eog-plugins                                  Yaakov Selkowitz
 eom                                          Yaakov Selkowitz
@@ -458,7 +458,7 @@ feh                                          Yaakov Selkowitz
 fetchmail                                    Corinna Vinschen
 ffcall                                       Ken Brown
 fftw3                                        Marco Atzeri
-fig2dev                                      Dr. Volker Zell
+fig2dev                                      ORPHANED (Dr. Volker Zell)
 figlet                                       Jari Aalto
 file                                         Corinna Vinschen/Yaakov Selkowitz
 file-roller                                  Yaakov Selkowitz
@@ -494,7 +494,7 @@ fortune-mod                                  Yitzchak Scott-Thoennes
 fossil                                       Jari Aalto
 four-in-a-row                                Yaakov Selkowitz
 free42                                       Yaakov Selkowitz
-freeglut                                     Dr. Volker Zell
+freeglut                                     ORPHANED (Dr. Volker Zell)
 freerdp                                      Yaakov Selkowitz
 freerdp1.2                                   Yaakov Selkowitz
 freetds                                      Yaakov Selkowitz
@@ -522,7 +522,7 @@ GConf2                                       Yaakov Selkowitz
 gconfmm2.6                                   Yaakov Selkowitz
 gcovr                                        David Stacey
 gcr                                          Yaakov Selkowitz
-gd                                           Dr. Volker Zell/Yaakov Selkowitz
+gd                                           ORPHANED (Dr. Volker Zell)
 gdal                                         Marco Atzeri
 gdb                                          Corinna Vinschen/Yaakov Selkowitz/Jon Turney
 gdbm                                         Yaakov Selkowitz
@@ -547,9 +547,9 @@ getmail                                      Jari Aalto
 gettext                                      Yaakov Selkowitz
 gfbgraph0.2                                  Yaakov Selkowitz
 ghex                                         Yaakov Selkowitz
-ghostscript                                  Dr. Volker Zell
-ghostscript-fonts-other                      Dr. Volker Zell
-ghostscript-fonts-std                        Dr. Volker Zell
+ghostscript                                  ORPHANED (Dr. Volker Zell)
+ghostscript-fonts-other                      ORPHANED (Dr. Volker Zell)
+ghostscript-fonts-std                        ORPHANED (Dr. Volker Zell)
 gif2apng                                     Jari Aalto
 giflib                                       Yaakov Selkowitz
 gigolo                                       Yaakov Selkowitz
@@ -649,7 +649,7 @@ gnome-weather                                Yaakov Selkowitz
 gnome-xcf-thumbnailer                        Yaakov Selkowitz
 gnome2048                                    Yaakov Selkowitz
 gnu-free-fonts                               Yaakov Selkowitz
-gnubg                                        Dr. Volker Zell
+gnubg                                        ORPHANED (Dr. Volker Zell)
 gnucap                                       Achim Gratz
 gnucash                                      Yaakov Selkowitz
 gnucash-docs                                 Yaakov Selkowitz
@@ -658,8 +658,8 @@ gnugo                                        ORPHANED
 gnumeric                                     Yaakov Selkowitz
 gnupg                                        Marco Atzeri
 gnupg2                                       Marco Atzeri
-gnuplot                                      Dr. Volker Zell
-gnutls                                       Dr. Volker Zell/Yaakov Selkowitz
+gnuplot                                      ORPHANED (Dr. Volker Zell)
+gnutls                                       Yaakov Selkowitz
 gob2                                         Yaakov Selkowitz
 gobby                                        Yaakov Selkowitz
 gobby0.5                                     Yaakov Selkowitz
@@ -679,7 +679,7 @@ gpaste                                       Yaakov Selkowitz
 gperf                                        Eric Blake
 gpgme                                        Yaakov Selkowitz
 gpicview                                     Yaakov Selkowitz
-gq                                           Dr. Volker Zell
+gq                                           ORPHANED (Dr. Volker Zell)
 grace                                        Yaakov Selkowitz
 granatier                                    Yaakov Selkowitz
 grantlee                                     Yaakov Selkowitz
@@ -741,7 +741,7 @@ gucharmap                                    Yaakov Selkowitz
 guile                                        Marco Atzeri
 guile1.8                                     Marco Atzeri
 guilt                                        Jari Aalto
-gv                                           Dr. Volker Zell
+gv                                           ORPHANED (Dr. Volker Zell)
 gvfs                                         Yaakov Selkowitz
 gweled                                       Yaakov Selkowitz
 gwenhywfar                                   Yaakov Selkowitz
@@ -763,13 +763,13 @@ highlight                                    Yaakov Selkowitz
 hitori                                       Yaakov Selkowitz
 homebank                                     Yaakov Selkowitz
 hostname                                     Christian Franke
-hp2xx                                        Dr. Volker Zell
+hp2xx                                        ORPHANED (Dr. Volker Zell)
 hspell                                       Yaakov Selkowitz
 html2ps                                      Yaakov Selkowitz
 htmldoc                                      Yaakov Selkowitz
 httpd                                        Yaakov Selkowitz
 httpd-mod_dnssd                              Yaakov Selkowitz
-httperf                                      Dr. Volker Zell
+httperf                                      ORPHANED (Dr. Volker Zell)
 httpie                                       Yaakov Selkowitz
 httping                                      Jari Aalto
 httptunnel                                   Jari Aalto
@@ -834,7 +834,7 @@ indicator-application                        Yaakov Selkowitz
 indicator-application-gtk2                   Yaakov Selkowitz
 indicator-keylock                            Yaakov Selkowitz
 inetutils                                    ORPHANED (Charles Wilson)
-initscripts                                  Dr. Volker Zell
+initscripts                                  ORPHANED (Dr. Volker Zell)
 inkscape                                     Yaakov Selkowitz
 input-pad                                    Yaakov Selkowitz
 inputproto                                   Yaakov Selkowitz
@@ -851,10 +851,10 @@ iso-codes                                    Yaakov Selkowitz
 isomaster                                    Christian Franke
 isoquery                                     Yaakov Selkowitz
 itstool                                      Yaakov Selkowitz
-jasper                                       Dr. Volker Zell/Yaakov Selkowitz
+jasper                                       Yaakov Selkowitz
 jbig2dec                                     Yaakov Selkowitz
 jbigkit                                      Yaakov Selkowitz
-jgraph                                       Dr. Volker Zell
+jgraph                                       ORPHANED (Dr. Volker Zell)
 jlint                                        Jari Aalto
 joe                                          Jari Aalto
 jovie                                        Yaakov Selkowitz
@@ -1181,8 +1181,8 @@ latex2rtf                                    Yaakov Selkowitz
 latexila                                     Yaakov Selkowitz
 laughlin-backgrounds                         Yaakov Selkowitz
 lcab                                         Jari Aalto
-lcms                                         Dr. Volker Zell
-lcms2                                        Dr. Volker Zell
+lcms                                         ORPHANED (Dr. Volker Zell)
+lcms2                                        ORPHANED (Dr. Volker Zell)
 ldl                                          Marco Atzeri
 leafpad                                      Yaakov Selkowitz
 lensfun                                      Yaakov Selkowitz
@@ -1225,7 +1225,7 @@ libdbi                                       Yaakov Selkowitz
 libdbi-drivers                               Yaakov Selkowitz
 libdbusmenu                                  Yaakov Selkowitz
 libdbusmenu-qt                               Yaakov Selkowitz
-libdiscid                                    Dr. Volker Zell
+libdiscid                                    ORPHANED (Dr. Volker Zell)
 libdmapsharing3.0                            Yaakov Selkowitz
 libdmtx                                      Yaakov Selkowitz
 libdmx                                       Yaakov Selkowitz
@@ -1236,7 +1236,7 @@ libe-book0.1                                 Yaakov Selkowitz
 libebml                                      David Stacey
 libedit                                      Corinna Vinschen
 libelf                                       Yaakov Selkowitz
-libEMF                                       Dr. Volker Zell
+libEMF                                       ORPHANED (Dr. Volker Zell)
 libeot                                       Yaakov Selkowitz
 libepoxy                                     Yaakov Selkowitz
 libepubgen0.0                                Yaakov Selkowitz
@@ -1253,7 +1253,7 @@ libfilezilla                                 Yaakov Selkowitz
 libfm                                        Yaakov Selkowitz
 libfm-qt                                     Yaakov Selkowitz
 libfontenc                                   Yaakov Selkowitz
-libfpx                                       Dr. Volker Zell
+libfpx                                       ORPHANED (Dr. Volker Zell)
 libfreehand0.1                               Yaakov Selkowitz
 libFS                                        Yaakov Selkowitz
 libftdi1                                     Ake Rehnman
@@ -1296,7 +1296,7 @@ libICE                                       Yaakov Selkowitz
 libiconv                                     Yaakov Selkowitz
 libid3tag                                    Yaakov Selkowitz
 libIDL2                                      Yaakov Selkowitz
-libidn                                       Dr. Volker Zell/Yaakov Selkowitz
+libidn                                       Yaakov Selkowitz
 libidn2                                      Yaakov Selkowitz
 libimagequant                                Yaakov Selkowitz
 libindicator                                 Yaakov Selkowitz
@@ -1324,19 +1324,19 @@ libLASi                                      Yaakov Selkowitz
 liblqr1                                      Yaakov Selkowitz
 liblrdf                                      Yaakov Selkowitz
 liblxqt                                      Yaakov Selkowitz
-liblzo2                                      Dr. Volker Zell
+liblzo2                                      ORPHANED (Dr. Volker Zell)
 libmad                                       Yaakov Selkowitz
 libmangle                                    Jonathan Yong
 libmatekbd                                   Yaakov Selkowitz
 libmatemixer                                 Yaakov Selkowitz
 libmateweather                               Yaakov Selkowitz
 libmatroska                                  David Stacey
-libmcrypt                                    Dr. Volker Zell
+libmcrypt                                    ORPHANED (Dr. Volker Zell)
 libmediaart2.0                               Yaakov Selkowitz
 libmediainfo                                 Yaakov Selkowitz
 libmetalink                                  Yaakov Selkowitz
 libmikmod                                    Yaakov Selkowitz
-libmng                                       Dr. Volker Zell
+libmng                                       ORPHANED (Dr. Volker Zell)
 libmodplug                                   Yaakov Selkowitz
 libmpd                                       Yaakov Selkowitz
 libmpdclient                                 Yaakov Selkowitz
@@ -1392,7 +1392,7 @@ libsigc2.0                                   Yaakov Selkowitz
 libsigsegv                                   Eric Blake
 libskk                                       Yaakov Selkowitz
 libSM                                        Yaakov Selkowitz
-libsmi                                       Dr. Volker Zell
+libsmi                                       ORPHANED (Dr. Volker Zell)
 libsndfile                                   Yaakov Selkowitz
 libsodium                                    Yaakov Selkowitz
 libsolv                                      Jon Turney
@@ -1403,7 +1403,7 @@ libssh                                       Yaakov Selkowitz
 libssh2                                      Yaakov Selkowitz
 libstaroffice0.0                             Yaakov Selkowitz
 libstatgrab                                  Yaakov Selkowitz
-libtasn1                                     Dr. Volker Zell/Yaakov Selkowitz
+libtasn1                                     Yaakov Selkowitz
 libthai                                      Yaakov Selkowitz
 libtheora                                    David Rothenberger
 libtiger                                     Yaakov Selkowitz
@@ -1428,7 +1428,7 @@ libvoikko                                    Yaakov Selkowitz
 libvorbis                                    David Rothenberger
 libvpx                                       Yaakov Selkowitz
 libwebp                                      Yaakov Selkowitz
-libwmf                                       Dr. Volker Zell
+libwmf                                       ORPHANED (Dr. Volker Zell)
 libwnck                                      Yaakov Selkowitz
 libwnck3                                     Yaakov Selkowitz
 libwpd0.10                                   Yaakov Selkowitz
@@ -1552,7 +1552,7 @@ lyx                                          Marco Atzeri
 lz4                                          Yaakov Selkowitz
 lzip                                         Jonathan Yong
 lziprecover                                  Jonathan Yong
-lzo2                                         Dr. Volker Zell
+lzo2                                         ORPHANED (Dr. Volker Zell)
 lzop                                         Jari Aalto
 m17n-db                                      Yaakov Selkowitz
 m17n-lib                                     Yaakov Selkowitz
@@ -1597,7 +1597,7 @@ mbedtls                                      Andy Li
 mboxcheck                                    Jari Aalto
 mc                                           Marco Atzeri
 mcpp                                         Yaakov Selkowitz
-mcrypt                                       Dr. Volker Zell
+mcrypt                                       ORPHANED (Dr. Volker Zell)
 md5deep                                      Achim Gratz
 mdbtools                                     Yaakov Selkowitz
 mdds1.2                                      Yaakov Selkowitz
@@ -1618,7 +1618,7 @@ micro-httpd                                  Jari Aalto
 midori                                       Yaakov Selkowitz
 milou                                        Yaakov Selkowitz
 mined                                        Thomas Wolff
-ming                                         Dr. Volker Zell
+ming                                         ORPHANED (Dr. Volker Zell)
 mingw64-i686-a52dec                          Yaakov Selkowitz
 mingw64-i686-aalib                           Yaakov Selkowitz
 mingw64-i686-adwaita-icon-theme              Yaakov Selkowitz
@@ -2309,7 +2309,7 @@ mscgen                                       David Stacey
 msitools                                     Jon Turney
 msmtp                                        Jari Aalto
 mt                                           Corinna Vinschen
-multitail                                    Dr. Volker Zell
+multitail                                    ORPHANED (Dr. Volker Zell)
 muparser                                     Yaakov Selkowitz
 musepack                                     Yaakov Selkowitz
 mutt                                         Marco Atzeri
@@ -2332,14 +2332,14 @@ ncurses                                      Yaakov Selkowitz
 ncview                                       Marco Atzeri
 nedit                                        Yaakov Selkowitz
 neko                                         Andy Li
-neon                                         Dr. Volker Zell
+neon                                         ORPHANED (Dr. Volker Zell)
 net-snmp                                     David Rothenberger
 net6                                         Yaakov Selkowitz
 netcdf                                       Marco Atzeri
 netcdf-cxx4                                  Marco Atzeri
 netcdf-fortran                               Marco Atzeri
 netpbm                                       Yaakov Selkowitz
-nettle                                       Dr. Volker Zell/Yaakov Selkowitz
+nettle                                       Yaakov Selkowitz
 newmail                                      Jari Aalto
 nfrotz                                       Jon Turney
 nfs-server                                   Yaakov Selkowitz
@@ -2470,7 +2470,7 @@ openal                                       Yaakov Selkowitz
 openbabel                                    Yaakov Selkowitz
 openblas                                     Marco Atzeri
 openbox                                      Yaakov Selkowitz
-opencdk                                      Dr. Volker Zell
+opencdk                                      ORPHANED (Dr. Volker Zell)
 OpenColorIO                                  Yaakov Selkowitz
 opencv                                       Yaakov Selkowitz
 openexr                                      Yaakov Selkowitz
@@ -2479,7 +2479,7 @@ openexr_viewers                              Yaakov Selkowitz
 openjade                                     Yaakov Selkowitz
 openjpeg                                     Yaakov Selkowitz
 openjpeg2                                    Yaakov Selkowitz
-openldap                                     Dr. Volker Zell
+openldap                                     ORPHANED (Dr. Volker Zell)
 openmpi                                      Marco Atzeri
 OpenSP                                       Yaakov Selkowitz
 openssh                                      Corinna Vinschen
@@ -2505,7 +2505,7 @@ oxygen-icons                                 Yaakov Selkowitz
 p11-kit                                      Yaakov Selkowitz
 p7zip                                        Tony Kelman
 pairs                                        Yaakov Selkowitz
-pakchois                                     Dr. Volker Zell
+pakchois                                     ORPHANED (Dr. Volker Zell)
 pal                                          ORPHANED (Jari Aalto)
 palapeli                                     Yaakov Selkowitz
 paman                                        Yaakov Selkowitz
@@ -2890,7 +2890,7 @@ php-jsonc                                    Yaakov Selkowitz
 php-PEAR                                     Yaakov Selkowitz
 php-Structures_Graph                         Yaakov Selkowitz
 php-XML_Util                                 Yaakov Selkowitz
-picard                                       Dr. Volker Zell
+picard                                       ORPHANED (Dr. Volker Zell)
 picmi                                        Yaakov Selkowitz
 pidgin                                       Yaakov Selkowitz
 pidgin-facebook                              Yaakov Selkowitz
@@ -2948,7 +2948,7 @@ protobuf                                     Achim Gratz
 pscan                                        Jari Aalto
 psiconv                                      Yaakov Selkowitz
 psmisc                                       Corinna Vinschen
-pstoedit                                     Dr. Volker Zell
+pstoedit                                     ORPHANED (Dr. Volker Zell)
 pstotext                                     Jari Aalto
 publicsuffix-list                            Yaakov Selkowitz
 pugixml                                      David Stacey
@@ -2983,7 +2983,7 @@ python-cryptography                          Yaakov Selkowitz
 python-cython                                Yaakov Selkowitz
 python-dbus                                  Yaakov Selkowitz
 python-decorator                             Yaakov Selkowitz
-python-discid                                Dr. Volker Zell
+python-discid                                ORPHANED (Dr. Volker Zell)
 python-docutils                              Tony Kelman/Yaakov Selkowitz
 python-dropbox                               Yaakov Selkowitz
 python-enchant                               Yaakov Selkowitz
@@ -3020,7 +3020,7 @@ python-lxml                                  Yaakov Selkowitz
 python-mako                                  Yaakov Selkowitz
 python-markupsafe                            Yaakov Selkowitz
 python-musicbrainzngs                        Yaakov Selkowitz
-python-mutagen                               Dr. Volker Zell/Yaakov Selkowitz
+python-mutagen                               Yaakov Selkowitz
 python-mx                                    Yaakov Selkowitz
 python-nose                                  Yaakov Selkowitz
 python-numpy                                 Yaakov Selkowitz
@@ -3401,7 +3401,7 @@ splitpatch                                   Jari Aalto
 spqr                                         Marco Atzeri
 sqlite3                                      Jan Nijtmans
 sqliteman                                    Yaakov Selkowitz
-squid                                        Dr. Volker Zell
+squid                                        ORPHANED (Dr. Volker Zell)
 ssh-pageant                                  Michael Wild
 ssmtp                                        Corinna Vinschen
 startup-notification                         Yaakov Selkowitz
@@ -3431,8 +3431,8 @@ symbola-fonts                                Yaakov Selkowitz
 symlinks                                     Jari Aalto
 syslog-ng                                    Corinna Vinschen
 systemsettings                               Yaakov Selkowitz
-sysvinit                                     Dr. Volker Zell
-t1lib                                        Dr. Volker Zell
+sysvinit                                     ORPHANED (Dr. Volker Zell)
+t1lib                                        ORPHANED (Dr. Volker Zell)
 t1utils                                      Yaakov Selkowitz
 tack                                         ORPHANED
 taglib                                       Yaakov Selkowitz
@@ -3449,12 +3449,12 @@ tcl-iwidgets                                 Yaakov Selkowitz
 tcl-tix                                      Yaakov Selkowitz
 tcl-tk                                       Yaakov Selkowitz
 tcl-togl                                     Yaakov Selkowitz
-tcm                                          Dr. Volker Zell
+tcm                                          ORPHANED (Dr. Volker Zell)
 tcp_wrappers                                 ORPHANED (Charles Wilson)
 tcsh                                         Corinna Vinschen
 tdb                                          Yaakov Selkowitz
 teckit                                       Ken Brown
-ted                                          Dr. Volker Zell
+ted                                          ORPHANED (Dr. Volker Zell)
 telepathy-farstream                          Yaakov Selkowitz
 telepathy-gabble                             Yaakov Selkowitz
 telepathy-glib                               Yaakov Selkowitz
@@ -3468,7 +3468,7 @@ terminator                                   Mike DePaulo
 terminus-fonts                               Yaakov Selkowitz
 tesseract-ocr                                Marco Atzeri
 tetzle                                       Yaakov Selkowitz
-texi2html                                    Dr. Volker Zell
+texi2html                                    ORPHANED (Dr. Volker Zell)
 texinfo                                      Ken Brown
 texlive                                      Ken Brown
 texlive-collection-basic                     Ken Brown
@@ -3592,7 +3592,7 @@ urlgrabber                                   Jari Aalto
 usbredir                                     Yaakov Selkowitz
 usbutils                                     Yaakov Selkowitz
 util-linux                                   Yaakov Selkowitz
-uw-imap                                      Dr. Volker Zell
+uw-imap                                      ORPHANED (Dr. Volker Zell)
 vala                                         Yaakov Selkowitz
 varnish                                      Jorge Diaz
 vcdimager                                    Yaakov Selkowitz
@@ -3628,7 +3628,7 @@ wildmidi                                     Yaakov Selkowitz
 WindowMaker                                  Yaakov Selkowitz
 windows-default-manifest                     Corinna Vinschen
 wmctrl                                       Yaakov Selkowitz
-WordNet                                      Dr. Volker Zell
+WordNet                                      ORPHANED (Dr. Volker Zell)
 words                                        David Stacey
 wput                                         Jari Aalto
 writerperfect                                Yaakov Selkowitz
@@ -3656,7 +3656,7 @@ xcb-util-renderutil                          Yaakov Selkowitz
 xcb-util-wm                                  Yaakov Selkowitz
 xcftools                                     Yaakov Selkowitz
 xchm                                         Yaakov Selkowitz
-xclip                                        Dr. Volker Zell
+xclip                                        ORPHANED (Dr. Volker Zell)
 xclipboard                                   Yaakov Selkowitz
 xclock                                       Yaakov Selkowitz
 xcmiscproto                                  Yaakov Selkowitz
@@ -3674,9 +3674,9 @@ xdg-utils                                    Yaakov Selkowitz
 xditview                                     Yaakov Selkowitz
 xdpyinfo                                     Yaakov Selkowitz
 xedit                                        Yaakov Selkowitz
-xemacs                                       Dr. Volker Zell
-xemacs-mule-sumo                             Dr. Volker Zell
-xemacs-sumo                                  Dr. Volker Zell
+xemacs                                       ORPHANED (Dr. Volker Zell)
+xemacs-mule-sumo                             ORPHANED (Dr. Volker Zell)
+xemacs-sumo                                  ORPHANED (Dr. Volker Zell)
 xerces-c                                     Yaakov Selkowitz
 xev                                          Yaakov Selkowitz
 xextproto                                    Yaakov Selkowitz
@@ -3721,7 +3721,7 @@ xfce4-xkb-plugin                             Yaakov Selkowitz
 xfconf                                       Yaakov Selkowitz
 xfd                                          Yaakov Selkowitz
 xfdesktop                                    Yaakov Selkowitz
-xfig                                         Dr. Volker Zell
+xfig                                         ORPHANED (Dr. Volker Zell)
 xfontsel                                     Yaakov Selkowitz
 xforms                                       Ken Brown
 xfs                                          Yaakov Selkowitz
@@ -3754,7 +3754,7 @@ xmag                                         Yaakov Selkowitz
 xman                                         Yaakov Selkowitz
 xmessage                                     Yaakov Selkowitz
 xmh                                          Yaakov Selkowitz
-XmHTML                                       Dr. Volker Zell
+XmHTML                                       ORPHANED (Dr. Volker Zell)
 xmlsec1                                      Yaakov Selkowitz
 xmlstarlet                                   David Stacey
 xmlto                                        Yaakov Selkowitz
@@ -3771,7 +3771,7 @@ xorg-sgml-doctools                           Yaakov Selkowitz
 xorg-util-macros                             Yaakov Selkowitz
 xorg-x11-fonts                               Yaakov Selkowitz
 xpad                                         Yaakov Selkowitz
-xpdf                                         Dr. Volker Zell
+xpdf                                         ORPHANED (Dr. Volker Zell)
 xplanet                                      Yaakov Selkowitz
 xplayer                                      Yaakov Selkowitz
 xplayer-plparser                             Yaakov Selkowitz

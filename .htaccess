@@ -1,5 +1,6 @@
 Redirect /faq.faq.html https://cygwin.com/faq/faq.html
 Redirect /faq-nochunks.html https://cygwin.com/faq/faq.html
+Redirect /faq/faq-nochunks.html https://cygwin.com/faq/faq.html
 Redirect /bugs.html https://cygwin.com/problems.html
 Redirect /cvs.html https://cygwin.com/git.html
 Redirect /setup.html https://cygwin.com/packages.html

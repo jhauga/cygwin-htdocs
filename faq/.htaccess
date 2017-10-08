@@ -1,0 +1,18 @@
+Redirect /faq.faq.html /faq/faq.html
+Redirect /faq-nochunks.html /faq/faq.html
+Redirect /faq/faq-nochunks.html /faq/faq.html
+
+Redirect /faq/faq.api.html /faq.html#faq.api
+Redirect /faq/faq.programming.html /faq.html#faq.programming
+Redirect /faq/faq.setup.html /faq.html#faq.setup
+Redirect /faq/faq.using.html /faq.html#faq.using
+Redirect /faq/faq_toc.html /faq/faq.html
+
+Redirect /faq/faq0.html /faq/faq.html
+Redirect /faq/faq_1.html /faq/faq.html
+Redirect /faq/faq_2.html /faq/faq.html
+Redirect /faq/faq_3.html /faq/faq.html
+Redirect /faq/faq_4.html /faq/faq.html
+Redirect /faq/faq_5.html /faq/faq.html
+Redirect /faq/faq_7.html /faq/faq.html
+Redirect /faq/faq_8.html /faq/faq.html

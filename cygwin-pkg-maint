@@ -458,7 +458,6 @@ feh                                          Yaakov Selkowitz
 fetchmail                                    Corinna Vinschen
 ffcall                                       Ken Brown
 fftw3                                        Marco Atzeri
-fig2dev                                      ORPHANED (Dr. Volker Zell)
 figlet                                       Jari Aalto
 file                                         Corinna Vinschen/Yaakov Selkowitz
 file-roller                                  Yaakov Selkowitz
@@ -3720,7 +3719,7 @@ xfce4-xkb-plugin                             Yaakov Selkowitz
 xfconf                                       Yaakov Selkowitz
 xfd                                          Yaakov Selkowitz
 xfdesktop                                    Yaakov Selkowitz
-xfig                                         ORPHANED (Dr. Volker Zell)
+xfig                                         Achim Gratz
 xfontsel                                     Yaakov Selkowitz
 xforms                                       Ken Brown
 xfs                                          Yaakov Selkowitz

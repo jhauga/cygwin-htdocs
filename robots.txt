@@ -1,5 +1,5 @@
 # contact sourcemaster@sourceware.org for questions.
-# see http://info.webcrawler.com/mak/projects/robots/norobots.html
+# see http://www.robotstxt.org/
 # for information about the file format.
 
 User-agent: Scooter
@@ -33,5 +33,6 @@ Disallow: /viewvc/
 Disallow: /git/
 Disallow: setup-x86.exe
 Disallow: setup-x86_64.exe
+Disallow: mirrors.lst
 
 Crawl-Delay: 60

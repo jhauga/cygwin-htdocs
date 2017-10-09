@@ -1,0 +1,5 @@
+Redirect /devel/changelogs.html http://x.cygwin.com/
+Redirect /devel/documentation/changelog.html http://x.cygwin.com/
+Redirect /devel/server/changelog.html http://x.cygwin.com/
+Redirect /devel/xwinclip/index.html http://x.cygwin.com/
+Redirect /devel/xwinclip/changelog.html http://x.cygwin.com/

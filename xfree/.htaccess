@@ -2,3 +2,4 @@ Redirect permanent /links.html http://x.cygwin.com/
 Redirect permanent /chat.html http://cygwin.com/irc.html
 Redirect permanent /faq.html http://x.cygwin.com/docs/faq/
 Redirect permanent /donations.html http://cygwin.com/donations.html
+Redirect permanent /ported-software.html http://cygwin.com/packages/

@@ -13,32 +13,32 @@ AD,https://cygwin.com/ml/cygwin-apps/2015-07/msg00253.html,For helping with the 
 AD,https://cygwin.com/ml/cygwin-apps/2014-08/msg00133.html,For adopting the <tt>git</tt> package.
 AD,https://cygwin.com/ml/cygwin/2014-03/msg00207.html,For good reading skills.
 
-AG,https://cygwin.com/ml/cygwin-apps/2017-10/msg00057.html,"For adopting the orphaned <tt>gnuplot</tt>, <tt>liblzo2</tt>, and <tt>xfig</tt> packages.",3
+AG,https://cygwin.com/ml/cygwin-apps/2017-10/msg00057.html,"For adopting the <tt>gnuplot</tt>, <tt>liblzo2</tt>, and <tt>xfig</tt> packages.",3
 AG,https://cygwin.com/ml/cygwin-apps/2017-07/msg00049.html,For a heroic 1-2 punch on a bug.
-AG,https://cygwin.com/ml/cygwin-apps/2017-06/msg00033.html,For adopting the orphaned <tt>protobuf</tt> package.
-AG,https://cygwin.com/ml/cygwin-apps/2015-08/msg00016.html,For adopting the orphaned <tt>gnucap</tt> package.
-AG,https://cygwin.com/ml/cygwin-apps/2015-08/msg00015.html,For adopting the orphaned <tt>md5deep</tt> package.
+AG,https://cygwin.com/ml/cygwin-apps/2017-06/msg00033.html,For adopting the <tt>protobuf</tt> package.
+AG,https://cygwin.com/ml/cygwin-apps/2015-08/msg00016.html,For adopting the <tt>gnucap</tt> package.
+AG,https://cygwin.com/ml/cygwin-apps/2015-08/msg00015.html,For adopting the <tt>md5deep</tt> package.
 AG,https://cygwin.com/ml/cygwin-apps/2015-07/msg00246.html,For organizing the Great Perl Update of 2015.,,1
-AG,https://cygwin.com/ml/cygwin-apps/2015-05/msg00023.html,For adopting the orphaned <tt>mosh</tt> package.
-AG,https://cygwin.com/ml/cygwin-apps/2015-03/msg00069.html,For adopting the orphaned <tt>maxima</tt> package.
+AG,https://cygwin.com/ml/cygwin-apps/2015-05/msg00023.html,For adopting the <tt>mosh</tt> package.
+AG,https://cygwin.com/ml/cygwin-apps/2015-03/msg00069.html,For adopting the <tt>maxima</tt> package.
 AG,https://cygwin.com/ml/cygwin-apps/2015-02/msg00293.html,For adopting a whole pile of orphaned perl packages.,,1
-AG,https://cygwin.com/ml/cygwin-apps/2015-02/msg00248.html,For adopting the orphaned <tt>groff</tt> package.
+AG,https://cygwin.com/ml/cygwin-apps/2015-02/msg00248.html,For adopting the <tt>groff</tt> package.
 AG,https://cygwin.com/ml/cygwin-apps/2015-01/msg00069.html,For overhauling autorebase in setup.
 AG,https://cygwin.com/ml/cygwin/2014-07/msg00035.html,For adopting and fixing a longstanding problem in the <tt>rcs</tt> package.
-AG,https://cygwin.com/ml/cygwin-apps/2014-06/msg00036.html,For adopting the orphaned <tt>run</tt> package.
+AG,https://cygwin.com/ml/cygwin-apps/2014-06/msg00036.html,For adopting the <tt>run</tt> package.
 AG,https://cygwin.com/ml/cygwin/2014-04/msg00181.html,For adopting the essential <tt>base-files</tt> package.
-AG,https://cygwin.com/ml/cygwin-apps/2013-04/msg00258.html,"For adopting the orphaned <tt>gmp</tt>, <tt>mpfr</tt>, <tt>mpclib</tt>, <tt>ppl</tt>, and <tt>cloog-ppl</tt> packages.",6
+AG,https://cygwin.com/ml/cygwin-apps/2013-04/msg00258.html,"For adopting the <tt>gmp</tt>, <tt>mpfr</tt>, <tt>mpclib</tt>, <tt>ppl</tt>, and <tt>cloog-ppl</tt> packages.",6
 
 AH,https://cygwin.com/ml/cygwin-xfree/2005-08/msg00081.html,For the offer to take over Cygwin/X maintainership.,2
 
 AK,https://cygwin.com/ml/cygwin-apps/2011-11/msg00088.html,For integrating Mintty shortcuts into setup.
 AK,https://cygwin.com/ml/cygwin-apps/2010-07/msg00177.html,For overhauling automatic dependency selection in setup.
 
-AL,https://cygwin.com/ml/cygwin-apps/2017-05/msg00069.html,For adopting the orphaned <tt>libatomic_ops</tt> and <tt>libgc</tt> packages.,2
+AL,https://cygwin.com/ml/cygwin-apps/2017-05/msg00069.html,For adopting the <tt>libatomic_ops</tt> and <tt>libgc</tt> packages.,2
 
 AP,https://cygwin.com/ml/cygwin/2009-05/msg00180.html,"For adding the package search feature in setup (hear, hear)."
 
-AS,https://cygwin.com/ml/cygwin-apps/2017-10/msg00043.html,For adopting the orphaned <tt>multitail</tt> package.
+AS,https://cygwin.com/ml/cygwin-apps/2017-10/msg00043.html,For adopting the <tt>multitail</tt> package.
 AS,https://cygwin.com/ml/cygwin-apps/2015-10/msg00074.html,For inventing the stinkbomb award.,,,,,,,1
 AS,https://cygwin.com/ml/cygwin-apps/2015-07/msg00253.html,For helping with the Great Perl Update of 2015.
 AS,https://cygwin.com/ml/cygwin-apps/2015-03/msg00001.html,For helping to clean obsolete packages from the distro.
@@ -46,20 +46,20 @@ AS,https://cygwin.com/ml/cygwin/2011-12/msg00302.html,For responsiveness in main
 AS,https://cygwin.com/ml/cygwin/2009-07/msg00451.html,For volunteering to maintain the gold star page.
 AS,https://cygwin.com/ml/cygwin/2007-07/msg00282.html,For packaging <tt>screen</tt> for Cygwin.
 AS,https://cygwin.com/ml/cygwin-apps/2007-02/msg00045.html,For adopting the orphaced <tt>stunnel</tt> package.
-AS,https://cygwin.com/ml/cygwin-apps/2006-07/msg00064.html,For adopting the orphaned <tt>lftp</tt> package.
+AS,https://cygwin.com/ml/cygwin-apps/2006-07/msg00064.html,For adopting the <tt>lftp</tt> package.
 AS,https://cygwin.com/ml/cygwin/2005-08/msg01182.html,"For patience, bravery, manliness, etc. in maintaining the <tt>unison*</tt> packages."
 
 BD,https://cygwin.com/ml/cygwin/2008-12/msg00193.html,"For patience, insight, and helpfulness on the mailing lists."
 BD,https://cygwin.com/ml/cygwin/2006-06/msg00536.html,For explaining why we all need to test Cygwin snapshots.
 BD,https://cygwin.com/ml/cygwin/2005-04/msg00363.html,For good advice and determination to help on the Cygwin list.,2
 BD,https://cygwin.com/ml/cygwin/2004-09/msg00463.html,For solving an Apache startup failure.
-BD,https://cygwin.com/ml/cygwin/2004-05/msg00871.html,For adopting the orphaned <tt>apache</tt> package.
+BD,https://cygwin.com/ml/cygwin/2004-05/msg00871.html,For adopting the <tt>apache</tt> package.
 
 BF,https://cygwin.com/ml/cygwin/2004-11/msg00830.html,For spearheading the dwarf-2 effort for Cygwin.,2
 BF,https://cygwin.com/ml/cygwin/2004-06/msg00847.html,For fixing a mailing list gateway breakage.
 BF,https://cygwin.com/ml/cygwin/2003-11/msg00601.html,For explaining why people should help out.
 
-BI,https://cygwin.com/ml/cygwin-apps/2017-04/msg00071.html,For adopting the orphaned <tt>units</tt> package.
+BI,https://cygwin.com/ml/cygwin-apps/2017-04/msg00071.html,For adopting the <tt>units</tt> package.
 
 CB,https://cygwin.com/ml/cygwin/2014-06/msg00295.html,For packaging <tt>man-db</tt>.
 
@@ -69,13 +69,13 @@ CGF,https://cygwin.com/ml/cygwin/2008-07/msg00396.html,For keeping the Cygwin li
 CGF,https://cygwin.com/ml/cygwin/2005-02/msg00156.html,For fixing hyperthreading.
 CGF,https://cygwin.com/ml/cygwin/2004-04/msg00008.html,For good work on Cygwin for the past 7 years and being mean only when it's absolutely necessary.,20
 
-CS,https://cygwin.com/ml/cygwin-apps/2016-02/msg00075.html,For adopting the orphaned <tt>astyle</tt> package.
-CS,https://cygwin.com/ml/cygwin-apps/2016-02/msg00043.html,For adopting the orphaned <tt>mksh</tt> package.
+CS,https://cygwin.com/ml/cygwin-apps/2016-02/msg00075.html,For adopting the <tt>astyle</tt> package.
+CS,https://cygwin.com/ml/cygwin-apps/2016-02/msg00043.html,For adopting the <tt>mksh</tt> package.
 CS,https://cygwin.com/ml/cygwin/2014-09/msg00291.html,For maintaining lots of packages over the years.,2
 CS,https://cygwin.com/ml/cygwin-apps/2012-08/msg00029.html,For maintaining the w32api package for 9 years.,,,1
-CS,https://cygwin.com/ml/cygwin-apps/2007-07/msg00171.html,For adopting the orphaned <tt>hexedit</tt> package.
+CS,https://cygwin.com/ml/cygwin-apps/2007-07/msg00171.html,For adopting the <tt>hexedit</tt> package.
 CS,https://cygwin.com/ml/cygwin-apps/2007-04/msg00030.html,For cleaning up the <tt>mingw-runtime</tt> package.
-CS,https://cygwin.com/ml/cygwin-apps/2006-11/msg00092.html,For adopting the orphaned <tt>astyle</tt> package.
+CS,https://cygwin.com/ml/cygwin-apps/2006-11/msg00092.html,For adopting the <tt>astyle</tt> package.
 
 CV,https://cygwin.com/ml/cygwin-apps/2015-03/msg00037.html,For inventing the plush hippo award.,,1
 CV,https://cygwin.com/ml/cygwin-apps/2015-03/msg00001.html,For helping to clean obsolete packages from the distro.
@@ -87,18 +87,18 @@ CV,https://cygwin.com/ml/cygwin/2004-12/msg00727.html,"For combining fileutils, 
 CV,https://cygwin.com/ml/cygwin/2003-07/msg00248.html,For adding 64-bit I/O to Cygwin 1.5.,5
 
 CW,https://cygwin.com/ml/cygwin/2011-10/msg00302.html,For supporting <tt>libiconv</tt>.
-CW,https://cygwin.com/ml/cygwin-apps/2010-08/msg00163.html,For adopting the orphaned <tt>sunrpc</tt> package.
+CW,https://cygwin.com/ml/cygwin-apps/2010-08/msg00163.html,For adopting the <tt>sunrpc</tt> package.
 CW,https://cygwin.com/ml/cygwin/2009-03/msg00151.html,For obviating the dreaded TS hack.
-CW,https://cygwin.com/ml/cygwin/2008-04/msg00524.html,For adopting the orphaned <tt>login</tt> package.
+CW,https://cygwin.com/ml/cygwin/2008-04/msg00524.html,For adopting the <tt>login</tt> package.
 CW,https://cygwin.com/ml/cygwin/2008-04/msg00443.html,For creating the <tt>csih</tt> package.
-CW,https://cygwin.com/ml/cygwin-apps/2007-06/msg00018.html,For adopting the orphaned <tt>ssmtp</tt> package.
+CW,https://cygwin.com/ml/cygwin-apps/2007-06/msg00018.html,For adopting the <tt>ssmtp</tt> package.
 CW,https://cygwin.com/ml/cygwin/2006-12/msg00506.html,For years of service and dedicated maintainership of important Cygwin packages.,5
 
 DA,https://cygwin.com/ml/cygwin/2003-05/msg01117.html,For being an example of reasonable discussion on the list.
 
-DB,https://cygwin.com/ml/cygwin-apps/2015-04/msg00012.html,For adopting the orphaned <tt>inetutils</tt> package.
+DB,https://cygwin.com/ml/cygwin-apps/2015-04/msg00012.html,For adopting the <tt>inetutils</tt> package.
 
-DD,https://cygwin.com/ml/cygwin-apps/2010-09/msg00046.html,For adopting the orphaned <tt>ocaml</tt> package.
+DD,https://cygwin.com/ml/cygwin-apps/2010-09/msg00046.html,For adopting the <tt>ocaml</tt> package.
 
 DK,https://cygwin.com/ml/cygwin-apps/2010-08/msg00012.html,"For recording zero-size tarballs as successfully installed in setup, thereby de-annoying CGF."
 DK,https://cygwin.com/ml/cygwin/2009-07/msg00453.html,For persistence to fix the Cygwin problems which turned up by working on the new gcc4 libstdc++ and libgfortran problems.
@@ -112,13 +112,13 @@ DK,https://cygwin.com/ml/cygwin/2004-01/msg01000.html,For trenchant commentary.
 
 DK1,https://cygwin.com/ml/cygwin/2004-10/msg00622.html,"For going above and beyond the expected volunteer effort (with the <tt>chere</tt> package)."
 
-DL,https://cygwin.com/ml/cygwin-apps/2013-08/msg00101.html,For adopting the orphaned <tt>par</tt> package.
+DL,https://cygwin.com/ml/cygwin-apps/2013-08/msg00101.html,For adopting the <tt>par</tt> package.
 
 DR,https://cygwin.com/ml/cygwin-apps/2015-07/msg00253.html,For helping with the Great Perl Update of 2015.
 DR,https://cygwin.com/ml/cygwin-apps/2015-03/msg00001.html,For helping to clean obsolete packages from the distro.
-DR,https://cygwin.com/ml/cygwin-apps/2013-08/msg00220.html,For taking over the orphaned <tt>whois</tt> package.
+DR,https://cygwin.com/ml/cygwin-apps/2013-08/msg00220.html,For adopting the <tt>whois</tt> package.
 DR,https://cygwin.com/ml/cygwin/2013-05/msg00379.html,"For providing short, simple, easy to reproduce testcases in plain C."
-DR,https://cygwin.com/ml/cygwin-apps/2010-07/msg00033.html,For taking over the orphaned <tt>cyrus-sasl</tt> package.
+DR,https://cygwin.com/ml/cygwin-apps/2010-07/msg00033.html,For adopting the <tt>cyrus-sasl</tt> package.
 DR,https://cygwin.com/ml/cygwin-apps/2007-07/msg00234.html,For updating the <tt>libao</tt> packages.
 DR,https://cygwin.com/ml/cygwin/2005-06/msg00417.html,For finding a mistake in a package upload before the announcement was even sent.
 DR,https://cygwin.com/ml/cygwin/2003-07/msg01475.html,For tracking down the fseeko() after fdopen() problem in source code.
@@ -128,19 +128,19 @@ DR1,https://cygwin.com/ml/cygwin/2003-10/msg01311.html,For being a great package
 DS,https://cygwin.com/ml/cygwin-apps/2011-03/msg00061.html,For adopting and revamping the vital <tt>base-files</tt> package.
 
 DSt,https://cygwin.com/ml/cygwin-apps/2015-03/msg00001.html,For helping to clean obsolete packages from the distro.
-DSt,https://cygwin.com/ml/cygwin-apps/2015-02/msg00244.html,For adopting the orphaned <tt>mscgen</tt> package.
-DSt,https://cygwin.com/ml/cygwin-apps/2014-06/msg00079.html,For adopting the orphaned <tt>xloadimage</tt> package.
+DSt,https://cygwin.com/ml/cygwin-apps/2015-02/msg00244.html,For adopting the <tt>mscgen</tt> package.
+DSt,https://cygwin.com/ml/cygwin-apps/2014-06/msg00079.html,For adopting the <tt>xloadimage</tt> package.
 DSt,https://cygwin.com/ml/cygwin/2013-11/msg00484.html
-DSt,https://cygwin.com/ml/cygwin-apps/2013-08/msg00049.html,For adopting the orphaned <tt>ninvaders</tt> package.
-DSt,https://cygwin.com/ml/cygwin-apps/2012-09/msg00195.html,For adopting the orphaned <tt>doxygen</tt> package.
+DSt,https://cygwin.com/ml/cygwin-apps/2013-08/msg00049.html,For adopting the <tt>ninvaders</tt> package.
+DSt,https://cygwin.com/ml/cygwin-apps/2012-09/msg00195.html,For adopting the <tt>doxygen</tt> package.
 
-EB,https://cygwin.com/ml/cygwin-announce/2014-10/msg00029.html,For adopting the orphaned <tt>gperf</tt> package.
-EB,https://cygwin.com/ml/cygwin-announce/2014-10/msg00025.html,For adopting the orphaned <tt>grep</tt> package.
-EB,https://cygwin.com/ml/cygwin-announce/2014-10/msg00021.html,For adopting the orphaned <tt>gzip</tt> package.
-EB,https://cygwin.com/ml/cygwin-announce/2014-10/msg00003.html,For adopting the orphaned <tt>bison</tt> package.
-EB,https://cygwin.com/ml/cygwin-announce/2014-09/msg00042.html,For adopting the orphaned <tt>diffutils</tt> package.
+EB,https://cygwin.com/ml/cygwin-announce/2014-10/msg00029.html,For adopting the <tt>gperf</tt> package.
+EB,https://cygwin.com/ml/cygwin-announce/2014-10/msg00025.html,For adopting the <tt>grep</tt> package.
+EB,https://cygwin.com/ml/cygwin-announce/2014-10/msg00021.html,For adopting the <tt>gzip</tt> package.
+EB,https://cygwin.com/ml/cygwin-announce/2014-10/msg00003.html,For adopting the <tt>bison</tt> package.
+EB,https://cygwin.com/ml/cygwin-announce/2014-09/msg00042.html,For adopting the <tt>diffutils</tt> package.
 EB,https://cygwin.com/ml/cygwin/2009-07/msg00455.html,For obsoleting ash with its attendant stone-age code.
-EB,https://cygwin.com/ml/cygwin-apps/2006-11/msg00069.html,For adopting the orphaned <tt>wget</tt> package.
+EB,https://cygwin.com/ml/cygwin-apps/2006-11/msg00069.html,For adopting the <tt>wget</tt> package.
 EB,https://cygwin.com/ml/cygwin/2006-02/msg00088.html,"For offering a nice summation of the problems with mismatched dlls, along with a cogent suggestion for dealing with the problem."
 EB,https://cygwin.com/ml/cygwin-apps/2005-05/msg00270.html,For packaging <tt>bash</tt> for Cygwin.
 EB,https://cygwin.com/ml/cygwin/2005-01/msg00727.html,For adopting and updating the orphaned <tt>coreutils</tt> package.,2
@@ -152,7 +152,7 @@ EMB,https://cygwin.com/ml/cygwin/2003-03/msg01907.html,,,,,,,1
 
 EZ,https://cygwin.com/ml/cygwin/2014-10/msg00495.html,For finding and fixing a nasty CPU register corruption bug.
 
-FF,https://cygwin.com/ml/cygwin-apps/2013-06/msg00081.html,For adopting the orphaned <tt>shutdown</tt> package.
+FF,https://cygwin.com/ml/cygwin-apps/2013-06/msg00081.html,For adopting the <tt>shutdown</tt> package.
 
 FR,https://cygwin.com/ml/cygwin-apps/2003-11/msg00044.html,For making Cygwin <tt>setup</tt> resizeable.,7
 
@@ -165,31 +165,31 @@ GRVS,https://cygwin.com/ml/cygwin-apps/2003-11/msg00044.html,For numerous Cygwin
 HLH,https://cygwin.com/ml/cygwin-apps/2003-11/msg00314.html,For taking over <tt>links</tt>.
 
 IP,https://cygwin.com/ml/cygwin/2006-01/msg00225.html,For tracking down incorrect identification of <i>non-</i>Cygwin processes and sticking by it.
-IP,https://cygwin.com/ml/cygwin-apps/2003-11/msg00305.html,For adopting the orphaned <tt>pdksh</tt> package.
+IP,https://cygwin.com/ml/cygwin-apps/2003-11/msg00305.html,For adopting the <tt>pdksh</tt> package.
 IP,https://cygwin.com/ml/cygwin-apps/2003-07/msg00057.html,For I can't really tell what.
 IP,https://cygwin.com/ml/cygwin/2003-04/msg00170.html,For conspicuous service on behalf of the Cygwin community.
 
-JA,https://cygwin.com/ml/cygwin-apps/2007-08/msg00086.html,For adopting the orphaned <tt>tnef</tt> package.
-JA,https://cygwin.com/ml/cygwin-apps/2006-11/msg00073.html,For adopting the orphaned <tt>ncftp</tt> and <tt>keychaing</tt> packages.,2
-JA,https://cygwin.com/ml/cygwin-apps/2005-11/msg00182.html,For adopting the orphaned <tt>naim</tt> package.
+JA,https://cygwin.com/ml/cygwin-apps/2007-08/msg00086.html,For adopting the <tt>tnef</tt> package.
+JA,https://cygwin.com/ml/cygwin-apps/2006-11/msg00073.html,For adopting the <tt>ncftp</tt> and <tt>keychaing</tt> packages.,2
+JA,https://cygwin.com/ml/cygwin-apps/2005-11/msg00182.html,For adopting the <tt>naim</tt> package.
 
 JAa,https://cygwin.com/ml/cygwin-apps/2015-07/msg00253.html,For helping with the Great Perl Update of 2015.
 JAa,https://cygwin.com/ml/cygwin-apps/2015-03/msg00001.html,For helping to clean obsolete packages from the distro.
-JAa,https://cygwin.com/ml/cygwin-apps/2014-06/msg00066.html,For adopting the orphaned <tt>tnef</tt> package.
-JAa,https://cygwin.com/ml/cygwin-apps/2014-06/msg00062.html,For adopting the orphaned <tt>rsync</tt> package.
-JAa,https://cygwin.com/ml/cygwin-apps/2012-10/msg00169.html,For adopting the orphaned <tt>ncftp</tt> package.
-JAa,https://cygwin.com/ml/cygwin-apps/2012-10/msg00133.html,For adopting the orphaned <tt>keychain</tt> package.
-JAa,https://cygwin.com/ml/cygwin-apps/2007-12/msg00150.html,For adopting the orphaned <tt>joe</tt> package.
-JAa,https://cygwin.com/ml/cygwin-apps/2007-12/msg00127.html,For adopting the orphaned <tt>editrights</tt> package.
-JAa,https://cygwin.com/ml/cygwin-apps/2007-08/msg00229.html,For adopting the orphaned <tt>indent</tt> package.
-JAa,https://cygwin.com/ml/cygwin-apps/2007-08/msg00208.html,For adopting the orphaned <tt>chkconfig</tt> package.
-JAa,https://cygwin.com/ml/cygwin-apps/2007-08/msg00190.html,For adopting the orphaned <tt>splint</tt> package.
-JAa,https://cygwin.com/ml/cygwin-apps/2007-08/msg00174.html,For adopting the orphaned <tt>xterm</tt> package.
-JAa,https://cygwin.com/ml/cygwin-apps/2007-08/msg00171.html,For adopting the orphaned <tt>fvwm</tt> package.
-JAa,https://cygwin.com/ml/cygwin-apps/2007-08/msg00128.html,For adopting the orphaned <tt>xgraph</tt> package.
-JAa,https://cygwin.com/ml/cygwin-apps/2007-08/msg00076.html,For adopting the orphaned <tt>xmlto</tt> package.
-JAa,https://cygwin.com/ml/cygwin-apps/2007-08/msg00071.html,For adopting the orphaned <tt>figlet</tt> package.
-JAa,https://cygwin.com/ml/cygwin-apps/2007-08/msg00030.html,For adopting the orphaned <tt>antiword</tt> package.
+JAa,https://cygwin.com/ml/cygwin-apps/2014-06/msg00066.html,For adopting the <tt>tnef</tt> package.
+JAa,https://cygwin.com/ml/cygwin-apps/2014-06/msg00062.html,For adopting the <tt>rsync</tt> package.
+JAa,https://cygwin.com/ml/cygwin-apps/2012-10/msg00169.html,For adopting the <tt>ncftp</tt> package.
+JAa,https://cygwin.com/ml/cygwin-apps/2012-10/msg00133.html,For adopting the <tt>keychain</tt> package.
+JAa,https://cygwin.com/ml/cygwin-apps/2007-12/msg00150.html,For adopting the <tt>joe</tt> package.
+JAa,https://cygwin.com/ml/cygwin-apps/2007-12/msg00127.html,For adopting the <tt>editrights</tt> package.
+JAa,https://cygwin.com/ml/cygwin-apps/2007-08/msg00229.html,For adopting the <tt>indent</tt> package.
+JAa,https://cygwin.com/ml/cygwin-apps/2007-08/msg00208.html,For adopting the <tt>chkconfig</tt> package.
+JAa,https://cygwin.com/ml/cygwin-apps/2007-08/msg00190.html,For adopting the <tt>splint</tt> package.
+JAa,https://cygwin.com/ml/cygwin-apps/2007-08/msg00174.html,For adopting the <tt>xterm</tt> package.
+JAa,https://cygwin.com/ml/cygwin-apps/2007-08/msg00171.html,For adopting the <tt>fvwm</tt> package.
+JAa,https://cygwin.com/ml/cygwin-apps/2007-08/msg00128.html,For adopting the <tt>xgraph</tt> package.
+JAa,https://cygwin.com/ml/cygwin-apps/2007-08/msg00076.html,For adopting the <tt>xmlto</tt> package.
+JAa,https://cygwin.com/ml/cygwin-apps/2007-08/msg00071.html,For adopting the <tt>figlet</tt> package.
+JAa,https://cygwin.com/ml/cygwin-apps/2007-08/msg00030.html,For adopting the <tt>antiword</tt> package.
 
 JC,https://cygwin.com/ml/cygwin-developers/2011-03/msg00010.html,For kicking butt on CWD handling.
 
@@ -201,13 +201,13 @@ JDF,https://cygwin.com/ml/cygwin/2003-03/msg01935.html,For improving Cygwin docu
 
 JH,https://cygwin.com/ml/cygwin/2004-06/msg00115.html,For volunteering to take over <tt>cURL</tt>.
 
-JJ,https://cygwin.com/ml/cygwin-apps/2015-07/msg00061.html,For adopting the orphaned <tt>iperf</tt> package.
+JJ,https://cygwin.com/ml/cygwin-apps/2015-07/msg00061.html,For adopting the <tt>iperf</tt> package.
 
 JM,https://cygwin.com/ml/cygwin-apps/2010-09/msg00084.html,For years of service maintaining the <tt>base-files</tt> and <tt>base-passwd</tt> packages.,,,1
 
 JN,https://cygwin.com/ml/cygwin-apps/2007-07/msg00166.html,For quietly taking over the orphaned <tt>libfontconfig1</tt> and <tt>libfontconfig-devel</tt> packages (slightly retroactive).,2
 
-JRP,https://cygwin.com/ml/cygwin-apps/2006-02/msg00119.html,For taking over the orphaned <tt>ghostscript</tt> package.
+JRP,https://cygwin.com/ml/cygwin-apps/2006-02/msg00119.html,For adopting the <tt>ghostscript</tt> package.
 
 JT,https://cygwin.com/ml/cygwin-apps/2015-01/msg00086.html,For 14 years of contributions to Cygwin.,,,1
 JT,https://cygwin.com/ml/cygwin-apps/2004-10/msg00050.html,"For years of supporting <tt>postgres</tt>, and for just being a long time contributor to Cygwin.",2
@@ -217,15 +217,15 @@ JTy,https://cygwin.com/ml/cygwin/2016-06/msg00142.html,"For debugging a ""fun"" 
 JTy,https://cygwin.com/ml/cygwin-apps/2016-03/msg00050.html,For developing <tt>calm</tt> as a replacement for <tt>upset</tt>.,1,1
 JTy,https://cygwin.com/ml/cygwin-apps/2016-01/msg00039.html,"For coding a replacement for incver_ifdep in setup. No, I don't know what that does but people seem to be very happy about it. Inquiring Minds will have to read the thread."
 JTy,https://cygwin.com/ml/cygwin-apps/2015-10/msg00023.html,For spontaneously fixing a bug in upset.
-JTy,https://cygwin.com/ml/cygwin-apps/2015-09/msg00017.html,For adopting the orphaned <tt>dmalloc</tt> package.
+JTy,https://cygwin.com/ml/cygwin-apps/2015-09/msg00017.html,For adopting the <tt>dmalloc</tt> package.
 JTy,https://cygwin.com/ml/cygwin-apps/2015-07/msg00253.html,For helping with the Great Perl Update of 2015.
 JTy,https://cygwin.com/ml/cygwin/2015-07/msg00101.html,"For creating a modern, spec-compliant solution in xwin-xdg-menu."
-JTy,https://cygwin.com/ml/cygwin-apps/2015-03/msg00132.html,For adopting the orphaned <tt>cygwin-doc</tt> package.,,1
+JTy,https://cygwin.com/ml/cygwin-apps/2015-03/msg00132.html,For adopting the <tt>cygwin-doc</tt> package.,,1
 JTy,https://cygwin.com/ml/cygwin-apps/2015-03/msg00001.html,For helping to clean obsolete packages from the distro.
 JTy,https://cygwin.com/ml/cygwin/2014-10/msg00495.html,For finding and fixing a nasty CPU register corruption bug.
-JTy,https://cygwin.com/ml/cygwin-apps/2013-08/msg00100.html,For adopting the orphaned <tt>xmon</tt> package.
+JTy,https://cygwin.com/ml/cygwin-apps/2013-08/msg00100.html,For adopting the <tt>xmon</tt> package.
 JTy,https://cygwin.com/ml/cygwin-apps/2011-11/msg00088.html,For integrating Mintty shortcuts into setup.
-JTy,https://cygwin.com/ml/cygwin-apps/2011-11/msg00057.html,For adopting the orphaned <tt>ddd</tt> package.
+JTy,https://cygwin.com/ml/cygwin-apps/2011-11/msg00057.html,For adopting the <tt>ddd</tt> package.
 JTy,https://cygwin.com/ml/cygwin-apps/2010-12/msg00031.html,For dramatically improving the speed of <tt>setup</tt>.
 JTy,https://cygwin.com/ml/cygwin-apps/2010-07/msg00190.html,For taking over maintainership of <tt>setup</tt>.
 JTy,https://cygwin.com/ml/cygwin/2009-07/msg00451.html,For taking over maintainership of Cygwin/X after years of neglect.,5
@@ -233,16 +233,16 @@ JTy,https://cygwin.com/ml/cygwin/2009-07/msg00451.html,For taking over maintaine
 JY,https://cygwin.com/ml/cygwin-apps/2012-10/msg00199.html,For adopting the <tt>w32api</tt> package.
 JY,https://cygwin.com/ml/cygwin-apps/2012-08/msg00029.html
 
-KB,https://cygwin.com/ml/cygwin-apps/2017-10/msg00049.html,For adopting the orphaned <tt>xpdf</tt> package.
+KB,https://cygwin.com/ml/cygwin-apps/2017-10/msg00049.html,For adopting the <tt>xpdf</tt> package.
 KB,https://cygwin.com/ml/cygwin-apps/2017-07/msg00049.html,For a heroic 1-2 punch on a bug.
-KB,https://cygwin.com/ml/cygwin-apps/2017-03/msg00012.html,For adopting the orphaned <tt>potrace</tt> package.
+KB,https://cygwin.com/ml/cygwin-apps/2017-03/msg00012.html,For adopting the <tt>potrace</tt> package.
 KB,https://cygwin.com/ml/cygwin/2016-06/msg00016.html,For going to great lengths to track down a regression.
 KB,https://cygwin.com/ml/cygwin/2015-09/msg00309.html,For getting a <tt>luajit</tt> patch in upstream.
 KB,https://cygwin.com/ml/cygwin-apps/2015-07/msg00253.html,For helping with the Great Perl Update of 2015.
 KB,https://cygwin.com/ml/cygwin-apps/2015-03/msg00069.html,For reviving the abandoned <tt>clisp</tt> package.,,1
 KB,https://cygwin.com/ml/cygwin-apps/2015-03/msg00001.html,For helping to clean obsolete packages from the distro.
-KB,https://cygwin.com/ml/cygwin-apps/2015-02/msg00238.html,For adopting the orphaned <tt>fcgi</tt> package.
-KB,https://cygwin.com/ml/cygwin-apps/2015-02/msg00219.html,For adopting the orphaned <tt>icu</tt> package.
+KB,https://cygwin.com/ml/cygwin-apps/2015-02/msg00238.html,For adopting the <tt>fcgi</tt> package.
+KB,https://cygwin.com/ml/cygwin-apps/2015-02/msg00219.html,For adopting the <tt>icu</tt> package.
 KB,https://cygwin.com/ml/cygwin/2014-10/msg00495.html,For finding and fixing a nasty CPU register corruption bug.
 KB,https://cygwin.com/ml/cygwin/2011-12/msg00290.html,For improving the project documentation on his own initiative.
 
@@ -256,36 +256,36 @@ KT,https://cygwin.com/ml/cygwin/2014-10/msg00495.html,For finding and fixing a n
 LH,https://cygwin.com/ml/cygwin/2005-06/msg00767.html,For the most on-topic and painful pun.
 LH,https://cygwin.com/ml/cygwin/2005-04/msg00372.html,"For long service, good advice, and a determination to help.",3
 
-LL,https://cygwin.com/ml/cygwin-apps/2007-12/msg00163.html,For adopting the orphaned <tt>nano</tt> package.
-LL,https://cygwin.com/ml/cygwin-apps/2007-08/msg00003.html,For adopting the orphaned <tt>pinfo</tt> package.
+LL,https://cygwin.com/ml/cygwin-apps/2007-12/msg00163.html,For adopting the <tt>nano</tt> package.
+LL,https://cygwin.com/ml/cygwin-apps/2007-08/msg00003.html,For adopting the <tt>pinfo</tt> package.
 LL,https://cygwin.com/ml/cygwin-apps/2006-01/msg00216.html,For reworking the setup.html page.
 
-MA,https://cygwin.com/ml/cygwin-apps/2016-05/msg00088.html,For adopting the orphaned <tt>flex</tt> package.
-MA,https://cygwin.com/ml/cygwin-apps/2016-04/msg00007.html,For adopting the orphaned <tt>xgraph</tt> package.
-MA,https://cygwin.com/ml/cygwin-apps/2016-03/msg00070.html,For adopting the orphaned <tt>wtf</tt> package.
+MA,https://cygwin.com/ml/cygwin-apps/2016-05/msg00088.html,For adopting the <tt>flex</tt> package.
+MA,https://cygwin.com/ml/cygwin-apps/2016-04/msg00007.html,For adopting the <tt>xgraph</tt> package.
+MA,https://cygwin.com/ml/cygwin-apps/2016-03/msg00070.html,For adopting the <tt>wtf</tt> package.
 MA,https://cygwin.com/ml/cygwin-apps/2015-07/msg00253.html,For helping with the Great Perl Update of 2015.
 MA,https://cygwin.com/ml/cygwin-apps/2015-07/msg00024.html,"For taking over YA orphaned, non-64 bit package.",,1
 MA,https://cygwin.com/ml/cygwin-apps/2015-05/msg00025.html,For adopting and rebuilding the orphaned <tt>singular</tt> package.
-MA,https://cygwin.com/ml/cygwin/2015-04/msg00421.html,For adopting the orphaned <tt>lilypond</tt> package.
+MA,https://cygwin.com/ml/cygwin/2015-04/msg00421.html,For adopting the <tt>lilypond</tt> package.
 MA,https://cygwin.com/ml/cygwin-apps/2015-03/msg00001.html,For helping to clean obsolete packages from the distro.
-MA,https://cygwin.com/ml/cygwin-apps/2015-02/msg00155.html,For adopting the orphaned <tt>less</tt> package.
+MA,https://cygwin.com/ml/cygwin-apps/2015-02/msg00155.html,For adopting the <tt>less</tt> package.
 MA,https://cygwin.com/ml/cygwin-apps/2015-01/msg00061.html,"For rebuilding pure-ftpd, to allow dropping libopenssl098."
-MA,https://cygwin.com/ml/cygwin-apps/2014-08/msg00134.html,For adopting the orphaned <tt>ed</tt> package.
+MA,https://cygwin.com/ml/cygwin-apps/2014-08/msg00134.html,For adopting the <tt>ed</tt> package.
 MA,https://cygwin.com/ml/cygwin-apps/2014-08/msg00029.html,For showing initiative wrt Cygwin infrastructure at this juncture.
-MA,https://cygwin.com/ml/cygwin-apps/2014-05/msg00015.html,For adopting the orphaned <tt>ping</tt> package.
-MA,https://cygwin.com/ml/cygwin-apps/2013-01/msg00120.html,For adopting the orphaned <tt>postgresql</tt> package.
-MA,https://cygwin.com/ml/cygwin-apps/2012-03/msg00235.html,For adopting the orphaned <tt>ccrypt</tt> package.
-MA,https://cygwin.com/ml/cygwin-apps/2012-03/msg00225.html,For adopting the orphaned <tt>TeXmacs</tt> package.
-MA,https://cygwin.com/ml/cygwin-apps/2012-02/msg00130.html,For adopting the orphaned <tt>gnupg</tt> package.
-MA,https://cygwin.com/ml/cygwin-apps/2011-07/msg00162.html,For adopting the orphaned <tt>mc</tt> package.
-MA,https://cygwin.com/ml/cygwin-apps/2010-01/msg00093.html,For adopting the orphaned <tt>plotutils</tt> package.
+MA,https://cygwin.com/ml/cygwin-apps/2014-05/msg00015.html,For adopting the <tt>ping</tt> package.
+MA,https://cygwin.com/ml/cygwin-apps/2013-01/msg00120.html,For adopting the <tt>postgresql</tt> package.
+MA,https://cygwin.com/ml/cygwin-apps/2012-03/msg00235.html,For adopting the <tt>ccrypt</tt> package.
+MA,https://cygwin.com/ml/cygwin-apps/2012-03/msg00225.html,For adopting the <tt>TeXmacs</tt> package.
+MA,https://cygwin.com/ml/cygwin-apps/2012-02/msg00130.html,For adopting the <tt>gnupg</tt> package.
+MA,https://cygwin.com/ml/cygwin-apps/2011-07/msg00162.html,For adopting the <tt>mc</tt> package.
+MA,https://cygwin.com/ml/cygwin-apps/2010-01/msg00093.html,For adopting the <tt>plotutils</tt> package.
 
 MB,https://cygwin.com/ml/cygwin-apps/2008-04/msg00351.html,For lifetime contribution to the Cygwin project.,,,1
 MB,https://cygwin.com/ml/cygwin-apps/2003-11/msg00279.html,For adopting the <tt>patchutils</tt> package.
 
 MB1,https://cygwin.com/ml/cygwin/2003-08/msg01237.html,For volunteering to maintain <tt>lftp</tt>.
 
-MG,https://cygwin.com/ml/cygwin-apps/2015-10/msg00067.html,For adopting the orphaned <tt>cygutils</tt> package.,2
+MG,https://cygwin.com/ml/cygwin-apps/2015-10/msg00067.html,For adopting the <tt>cygutils</tt> package.,2
 MG,https://cygwin.com/ml/cygwin/2015-08/msg00327.html,For finding a 13-year-old bug in getservent.,,,,,1
 MG,https://cygwin.com/ml/cygwin/2013-09/msg00098.html,For being observant.
 
@@ -306,7 +306,7 @@ PB,https://cygwin.com/ml/cygwin/2007-03/msg00863.html,For not being afraid to cl
 
 PC,http://cygwin.com/ml/cygwin/2017-03/msg00413.html,For shocking and audacious disservice to the community.
 
-PF,https://cygwin.com/ml/cygwin-apps/2015-01/msg00089.html,For adopting the orphaned <tt>rpm</tt> package.
+PF,https://cygwin.com/ml/cygwin-apps/2015-01/msg00089.html,For adopting the <tt>rpm</tt> package.
 PF,https://cygwin.com/ml/cygwin/2013-06/msg00250.html,For offering a simple solution to a long-standing problem.
 
 PR,https://cygwin.com/ml/cygwin/2003-12/msg00411.html,For actually testing a snapshot unbidden and reporting that it fixed a problem.
@@ -319,12 +319,12 @@ RRS,https://cygwin.com/ml/cygwin/2003-04/msg00915.html,For suggesting &quot;<tt>
 RRS,https://cygwin.com/ml/cygwin/2003-04/msg00170.html,For conspicuous service to the Cygwin community.
 
 RRSMC,https://cygwin.com/ml/cygwin/2004-10/msg00512.html,For an attempt to apply a creative solution to a problem.
-RRSMC,https://cygwin.com/ml/cygwin-apps/2004-01/msg00041.html,For adopting the orphaned <tt>ssmtp</tt> package.
+RRSMC,https://cygwin.com/ml/cygwin-apps/2004-01/msg00041.html,For adopting the <tt>ssmtp</tt> package.
 
 RU,https://cygwin.com/ml/cygwin-apps/2007-07/msg00090.html,For being mentally prepared to take over maintainership of <tt>perl</tt>.
-RU,https://cygwin.com/ml/cygwin-apps/2006-08/msg00005.html,For adopting the orphaned <tt>clisp</tt> package.
-RU,https://cygwin.com/ml/cygwin-apps/2004-10/msg00093.html,For adopting the orphaned <tt>mhash</tt> package.
-RU,https://cygwin.com/ml/cygwin-apps/2004-10/msg00050.html,For adopting the orphaned <tt>postgresql</tt> package.
+RU,https://cygwin.com/ml/cygwin-apps/2006-08/msg00005.html,For adopting the <tt>clisp</tt> package.
+RU,https://cygwin.com/ml/cygwin-apps/2004-10/msg00093.html,For adopting the <tt>mhash</tt> package.
+RU,https://cygwin.com/ml/cygwin-apps/2004-10/msg00050.html,For adopting the <tt>postgresql</tt> package.
 
 SB,https://cygwin.com/ml/cygwin/2014-05/msg00320.html,For tracking down and fixing a screen corruption bug in <tt>screen</tt>.
 SB,https://cygwin.com/ml/cygwin-apps/2013-11/msg00026.html,For patching setup to allow it to run as non-admin.
@@ -332,21 +332,21 @@ SB,https://cygwin.com/ml/cygwin/2009-09/msg00395.html,For explaining why we need
 
 SS,https://cygwin.com/ml/cygwin-apps/2007-07/msg00121.html,For efforts in adopting a tough package (<tt>emacs</tt>).
 
-TK,https://cygwin.com/ml/cygwin-apps/2015-02/msg00044.html,For adopting the orphaned <tt>cmake</tt> package.
-TK,https://cygwin.com/ml/cygwin-apps/2014-08/msg00011.html,For adopting the orphaned <tt>p7zip</tt> package.
+TK,https://cygwin.com/ml/cygwin-apps/2015-02/msg00044.html,For adopting the <tt>cmake</tt> package.
+TK,https://cygwin.com/ml/cygwin-apps/2014-08/msg00011.html,For adopting the <tt>p7zip</tt> package.
 
-TW,https://cygwin.com/ml/cygwin/2015-07/msg00110.html,For adopting the orphaned <tt>mintty</tt> package.
+TW,https://cygwin.com/ml/cygwin/2015-07/msg00110.html,For adopting the <tt>mintty</tt> package.
 
 VQ,https://cygwin.com/ml/cygwin-apps/2006-11/msg00029.html,For picking up the problematic <tt>ImageMagick</tt> package and making it functional.
 
-VZ,https://cygwin.com/ml/cygwin-apps/2015-04/msg00029.html,For adopting the orphaned <tt>xclip</tt> package.
-VZ,https://cygwin.com/ml/cygwin-apps/2013-08/msg00239.html,For adopting the orphaned <tt>bsflite</tt> package.
-VZ,https://cygwin.com/ml/cygwin-apps/2012-04/msg00037.html,For adopting the orphaned <tt>tcm</tt> package.
+VZ,https://cygwin.com/ml/cygwin-apps/2015-04/msg00029.html,For adopting the <tt>xclip</tt> package.
+VZ,https://cygwin.com/ml/cygwin-apps/2013-08/msg00239.html,For adopting the <tt>bsflite</tt> package.
+VZ,https://cygwin.com/ml/cygwin-apps/2012-04/msg00037.html,For adopting the <tt>tcm</tt> package.
 VZ,https://cygwin.com/ml/cygwin-apps/2008-03/msg00122.html,For being the go-to guy (GTG) for GTG.
-VZ,https://cygwin.com/ml/cygwin-apps/2007-12/msg00100.html,For adopting the orphaned <tt>rcs</tt> package.
-VZ,https://cygwin.com/ml/cygwin-apps/2007-12/msg00092.html,For adopting the orphaned <tt>squid</tt> package.
-VZ,https://cygwin.com/ml/cygwin-apps/2007-12/msg00081.html,For adopting the orphaned <tt>enscript</tt> package.
-VZ,https://cygwin.com/ml/cygwin-apps/2007-07/msg00068.html,For adopting the orphaned <tt>db</tt> package.
+VZ,https://cygwin.com/ml/cygwin-apps/2007-12/msg00100.html,For adopting the <tt>rcs</tt> package.
+VZ,https://cygwin.com/ml/cygwin-apps/2007-12/msg00092.html,For adopting the <tt>squid</tt> package.
+VZ,https://cygwin.com/ml/cygwin-apps/2007-12/msg00081.html,For adopting the <tt>enscript</tt> package.
+VZ,https://cygwin.com/ml/cygwin-apps/2007-07/msg00068.html,For adopting the <tt>db</tt> package.
 VZ,https://cygwin.com/ml/cygwin-apps/2007-04/msg00030.html,For cleaning up the <tt>mingw-runtime</tt> package.
 VZ,https://cygwin.com/ml/cygwin-apps/2005-09/msg00035.html,For packaging <tt>texi2html</tt> for Cygwin.
 VZ,https://cygwin.com/ml/cygwin-apps/2003-11/msg00286.html,For packaging <tt>man</tt> for Cygwin.
@@ -356,26 +356,26 @@ WY,https://cygwin.com/ml/cygwin/2007-09/msg00525.html,For clearly explaining why
 
 YS,https://cygwin.com/ml/cygwin-apps/2015-07/msg00253.html,For helping with the Great Perl Update of 2015.
 YS,https://cygwin.com/ml/cygwin-apps/2015-03/msg00001.html,For helping to clean obsolete packages from the distro.
-YS,https://cygwin.com/ml/cygwin-apps/2013-01/msg00010.html,For adopting the orphaned <tt>grace</tt> package.
-YS,https://cygwin.com/ml/cygwin-apps/2012-07/msg00062.html,For adopting the orphaned <tt>dejagnu</tt> package.
+YS,https://cygwin.com/ml/cygwin-apps/2013-01/msg00010.html,For adopting the <tt>grace</tt> package.
+YS,https://cygwin.com/ml/cygwin-apps/2012-07/msg00062.html,For adopting the <tt>dejagnu</tt> package.
 YS,https://cygwin.com/ml/cygwin-apps/2012-03/msg00239.html,For everything.
-YS,https://cygwin.com/ml/cygwin-apps/2012-03/msg00234.html,For adopting the orphaned <tt>fribidi</tt> package.
-YS,https://cygwin.com/ml/cygwin-apps/2012-03/msg00187.html,For adopting the orphaned <tt>fvwm</tt> package.
-YS,https://cygwin.com/ml/cygwin-apps/2012-03/msg00057.html,For adopting the orphaned <tt>robodoc</tt> package.
-YS,https://cygwin.com/ml/cygwin-apps/2011-11/msg00031.html,For adopting the orphaned <tt>a2ps</tt> package.
+YS,https://cygwin.com/ml/cygwin-apps/2012-03/msg00234.html,For adopting the <tt>fribidi</tt> package.
+YS,https://cygwin.com/ml/cygwin-apps/2012-03/msg00187.html,For adopting the <tt>fvwm</tt> package.
+YS,https://cygwin.com/ml/cygwin-apps/2012-03/msg00057.html,For adopting the <tt>robodoc</tt> package.
+YS,https://cygwin.com/ml/cygwin-apps/2011-11/msg00031.html,For adopting the <tt>a2ps</tt> package.
 YS,https://cygwin.com/ml/cygwin/2011-03/msg00377.html,For creating a repository of Linux-to-Cygwin cross-compilers for Fedora.
-YS,https://cygwin.com/ml/cygwin-apps/2010-06/msg00175.html,For adopting the orphaned <tt>e2fsprogs</tt> and <tt>e2fsimage</tt> packages.
-YS,https://cygwin.com/ml/cygwin-apps/2010-06/msg00170.html,For adopting the orphaned <tt>cppunit</tt> package.
-YS,https://cygwin.com/ml/cygwin-apps/2010-06/msg00078.html,For adopting the orphaned <tt>boost</tt> package.
-YS,https://cygwin.com/ml/cygwin-apps/2010-02/msg00004.html,For adopting the orphaned <tt>docbook</tt> package.
+YS,https://cygwin.com/ml/cygwin-apps/2010-06/msg00175.html,For adopting the <tt>e2fsprogs</tt> and <tt>e2fsimage</tt> packages.
+YS,https://cygwin.com/ml/cygwin-apps/2010-06/msg00170.html,For adopting the <tt>cppunit</tt> package.
+YS,https://cygwin.com/ml/cygwin-apps/2010-06/msg00078.html,For adopting the <tt>boost</tt> package.
+YS,https://cygwin.com/ml/cygwin-apps/2010-02/msg00004.html,For adopting the <tt>docbook</tt> package.
 YS,https://cygwin.com/ml/cygwin/2009-12/msg01053.html,For cleaning up some ugly old scripts.
-YS,https://cygwin.com/ml/cygwin-apps/2009-12/msg00039.html,For adopting the orphaned <tt>openbox</tt> package.
+YS,https://cygwin.com/ml/cygwin-apps/2009-12/msg00039.html,For adopting the <tt>openbox</tt> package.
 YS,https://cygwin.com/ml/cygwin/2009-07/msg00451.html,For taking over maintainership of Cygwin/X after years of neglect.,5
-YS,https://cygwin.com/ml/cygwin-apps/2007-07/msg00155.html,For adopting the orphaned <tt>libexif</tt> package.
-YS,https://cygwin.com/ml/cygwin-apps/2005-09/msg00051.html,For adopting the orphaned <tt>libpcre</tt> package.
+YS,https://cygwin.com/ml/cygwin-apps/2007-07/msg00155.html,For adopting the <tt>libexif</tt> package.
+YS,https://cygwin.com/ml/cygwin-apps/2005-09/msg00051.html,For adopting the <tt>libpcre</tt> package.
 
 YST,https://cygwin.com/ml/cygwin/2006-01/msg01193.html,For pointing out that package maintainers should use snapshots.,2
-YST,https://cygwin.com/ml/cygwin-apps/2005-01/msg00083.html,For adopting the orphaned <tt>fortune</tt> package.,2
+YST,https://cygwin.com/ml/cygwin-apps/2005-01/msg00083.html,For adopting the <tt>fortune</tt> package.,2
 YST,https://cygwin.com/ml/cygwin/2004-07/msg00671.html,For a clever use of utilities.
 
 anonymous,https://cygwin.com/ml/cygwin/2004-04/msg00321.html,For contributing a brand new 64-bit Windows system.,10

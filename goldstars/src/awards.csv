@@ -39,7 +39,7 @@ AL,https://cygwin.com/ml/cygwin-apps/2017-05/msg00069.html,For adopting the <tt>
 AP,https://cygwin.com/ml/cygwin/2009-05/msg00180.html,"For adding the package search feature in setup (hear, hear)."
 
 AS,https://cygwin.com/ml/cygwin-apps/2017-10/msg00043.html,For adopting the <tt>multitail</tt> package.
-AS,https://cygwin.com/ml/cygwin-apps/2015-10/msg00074.html,For inventing the stinkbomb award.,,,,,,,1
+AS,https://cygwin.com/ml/cygwin-apps/2015-10/msg00074.html,For inventing the stinkbomb award.,,,,,,1
 AS,https://cygwin.com/ml/cygwin-apps/2015-07/msg00253.html,For helping with the Great Perl Update of 2015.
 AS,https://cygwin.com/ml/cygwin-apps/2015-03/msg00001.html,For helping to clean obsolete packages from the distro.
 AS,https://cygwin.com/ml/cygwin/2011-12/msg00302.html,For responsiveness in maintaining the gold star page.
@@ -147,8 +147,8 @@ EB,https://cygwin.com/ml/cygwin/2005-01/msg00727.html,For adopting and updating 
 
 EF,https://cygwin.com/ml/cygwin/2000-04/msg00261.html,For enlightening people on the properties of <tt>/cygdrive</tt>.
 
-EMB,https://cygwin.com/ml/cygwin/2003-03/msg01932.html,For standing up and enforcing the GPL.,,,,,,1
-EMB,https://cygwin.com/ml/cygwin/2003-03/msg01907.html,,,,,,,1
+EMB,https://cygwin.com/ml/cygwin/2003-03/msg01932.html,For standing up and enforcing the GPL.
+EMB,https://cygwin.com/ml/cygwin/2003-03/msg01907.html
 
 EZ,https://cygwin.com/ml/cygwin/2014-10/msg00495.html,For finding and fixing a nasty CPU register corruption bug.
 

@@ -3826,7 +3826,9 @@ zip                                          Yaakov Selkowitz
 zlib                                         Yaakov Selkowitz
 znc                                          Alexey Sokolov
 zoo                                          Jari Aalto
+zpaq                                         Achim Gratz
 zsh                                          Peter A. Castro
+zstd                                         Achim Gratz
 zsync                                        Jari Aalto
 zziplib                                      Yaakov Selkowitz
 _autorebase                                  Achim Gratz

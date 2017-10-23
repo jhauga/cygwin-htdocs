@@ -1948,6 +1948,7 @@ mingw64-i686-xz                              Yaakov Selkowitz
 mingw64-i686-yaml                            Yaakov Selkowitz
 mingw64-i686-zeromq                          Yaakov Selkowitz
 mingw64-i686-zlib                            Yaakov Selkowitz
+mingw64-i686-zstd                            Achim Gratz
 mingw64-i686-zziplib                         Yaakov Selkowitz
 mingw64-x86_64-a52dec                        Yaakov Selkowitz
 mingw64-x86_64-aalib                         Yaakov Selkowitz
@@ -2280,6 +2281,7 @@ mingw64-x86_64-xz                            Yaakov Selkowitz
 mingw64-x86_64-yaml                          Yaakov Selkowitz
 mingw64-x86_64-zeromq                        Yaakov Selkowitz
 mingw64-x86_64-zlib                          Yaakov Selkowitz
+mingw64-x86_64-zstd                          Achim Gratz
 mingw64-x86_64-zziplib                       Yaakov Selkowitz
 mintty                                       Thomas Wolff
 mkcomposecache                               Yaakov Selkowitz

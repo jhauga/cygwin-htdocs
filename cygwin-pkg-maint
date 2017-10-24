@@ -1890,14 +1890,14 @@ mingw64-i686-qt5-canvas3d                    Yaakov Selkowitz
 mingw64-i686-qt5-charts                      Yaakov Selkowitz
 mingw64-i686-qt5-datavis3d                   Yaakov Selkowitz
 mingw64-i686-qt5-declarative                 Yaakov Selkowitz
-mingw64-i686-qt5-enginio                     Yaakov Selkowitz
+mingw64-i686-qt5-enginio                     ORPHANED (Yaakov Selkowitz)
 mingw64-i686-qt5-graphicaleffects            Yaakov Selkowitz
 mingw64-i686-qt5-imageformats                Yaakov Selkowitz
 mingw64-i686-qt5-location                    Yaakov Selkowitz
 mingw64-i686-qt5-multimedia                  Yaakov Selkowitz
 mingw64-i686-qt5-networkauth                 Yaakov Selkowitz
 mingw64-i686-qt5-qt3d                        Yaakov Selkowitz
-mingw64-i686-qt5-quick1                      Yaakov Selkowitz
+mingw64-i686-qt5-quick1                      ORPHANED (Yaakov Selkowitz)
 mingw64-i686-qt5-quickcontrols               Yaakov Selkowitz
 mingw64-i686-qt5-quickcontrols2              Yaakov Selkowitz
 mingw64-i686-qt5-remoteobjects               Yaakov Selkowitz
@@ -2231,14 +2231,14 @@ mingw64-x86_64-qt5-canvas3d                  Yaakov Selkowitz
 mingw64-x86_64-qt5-charts                    Yaakov Selkowitz
 mingw64-x86_64-qt5-datavis3d                 Yaakov Selkowitz
 mingw64-x86_64-qt5-declarative               Yaakov Selkowitz
-mingw64-x86_64-qt5-enginio                   Yaakov Selkowitz
+mingw64-x86_64-qt5-enginio                   ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-qt5-graphicaleffects          Yaakov Selkowitz
 mingw64-x86_64-qt5-imageformats              Yaakov Selkowitz
 mingw64-x86_64-qt5-location                  Yaakov Selkowitz
 mingw64-x86_64-qt5-multimedia                Yaakov Selkowitz
 mingw64-x86_64-qt5-networkauth               Yaakov Selkowitz
 mingw64-x86_64-qt5-qt3d                      Yaakov Selkowitz
-mingw64-x86_64-qt5-quick1                    Yaakov Selkowitz
+mingw64-x86_64-qt5-quick1                    ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-qt5-quickcontrols             Yaakov Selkowitz
 mingw64-x86_64-qt5-quickcontrols2            Yaakov Selkowitz
 mingw64-x86_64-qt5-remoteobjects             Yaakov Selkowitz
@@ -3124,7 +3124,7 @@ qt5-charts                                   Yaakov Selkowitz
 qt5-datavis3d                                Yaakov Selkowitz
 qt5-declarative                              Yaakov Selkowitz
 qt5-doc                                      Yaakov Selkowitz
-qt5-enginio                                  Yaakov Selkowitz
+qt5-enginio                                  ORPHANED (Yaakov Selkowitz)
 qt5-graphicaleffects                         Yaakov Selkowitz
 qt5-imageformats                             Yaakov Selkowitz
 qt5-location                                 Yaakov Selkowitz
@@ -3132,7 +3132,7 @@ qt5-multimedia                               Yaakov Selkowitz
 qt5-networkauth                              Yaakov Selkowitz
 qt5-qgnomeplatform                           Yaakov Selkowitz
 qt5-qt3d                                     Yaakov Selkowitz
-qt5-quick1                                   Yaakov Selkowitz
+qt5-quick1                                   ORPHANED (Yaakov Selkowitz)
 qt5-quickcontrols                            Yaakov Selkowitz
 qt5-quickcontrols2                           Yaakov Selkowitz
 qt5-remoteobjects                            Yaakov Selkowitz

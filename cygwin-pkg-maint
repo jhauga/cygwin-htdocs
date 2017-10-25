@@ -3067,6 +3067,9 @@ python-pyparsing                             Yaakov Selkowitz
 python-pypdf                                 Yaakov Selkowitz
 python-pyqt4                                 Yaakov Selkowitz
 python-pyqt5                                 Yaakov Selkowitz
+python-pyqt5-qt3d                            Yaakov Selkowitz
+python-pyqt5-qtchart                         Yaakov Selkowitz
+python-pyqt5-qtdatavisualization             Yaakov Selkowitz
 python-pyrex                                 Yaakov Selkowitz
 python-rdflib                                Yaakov Selkowitz
 python-reportlab                             Yaakov Selkowitz

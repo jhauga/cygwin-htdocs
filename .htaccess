@@ -1,9 +1,13 @@
 Redirect /faq.faq.html /faq/faq.html
 Redirect /faq-nochunks.html /faq/faq.html
 
-Redirect /bugs.html https://cygwin.com/problems.html
-Redirect /cvs.html https://cygwin.com/git.html
-Redirect /setup.html https://cygwin.com/packages.html
+Redirect /bugs.html /problems.html
+Redirect /cvs.html /git.html
+Redirect /setup.html /packages.html
+Redirect /packaging.html /packages.html
+Redirect seeother /setup.exe /install.html
+Redirect /setup-snapshots /setup/
+Redirect gone /win-9x.html
 
 # https://cygwin.com/ml/cygwin/2010-02/msg00149.html
 <FilesMatch "^setup-(x86|x86_64)\.exe(|.sig)$">

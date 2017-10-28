@@ -1,5 +1,3 @@
-Redirect /faq.faq.html /faq/faq.html
-Redirect /faq-nochunks.html /faq/faq.html
 Redirect /faq/faq-nochunks.html /faq/faq.html
 
 Redirect /faq/faq.api.html /faq.html#faq.api

@@ -545,9 +545,9 @@ getmail                                      Jari Aalto
 gettext                                      Yaakov Selkowitz
 gfbgraph0.2                                  Yaakov Selkowitz
 ghex                                         Yaakov Selkowitz
-ghostscript                                  ORPHANED (Dr. Volker Zell)
-ghostscript-fonts-other                      ORPHANED (Dr. Volker Zell)
-ghostscript-fonts-std                        ORPHANED (Dr. Volker Zell)
+ghostscript                                  Ken Brown
+ghostscript-fonts-other                      Ken Brown
+ghostscript-fonts-std                        Ken Brown
 gif2apng                                     Jari Aalto
 giflib                                       Yaakov Selkowitz
 gigolo                                       Yaakov Selkowitz

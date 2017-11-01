@@ -547,7 +547,6 @@ gfbgraph0.2                                  Yaakov Selkowitz
 ghex                                         Yaakov Selkowitz
 ghostscript                                  Ken Brown
 ghostscript-fonts-other                      Ken Brown
-ghostscript-fonts-std                        Ken Brown
 gif2apng                                     Jari Aalto
 giflib                                       Yaakov Selkowitz
 gigolo                                       Yaakov Selkowitz
@@ -3617,6 +3616,7 @@ unzip                                        Yaakov Selkowitz
 upower                                       Yaakov Selkowitz
 upx                                          Achim Gratz
 urlgrabber                                   Jari Aalto
+urw-base35-fonts                             Ken Brown
 usbredir                                     Yaakov Selkowitz
 usbutils                                     Yaakov Selkowitz
 util-linux                                   Yaakov Selkowitz

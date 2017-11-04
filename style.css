@@ -1,7 +1,5 @@
 body
 {
-/* margin-top: 2ex; */
-/* background-color: #edfffc; */
 color: black;
 }
 
@@ -43,7 +41,6 @@ margin-right: -2.5em;
 {
 overflow: hidden;
 background-color: #608080;
-/* background-color: #b9005f;*/
 }
 
 #navbar ul
@@ -68,30 +65,10 @@ font-family: "arial";
 color:gold;
 }
 
-#navbar h4
-{
-font-style: normal;
-font-size: .95em;
-}
-
 /* -------------------------------------------------------------------------- */
 
 #top
 {
-}
-
-#item
-{
-position: relative;
-outline-style: groove;
-outline-width: 3px;
-outline-color: #e8e8e8;
-padding-left: 1em;
-padding-right: 1em;
-padding-top: 1ex;
-padding-bottom: 1ex;
-margin-top: 0em;
-margin-bottom: 0em;
 }
 
 /* Two-column what is/isn't it layout --------------------------------------- */

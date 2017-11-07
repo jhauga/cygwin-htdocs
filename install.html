@@ -28,32 +28,32 @@ this binary using <a href="key/pubring.asc">this</a> public key.</p>
 
 <h2 class="cartouche">General installation notes</h2>
 
-<p>When installing packages for the first time, <tt>setup*.exe</tt>
+<p>When installing packages for the first time, the setup program
 <em>does not install every package</em>.  Only the <b>minimal base packages</b>
 from the Cygwin distribution are installed by default, which takes up about 100 MB.
 </p>
 
 <p>
-Clicking on categories and packages in the <tt>setup*.exe</tt> package installation
+Clicking on categories and packages in the setup program package installation
 screen allows you to select what is installed or updated.
 </p>
 
 <p>Individual packages like <em>bash</em>, <em>gcc</em>, <em>less</em>, etc.
 are released independently of the Cygwin DLL, so the Cygwin DLL version is not
-useful as a general Cygwin release number.  The <tt>setup*.exe</tt> utility
+useful as a general Cygwin release number.  The setup program
 tracks the versions of all installed components and provides the mechanism
 for <b>installing</b> or <b>updating</b> everything available from this site for
 Cygwin.</p>
 
 <p>Once you've installed your desired subset of the Cygwin distribution,
-setup*.exe will remember what you selected so rerunning the
-program will update your system with any new package releases.</p>
+the setup program will remember what you selected, so re-running it
+will update your system with any new package releases.</p>
 
-<p>On Windows Vista and later, <tt>setup*.exe</tt> will check by
+<p>On Windows Vista and later, the setup program will check by
 default if it runs with administrative privileges and, if not, will try
 to elevate the process.  If you want to avoid this behaviour and install
 under an unprivileged account just for your own usage, run
-<tt>setup*.exe</tt> with the <tt>--no-admin</tt> option.</p>
+setup with the <tt>--no-admin</tt> option.</p>
 
 <h2 class="cartouche" id="add-package">Q: How do I add a package to my existing Cygwin installation?</h2>
 
@@ -68,7 +68,7 @@ top-right of the package chooser page.
 
 <h2 class="cartouche" id="cli">Q: Is there a command-line installer?</h2>
 
-<p>A: Yes and no.  The <tt>setup*.exe</tt> program understands
+<p>A: Yes and no.  The setup program understands
 <a href="faq/faq.html#faq.setup.cli">command-line
 arguments</a> which allow you to control its behavior and choose
 individual packages to install.  While this provides some functionality

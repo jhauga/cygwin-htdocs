@@ -41,6 +41,7 @@ external-source: <i>package</i>
 message: <i>id</i> <i>"some text"</i>
 test:
 skip:
+version: <i>version</i>
 </pre>
 <p class="center">
   <b>Note: Not all of the above lines are required. Please read the description
@@ -273,6 +274,13 @@ No actual moles will be harmed during execution of this game."
     <p>
       It was only useful for indicating directories which contain source-only
       packages, which are automatically recognized, irrespective of <tt>skip</tt>.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <tt>version</tt> overrides the version, which is otherwise inferred from
+      the version-release part of the filename.
     </p>
   </li>
 </ul>

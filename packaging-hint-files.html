@@ -34,6 +34,9 @@ sdesc: <i>"some text"</i>
 ldesc: <i>"some text"</i>
 category: <i>name1[ name2...]</i>
 requires: <i>package[ package...]</i>
+depends: <i>version-relation[, version-relation...]</i>
+obsoletes: <i>version-relation[, version-relation...]</i>
+build-depends: <i>dependency-atom[ dependency-atom...]</i>
 external-source: <i>package</i>
 message: <i>id</i> <i>"some text"</i>
 test:
@@ -116,8 +119,7 @@ No actual moles will be harmed during execution of this game."
       Do not enclose multiple category names within quotation marks.
     </p>
 
-    <a id="categories"/>
-    <p>
+    <p id="categories">
       Please do not invent a new category without checking with the cygwin-apps
       mailing list first. At the time of writing, the current categories are:
     </p>
@@ -217,6 +219,32 @@ No actual moles will be harmed during execution of this game."
       The id used should be derived from the package name. Currently, the text
       for a given id will be shown by setup exactly once, when the package is
       first installed, even if the text subsequently changes.
+    </p>
+  </li>
+  <li>
+    <p>
+      <tt>depends</tt> indicates the packages that this package relies upon, in
+      a more sophisticated way than <tt>requires:</tt>.
+      See <a href="https://sourceware.org/cygwin-apps/setup.ini.html#relationship">relationship
+      fields</a> for details of the syntax.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <tt>obsoletes</tt> indicates the packages that this package supersedes.
+      See <a href="https://sourceware.org/cygwin-apps/setup.ini.html#relationship">relationship
+      fields</a> for details of the syntax.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <tt>build-depends</tt> indicates the binary packages that are needed to
+      build this source package.  This is a space-separated list
+      of <tt>cygport(1)</tt>
+      <a href="https://cygwinports.github.io/cygport/check_funcs_cygpart.html#Information2fDEPEND">
+      dependency atoms.</a>
     </p>
   </li>
 

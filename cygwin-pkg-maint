@@ -1036,6 +1036,7 @@ kf5-libkcddb                                 Yaakov Selkowitz
 kf5-libkdcraw                                Yaakov Selkowitz
 kf5-libkdegames                              Yaakov Selkowitz
 kf5-libkexiv2                                Yaakov Selkowitz
+kf5-libkgeomap                               Yaakov Selkowitz
 kf5-libkipi                                  Yaakov Selkowitz
 kf5-libkmahjongg                             Yaakov Selkowitz
 kf5-libkscreen                               Yaakov Selkowitz
@@ -1538,7 +1539,7 @@ malaga                                       Yaakov Selkowitz
 man-db                                       Chris J. Breisch/Yaakov Selkowitz
 man-pages-posix                              Corinna Vinschen
 marble                                       Yaakov Selkowitz
-marblewidget                                 Yaakov Selkowitz
+marblewidget                                 ORPHANED (Yaakov Selkowitz)
 marco                                        Yaakov Selkowitz
 marisa                                       Yaakov Selkowitz
 mate-applets                                 Yaakov Selkowitz
@@ -2448,7 +2449,7 @@ odt2txt                                      Jari Aalto
 offlineimap                                  Jari Aalto
 ogmtools                                     Jari Aalto
 okteta                                       Yaakov Selkowitz
-okteta4                                      Yaakov Selkowitz
+okteta4                                      ORPHANED (Yaakov Selkowitz)
 okular                                       Yaakov Selkowitz
 onc-rpc-devel                                Pavel Fedin
 onig                                         Marco Atzeri

@@ -132,8 +132,8 @@ discussed and announced.
     #!/bin/sh
     mkdir custompackage
     cd custompackage
-    touch custompackage-0.0.1-1.tar.bz2
-    touch custompackage-0.0.1-1-src.tar.bz2
+    tar -Jcf custompackage-0.0.1-1.tar.xz --files-from /dev/null
+    tar -Jcf custompackage-0.0.1-1-src.tar.xz --files-from /dev/null
     cat &gt; custompackage-0.0.1-1.hint &lt;&lt; EOF
       sdesc: "My favorite packages"
       ldesc: "My favorite packages"

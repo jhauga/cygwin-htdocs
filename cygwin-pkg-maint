@@ -3396,6 +3396,7 @@ spice-protocol                               Yaakov Selkowitz
 splint                                       Jari Aalto
 splitpatch                                   Jari Aalto
 spqr                                         Marco Atzeri
+sqlcipher                                    Yaakov Selkowitz
 sqlite3                                      Jan Nijtmans
 sqliteman                                    Yaakov Selkowitz
 squid                                        ORPHANED (Dr. Volker Zell)

@@ -1431,7 +1431,7 @@ libxml2                                      Yaakov Selkowitz
 libxmp                                       Yaakov Selkowitz
 libXmu                                       Yaakov Selkowitz
 libXpm                                       Yaakov Selkowitz
-libXpm-noX                                   ORPHANED (Charles Wilson)
+libXpm-noX                                   Ken Brown
 libXrandr                                    Yaakov Selkowitz
 libXrender                                   Yaakov Selkowitz
 libXres                                      Yaakov Selkowitz

@@ -55,6 +55,17 @@ to elevate the process.  If you want to avoid this behaviour and install
 under an unprivileged account just for your own usage, run
 <tt>setup*.exe</tt> with the <tt>--no-admin</tt> option.</p>
 
+<h2 class="cartouche">Q: How do I add a package to my existing Cygwin installation?</h2>
+
+<p>
+A: Run the setup program and select the package you want to add.
+</p>
+
+<p>
+Tip: if you don't want to also upgrade existing packages, select 'Keep' at the
+top-right of the package chooser page.
+</p>
+
 <h2 class="cartouche" id="cli">Q: Is there a command-line installer?</h2>
 
 <p>A: Yes and no.  The <tt>setup*.exe</tt> program understands
@@ -86,6 +97,33 @@ If you really <i>must</i> do this, clicking on the "Default" label next to the
 "All" category to change it to "Install" will mark every Cygwin package for
 installation.  Be advised that this will download and install tens of gigabytes
 of files to your computer.
+</p>
+
+<h2 class="cartouche">Q: How do I verify the signature of setup?</h2>
+
+<p>A: e.g.</p>
+
+<pre>
+$ gpg --recv-key 676041BA
+gpg: requesting key 676041BA from hkp server keys.gnupg.net
+gpg: key 676041BA: public key "Cygwin <cygwin@cygwin.com>" imported
+gpg: 3 marginal(s) needed, 1 complete(s) needed, PGP trust model
+gpg: depth: 0  valid:   3  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 3u
+gpg: Total number processed: 1
+gpg:               imported: 1
+
+$ gpg --verify setup-x86_64.exe.sig setup-x86_64.exe
+gpg: Signature made 26 Jul 2018 23:18:16 BST using DSA key ID 676041BA
+gpg: Good signature from "Cygwin <cygwin@cygwin.com>"
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 1169 DF9F 2273 4F74 3AA5  9232 A9A2 62FF 6760 41BA
+</pre>
+
+<h2 class="cartouche">Q: What's the hash of setup?</h2>
+
+<p>
+A: See <a href="https://cygwin.com/sha512.sum">here</a>
 </p>
 
 <h2 class="cartouche" id="source">Q: How do I help improve setup?</h2>

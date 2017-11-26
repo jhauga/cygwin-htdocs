@@ -2946,7 +2946,7 @@ putty                                        Yaakov Selkowitz
 pv                                           Aaron Schneider
 pwgen                                        Jari Aalto
 pwget                                        Jari Aalto
-pylint                                       Jari Aalto
+pylint                                       ORPHANED (Jari Aalto)
 python-appdirs                               Yaakov Selkowitz
 python-asn1crypto                            Yaakov Selkowitz
 python-attrs                                 Yaakov Selkowitz
@@ -3002,8 +3002,8 @@ python-isodate                               Yaakov Selkowitz
 python-jinja2                                Tony Kelman
 python-libvirt                               Yaakov Selkowitz
 python-lockfile                              Yaakov Selkowitz
-python-logilab-astng                         Jari Aalto
-python-logilab-common                        Jari Aalto
+python-logilab-astng                         ORPHANED (Jari Aalto)
+python-logilab-common                        ORPHANED (Jari Aalto)
 python-lxml                                  Yaakov Selkowitz
 python-mako                                  Yaakov Selkowitz
 python-markupsafe                            Yaakov Selkowitz
@@ -3018,7 +3018,7 @@ python-opengl-accelerate                     Yaakov Selkowitz
 python-openssl                               Yaakov Selkowitz
 python-orbit                                 Yaakov Selkowitz
 python-packaging                             Yaakov Selkowitz
-python-paramiko                              Jari Aalto
+python-paramiko                              ORPHANED (Jari Aalto)
 python-pathlib2                              Yaakov Selkowitz
 python-pbr                                   Yaakov Selkowitz
 python-pexpect                               Yaakov Selkowitz
@@ -3385,7 +3385,7 @@ soundtouch                                   Yaakov Selkowitz
 source-highlight                             Yaakov Selkowitz
 sox                                          Yaakov Selkowitz
 soxr                                         Yaakov Selkowitz
-spambayes                                    Jari Aalto
+spambayes                                    ORPHANED (Jari Aalto)
 spamoracle                                   Jari Aalto
 spectacle                                    Yaakov Selkowitz
 speech-dispatcher                            Yaakov Selkowitz

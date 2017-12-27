@@ -935,12 +935,16 @@ kde-l10n-zh_CN                               Yaakov Selkowitz
 kde-l10n-zh_TW                               Yaakov Selkowitz
 kde-runtime                                  Yaakov Selkowitz
 kde-workspace                                Yaakov Selkowitz
+kdeaddons                                    Yaakov Selkowitz
+kdebase3                                     Yaakov Selkowitz
 kdebugsettings                               Yaakov Selkowitz
 kdecoration2                                 Yaakov Selkowitz
 kdeedu-data                                  Yaakov Selkowitz
+kdegames3                                    Yaakov Selkowitz
 kdegraphics-mobipocket                       Yaakov Selkowitz
 kdegraphics-thumbnailers                     Yaakov Selkowitz
 kdelibs                                      Yaakov Selkowitz
+kdelibs3                                     Yaakov Selkowitz
 kdepimlibs                                   Yaakov Selkowitz
 kdeplasma-addons                             Yaakov Selkowitz
 kdesdk-kioslaves                             Yaakov Selkowitz

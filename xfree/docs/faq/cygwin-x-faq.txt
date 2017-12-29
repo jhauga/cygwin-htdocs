@@ -1,6 +1,6 @@
 Cygwin/X Frequently Asked Questions
 
-2017-02-20 15:29
+2017-12-29 18:04
      __________________________________________________________________
 
    Table of Contents
@@ -1591,8 +1591,6 @@ Fatal server error: Failed to activate core devices.
 
    Look in Cygwin's setup program for packages in the X11 category.
 
-   Also, see this Cygwin/X - Ported Software old list.
-
    10.2. How do I start porting software to Cygwin/X?
 
    Cygwin/X provides a software interface that is very similar to the
@@ -1643,9 +1641,9 @@ Fatal server error: Failed to activate core devices.
        graphics through an X server.
 
    These are incompatible, even the headers (as the native OpenGL API has
-   the stdcall calling convention), so you must exercise care if you have
-   both sets of devel packages installed. An application must be built
-   using only one of these.
+   the stdcall calling convention on x86), so you must exercise care if
+   you have both sets of devel packages installed. An application must be
+   built using only one of these.
      * X applications using GLX must be built using option 2.
      * Applications using GLUT have a choice.
      * Applications using the WGL API must be built using option 1.

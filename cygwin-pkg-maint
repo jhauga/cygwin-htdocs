@@ -234,6 +234,7 @@ colamd                                       Marco Atzeri
 colordiff                                    ORPHANED (Kostya Altukhov)
 colorgcc                                     Jari Aalto
 compface                                     ORPHANED (Dr. Volker Zell)
+compiler-rt                                  Yaakov Selkowitz
 compositeproto                               Yaakov Selkowitz
 connect-proxy                                Marco Atzeri
 connectagram                                 Yaakov Selkowitz
@@ -1201,6 +1202,8 @@ libcroco0.6                                  Yaakov Selkowitz
 libcryptui                                   Yaakov Selkowitz
 libcue                                       Yaakov Selkowitz
 libcuefile                                   Yaakov Selkowitz
+libcxx                                       Yaakov Selkowitz
+libcxxabi                                    Yaakov Selkowitz
 libdaemon                                    Yaakov Selkowitz
 libdatrie                                    Yaakov Selkowitz
 libdbi                                       Yaakov Selkowitz

@@ -1356,6 +1356,7 @@ libqalculate                                 Yaakov Selkowitz
 libqt5xdg                                    Yaakov Selkowitz
 libquvi0.9                                   Yaakov Selkowitz
 libquvi0.9-scripts                           Yaakov Selkowitz
+libqxp                                       Yaakov Selkowitz
 libqzeitgeist                                Yaakov Selkowitz
 libraw                                       Yaakov Selkowitz
 libreplaygain                                Yaakov Selkowitz
@@ -1458,6 +1459,7 @@ libytnef                                     Yaakov Selkowitz
 libzeitgeist1.0                              Yaakov Selkowitz
 libzen                                       Yaakov Selkowitz
 libzip                                       Yaakov Selkowitz
+libzmf                                       Yaakov Selkowitz
 licensecheck                                 Jari Aalto
 lightsoff                                    Yaakov Selkowitz
 lighttpd                                     Yaakov Selkowitz
@@ -1791,6 +1793,7 @@ mingw64-i686-libogg                          Yaakov Selkowitz
 mingw64-i686-libpagemaker0.0                 Yaakov Selkowitz
 mingw64-i686-libpng                          Yaakov Selkowitz
 mingw64-i686-libproxy                        Yaakov Selkowitz
+mingw64-i686-libqxp                          Yaakov Selkowitz
 mingw64-i686-libraw                          Yaakov Selkowitz
 mingw64-i686-librest0.7                      Yaakov Selkowitz
 mingw64-i686-librevenge0.0                   Yaakov Selkowitz
@@ -1826,6 +1829,7 @@ mingw64-i686-libxml2                         Yaakov Selkowitz
 mingw64-i686-libXpm                          Yaakov Selkowitz
 mingw64-i686-libxslt                         Yaakov Selkowitz
 mingw64-i686-libzip                          Yaakov Selkowitz
+mingw64-i686-libzmf                          Yaakov Selkowitz
 mingw64-i686-llvm                            Yaakov Selkowitz
 mingw64-i686-lua                             Yaakov Selkowitz
 mingw64-i686-lz4                             Yaakov Selkowitz
@@ -2135,6 +2139,7 @@ mingw64-x86_64-libogg                        Yaakov Selkowitz
 mingw64-x86_64-libpagemaker0.0               Yaakov Selkowitz
 mingw64-x86_64-libpng                        Yaakov Selkowitz
 mingw64-x86_64-libproxy                      Yaakov Selkowitz
+mingw64-x86_64-libqxp                        Yaakov Selkowitz
 mingw64-x86_64-libraw                        Yaakov Selkowitz
 mingw64-x86_64-librest0.7                    Yaakov Selkowitz
 mingw64-x86_64-librevenge0.0                 Yaakov Selkowitz
@@ -2170,6 +2175,7 @@ mingw64-x86_64-libxml2                       Yaakov Selkowitz
 mingw64-x86_64-libXpm                        Yaakov Selkowitz
 mingw64-x86_64-libxslt                       Yaakov Selkowitz
 mingw64-x86_64-libzip                        Yaakov Selkowitz
+mingw64-x86_64-libzmf                        Yaakov Selkowitz
 mingw64-x86_64-llvm                          Yaakov Selkowitz
 mingw64-x86_64-lua                           Yaakov Selkowitz
 mingw64-x86_64-lz4                           Yaakov Selkowitz

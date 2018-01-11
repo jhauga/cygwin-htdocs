@@ -1224,7 +1224,7 @@ libelf                                       Yaakov Selkowitz
 libEMF                                       ORPHANED (Dr. Volker Zell)
 libeot                                       Yaakov Selkowitz
 libepoxy                                     Yaakov Selkowitz
-libepubgen0.0                                Yaakov Selkowitz
+libepubgen                                   Yaakov Selkowitz
 liberation-fonts                             Yaakov Selkowitz
 libesmtp                                     Yaakov Selkowitz
 libetonyek0.1                                Yaakov Selkowitz
@@ -1745,7 +1745,7 @@ mingw64-i686-libdvdread                      Yaakov Selkowitz
 mingw64-i686-libe-book0.1                    Yaakov Selkowitz
 mingw64-i686-libebml                         Yaakov Selkowitz
 mingw64-i686-libepoxy                        Yaakov Selkowitz
-mingw64-i686-libepubgen0.0                   Yaakov Selkowitz
+mingw64-i686-libepubgen                      Yaakov Selkowitz
 mingw64-i686-libetonyek0.1                   Yaakov Selkowitz
 mingw64-i686-libevent                        Yaakov Selkowitz
 mingw64-i686-libexif                         Yaakov Selkowitz
@@ -2091,7 +2091,7 @@ mingw64-x86_64-libdvdread                    Yaakov Selkowitz
 mingw64-x86_64-libe-book0.1                  Yaakov Selkowitz
 mingw64-x86_64-libebml                       Yaakov Selkowitz
 mingw64-x86_64-libepoxy                      Yaakov Selkowitz
-mingw64-x86_64-libepubgen0.0                 Yaakov Selkowitz
+mingw64-x86_64-libepubgen                    Yaakov Selkowitz
 mingw64-x86_64-libetonyek0.1                 Yaakov Selkowitz
 mingw64-x86_64-libevent                      Yaakov Selkowitz
 mingw64-x86_64-libexif                       Yaakov Selkowitz

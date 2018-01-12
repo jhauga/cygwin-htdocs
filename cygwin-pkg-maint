@@ -1931,6 +1931,7 @@ mingw64-i686-taglib                          Yaakov Selkowitz
 mingw64-i686-tcl                             Yaakov Selkowitz
 mingw64-i686-tiff                            Yaakov Selkowitz
 mingw64-i686-tk                              Yaakov Selkowitz
+mingw64-i686-twolame                         Yaakov Selkowitz
 mingw64-i686-unbound                         Yaakov Selkowitz
 mingw64-i686-usbredir                        Yaakov Selkowitz
 mingw64-i686-wavpack                         Yaakov Selkowitz
@@ -2277,6 +2278,7 @@ mingw64-x86_64-taglib                        Yaakov Selkowitz
 mingw64-x86_64-tcl                           Yaakov Selkowitz
 mingw64-x86_64-tiff                          Yaakov Selkowitz
 mingw64-x86_64-tk                            Yaakov Selkowitz
+mingw64-x86_64-twolame                       Yaakov Selkowitz
 mingw64-x86_64-unbound                       Yaakov Selkowitz
 mingw64-x86_64-usbredir                      Yaakov Selkowitz
 mingw64-x86_64-wavpack                       Yaakov Selkowitz
@@ -3600,6 +3602,7 @@ ttf2pt1                                      Yaakov Selkowitz
 ttfautohint                                  Yaakov Selkowitz
 tumbler                                      Yaakov Selkowitz
 twm                                          Yaakov Selkowitz
+twolame                                      Yaakov Selkowitz
 txt2regex                                    Jari Aalto
 typespeed                                    ORPHANED
 tzcode                                       Corinna Vinschen/Yaakov Selkowitz

@@ -42,6 +42,7 @@ message: <i>id</i> <i>"some text"</i>
 test:
 skip:
 version: <i>version</i>
+disable-check: <i>check-name [check-name...]</i>
 </pre>
 <p class="center">
   <b>Note: Not all of the above lines are required. Please read the description
@@ -283,6 +284,12 @@ No actual moles will be harmed during execution of this game."
       the version-release part of the filename.
     </p>
   </li>
+
+  <li>
+    <p>
+      <tt>disable-check</tt> disables the named checks for this package.
+    </p>
+  </li>
 </ul>
 <p>Here's an example of a complete <i>release/boffo/boffo-1.0-1.hint</i>:</p>
 <pre>
@@ -377,6 +384,7 @@ prev: <i>version</i>
 keep: <i>version</i>[ <i>version</i>...]
 keep-count: <i>count</i>
 keep-days: <i>days</i>
+disable-check: <i>check-name [check-name...]</i>
 </pre>
 
 <ul class="spaced">
@@ -463,6 +471,12 @@ curr: 0.9-1
     </p>
   </li>
 
+  <li>
+    <p>
+      <tt>disable-check</tt> disables the named checks for all versions of this
+      package.
+    </p>
+  </li>
 </ul>
 
 <h2 class="cartouche" id="setup.hint"><tt>setup.hint</tt> file</h2>

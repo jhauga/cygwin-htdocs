@@ -385,6 +385,7 @@ keep: <i>version</i>[ <i>version</i>...]
 keep-count: <i>count</i>
 keep-days: <i>days</i>
 disable-check: <i>check-name [check-name...]</i>
+replace-versions: <i>version [version...]</i>
 </pre>
 
 <ul class="spaced">
@@ -475,6 +476,21 @@ curr: 0.9-1
     <p>
       <tt>disable-check</tt> disables the named checks for all versions of this
       package.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <tt>replace-versions</tt> lists versions which should always be replaced.
+    </p>
+
+    <p>
+      This is intended for (temporarily) dealing with withdrawn versions, e.g.
+      those which have been removed (or relabelled as test), without a
+      superseding higher version existing, and indicates that the named
+      versions(s), if installed, should be replaced with by the current version,
+      even if lower.
+    </p>
     </p>
   </li>
 </ul>

@@ -190,15 +190,15 @@ discussed and announced.
   </li>
   <li value="5">
     <p>
-      Add the <tt>-okmissing=required-package</tt> option to <tt>mksetupini</tt>
-      (this turns off checking that all dependencies can be found, since
-      presumably some of them will be provided by the standard Cygwin package
-      repository).
+      Add the <tt>--disable-check=missing-required-package,missing-depended-package</tt>
+      option to <tt>mksetupini</tt> (this turns off checking that all
+      dependencies can be found, since presumably some of them will be provided
+      by the standard Cygwin package repository).
     </p>
     <p>
-      (Additionally, if you are going to overlay an existing package with
+      (Additionally, if you are going to overlay an existing package with just
       a <tt>test:</tt> version in your repository, you will need to use the
-      <tt>--okmissing=curr</tt> option to indicate that it's ok not to have
+      <tt>--disable-check=missing-curr</tt> option to indicate that it's ok not to have
       a <tt>curr:</tt> version of a package)
     </p>
   </li>
@@ -225,7 +225,7 @@ discussed and announced.
 <p>
 <i>
   TBD: We are currently lacking a tool to check that cross-repository
-  dependencies can be satisfied (i.e. that packages for these presumptive
+  dependencies can be satisfied (i.e. that presumptive packages for these
   dependencies actually exist).  This can be checked by running setup, telling
   it to install <b>everything</b>, and seeing if the "Resolving dependencies"
   page reports any dependencies as not found.

@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Using Cygwin effectively with Windows</title><link rel="stylesheet" type="text/css" href="docbook.css"><meta name="generator" content="DocBook XSL Stylesheets V1.79.1"><link rel="home" href="cygwin-ug-net.html" title="Cygwin User's Guide"><link rel="up" href="using.html" title="Chapter 3. Using Cygwin"><link rel="prev" href="umount.html" title="umount"><link rel="next" href="programming.html" title="Chapter 4. Programming with Cygwin"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">Using Cygwin effectively with Windows</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="umount.html">Prev</a> </td><th width="60%" align="center">Chapter 3. Using Cygwin</th><td width="20%" align="right"> <a accesskey="n" href="programming.html">Next</a></td></tr></table><hr></div><div class="sect1"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="using-effectively"></a>Using Cygwin effectively with Windows</h2></div></div></div><p>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Using Cygwin effectively with Windows</title><link rel="stylesheet" type="text/css" href="docbook.css"><meta name="generator" content="DocBook XSL Stylesheets Vsnapshot"><link rel="home" href="cygwin-ug-net.html" title="Cygwin User's Guide"><link rel="up" href="using.html" title="Chapter 3. Using Cygwin"><link rel="prev" href="umount.html" title="umount"><link rel="next" href="programming.html" title="Chapter 4. Programming with Cygwin"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">Using Cygwin effectively with Windows</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="umount.html">Prev</a> </td><th width="60%" align="center">Chapter 3. Using Cygwin</th><td width="20%" align="right"> <a accesskey="n" href="programming.html">Next</a></td></tr></table><hr></div><div class="sect1"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="using-effectively"></a>Using Cygwin effectively with Windows</h2></div></div></div><p>
 Cygwin is not a full operating system, and so must rely on Windows for
 accomplishing some tasks. For example, Cygwin provides a POSIX view
 of the Windows filesystem, but does not provide filesystem drivers of 
@@ -73,33 +73,16 @@ NTLM Authorization Proxy Server</a> or the no-charge
 <a class="ulink" href="http://www.hummingbird.com/products/nc/socks/index.html" target="_top">
 Hummingbird SOCKS Proxy</a> may allow you to use Cygwin network
 programs in your environment.
-</p></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="using-cygutils"></a>The cygutils package</h3></div></div></div><p>
-The optional <code class="systemitem">cygutils</code> package contains
-miscellaneous tools that are small enough to not require their own package.
-It is not included in a default Cygwin install; select it from the Utils
-category in <span class="command"><strong>setup.exe</strong></span>. Several of the
-<code class="systemitem">cygutils</code> tools are useful for interacting with
-Windows.</p><p>
-One of the hassles of Unix-Windows interoperability is the different line 
-endings on text files.  As mentioned in <a class="xref" href="using-textbinary.html" title="Text and Binary modes">the section called “Text and Binary modes”</a>, 
-Unix tools such as <span class="command"><strong>tr</strong></span> can convert between CRLF and LF 
-endings, but <code class="systemitem">cygutils</code> provides several dedicated programs: 
-<span class="command"><strong>conv</strong></span>, <span class="command"><strong>d2u</strong></span>, <span class="command"><strong>dos2unix</strong></span>, 
-<span class="command"><strong>u2d</strong></span>, and <span class="command"><strong>unix2dos</strong></span>. Use the
-<code class="literal">--help</code> switch for usage information. 
-</p></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="using-shortcuts"></a>Creating shortcuts with cygutils</h3></div></div></div><p>
-Another problem area is between Unix-style links, which link one file
-to another, and Microsoft .lnk files, which provide a shortcut to a
-file.  They seem similar at first glance but, in reality, are fairly 
-different.  By default, Cygwin does not create symlinks as .lnk files,
-but there's an option to do that, see <a class="xref" href="using-cygwinenv.html" title="The CYGWIN environment variable">the section called “The <code class="envar">CYGWIN</code> environment
+</p></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="using-shortcuts"></a>Creating shortcuts</h3></div></div></div><p>
+By default, Cygwin does not create symlinks as .lnk files, but there's an
+option to do that, see <a class="xref" href="using-cygwinenv.html" title="The CYGWIN environment variable">the section called “The <code class="envar">CYGWIN</code> environment
 variable”</a>.
 These symlink .lnk files are compatible with Windows-created .lnk files,
 but they are still different.  They do not include much of the information
 that is available in a standard Microsoft shortcut, such as the working
 directory, an icon, etc.  The <code class="systemitem">cygutils</code>
 package includes a <span class="command"><strong>mkshortcut</strong></span> utility for creating
-standard native Microsoft .lnk files.
+standard native Microsoft .lnk files from the command line.
 </p><p>
 But here's the problem.  If Cygwin handled these native shortcuts like any
 other symlink, you could not archive Microsoft .lnk files into
@@ -109,10 +92,11 @@ and would be no different than standard Cygwin symlinks. Therefore these two
 types of links are treated differently.  Unfortunately, this means that the 
 usual Unix way of creating and using symlinks does not work with native
 Windows shortcuts. 
-</p></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="using-printing"></a>Printing with cygutils</h3></div></div></div><p>
+</p></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="using-printing"></a>Printing</h3></div></div></div><p>
 There are several options for printing from Cygwin, including the 
-<span class="command"><strong>lpr</strong></span> found in <code class="systemitem">cygutils</code> (not to be confused with the 
-native Windows <span class="command"><strong>lpr.exe</strong></span>). The easiest way to use <code class="systemitem">cygutils</code>' 
+<span class="command"><strong>lpr</strong></span> found in <code class="systemitem">cygutils-extra</code>
+(not to be confused with the native Windows <span class="command"><strong>lpr.exe</strong></span>).
+The easiest way to use <code class="systemitem">cygutils-extra</code>'s
 <span class="command"><strong>lpr</strong></span> is to specify a default device name in the 
 <code class="envar">PRINTER</code> environment variable.  You may also specify a device 
 on the command line with the <code class="literal">-d</code> or <code class="literal">-P</code> 

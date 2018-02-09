@@ -130,7 +130,6 @@ beefy-miracle-backgrounds                    Yaakov Selkowitz
 beforelight                                  Yaakov Selkowitz
 biber                                        Ken Brown
 bidiv                                        Yaakov Selkowitz
-bigreqsproto                                 Yaakov Selkowitz
 bind                                         Yaakov Selkowitz
 binutils                                     Jonathan Yong
 bison                                        Eric Blake
@@ -236,7 +235,6 @@ colordiff                                    ORPHANED (Kostya Altukhov)
 colorgcc                                     Jari Aalto
 compface                                     ORPHANED (Dr. Volker Zell)
 compiler-rt                                  Yaakov Selkowitz
-compositeproto                               Yaakov Selkowitz
 connect-proxy                                Marco Atzeri
 connectagram                                 Yaakov Selkowitz
 constantine-backgrounds                      Yaakov Selkowitz
@@ -301,7 +299,6 @@ cygwin64-w32api-runtime                      Yaakov Selkowitz
 cygwin64-zlib                                Yaakov Selkowitz
 cyrus-sasl                                   David Rothenberger
 d-feet                                       Yaakov Selkowitz
-damageproto                                  Yaakov Selkowitz
 dash                                         Eric Blake
 datefudge                                    Yaakov Selkowitz
 dateutils                                    Yaakov Selkowitz
@@ -339,7 +336,6 @@ djview                                       Yaakov Selkowitz
 djvulibre                                    Yaakov Selkowitz
 dmalloc                                      Jon Turney
 dmtx-utils                                   Yaakov Selkowitz
-dmxproto                                     Yaakov Selkowitz
 dnsperf                                      Yaakov Selkowitz
 docbook-dsssl                                Yaakov Selkowitz
 docbook-sgml30                               Yaakov Selkowitz
@@ -441,7 +437,6 @@ filezilla                                    Yaakov Selkowitz
 findutils                                    Eric Blake
 fish                                         Andrew Schulman
 five-or-more                                 Yaakov Selkowitz
-fixesproto                                   Yaakov Selkowitz
 flac                                         David Rothenberger
 flawfinder                                   Jari Aalto
 flex                                         Marco Atzeri
@@ -459,7 +454,6 @@ font-util                                    Yaakov Selkowitz
 fontawesome-fonts                            Yaakov Selkowitz
 fontconfig                                   Yaakov Selkowitz
 fontforge                                    Yaakov Selkowitz
-fontsproto                                   Yaakov Selkowitz
 fonttosfnt                                   Yaakov Selkowitz
 foobillard                                   David Stacey
 fort77                                       Yaakov Selkowitz
@@ -548,7 +542,6 @@ glib2.0-openssl                              Yaakov Selkowitz
 glibmm2.4                                    Yaakov Selkowitz
 glm                                          Yaakov Selkowitz
 glpk                                         Marco Atzeri
-glproto                                      Yaakov Selkowitz
 glu                                          Yaakov Selkowitz
 glw                                          Yaakov Selkowitz
 gmic                                         Yaakov Selkowitz
@@ -813,7 +806,6 @@ inetutils                                    ORPHANED (Charles Wilson)
 initscripts                                  ORPHANED (Dr. Volker Zell)
 inkscape                                     Yaakov Selkowitz
 input-pad                                    Yaakov Selkowitz
-inputproto                                   Yaakov Selkowitz
 integrit                                     Jari Aalto
 intltool                                     Yaakov Selkowitz
 ipc-utils                                    Corinna Vinschen
@@ -860,7 +852,6 @@ katomic                                      Yaakov Selkowitz
 kblackbox                                    Yaakov Selkowitz
 kblocks                                      Yaakov Selkowitz
 kbounce                                      Yaakov Selkowitz
-kbproto                                      Yaakov Selkowitz
 kbrickbuster                                 Yaakov Selkowitz
 kbruch                                       Yaakov Selkowitz
 kcalc                                        Yaakov Selkowitz
@@ -2960,7 +2951,6 @@ postfix                                      Christian Franke
 postgresql                                   Marco Atzeri
 potrace                                      Ken Brown
 poxml                                        Yaakov Selkowitz
-presentproto                                 Yaakov Selkowitz
 prison                                       Yaakov Selkowitz
 pristine-tar                                 Jari Aalto
 procmail                                     Daniel Boland
@@ -3181,7 +3171,6 @@ qupzilla                                     Yaakov Selkowitz
 quvi                                         Yaakov Selkowitz
 qwt5                                         Yaakov Selkowitz
 R                                            Marco Atzeri
-randrproto                                   Yaakov Selkowitz
 raptor2                                      Yaakov Selkowitz
 rarian                                       Yaakov Selkowitz
 rasqal                                       Yaakov Selkowitz
@@ -3193,15 +3182,12 @@ rdiff-backup                                 David Rothenberger
 readline                                     Eric Blake
 rebase                                       Corinna Vinschen
 recode                                       Corinna Vinschen
-recordproto                                  Yaakov Selkowitz
 redland                                      Yaakov Selkowitz
 regina-rexx                                  Mark Hessling
 remmina                                      Yaakov Selkowitz
 renameutils                                  Jari Aalto
 renattach                                    Jari Aalto
 rendercheck                                  Yaakov Selkowitz
-renderproto                                  Yaakov Selkowitz
-resourceproto                                Yaakov Selkowitz
 rgb                                          Yaakov Selkowitz
 ristretto                                    Yaakov Selkowitz
 rlwrap                                       Corinna Vinschen
@@ -3373,7 +3359,6 @@ scowl                                        Yaakov Selkowitz
 screen                                       Andrew Schulman
 screenruler                                  Yaakov Selkowitz
 scribus                                      Yaakov Selkowitz
-scrnsaverproto                               Yaakov Selkowitz
 SDL                                          Yaakov Selkowitz
 SDL2                                         Yaakov Selkowitz
 SDL2_image                                   Yaakov Selkowitz
@@ -3707,7 +3692,6 @@ xchm                                         Yaakov Selkowitz
 xclip                                        ORPHANED (Dr. Volker Zell)
 xclipboard                                   Yaakov Selkowitz
 xclock                                       Yaakov Selkowitz
-xcmiscproto                                  Yaakov Selkowitz
 xcmsdb                                       Yaakov Selkowitz
 xcompmgr                                     Yaakov Selkowitz
 xconsole                                     Yaakov Selkowitz
@@ -3727,12 +3711,10 @@ xemacs-mule-sumo                             ORPHANED (Dr. Volker Zell)
 xemacs-sumo                                  ORPHANED (Dr. Volker Zell)
 xerces-c                                     Yaakov Selkowitz
 xev                                          Yaakov Selkowitz
-xextproto                                    Yaakov Selkowitz
 xeyes                                        Yaakov Selkowitz
 xf86-video-dummy                             Yaakov Selkowitz
 xf86-video-nested                            Yaakov Selkowitz
 xf86-video-qxl                               Yaakov Selkowitz
-xf86bigfontproto                             Yaakov Selkowitz
 xfce-themes                                  Yaakov Selkowitz
 xfce4-appfinder                              Yaakov Selkowitz
 xfce4-calculator-plugin                      Yaakov Selkowitz
@@ -3779,7 +3761,6 @@ xfwm4-themes                                 Yaakov Selkowitz
 xgc                                          Yaakov Selkowitz
 xgraph                                       Marco Atzeri
 xhost                                        Yaakov Selkowitz
-xineramaproto                                Yaakov Selkowitz
 xinetd                                       Corinna Vinschen
 xinit                                        Yaakov Selkowitz
 xinput                                       Yaakov Selkowitz
@@ -3818,6 +3799,7 @@ xorg-server                                  Jon Turney
 xorg-sgml-doctools                           Yaakov Selkowitz
 xorg-util-macros                             Yaakov Selkowitz
 xorg-x11-fonts                               Yaakov Selkowitz
+xorgproto                                    Yaakov Selkowitz
 xpad                                         Yaakov Selkowitz
 xpdf                                         Ken Brown
 xplanet                                      Yaakov Selkowitz
@@ -3825,7 +3807,6 @@ xplayer                                      Yaakov Selkowitz
 xplayer-plparser                             Yaakov Selkowitz
 xpr                                          Yaakov Selkowitz
 xprop                                        Yaakov Selkowitz
-xproto                                       Yaakov Selkowitz
 xrandr                                       Yaakov Selkowitz
 xrdb                                         Yaakov Selkowitz
 xrefresh                                     Yaakov Selkowitz

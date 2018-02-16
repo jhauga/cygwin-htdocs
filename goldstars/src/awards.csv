@@ -45,7 +45,7 @@ AS,https://cygwin.com/ml/cygwin-apps/2015-03/msg00001.html,For helping to clean 
 AS,https://cygwin.com/ml/cygwin/2011-12/msg00302.html,For responsiveness in maintaining the gold star page.
 AS,https://cygwin.com/ml/cygwin/2009-07/msg00451.html,For volunteering to maintain the gold star page.
 AS,https://cygwin.com/ml/cygwin/2007-07/msg00282.html,For packaging <tt>screen</tt> for Cygwin.
-AS,https://cygwin.com/ml/cygwin-apps/2007-02/msg00045.html,For adopting the orphaced <tt>stunnel</tt> package.
+AS,https://cygwin.com/ml/cygwin-apps/2007-02/msg00045.html,For adopting the <tt>stunnel</tt> package.
 AS,https://cygwin.com/ml/cygwin-apps/2006-07/msg00064.html,For adopting the <tt>lftp</tt> package.
 AS,https://cygwin.com/ml/cygwin/2005-08/msg01182.html,"For patience, bravery, manliness, etc. in maintaining the <tt>unison*</tt> packages."
 
@@ -143,7 +143,7 @@ EB,https://cygwin.com/ml/cygwin/2009-07/msg00455.html,For obsoleting ash with it
 EB,https://cygwin.com/ml/cygwin-apps/2006-11/msg00069.html,For adopting the <tt>wget</tt> package.
 EB,https://cygwin.com/ml/cygwin/2006-02/msg00088.html,"For offering a nice summation of the problems with mismatched dlls, along with a cogent suggestion for dealing with the problem."
 EB,https://cygwin.com/ml/cygwin-apps/2005-05/msg00270.html,For packaging <tt>bash</tt> for Cygwin.
-EB,https://cygwin.com/ml/cygwin/2005-01/msg00727.html,For adopting and updating the orphaned <tt>coreutils</tt> package.,2
+EB,https://cygwin.com/ml/cygwin/2005-01/msg00727.html,For adopting and updating the <tt>coreutils</tt> package.,2
 
 EF,https://cygwin.com/ml/cygwin/2000-04/msg00261.html,For enlightening people on the properties of <tt>/cygdrive</tt>.
 
@@ -205,7 +205,7 @@ JJ,https://cygwin.com/ml/cygwin-apps/2015-07/msg00061.html,For adopting the <tt>
 
 JM,https://cygwin.com/ml/cygwin-apps/2010-09/msg00084.html,For years of service maintaining the <tt>base-files</tt> and <tt>base-passwd</tt> packages.,,,1
 
-JN,https://cygwin.com/ml/cygwin-apps/2007-07/msg00166.html,For quietly taking over the orphaned <tt>libfontconfig1</tt> and <tt>libfontconfig-devel</tt> packages (slightly retroactive).,2
+JN,https://cygwin.com/ml/cygwin-apps/2007-07/msg00166.html,For quietly taking over the <tt>libfontconfig1</tt> and <tt>libfontconfig-devel</tt> packages (slightly retroactive).,2
 
 JRP,https://cygwin.com/ml/cygwin-apps/2006-02/msg00119.html,For adopting the <tt>ghostscript</tt> package.
 
@@ -268,7 +268,7 @@ MA,https://cygwin.com/ml/cygwin-apps/2016-04/msg00007.html,For adopting the <tt>
 MA,https://cygwin.com/ml/cygwin-apps/2016-03/msg00070.html,For adopting the <tt>wtf</tt> package.
 MA,https://cygwin.com/ml/cygwin-apps/2015-07/msg00253.html,For helping with the Great Perl Update of 2015.
 MA,https://cygwin.com/ml/cygwin-apps/2015-07/msg00024.html,"For taking over YA orphaned, non-64 bit package.",,1
-MA,https://cygwin.com/ml/cygwin-apps/2015-05/msg00025.html,For adopting and rebuilding the orphaned <tt>singular</tt> package.
+MA,https://cygwin.com/ml/cygwin-apps/2015-05/msg00025.html,For adopting and rebuilding the <tt>singular</tt> package.
 MA,https://cygwin.com/ml/cygwin/2015-04/msg00421.html,For adopting the <tt>lilypond</tt> package.
 MA,https://cygwin.com/ml/cygwin-apps/2015-03/msg00001.html,For helping to clean obsolete packages from the distro.
 MA,https://cygwin.com/ml/cygwin-apps/2015-02/msg00155.html,For adopting the <tt>less</tt> package.

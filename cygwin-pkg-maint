@@ -30,6 +30,7 @@ alure                                        Bastian Germann
 amd                                          Marco Atzeri
 analitza                                     Yaakov Selkowitz
 anjuta                                       Yaakov Selkowitz
+anjuta-extras                                Yaakov Selkowitz
 annoyance-filter                             Jari Aalto
 anthy                                        Yaakov Selkowitz
 antiword                                     Jari Aalto
@@ -501,6 +502,7 @@ gedit                                        Yaakov Selkowitz
 gedit-code-assistance                        Yaakov Selkowitz
 gedit-plugins                                Yaakov Selkowitz
 gegl                                         Yaakov Selkowitz
+gegl0.3                                      Yaakov Selkowitz
 gendef                                       Jonathan Yong
 geoclue                                      Yaakov Selkowitz
 geocode-glib                                 Yaakov Selkowitz
@@ -512,6 +514,7 @@ geos                                         Marco Atzeri
 getent                                       Corinna Vinschen
 getmail                                      Jari Aalto
 gettext                                      Yaakov Selkowitz
+gexiv2                                       Yaakov Selkowitz
 gfbgraph0.2                                  Yaakov Selkowitz
 ghex                                         Yaakov Selkowitz
 ghostscript                                  Ken Brown
@@ -545,7 +548,7 @@ glpk                                         Marco Atzeri
 glu                                          Yaakov Selkowitz
 glw                                          Yaakov Selkowitz
 gmic                                         Yaakov Selkowitz
-gmime2.6                                     Yaakov Selkowitz
+gmime2.6                                     ORPHANED (Yaakov Selkowitz)
 gmime3.0                                     Yaakov Selkowitz
 gmp                                          Achim Gratz
 gmpc                                         Yaakov Selkowitz
@@ -588,6 +591,7 @@ gnome-mines                                  Yaakov Selkowitz
 gnome-nds-thumbnailer                        Yaakov Selkowitz
 gnome-nibbles                                Yaakov Selkowitz
 gnome-online-accounts                        Yaakov Selkowitz
+gnome-online-miners                          Yaakov Selkowitz
 gnome-panel                                  Yaakov Selkowitz
 gnome-python                                 Yaakov Selkowitz
 gnome-python-desktop                         Yaakov Selkowitz
@@ -657,8 +661,8 @@ graphviz                                     Yaakov Selkowitz
 greed                                        Jari Aalto
 grep                                         Eric Blake
 grepmail                                     Jari Aalto
-grilo0.2                                     Yaakov Selkowitz
-grilo0.2-plugins                             Yaakov Selkowitz
+grilo0.2                                     ORPHANED (Yaakov Selkowitz)
+grilo0.2-plugins                             ORPHANED (Yaakov Selkowitz)
 grilo0.3                                     Yaakov Selkowitz
 grilo0.3-plugins                             Yaakov Selkowitz
 groff                                        Achim Gratz
@@ -1263,6 +1267,7 @@ libgnomemm2.6                                Yaakov Selkowitz
 libgnomeui2                                  Yaakov Selkowitz
 libgnomeuimm2.6                              Yaakov Selkowitz
 libgpg-error                                 Yaakov Selkowitz
+libgrss                                      Yaakov Selkowitz
 libgsf                                       Yaakov Selkowitz
 libgtop2.0                                   Yaakov Selkowitz
 libgucharmap                                 Yaakov Selkowitz
@@ -1449,6 +1454,7 @@ libxslt                                      Yaakov Selkowitz
 libXt                                        Yaakov Selkowitz
 libXtst                                      Yaakov Selkowitz
 libytnef                                     Yaakov Selkowitz
+libzapojit0.0                                Yaakov Selkowitz
 libzeitgeist1.0                              Yaakov Selkowitz
 libzen                                       Yaakov Selkowitz
 libzip                                       Yaakov Selkowitz
@@ -3495,6 +3501,7 @@ telepathy-logger                             Yaakov Selkowitz
 telepathy-mission-control                    Yaakov Selkowitz
 telepathy-qt                                 Yaakov Selkowitz
 tellico                                      Yaakov Selkowitz
+tepl3                                        Yaakov Selkowitz
 terminator                                   Mike DePaulo
 terminus-fonts                               Yaakov Selkowitz
 tesseract-ocr                                Marco Atzeri
@@ -3580,6 +3587,8 @@ tnef                                         Jari Aalto
 tnftp                                        Jari Aalto
 totem                                        Yaakov Selkowitz
 totem-pl-parser                              Yaakov Selkowitz
+tracker                                      Yaakov Selkowitz
+tracker-miners                               Yaakov Selkowitz
 transmission                                 Yaakov Selkowitz
 transmission-remote-gtk                      Yaakov Selkowitz
 transset                                     Yaakov Selkowitz
@@ -3595,6 +3604,7 @@ txt2regex                                    Jari Aalto
 typespeed                                    ORPHANED
 tzcode                                       Corinna Vinschen/Yaakov Selkowitz
 tzdata                                       Yaakov Selkowitz
+uchardet                                     Yaakov Selkowitz
 ucl                                          Achim Gratz
 udunits                                      Marco Atzeri
 ufraw                                        Yaakov Selkowitz

@@ -1519,7 +1519,7 @@ lxinput                                      Yaakov Selkowitz
 lxmenu-data                                  Yaakov Selkowitz
 lxpanel                                      Yaakov Selkowitz
 lxqt-about                                   Yaakov Selkowitz
-lxqt-common                                  Yaakov Selkowitz
+lxqt-build-tools                             Yaakov Selkowitz
 lxqt-config                                  Yaakov Selkowitz
 lxqt-globalkeys                              Yaakov Selkowitz
 lxqt-l10n                                    Yaakov Selkowitz
@@ -1529,6 +1529,7 @@ lxqt-panel                                   Yaakov Selkowitz
 lxqt-qtplugin                                Yaakov Selkowitz
 lxqt-runner                                  Yaakov Selkowitz
 lxqt-session                                 Yaakov Selkowitz
+lxqt-themes                                  Yaakov Selkowitz
 lxsession                                    Yaakov Selkowitz
 lxtask                                       Yaakov Selkowitz
 lxterminal                                   Yaakov Selkowitz

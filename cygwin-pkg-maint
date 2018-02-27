@@ -653,7 +653,7 @@ gpicview                                     Yaakov Selkowitz
 gq                                           ORPHANED (Dr. Volker Zell)
 grace                                        Yaakov Selkowitz
 granatier                                    Yaakov Selkowitz
-grantlee                                     Yaakov Selkowitz
+grantlee                                     ORPHANED (Yaakov Selkowitz)
 grantlee5                                    Yaakov Selkowitz
 GraphicsMagick                               Marco Atzeri
 graphite2                                    Yaakov Selkowitz
@@ -830,7 +830,7 @@ jbigkit                                      Yaakov Selkowitz
 jgraph                                       ORPHANED (Dr. Volker Zell)
 jlint                                        Jari Aalto
 joe                                          Jari Aalto
-jovie                                        Yaakov Selkowitz
+jovie                                        ORPHANED (Yaakov Selkowitz)
 jq                                           Yaakov Selkowitz
 js-mathjax                                   Yaakov Selkowitz
 js185                                        Yaakov Selkowitz
@@ -839,8 +839,8 @@ json-glib1.0                                 Yaakov Selkowitz
 judy                                         Yaakov Selkowitz
 juffed                                       Yaakov Selkowitz
 juk                                          Yaakov Selkowitz
-kaccessible                                  Yaakov Selkowitz
-kactivities                                  Yaakov Selkowitz
+kaccessible                                  ORPHANED (Yaakov Selkowitz)
+kactivities                                  ORPHANED (Yaakov Selkowitz)
 kactivitymanagerd                            Yaakov Selkowitz
 kajongg                                      Yaakov Selkowitz
 kalgebra                                     Yaakov Selkowitz
@@ -863,7 +863,7 @@ kcalc                                        Yaakov Selkowitz
 kcharselect                                  Yaakov Selkowitz
 kchmviewer                                   Yaakov Selkowitz
 kcolorchooser                                Yaakov Selkowitz
-kcoloredit                                   Yaakov Selkowitz
+kcoloredit                                   ORPHANED (Yaakov Selkowitz)
 kcron                                        Yaakov Selkowitz
 kdb3                                         Yaakov Selkowitz
 kde-baseapps                                 ORPHANED (Yaakov Selkowitz)
@@ -871,68 +871,68 @@ kde-cli-tools                                Yaakov Selkowitz
 kde-dev-scripts                              Yaakov Selkowitz
 kde-dev-utils                                Yaakov Selkowitz
 kde-gtk-config                               Yaakov Selkowitz
-kde-l10n-ar                                  Yaakov Selkowitz
-kde-l10n-ast                                 Yaakov Selkowitz
-kde-l10n-bg                                  Yaakov Selkowitz
-kde-l10n-bs                                  Yaakov Selkowitz
-kde-l10n-ca                                  Yaakov Selkowitz
-kde-l10n-ca-valencia                         Yaakov Selkowitz
-kde-l10n-cs                                  Yaakov Selkowitz
-kde-l10n-da                                  Yaakov Selkowitz
-kde-l10n-de                                  Yaakov Selkowitz
-kde-l10n-el                                  Yaakov Selkowitz
-kde-l10n-en_GB                               Yaakov Selkowitz
-kde-l10n-eo                                  Yaakov Selkowitz
-kde-l10n-es                                  Yaakov Selkowitz
-kde-l10n-et                                  Yaakov Selkowitz
-kde-l10n-eu                                  Yaakov Selkowitz
-kde-l10n-fa                                  Yaakov Selkowitz
-kde-l10n-fi                                  Yaakov Selkowitz
-kde-l10n-fr                                  Yaakov Selkowitz
-kde-l10n-ga                                  Yaakov Selkowitz
-kde-l10n-gl                                  Yaakov Selkowitz
-kde-l10n-he                                  Yaakov Selkowitz
-kde-l10n-hi                                  Yaakov Selkowitz
-kde-l10n-hr                                  Yaakov Selkowitz
-kde-l10n-hu                                  Yaakov Selkowitz
-kde-l10n-ia                                  Yaakov Selkowitz
-kde-l10n-id                                  Yaakov Selkowitz
-kde-l10n-is                                  Yaakov Selkowitz
-kde-l10n-it                                  Yaakov Selkowitz
-kde-l10n-ja                                  Yaakov Selkowitz
-kde-l10n-kk                                  Yaakov Selkowitz
-kde-l10n-km                                  Yaakov Selkowitz
-kde-l10n-kn                                  Yaakov Selkowitz
-kde-l10n-ko                                  Yaakov Selkowitz
-kde-l10n-lt                                  Yaakov Selkowitz
-kde-l10n-lv                                  Yaakov Selkowitz
-kde-l10n-mr                                  Yaakov Selkowitz
-kde-l10n-nb                                  Yaakov Selkowitz
-kde-l10n-nds                                 Yaakov Selkowitz
-kde-l10n-nl                                  Yaakov Selkowitz
-kde-l10n-nn                                  Yaakov Selkowitz
-kde-l10n-pa                                  Yaakov Selkowitz
-kde-l10n-pl                                  Yaakov Selkowitz
-kde-l10n-pt                                  Yaakov Selkowitz
-kde-l10n-pt_BR                               Yaakov Selkowitz
-kde-l10n-ro                                  Yaakov Selkowitz
-kde-l10n-ru                                  Yaakov Selkowitz
-kde-l10n-si                                  Yaakov Selkowitz
-kde-l10n-sk                                  Yaakov Selkowitz
-kde-l10n-sl                                  Yaakov Selkowitz
-kde-l10n-sr                                  Yaakov Selkowitz
-kde-l10n-sv                                  Yaakov Selkowitz
-kde-l10n-tg                                  Yaakov Selkowitz
-kde-l10n-th                                  Yaakov Selkowitz
-kde-l10n-tr                                  Yaakov Selkowitz
-kde-l10n-ug                                  Yaakov Selkowitz
-kde-l10n-uk                                  Yaakov Selkowitz
-kde-l10n-vi                                  Yaakov Selkowitz
-kde-l10n-wa                                  Yaakov Selkowitz
-kde-l10n-zh_CN                               Yaakov Selkowitz
-kde-l10n-zh_TW                               Yaakov Selkowitz
+kde-l10n-ar                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-ast                                 ORPHANED (Yaakov Selkowitz)
+kde-l10n-bg                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-bs                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-ca                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-ca-valencia                         ORPHANED (Yaakov Selkowitz)
+kde-l10n-cs                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-da                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-de                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-el                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-en_GB                               ORPHANED (Yaakov Selkowitz)
+kde-l10n-eo                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-es                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-et                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-eu                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-fa                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-fi                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-fr                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-ga                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-gl                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-he                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-hi                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-hr                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-hu                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-ia                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-id                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-is                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-it                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-ja                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-kk                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-km                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-kn                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-ko                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-lt                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-lv                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-mr                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-nb                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-nds                                 ORPHANED (Yaakov Selkowitz)
+kde-l10n-nl                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-nn                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-pa                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-pl                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-pt                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-pt_BR                               ORPHANED (Yaakov Selkowitz)
+kde-l10n-ro                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-ru                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-si                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-sk                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-sl                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-sr                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-sv                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-tg                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-th                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-tr                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-ug                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-uk                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-vi                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-wa                                  ORPHANED (Yaakov Selkowitz)
+kde-l10n-zh_CN                               ORPHANED (Yaakov Selkowitz)
+kde-l10n-zh_TW                               ORPHANED (Yaakov Selkowitz)
 kde-runtime                                  Yaakov Selkowitz
-kde-workspace                                Yaakov Selkowitz
+kde-workspace                                ORPHANED (Yaakov Selkowitz)
 kdeaddons                                    Yaakov Selkowitz
 kdebase3                                     Yaakov Selkowitz
 kdebugsettings                               Yaakov Selkowitz
@@ -943,7 +943,7 @@ kdegraphics-mobipocket                       Yaakov Selkowitz
 kdegraphics-thumbnailers                     Yaakov Selkowitz
 kdelibs                                      Yaakov Selkowitz
 kdelibs3                                     Yaakov Selkowitz
-kdepimlibs                                   Yaakov Selkowitz
+kdepimlibs                                   ORPHANED (Yaakov Selkowitz)
 kdeplasma-addons                             Yaakov Selkowitz
 kdesdk-kioslaves                             Yaakov Selkowitz
 kdesdk-thumbnailers                          Yaakov Selkowitz
@@ -1049,6 +1049,7 @@ kf5-libkgeomap                               Yaakov Selkowitz
 kf5-libkipi                                  Yaakov Selkowitz
 kf5-libkmahjongg                             Yaakov Selkowitz
 kf5-libkscreen                               Yaakov Selkowitz
+kf5-libktorrent                              Yaakov Selkowitz
 kf5-plasma                                   Yaakov Selkowitz
 kf5-prison                                   Yaakov Selkowitz
 kf5-qqc2-desktop-style                       Yaakov Selkowitz
@@ -1058,19 +1059,19 @@ kf5-syndication                              Yaakov Selkowitz
 kf5-syntax-highlighting                      Yaakov Selkowitz
 kf5-threadweaver                             Yaakov Selkowitz
 kfilemetadata                                ORPHANED (Yaakov Selkowitz)
-kfilereplace                                 Yaakov Selkowitz
+kfilereplace                                 ORPHANED (Yaakov Selkowitz)
 kfind                                        Yaakov Selkowitz
 kfourinline                                  Yaakov Selkowitz
 kgb                                          Jari Aalto
 kgeography                                   Yaakov Selkowitz
 kget                                         Yaakov Selkowitz
 kgoldrunner                                  Yaakov Selkowitz
-kgpg                                         Yaakov Selkowitz
+kgpg                                         ORPHANED (Yaakov Selkowitz)
 khangman                                     Yaakov Selkowitz
 khelpcenter                                  Yaakov Selkowitz
 khotkeys                                     Yaakov Selkowitz
 khronos-opengl-registry                      Jon Turney
-kiconedit                                    Yaakov Selkowitz
+kiconedit                                    ORPHANED (Yaakov Selkowitz)
 kid3                                         Yaakov Selkowitz
 kig                                          Yaakov Selkowitz
 kigo                                         Yaakov Selkowitz
@@ -1084,7 +1085,7 @@ klavaro                                      Yaakov Selkowitz
 klettres                                     Yaakov Selkowitz
 klickety                                     Yaakov Selkowitz
 klines                                       Yaakov Selkowitz
-klinkstatus                                  Yaakov Selkowitz
+klinkstatus                                  ORPHANED (Yaakov Selkowitz)
 klu                                          Marco Atzeri
 kmag                                         Yaakov Selkowitz
 kmahjongg                                    Yaakov Selkowitz
@@ -1117,7 +1118,7 @@ kreport3                                     Yaakov Selkowitz
 kreversi                                     Yaakov Selkowitz
 krfb                                         Yaakov Selkowitz
 krita                                        Yaakov Selkowitz
-kross-interpreters                           Yaakov Selkowitz
+kross-interpreters                           ORPHANED (Yaakov Selkowitz)
 kruler                                       Yaakov Selkowitz
 kscreen                                      Yaakov Selkowitz
 kshisen                                      Yaakov Selkowitz
@@ -1138,7 +1139,7 @@ ktouch                                       Yaakov Selkowitz
 ktuberling                                   Yaakov Selkowitz
 kturtle                                      Yaakov Selkowitz
 kubrick                                      Yaakov Selkowitz
-kwalletmanager                               Yaakov Selkowitz
+kwalletmanager                               ORPHANED (Yaakov Selkowitz)
 kwalletmanager5                              Yaakov Selkowitz
 kwave                                        Yaakov Selkowitz
 kwebkitpart                                  Yaakov Selkowitz
@@ -1301,7 +1302,7 @@ libkomparediff2                              Yaakov Selkowitz
 libksba                                      Marco Atzeri
 libkscreen                                   ORPHANED (Yaakov Selkowitz)
 libksysguard                                 Yaakov Selkowitz
-libktorrent                                  Yaakov Selkowitz
+libktorrent                                  ORPHANED (Yaakov Selkowitz)
 liblangtag                                   Yaakov Selkowitz
 libLASi                                      Yaakov Selkowitz
 liblqr1                                      Yaakov Selkowitz
@@ -1349,13 +1350,13 @@ libpqxx                                      Yaakov Selkowitz
 libproxy                                     Yaakov Selkowitz
 libpsl                                       Yaakov Selkowitz
 libpst                                       Yaakov Selkowitz
-libqaccessibilityclient                      Yaakov Selkowitz
+libqaccessibilityclient                      ORPHANED (Yaakov Selkowitz)
 libqalculate                                 Yaakov Selkowitz
 libqt5xdg                                    Yaakov Selkowitz
 libquvi0.9                                   Yaakov Selkowitz
 libquvi0.9-scripts                           Yaakov Selkowitz
 libqxp                                       Yaakov Selkowitz
-libqzeitgeist                                Yaakov Selkowitz
+libqzeitgeist                                ORPHANED (Yaakov Selkowitz)
 libraw                                       Yaakov Selkowitz
 libreplaygain                                Yaakov Selkowitz
 librest0.7                                   Yaakov Selkowitz
@@ -1871,11 +1872,11 @@ mingw64-i686-postgresql                      Yaakov Selkowitz
 mingw64-i686-pthreads                        Jonathan Yong
 mingw64-i686-qca                             Yaakov Selkowitz
 mingw64-i686-qimageblitz                     Yaakov Selkowitz
-mingw64-i686-qjson                           Yaakov Selkowitz
+mingw64-i686-qjson                           ORPHANED (Yaakov Selkowitz)
 mingw64-i686-qscintilla2                     Yaakov Selkowitz
 mingw64-i686-qt4                             Yaakov Selkowitz
 mingw64-i686-qt4-qmake                       Yaakov Selkowitz
-mingw64-i686-qt4-webkit                      Yaakov Selkowitz
+mingw64-i686-qt4-webkit                      ORPHANED (Yaakov Selkowitz)
 mingw64-i686-qt5-activeqt                    Yaakov Selkowitz
 mingw64-i686-qt5-base                        Yaakov Selkowitz
 mingw64-i686-qt5-canvas3d                    Yaakov Selkowitz
@@ -2219,11 +2220,11 @@ mingw64-x86_64-postgresql                    Yaakov Selkowitz
 mingw64-x86_64-pthreads                      Jonathan Yong
 mingw64-x86_64-qca                           Yaakov Selkowitz
 mingw64-x86_64-qimageblitz                   Yaakov Selkowitz
-mingw64-x86_64-qjson                         Yaakov Selkowitz
+mingw64-x86_64-qjson                         ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-qscintilla2                   Yaakov Selkowitz
 mingw64-x86_64-qt4                           Yaakov Selkowitz
 mingw64-x86_64-qt4-qmake                     Yaakov Selkowitz
-mingw64-x86_64-qt4-webkit                    Yaakov Selkowitz
+mingw64-x86_64-qt4-webkit                    ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-qt5-activeqt                  Yaakov Selkowitz
 mingw64-x86_64-qt5-base                      Yaakov Selkowitz
 mingw64-x86_64-qt5-canvas3d                  Yaakov Selkowitz
@@ -2528,7 +2529,7 @@ oxygen-fonts                                 Yaakov Selkowitz
 oxygen-icons                                 Yaakov Selkowitz
 p11-kit                                      Yaakov Selkowitz
 p7zip                                        Tony Kelman
-pairs                                        Yaakov Selkowitz
+pairs                                        ORPHANED (Yaakov Selkowitz)
 pakchois                                     ORPHANED (Dr. Volker Zell)
 pal                                          ORPHANED (Jari Aalto)
 palapeli                                     Yaakov Selkowitz
@@ -2961,7 +2962,7 @@ postfix                                      Christian Franke
 postgresql                                   Marco Atzeri
 potrace                                      Ken Brown
 poxml                                        Yaakov Selkowitz
-prison                                       Yaakov Selkowitz
+prison                                       ORPHANED (Yaakov Selkowitz)
 pristine-tar                                 Jari Aalto
 procmail                                     Daniel Boland
 procps                                       OBSOLETE (Corinna Vinschen)
@@ -3070,7 +3071,7 @@ python-pyatspi                               Yaakov Selkowitz
 python-pycparser                             Yaakov Selkowitz
 python-pygame                                Yaakov Selkowitz
 python-pygments                              Yaakov Selkowitz
-python-pykde4                                Yaakov Selkowitz
+python-pykde4                                ORPHANED (Yaakov Selkowitz)
 python-pylast                                Yaakov Selkowitz
 python-pynotify                              Yaakov Selkowitz
 python-pyparsing                             Yaakov Selkowitz
@@ -3122,7 +3123,7 @@ qca                                          Yaakov Selkowitz
 qhull                                        Marco Atzeri
 qimageblitz                                  Yaakov Selkowitz
 qiv                                          Jari Aalto
-qjson                                        Yaakov Selkowitz
+qjson                                        ORPHANED (Yaakov Selkowitz)
 qmmp                                         Yaakov Selkowitz
 qmmp-plugin-pack                             Yaakov Selkowitz
 qmpdclient                                   Yaakov Selkowitz
@@ -3137,7 +3138,7 @@ qsf                                          Jari Aalto
 qt-gstreamer                                 Yaakov Selkowitz
 qt3                                          Yaakov Selkowitz
 qt4                                          Yaakov Selkowitz
-qt4-webkit                                   Yaakov Selkowitz
+qt4-webkit                                   ORPHANED (Yaakov Selkowitz)
 qt5-base                                     Yaakov Selkowitz
 qt5-canvas3d                                 Yaakov Selkowitz
 qt5-charts                                   Yaakov Selkowitz
@@ -3176,11 +3177,11 @@ qt5ct                                        Yaakov Selkowitz
 qterminal                                    Yaakov Selkowitz
 qtermwidget                                  Yaakov Selkowitz
 quadrapassel                                 Yaakov Selkowitz
-quazip                                       Yaakov Selkowitz
+quazip                                       ORPHANED (Yaakov Selkowitz)
 quilt                                        Jari Aalto
 qupzilla                                     Yaakov Selkowitz
 quvi                                         Yaakov Selkowitz
-qwt5                                         Yaakov Selkowitz
+qwt5                                         ORPHANED (Yaakov Selkowitz)
 R                                            Marco Atzeri
 raptor2                                      Yaakov Selkowitz
 rarian                                       Yaakov Selkowitz

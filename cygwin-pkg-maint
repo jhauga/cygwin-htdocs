@@ -25,6 +25,7 @@ alarm-clock-applet                           Yaakov Selkowitz
 alef-fonts                                   Yaakov Selkowitz
 alexandria                                   Yaakov Selkowitz
 algol68g                                     Thomas Wolff
+alkimia5                                     Yaakov Selkowitz
 alternatives                                 ORPHANED (Charles Wilson)
 alure                                        Bastian Germann
 amd                                          Marco Atzeri
@@ -1171,7 +1172,7 @@ leptonica                                    Marco Atzeri
 less                                         Marco Atzeri
 lftp                                         Andrew Schulman
 libabw0.1                                    Yaakov Selkowitz
-libalkimia                                   Yaakov Selkowitz
+libalkimia                                   ORPHANED (Yaakov Selkowitz)
 libao                                        David Rothenberger
 libappindicator                              Yaakov Selkowitz
 libapr1                                      David Rothenberger

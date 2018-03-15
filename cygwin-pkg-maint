@@ -20,6 +20,7 @@ afio                                         Jari Aalto
 aften                                        Yaakov Selkowitz
 aiksaurus                                    Yaakov Selkowitz
 akonadi                                      Yaakov Selkowitz
+akonadi-calendar-tools                       Yaakov Selkowitz
 alacarte                                     Yaakov Selkowitz
 alarm-clock-applet                           Yaakov Selkowitz
 alef-fonts                                   Yaakov Selkowitz
@@ -843,6 +844,7 @@ juk                                          Yaakov Selkowitz
 kaccessible                                  ORPHANED (Yaakov Selkowitz)
 kactivities                                  ORPHANED (Yaakov Selkowitz)
 kactivitymanagerd                            Yaakov Selkowitz
+kaddressbook                                 Yaakov Selkowitz
 kajongg                                      Yaakov Selkowitz
 kalgebra                                     Yaakov Selkowitz
 kalzium                                      Yaakov Selkowitz
@@ -944,6 +946,7 @@ kdegraphics-mobipocket                       Yaakov Selkowitz
 kdegraphics-thumbnailers                     Yaakov Selkowitz
 kdelibs                                      Yaakov Selkowitz
 kdelibs3                                     Yaakov Selkowitz
+kdepim-apps-libs                             Yaakov Selkowitz
 kdepimlibs                                   ORPHANED (Yaakov Selkowitz)
 kdeplasma-addons                             Yaakov Selkowitz
 kdesdk-kioslaves                             Yaakov Selkowitz
@@ -962,14 +965,23 @@ kexi                                         Yaakov Selkowitz
 keybinder                                    Yaakov Selkowitz
 keybinder3.0                                 Yaakov Selkowitz
 keychain                                     Jari Aalto
+kf5-akonadi-calendar                         Yaakov Selkowitz
+kf5-akonadi-contacts                         Yaakov Selkowitz
+kf5-akonadi-mime                             Yaakov Selkowitz
+kf5-akonadi-notes                            Yaakov Selkowitz
+kf5-akonadi-search                           Yaakov Selkowitz
 kf5-attica                                   Yaakov Selkowitz
 kf5-baloo                                    Yaakov Selkowitz
 kf5-baloo-widgets                            Yaakov Selkowitz
+kf5-calendarsupport                          Yaakov Selkowitz
+kf5-eventviews                               Yaakov Selkowitz
 kf5-frameworkintegration                     Yaakov Selkowitz
 kf5-gpgmepp                                  ORPHANED (Yaakov Selkowitz)
 kf5-grantleetheme                            Yaakov Selkowitz
+kf5-incidenceeditor                          Yaakov Selkowitz
 kf5-kactivities                              Yaakov Selkowitz
 kf5-kactivities-stats                        Yaakov Selkowitz
+kf5-kalarmcal                                Yaakov Selkowitz
 kf5-kapidox                                  Yaakov Selkowitz
 kf5-karchive                                 Yaakov Selkowitz
 kf5-kauth                                    Yaakov Selkowitz
@@ -985,6 +997,7 @@ kf5-kconfigwidgets                           Yaakov Selkowitz
 kf5-kcontacts                                Yaakov Selkowitz
 kf5-kcoreaddons                              Yaakov Selkowitz
 kf5-kcrash                                   Yaakov Selkowitz
+kf5-kdav                                     Yaakov Selkowitz
 kf5-kdbusaddons                              Yaakov Selkowitz
 kf5-kdeclarative                             Yaakov Selkowitz
 kf5-kded                                     Yaakov Selkowitz
@@ -1017,12 +1030,14 @@ kf5-kjobwidgets                              Yaakov Selkowitz
 kf5-kjs                                      Yaakov Selkowitz
 kf5-kjsembed                                 Yaakov Selkowitz
 kf5-kldap                                    Yaakov Selkowitz
+kf5-kmailtransport                           Yaakov Selkowitz
 kf5-kmbox                                    Yaakov Selkowitz
 kf5-kmediaplayer                             Yaakov Selkowitz
 kf5-kmime                                    Yaakov Selkowitz
 kf5-knewstuff                                Yaakov Selkowitz
 kf5-knotifications                           Yaakov Selkowitz
 kf5-knotifyconfig                            Yaakov Selkowitz
+kf5-kontactinterface                         Yaakov Selkowitz
 kf5-kpackage                                 Yaakov Selkowitz
 kf5-kparts                                   Yaakov Selkowitz
 kf5-kpeople                                  Yaakov Selkowitz
@@ -1033,6 +1048,7 @@ kf5-kross                                    Yaakov Selkowitz
 kf5-kross-interpreters                       Yaakov Selkowitz
 kf5-krunner                                  Yaakov Selkowitz
 kf5-kservice                                 Yaakov Selkowitz
+kf5-ksmtp                                    Yaakov Selkowitz
 kf5-ktexteditor                              Yaakov Selkowitz
 kf5-ktextwidgets                             Yaakov Selkowitz
 kf5-ktnef                                    Yaakov Selkowitz
@@ -1042,15 +1058,20 @@ kf5-kwidgetsaddons                           Yaakov Selkowitz
 kf5-kwindowsystem                            Yaakov Selkowitz
 kf5-kxmlgui                                  Yaakov Selkowitz
 kf5-kxmlrpcclient                            Yaakov Selkowitz
+kf5-libgravatar                              Yaakov Selkowitz
 kf5-libkcddb                                 Yaakov Selkowitz
 kf5-libkdcraw                                Yaakov Selkowitz
 kf5-libkdegames                              Yaakov Selkowitz
+kf5-libkdepim                                Yaakov Selkowitz
 kf5-libkexiv2                                Yaakov Selkowitz
 kf5-libkgeomap                               Yaakov Selkowitz
 kf5-libkipi                                  Yaakov Selkowitz
+kf5-libkleo                                  Yaakov Selkowitz
 kf5-libkmahjongg                             Yaakov Selkowitz
 kf5-libkscreen                               Yaakov Selkowitz
 kf5-libktorrent                              Yaakov Selkowitz
+kf5-mailimporter                             Yaakov Selkowitz
+kf5-pimcommon                                Yaakov Selkowitz
 kf5-plasma                                   Yaakov Selkowitz
 kf5-prison                                   Yaakov Selkowitz
 kf5-qqc2-desktop-style                       Yaakov Selkowitz
@@ -1067,7 +1088,7 @@ kgb                                          Jari Aalto
 kgeography                                   Yaakov Selkowitz
 kget                                         Yaakov Selkowitz
 kgoldrunner                                  Yaakov Selkowitz
-kgpg                                         ORPHANED (Yaakov Selkowitz)
+kgpg                                         Yaakov Selkowitz
 khangman                                     Yaakov Selkowitz
 khelpcenter                                  Yaakov Selkowitz
 khotkeys                                     Yaakov Selkowitz

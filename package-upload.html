@@ -198,6 +198,15 @@ file with the name of the file that you want deleted, prefixed with a
 
 <p>For example, if you want to delete the file <tt>foo-1.2-1.tar.xz</tt> then upload an empty file named <tt>-foo-1.2-1.tar.xz</tt></p>
 
+<p>
+  Note that this will <b>not</b> cause setup to automatically downgrade to the
+  previous version of <tt>foo</tt>, if <tt>foo-1.2-1</tt> was installed before
+  it was removed.  If a superseding version does not (yet) exist, downgrading
+  can be configured by using
+  a <a href="packaging-hint-files.html#override.hint">replace-versions: line in
+  override.hint</a>.
+</p>
+
 <p>Note that files are not actually deleted; they are moved to a vault where they will be removed after some indeterminate amount of time.</p>
 
 <h2 class="cartouche" id="FAQ">Frequently Asked Questions</h2>

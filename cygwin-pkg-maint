@@ -2321,6 +2321,7 @@ mingw64-x86_64-zlib                          Yaakov Selkowitz
 mingw64-x86_64-zstd                          Achim Gratz
 mingw64-x86_64-zziplib                       Yaakov Selkowitz
 mintty                                       Thomas Wolff
+minuet                                       Yaakov Selkowitz
 mkcomposecache                               Yaakov Selkowitz
 mkfontdir                                    Yaakov Selkowitz
 mkfontscale                                  Yaakov Selkowitz

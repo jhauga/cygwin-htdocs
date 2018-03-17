@@ -2777,6 +2777,7 @@ perl-Mock-Config                             Achim Gratz
 perl-Module-Build                            Achim Gratz
 perl-Module-Build-Tiny                       Achim Gratz
 perl-Module-Implementation                   Achim Gratz/Yaakov Selkowitz
+perl-Module-Install                          Achim Gratz
 perl-Module-Load-Conditional                 Achim Gratz
 perl-Module-Metadata                         Achim Gratz
 perl-Module-Pluggable                        Achim Gratz/Yaakov Selkowitz
@@ -2853,6 +2854,7 @@ perl-Test-Differences                        Achim Gratz
 perl-Test-EOL                                Achim Gratz
 perl-Test-Exception                          Achim Gratz
 perl-Test-Fatal                              Achim Gratz
+perl-Test-File                               Achim Gratz
 perl-Test-File-ShareDir                      Achim Gratz
 perl-Test-Harness                            Achim Gratz
 perl-Test-Inter                              Achim Gratz
@@ -2870,6 +2872,7 @@ perl-Test-RequiresInternet                   Achim Gratz
 perl-Test-Script                             Achim Gratz
 perl-Test-Simple                             Achim Gratz
 perl-Test-TrailingSpace                      Achim Gratz
+perl-Test-utf8                               Achim Gratz
 perl-Test-Warn                               Achim Gratz
 perl-Test-Warnings                           Achim Gratz
 perl-Test-Without-Module                     Achim Gratz

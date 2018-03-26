@@ -1360,6 +1360,7 @@ liboauth                                     Yaakov Selkowitz
 libodfgen0.1                                 Yaakov Selkowitz
 libofx                                       Yaakov Selkowitz
 libogg                                       David Rothenberger
+libopenmpt                                   Yaakov Selkowitz
 libopenraw                                   Yaakov Selkowitz
 libosinfo                                    Yaakov Selkowitz
 libotf                                       Yaakov Selkowitz
@@ -1814,6 +1815,7 @@ mingw64-i686-libmwaw0.3                      Yaakov Selkowitz
 mingw64-i686-liboauth                        Yaakov Selkowitz
 mingw64-i686-libodfgen0.1                    Yaakov Selkowitz
 mingw64-i686-libogg                          Yaakov Selkowitz
+mingw64-i686-libopenmpt                      Yaakov Selkowitz
 mingw64-i686-libpagemaker0.0                 Yaakov Selkowitz
 mingw64-i686-libpng                          Yaakov Selkowitz
 mingw64-i686-libproxy                        Yaakov Selkowitz
@@ -1873,7 +1875,7 @@ mingw64-i686-nss                             Yaakov Selkowitz
 mingw64-i686-openal                          Yaakov Selkowitz
 mingw64-i686-opencv                          Yaakov Selkowitz
 mingw64-i686-openexr                         Yaakov Selkowitz
-mingw64-i686-openjpeg                        Yaakov Selkowitz
+mingw64-i686-openjpeg                        ORPHANED (Yaakov Selkowitz)
 mingw64-i686-openjpeg2                       Yaakov Selkowitz
 mingw64-i686-openssl                         Yaakov Selkowitz
 mingw64-i686-opus                            Yaakov Selkowitz
@@ -1932,7 +1934,7 @@ mingw64-i686-qt5-xmlpatterns                 Yaakov Selkowitz
 mingw64-i686-qt5ct                           Yaakov Selkowitz
 mingw64-i686-readline                        Yaakov Selkowitz
 mingw64-i686-runtime                         Jonathan Yong
-mingw64-i686-schroedinger1.0                 Yaakov Selkowitz
+mingw64-i686-schroedinger1.0                 ORPHANED (Yaakov Selkowitz)
 mingw64-i686-SDL                             Yaakov Selkowitz
 mingw64-i686-SDL2                            Yaakov Selkowitz
 mingw64-i686-SDL2_image                      Yaakov Selkowitz
@@ -2160,6 +2162,7 @@ mingw64-x86_64-libmwaw0.3                    Yaakov Selkowitz
 mingw64-x86_64-liboauth                      Yaakov Selkowitz
 mingw64-x86_64-libodfgen0.1                  Yaakov Selkowitz
 mingw64-x86_64-libogg                        Yaakov Selkowitz
+mingw64-x86_64-libopenmpt                    Yaakov Selkowitz
 mingw64-x86_64-libpagemaker0.0               Yaakov Selkowitz
 mingw64-x86_64-libpng                        Yaakov Selkowitz
 mingw64-x86_64-libproxy                      Yaakov Selkowitz
@@ -2219,7 +2222,7 @@ mingw64-x86_64-nss                           Yaakov Selkowitz
 mingw64-x86_64-openal                        Yaakov Selkowitz
 mingw64-x86_64-opencv                        Yaakov Selkowitz
 mingw64-x86_64-openexr                       Yaakov Selkowitz
-mingw64-x86_64-openjpeg                      Yaakov Selkowitz
+mingw64-x86_64-openjpeg                      ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-openjpeg2                     Yaakov Selkowitz
 mingw64-x86_64-openssl                       Yaakov Selkowitz
 mingw64-x86_64-opus                          Yaakov Selkowitz
@@ -2278,7 +2281,7 @@ mingw64-x86_64-qt5-xmlpatterns               Yaakov Selkowitz
 mingw64-x86_64-qt5ct                         Yaakov Selkowitz
 mingw64-x86_64-readline                      Yaakov Selkowitz
 mingw64-x86_64-runtime                       Jonathan Yong
-mingw64-x86_64-schroedinger1.0               Yaakov Selkowitz
+mingw64-x86_64-schroedinger1.0               ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-SDL                           Yaakov Selkowitz
 mingw64-x86_64-SDL2                          Yaakov Selkowitz
 mingw64-x86_64-SDL2_image                    Yaakov Selkowitz
@@ -2522,7 +2525,7 @@ openexr                                      Yaakov Selkowitz
 openexr_ctl                                  Yaakov Selkowitz
 openexr_viewers                              Yaakov Selkowitz
 openjade                                     Yaakov Selkowitz
-openjpeg                                     Yaakov Selkowitz
+openjpeg                                     ORPHANED (Yaakov Selkowitz)
 openjpeg2                                    Yaakov Selkowitz
 openldap                                     ORPHANED (Dr. Volker Zell)
 openmpi                                      Marco Atzeri
@@ -3385,7 +3388,7 @@ rzip                                         Jari Aalto
 s2tc                                         Yaakov Selkowitz
 savi                                         Ken Brown
 schroedinger-cat-backgrounds                 Yaakov Selkowitz
-schroedinger1.0                              Yaakov Selkowitz
+schroedinger1.0                              ORPHANED (Yaakov Selkowitz)
 scite                                        Yaakov Selkowitz
 scons                                        David Rothenberger
 scowl                                        Yaakov Selkowitz

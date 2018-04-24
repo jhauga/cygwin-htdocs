@@ -116,6 +116,8 @@ autotrace                                    Marco Atzeri
 avahi                                        Yaakov Selkowitz
 aview                                        Jari Aalto
 avogadro                                     Yaakov Selkowitz
+ayatana-ido3                                 Yaakov Selkowitz
+ayatana-indicator-application                Yaakov Selkowitz
 babl                                         Yaakov Selkowitz
 balance                                      ORPHANED (Dr. Volker Zell)
 baloo                                        ORPHANED (Yaakov Selkowitz)
@@ -793,8 +795,8 @@ icu                                          Ken Brown
 id3lib                                       Yaakov Selkowitz
 id3v2                                        Yaakov Selkowitz
 idfpml                                       Yaakov Selkowitz
-ido                                          Yaakov Selkowitz
-ido3                                         Yaakov Selkowitz
+ido                                          ORPHANED (Yaakov Selkowitz)
+ido3                                         ORPHANED (Yaakov Selkowitz)
 iec16022                                     Yaakov Selkowitz
 ifile                                        Jari Aalto
 ii                                           Jari Aalto
@@ -808,9 +810,9 @@ imlib2_loaders                               Yaakov Selkowitz
 imsettings                                   Yaakov Selkowitz
 inconsolata-fonts                            Yaakov Selkowitz
 indent                                       Jari Aalto
-indicator-applet                             Yaakov Selkowitz
-indicator-application                        Yaakov Selkowitz
-indicator-application-gtk2                   Yaakov Selkowitz
+indicator-applet                             ORPHANED (Yaakov Selkowitz)
+indicator-application                        ORPHANED (Yaakov Selkowitz)
+indicator-application-gtk2                   ORPHANED (Yaakov Selkowitz)
 indicator-keylock                            Yaakov Selkowitz
 inetutils                                    ORPHANED (Charles Wilson)
 initscripts                                  ORPHANED (Dr. Volker Zell)
@@ -1198,7 +1200,7 @@ lftp                                         Andrew Schulman
 libabw0.1                                    Yaakov Selkowitz
 libalkimia                                   ORPHANED (Yaakov Selkowitz)
 libao                                        David Rothenberger
-libappindicator                              Yaakov Selkowitz
+libappindicator                              ORPHANED (Yaakov Selkowitz)
 libapr1                                      David Rothenberger
 libaprutil1                                  David Rothenberger
 libarchive                                   Yaakov Selkowitz
@@ -1208,6 +1210,8 @@ libass                                       Yaakov Selkowitz
 libassuan                                    Marco Atzeri
 libasyncns                                   Yaakov Selkowitz
 libatomic_ops                                Andy Li
+libayatana-appindicator                      Yaakov Selkowitz
+libayatana-indicator                         Yaakov Selkowitz
 libbinio                                     Yaakov Selkowitz
 libbonobo2                                   Yaakov Selkowitz
 libbonoboui2                                 Yaakov Selkowitz
@@ -1308,7 +1312,7 @@ libIDL2                                      Yaakov Selkowitz
 libidn                                       Yaakov Selkowitz
 libidn2                                      Yaakov Selkowitz
 libimagequant                                Yaakov Selkowitz
-libindicator                                 Yaakov Selkowitz
+libindicator                                 ORPHANED (Yaakov Selkowitz)
 libinfinity0.6                               Yaakov Selkowitz
 libiodbc                                     Yaakov Selkowitz
 libiptcdata                                  Yaakov Selkowitz

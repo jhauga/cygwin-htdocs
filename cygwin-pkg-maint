@@ -3260,7 +3260,8 @@ ruby-activesupport                           Yaakov Selkowitz
 ruby-arel                                    Yaakov Selkowitz
 ruby-atk                                     Yaakov Selkowitz
 ruby-bcrypt                                  Yaakov Selkowitz
-ruby-binding_of_caller                       Yaakov Selkowitz
+ruby-bindex                                  Yaakov Selkowitz
+ruby-binding_of_caller                       ORPHANED (Yaakov Selkowitz)
 ruby-builder                                 Yaakov Selkowitz
 ruby-bundler                                 Yaakov Selkowitz
 ruby-byebug                                  Yaakov Selkowitz
@@ -3275,12 +3276,13 @@ ruby-coffee-script                           Yaakov Selkowitz
 ruby-coffee-script-source                    Yaakov Selkowitz
 ruby-columnize                               Yaakov Selkowitz
 ruby-concurrent-ruby                         Yaakov Selkowitz
+ruby-crass                                   Yaakov Selkowitz
 ruby-curses                                  Yaakov Selkowitz
 ruby-dbus                                    Yaakov Selkowitz
-ruby-debug_inspector                         Yaakov Selkowitz
+ruby-debug_inspector                         ORPHANED (Yaakov Selkowitz)
 ruby-did_you_mean                            Yaakov Selkowitz
 ruby-erubi                                   Yaakov Selkowitz
-ruby-erubis                                  Yaakov Selkowitz
+ruby-erubis                                  ORPHANED (Yaakov Selkowitz)
 ruby-execjs                                  Yaakov Selkowitz
 ruby-gdk3                                    Yaakov Selkowitz
 ruby-gdk_pixbuf2                             Yaakov Selkowitz
@@ -3296,9 +3298,9 @@ ruby-gtk2                                    Yaakov Selkowitz
 ruby-gtk3                                    Yaakov Selkowitz
 ruby-gtksourceview2                          Yaakov Selkowitz
 ruby-gtksourceview3                          Yaakov Selkowitz
-ruby-hike                                    Yaakov Selkowitz
-ruby-hitimes                                 Yaakov Selkowitz
-ruby-hoe                                     Yaakov Selkowitz
+ruby-hike                                    ORPHANED (Yaakov Selkowitz)
+ruby-hitimes                                 ORPHANED (Yaakov Selkowitz)
+ruby-hoe                                     ORPHANED (Yaakov Selkowitz)
 ruby-hpricot                                 Yaakov Selkowitz
 ruby-htmlentities                            Yaakov Selkowitz
 ruby-i18n                                    Yaakov Selkowitz
@@ -3307,7 +3309,7 @@ ruby-jbuilder                                Yaakov Selkowitz
 ruby-journey                                 Yaakov Selkowitz
 ruby-jquery-rails                            Yaakov Selkowitz
 ruby-kgio                                    Yaakov Selkowitz
-ruby-listen                                  Yaakov Selkowitz
+ruby-listen                                  ORPHANED (Yaakov Selkowitz)
 ruby-locale                                  Yaakov Selkowitz
 ruby-loofah                                  Yaakov Selkowitz
 ruby-mail                                    Yaakov Selkowitz
@@ -3316,7 +3318,7 @@ ruby-method_source                           Yaakov Selkowitz
 ruby-mime-types                              Yaakov Selkowitz
 ruby-mime-types-data                         Yaakov Selkowitz
 ruby-minitest                                Yaakov Selkowitz
-ruby-molinillo                               Yaakov Selkowitz
+ruby-molinillo                               ORPHANED (Yaakov Selkowitz)
 ruby-multi_json                              Yaakov Selkowitz
 ruby-mysql2                                  Yaakov Selkowitz
 ruby-native-package-installer                Yaakov Selkowitz
@@ -3328,7 +3330,7 @@ ruby-oj                                      Yaakov Selkowitz
 ruby-pango                                   Yaakov Selkowitz
 ruby-pg                                      Yaakov Selkowitz
 ruby-pkg-config                              Yaakov Selkowitz
-ruby-polyglot                                Yaakov Selkowitz
+ruby-polyglot                                ORPHANED (Yaakov Selkowitz)
 ruby-poppler                                 Yaakov Selkowitz
 ruby-power_assert                            Yaakov Selkowitz
 ruby-puma                                    Yaakov Selkowitz
@@ -3351,6 +3353,7 @@ ruby-rdtool                                  Yaakov Selkowitz
 ruby-redcarpet                               David Stacey
 ruby-rsvg2                                   Yaakov Selkowitz
 ruby-sass                                    Yaakov Selkowitz
+ruby-sass-listen                             Yaakov Selkowitz
 ruby-sass-rails                              Yaakov Selkowitz
 ruby-sdoc                                    Yaakov Selkowitz
 ruby-sprockets                               Yaakov Selkowitz
@@ -3362,9 +3365,9 @@ ruby-text                                    Yaakov Selkowitz
 ruby-thor                                    Yaakov Selkowitz
 ruby-thread_safe                             Yaakov Selkowitz
 ruby-tilt                                    Yaakov Selkowitz
-ruby-timers                                  Yaakov Selkowitz
+ruby-timers                                  ORPHANED (Yaakov Selkowitz)
 ruby-tk                                      Yaakov Selkowitz
-ruby-treetop                                 Yaakov Selkowitz
+ruby-treetop                                 ORPHANED (Yaakov Selkowitz)
 ruby-turbolinks                              Yaakov Selkowitz
 ruby-turbolinks-source                       Yaakov Selkowitz
 ruby-tzinfo                                  Yaakov Selkowitz

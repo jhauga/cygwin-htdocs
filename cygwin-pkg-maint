@@ -3260,7 +3260,6 @@ ruby-activesupport                           Yaakov Selkowitz
 ruby-arel                                    Yaakov Selkowitz
 ruby-atk                                     Yaakov Selkowitz
 ruby-bcrypt                                  Yaakov Selkowitz
-ruby-bigdecimal                              Yaakov Selkowitz
 ruby-binding_of_caller                       Yaakov Selkowitz
 ruby-builder                                 Yaakov Selkowitz
 ruby-bundler                                 Yaakov Selkowitz
@@ -3304,11 +3303,9 @@ ruby-hpricot                                 Yaakov Selkowitz
 ruby-htmlentities                            Yaakov Selkowitz
 ruby-i18n                                    Yaakov Selkowitz
 ruby-imagesize                               Yaakov Selkowitz
-ruby-io-console                              Yaakov Selkowitz
 ruby-jbuilder                                Yaakov Selkowitz
 ruby-journey                                 Yaakov Selkowitz
 ruby-jquery-rails                            Yaakov Selkowitz
-ruby-json                                    Yaakov Selkowitz
 ruby-kgio                                    Yaakov Selkowitz
 ruby-listen                                  Yaakov Selkowitz
 ruby-locale                                  Yaakov Selkowitz
@@ -3328,14 +3325,12 @@ ruby-net-telnet                              Yaakov Selkowitz
 ruby-nio4r                                   Yaakov Selkowitz
 ruby-nokogiri                                Yaakov Selkowitz
 ruby-oj                                      Yaakov Selkowitz
-ruby-openssl                                 Yaakov Selkowitz
 ruby-pango                                   Yaakov Selkowitz
 ruby-pg                                      Yaakov Selkowitz
 ruby-pkg-config                              Yaakov Selkowitz
 ruby-polyglot                                Yaakov Selkowitz
 ruby-poppler                                 Yaakov Selkowitz
 ruby-power_assert                            Yaakov Selkowitz
-ruby-psych                                   Yaakov Selkowitz
 ruby-puma                                    Yaakov Selkowitz
 ruby-puppet-lint                             David Stacey
 ruby-racc                                    Yaakov Selkowitz

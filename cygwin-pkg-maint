@@ -2634,6 +2634,7 @@ perl-Crypt-OpenSSL-Bignum                    Achim Gratz
 perl-Crypt-OpenSSL-DSA                       Achim Gratz
 perl-Crypt-OpenSSL-EC                        Achim Gratz
 perl-Crypt-OpenSSL-ECDSA                     Achim Gratz
+perl-Crypt-OpenSSL-Guess                     Achim Gratz
 perl-Crypt-OpenSSL-Random                    Achim Gratz
 perl-Crypt-OpenSSL-RSA                       Achim Gratz
 perl-Data-Alias                              Achim Gratz
@@ -2752,6 +2753,7 @@ perl-IO-Tty                                  Achim Gratz
 perl-IPC-Cmd                                 Achim Gratz
 perl-IPC-Run                                 Achim Gratz
 perl-IPC-Run3                                Achim Gratz/Ken Brown
+perl-IPC-System-Simple                       Achim Gratz
 perl-JSON                                    Achim Gratz
 perl-JSON-MaybeXS                            Achim Gratz
 perl-JSON-PP                                 Achim Gratz
@@ -2870,6 +2872,7 @@ perl-Test-Harness                            Achim Gratz
 perl-Test-Inter                              Achim Gratz
 perl-Test-LeakTrace                          Achim Gratz
 perl-Test-MockModule                         Achim Gratz
+perl-Test-More-UTF8                          Achim Gratz
 perl-Test-Needs                              Achim Gratz
 perl-Test-NoTabs                             Achim Gratz
 perl-Test-NoWarnings                         Achim Gratz

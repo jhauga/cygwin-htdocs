@@ -2589,6 +2589,7 @@ pdf2djvu                                     Yaakov Selkowitz
 pdfgrep                                      Yaakov Selkowitz
 peg-e                                        Yaakov Selkowitz
 perl                                         Achim Gratz
+perl-Algorithm-Combinatorics                 Achim Gratz
 perl-Algorithm-Diff                          Achim Gratz
 perl-Alien-wxWidgets                         Yaakov Selkowitz
 perl-Archive-Extract                         Achim Gratz

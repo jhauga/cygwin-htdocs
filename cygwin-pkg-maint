@@ -81,7 +81,7 @@ at-spi2-atk                                  Yaakov Selkowitz
 at-spi2-core                                 Yaakov Selkowitz
 atk1.0                                       Yaakov Selkowitz
 atkmm1.6                                     Yaakov Selkowitz
-AtomicParsley                                David Stacey
+AtomicParsley                                ORPHANED (David Stacey)
 atomix                                       Yaakov Selkowitz
 atool                                        Andrew Schulman
 atril                                        Yaakov Selkowitz
@@ -230,7 +230,7 @@ clutter-gtk0.10                              Yaakov Selkowitz
 clutter-gtk1.0                               Yaakov Selkowitz
 clutter1.0                                   Yaakov Selkowitz
 cmake                                        Tony Kelman/William A. Hoffman
-cmark                                        David Stacey
+cmark                                        ORPHANED (David Stacey)
 cmocka                                       Stephen Groat
 cocom                                        Yaakov Selkowitz
 code2html                                    Jari Aalto
@@ -251,7 +251,7 @@ corebird                                     Yaakov Selkowitz
 coreutils                                    Eric Blake
 corkscrew                                    Jari Aalto
 cpio                                         Corinna Vinschen/Yaakov Selkowitz
-cppcheck                                     David Stacey
+cppcheck                                     ORPHANED (David Stacey)
 cppi                                         Eric Blake
 cppunit                                      Yaakov Selkowitz
 cron                                         Pierre A. Humblet
@@ -369,7 +369,7 @@ dolphin-plugins                              Yaakov Selkowitz
 dos2unix                                     Erwin Waterlander
 dosbox                                       Yaakov Selkowitz
 dotconf                                      Yaakov Selkowitz
-doxygen                                      David Stacey
+doxygen                                      ORPHANED (David Stacey)
 dragon                                       Yaakov Selkowitz
 duff                                         Jari Aalto
 duplicity                                    Yaakov Selkowitz
@@ -463,7 +463,7 @@ fontawesome-fonts                            Yaakov Selkowitz
 fontconfig                                   Yaakov Selkowitz
 fontforge                                    Yaakov Selkowitz
 fonttosfnt                                   Yaakov Selkowitz
-foobillard                                   David Stacey
+foobillard                                   ORPHANED (David Stacey)
 fort77                                       Yaakov Selkowitz
 fortune-mod                                  Yitzchak Scott-Thoennes
 fossil                                       Jari Aalto
@@ -495,7 +495,7 @@ gcc-tools-epoch2-automake                    ORPHANED (Charles Wilson)
 gccmakedep                                   Yaakov Selkowitz
 GConf2                                       Yaakov Selkowitz
 gconfmm2.6                                   Yaakov Selkowitz
-gcovr                                        David Stacey
+gcovr                                        ORPHANED (David Stacey)
 gcr                                          Yaakov Selkowitz
 gd                                           ORPHANED (Dr. Volker Zell)
 gdal                                         Marco Atzeri
@@ -790,7 +790,7 @@ ibus-xkb                                     Yaakov Selkowitz
 iceauth                                      Yaakov Selkowitz
 ico                                          Yaakov Selkowitz
 icon-naming-utils                            Yaakov Selkowitz
-icoutils                                     David Stacey
+icoutils                                     ORPHANED (David Stacey)
 icu                                          Ken Brown
 id3lib                                       Yaakov Selkowitz
 id3v2                                        Yaakov Selkowitz
@@ -965,7 +965,7 @@ kdialog                                      Yaakov Selkowitz
 kdiamond                                     Yaakov Selkowitz
 kdiff3                                       Yaakov Selkowitz
 keditbookmarks                               Yaakov Selkowitz
-keepassx                                     David Stacey
+keepassx                                     ORPHANED (David Stacey)
 kexi                                         Yaakov Selkowitz
 keybinder                                    Yaakov Selkowitz
 keybinder3.0                                 Yaakov Selkowitz
@@ -1245,7 +1245,7 @@ libdv                                        Yaakov Selkowitz
 libdvdnav                                    Yaakov Selkowitz
 libdvdread                                   Yaakov Selkowitz
 libe-book0.1                                 Yaakov Selkowitz
-libebml                                      David Stacey
+libebml                                      ORPHANED (David Stacey)
 libedit                                      Corinna Vinschen
 libelf                                       Yaakov Selkowitz
 libEMF                                       ORPHANED (Dr. Volker Zell)
@@ -1344,7 +1344,7 @@ libmangle                                    Jonathan Yong
 libmatekbd                                   Yaakov Selkowitz
 libmatemixer                                 Yaakov Selkowitz
 libmateweather                               Yaakov Selkowitz
-libmatroska                                  David Stacey
+libmatroska                                  ORPHANED (David Stacey)
 libmcrypt                                    ORPHANED (Dr. Volker Zell)
 libmediaart2.0                               Yaakov Selkowitz
 libmediainfo                                 Yaakov Selkowitz
@@ -2336,7 +2336,7 @@ mkcomposecache                               Yaakov Selkowitz
 mkfontdir                                    Yaakov Selkowitz
 mkfontscale                                  Yaakov Selkowitz
 mksh                                         ORPHANED (Chris Sutcliffe)
-mkvtoolnix                                   David Stacey
+mkvtoolnix                                   ORPHANED (David Stacey)
 mm-common                                    Yaakov Selkowitz
 mmv                                          Jari Aalto
 monotone                                     Yaakov Selkowitz
@@ -2354,7 +2354,7 @@ mpclib                                       Achim Gratz
 mpd                                          Yaakov Selkowitz
 mpfr                                         Achim Gratz
 mpg123                                       Yaakov Selkowitz
-mscgen                                       David Stacey
+mscgen                                       ORPHANED (David Stacey)
 msitools                                     Jon Turney
 msmtp                                        Jari Aalto
 mt                                           Corinna Vinschen
@@ -2397,7 +2397,7 @@ nghttp2                                      Yaakov Selkowitz
 nginx                                        Yaakov Selkowitz
 ngspice                                      Marco Atzeri
 ninja                                        Jon Turney
-ninvaders                                    David Stacey
+ninvaders                                    ORPHANED (David Stacey)
 nmh                                          David Levine
 nosleep                                      Andrew Schulman
 notification-daemon                          Yaakov Selkowitz
@@ -2895,8 +2895,8 @@ perl-Test2-Plugin-NoWarnings                 Achim Gratz
 perl-Test2-Suite                             Achim Gratz
 perl-Text-BibTeX                             Achim Gratz/Ken Brown
 perl-Text-CharWidth                          Achim Gratz/Yaakov Selkowitz
-perl-Text-CSV                                Achim Gratz/David Stacey
-perl-Text-CSV_XS                             Achim Gratz/David Stacey
+perl-Text-CSV                                Achim Gratz
+perl-Text-CSV_XS                             Achim Gratz
 perl-Text-Diff                               Achim Gratz
 perl-Text-Glob                               Achim Gratz/Ken Brown
 perl-Text-Roman                              Achim Gratz/Ken Brown
@@ -2984,8 +2984,8 @@ pngnq                                        Yaakov Selkowitz
 pngquant                                     Jari Aalto
 po4a                                         Yaakov Selkowitz
 pocl                                         Yaakov Selkowitz
-poco                                         David Stacey
-poco-doc                                     David Stacey
+poco                                         ORPHANED (David Stacey)
+poco-doc                                     ORPHANED (David Stacey)
 podofo                                       Yaakov Selkowitz
 poedit                                       Yaakov Selkowitz
 polipo                                       Alexander Georgievskiy
@@ -3012,7 +3012,7 @@ psmisc                                       Corinna Vinschen
 pstoedit                                     ORPHANED (Dr. Volker Zell)
 pstotext                                     Jari Aalto
 publicsuffix-list                            Yaakov Selkowitz
-pugixml                                      David Stacey
+pugixml                                      ORPHANED (David Stacey)
 pulseaudio                                   Yaakov Selkowitz
 pure-ftpd                                    Marco Atzeri
 putty                                        Yaakov Selkowitz
@@ -3338,7 +3338,7 @@ ruby-polyglot                                ORPHANED (Yaakov Selkowitz)
 ruby-poppler                                 Yaakov Selkowitz
 ruby-power_assert                            Yaakov Selkowitz
 ruby-puma                                    Yaakov Selkowitz
-ruby-puppet-lint                             David Stacey
+ruby-puppet-lint                             ORPHANED (David Stacey)
 ruby-racc                                    Yaakov Selkowitz
 ruby-rack                                    Yaakov Selkowitz
 ruby-rack-cache                              Yaakov Selkowitz
@@ -3354,7 +3354,7 @@ ruby-rake                                    Yaakov Selkowitz
 ruby-rake-compiler                           Yaakov Selkowitz
 ruby-rdoc                                    Yaakov Selkowitz
 ruby-rdtool                                  Yaakov Selkowitz
-ruby-redcarpet                               David Stacey
+ruby-redcarpet                               ORPHANED (David Stacey)
 ruby-redis                                   Yaakov Selkowitz
 ruby-rsvg2                                   Yaakov Selkowitz
 ruby-sass                                    Yaakov Selkowitz
@@ -3620,7 +3620,7 @@ tigervnc                                     Yaakov Selkowitz
 time                                         Andrew Schulman
 timidity++                                   Yaakov Selkowitz
 tin                                          Corinna Vinschen
-tinyxml2                                     David Stacey
+tinyxml2                                     ORPHANED (David Stacey)
 tirc                                         Jari Aalto
 tmux                                         Michael Wild
 tnef                                         Jari Aalto
@@ -3713,7 +3713,7 @@ WindowMaker                                  Yaakov Selkowitz
 windows-default-manifest                     Corinna Vinschen
 wmctrl                                       Yaakov Selkowitz
 WordNet                                      ORPHANED (Dr. Volker Zell)
-words                                        David Stacey
+words                                        ORPHANED (David Stacey)
 wput                                         Jari Aalto
 writerperfect                                Yaakov Selkowitz
 wtf                                          Marco Atzeri
@@ -3824,7 +3824,7 @@ xkill                                        Yaakov Selkowitz
 xlaunch                                      Jon Turney
 xlhtml                                       Jari Aalto
 xload                                        Yaakov Selkowitz
-xloadimage                                   David Stacey
+xloadimage                                   ORPHANED (David Stacey)
 xlogo                                        Yaakov Selkowitz
 xlsatoms                                     Yaakov Selkowitz
 xlsclients                                   Yaakov Selkowitz
@@ -3836,7 +3836,7 @@ xmessage                                     Yaakov Selkowitz
 xmh                                          Yaakov Selkowitz
 XmHTML                                       ORPHANED (Dr. Volker Zell)
 xmlsec1                                      Yaakov Selkowitz
-xmlstarlet                                   David Stacey
+xmlstarlet                                   ORPHANED (David Stacey)
 xmlto                                        Yaakov Selkowitz
 xmltoman                                     Yaakov Selkowitz
 xmodmap                                      Yaakov Selkowitz
@@ -3884,7 +3884,7 @@ yad                                          Yaakov Selkowitz
 yajl                                         Yaakov Selkowitz
 yakuake                                      Yaakov Selkowitz
 yaml                                         Yaakov Selkowitz
-yasm                                         David Stacey
+yasm                                         ORPHANED (David Stacey)
 yaz                                          Yaakov Selkowitz
 yelp                                         Yaakov Selkowitz
 yelp-tools                                   Yaakov Selkowitz

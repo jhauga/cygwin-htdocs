@@ -125,20 +125,21 @@ WIDTH="100%"
 ><PRE
 CLASS="screen"
 >&#13;Username@CygwinHost ~
-$ cd /usr/src
+$ cd /usr/src/xorg-server-n.nn.n-n.src
 
-Username@CygwinHost /usr/src
-$ cygport xorg-server-n.n.n-n.cygport prep
+Username@CygwinHost /usr/src/xorg-server-n.nn.n-n.src
+$ cygport xorg-server-n.nn.n-n.cygport prep
 [lots of output as archive is unpacked and patches applied]
 
-$ cygport xorg-server-n.n.n-n.cygport compile
+Username@CygwinHost /usr/src/xorg-server-n.nn.n-n.src
+$ cygport xorg-server-n.nn.n-n.cygport compile
 [lots of output as source is configured and built]
 
-Username@CygwinHost /usr/src
-$ cd xorg-server-n.n.n-n/src/xorg-server-n.n.n/
+Username@CygwinHost /usr/src/xorg-server-n.nn.n-n.src
+$ cd xorg-server-n.nn.n-n/src/xorg-server-n.nn.n/
 [navigate to the source directory]
 
-Username@CygwinHost /usr/src/xorg-server-n.n.n-n/src/xorg-server-n.n.n/
+Username@CygwinHost /usr/src/xorg-server-n.nn.n-n/src/xorg-server-n.nn.n/
 $
 </PRE
 ></TD
@@ -154,20 +155,6 @@ CLASS="note"
 >
 Alternatively you may manually untar the archive and apply any patches
 (in the correct order).
-</P
-></BLOCKQUOTE
-></DIV
-><DIV
-CLASS="note"
-><BLOCKQUOTE
-CLASS="note"
-><P
-><B
->Note: </B
->
-It is necessary to run the package's autogen.sh script to
-regenerate the configure script and Makefiles if the patches modify the
-autoconf or automake source files
 </P
 ></BLOCKQUOTE
 ></DIV
@@ -299,23 +286,7 @@ HREF="prog-obtaining-source.html#prog-source-cygwin-setup"
 ></A
 > and
 check you understand if you need to use the configuration options
-used there. For example:
-</P
-><P
->&#13;<TABLE
-BORDER="0"
-BGCOLOR="#E0E0E0"
-WIDTH="100%"
-><TR
-><TD
-><PRE
-CLASS="screen"
->&#13;$ ./configure --prefix=/usr --with-log-dir=/var/log
-</PRE
-></TD
-></TR
-></TABLE
->
+used there.
 </P
 ><P
 >&#13;Consult the <A
@@ -351,7 +322,7 @@ Most of the Cygwin/X-specific code is in the
 HREF="http://cgit.freedesktop.org/xorg/xserver/tree/hw/xwin"
 TARGET="_top"
 >&#13;xserver/hw/xwin</A
-> 
+>
 directory.
 </P
 ></DIV

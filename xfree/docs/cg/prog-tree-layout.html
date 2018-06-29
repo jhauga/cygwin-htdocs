@@ -151,15 +151,6 @@ which uses a window on a host X Server as its framebuffer.
 Unlike Xnest it supports modern X extensions such as Composite, Damage, randr, etc.
 </P
 ></LI
-><LI
-><P
-><TT
-CLASS="filename"
->fake</TT
-> contains the Xfake X Server.
-xfake is similar to xvfb, but discards all data written to the framebuffer.
-</P
-></LI
 ></UL
 >
 </P
@@ -236,20 +227,7 @@ CLASS="glossterm"
 >machine independent</I
 ></A
 > drawing
-routines.  These drawing routines are used by the Cygwin/X Native GDI
-X Server engine.  In turn, the machine independent routines depend on
-<CODE
-CLASS="function"
->winGetSpans</CODE
->, <CODE
-CLASS="function"
->winFillSpans</CODE
->,
-and <CODE
-CLASS="function"
->winSetSpans</CODE
->, which are implemented in the
-Native GDI engine.</P
+routines.</P
 ></LI
 ><LI
 ><P
@@ -340,7 +318,11 @@ Cygwin/X-specific documentation is not contained in this directory.
 ></LI
 ><LI
 ><P
->The various X Window System protocol headers.</P
+><TT
+CLASS="filename"
+>xorgproto</TT
+>
+contains the various X Window System protocol headers.</P
 ></LI
 ><LI
 ><P

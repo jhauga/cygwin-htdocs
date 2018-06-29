@@ -81,17 +81,6 @@ CLASS="sect2"
 NAME="prog-compiling"
 >Compiling the Source Code</A
 ></H2
-><DIV
-CLASS="sect3"
-><H3
-CLASS="sect3"
-><A
-NAME="prog-compiling-standard"
->Standard Build</A
-></H3
-><P
->Follow these steps to create a standard, non-debug,
-build:</P
 ><P
 >Change the current directory to your X Window System development
 directory:</P
@@ -107,18 +96,18 @@ CLASS="screen"
 $ cd ~/xserver
 
 Username@CygwinHost ~/xserver
-$ ./configure --prefix=/usr --with-log-dir=/var/log
+$ meson _build --prefix=/usr
 [lots of output]
 
 Username@CygwinHost ~/xserver
-$ make
+$ ninja -C _build
 [lots more output]
 </PRE
 ></TD
 ></TR
 ></TABLE
 ><P
->Standard build is now complete.</P
+>The build is now complete.</P
 ><DIV
 CLASS="note"
 ><BLOCKQUOTE
@@ -127,7 +116,7 @@ CLASS="note"
 ><B
 >Note: </B
 >
-You may wish to consult the .cygport file for the current ./configure flags used
+You may wish to consult the .cygport file for the current configuration flags used
 in distributed packages
 </P
 ></BLOCKQUOTE
@@ -140,63 +129,11 @@ CLASS="note"
 ><B
 >Note: </B
 >
-The unpacked source occupies approximately 80MB of disk space.
-Building the source requires approximately an additional 160MB.
-On my ageing 2.2MHz Athlon64 3500+, a full build takes about 20 minutes.
+The unpacked source occupies approximately 30MB of disk space.
+Building the source requires approximately an additional 220MB.
+On my quad-core 3.4GHz i7-4770, a full build takes about 1 minute.
 </P
 ></BLOCKQUOTE
-></DIV
-><DIV
-CLASS="note"
-><BLOCKQUOTE
-CLASS="note"
-><P
-><B
->Note: </B
->
-If you wish to keep build products separate from the source, you may
-run configure from a separate build directory.</P
-></BLOCKQUOTE
-></DIV
-></DIV
-><DIV
-CLASS="sect3"
-><H3
-CLASS="sect3"
-><A
-NAME="prog-compiling-debug"
->Debug Build</A
-></H3
-><P
->Follow these steps to create a build with debugging
-information:</P
-><P
->Change the current directory to your X Window System development
-directory:</P
-><TABLE
-BORDER="0"
-BGCOLOR="#E0E0E0"
-WIDTH="100%"
-><TR
-><TD
-><PRE
-CLASS="screen"
->&#13;Username@CygwinHost ~
-$ cd ~/xserver
-
-Username@CygwinHost ~/xserver
-$ ./configure --prefix=/usr --with-log-dir=/var/log --enable-debug CFLAGS="-g -O0"
-[lots of output]
-
-Username@CygwinHost ~/xserver
-$ make
-[lots more output]
-</PRE
-></TD
-></TR
-></TABLE
-><P
->Debug build is now complete.</P
 ></DIV
 ></DIV
 ><DIV
@@ -213,7 +150,7 @@ NAME="prog-compiling-executing"
 TYPE="1"
 ><LI
 ><P
->Change the current directory to your X Window System build
+>Change the current directory to your X Window System development
 directory:</P
 ><TABLE
 BORDER="0"
@@ -244,7 +181,7 @@ WIDTH="100%"
 ><PRE
 CLASS="screen"
 >&#13;Username@CygwinHost ~/xserver
-$ hw/xwin/XWin
+$ _build/hw/xwin/XWin
 </PRE
 ></TD
 ></TR
@@ -270,7 +207,7 @@ man pages.
 TYPE="1"
 ><LI
 ><P
->Change the current directory to your desired X Window System build
+>Change the current directory to your X Window System development
 directory:</P
 ><TABLE
 BORDER="0"
@@ -281,20 +218,10 @@ WIDTH="100%"
 ><PRE
 CLASS="screen"
 >&#13;Username@CygwinHost ~
-$ cd ~/xserver/build/<TT
-CLASS="replaceable"
-><I
->build-prefix</I
-></TT
->
+$ cd ~/xserver
 
-Username@CygwinHost ~/xserver/build/<TT
-CLASS="replaceable"
-><I
->build-prefix</I
-></TT
->
-$ 
+Username@CygwinHost ~/xserver
+$
 </PRE
 ></TD
 ></TR
@@ -302,7 +229,7 @@ $
 ></LI
 ><LI
 ><P
->Make the <KBD
+>Use the <KBD
 CLASS="userinput"
 >install</KBD
 > target, which installs
@@ -315,13 +242,8 @@ WIDTH="100%"
 ><TD
 ><PRE
 CLASS="screen"
->&#13;Username@CygwinHost ~/xserver/build/<TT
-CLASS="replaceable"
-><I
->build-prefix</I
-></TT
->
-$ make install
+>&#13;Username@CygwinHost ~/xserver
+$ ninja -C _build install
 </PRE
 ></TD
 ></TR

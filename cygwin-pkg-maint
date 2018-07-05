@@ -1826,6 +1826,7 @@ mingw64-i686-libopenmpt                      Yaakov Selkowitz
 mingw64-i686-libpagemaker0.0                 Yaakov Selkowitz
 mingw64-i686-libpng                          Yaakov Selkowitz
 mingw64-i686-libproxy                        Yaakov Selkowitz
+mingw64-i686-libpsl                          Yaakov Selkowitz
 mingw64-i686-libqxp                          Yaakov Selkowitz
 mingw64-i686-libraw                          Yaakov Selkowitz
 mingw64-i686-librest0.7                      Yaakov Selkowitz
@@ -2173,6 +2174,7 @@ mingw64-x86_64-libopenmpt                    Yaakov Selkowitz
 mingw64-x86_64-libpagemaker0.0               Yaakov Selkowitz
 mingw64-x86_64-libpng                        Yaakov Selkowitz
 mingw64-x86_64-libproxy                      Yaakov Selkowitz
+mingw64-x86_64-libpsl                        Yaakov Selkowitz
 mingw64-x86_64-libqxp                        Yaakov Selkowitz
 mingw64-x86_64-libraw                        Yaakov Selkowitz
 mingw64-x86_64-librest0.7                    Yaakov Selkowitz

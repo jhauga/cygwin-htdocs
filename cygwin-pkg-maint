@@ -815,7 +815,7 @@ indicator-applet                             ORPHANED (Yaakov Selkowitz)
 indicator-application                        ORPHANED (Yaakov Selkowitz)
 indicator-application-gtk2                   ORPHANED (Yaakov Selkowitz)
 indicator-keylock                            Yaakov Selkowitz
-inetutils                                    ORPHANED (Charles Wilson)
+inetutils                                    Takashi Yano
 initscripts                                  ORPHANED (Dr. Volker Zell)
 inkscape                                     Yaakov Selkowitz
 input-pad                                    Yaakov Selkowitz
@@ -3248,7 +3248,7 @@ rocs                                         Yaakov Selkowitz
 rodent-icon-theme                            Yaakov Selkowitz
 rpcbind                                      Pavel Fedin
 rpm                                          Pavel Fedin
-rsh                                          ORPHANED (Charles Wilson)
+rsh                                          Takashi Yano
 rsnapshot                                    Jari Aalto
 rstart                                       Yaakov Selkowitz
 rsync                                        Jari Aalto
@@ -3530,7 +3530,7 @@ tcl-tix                                      Yaakov Selkowitz
 tcl-tk                                       Yaakov Selkowitz
 tcl-togl                                     Yaakov Selkowitz
 tcm                                          ORPHANED (Dr. Volker Zell)
-tcp_wrappers                                 ORPHANED (Charles Wilson)
+tcp_wrappers                                 Takashi Yano
 tcsh                                         Corinna Vinschen
 tdb                                          Yaakov Selkowitz
 teckit                                       Ken Brown

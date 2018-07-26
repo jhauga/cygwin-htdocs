@@ -342,6 +342,8 @@ TK,https://cygwin.com/ml/cygwin-apps/2014-08/msg00011.html,For adopting the <tt>
 TW,https://cygwin.com/ml/cygwin/2018-02/msg00053.html,For maintaining the workhorse <tt>mintty</tt> package.,,1
 TW,https://cygwin.com/ml/cygwin/2015-07/msg00110.html,For adopting the <tt>mintty</tt> package.
 
+TY,https://cygwin.com/ml/cygwin-apps/2018-07/msg00030.html,"For adopting the <tt>inetutils</tt>, <tt>rsh</tt> and <tt>tcp_wrappers</tt> packages.",3
+
 VQ,https://cygwin.com/ml/cygwin-apps/2006-11/msg00029.html,For picking up the problematic <tt>ImageMagick</tt> package and making it functional.
 
 VZ,https://cygwin.com/ml/cygwin-apps/2015-04/msg00029.html,For adopting the <tt>xclip</tt> package.

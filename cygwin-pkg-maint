@@ -3030,6 +3030,7 @@ python-attrs                                 Yaakov Selkowitz
 python-babel                                 Yaakov Selkowitz
 python-backports.shutil_get_terminal_size    Yaakov Selkowitz
 python-backports.ssl_match_hostname          Yaakov Selkowitz
+python-bcrypt                                Michael Wild
 python-beautifulsoup                         Yaakov Selkowitz
 python-boto                                  Yaakov Selkowitz
 python-bs4                                   Yaakov Selkowitz
@@ -3089,6 +3090,7 @@ python-markupsafe                            Yaakov Selkowitz
 python-musicbrainzngs                        Yaakov Selkowitz
 python-mutagen                               Yaakov Selkowitz
 python-mx                                    Yaakov Selkowitz
+python-nacl                                  Michael Wild
 python-nose                                  Yaakov Selkowitz
 python-numpy                                 Yaakov Selkowitz
 python-odf                                   Yaakov Selkowitz
@@ -3097,7 +3099,7 @@ python-opengl-accelerate                     Yaakov Selkowitz
 python-openssl                               Yaakov Selkowitz
 python-orbit                                 Yaakov Selkowitz
 python-packaging                             Yaakov Selkowitz
-python-paramiko                              ORPHANED (Jari Aalto)
+python-paramiko                              Michael Wild
 python-pathlib2                              Yaakov Selkowitz
 python-pbr                                   Yaakov Selkowitz
 python-pexpect                               Yaakov Selkowitz

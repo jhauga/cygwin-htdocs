@@ -722,6 +722,7 @@ guake                                        Yaakov Selkowitz
 gucharmap                                    Yaakov Selkowitz
 guile                                        Marco Atzeri
 guile1.8                                     Marco Atzeri
+guile2.0                                     Marco Atzeri
 guilt                                        Jari Aalto
 gv                                           ORPHANED (Dr. Volker Zell)
 gvfs                                         Yaakov Selkowitz
@@ -844,6 +845,7 @@ js-mathjax                                   Yaakov Selkowitz
 js185                                        Yaakov Selkowitz
 json-c                                       Yaakov Selkowitz
 json-glib1.0                                 Yaakov Selkowitz
+jsoncpp                                      Marco Atzeri
 judy                                         Yaakov Selkowitz
 juffed                                       Yaakov Selkowitz
 juk                                          Yaakov Selkowitz
@@ -1435,6 +1437,7 @@ libupnp                                      Yaakov Selkowitz
 libusb-win32                                 Yaakov Selkowitz
 libusb1.0                                    Yaakov Selkowitz
 libustr                                      ORPHANED (Charles Wilson)
+libuv                                        Marco Atzeri
 libverto                                     Yaakov Selkowitz
 libvirt                                      Yaakov Selkowitz
 libvirt-glib1.0                              Yaakov Selkowitz

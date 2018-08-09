@@ -3244,6 +3244,7 @@ renameutils                                  Jari Aalto
 renattach                                    Jari Aalto
 rendercheck                                  Yaakov Selkowitz
 rgb                                          Yaakov Selkowitz
+rhash                                        Marco Atzeri
 ristretto                                    Yaakov Selkowitz
 rlwrap                                       Corinna Vinschen
 rng-tools                                    Corinna Vinschen

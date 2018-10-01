@@ -1252,7 +1252,7 @@ libe-book0.1                                 Yaakov Selkowitz
 libebml                                      ORPHANED (David Stacey)
 libedit                                      Corinna Vinschen
 libelf                                       Yaakov Selkowitz
-libEMF                                       ORPHANED (Dr. Volker Zell)
+libEMF                                       Marco Atzeri 
 libeot                                       Yaakov Selkowitz
 libepoxy                                     Yaakov Selkowitz
 libepubgen                                   Yaakov Selkowitz
@@ -3016,7 +3016,7 @@ protobuf                                     Achim Gratz
 pscan                                        Jari Aalto
 psiconv                                      Yaakov Selkowitz
 psmisc                                       Corinna Vinschen
-pstoedit                                     ORPHANED (Dr. Volker Zell)
+pstoedit                                     Marco Atzeri
 pstotext                                     Jari Aalto
 publicsuffix-list                            Yaakov Selkowitz
 pugixml                                      ORPHANED (David Stacey)

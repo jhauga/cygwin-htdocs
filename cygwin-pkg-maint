@@ -239,6 +239,7 @@ cogl                                         Yaakov Selkowitz
 colamd                                       Marco Atzeri
 colordiff                                    Marco Atzeri
 colorgcc                                     Jari Aalto
+colm                                         Ken Brown
 compface                                     ORPHANED (Dr. Volker Zell)
 compiler-rt                                  Yaakov Selkowitz
 connect-proxy                                Marco Atzeri
@@ -970,6 +971,7 @@ kdiamond                                     Yaakov Selkowitz
 kdiff3                                       Yaakov Selkowitz
 keditbookmarks                               Yaakov Selkowitz
 keepassx                                     ORPHANED (David Stacey)
+kelbt                                        Ken Brown
 kexi                                         Yaakov Selkowitz
 keybinder                                    Yaakov Selkowitz
 keybinder3.0                                 Yaakov Selkowitz
@@ -3228,6 +3230,7 @@ qupzilla                                     Yaakov Selkowitz
 quvi                                         Yaakov Selkowitz
 qwt5                                         ORPHANED (Yaakov Selkowitz)
 R                                            Marco Atzeri
+ragel                                        Ken Brown
 raptor2                                      Yaakov Selkowitz
 raqm                                         Ken Brown
 rarian                                       Yaakov Selkowitz

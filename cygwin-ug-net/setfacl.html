@@ -5,7 +5,7 @@ setfacl [-n] {[-bk]|[-x acl_entries] [-m acl_entries]} FILE...
       </pre></div><div class="refsect1"><a name="setfacl-options"></a><h2>Options</h2><pre class="screen">
   -b, --remove-all       remove all extended ACL entries\n"
   -x, --delete           delete one or more specified ACL entries\n"
-  -f, --file             set ACL entries for FILE to ACL entries read\n"
+  -f, --set-file         set ACL entries for FILE to ACL entries read\n"
                          from ACL_FILE\n"
   -k, --remove-default   remove all default ACL entries\n"
   -m, --modify           modify one or more specified ACL entries\n"
@@ -55,7 +55,7 @@ At least one of (-b, -x, -f, -k, -m, -s) must be specified\n"
          d[efault]:g[roup][:gid]
          d[efault]:m[ask][:]
          d[efault]:o[ther][:]
-</pre><p> </p><p> <code class="literal">-f</code>,<code class="literal">--file</code> Take the Acl_entries
+</pre><p> </p><p> <code class="literal">-f</code>,<code class="literal">--set-file</code> Take the Acl_entries
       from ACL_FILE one per line. Whitespace characters are ignored, and the
       character "#" may be used to start a comment. The special filename "-"
       indicates reading from stdin. Note that you can use this with

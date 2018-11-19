@@ -103,6 +103,17 @@ specified as "zh" (Chinese), "ja" (Japanese), or "ko" (Korean).  This is
 not correct in all circumstances, hence the locale modifier "@cjknarrow"
 can be used to force wcwidth/wcswidth to return 1 for the ambiguous width
 characters.
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+For the same class of "CJK Ambiguous Width" characters, it may be
+desirable to handle them as double-width even when a non-CJK language
+setting is selected.  This supports e.g. certain graphic symbols used
+by "Powerline" and provided by "Powerline fonts".  Some terminals have
+options to enforce this width handling (xterm -cjk_width,
+mintty -o Charwidth=ambig-wide, putty configuration) but that alone
+makes character rendering and locale information inconsistent for those
+characters.  The locale modifier "@cjkwide" supports consistent locale
+response with this option; it forces wcwidth/wcswidth to return 2 for the
+ambiguous width characters.
 </p></li></ul></div></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="setup-locale-how"></a>How to set the locale</h3></div></div></div><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: bullet; "><li class="listitem" style="list-style-type: disc"><p>
 Assume that you've set one of the aforementioned environment variables to some
 valid POSIX locale value, other than "C" and "POSIX".  Assume further that

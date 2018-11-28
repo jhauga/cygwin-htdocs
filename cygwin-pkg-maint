@@ -229,7 +229,7 @@ clutter-gst3.0                               Yaakov Selkowitz
 clutter-gtk0.10                              Yaakov Selkowitz
 clutter-gtk1.0                               Yaakov Selkowitz
 clutter1.0                                   Yaakov Selkowitz
-cmake                                        Tony Kelman/William A. Hoffman
+cmake                                        Tony Kelman/Marco Atzeri
 cmark                                        ORPHANED (David Stacey)
 cmocka                                       Stephen Groat
 cocom                                        Yaakov Selkowitz

@@ -3074,7 +3074,7 @@ python-gobject                               Yaakov Selkowitz
 python-goocanvas                             Yaakov Selkowitz
 python-gtk2.0                                Yaakov Selkowitz
 python-gtksourceview2                        Yaakov Selkowitz
-python-h5py                                  Chris LeBlanc
+python-h5py                                  Chris LeBlanc/Marco Atzeri
 python-html5lib                              Yaakov Selkowitz
 python-htmltmpl                              Yaakov Selkowitz
 python-httplib2                              Yaakov Selkowitz
@@ -3167,7 +3167,7 @@ python2-doc                                  Yaakov Selkowitz
 python3                                      Yaakov Selkowitz
 python3-configobj                            Mike DePaulo
 python3-doc                                  Yaakov Selkowitz
-python3-h5py                                 Chris LeBlanc
+python3-h5py                                 Chris LeBlanc/Marco Atzeri
 pyzy                                         Yaakov Selkowitz
 qca                                          Yaakov Selkowitz
 qhull                                        Marco Atzeri

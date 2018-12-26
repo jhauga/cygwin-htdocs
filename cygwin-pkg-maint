@@ -3051,7 +3051,7 @@ python-chardet                               Yaakov Selkowitz
 python-chm                                   Yaakov Selkowitz
 python-clang                                 Yaakov Selkowitz
 python-cloudfiles                            Yaakov Selkowitz
-python-configobj                             Mike DePaulo
+python-configobj                             Mike DePaulo/Marco Atzeri
 python-constantly                            Yaakov Selkowitz
 python-crypto                                Jari Aalto
 python-cryptography                          Yaakov Selkowitz
@@ -3165,7 +3165,7 @@ python-zope.interface                        Yaakov Selkowitz
 python2                                      Yaakov Selkowitz
 python2-doc                                  Yaakov Selkowitz
 python3                                      Yaakov Selkowitz
-python3-configobj                            Mike DePaulo
+python3-configobj                            Mike DePaulo/Marco Atzeri
 python3-doc                                  Yaakov Selkowitz
 python3-h5py                                 Chris LeBlanc/Marco Atzeri
 pyzy                                         Yaakov Selkowitz

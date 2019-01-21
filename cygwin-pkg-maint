@@ -199,7 +199,7 @@ celestia                                     Yaakov Selkowitz
 celt051                                      Yaakov Selkowitz
 cervisia                                     Yaakov Selkowitz
 cfget                                        Jari Aalto
-cfitsio                                      Yaakov Selkowitz
+cfitsio                                      Achim Gratz/Yaakov Selkowitz
 cfourcc                                      Jari Aalto
 cfv                                          Jari Aalto
 cgdb                                         Jari Aalto
@@ -1662,7 +1662,7 @@ mingw64-i686-c-ares                          Yaakov Selkowitz
 mingw64-i686-cairo                           Yaakov Selkowitz
 mingw64-i686-cairomm1.0                      Yaakov Selkowitz
 mingw64-i686-celt051                         Yaakov Selkowitz
-mingw64-i686-cfitsio                         Yaakov Selkowitz
+mingw64-i686-cfitsio                         Achim Gratz/Yaakov Selkowitz
 mingw64-i686-chromaprint                     Yaakov Selkowitz
 mingw64-i686-clutter-gst3.0                  Yaakov Selkowitz
 mingw64-i686-clutter-gtk1.0                  Yaakov Selkowitz
@@ -2010,7 +2010,7 @@ mingw64-x86_64-c-ares                        Yaakov Selkowitz
 mingw64-x86_64-cairo                         Yaakov Selkowitz
 mingw64-x86_64-cairomm1.0                    Yaakov Selkowitz
 mingw64-x86_64-celt051                       Yaakov Selkowitz
-mingw64-x86_64-cfitsio                       Yaakov Selkowitz
+mingw64-x86_64-cfitsio                       Achim Gratz/Yaakov Selkowitz
 mingw64-x86_64-chromaprint                   Yaakov Selkowitz
 mingw64-x86_64-clutter-gst3.0                Yaakov Selkowitz
 mingw64-x86_64-clutter-gtk1.0                Yaakov Selkowitz

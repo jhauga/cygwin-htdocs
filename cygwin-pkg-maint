@@ -2606,6 +2606,7 @@ perl-Algorithm-Diff                          Achim Gratz
 perl-Alien-wxWidgets                         Yaakov Selkowitz
 perl-Archive-Extract                         Achim Gratz
 perl-Archive-Zip                             Achim Gratz/Yaakov Selkowitz
+perl-Astro-FITS-CFITSIO                      Achim Gratz
 perl-Authen-SASL                             Achim Gratz/Yaakov Selkowitz
 perl-Authen-SASL-XS                          Achim Gratz/Yaakov Selkowitz
 perl-autovivification                        Achim Gratz/Ken Brown

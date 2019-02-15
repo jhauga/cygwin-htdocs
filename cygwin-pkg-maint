@@ -3171,6 +3171,10 @@ python3                                      Yaakov Selkowitz
 python3-configobj                            Mike DePaulo/Marco Atzeri
 python3-doc                                  Yaakov Selkowitz
 python3-h5py                                 Chris LeBlanc/Marco Atzeri
+python34                                     Yaakov Selkowitz
+python35                                     Yaakov Selkowitz
+python36                                     Yaakov Selkowitz
+python37                                     Yaakov Selkowitz
 pyzy                                         Yaakov Selkowitz
 qca                                          Yaakov Selkowitz
 qhull                                        Marco Atzeri

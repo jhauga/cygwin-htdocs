@@ -3155,6 +3155,7 @@ python-twisted                               Yaakov Selkowitz
 python-typing                                Yaakov Selkowitz
 python-unidecode                             Yaakov Selkowitz
 python-urllib3                               Yaakov Selkowitz
+python-virtualenv                            Yaakov Selkowitz
 python-webencodings                          Yaakov Selkowitz
 python-webkit                                Yaakov Selkowitz
 python-wheel                                 Yaakov Selkowitz

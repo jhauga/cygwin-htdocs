@@ -1,5 +1,70 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>What's new and what changed in Cygwin</title><link rel="stylesheet" type="text/css" href="docbook.css"><meta name="generator" content="DocBook XSL Stylesheets Vsnapshot"><link rel="home" href="cygwin-ug-net.html" title="Cygwin User's Guide"><link rel="up" href="overview.html" title="Chapter 1. Cygwin Overview"><link rel="prev" href="highlights.html" title="Highlights of Cygwin Functionality"><link rel="next" href="setup-net.html" title="Chapter 2. Setting Up Cygwin"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">What's new and what changed in Cygwin</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="highlights.html">Prev</a> </td><th width="60%" align="center">Chapter 1. Cygwin Overview</th><td width="20%" align="right"> <a accesskey="n" href="setup-net.html">Next</a></td></tr></table><hr></div><div class="sect1"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="ov-new"></a>What's new and what changed in Cygwin</h2></div></div></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="ov-new2.11"></a>What's new and what changed in 2.11</h3></div></div></div><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: bullet; "><li class="listitem" style="list-style-type: disc"><p>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>What's new and what changed in Cygwin</title><link rel="stylesheet" type="text/css" href="docbook.css"><meta name="generator" content="DocBook XSL Stylesheets Vsnapshot"><link rel="home" href="cygwin-ug-net.html" title="Cygwin User's Guide"><link rel="up" href="overview.html" title="Chapter 1. Cygwin Overview"><link rel="prev" href="highlights.html" title="Highlights of Cygwin Functionality"><link rel="next" href="setup-net.html" title="Chapter 2. Setting Up Cygwin"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">What's new and what changed in Cygwin</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="highlights.html">Prev</a> </td><th width="60%" align="center">Chapter 1. Cygwin Overview</th><td width="20%" align="right"> <a accesskey="n" href="setup-net.html">Next</a></td></tr></table><hr></div><div class="sect1"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="ov-new"></a>What's new and what changed in Cygwin</h2></div></div></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="ov-new3.0"></a>What's new and what changed in 3.0</h3></div></div></div><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: bullet; "><li class="listitem" style="list-style-type: disc"><p>
+Support for CLOCK_REALTIME_COARSE, CLOCK_MONOTONIC_COARSE,
+CLOCK_MONOTONIC_RAW, CLOCK_BOOTTIME, CLOCK_REALTIME_ALARM,
+CLOCK_BOOTTIME_ALARM clocks.
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+Support for case sensitive directories.  mkdir(2) automatically creates
+directories within the Cygwin installation dir as case sensitive
+now.</p><p>This feature requires Windows 10 1803 or later and WSL installed!
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+New file ioctls's FS_IOC_GETFLAGS and FS_IOC_SETFLAGS.  The actual inode
+flags are Cygwin-specific.  This allows to set or reset DOS attributes,
+file sparseness, FS level encryption and compression, as well as
+directory case sensitivity programatically.
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+New tools chattr(1) and lsattr(1) to utilize setting and viewing the
+aforementioned new ioctl's on the command line.
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+Support for exFAT.
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+Support Linux-specific open(2) flag O_PATH.
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+- Support Linux-specific linkat(2) flag AT_EMPTY_PATH.
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+Support overrun counter for posix timers (via timer_getoverrun() or
+siginfo_t::si_overrun).
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+New APIs: signalfd, timerfd_create, timerfd_gettime, timerfd_settime,
+timer_getoverrun.
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+clock_nanosleep, pthread_condattr_setclock and timer_create now support
+all clocks, except CLOCK_PROCESS_CPUTIME_ID and CLOCK_THREAD_CPUTIME_ID.
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+clock_setres is a no-op now.
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+Use the new POSIX unlink semantics on NTFS starting with Windows 10
+1709.  Deleting an in-use file now actually removes the file, rather
+than moving it to the recycler bin.
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+Use the new POSIX rename semantics on NTFS starting with Windows 10
+1809.  Renaming a file to another in-use file now actually removes the
+other file, rather than moving it to the recycler bin.
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+open(..., O_TMPFILE) now moves the file to the trash bin immediately,
+to free the parent directory.
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+Wctype functions updated to Unicode 11.0.
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+Remove matherr, and SVID and X/Open math library configurations.
+Default math library configuration is now IEEE.
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+Improve uname(2) for newly built applications.
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+Kerberos/MSV1_0 S4U authentication replaces two old methods:
+Creating a token from scratch and Cygwin LSA authentication package.
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+Cygwin PIDs have been decoupled from Windows PID.  Cygwin PIDs are now
+incrementally dealt in the range from 2 up to 65535, POSIX-like.
+Native Windows processes not started by Cygwin processes are mapped
+into the range beyond 65535.
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+fork(2) now is able to recover from when an in-use executable/dll is
+removed or replaced during process runtime.  This feature is disabled by
+default and limited to exes/dlls on the same NTFS partition as the Cygwin
+installation.  For more information and how to enable, please refer to
+<a class="xref" href="highlights.html#ov-hi-process" title="Process Creation">the section called “Process Creation”</a>.
+</p></li></ul></div></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="ov-new2.11"></a>What's new and what changed in 2.11</h3></div></div></div><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: bullet; "><li class="listitem" style="list-style-type: disc"><p>
 SO_RCVTIMEO and SO_SNDTIMEO socket options are now honored.
 </p></li><li class="listitem" style="list-style-type: disc"><p>
 /proc/cpuinfo now reports L3 cache size on Intel CPUs.

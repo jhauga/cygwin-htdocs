@@ -127,7 +127,29 @@ is using the correct case for all paths throughout.</p><p>Note that mount points
 paths like /proc are always case-sensitive!  The only exception are
 the subdirectories and filenames under /proc/registry, /proc/registry32
 and /proc/registry64.  Registry access is always case-insensitive.
-Read on for more information.</p></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="pathnames-posixdevices"></a>POSIX devices</h3></div></div></div><p>While there is no need to create a POSIX <code class="filename">/dev</code> 
+Read on for more information.</p></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="pathnames-casesensitivedirs"></a>Case sensitive directories</h3></div></div></div><p>Windows 10 1803 introduced a new feature: NTFS directories can be marked
+as case-sensitive, independently of the <code class="literal">obcaseinsensitive</code>
+registry key discussed in the previous section.  This new per-directory
+case-sensitivity requires setting a flag in the NTFS filesystem header which
+is, unfortunately, undocumented.  The result is that you have to activate
+<code class="literal">Windows Subsystem for Linux</code> (<code class="literal">WSL</code>), a
+feature available via <code class="literal">Programs and Features</code> -&gt;
+<code class="literal">Turn Windows features on or off</code>.  You only have to activate
+<code class="literal">WSL</code>, you don't have to install any actual Linux.  After
+turning <code class="literal">WSL</code> on and performing the compulsory reboot,
+case-sensitive directories are activated.</p><p>With <code class="literal">WSL</code> activated and starting with Cygwin 3.0,
+Cygwin's <span class="command"><strong>mkdir</strong></span> system call will automatically create all
+directories below the Cygwin installation directory as case-sensitive.
+Directories created outside the Cygwin installation tree will be left
+alone.  However, you can use Cygwin's new <a class="xref" href="chattr.html" title="chattr"><span class="refentrytitle">chattr</span>(1)</a> tool
+with the <code class="literal">-C</code> option to control case-sensitivity of
+directories on NTFS filesystems.</p><p>Please keep in mind that switching <span class="emphasis"><em>off</em></span>
+case-sensitivity on a directory has a condition attached to it:  If
+the directory contains two files which only differ in case (e. g.,
+<code class="filename">foo</code> and <code class="filename">FOO</code>), Windows
+refuses to convert the dir back to case-insensitive.  First you have
+to fix the filename collision, i. e., you have to rename one of these
+files.</p></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="pathnames-posixdevices"></a>POSIX devices</h3></div></div></div><p>While there is no need to create a POSIX <code class="filename">/dev</code> 
 directory, the directory is automatically created as part of a Cygwin
 installation.  It's existence is often a prerequisit to run certain
 applications which create symbolic links, fifos, or UNIX sockets in

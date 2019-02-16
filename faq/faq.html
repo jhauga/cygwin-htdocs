@@ -1512,6 +1512,10 @@ notices child is in safe area, copies stack and heap from itself into
 child, releases the mutex the child is waiting on and returns from the
 fork call.  Child wakes from blocking on mutex, recreates any mmapped
 areas passed to it via shared area and then returns from fork itself.
+</p><p>When the executable or any dll in use by the parent was renamed or
+moved into the hidden recycle bin, fork retries with creating hardlinks
+for the old executable and any dll into per-user subdirectories in the
+/var/run/cygfork/ directory, when that one exists and resides on NTFS.
 </p></td></tr><tr class="question"><td align="left" valign="top"><a name="faq.api.globbing"></a><p><b>5.6.</b></p></td><td align="left" valign="top"><p>How does wildcarding (globbing) work?</p></td></tr><tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>If the DLL thinks it was invoked from a DOS style prompt, it runs a
 `globber' over the arguments provided on the command line.  This means
 that if you type <code class="literal">LS *.EXE</code> from DOS, it will do what you might

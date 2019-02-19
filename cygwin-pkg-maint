@@ -257,6 +257,7 @@ cppi                                         Eric Blake
 cppunit                                      Yaakov Selkowitz
 cron                                         Pierre A. Humblet
 crypt                                        Corinna Vinschen/Yaakov Selkowitz
+crypto-policies                              Yaakov Selkowitz
 cscope                                       Jari Aalto
 csih                                         Corinna Vinschen
 ctags                                        Frank Fesevur/Warren Young
@@ -2551,6 +2552,7 @@ openmpi                                      Marco Atzeri
 OpenSP                                       Yaakov Selkowitz
 openssh                                      Corinna Vinschen
 openssl                                      Corinna Vinschen/Yaakov Selkowitz
+openssl10                                    Yaakov Selkowitz
 openwsman                                    Yaakov Selkowitz
 optipng                                      Jari Aalto
 opus                                         Yaakov Selkowitz

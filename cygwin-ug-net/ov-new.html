@@ -20,13 +20,13 @@ Support for exFAT.
 </p></li><li class="listitem" style="list-style-type: disc"><p>
 Support Linux-specific open(2) flag O_PATH.
 </p></li><li class="listitem" style="list-style-type: disc"><p>
-- Support Linux-specific linkat(2) flag AT_EMPTY_PATH.
+Support Linux-specific linkat(2) flag AT_EMPTY_PATH.
 </p></li><li class="listitem" style="list-style-type: disc"><p>
 Support overrun counter for posix timers (via timer_getoverrun() or
 siginfo_t::si_overrun).
 </p></li><li class="listitem" style="list-style-type: disc"><p>
-New APIs: signalfd, timerfd_create, timerfd_gettime, timerfd_settime,
-timer_getoverrun.
+New APIs: secure_getenv, signalfd, timerfd_create, timerfd_gettime,
+timerfd_settime, timer_getoverrun.
 </p></li><li class="listitem" style="list-style-type: disc"><p>
 clock_nanosleep, pthread_condattr_setclock and timer_create now support
 all clocks, except CLOCK_PROCESS_CPUTIME_ID and CLOCK_THREAD_CPUTIME_ID.

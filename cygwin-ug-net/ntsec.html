@@ -1280,7 +1280,13 @@ is as follows.</p></li><li class="listitem"><p>Check if the user has stored the 
 private registry area, either under a Cygwin key, or under a SFU key.
 If so, use this to call <span class="command"><strong>LogonUser</strong></span>.  If this
 succeeds, we use the resulting token for the user context switch.</p></li><li class="listitem"><p>Otherwise, use the default <code class="literal">S4U</code> authentication
-to create a token.</p></li><li class="listitem"><p>If all of the above fails, our process has insufficient privileges
+to create a token.</p></li><li class="listitem"><p>Older systems, like WOW64 under Windows 7 64 bit, don't support
+<code class="literal">S4U</code> authentication for local machine accounts.  On
+these systems Cygwin falls back to an old and otherwise deprecated
+method to create a user token from scratch.  The underlying system call
+is undocumented and has an unfortunate requirement: We have to create a
+special account with dangerous permissions to perform this action.
+Therefore this is only enabled on affected systems.</p></li><li class="listitem"><p>If all of the above fails, our process has insufficient privileges
 to switch the user context at all, so <span class="command"><strong>set(e)uid</strong></span>
 fails and returns -1, setting errno to EPERM.</p></li></ul></div></div></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="using-cygwinenv.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="using.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="using-cygserver.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">The <code class="envar">CYGWIN</code> environment
 variable </td><td width="20%" align="center"><a accesskey="h" href="cygwin-ug-net.html">Home</a></td><td width="40%" align="right" valign="top"> Cygserver</td></tr></table></div></body></html>

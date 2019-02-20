@@ -1907,7 +1907,6 @@ mingw64-i686-pangomm1.4                      Yaakov Selkowitz
 mingw64-i686-pcre                            Yaakov Selkowitz
 mingw64-i686-pcre2                           Yaakov Selkowitz
 mingw64-i686-pixman                          Yaakov Selkowitz
-mingw64-i686-pkg-config                      Yaakov Selkowitz
 mingw64-i686-poppler                         Yaakov Selkowitz
 mingw64-i686-popt                            Yaakov Selkowitz
 mingw64-i686-portablexdr                     Yaakov Selkowitz
@@ -2255,7 +2254,6 @@ mingw64-x86_64-pangomm1.4                    Yaakov Selkowitz
 mingw64-x86_64-pcre                          Yaakov Selkowitz
 mingw64-x86_64-pcre2                         Yaakov Selkowitz
 mingw64-x86_64-pixman                        Yaakov Selkowitz
-mingw64-x86_64-pkg-config                    Yaakov Selkowitz
 mingw64-x86_64-poppler                       Yaakov Selkowitz
 mingw64-x86_64-popt                          Yaakov Selkowitz
 mingw64-x86_64-portablexdr                   Yaakov Selkowitz
@@ -2979,7 +2977,7 @@ pinfo                                        Andrew Schulman
 ping                                         Marco Atzeri
 pinpoint                                     Yaakov Selkowitz
 pixman                                       Yaakov Selkowitz
-pkg-config                                   Yaakov Selkowitz
+pkgconf                                      Yaakov Selkowitz
 pl                                           Corinna Vinschen
 planet                                       Yaakov Selkowitz
 plasma-desktop                               Yaakov Selkowitz

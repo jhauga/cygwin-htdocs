@@ -137,13 +137,20 @@ feature available via <code class="literal">Programs and Features</code> -&gt;
 <code class="literal">Turn Windows features on or off</code>.  You only have to activate
 <code class="literal">WSL</code>, you don't have to install any actual Linux.  After
 turning <code class="literal">WSL</code> on and performing the compulsory reboot,
-case-sensitive directories are activated.</p><p>With <code class="literal">WSL</code> activated and starting with Cygwin 3.0,
-Cygwin's <span class="command"><strong>mkdir</strong></span> system call will automatically create all
+case-sensitive directories are activated.</p><p>Of course, there's a drawback.  While these case-sensitive directories
+work like charm on the local machine, there are massive interoperability
+problems when trying to access these directories from remote machines at
+the time of writing this.  We opened a bug report for that at
+<a class="ulink" href="https://github.com/Microsoft/WSL/issues/3885" target="_top">Microsoft's WSL issue tracker</a>,
+if you're interested in the details.</p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>If you want case-sensitivity and need interoperability with remote
+machines, better stick to switching the kernel to case-sensitivity as
+outlined in <a class="xref" href="using-specialnames.html#pathnames-casesensitive" title="Case sensitive filenames">the section called “Case sensitive filenames”</a></p></div><p>With <code class="literal">WSL</code> activated and starting with Cygwin 3.0.0,
+Cygwin's <span class="command"><strong>mkdir</strong></span> system call automatically created all
 directories below the Cygwin installation directory as case-sensitive.
-Directories created outside the Cygwin installation tree will be left
-alone.  However, you can use Cygwin's new <a class="xref" href="chattr.html" title="chattr"><span class="refentrytitle">chattr</span>(1)</a> tool
-with the <code class="literal">-C</code> option to control case-sensitivity of
-directories on NTFS filesystems.</p><p>Please keep in mind that switching <span class="emphasis"><em>off</em></span>
+With Cygwin 3.0.2, this feature had been disabled again for hopefully
+obvious reasons.</p><p>However, you can still use Cygwin's new
+<a class="xref" href="chattr.html" title="chattr"><span class="refentrytitle">chattr</span>(1)</a> tool with the <code class="literal">-C</code> option
+to control case-sensitivity of directories on NTFS filesystems.</p><p>Please keep in mind that switching <span class="emphasis"><em>off</em></span>
 case-sensitivity on a directory has a condition attached to it:  If
 the directory contains two files which only differ in case (e. g.,
 <code class="filename">foo</code> and <code class="filename">FOO</code>), Windows

@@ -9,12 +9,6 @@ Redirect seeother /setup.exe /install.html
 Redirect /setup-snapshots /setup/
 Redirect gone /win-9x.html
 
-RewriteEngine On
-RewriteCond %{SERVER_PORT} 80
-RewriteCond %{REQUEST_URI} .*exe.*
-RewriteCond %{REQUEST_URI} -f
-RewriteRule ^(.*)$ https://cygwin.com/$1 [R,L]
-
 # https://cygwin.com/ml/cygwin/2010-02/msg00149.html
 <FilesMatch "^setup-(x86|x86_64)\.exe(|.sig)$">
     ExpiresActive On

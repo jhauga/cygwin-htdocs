@@ -3055,7 +3055,7 @@ python-clang                                 Yaakov Selkowitz
 python-cloudfiles                            Yaakov Selkowitz
 python-configobj                             Mike DePaulo/Marco Atzeri
 python-constantly                            Yaakov Selkowitz
-python-crypto                                Jari Aalto
+python-crypto                                Yaakov Selkowitz
 python-cryptography                          Yaakov Selkowitz
 python-cython                                Yaakov Selkowitz
 python-dbus                                  Yaakov Selkowitz
@@ -3067,7 +3067,7 @@ python-enchant                               Yaakov Selkowitz
 python-enum34                                Yaakov Selkowitz
 python-fastimport                            Ken Brown
 python-faulthandler                          Yaakov Selkowitz
-python-feedparser                            Jari Aalto
+python-feedparser                            Yaakov Selkowitz
 python-future                                Jon Turney
 python-futures                               Yaakov Selkowitz
 python-gdata                                 ORPHANED (Chris Sutcliffe)

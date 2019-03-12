@@ -77,6 +77,7 @@ CS,https://cygwin.com/ml/cygwin-apps/2007-07/msg00171.html,For adopting the <tt>
 CS,https://cygwin.com/ml/cygwin-apps/2007-04/msg00030.html,For cleaning up the <tt>mingw-runtime</tt> package.
 CS,https://cygwin.com/ml/cygwin-apps/2006-11/msg00092.html,For adopting the <tt>astyle</tt> package.
 
+CV,https://cygwin.com/ml/cygwin/2019-03/msg00272.html,For fixing a long-standing bug in screen.
 CV,https://cygwin.com/ml/cygwin-apps/2015-03/msg00037.html,For inventing the plush hippo award.,,1
 CV,https://cygwin.com/ml/cygwin-apps/2015-03/msg00001.html,For helping to clean obsolete packages from the distro.
 CV,https://cygwin.com/ml/cygwin/2014-10/msg00495.html,For finding and fixing a nasty CPU register corruption bug.
@@ -344,6 +345,7 @@ TK,https://cygwin.com/ml/cygwin-apps/2014-08/msg00011.html,For adopting the <tt>
 TW,https://cygwin.com/ml/cygwin/2018-02/msg00053.html,For maintaining the workhorse <tt>mintty</tt> package.,,1
 TW,https://cygwin.com/ml/cygwin/2015-07/msg00110.html,For adopting the <tt>mintty</tt> package.
 
+TY,https://cygwin.com/ml/cygwin/2019-03/msg00272.html,For fixing a long-standing bug in screen.
 TY,https://cygwin.com/ml/cygwin-apps/2018-07/msg00030.html,"For adopting the <tt>inetutils</tt>, <tt>rsh</tt> and <tt>tcp_wrappers</tt> packages.",3
 
 VQ,https://cygwin.com/ml/cygwin-apps/2006-11/msg00029.html,For picking up the problematic <tt>ImageMagick</tt> package and making it functional.

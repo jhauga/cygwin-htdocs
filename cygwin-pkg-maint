@@ -3104,6 +3104,7 @@ python-nacl                                  Michael Wild
 python-nose                                  Yaakov Selkowitz
 python-numpy                                 Yaakov Selkowitz
 python-odf                                   Yaakov Selkowitz
+python-olefile                               Yaakov Selkowitz
 python-opengl                                Yaakov Selkowitz
 python-opengl-accelerate                     Yaakov Selkowitz
 python-openssl                               Yaakov Selkowitz

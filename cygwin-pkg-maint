@@ -237,9 +237,9 @@ code2html                                    Jari Aalto
 codeville                                    Jari Aalto
 cogl                                         Yaakov Selkowitz
 colamd                                       Marco Atzeri
+colm                                         Ken Brown
 colordiff                                    Marco Atzeri
 colorgcc                                     Jari Aalto
-colm                                         Ken Brown
 compface                                     ORPHANED (Dr. Volker Zell)
 compiler-rt                                  Yaakov Selkowitz
 connect-proxy                                Marco Atzeri
@@ -3080,6 +3080,7 @@ python-h5py                                  Chris LeBlanc/Marco Atzeri
 python-html5lib                              Yaakov Selkowitz
 python-htmltmpl                              Yaakov Selkowitz
 python-httplib2                              Yaakov Selkowitz
+python-hyperlink                             Yaakov Selkowitz
 python-idna                                  Yaakov Selkowitz
 python-imagesize                             Yaakov Selkowitz
 python-imaging                               Yaakov Selkowitz

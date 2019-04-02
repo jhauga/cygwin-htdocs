@@ -3037,6 +3037,7 @@ python-alabaster                             Yaakov Selkowitz
 python-appdirs                               Yaakov Selkowitz
 python-asn1crypto                            Yaakov Selkowitz
 python-attrs                                 Yaakov Selkowitz
+python-automat                               Yaakov Selkowitz
 python-babel                                 Yaakov Selkowitz
 python-backports.shutil_get_terminal_size    Yaakov Selkowitz
 python-backports.ssl_match_hostname          Yaakov Selkowitz

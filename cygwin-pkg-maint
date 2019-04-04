@@ -256,7 +256,6 @@ cppcheck                                     ORPHANED (David Stacey)
 cppi                                         Eric Blake
 cppunit                                      Yaakov Selkowitz
 cron                                         Pierre A. Humblet
-crypt                                        Corinna Vinschen/Yaakov Selkowitz
 crypto-policies                              Yaakov Selkowitz
 cscope                                       Jari Aalto
 csih                                         Corinna Vinschen
@@ -1466,6 +1465,7 @@ libXaw                                       Yaakov Selkowitz
 libXaw3d                                     Yaakov Selkowitz
 libxcb                                       Yaakov Selkowitz
 libXcomposite                                Yaakov Selkowitz
+libxcrypt                                    Yaakov Selkowitz
 libXcursor                                   Yaakov Selkowitz
 libxcwm                                      Jon Turney
 libXdamage                                   Yaakov Selkowitz

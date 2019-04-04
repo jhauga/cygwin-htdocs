@@ -256,6 +256,7 @@ cppcheck                                     ORPHANED (David Stacey)
 cppi                                         Eric Blake
 cppunit                                      Yaakov Selkowitz
 cron                                         Pierre A. Humblet
+crypt                                        ORPHANED (Yaakov Selkowitz)
 crypto-policies                              Yaakov Selkowitz
 cscope                                       Jari Aalto
 csih                                         Corinna Vinschen

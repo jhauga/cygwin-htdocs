@@ -3120,6 +3120,7 @@ python-pexpect                               Yaakov Selkowitz
 python-pickleshare                           Yaakov Selkowitz
 python-pip                                   Yaakov Selkowitz
 python-ply                                   Yaakov Selkowitz
+python-prompt_toolkit                        Yaakov Selkowitz
 python-ptyprocess                            Yaakov Selkowitz
 python-pyasn1                                Yaakov Selkowitz
 python-pyasn1-modules                        Yaakov Selkowitz
@@ -3143,6 +3144,7 @@ python-rdflib                                Yaakov Selkowitz
 python-reportlab                             Yaakov Selkowitz
 python-requests                              Yaakov Selkowitz
 python-rsa                                   Yaakov Selkowitz
+python-scandir                               Yaakov Selkowitz
 python-service_identity                      Yaakov Selkowitz
 python-setuptools                            Yaakov Selkowitz
 python-simplegeneric                         Yaakov Selkowitz
@@ -3160,6 +3162,7 @@ python-typing                                Yaakov Selkowitz
 python-unidecode                             Yaakov Selkowitz
 python-urllib3                               Yaakov Selkowitz
 python-virtualenv                            Yaakov Selkowitz
+python-wcwidth                               Yaakov Selkowitz
 python-webencodings                          Yaakov Selkowitz
 python-webkit                                Yaakov Selkowitz
 python-wheel                                 Yaakov Selkowitz

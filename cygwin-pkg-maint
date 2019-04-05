@@ -1372,6 +1372,7 @@ libnfc                                       Marcos Vives Del Sol
 libnfs                                       Yaakov Selkowitz
 libnice                                      Yaakov Selkowitz
 libnotify                                    Yaakov Selkowitz
+libnsl                                       Yaakov Selkowitz
 libntlm                                      Yaakov Selkowitz
 liboauth                                     Yaakov Selkowitz
 libodfgen0.1                                 Yaakov Selkowitz
@@ -2529,7 +2530,6 @@ ogmtools                                     Jari Aalto
 okteta                                       Yaakov Selkowitz
 okteta4                                      ORPHANED (Yaakov Selkowitz)
 okular                                       Yaakov Selkowitz
-onc-rpc-devel                                Pavel Fedin
 onig                                         Marco Atzeri
 oodiff                                       Jari Aalto
 opam                                         Andy Li
@@ -3273,7 +3273,8 @@ robodoc                                      Yaakov Selkowitz
 robots                                       Corinna Vinschen
 rocs                                         Yaakov Selkowitz
 rodent-icon-theme                            Yaakov Selkowitz
-rpcbind                                      Pavel Fedin
+rpcbind                                      Yaakov Selkowitz
+rpcsvc-proto                                 Yaakov Selkowitz
 rpm                                          Pavel Fedin
 rsh                                          Takashi Yano
 rsnapshot                                    Jari Aalto

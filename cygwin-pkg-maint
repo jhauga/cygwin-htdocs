@@ -1600,6 +1600,7 @@ man-pages-posix                              Corinna Vinschen
 marble                                       Yaakov Selkowitz
 marblewidget                                 ORPHANED (Yaakov Selkowitz)
 marco                                        Yaakov Selkowitz
+mariadb-connector-c                          Yaakov Selkowitz
 marisa                                       Yaakov Selkowitz
 mate-applets                                 Yaakov Selkowitz
 mate-backgrounds                             Yaakov Selkowitz
@@ -3485,6 +3486,7 @@ slrn                                         Marco Atzeri
 slv2                                         Yaakov Selkowitz
 smartmontools                                Christian Franke
 smproxy                                      Yaakov Selkowitz
+snappy                                       Yaakov Selkowitz
 sng                                          Andrew Schulman
 snownews                                     Yaakov Selkowitz
 sobby                                        Yaakov Selkowitz

@@ -513,8 +513,9 @@ geany-plugins                                Yaakov Selkowitz
 gedit                                        Yaakov Selkowitz
 gedit-code-assistance                        Yaakov Selkowitz
 gedit-plugins                                Yaakov Selkowitz
-gegl                                         Yaakov Selkowitz
-gegl0.3                                      Yaakov Selkowitz
+gegl                                         ORPHANED (Yaakov Selkowitz)
+gegl0.3                                      ORPHANED (Yaakov Selkowitz)
+gegl0.4                                      Yaakov Selkowitz
 gendef                                       Jonathan Yong
 geoclue                                      Yaakov Selkowitz
 geocode-glib                                 Yaakov Selkowitz

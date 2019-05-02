@@ -518,8 +518,8 @@ gegl0.3                                      Yaakov Selkowitz
 gendef                                       Jonathan Yong
 geoclue                                      Yaakov Selkowitz
 geocode-glib                                 Yaakov Selkowitz
-GeoIP                                        Yaakov Selkowitz
-GeoIP-database                               Yaakov Selkowitz
+GeoIP                                        ORPHANED (Yaakov Selkowitz)
+GeoIP-database                               ORPHANED (Yaakov Selkowitz)
 geoipupdate                                  Yaakov Selkowitz
 geomview                                     Ken Brown
 geos                                         Marco Atzeri

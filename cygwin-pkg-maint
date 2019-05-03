@@ -1370,6 +1370,7 @@ libmspack                                    Stuart Caie
 libmspub0.1                                  Yaakov Selkowitz
 libmusicbrainz5                              Yaakov Selkowitz
 libmwaw0.3                                   Yaakov Selkowitz
+libmypaint                                   Yaakov Selkowitz
 libnfc                                       Marcos Vives Del Sol
 libnfs                                       Yaakov Selkowitz
 libnice                                      Yaakov Selkowitz
@@ -2380,6 +2381,8 @@ muparser                                     Yaakov Selkowitz
 musepack                                     Yaakov Selkowitz
 mutt                                         Marco Atzeri
 mutter                                       Yaakov Selkowitz
+mypaint                                      Yaakov Selkowitz
+mypaint-brushes                              Yaakov Selkowitz
 mysql                                        Yaakov Selkowitz
 naim                                         ORPHANED (Jonathan C. Allen)
 nano                                         Yaakov Selkowitz

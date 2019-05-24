@@ -263,6 +263,11 @@ ul.compact li
     text-align: center;
 }
 
+.right
+{
+    text-align: right;
+}
+
 /* pkglist related --------------------------------------------------- */
 
 .pkglist a {
@@ -273,11 +278,31 @@ ul.compact li
     padding-left: 10px;
 }
 
+/* pkg summary related ---------------------------------------------------- */
+
+.detail
+{
+  color: #99003f;
+}
+
+table.pkgtable
+{
+  border-collapse: collapse;
+  border:1px solid black;
+}
+
+table.pkgtable td,
+table.pkgtable th
+{
+  border-width: 1px;
+  border-style: solid;
+}
+
 /* category-list related --------------------------------------------------- */
 
 #category-list
 {
-    -moz-column-width: 5em; 
+    -moz-column-width: 5em;
     -webkit-column-width: 5em;
     column-width: 5em;
     width: 50%;

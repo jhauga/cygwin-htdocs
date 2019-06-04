@@ -24,18 +24,29 @@
 <h2 class="cartouche" id="naming">Package naming scheme</h2>
 
 <p>
-  Use the upstream's version plus a release suffix (i.e. findutils 4.5.12
+  Use the upstream's version followed by a release suffix (i.e. findutils 4.5.12
   becomes 4.5.12-1, 4.5.12-2, etc., until findutils 4.5.13 is packaged, which
   would be 4.5.13-1, etc). Some packages also use a YYYYMMDD format for their
-  versions, e.g. terminfo-5.9-20140524-1.tar.xz. The first release of a package
-  should have a -1 release suffix.
+  versions, e.g. terminfo-5.9-20140524-1.
 </p>
 
 <p>
-  The name <b>must not</b> contain a hyphen followed by a digit.
-  The version and release <b>must</b> start with a digit.
-  The release <b>must not</b> contain a hyphen.
+  For upstream released versions, the release suffix counts from 1. A release
+  suffix starting with 0 and containing the pre-release identifier should be used
+  for upstream pre-release versions (as per
+  <a href="https://fedoraproject.org/wiki/Package_Versioning_Examples#Complex_versioning_examples">these examples</a>),
+  so they sort before released versions.
 </p>
+
+<p>
+To ensure there is no ambiguity in splitting a <i>package-version-release</i>
+into it's components:
+</p>
+<ul class="compact">
+  <li>The name <b>must not</b> contain a hyphen followed by a digit.</li>
+  <li>The version and release <b>must</b> start with a digit.</li>
+  <li>The release <b>must not</b> contain a hyphen.</li>
+</ul>
 
 <p>
   Version and release sort according to the following rules:

@@ -15,12 +15,13 @@
 <h2 class="cartouche">Contents</h2>
 
 <ul class="compact">
-  <li><a href="#naming">Package file naming scheme</a></li>
+  <li><a href="#naming">Package naming scheme</a></li>
+  <li><a href="#files">Package files</a></li>
   <li><a href="#package_contents">Package contents</a></li>
   <li><a href="#postinstall">Package post-install and pre-remove scripts</a></li>
 </ul>
 
-<h2 class="cartouche" id="naming">Package file naming scheme</h2>
+<h2 class="cartouche" id="naming">Package naming scheme</h2>
 
 <p>
   Use the upstream's version plus a release suffix (i.e. findutils 4.5.12
@@ -29,6 +30,31 @@
   versions, e.g. terminfo-5.9-20140524-1.tar.xz. The first release of a package
   should have a -1 release suffix.
 </p>
+
+<p>
+  The name <b>must not</b> contain a hyphen followed by a digit.
+  The version and release <b>must</b> start with a digit.
+  The release <b>must not</b> contain a hyphen.
+</p>
+
+<p>
+  Version and release sort according to the following rules:
+</p>
+  <ul class="compact">
+    <li>Contiguous chunks of digits or alphabetic characters are compared</li>
+    <li>Non-alphanumeric separators for these contiguous chunks are ignored</li>
+    <li>Alphabetic chunks sort before digit chunks</li>
+    <li>Digit chunks sort numerically and alphabetic chunks sort lexicographically</li>
+    <li>If all chunks are equal, the string with any suffix remaining is the greater</li>
+  </ul>
+
+<p>
+  A package with a higher version is greater, regardless of the release.  When
+  two packages have an identical version, the one with the higher release is
+  greater.
+</p>
+
+<h2 class="cartouche" id="files">Package files</h2>
 
 <p>A complete package currently consists of three files:</p>
 <ul class="compact">
@@ -70,29 +96,6 @@ boffo-1.0-1.hint
 <p>
   Note that package files may be .bz2, .gzip, .xz or .zst compressed.  .gzip is
   deprecated and .xz is preferred for new package submissions.
-</p>
-
-<p>
-  The name <b>must not</b> contain a hyphen followed by a digit.
-  The version and release <b>must</b> start with a digit.
-  The release <b>must not</b> contain a hyphen.
-</p>
-
-<p>
-  Version and release sort according to the following rules:
-</p>
-  <ul class="compact">
-    <li>Contiguous chunks of digits or alphabetic characters are compared</li>
-    <li>Non-alphanumeric separators for these contiguous chunks are ignored</li>
-    <li>Alphabetic chunks sort before digit chunks</li>
-    <li>Digit chunks sort numerically and alphabetic chunks sort lexicographically</li>
-    <li>If all chunks are equal, the string with any suffix remaining is the greater</li>
-  </ul>
-
-<p>
-  A package with a higher version is greater, regardless of the release.  When
-  two packages have an identical version, the one with the higher release is
-  greater.
 </p>
 
 <h2 class="cartouche" id="package_contents">Package contents</h2>

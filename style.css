@@ -23,8 +23,6 @@ max-width: 11em;
 background-color: #80a0a0;
 color: white;
 text-align: left;
-margin-top: 0em;
-border-width: 0;
 }
 
 #navbar li
@@ -59,7 +57,7 @@ font-size: small;
 font-weight: 500;
 color: white;
 text-decoration: none;
-font-family: "arial";
+font-family: sans-serif;
 }
 
 #navbar a.gold
@@ -87,6 +85,7 @@ color:gold;
 float: left;
 width: 50%;
 padding: 0.1px; /* rounds down to 0, but prevents margin collapse */
+padding-left: 1.5em;
 padding-right: 0;
 margin-right: 0;
 }
@@ -118,13 +117,9 @@ font-size: .9em;
 #main
 {
 position: relative;
-font-size: 1em;
 left: 12em;
-margin-top: 0em;
 margin-right: 22em;
-top: 0em;
 min-width: 45em;
-min-height: 45em;
 }
 
 #main h1
@@ -146,28 +141,24 @@ color: #99003f;
 margin-bottom: 0ex;
 }
 
+#main h4
+{
+  font-size: .95em;
+  font-style: normal;
+}
+
 #main .catchphrase
 {
 margin-top: 1ex;
+margin-left: 6px;
+margin-right: 6px;
 text-align: left;
 font-style: italic;
 padding-left: 6px;
 }
 
-#main p,
-#main h1,
-#main h2,
-#main h3,
-#main h4
-{
-margin-left: 6px;
-margin-right: 6px;
-}
-
 #main ul
 {
-margin-right: 6px;
-margin-top: 0em;
 }
 
 #main .command
@@ -194,6 +185,8 @@ font-size: 5em;
 color: #990033;
 margin-top: 0em;
 margin-bottom: 0em;
+margin-left: 6px;
+margin-right: 6px;
 padding-left: 4px;
 }
 
@@ -218,8 +211,6 @@ text-align: center;
 
 .cartouche
 {
-margin-top: 0ex;
-margin-bottom: 0ex;
 background: #e8e8e8;
 border-radius: 8px;
 padding: 4px;
@@ -227,18 +218,28 @@ padding: 4px;
 
 /* miscellaneous styles ---------------------------------------------- */
 
-h4
-{
-font-style: normal;
-font-size: .95em;
-}
-
 table#mirroradmin
 {
   width:90%;
   margin-left:5%;
   margin-right:5%;
   border:2px solid black;
+}
+
+table.deben
+{
+  width:85%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  border:1px solid black;
+  border-collapse: collapse;
+}
+
+table.deben td,
+table.deben th
+{
+  border-width: 1px;
+  border-style: solid;
 }
 
 div#main .indent

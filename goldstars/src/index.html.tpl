@@ -21,7 +21,6 @@ circumstances in which it was awarded.
 </p>
 
 <h2 class="cartouche">Distinguished recipients</h2>
-<br />
 
 __LIST_OF_AWARDS__
 

@@ -29,12 +29,7 @@ border-width: 0;
 
 #navbar li
 {
-position: relative;
 overflow: hidden;
-margin-left: 0em;
-left: -2.5em;
-padding-left: .5em;
-margin-right: -2.5em;
 }
 
 #navbar li:hover
@@ -48,6 +43,13 @@ background-color: #608080;
 list-style-type: none;
 margin-top: .5em;
 margin-bottom: .8em;
+/*
+  It's browser dependent which one of margin-left: and padding-left: we need to
+  cancel the default list indentation.
+*/
+margin-left: 0em;
+padding-left: 0.5em;
+padding-right: 0.5em;
 }
 
 #navbar a
@@ -63,6 +65,13 @@ font-family: "arial";
 #navbar a.gold
 {
 color:gold;
+}
+
+#navbar ul ul
+{
+  margin-top: 0em;
+  margin-bottom: 0em;
+  padding-left: 0.75em;
 }
 
 /* -------------------------------------------------------------------------- */

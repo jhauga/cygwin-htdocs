@@ -18,8 +18,8 @@ text-decoration: underline;
 #navbar
 {
 position: absolute;
-left: 1em;
-width: 13em;
+left: 0.5em;
+max-width: 11em;
 background-color: #80a0a0;
 color: white;
 text-align: left;
@@ -119,9 +119,9 @@ font-size: .9em;
 {
 position: relative;
 font-size: 1em;
-left: 15em;
+left: 12em;
 margin-top: 0em;
-margin-right: 25em;
+margin-right: 22em;
 top: 0em;
 min-width: 45em;
 min-height: 45em;

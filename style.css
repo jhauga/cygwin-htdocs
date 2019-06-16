@@ -80,6 +80,12 @@ color:gold;
 
 /* Two-column what is/isn't it layout --------------------------------------- */
 
+.no-vert-margins
+{
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
 #leftwhat
 {
 float: left;

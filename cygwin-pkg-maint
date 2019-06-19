@@ -1603,6 +1603,7 @@ makeself                                     Jari Aalto
 malaga                                       Yaakov Selkowitz
 man-db                                       Chris J. Breisch/Yaakov Selkowitz
 man-pages-posix                              Corinna Vinschen
+manlint                                      ORPHANED
 marble                                       Yaakov Selkowitz
 marblewidget                                 ORPHANED (Yaakov Selkowitz)
 marco                                        Yaakov Selkowitz
@@ -3433,6 +3434,7 @@ rxp                                          Jari Aalto
 rxvt                                         Yaakov Selkowitz
 rxvt-unicode                                 Yaakov Selkowitz
 rzip                                         Jari Aalto
+R_autorebase                                 Marco Atzeri
 s2tc                                         Yaakov Selkowitz
 savi                                         Ken Brown
 schroedinger-cat-backgrounds                 Yaakov Selkowitz
@@ -3889,6 +3891,7 @@ xorg-cf-files                                Yaakov Selkowitz
 xorg-docs                                    Yaakov Selkowitz
 xorg-scripts                                 Yaakov Selkowitz
 xorg-server                                  Jon Turney
+xorg-server-cygwin-crashreporter             Jon Turney
 xorg-sgml-doctools                           Yaakov Selkowitz
 xorg-util-macros                             Yaakov Selkowitz
 xorg-x11-fonts                               Yaakov Selkowitz

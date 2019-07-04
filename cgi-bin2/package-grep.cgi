@@ -93,8 +93,7 @@ Search package contents for a
 <a href="https://www.gnu.org/software/grep/manual/grep.html">grep</a>
 <a href="https://www.gnu.org/software/grep/manual/grep.html#Basic-vs-Extended">basic</a>
 <a href="https://en.wikipedia.org/wiki/Regular_expression">regular expression</a>
-pattern, or view the <a href="https://cygwin.com/packages/package_list.html">full list</a>
-of packages
+pattern
 </p>
 <p>
 <input type="text" size="40" name="grep" value="'$param_grep_htmlencode'"/>

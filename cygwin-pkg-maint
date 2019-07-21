@@ -3062,6 +3062,7 @@ python-chardet                               Yaakov Selkowitz
 python-chm                                   Yaakov Selkowitz
 python-clang                                 Yaakov Selkowitz
 python-cloudfiles                            Yaakov Selkowitz
+python-commonmark                            Yaakov Selkowitz
 python-configobj                             Mike DePaulo/Marco Atzeri
 python-constantly                            Yaakov Selkowitz
 python-crypto                                Yaakov Selkowitz
@@ -3148,6 +3149,7 @@ python-pyqt5-qtdatavisualization             Yaakov Selkowitz
 python-pyrex                                 Yaakov Selkowitz
 python-pytz                                  Yaakov Selkowitz
 python-rdflib                                Yaakov Selkowitz
+python-recommonmark                          Yaakov Selkowitz
 python-reportlab                             Yaakov Selkowitz
 python-requests                              Yaakov Selkowitz
 python-rsa                                   Yaakov Selkowitz

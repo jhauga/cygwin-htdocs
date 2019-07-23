@@ -34,6 +34,7 @@ analitza                                     Yaakov Selkowitz
 anjuta                                       Yaakov Selkowitz
 anjuta-extras                                Yaakov Selkowitz
 annoyance-filter                             Jari Aalto
+ansible                                      Yaakov Selkowitz
 anthy                                        Yaakov Selkowitz
 antiword                                     Jari Aalto
 apng2gif                                     Jari Aalto
@@ -3068,6 +3069,7 @@ python-constantly                            Yaakov Selkowitz
 python-crypto                                Yaakov Selkowitz
 python-cryptography                          Yaakov Selkowitz
 python-cython                                Yaakov Selkowitz
+python-dateutil                              Yaakov Selkowitz
 python-dbus                                  Yaakov Selkowitz
 python-decorator                             Yaakov Selkowitz
 python-discid                                ORPHANED (Dr. Volker Zell)
@@ -3101,6 +3103,7 @@ python-ipython                               Yaakov Selkowitz
 python-ipython_genutils                      Yaakov Selkowitz
 python-isodate                               Yaakov Selkowitz
 python-jinja2                                Tony Kelman/Yaakov Selkowitz
+python-jmespath                              Yaakov Selkowitz
 python-libvirt                               Yaakov Selkowitz
 python-lockfile                              Yaakov Selkowitz
 python-logilab-astng                         ORPHANED (Jari Aalto)
@@ -3113,6 +3116,7 @@ python-mutagen                               Yaakov Selkowitz
 python-mx                                    Yaakov Selkowitz
 python-nacl                                  Michael Wild
 python-nose                                  Yaakov Selkowitz
+python-ntlm-auth                             Yaakov Selkowitz
 python-numpy                                 Yaakov Selkowitz
 python-odf                                   Yaakov Selkowitz
 python-olefile                               Yaakov Selkowitz
@@ -3122,6 +3126,7 @@ python-openssl                               Yaakov Selkowitz
 python-orbit                                 Yaakov Selkowitz
 python-packaging                             Yaakov Selkowitz
 python-paramiko                              Michael Wild
+python-passlib                               Yaakov Selkowitz
 python-pathlib2                              Yaakov Selkowitz
 python-pbr                                   Yaakov Selkowitz
 python-pexpect                               Yaakov Selkowitz
@@ -3141,6 +3146,7 @@ python-pylast                                Yaakov Selkowitz
 python-pynotify                              Yaakov Selkowitz
 python-pyparsing                             Yaakov Selkowitz
 python-pypdf                                 Yaakov Selkowitz
+python-pypsrp                                Yaakov Selkowitz
 python-pyqt4                                 Yaakov Selkowitz
 python-pyqt5                                 Yaakov Selkowitz
 python-pyqt5-qt3d                            Yaakov Selkowitz
@@ -3152,6 +3158,7 @@ python-rdflib                                Yaakov Selkowitz
 python-recommonmark                          Yaakov Selkowitz
 python-reportlab                             Yaakov Selkowitz
 python-requests                              Yaakov Selkowitz
+python-requests_ntlm                         Yaakov Selkowitz
 python-rsa                                   Yaakov Selkowitz
 python-scandir                               Yaakov Selkowitz
 python-service_identity                      Yaakov Selkowitz
@@ -3162,6 +3169,7 @@ python-sip                                   Yaakov Selkowitz
 python-six                                   Yaakov Selkowitz
 python-snowballstemmer                       Yaakov Selkowitz
 python-sphinx                                Tony Kelman/Yaakov Selkowitz
+python-sphinx-notfound-page                  Yaakov Selkowitz
 python-sphinxcontrib-websupport              Yaakov Selkowitz
 python-sphinx_rtd_theme                      Yaakov Selkowitz
 python-sqlalchemy                            Yaakov Selkowitz
@@ -3176,8 +3184,10 @@ python-webencodings                          Yaakov Selkowitz
 python-webkit                                Yaakov Selkowitz
 python-wheel                                 Yaakov Selkowitz
 python-whoosh                                Yaakov Selkowitz
+python-winrm                                 Yaakov Selkowitz
 python-wx                                    Yaakov Selkowitz
 python-xdg                                   Yaakov Selkowitz
+python-xmltodict                             Yaakov Selkowitz
 python-yaml                                  Yaakov Selkowitz
 python-zmq                                   Yaakov Selkowitz
 python-zope.interface                        Yaakov Selkowitz
@@ -3525,6 +3535,7 @@ sqlite3                                      Jan Nijtmans
 sqliteman                                    Yaakov Selkowitz
 squid                                        ORPHANED (Dr. Volker Zell)
 ssh-pageant                                  Michael Wild
+sshpass                                      Yaakov Selkowitz
 ssmtp                                        Corinna Vinschen
 startup-notification                         Yaakov Selkowitz
 steghide                                     Jari Aalto

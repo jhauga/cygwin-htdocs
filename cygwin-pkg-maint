@@ -2560,7 +2560,7 @@ openexr_viewers                              Yaakov Selkowitz
 openjade                                     Yaakov Selkowitz
 openjpeg                                     ORPHANED (Yaakov Selkowitz)
 openjpeg2                                    Yaakov Selkowitz
-openldap                                     ORPHANED (Dr. Volker Zell)
+openldap                                     Achim Gratz
 openmpi                                      Marco Atzeri
 OpenSP                                       Yaakov Selkowitz
 openssh                                      Corinna Vinschen

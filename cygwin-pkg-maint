@@ -2948,7 +2948,7 @@ perl-URI                                     Achim Gratz/Yaakov Selkowitz
 perl-User-Identity                           Achim Gratz
 perl-Variable-Magic                          Achim Gratz
 perl-Win32                                   Achim Gratz
-perl-Win32-API                               Yaakov Selkowitz
+perl-Win32-API                               Achim Gratz/Yaakov Selkowitz
 perl-Win32-GUI                               Yaakov Selkowitz
 perl-WWW-Curl                                Achim Gratz
 perl-WWW-RobotRules                          Achim Gratz/Yaakov Selkowitz

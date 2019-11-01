@@ -89,11 +89,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
     echo '<h1>Cygwin Package Search</h1>
 <form method="get" action="//cygwin.com/cgi-bin2/package-grep.cgi">
 <p>
-Search package contents for a
-<a href="https://www.gnu.org/software/grep/manual/grep.html">grep</a>
-<a href="https://www.gnu.org/software/grep/manual/grep.html#Basic-vs-Extended">basic</a>
-<a href="https://en.wikipedia.org/wiki/Regular_expression">regular expression</a>
-pattern
+Search package name/summary for a substring
 </p>
 <p>
 <input type="text" size="40" name="grep" value="'$param_grep_htmlencode'"/>
@@ -136,7 +132,7 @@ if [ -n "$param_grep" ]; then
              | select(.arches[] | contains("'$param_arch'"))
              | select((.name|contains("'$param_grep'")) or (.summary|contains("'$param_grep'")))
              | .summary as $summary | .name as $name | .versions.stable | map({"name":$name,"summary":$summary,"version":.})[]
-             | ("<a href=\"/cgi-bin2/package-cat.cgi?file='$param_arch'/"+.name+"/"+.name+"-"+.version+"/grep='$param_grep'\">"+.name+"-"+.version+"</a> - "+$summary) ' > "$tmpfile"
+             | ("<a href=\"/cgi-bin2/package-cat.cgi?file='$param_arch'/"+.name+"/"+.name+"-"+.version+"&grep='$param_grep'\">"+.name+"-"+.version+"</a> - "+$summary) ' > "$tmpfile"
 else
     touch "$tmpfile"
 fi

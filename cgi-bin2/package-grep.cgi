@@ -132,7 +132,7 @@ if [ -n "$param_grep" ]; then
              | select(.arches[] | contains("'$param_arch'"))
              | select((.name|contains("'$param_grep'")) or (.summary|contains("'$param_grep'")))
              | .summary as $summary | .name as $name | .versions.stable | map({"name":$name,"summary":$summary,"version":.})[]
-             | ("<a href=\"/cgi-bin2/package-cat.cgi?file='$param_arch'/"+.name+"/"+.name+"-"+.version+"&grep='$param_grep'\">"+.name+"-"+.version+"</a> - "+$summary) ' > "$tmpfile"
+             | ("<a href=\"/cgi-bin2/package-cat.cgi?file='$param_arch'/"+.name+"/"+.name+"-"+.version+"&grep='$param_grep'\">"+.name+"-"+.version+"</a> - "+$summary) ' | sort -u > "$tmpfile"
 else
     touch "$tmpfile"
 fi

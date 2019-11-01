@@ -122,12 +122,21 @@ else
     dir=../packages/x86_64
 fi
 
+# 2015
 # We don't emulate the perlre /m modifier.
-
+# 2019-11-01 fche:
+# Don't search all the package HTML bits in ../packages/*/*/* - that's hundreds of MB.
+# Instead, search the json file with targeted jq query.
+# (With a newer jq, we could do regexes instead of substrings.)
+# 
 tmpfile=`mktemp`
 trap 'rm -f $tmpfile' 0 1 2 3 4 5 9 15
 if [ -n "$param_grep" ]; then
-    grep -l -- "$param_grep" $dir/*/* > "$tmpfile"
+    unxz < /sourceware/www/sourceware/htdocs/cygwin/packages/packages.json.xz | jq -r '.packages[]
+             | select(.arches[] | contains("'$param_arch'"))
+             | select((.name|contains("'$param_grep'")) or (.summary|contains("'$param_grep'")))
+             | .summary as $summary | .name as $name | .versions.stable | map({"name":$name,"summary":$summary,"version":.})[]
+             | ("<a href=\"/cgi-bin2/package-cat.cgi?file='$param_arch'/"+.name+"/"+.name+"-"+.version+"/grep='$param_grep'\">"+.name+"-"+.version+"</a> - "+$summary) ' > "$tmpfile"
 else
     touch "$tmpfile"
 fi
@@ -137,43 +146,16 @@ fi
 
 
 if [ -z "$param_text" ]; then
-    if [ -n "$param_grep" ]; then
-      echo '<h1>Search Results</h1>&nbsp;Found <b>'`wc -l < "$tmpfile"`'</b>'
-      echo ' matches for <b>'$param_grep_htmlencode'</b><br/><br/>'
-    fi
-    echo '<ul class="compact">'
+    echo '<h1>Search Results</h1>&nbsp;Found <b>'`wc -l < "$tmpfile"`'</b>'
+    echo ' matches for <b>'$param_grep_htmlencode'</b><br><br>'
+    echo '<ul>'
 else
     echo 'Found '`wc -l < "$tmpfile"`' matches for '$param_grep
 fi
 
 cat "$tmpfile" | while read fullfile; do
-    file=`echo $fullfile | cut -f5 -d/` # subtract ../packages/$ARCH/DIR/
-    partfile=`echo $fullfile | cut -f3- -d/` # subtract only ../packages/
-
-    basedesc=`fgrep '<h1>' "$fullfile" | cut -f2 -d'>' | cut -f1 -d'<' `
-
-#    basefile=`echo $file | rev | cut -f3- -d- | rev` # subtract -V-R, rpm-style
-#    # subtract "$file: "
-#    filechars=`echo -n $basefile | wc -c`
-#    basedesc=`echo $basedesc | cut -c${filechars}- | cut -c4-`
-#
-#    if expr "$file" : '.*-src$' >/dev/null; then
-#	desc="Source code for $basedesc"
-#    elif expr "$file" : '.*-debuginfo$' >/dev/null; then
-#	desc="Debug information for $basedesc"
-#    else
-#	desc="$basedesc"
-#    fi
-
-    desc="$basedesc"
-    
-    if [ -z "$param_text" ]; then
-	echo '<li><a href="package-cat.cgi?file='`urlencode $partfile`'&amp;grep='`urlencode $param_grep`'">'$file'</a> - '$desc'</li>'
-    else
-	echo "$file - $desc"
-    fi
+    echo '<li>'$fullfile'</li>'
 done
-
 
 ############################## footer
 

@@ -128,11 +128,19 @@ fi
 tmpfile=`mktemp`
 trap 'rm -f $tmpfile' 0 1 2 3 4 5 9 15
 if [ -n "$param_grep" ]; then
-    unxz < /sourceware/www/sourceware/htdocs/cygwin/packages/packages.json.xz | jq -r '.packages[]
-             | select(.arches[] | contains("'$param_arch'"))
-             | select((.name|contains("'$param_grep'")) or (.summary|contains("'$param_grep'")))
-             | .summary as $summary | .name as $name | .versions.stable | map({"name":$name,"summary":$summary,"version":.})[]
-             | ("<a href=\"/cgi-bin2/package-cat.cgi?file='$param_arch'/"+.name+"/"+.name+"-"+.version+"&grep='$param_grep'\">"+.name+"-"+.version+"</a> - "+$summary) ' | sort -u > "$tmpfile"
+    if [ -z "$param_text" ]; then
+        unxz < /sourceware/www/sourceware/htdocs/cygwin/packages/packages.json.xz | jq -r '.packages[]
+                 | select(.arches[] | contains("'$param_arch'"))
+                 | select((.name|contains("'$param_grep'")) or (.summary|contains("'$param_grep'")))
+                 | .summary as $summary | .name as $name | .versions.stable | map({"name":$name,"summary":$summary,"version":.})[]
+                 | ("<a href=\"/cgi-bin2/package-cat.cgi?file='$param_arch'/"+.name+"/"+.name+"-"+.version+"&grep='$param_grep'\">"+.name+"-"+.version+"</a> - "+$summary) ' | sort -u > "$tmpfile"
+    else
+        unxz < /sourceware/www/sourceware/htdocs/cygwin/packages/packages.json.xz | jq -r '.packages[]
+                 | select(.arches[] | contains("'$param_arch'"))
+                 | select((.name|contains("'$param_grep'")) or (.summary|contains("'$param_grep'")))
+                 | .summary as $summary | .name as $name | .versions.stable | map({"name":$name,"summary":$summary,"version":.})[]
+                 | (.name+"-"+.version+" - "+$summary) ' | sort -u > "$tmpfile"
+    fi
 else
     touch "$tmpfile"
 fi
@@ -150,7 +158,11 @@ else
 fi
 
 cat "$tmpfile" | while read fullfile; do
-    echo '<li>'$fullfile'</li>'
+    if [ -z "$param_text" ]; then
+        echo '<li>'$fullfile'</li>'
+    else
+        echo $fullfile
+    fi
 done
 
 ############################## footer

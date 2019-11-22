@@ -2619,6 +2619,8 @@ peg-e                                        Yaakov Selkowitz
 perl                                         Achim Gratz
 perl-Algorithm-Combinatorics                 Achim Gratz
 perl-Algorithm-Diff                          Achim Gratz
+perl-Alien-Build                             Achim Gratz
+perl-Alien-Libxml2                           Achim Gratz
 perl-Alien-wxWidgets                         Yaakov Selkowitz
 perl-Archive-Extract                         Achim Gratz
 perl-Archive-Zip                             Achim Gratz/Yaakov Selkowitz
@@ -2626,6 +2628,7 @@ perl-Astro-FITS-CFITSIO                      Achim Gratz
 perl-Authen-SASL                             Achim Gratz/Yaakov Selkowitz
 perl-Authen-SASL-XS                          Achim Gratz/Yaakov Selkowitz
 perl-autovivification                        Achim Gratz/Ken Brown
+perl-B-COW                                   Achim Gratz
 perl-B-Generate                              Achim Gratz
 perl-B-Hooks-EndOfScope                      Achim Gratz
 perl-Business-ISBN                           Achim Gratz/Ken Brown
@@ -2697,6 +2700,7 @@ perl-Digest-HMAC                             Achim Gratz/Yaakov Selkowitz
 perl-Digest-SHA                              Achim Gratz
 perl-Digest-SHA1                             Achim Gratz/Yaakov Selkowitz
 perl-Dist-CheckConflicts                     Achim Gratz
+perl-Encode-compat                           Achim Gratz
 perl-Encode-EUCJPASCII                       Achim Gratz/Ken Brown
 perl-Encode-HanExtra                         Achim Gratz/Ken Brown
 perl-Encode-ISO2022                          Achim Gratz
@@ -2717,6 +2721,8 @@ perl-ExtUtils-LibBuilder                     Achim Gratz/Ken Brown
 perl-ExtUtils-MakeMaker                      Achim Gratz
 perl-ExtUtils-PkgConfig                      Achim Gratz/Yaakov Selkowitz
 perl-ExtUtils-XSpp                           Achim Gratz/Yaakov Selkowitz
+perl-FFI-CheckLib                            Achim Gratz
+perl-File-chdir                              Achim Gratz
 perl-File-Copy-Recursive                     Achim Gratz
 perl-File-Find-Object                        Achim Gratz
 perl-File-Find-Object-Rule                   Achim Gratz
@@ -2786,6 +2792,7 @@ perl-IPC-Run3                                Achim Gratz/Ken Brown
 perl-IPC-System-Simple                       Achim Gratz
 perl-JSON                                    Achim Gratz
 perl-JSON-MaybeXS                            Achim Gratz
+perl-JSON-Parse                              Achim Gratz
 perl-JSON-PP                                 Achim Gratz
 perl-JSON-XS                                 Achim Gratz
 perl-Lchown                                  Achim Gratz
@@ -2839,6 +2846,7 @@ perl-Net-SMTP-SSL                            Achim Gratz/Yaakov Selkowitz
 perl-Net-SSLeay                              Achim Gratz/Yaakov Selkowitz
 perl-Net-XMPP                                Achim Gratz
 perl-Number-Compare                          Achim Gratz/Ken Brown
+perl-Number-Misc                             Achim Gratz
 perl-Object-Realize-Later                    Achim Gratz
 perl-OpenGL                                  Yaakov Selkowitz
 perl-Package-DeprecationManager              Achim Gratz/Ken Brown
@@ -2875,6 +2883,7 @@ perl-Socket6                                 Achim Gratz
 perl-Sort-Key                                Achim Gratz/Ken Brown
 perl-Specio                                  Achim Gratz
 perl-Spiffy                                  Achim Gratz
+perl-String-Util                             Achim Gratz
 perl-Sub-Exporter                            Achim Gratz
 perl-Sub-Exporter-Progressive                Achim Gratz
 perl-Sub-Identify                            Achim Gratz
@@ -2914,6 +2923,7 @@ perl-Test-Requires                           Achim Gratz
 perl-Test-RequiresInternet                   Achim Gratz
 perl-Test-Script                             Achim Gratz
 perl-Test-Simple                             Achim Gratz
+perl-Test-Toolbox                            Achim Gratz
 perl-Test-TrailingSpace                      Achim Gratz
 perl-Test-utf8                               Achim Gratz
 perl-Test-Warn                               Achim Gratz

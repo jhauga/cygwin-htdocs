@@ -1442,6 +1442,7 @@ libtheora                                    David Rothenberger
 libtiger                                     Yaakov Selkowitz
 libtimidity                                  Yaakov Selkowitz
 libtirpc                                     Yaakov Selkowitz
+libtommath                                   Jan Nijtmans
 libtool                                      Yaakov Selkowitz
 libtorrent                                   Marco Atzeri
 libtxc_dxtn                                  Yaakov Selkowitz

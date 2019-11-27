@@ -127,7 +127,7 @@ fi
 tmpfile=`mktemp`
 trap 'rm -f $tmpfile' 0 1 2 3 4 5 9 15
 if [ -n "$param_grep" ]; then
-    grep -l -- "$param_grep" $dir/*/* > "$tmpfile"
+    ls -1f $dir/*/* | xargs -P16 grep -l -- "$param_grep" | sort > "$tmpfile"
 else
     touch "$tmpfile"
 fi

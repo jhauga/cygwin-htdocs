@@ -89,7 +89,11 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
     echo '<h1>Cygwin Package Search</h1>
 <form method="get" action="//cygwin.com/cgi-bin2/package-grep.cgi">
 <p>
-Search package name/summary for a substring
+Search package contents for a
+<a href="https://www.gnu.org/software/grep/manual/grep.html">grep</a>
+<a href="https://www.gnu.org/software/grep/manual/grep.html#Basic-vs-Extended">basic</a>
+<a href="https://en.wikipedia.org/wiki/Regular_expression">regular expression</a>
+pattern
 </p>
 <p>
 <input type="text" size="40" name="grep" value="'$param_grep_htmlencode'"/>
@@ -118,29 +122,12 @@ else
     dir=../packages/x86_64
 fi
 
-# 2015
 # We don't emulate the perlre /m modifier.
-# 2019-11-01 fche:
-# Don't search all the package HTML bits in ../packages/*/*/* - that's hundreds of MB.
-# Instead, search the json file with targeted jq query.
-# (With a newer jq, we could do regexes instead of substrings.)
-# 
+
 tmpfile=`mktemp`
 trap 'rm -f $tmpfile' 0 1 2 3 4 5 9 15
 if [ -n "$param_grep" ]; then
-    if [ -z "$param_text" ]; then
-        unxz < /sourceware/www/sourceware/htdocs/cygwin/packages/packages.json.xz | jq -r '.packages[]
-                 | select(.arches[] | contains("'$param_arch'"))
-                 | select((.name|contains("'$param_grep'")) or (.summary|contains("'$param_grep'")))
-                 | .summary as $summary | .name as $name | .versions.stable | map({"name":$name,"summary":$summary,"version":.})[]
-                 | ("<a href=\"/cgi-bin2/package-cat.cgi?file='$param_arch'/"+.name+"/"+.name+"-"+.version+"&grep='$param_grep'\">"+.name+"-"+.version+"</a> - "+$summary) ' | sort -u > "$tmpfile"
-    else
-        unxz < /sourceware/www/sourceware/htdocs/cygwin/packages/packages.json.xz | jq -r '.packages[]
-                 | select(.arches[] | contains("'$param_arch'"))
-                 | select((.name|contains("'$param_grep'")) or (.summary|contains("'$param_grep'")))
-                 | .summary as $summary | .name as $name | .versions.stable | map({"name":$name,"summary":$summary,"version":.})[]
-                 | (.name+"-"+.version+" - "+$summary) ' | sort -u > "$tmpfile"
-    fi
+    grep -l -- "$param_grep" $dir/*/* > "$tmpfile"
 else
     touch "$tmpfile"
 fi
@@ -150,20 +137,43 @@ fi
 
 
 if [ -z "$param_text" ]; then
-    echo '<h1>Search Results</h1>&nbsp;Found <b>'`wc -l < "$tmpfile"`'</b>'
-    echo ' matches for <b>'$param_grep_htmlencode'</b><br><br>'
-    echo '<ul>'
+    if [ -n "$param_grep" ]; then
+      echo '<h1>Search Results</h1>&nbsp;Found <b>'`wc -l < "$tmpfile"`'</b>'
+      echo ' matches for <b>'$param_grep_htmlencode'</b><br/><br/>'
+    fi
+    echo '<ul class="compact">'
 else
     echo 'Found '`wc -l < "$tmpfile"`' matches for '$param_grep
 fi
 
 cat "$tmpfile" | while read fullfile; do
+    file=`echo $fullfile | cut -f5 -d/` # subtract ../packages/$ARCH/DIR/
+    partfile=`echo $fullfile | cut -f3- -d/` # subtract only ../packages/
+
+    basedesc=`fgrep '<h1>' "$fullfile" | cut -f2 -d'>' | cut -f1 -d'<' `
+
+#    basefile=`echo $file | rev | cut -f3- -d- | rev` # subtract -V-R, rpm-style
+#    # subtract "$file: "
+#    filechars=`echo -n $basefile | wc -c`
+#    basedesc=`echo $basedesc | cut -c${filechars}- | cut -c4-`
+#
+#    if expr "$file" : '.*-src$' >/dev/null; then
+#	desc="Source code for $basedesc"
+#    elif expr "$file" : '.*-debuginfo$' >/dev/null; then
+#	desc="Debug information for $basedesc"
+#    else
+#	desc="$basedesc"
+#    fi
+
+    desc="$basedesc"
+    
     if [ -z "$param_text" ]; then
-        echo '<li>'$fullfile'</li>'
+	echo '<li><a href="package-cat.cgi?file='`urlencode $partfile`'&amp;grep='`urlencode $param_grep`'">'$file'</a> - '$desc'</li>'
     else
-        echo $fullfile
+	echo "$file - $desc"
     fi
 done
+
 
 ############################## footer
 

@@ -2738,6 +2738,7 @@ perl-File-Slurp                              Achim Gratz/Ken Brown
 perl-File-Slurp-Tiny                         Achim Gratz
 perl-File-Slurper                            Achim Gratz
 perl-File-Which                              Achim Gratz
+perl-FileHandle-Unget                        Achim Gratz
 perl-Finance-Quote                           Achim Gratz/Yaakov Selkowitz
 perl-Font-AFM                                Achim Gratz
 perl-Font-TTF                                Achim Gratz/Yaakov Selkowitz
@@ -2813,6 +2814,7 @@ perl-LWP-Protocol-https                      Achim Gratz/Ken Brown
 perl-Mail-Box                                Achim Gratz
 perl-Mail-Box-Parser-C                       Achim Gratz
 perl-Mail-IMAPClient                         Achim Gratz
+perl-Mail-Mbox-MessageParser                 Achim Gratz
 perl-Mail-Message                            Achim Gratz
 perl-Mail-Transport                          Achim Gratz
 perl-MailTools                               Achim Gratz/Yaakov Selkowitz
@@ -2900,6 +2902,7 @@ perl-Term-ReadLine-Perl                      Achim Gratz
 perl-Term-Table                              Achim Gratz
 perl-TermReadKey                             Achim Gratz
 perl-Test-Base                               Achim Gratz
+perl-Test-Compile                            Achim Gratz
 perl-Test-CPAN-Meta                          Achim Gratz
 perl-Test-Deep                               Achim Gratz
 perl-Test-Differences                        Achim Gratz
@@ -2955,6 +2958,7 @@ perl-Types-Serialiser                        Achim Gratz
 perl-Unicode-Collate                         Achim Gratz/Ken Brown
 perl-Unicode-LineBreak                       Achim Gratz/Ken Brown
 perl-Unicode-Normalize                       Achim Gratz/Ken Brown
+perl-UNIVERSAL-require                       Achim Gratz
 perl-URI                                     Achim Gratz/Yaakov Selkowitz
 perl-User-Identity                           Achim Gratz
 perl-Variable-Magic                          Achim Gratz

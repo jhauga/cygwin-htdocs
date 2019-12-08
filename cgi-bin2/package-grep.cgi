@@ -127,7 +127,8 @@ fi
 tmpfile=`mktemp`
 trap 'rm -f $tmpfile' 0 1 2 3 4 5 9 15
 if [ -n "$param_grep" ]; then
-    ls -1f $dir/*/* | xargs -P16 env LC_ALL=C grep --line-buffered -l -- "$param_grep" | sort > "$tmpfile"
+    ls -1f $dir/*/* | xargs -L1000 -P16 env LC_ALL=C grep --line-buffered -l -- "$param_grep" | sort > "$tmpfile"
+    # 1000 is less than 1/16th of the number of $dir/*/* files
 else
     touch "$tmpfile"
 fi

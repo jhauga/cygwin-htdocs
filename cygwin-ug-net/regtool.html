@@ -66,8 +66,11 @@ remote host in either \\hostname or hostname: format and prefix is any of:
   users    HKU   HKEY_USERS
 
 You can use forward slash ('/') as a separator instead of backslash, in
-that case backslash is treated as escape character
-Example: regtool get '\user\software\Microsoft\Clock\iFormat'
+that case backslash is treated as an escape character.
+You can also supply the registry path prefix /proc/registry{,32,64}/ to
+use path completion.
+Example:
+  regtool list '/HKLM/SOFTWARE/Classes/MIME/Database/Content Type/audio\\/wav'
 </pre></div><div class="refsect1"><a name="regtool-desc"></a><h2>Description</h2><p>The <span class="command"><strong>regtool</strong></span> program allows shell scripts to access
       and modify the Windows registry. Note that modifying the Windows registry
       is dangerous, and carelessness here can result in an unusable system. Be

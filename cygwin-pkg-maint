@@ -3817,7 +3817,7 @@ xcb-util-renderutil                          Yaakov Selkowitz
 xcb-util-wm                                  Yaakov Selkowitz
 xcftools                                     Yaakov Selkowitz
 xchm                                         Yaakov Selkowitz
-xclip                                        ORPHANED (Dr. Volker Zell)
+xclip                                        Jon Turney
 xclipboard                                   Yaakov Selkowitz
 xclock                                       Yaakov Selkowitz
 xcmsdb                                       Yaakov Selkowitz

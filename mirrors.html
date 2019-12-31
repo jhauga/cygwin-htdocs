@@ -18,17 +18,17 @@ ftp site.  To save on download time, please choose a mirror site near
 you when selecting a mirror when using setup
 to <a href="install.html">install or update</a> Cygwin.</p>
 
-<p><em>Note:</em> We <em>automatically</em> poll the mirror list on a
-regular basis to ensure that sites have the latest <a
-href="packages">Cygwin packages</a> available.  The list of sites below
-reflects all of the sites who appear to have up-to-date copies of the
+<p><em>Note:</em> We <em>automatically</em> poll these mirrors on a
+regular basis to ensure that mirrors have the latest <a
+href="packages">Cygwin packages</a> available.  The list of mirrors below
+reflects all of the mirrors who appear to have up-to-date copies of the
 Cygwin release area.</p>
 
 <p>
 <b>There is <a href="#mirroradmin">more information for Mirror Administrators</a>.</b><br/>
 </p>
 
-<h2 class="cartouche" id="sitelist">Site list by region</h2>
+<h2 class="cartouche" id="sitelist">Mirror site list</h2>
 
 <!-- include mirror list updated by check-cygwin-mirrors run from cygwin-admin's crontab -->
 <!--#include virtual="mirrors-list.html"-->
@@ -37,43 +37,35 @@ Cygwin release area.</p>
 <table id="mirroradmin">
 <tr><td><h2 class="center">Mirror Administrators: Read This!</h2>
 
-<p>If you would like to be added to this list of available mirrors then
-send email to <b>sourcemaster</b> at this site.  <b>sourcemaster</b> is
-a mailing list on this site.  You really can send email to it.  However,
-when you send your mesage, remember that this site does not accept <a
-href="http://sourceware.org/lists.html#html-mail">html-formatted
-email</a>.</p>
+<p>If you would like to be added to this list of available mirrors then send
+email to <b>sourcemaster</b> at this site. When you send your mesage, remember
+that this site does not accept
+<a href="http://sourceware.org/lists.html#html-mail">html-formatted email</a>.
+</p>
 
 <p>When asking to be added, please provide contact information, the URL
-of the mirror, and location of the mirror.  Location should be provided
-similarly to what is listed in the <a href="#sitelist">site list</a>.
+of the mirror, and the location of the mirror (in a similar format to that
+used for existing mirrors in the <a href="#sitelist">mirror site list</a>).
 Make sure that your mirror rsyncs directly from cygwin.com at least
-twice a day.  If your mirror site has up-to-date content, once it is
-added, it will show up here automatically.</p>
+twice a day.</p>
 
 <p>Please do not send questions asking how to set up a mirror.  We don't
 provide technical support for setting up mirrors.  Sorry.</p>
 
-<p>The mirror list is <b>automatically maintained</b>.  This means that
-only active mirrors are listed.  There is no hand-editing of the list.
-It is maintained by <em>a program</em>.  So, if your site was dropped
-from the list it means that a program has determined that the files on
-your site are not up-to-date.  Unless your site has been out of date for
-(currently) 100 runs of the program, it will be re-added automatically
-when it becomes current.  So, if you see that your site has been dropped
-from the mirrors list do not panic.  <em>There is no need to contact
-anyone about this</em>.</p>
+<p>The mirror list is <a href="mirrors-report.html"><b>automatically
+maintained</b></a> so that only active mirrors are listed. If your mirror was
+dropped from the list, it means that a program has determined that the files on
+your mirror are not up-to-date. If you see that your mirror has been dropped
+from the mirrors list, do not panic. Ensure that your mirror is up-to-date. It
+will be re-added automatically once it has has up-to-date content again.
+<em>There is no need to contact anyone about this</em>.</p>
 
-<p>Given the granularity of checking, it is possible that your site will
-be polled after a package update on cygwin.com but before your site has
-pulled the update.  So, it is <em>expected</em> that from, time-to-time,
-your site may fall off the mirror list <em>temporarily</em>.  If your
-mirror site has not been listed for a day or so that means that some
-cygwin packages on your site are not current.  Check the <a
-href="http://cygwin.com/ml/cygwin-announce/current/">cygwin-announce
-archives</a> for announcements about recent package updates and ensure
-that your site has those packages.  Once your site has the recent
-packages it will be re-added automatically.</p>
+<p>
+A mirror is <em>temporarily</em> removed from the list if it remains out of date
+for more than 24 hours. It will be re-added automatically when it becomes
+current again. A mirror is disabled if it remains out-of-date for more than 14
+days.
+</p>
 
 </td></tr></table>
 

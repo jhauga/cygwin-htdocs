@@ -14,57 +14,14 @@
 <h1>Uploading Packages to cygwin.com</h1>
 
 <p>
-If you are a package maintainer you will need to request sftp upload privileges to the
-Cygwin distro.  This page documents how to request the privileges and
-upload packages to cygwin.com.
+This page documents how to upload packages to cygwin.com, after you have
+provided an <a href="packaging/key.html#sshkey">SSH key</a>.
 </p>
-
-<h2 class="cartouche" id="sshkey">Requesting upload privileges</h2>
-
-<p>Send your public ssh key to the <a href="http://cygwin.com/lists.html#cygwin-apps">cygwin-apps</a> mailing list using this format:</p>
-
-<pre><tt>
-    Name: Your Name
-    Package: The name of <b>one</b> of the packages that you are responsible for
-    ---- BEGIN SSH2 PUBLIC KEY ----
-    &nbsp;&nbsp;&nbsp;<em>RFC 4716 format public ssh key here</em>
-    ---- END SSH2 PUBLIC KEY ----
-</tt></pre>
-
-<p>The SSH key above should be generated from one of your public keys, e.g.:</p>
-<pre><tt>    ssh-keygen -e -f ~/.ssh/id_rsa.pub</tt></pre>
-
-<p>The format of this email is not optional.  It is read by a program so please
-do not deviate from the above.  In particular, don't indent, don't add multiple
-packages, and <b>do</b> use <a href="http://cygwin.com/cygwin-pkg-maint">your name</a> as
-recorded in  <a href="http://cygwin.com/cygwin-pkg-maint">http://cygwin.com/cygwin-pkg-maint</a>.</p>
-
-<p><b>Note: Send email in this format if you need to update your ssh key.</b></p>
-
-<p>Requests are handled manually and are acknowledged publicly in
-response to email to the <tt>cygwin-apps</tt> mailing list.</p>
-
-<h2 class="cartouche">Connecting to cygwin.com</h2>
-
-<p>Once the ssh key has been installed you'll have limited
-<a href="http://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol#SFTP_client">sftp</a>
-access to cygwin.com, where you will be able to upload packages.  You may connect for example by
-<tt>sftp cygwin@cygwin.com</tt>, or using lftp as in the example below.  When connecting,
-make sure that you use the user <tt>cygwin</tt> with no password, and that you are using the
-same ssh key as the one that you specified previously.</p>
-
-<p>The first time you connect, you should verify that the host key fingerprint matches one of
-the following hashes:</p>
-
-<ul>
-<li>SHA256 (OpenSSH 6.8 or later): <tt>SHA256:MFNiczzfX8/nvLSRZwR3CxMyycKtMan64Zm4C373FeM</tt></li>
-<li>MD5 (OpenSSH pre-6.8): <tt>1d:1e:46:7f:4d:73:8d:10:20:c3:4c:5a:34:14:44:23</tt></li>
-</ul>
 
 <h2 class="cartouche" id="uploadingfiles">Uploading Files</h2>
 
 <p>
-There are two ways to upload finished packages to cygwin.com.
+There are two ways to upload packages to cygwin.com.
 </p>
 
 <h3>Using cygport</h3>
@@ -169,7 +126,8 @@ be updated and the release area will remain unchanged.</p>
   The <tt>!email</tt> file in the root of your upload directory contains a list
   of email address (one per line) where any <tt>calm</tt> reports on your
   packages should be sent.  This file is initially created containing the
-  email address from which the <a href="#sshkey">ssh key</a> was sent.
+  email address from which the <a href="packaging/key.html#sshkey">SSH key</a>
+  was sent.
 </p>
 
 <p>
@@ -214,7 +172,7 @@ file with the name of the file that you want deleted, prefixed with a
 <h3 id="cantlogin">Q) Why can't I login via sftp?</h3>
 <p>A) There are two likely reasons for login failures:</p>
 <ol>
-<li>You're not using the ssh key provided when you set up your account.</li>
+<li>You're not using the SSH key provided when you set up your account.</li>
 <li>You are not logging in as the <tt>cygwin</tt> user.  You need to login as user <tt>cygwin</tt> with no password.</li>
 </ol>
 

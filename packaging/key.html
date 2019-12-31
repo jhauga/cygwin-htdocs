@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="../style.css" />
+<title>Providing an SSH key</title>
+</head>
+<body>
+
+<!--#include virtual="navbar.html" -->
+<div id="main">
+<!--#include virtual="top.html" -->
+
+<h1>Providing an SSH key</h1>
+
+<p>
+If you are a package maintainer, you will need to provide an SSH key.
+</p>
+
+<h2 class="cartouche" id="sshkey">Requesting upload privileges</h2>
+
+<p>Send your public SSH key to the <a href="http://cygwin.com/lists.html#cygwin-apps">cygwin-apps</a> mailing list using this format:</p>
+
+<pre><tt>
+    Name: Your Name
+    Package: The name of <b>one</b> of the packages that you are responsible for
+    ---- BEGIN SSH2 PUBLIC KEY ----
+    &nbsp;&nbsp;&nbsp;<em>RFC 4716 format public ssh key here</em>
+    ---- END SSH2 PUBLIC KEY ----
+</tt></pre>
+
+<p>The SSH key above should be generated from one of your public keys, e.g.:</p>
+<pre><tt>    ssh-keygen -e -f ~/.ssh/id_rsa.pub</tt></pre>
+
+<p>The format of this email is not optional.  It is read by a program so please
+do not deviate from the above.  In particular, don't indent, don't add multiple
+packages, and <b>do</b> use <a href="http://cygwin.com/cygwin-pkg-maint">your name</a> as
+recorded in <a href="http://cygwin.com/cygwin-pkg-maint">http://cygwin.com/cygwin-pkg-maint</a>.</p>
+
+<p><b>Note: Also send email in this format if you need to update your SSH key.</b></p>
+
+<p>Requests are handled manually and are acknowledged publicly in
+response to email to the <tt>cygwin-apps</tt> mailing list.</p>
+
+<h2 class="cartouche">Connecting to cygwin.com</h2>
+
+<p>
+When connecting, make sure that you use the user <tt>cygwin</tt> with no password,
+and that you are using the same SSH key as the one that you specified previously.
+</p>
+
+<p>
+  Once the SSH key has been installed, you'll have limited access to cygwin.com:
+</p>
+
+<ul>
+  <li><a href="http://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol#SFTP_client">SFTP</a> to upload packages.</li>
+  <li><a href="http://en.wikipedia.org/wiki/Git">git</a> to push to packaging repositories.</li>
+  <li><tt>ssh cygwin@cygwin.com alive</tt> to test connecting.</li>
+</ul>
+
+<p>
+The first time you connect, you should verify that the host key fingerprint
+matches one of the following hashes:
+</p>
+
+<ul>
+<li>SHA256 (OpenSSH 6.8 or later): <tt>SHA256:MFNiczzfX8/nvLSRZwR3CxMyycKtMan64Zm4C373FeM</tt></li>
+<li>MD5 (OpenSSH pre-6.8): <tt>1d:1e:46:7f:4d:73:8d:10:20:c3:4c:5a:34:14:44:23</tt></li>
+</ul>
+
+</div>
+
+</body>
+</html>

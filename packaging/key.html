@@ -38,7 +38,7 @@ If you are a package maintainer, you will need to provide an SSH key.
 
 <ul>
   <li>Don't indent.</li>
-  <li><tt>Name:</tt> must use only ASCII characters.</li>
+  <li><code>Name:</code> must use only ASCII characters.</li>
 </ul>
 
 <p>
@@ -48,12 +48,12 @@ If you are a package maintainer, you will need to provide an SSH key.
 </p>
 
 <p>Requests are handled manually and are acknowledged publicly in
-response to email to the <tt>cygwin-apps</tt> mailing list.</p>
+response to email to the <code>cygwin-apps</code> mailing list.</p>
 
 <h2 class="cartouche">Connecting to cygwin.com</h2>
 
 <p>
-When connecting, make sure that you use the user <tt>cygwin</tt> with no password,
+When connecting, make sure that you use the user <code>cygwin</code> with no password,
 and that you are using the SSH private key corresponding to the SSH public key you
 provided.
 </p>
@@ -66,8 +66,8 @@ provided.
 <ul>
   <li><a href="http://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol#SFTP_client">SFTP</a> to upload packages.</li>
   <li><a href="http://en.wikipedia.org/wiki/Git">git</a> to push to packaging repositories.</li>
-  <li><tt>ssh cygwin@cygwin.com untest</tt> to remove test labels.</li>
-  <li><tt>ssh cygwin@cygwin.com alive</tt> to test connecting.</li>
+  <li><code>ssh cygwin@cygwin.com untest</code> to remove test labels.</li>
+  <li><code>ssh cygwin@cygwin.com alive</code> to test connecting.</li>
 </ul>
 
 <p>
@@ -76,7 +76,7 @@ provided.
 
 <ul>
   <li>
-    Add a section to <tt>~/.ssh/config</tt> selecting that SSH private key when
+    Add a section to <code>~/.ssh/config</code> selecting that SSH private key when
     connecting to cygwin.com, e.g.:
     <pre>
 Host cygwin.com
@@ -85,9 +85,9 @@ Host cygwin.com
     and/or,
   </li>
   <li>
-    Set the value of <tt>SSH_KEY</tt>
-    in <a href="https://cygwin.github.io/cygport/cygport_conf.html"><tt>~/.cygport.conf</tt></a>
-    to the SSH private key file. e.g. <tt>SSH_KEY=~/.ssh/cygwin</tt>.
+    Set the value of <code>SSH_KEY</code>
+    in <a href="https://cygwin.github.io/cygport/cygport_conf.html"><code>~/.cygport.conf</code></a>
+    to the SSH private key file. e.g. <code>SSH_KEY=~/.ssh/cygwin</code>.
   </li>
 </ul>
 
@@ -99,13 +99,13 @@ matches one of the following hashes:
 <ul>
 <li>RSA</li>
 <ul>
-<li>SHA256 (OpenSSH 6.8 or later): <tt>SHA256:MFNiczzfX8/nvLSRZwR3CxMyycKtMan64Zm4C373FeM</tt></li>
-<li>MD5 (OpenSSH pre-6.8): <tt>1d:1e:46:7f:4d:73:8d:10:20:c3:4c:5a:34:14:44:23</tt></li>
+<li>SHA256 (OpenSSH 6.8 or later): <code>SHA256:MFNiczzfX8/nvLSRZwR3CxMyycKtMan64Zm4C373FeM</code></li>
+<li>MD5 (OpenSSH pre-6.8): <code>1d:1e:46:7f:4d:73:8d:10:20:c3:4c:5a:34:14:44:23</code></li>
 </ul>
   <li>ECDSA</li>
   <ul>
-    <li>SHA256 (OpenSSH 6.8 or later): <tt>SHA256:4bqfulMjMg7/L/38MJBw7mVMMu6EH+3MgMitrCRdFho</tt></li>
-    <li>MD5 (OpenSSH pre-6.8): <tt>MD5:b4:58:a4:51:c0:21:e8:10:61:da:3a:49:0b:c5:d6:63</tt></li>
+    <li>SHA256 (OpenSSH 6.8 or later): <code>SHA256:4bqfulMjMg7/L/38MJBw7mVMMu6EH+3MgMitrCRdFho</code></li>
+    <li>MD5 (OpenSSH pre-6.8): <code>MD5:b4:58:a4:51:c0:21:e8:10:61:da:3a:49:0b:c5:d6:63</code></li>
   </ul>
 </ul>
 

@@ -23,33 +23,33 @@ provided an <a href="packaging/key.html#sshkey">SSH key</a>.
 <p>If you have a <a href="https://cygwin.com/cygport/README">cygport</a> build
 script for your packages, you can upload your finished packages
 using <a href="https://cygwin.github.io/cygport/pkg_upload_cygpart.html">
-<tt>cygport up</tt></a>, e.g.:</p>
+<code>cygport up</code></a>, e.g.:</p>
 
 <pre>    cygport pkg.cygport up</pre>
 
-<p><tt>calm</tt> will scan the upload directories for packages that are ready,
+<p><code>calm</code> will scan the upload directories for packages that are ready,
 verify them, and, if there are no errors, move the packages into the real
 release area.  New directories in the release area will be created as needed.
-If there are errors then <tt>setup.ini</tt> will not be updated and the release
+If there are errors then <code>setup.ini</code> will not be updated and the release
 area will remain unchanged.</p>
 
 <h2 class="cartouche" id="reports">Getting reports</h2>
 
 <p>
-  The <tt>!email</tt> file in the root of your upload directory contains a list
-  of email address (one per line) where any <tt>calm</tt> reports on your
+  The <code>!email</code> file in the root of your upload directory contains a list
+  of email address (one per line) where any <code>calm</code> reports on your
   packages should be sent.  This file is initially created containing the
   email address from which the <a href="packaging/key.html#sshkey">SSH key</a>
   was sent.
 </p>
 
 <p>
-  If this file is empty or missing, you won't get email when <tt>calm</tt> finds
+  If this file is empty or missing, you won't get email when <code>calm</code> finds
   issues with what was uploaded.
 </p>
 
 <p>
-  For historical reasons, this file can also be named <tt>!mail</tt>.
+  For historical reasons, this file can also be named <code>!mail</code>.
 </p>
 
 <h2 class="cartouche" id="untest">Removing the test label from a package</h2>
@@ -61,17 +61,17 @@ Package maintainers can promote their own packages from test to current using:
 Historical alternatives were:
 
 <ul>
-  <li>Ask on the <tt>#cygwin-developers</tt> IRC channel, or the
-  <tt>cygwin-apps</tt> mailing list, for the package to be <tt>untest</tt>-ed.
+  <li>Ask on the <code>#cygwin-developers</code> IRC channel, or the
+  <code>cygwin-apps</code> mailing list, for the package to be <code>untest</code>-ed.
   </li>
 
   <li>If you still have the cygport build directory from when you built the test
-  packages, you can amend all the <tt>.hint</tt> files under
-  <tt><i>PVR</i>.<i>arch</i>/dist/</tt> to remove the <tt>test:</tt> line, and
-  <tt>cygport upload</tt> again.
+  packages, you can amend all the <code>.hint</code> files under
+  <code><i>PVR</i>.<i>arch</i>/dist/</code> to remove the <code>test:</code> line, and
+  <code>cygport upload</code> again.
 
   <li>The package can be rebuilt with a bumped release number, and without using
-  <tt>cygport package-test</tt> (although this should be a last resort, because
+  <code>cygport package-test</code> (although this should be a last resort, because
   unless the build is reproducible, this invalidates some of the testing your
   package has received).</li>
 </ul>
@@ -88,14 +88,14 @@ override.hint</a>) will be removed automatically.
 <p>
 However, if you do need to remove a file from the distribution, upload an empty
 file with the name of the file that you want deleted, prefixed with a
-"<tt>-</tt>", in the same directory as the file that you want deleted.
+"<code>-</code>", in the same directory as the file that you want deleted.
 </p>
 
-<p>For example, if you want to delete the file <tt>foo-1.2-1.tar.xz</tt> then upload an empty file named <tt>-foo-1.2-1.tar.xz</tt></p>
+<p>For example, if you want to delete the file <code>foo-1.2-1.tar.xz</code> then upload an empty file named <code>-foo-1.2-1.tar.xz</code></p>
 
 <p>
   Note that this will <b>not</b> cause setup to automatically downgrade to the
-  previous version of <tt>foo</tt>, if <tt>foo-1.2-1</tt> was installed before
+  previous version of <code>foo</code>, if <code>foo-1.2-1</code> was installed before
   it was removed.  If a superseding version does not (yet) exist, downgrading
   can be configured by using
   a <a href="packaging-hint-files.html#override.hint">replace-versions: line in
@@ -160,7 +160,7 @@ directory on cygwin.com will look like this:</p>
     lftp cygwin.com:/x86/release> put /dev/null -o !ready
 </pre>
 
-<h4>Example <tt>lftp</tt> upload command line</h4>
+<h4>Example <code>lftp</code> upload command line</h4>
 
 <pre>
     # command line to upload the time packages
@@ -170,17 +170,17 @@ directory on cygwin.com will look like this:</p>
 
 <p>The package directories should exactly mirror what is currently in
 the release directory.  So, it should be a hierarchy containing
-<tt>.tar.xz</tt> files and <tt>.hint</tt> files.</p>
+<code>.tar.xz</code> files and <code>.hint</code> files.</p>
 
-<p>The <tt>!ready</tt> file is used to tell
-<tt>calm</tt> (the script which creates setup.ini) that any files older
+<p>The <code>!ready</code> file is used to tell
+<code>calm</code> (the script which creates setup.ini) that any files older
 than this file in or under the given directory should be processed.  The
-intent is that you create <tt>!ready</tt> when you have finished
+intent is that you create <code>!ready</code> when you have finished
 uploading everything that you plan on uploading.</p>
 
-<p><b>Note: <tt>!ready</tt> files should not be created in the root of your
+<p><b>Note: <code>!ready</code> files should not be created in the root of your
 upload directory</b>, i.e. they should be in the architecture
-directories <tt>x86</tt>, <tt>x86_64</tt> and <tt>noarch</tt> or in the package
+directories <code>x86</code>, <code>x86_64</code> and <code>noarch</code> or in the package
 directories themselves.</p>
 
 <h2 class="cartouche" id="FAQ">Frequently Asked Questions</h2>
@@ -189,12 +189,12 @@ directories themselves.</p>
 <p>A) There are two likely reasons for login failures:</p>
 <ol>
 <li>You're not using the SSH key provided when you set up your account.</li>
-<li>You are not logging in as the <tt>cygwin</tt> user.  You need to login as user <tt>cygwin</tt> with no password.</li>
+<li>You are not logging in as the <code>cygwin</code> user.  You need to login as user <code>cygwin</code> with no password.</li>
 </ol>
 
 <h3 id="confused">Q) I don't understand the errors in an emailed calm upload report!</h3>
 
-<p>A) Ask on the <tt>cygwin-apps</tt> mailing list, or the #cygwin-developers IRC channel.</p>
+<p>A) Ask on the <code>cygwin-apps</code> mailing list, or the #cygwin-developers IRC channel.</p>
 
 </div>
 

@@ -68,9 +68,9 @@ into it's components:
 
 <p>A complete package currently consists of three files:</p>
 <ul class="compact">
-  <li>a binary tar file, named <tt>package-version-release.tar.xz</tt></li>
-  <li>a source tar file, named <tt>package-version-release-src.tar.xz</tt></li>
-  <li>a .hint file, named  <tt>package-version-release.hint</tt></li>
+  <li>a binary tar file, named <code>package-version-release.tar.xz</code></li>
+  <li>a source tar file, named <code>package-version-release-src.tar.xz</code></li>
+  <li>a .hint file, named  <code>package-version-release.hint</code></li>
 </ul>
 
 <p>
@@ -232,8 +232,8 @@ etc...
   having names that start with "0p_" or "zp_".  Those that start with "0p_" are
   run before the run-once scripts, and those that start with "zp_" are run after
   the run-once scripts.  Examples include
-  <tt>0p_000_autorebase.dash</tt> (provided by the <tt>_autorebase</tt> package)
-  and <tt>0p_update-info-dir.dash</tt> (provided by the <tt>info</tt> package).
+  <code>0p_000_autorebase.dash</code> (provided by the <code>_autorebase</code> package)
+  and <code>0p_update-info-dir.dash</code> (provided by the <code>info</code> package).
 </p>
 <p>
   For those package maintainers wanting to employ perpetual scripts, the first
@@ -261,9 +261,9 @@ etc...
   <li>
     <b>CYGWINFORALL</b> contains "-A" if installing for "All Users" (This also
     implies setup is running with elevated permissions), and is unset otherwise.
-    This is intended to be used as an option to <tt>cygpath</tt>
-    or <tt>mkshortcut</tt>, or in shell conditionals such as <tt>test -z</tt>
-    or <tt>test -n</tt>.
+    This is intended to be used as an option to <code>cygpath</code>
+    or <code>mkshortcut</code>, or in shell conditionals such as <code>test -z</code>
+    or <code>test -n</code>.
   </li>
 </ul>
 

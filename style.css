@@ -284,6 +284,13 @@ ul.compact li
     text-align: right;
 }
 
+.prewrap
+{
+    white-space: pre-wrap;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
 /* pkglist related --------------------------------------------------- */
 
 /*

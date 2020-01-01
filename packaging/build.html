@@ -18,10 +18,10 @@
   automatic build of the package is queued:
 </p>
 
-<tt>
-  remote: scallywag: build <i>nnnn</i> queued<br>
+<pre>
+  remote: scallywag: build <i>nnnn</i> queued
   remote: scallywag: https://cygwin.com/cgi-bin2/jobs.cgi?id=<i>nnnn</i>
-</tt>
+</pre>
 
 <p>
   The results will appear (some time later) at
@@ -36,8 +36,8 @@
 </p>
 
 <ul>
-  <li>missing or insufficient <tt>BUILD_REQUIRES</tt></li>
-  <li>missing prerequisites implied by an <tt>inherit</tt></li>
+  <li>missing or insufficient <code>BUILD_REQUIRES</code></li>
+  <li>missing prerequisites implied by an <code>inherit</code></li>
   <li>other bugs in this service</li>
   <li>resource limits imposed by the free service used to perform the actual
   builds</li>
@@ -48,7 +48,7 @@
   your local build: You'll also need to check the configuration step output
   and/or dependencies of the produced packages are the same. Consider explicitly
   enabling the functionality you are expecting in the options to the configure
-  script, if it supports that (e.g. <tt>CYGCONF_ARGS</tt>, etc.), to avoid it
+  script, if it supports that (e.g. <code>CYGCONF_ARGS</code>, etc.), to avoid it
   potentially silently turning off in future, if it's requirements change.)
 </p>
 
@@ -60,58 +60,58 @@ below:
 <ul>
   <li>for an individual push</li>
 
-  <p>with <tt>git push --push-option="<i>token [token...]"</i></tt></li></p>
+  <p>with <code>git push --push-option="<i>token [token...]"</i></code></li></p>
 
   <li>for a package</li>
 
-  <p>by setting the value of the <tt>SCALLYWAG</tt> variable in
-  the <tt>.cygport</tt> file</p>
+  <p>by setting the value of the <code>SCALLYWAG</code> variable in
+  the <code>.cygport</code> file</p>
 
   <li>per-maintainer</li>
   <p>
-    The default value may be specified in a <tt>!scallywag</tt> file in the root
+    The default value may be specified in a <code>!scallywag</code> file in the root
     of a maintainer's upload directory tree.
   </p>
 
   <p>
-    Additionally, if that file contains <tt>disable</tt>, this service is
+    Additionally, if that file contains <code>disable</code>, this service is
     completely disabled for all that maintainer's pushes.
   </p>
 </ul>
 
 <p>
-  The default behaviour is <tt>build test nodeploy</tt>.
+  The default behaviour is <code>build test nodeploy</code>.
 </p>
 
 <h2 class="cartouche">Build service tokens</h2>
 
 <ul>
   <li>
-    <tt>build</tt><br/>
+    <code>build</code><br/>
     Enables building packages.
   </li>
   <li>
-    <tt>nobuild</tt><br/>
+    <code>nobuild</code><br/>
     Disables building packages.
   </li>
   <li>
-    <tt>test</tt><br/>
-    Enables running <tt>cygport test</tt>.
+    <code>test</code><br/>
+    Enables running <code>cygport test</code>.
   </li>
   <li>
-    <tt>notest</tt><br/>
-    Disables running <tt>cygport test</tt>.
+    <code>notest</code><br/>
+    Disables running <code>cygport test</code>.
   </li>
   <li>
-    <tt>deploy</tt><br/>
+    <code>deploy</code><br/>
     For the master branch, after a successful build, the built packages are
     handed-off to the package uploader.
     <br/>
-    Note that currently, these packages are built using <tt>cygport
-    all-test</tt>, and so will always be marked as test.
+    Note that currently, these packages are built using <code>cygport
+    all-test</code>, and so will always be marked as test.
   </li>
   <li>
-    <tt>nodeploy</tt><br/>
+    <code>nodeploy</code><br/>
     Take no action after a successful build.
   </li>
 </ul>

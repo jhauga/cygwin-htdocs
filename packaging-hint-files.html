@@ -15,15 +15,16 @@
 <h2 class="cartouche">Contents</h2>
 
 <ul class="compact">
-  <li><a href="#pvr.hint"><tt>package-version-release.hint</tt> file</a></li>
-  <li><a href="#advanced_pvr.hint"><tt>external-source:</tt></a></li>
-  <li><a href="#pvr-src.hint"><tt>package-version-release-src.hint</tt></a></li>
-  <li><a href="#override.hint"><tt>override.hint</tt> file</a></li>
+  <li><a href="#pvr.hint"><code>package-version-release.hint</code> file</a></li>
+  <li><a href="#advanced_pvr.hint"><code>external-source:</code></a></li>
+  <li><a href="#pvr-src.hint"><code>package-version-release-src.hint</code></a></li>
+  <li><a href="#override.hint"><code>override.hint</code> file</a></li>
+  <li><a href="#setup.hint"><code>setup.hint</code> file</a></li>
 </ul>
 
-<h2 class="cartouche" id="pvr.hint"><tt>package-version-release.hint</tt> file</h2>
+<h2 class="cartouche" id="pvr.hint"><code>package-version-release.hint</code> file</h2>
 
-<p>Lines in <tt>package-version-release.hint</tt> consist of one of the
+<p>Lines in <code>package-version-release.hint</code> consist of one of the
 following:</p>
 
 <pre>
@@ -59,7 +60,7 @@ disable-check: <i>check-name [check-name...]</i>
 
   <li>
     <p>
-      <tt>sdesc</tt> is a one line description of the package, enclosed in
+      <code>sdesc</code> is a one line description of the package, enclosed in
       double-quotes.  This is the information that will be displayed when
       installing packages via setup.
     </p>
@@ -82,13 +83,13 @@ sdesc:      "A whackamole simulation in ASCII art"
 </pre>
 
     <p>
-      <tt>sdesc</tt> is a mandatory line.
+      <code>sdesc</code> is a mandatory line.
     </p>
   </li>
 
   <li>
     <p>
-      <tt>ldesc</tt> is a more descriptive, multi-line description of the
+      <code>ldesc</code> is a more descriptive, multi-line description of the
       package, enclosed in double-quotes.  e.g.:
     </p>
 
@@ -103,14 +104,14 @@ No actual moles will be harmed during execution of this game."
     <p>
       Note that there is currently no method for escaping double-quotes, so
        there is no way to represent a double-quote embedded in
-       the <tt>ldesc</tt>.
+       the <code>ldesc</code>.
     </p>
 
   </li>
 
   <li>
     <p>
-      The <tt>category</tt> line indicates the categories that this package
+      The <code>category</code> line indicates the categories that this package
       belongs to. One package can belong to multiple categories. Multiple
       categories are separated by spaces.
     </p>
@@ -176,13 +177,13 @@ No actual moles will be harmed during execution of this game."
     </p>
 
     <p>
-      <tt>category</tt> is a mandatory line.
+      <code>category</code> is a mandatory line.
     </p>
   </li>
 
   <li>
     <p>
-      The <tt>requires</tt> line indicates the packages that this package relies
+      The <code>requires</code> line indicates the packages that this package relies
       on. If your package is dependent on a file provided by another package
       that other package should be included here. The requires field may be
       missing or empty if your package truly does not require any other package.
@@ -191,9 +192,9 @@ No actual moles will be harmed during execution of this game."
 
     <p>
       Do not include transitive dependencies, unless they are also direct
-      dependencies. i.e. don't drop '<tt>bar</tt>' from your dependency list if
-      your package requires it, even if you are including '<tt>foo</tt>' which
-      also relies on '<tt>bar</tt>'.
+      dependencies. i.e. don't drop '<code>bar</code>' from your dependency list if
+      your package requires it, even if you are including '<code>foo</code>' which
+      also relies on '<code>bar</code>'.
     </p>
 
     <p>
@@ -209,8 +210,8 @@ No actual moles will be harmed during execution of this game."
 
   <li>
     <p>
-      <tt>depends</tt> indicates the packages that this package relies upon, in
-      a more sophisticated way than <tt>requires:</tt>.
+      <code>depends</code> indicates the packages that this package relies upon, in
+      a more sophisticated way than <code>requires:</code>.
       See <a href="https://sourceware.org/cygwin-apps/setup.ini.html#relationship">relationship
       fields</a> for details of the syntax.
     </p>
@@ -218,14 +219,14 @@ No actual moles will be harmed during execution of this game."
 
   <li>
     <p>
-      <tt>provides</tt> indicates additional package <tt>requires:</tt>
-      and <tt>depends:</tt> that this package satisfies.
+      <code>provides</code> indicates additional package <code>requires:</code>
+      and <code>depends:</code> that this package satisfies.
     </p>
   </li>
 
   <li>
     <p>
-      <tt>conflicts</tt> indicates the packages that this package conflicts with.
+      <code>conflicts</code> indicates the packages that this package conflicts with.
       See <a href="https://sourceware.org/cygwin-apps/setup.ini.html#relationship">relationship
       fields</a> for details of the syntax.
     </p>
@@ -233,7 +234,7 @@ No actual moles will be harmed during execution of this game."
 
   <li>
     <p>
-      <tt>obsoletes</tt> indicates the packages that this package supersedes.
+      <code>obsoletes</code> indicates the packages that this package supersedes.
       See <a href="https://sourceware.org/cygwin-apps/setup.ini.html#relationship">relationship
       fields</a> for details of the syntax.
     </p>
@@ -241,13 +242,13 @@ No actual moles will be harmed during execution of this game."
 
   <li>
     <p>
-      <tt>external-source</tt>. See the section
-      on <a href="#advanced_pvr.hint"><tt>external-source</tt></a>.
+      <code>external-source</code>. See the section
+      on <a href="#advanced_pvr.hint"><code>external-source</code></a>.
   </li>
 
   <li>
     <p>
-      The <tt>message</tt> line indicates text that will be displayed by the
+      The <code>message</code> line indicates text that will be displayed by the
       setup program when the package is installed.
     </p>
     <p>
@@ -264,27 +265,27 @@ No actual moles will be harmed during execution of this game."
 
   <li>
     <p>
-      <tt>test</tt> indicates this is a test package.  When the use of test
+      <code>test</code> indicates this is a test package.  When the use of test
       packages is enabled in setup, the highest version marked as a test package
       will be installed.
     </p>
     <p>
-      It is not required that your package have a <tt>test</tt> version. Use of
-      a <tt>test</tt> version of a package is at the discretion of the package
+      It is not required that your package have a <code>test</code> version. Use of
+      a <code>test</code> version of a package is at the discretion of the package
       maintainer.
     </p>
   </li>
 
   <li>
     <p>
-      <tt>version</tt> overrides the version-release, which is otherwise
+      <code>version</code> overrides the version-release, which is otherwise
       inferred from the version-release part of the filename.
     </p>
   </li>
 
   <li>
     <p>
-      <tt>disable-check</tt> disables the named checks for this package.
+      <code>disable-check</code> disables the named checks for this package.
     </p>
   </li>
 </ul>
@@ -300,48 +301,50 @@ bar whacks the mole.
 No actual moles will be harmed during execution of this game."
 </pre>
 
-<h2 class="cartouche" id="advanced_pvr.hint"><tt>external-source:</tt></h2>
+<h2 class="cartouche" id="advanced_pvr.hint"><code>external-source:</code></h2>
 
-<p>The <tt>external-source</tt> line is used when multiple installation packages are generated from a single source package. For example, suppose the <tt>boffo</tt> package contains the executables and documentation for boffo, but there is also a shared library <tt>cygboffo-7.dll</tt> that might be used by other packages; say, the <tt>fobbo</tt> program. It would be nice to separate that <tt>cygboffo-7.dll</tt> shared library into a second installation package, so that users of the <tt>fobbo</tt> program can install <em>just</em> the library, and not the entire <tt>boffo</tt> package. However, all of the <tt>boffo</tt> executables and the DLL are generated from the same source. To support this usage, the <tt>boffo</tt> maintainer would create three package files:</p>
+<p>The <code>external-source</code> line is used when multiple installation packages are generated from a single source package. For example, suppose the <code>boffo</code> package contains the executables and documentation for boffo, but there is also a shared library <code>cygboffo-7.dll</code> that might be used by other packages; say, the <code>fobbo</code> program. It would be nice to separate that <code>cygboffo-7.dll</code> shared library into a second installation package, so that users of the <code>fobbo</code> program can install <em>just</em> the library, and not the entire <code>boffo</code> package. However, all of the <code>boffo</code> executables and the DLL are generated from the same source. To support this usage, the <code>boffo</code> maintainer would create three package files:</p>
 <ul class="compact">
-  <li><tt>boffo-2.4.1-2.tar.xz</tt>: an installable package that contains all of the normal contents of <tt>boffo</tt> -- except for the shared library.</li>
-  <li><tt>libboffo7-2.4.1-2.tar.xz</tt>: an installable package that contains only the shared library from <tt>boffo</tt></li>
-  <li><tt>boffo-2.4.1-2-src.tar.xz</tt>: the source package for boffo.</li>
+  <li><code>boffo-2.4.1-2.tar.xz</code>: an installable package that contains all of the normal contents of <code>boffo</code> -- except for the shared library.</li>
+  <li><code>libboffo7-2.4.1-2.tar.xz</code>: an installable package that contains only the shared library from <code>boffo</code></li>
+  <li><code>boffo-2.4.1-2-src.tar.xz</code>: the source package for boffo.</li>
 </ul>
 <p>
-  <tt>boffo-2.4.1-2.tar.xz</tt>, <tt>boffo-2.4.1-2-src.tar.xz</tt>, and <tt>boffo-2.4.1-2.hint</tt> would go into the <tt>release/boffo/</tt> subdirectory.
-  <tt>libboffo7-2.4.1-2.tar.xz</tt>, and <tt>libboffo7-2.4.1-2.hint</tt> would go into a separate subdirectory, such as <tt>release/boffo/libboffo7/</tt>.
-  The two <tt>.hint</tt> files would look something like this:</p>
+  <code>boffo-2.4.1-2.tar.xz</code>, <code>boffo-2.4.1-2-src.tar.xz</code>, and <code>boffo-2.4.1-2.hint</code> would go into the <code>release/boffo/</code> subdirectory.
+  <code>libboffo7-2.4.1-2.tar.xz</code>, and <code>libboffo7-2.4.1-2.hint</code> would go into a separate subdirectory, such as <code>release/boffo/libboffo7/</code>.
+  The two <code>.hint</code> files would look something like this:</p>
 <div>
   <table border="2">
     <tr>
       <td>
 	<div class="center">
-	  <tt>boffo-2.4.1-2.hint</tt>
+	  <code>boffo-2.4.1-2.hint</code>
 	</div>
       </td>
       <td>
 	<div class="center">
-	  <tt>libboffo7-2.4.1-2.hint</tt>
+	  <code>libboffo7-2.4.1-2.hint</code>
 	</div>
       </td>
     </tr>
     <tr>
-      <td><tt>category: Games Text<br />
-       requires: libboffo7 libncurses6 cygwin<br />
-       sdesc: "A whackamole simulation in ASCII art"<br />
-       ldesc: "A whackamole simulation in ASCII art. Intended for use on VT100 terminals at BAUD rates 1200 and above. Uses arrow keys for positioning over moles. Space bar whacks the mole.<br />
-       <br />
-       No actual moles will be harmed during execution of this game."</tt>
-       </td>
-      <td><tt>category: Games Text<br />
-       requires: cygwin<br />
-       <b>external-source: boffo</b><br />
-       sdesc: "Runtime library for a whackamole simulation in ASCII art"<br />
-       ldesc: "A whackamole simulation in ASCII art. Intended for use on VT100 terminals at BAUD rates 1200 and above. Uses arrow keys for positioning over moles. Space bar whacks the mole.<br />
-       <br />
-       No actual moles will be harmed during execution of this game."</tt>
-       </td>
+      <td>
+<pre class="prewrap">category: Games Text
+requires: libboffo7 libncurses6 cygwin
+sdesc: "A whackamole simulation in ASCII art"
+ldesc: "A whackamole simulation in ASCII art. Intended for use on VT100 terminals at BAUD rates 1200 and above. Uses arrow keys for positioning over moles. Space bar whacks the mole.
+
+No actual moles will be harmed during execution of this game."</pre>
+      </td>
+      <td>
+<pre class="prewrap">category: Games Text
+requires: cygwin
+<b>external-source: boffo</b>
+sdesc: "Runtime library for a whackamole simulation in ASCII art"
+ldesc: "A whackamole simulation in ASCII art. Intended for use on VT100 terminals at BAUD rates 1200 and above. Uses arrow keys for positioning over moles. Space bar whacks the mole.
+
+No actual moles will be harmed during execution of this game."</pre>
+      </td>
     </tr>
   </table>
 </div>
@@ -366,7 +369,7 @@ source: release/boffo/boffo-2.4.1-2-src.tar.xz
   sources.
 </p>
 
-<h2 class="cartouche" id="pvr-src.hint"><tt>package-version-release-src.hint</tt> file</h2>
+<h2 class="cartouche" id="pvr-src.hint"><code>package-version-release-src.hint</code> file</h2>
 
 <pre>
 # <i>comment</i>
@@ -388,34 +391,34 @@ disable-check: <i>check-name [check-name...]</i>
 <ul class="spaced">
   <li>
     <p>
-      <tt>homepage</tt> records the URL of the upstream homepage.
+      <code>homepage</code> records the URL of the upstream homepage.
     </p>
   </li>
 
   <li>
     <p>
-      <tt>build-depends</tt> is a space-separated list of packages that are
+      <code>build-depends</code> is a space-separated list of packages that are
       needed to build this source package.
     </p>
   </li>
 
   <li>
     <p>
-      <tt>skip</tt> is obsolete.
+      <code>skip</code> is obsolete.
     </p>
 
     <p>
       It was only useful for indicating directories which contain source-only
       packages, which are now automatically recognized, irrespective
-      of <tt>skip</tt>.
+      of <code>skip</code>.
     </p>
   </li>
 </ul>
 
-<h2 class="cartouche" id="override.hint"><tt>override.hint</tt> file</h2>
+<h2 class="cartouche" id="override.hint"><code>override.hint</code> file</h2>
 
 <p>
-  An <tt>override.hint</tt> file may exist, for information not associated
+  An <code>override.hint</code> file may exist, for information not associated
   with a specific <i>version-release</i>.
 </p>
 
@@ -435,36 +438,36 @@ replace-versions: <i>version [version...]</i>
 
   <li>
     <p>
-      <tt>keep</tt>, <tt>keep-count</tt> and <tt>keep-days</tt> can be used to
+      <code>keep</code>, <code>keep-count</code> and <code>keep-days</code> can be used to
       override the default package expiry settings, which control when old
       package versions are automatically removed.
     </p>
 
     <p>
-      All package versions listed in any <tt>keep</tt> line are always kept.
+      All package versions listed in any <code>keep</code> line are always kept.
     </p>
 
     <p>
-      A <tt>keep-count</tt> line causes the highest <i>count</i> non-test
+      A <code>keep-count</code> line causes the highest <i>count</i> non-test
       versions to be kept.
     </p>
 
     <p>
-      A <tt>keep-days</tt> line causes the first version which is less
+      A <code>keep-days</code> line causes the first version which is less
       than <i>days</i> days old, and all higher versions to be kept.
     </p>
   </li>
 
   <li>
     <p>
-      <tt>disable-check</tt> disables the named checks for all versions of this
+      <code>disable-check</code> disables the named checks for all versions of this
       package.
     </p>
   </li>
 
   <li>
     <p>
-      <tt>replace-versions</tt> lists versions which should always be replaced.
+      <code>replace-versions</code> lists versions which should always be replaced.
     </p>
 
     <p>

@@ -1,7 +1,10 @@
-# Blank lines and comment lines in this file are ignored.
-# The first non-blank, non-comment line must be a list of field names.
-# Otherwise the order of entries in this file doesn't matter.
-# make_awards_list.pl will sort the awards for output.
+# Blank lines and comment lines in this file are ignored.  The first non-blank,
+# non-comment line must be a list of field names.  Otherwise the order of
+# entries in this file doesn't matter.  make_awards_list.pl will sort the awards
+# for output.
+#
+# Note: The URL field may contain just a bare date (i.e. the date of a git
+# commit) as YYYY-MM-DD, if there's no web URL that refers to the award.
 
 Awardee,URL,Description,Gold star,Plush hippo,Gold watch,Platinum watch,Silver star,Elfyns star,Stinkbomb
 
@@ -116,6 +119,7 @@ DK1,https://cygwin.com/ml/cygwin/2004-10/msg00622.html,"For going above and beyo
 
 DL,https://cygwin.com/ml/cygwin-apps/2013-08/msg00101.html,For adopting the <tt>par</tt> package.
 
+DR,https://cygwin.com/ml/cygwin-apps/2020-01/msg00004.html,For maintaining subversion for the last 12 (!) years.
 DR,https://cygwin.com/ml/cygwin-apps/2015-07/msg00253.html,For helping with the Great Perl Update of 2015.
 DR,https://cygwin.com/ml/cygwin-apps/2015-03/msg00001.html,For helping to clean obsolete packages from the distro.
 DR,https://cygwin.com/ml/cygwin-apps/2013-08/msg00220.html,For adopting the <tt>whois</tt> package.
@@ -215,6 +219,7 @@ JRP,https://cygwin.com/ml/cygwin-apps/2006-02/msg00119.html,For adopting the <tt
 JT,https://cygwin.com/ml/cygwin-apps/2015-01/msg00086.html,For 14 years of contributions to Cygwin.,,,1
 JT,https://cygwin.com/ml/cygwin-apps/2004-10/msg00050.html,"For years of supporting <tt>postgres</tt>, and for just being a long time contributor to Cygwin.",2
 
+JTy,2019-12-29,For adopting the <tt>xclip</tt> package.
 JTy,https://cygwin.com/ml/cygwin-apps/2019-08/msg00012.html,For creating a central archive of package build repositories.
 JTy,https://cygwin.com/ml/cygwin-apps/2019-06/msg00005.html,For automating away the manual work in identifying noarch packages .,2
 JTy,https://cygwin.com/ml/cygwin-apps/2018-10/msg00031.html,For dragging <tt>setup</tt> into the 1990s.,,1
@@ -271,6 +276,7 @@ LL,https://cygwin.com/ml/cygwin-apps/2007-12/msg00163.html,For adopting the <tt>
 LL,https://cygwin.com/ml/cygwin-apps/2007-08/msg00003.html,For adopting the <tt>pinfo</tt> package.
 LL,https://cygwin.com/ml/cygwin-apps/2006-01/msg00216.html,For reworking the setup.html page.
 
+MA,2019-12-26,For adopting the <tt>aspell</tt> package.
 MA,https://cygwin.com/ml/cygwin-apps/2016-05/msg00088.html,For adopting the <tt>flex</tt> package.
 MA,https://cygwin.com/ml/cygwin-apps/2016-04/msg00007.html,For adopting the <tt>xgraph</tt> package.
 MA,https://cygwin.com/ml/cygwin-apps/2016-03/msg00070.html,For adopting the <tt>wtf</tt> package.

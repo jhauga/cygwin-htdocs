@@ -105,6 +105,14 @@ foreach my $award (@awards) {
 		my %month = ('1' => '03', '2' => '06', '3' => '09', '4' => '12');
 		$award->{date} = "$1-$month{$2}-$3";
 	}
+	elsif ($award->{URL} =~ m{^(\d+-\d+-\d+)$}) {
+		# Special case: There's no web URL that refers to the award, i.e. a maintainer
+		# just adopted a package and made a git commit to take it over, without
+		# announcing it on the Cygwin list. In that case, we can just enter a date
+		# YYYY-MM-DD of the git commit in the URL field.
+		$award->{date} = "$1";
+		$award->{URL} = "";
+	}
 	else {
 		warn "@{[ AWARDS ]} line $line: Can't determine date from award URL";
 	}
@@ -147,7 +155,9 @@ foreach my $initials (sort { $awardees{$b}{latest_date} cmp $awardees{$a}{latest
 		# Show the award description if any, with HTML tags stripped out, as the anchor title:
 		(my $title = $award->{Description} || '') =~ s/<[^>]*>//g;
 		$title =~ s/"/&quot;/g;
-		my $text = "<a href=\"$award->{URL}\" class=\"award\"" 
+		my $text = "<a"
+			. ($award->{URL} ? " href=\"$award->{URL}\"" : "")
+			. " class=\"award\""
 			. ($title ? " title=\"${title}\"" : "" ) 
 			. ">";
 		foreach my $type (reverse @award_type_names) {

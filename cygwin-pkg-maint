@@ -2853,7 +2853,7 @@ perl-Net-XMPP                                Achim Gratz
 perl-Number-Compare                          Achim Gratz/Ken Brown
 perl-Number-Misc                             Achim Gratz
 perl-Object-Realize-Later                    Achim Gratz
-perl-OpenGL                                  Yaakov Selkowitz
+perl-OpenGL                                  Achim Gratz/Yaakov Selkowitz
 perl-Package-DeprecationManager              Achim Gratz/Ken Brown
 perl-Package-Stash                           Achim Gratz
 perl-Package-Stash-XS                        Achim Gratz
@@ -2949,12 +2949,12 @@ perl-Text-Template                           Achim Gratz
 perl-Text-WrapI18N                           Achim Gratz/Yaakov Selkowitz
 perl-Tie-Cycle                               Achim Gratz/Ken Brown
 perl-TimeDate                                Achim Gratz/Yaakov Selkowitz
-perl-Tk                                      Yaakov Selkowitz
-perl-Tk-Canvas-GradientColor                 Yaakov Selkowitz
-perl-Tk-ColoredButton                        Yaakov Selkowitz
-perl-Tk-EntryCheck                           Yaakov Selkowitz
-perl-Tk-Getopt                               Yaakov Selkowitz
-perl-Tk-Pod                                  Yaakov Selkowitz
+perl-Tk                                      Achim Gratz/Yaakov Selkowitz
+perl-Tk-Canvas-GradientColor                 Achim Gratz/Yaakov Selkowitz
+perl-Tk-ColoredButton                        Achim Gratz/Yaakov Selkowitz
+perl-Tk-EntryCheck                           Achim Gratz/Yaakov Selkowitz
+perl-Tk-Getopt                               Achim Gratz/Yaakov Selkowitz
+perl-Tk-Pod                                  Achim Gratz/Yaakov Selkowitz
 perl-Try-Tiny                                Achim Gratz
 perl-Types-Serialiser                        Achim Gratz
 perl-Unicode-Collate                         Achim Gratz/Ken Brown

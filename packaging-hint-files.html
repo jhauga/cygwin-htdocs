@@ -91,7 +91,7 @@ sdesc:      "A whackamole simulation in ASCII art"
   <li>
     <p>
       <tt>ldesc</tt> is a more descriptive, multi-line description of the
-      package, enclosed in double-quotes.  It is intended for future use. e.g.:
+      package, enclosed in double-quotes.  e.g.:
     </p>
 
 <pre>
@@ -207,22 +207,7 @@ No actual moles will be harmed during execution of this game."
       names within quotation marks.
     </p>
   </li>
-  <li>
-    <p>
-      The <tt>message</tt> line indicates text that will be displayed by the
-      setup program when the package is installed.
-    </p>
-    <p>
-      This should be used <i>extremely</i> sparingly, for example, if a 3rd
-      party driver or service needs to be installed in Windows for the package
-      to function.
-    </p>
-    <p>
-      The id used should be derived from the package name. Currently, the text
-      for a given id will be shown by setup exactly once, when the package is
-      first installed, even if the text subsequently changes.
-    </p>
-  </li>
+
   <li>
     <p>
       <tt>depends</tt> indicates the packages that this package relies upon, in
@@ -247,6 +232,29 @@ No actual moles will be harmed during execution of this game."
       of <tt>cygport(1)</tt>
       <a href="https://cygwinports.github.io/cygport/check_funcs_cygpart.html#Information2fDEPEND">
       dependency atoms.</a>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <tt>external-source</tt>. See the section
+      on <a href="#advanced_pvr.hint"><tt>external-source</tt></a>.
+  </li>
+
+  <li>
+    <p>
+      The <tt>message</tt> line indicates text that will be displayed by the
+      setup program when the package is installed.
+    </p>
+    <p>
+      This should be used <i>extremely</i> sparingly, for example, if a 3rd
+      party driver or service needs to be installed in Windows for the package
+      to function.
+    </p>
+    <p>
+      The id used should be derived from the package name. Currently, the text
+      for a given id will be shown by setup exactly once, when the package is
+      first installed, even if the text subsequently changes.
     </p>
   </li>
 
@@ -303,7 +311,7 @@ bar whacks the mole.
 No actual moles will be harmed during execution of this game."
 </pre>
 
-<h2 class="cartouche" id="advanced_pvr.hint"><tt>package-version-release.hint</tt> file (Advanced Options)</h2>
+<h2 class="cartouche" id="advanced_pvr.hint"><tt>external-source:</tt></h2>
 
 <p>The <tt>external-source</tt> line is used when multiple installation packages are generated from a single source package. For example, suppose the <tt>boffo</tt> package contains the executables and documentation for boffo, but there is also a shared library <tt>cygboffo-7.dll</tt> that might be used by other packages; say, the <tt>fobbo</tt> program. It would be nice to separate that <tt>cygboffo-7.dll</tt> shared library into a second installation package, so that users of the <tt>fobbo</tt> program can install <em>just</em> the library, and not the entire <tt>boffo</tt> package. However, all of the <tt>boffo</tt> executables and the DLL are generated from the same source. To support this usage, the <tt>boffo</tt> maintainer would create three package files:</p>
 <ul class="compact">

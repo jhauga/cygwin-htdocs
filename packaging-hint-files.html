@@ -36,6 +36,8 @@ category: <i>name1[ name2...]</i>
 requires: <i>package[ package...]</i>
 depends: <i>version-relation[, version-relation...]</i>
 obsoletes: <i>version-relation[, version-relation...]</i>
+provides: <i>package[, package...]</i>
+conflicts: <i>version-relation[, version-relation...]</i>
 build-depends: <i>dependency-atom[ dependency-atom...]</i>
 external-source: <i>package</i>
 message: <i>id</i> <i>"some text"</i>
@@ -212,6 +214,21 @@ No actual moles will be harmed during execution of this game."
     <p>
       <tt>depends</tt> indicates the packages that this package relies upon, in
       a more sophisticated way than <tt>requires:</tt>.
+      See <a href="https://sourceware.org/cygwin-apps/setup.ini.html#relationship">relationship
+      fields</a> for details of the syntax.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <tt>provides</tt> indicates additional package <tt>requires:</tt>
+      and <tt>depends:</tt> that this package satisfies.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <tt>conflicts</tt> indicates the packages that this package conflicts with.
       See <a href="https://sourceware.org/cygwin-apps/setup.ini.html#relationship">relationship
       fields</a> for details of the syntax.
     </p>

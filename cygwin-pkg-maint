@@ -2953,6 +2953,7 @@ perl-Tk                                      Achim Gratz/Yaakov Selkowitz
 perl-Tk-Canvas-GradientColor                 Achim Gratz/Yaakov Selkowitz
 perl-Tk-ColoredButton                        Achim Gratz/Yaakov Selkowitz
 perl-Tk-EntryCheck                           Achim Gratz/Yaakov Selkowitz
+perl-Tk-FontDialog                           Achim Gratz/Yaakov Selkowitz
 perl-Tk-Getopt                               Achim Gratz/Yaakov Selkowitz
 perl-Tk-Pod                                  Achim Gratz/Yaakov Selkowitz
 perl-Try-Tiny                                Achim Gratz

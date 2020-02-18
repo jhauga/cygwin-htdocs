@@ -1232,6 +1232,7 @@ libbonoboui2                                 Yaakov Selkowitz
 libbs2b                                      Yaakov Selkowitz
 libcaca                                      Yaakov Selkowitz
 libcanberra                                  Yaakov Selkowitz
+libcbor                                      Corinna Vinschen
 libcddb                                      Yaakov Selkowitz
 libcdio                                      Yaakov Selkowitz
 libcdio-paranoia                             Yaakov Selkowitz

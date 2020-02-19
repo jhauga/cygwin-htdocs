@@ -114,6 +114,15 @@ makes character rendering and locale information inconsistent for those
 characters.  The locale modifier "@cjkwide" supports consistent locale
 response with this option; it forces wcwidth/wcswidth to return 2 for the
 ambiguous width characters.
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+As an alternative preference, CJK single-width may be enforced.
+This feature is a
+<a class="ulink" href="https://gitlab.freedesktop.org/terminal-wg/specifications/issues/9#note_406682" target="_top">proposal</a>
+in the Terminals Working Group Specifications.
+The mintty terminal implements it as an option with proper glyph scaling.
+The locale modifier "@cjksingle" supports consistent locale response
+with this option; it forces wcwidth/wcswidth to account at most 1 for
+all characters.
 </p></li></ul></div></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="setup-locale-how"></a>How to set the locale</h3></div></div></div><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: bullet; "><li class="listitem" style="list-style-type: disc"><p>
 Assume that you've set one of the aforementioned environment variables to some
 valid POSIX locale value, other than "C" and "POSIX".  Assume further that

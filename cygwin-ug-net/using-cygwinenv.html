@@ -4,9 +4,7 @@ variable</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="using-
 variable</h2></div></div></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="cygwinenv-implemented-options"></a>Implemented options</h3></div></div></div><p>The <code class="envar">CYGWIN</code> environment variable is used to configure
 many global settings for the Cygwin runtime system. It contains the options
 listed below, separated by blank characters. Many options can be turned off
-by prefixing with <code class="literal">no</code>.</p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: bullet; "><li class="listitem" style="list-style-type: disc"><p><code class="envar">(no)dosfilewarning</code> - If set, Cygwin will warn the
-first time a user uses an "MS-DOS" style path name rather than a POSIX-style
-path name.  Defaults to off.</p></li><li class="listitem" style="list-style-type: disc"><p><code class="envar">(no)export</code> - If set, the final values of these
+by prefixing with <code class="literal">no</code>.</p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: bullet; "><li class="listitem" style="list-style-type: disc"><p><code class="envar">(no)export</code> - If set, the final values of these
 settings are re-exported to the environment as <code class="envar">CYGWIN</code> again.
 Defaults to off.</p></li><li class="listitem" style="list-style-type: disc"><p>
 <code class="envar">error_start:Win32filepath</code> - if set, runs 
@@ -45,14 +43,17 @@ some reason, it will fall back to creating Cygwin default symlinks
 with <code class="literal">winsymlinks:native</code>, while with
 <code class="literal">winsymlinks:nativestrict</code> the <code class="literal">symlink(2)</code>
 system call will immediately fail.</p><p>For more information on symbolic links, see
-<a class="xref" href="using.html#pathnames-symlinks" title="Symbolic links">the section called “Symbolic links”</a>.</p></li></ul></div></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="cygwinenv-removed-options"></a>Obsolete options</h3></div></div></div><p>
+<a class="xref" href="using.html#pathnames-symlinks" title="Symbolic links">the section called “Symbolic links”</a>.</p></li><li class="listitem" style="list-style-type: disc"><p><code class="envar">disable_pcon</code> - if set, pseudo console support in
+pty will be disabled.  This is for programs which do not work properly
+under pty with pseudo console enabled.  Defaults to not set.</p></li></ul></div></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="cygwinenv-removed-options"></a>Obsolete options</h3></div></div></div><p>
 Certain CYGWIN options available in past releases have been removed over
 time for one reason or another.  These obsolete options are listed
 below.</p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: bullet; "><li class="listitem" style="list-style-type: disc"><p><code class="envar">(no)binmode</code> - This option has been removed because
 all file opens default to binary mode, unless the open mode has been specified
 explicitly in the open(2) call.
 </p></li><li class="listitem" style="list-style-type: disc"><p><code class="envar">(no)detect_bloda</code> - No case of a BLODA found by this
-option has been reported in years.</p></li><li class="listitem" style="list-style-type: disc"><p><code class="envar">check_case</code> - This option has been removed in favor of
+option has been reported in years.</p></li><li class="listitem" style="list-style-type: disc"><p><code class="envar">(no)dosfilewarning</code> - This option had been disabled for
+quite some time and nobody missed it.</p></li><li class="listitem" style="list-style-type: disc"><p><code class="envar">check_case</code> - This option has been removed in favor of
 real case sensitivity and the per-mount option "posix=[0|1]".  For more
 information, read the documentation in <a class="xref" href="using.html#mount-table" title="The Cygwin Mount Table">the section called “The Cygwin Mount Table”</a> and
 <a class="xref" href="using-specialnames.html#pathnames-casesensitive" title="Case sensitive filenames">the section called “Case sensitive filenames”</a>.</p></li><li class="listitem" style="list-style-type: disc"><p><code class="envar">codepage:[ansi|oem]</code> - This option controlled

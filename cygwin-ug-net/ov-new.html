@@ -27,6 +27,24 @@ dbm_fetch, dbm_firstkey, dbm_nextkey, dbm_open, dbm_store.
 Allow times(2) to have a NULL argument, as on Linux.
 </p></li><li class="listitem" style="list-style-type: disc"><p>
 Improve /proc/cpuinfo output and align more closely with Linux.
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+Allow symlinks to be opened with O_PATH | O_NOFOLLOW.
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+Allow the pathname argument to readlinkat(2) to be an empty string,
+provided the dirfd argument refers to a symlink opened with O_PATH |
+O_NOFOLLOW.  The readlinkat call then operates on that symlink.
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+Support the Linux-specific AT_EMPTY_PATH flag for fchownat(2) and
+fstatat(2).
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+Allow AF_LOCAL sockets to be opened with O_PATH.  If that flag is not
+set, or if an attempt is made to open a different type of socket, the
+errno is now EOPNOTSUPP instead of ENXIO.
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+The new locale modifier @cjksingle allows enforcing of single-width
+character property for usually double-widthed characters.  This will
+be supported by upcoming mintty releases.  For the reasoning, see
+https://gitlab.freedesktop.org/terminal-wg/specifications/issues/9.
 </p></li></ul></div></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="ov-new3.0"></a>What's new and what changed in 3.0</h3></div></div></div><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: bullet; "><li class="listitem" style="list-style-type: disc"><p>
 Updated era and message locale data, in particular add era data for
 the new Tennō.

@@ -23,7 +23,6 @@ If you are a package maintainer, you will need to provide an SSH key.
 
 <pre><tt>
     Name: Your Name
-    Package: The name of <b>one</b> of the packages that you are responsible for
     ---- BEGIN SSH2 PUBLIC KEY ----
     &nbsp;&nbsp;&nbsp;<em>RFC 4716 format public ssh key here</em>
     ---- END SSH2 PUBLIC KEY ----
@@ -32,12 +31,21 @@ If you are a package maintainer, you will need to provide an SSH key.
 <p>The SSH key above should be generated from one of your public keys, e.g.:</p>
 <pre><tt>    ssh-keygen -e -f ~/.ssh/id_ecdsa.pub</tt></pre>
 
-<p>The format of this email is not optional.  It is read by a program so please
-do not deviate from the above.  In particular, don't indent, don't add multiple
-packages, and <b>do</b> use <a href="http://cygwin.com/cygwin-pkg-maint">your name</a> as
-recorded in <a href="http://cygwin.com/cygwin-pkg-maint">http://cygwin.com/cygwin-pkg-maint</a>.</p>
+<p>
+  The format of this email is not optional.  It is read by a program so please
+  do not deviate from the above.  In particular, don't indent.
+</p>
+
+<p>
+  <tt>Name:</tt> must use only ASCII characters.
+</p>
 
 <p><b>Note: Also send email in this format if you need to update your SSH key.</b></p>
+
+<p>
+  In that case, use your name as recorded in
+  <a href="http://cygwin.com/cygwin-pkg-maint">http://cygwin.com/cygwin-pkg-maint</a>.
+</p>
 
 <p>Requests are handled manually and are acknowledged publicly in
 response to email to the <tt>cygwin-apps</tt> mailing list.</p>

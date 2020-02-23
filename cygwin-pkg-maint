@@ -259,6 +259,7 @@ cpio                                         Corinna Vinschen/Yaakov Selkowitz
 cppcheck                                     ORPHANED (David Stacey)
 cppi                                         Eric Blake
 cppunit                                      Yaakov Selkowitz
+cpuid                                        Brian Inglis
 cron                                         Pierre A. Humblet
 crypt                                        ORPHANED (Yaakov Selkowitz)
 crypto-policies                              Yaakov Selkowitz

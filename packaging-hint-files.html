@@ -403,8 +403,6 @@ source: release/boffo/boffo-2.4.1-2-src.tar.xz
 <pre>
 # <i>comment</i>
 curr: <i>version</i>
-test: <i>version</i>
-prev: <i>version</i>
 keep: <i>version</i>[ <i>version</i>...]
 keep-count: <i>count</i>
 keep-days: <i>days</i>
@@ -448,29 +446,6 @@ curr: 0.9-1
 
     <p>
       This usage should be rare, however.
-    </p>
-  </li>
-
-  <li>
-    <p>
-      Any <tt>test</tt> line indicates which version of that package should be
-      installed by setup, when use of test packages is selected.
-    </p>
-    <p>
-      So, something like "<tt>test: 1.9-1</tt>" will cause setup to characterize
-      the 1.9-1 version as a "test" package.
-    </p>
-    <p>
-      This should be obsolescent to the use of <tt>test:</tt> lines
-      in <tt>package-version-release.hint</tt>.
-    </p>
-  </li>
-
-  <li>
-    <p>
-      <tt>prev</tt> is obsolete, as setup no longer supports explicitly
-      installing <tt>prev</tt> versions, so it now just indicates that the
-      package should also be retained, and thus is equivalent to <tt>keep</tt>.
     </p>
   </li>
 

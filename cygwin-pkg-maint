@@ -732,6 +732,7 @@ gucharmap                                    Yaakov Selkowitz
 guile                                        Marco Atzeri
 guile1.8                                     Marco Atzeri
 guile2.0                                     Marco Atzeri
+guile2.2                                     Marco Atzeri
 guilt                                        Jari Aalto
 gv                                           ORPHANED (Dr. Volker Zell)
 gvfs                                         Yaakov Selkowitz
@@ -747,7 +748,7 @@ hdparm                                       ORPHANED (Christian Franke)
 heisenbug-backgrounds                        Yaakov Selkowitz
 help2man                                     Yaakov Selkowitz
 hexalate                                     Yaakov Selkowitz
-hexchat                                      Yaakov Selkowitz
+hexchat                                      Yaakov Selkowitz/Marco Atzeri
 hexedit                                      ORPHANED
 hicolor-icon-theme                           Yaakov Selkowitz
 hidapi                                       Wei-Ren Chen
@@ -2747,7 +2748,7 @@ perl-FileHandle-Unget                        Achim Gratz
 perl-Finance-Quote                           Achim Gratz/Yaakov Selkowitz
 perl-Font-AFM                                Achim Gratz
 perl-Font-TTF                                Achim Gratz/Yaakov Selkowitz
-perl-GD                                      Yaakov Selkowitz
+perl-GD                                      Yaakov Selkowitz/Marco Atzeri
 perl-Getopt-ArgvFile                         Achim Gratz/Yaakov Selkowitz
 perl-gettext                                 Achim Gratz/Yaakov Selkowitz
 perl-Glib                                    Yaakov Selkowitz
@@ -3764,7 +3765,7 @@ vcdimager                                    Yaakov Selkowitz
 verne-backgrounds                            Yaakov Selkowitz
 vfu                                          Jari Aalto
 viewres                                      Yaakov Selkowitz
-vim                                          Yaakov Selkowitz
+vim                                          Yaakov Selkowitz/Marco Atzeri
 vinagre                                      Yaakov Selkowitz
 vino                                         Yaakov Selkowitz
 virt-manager                                 Yaakov Selkowitz

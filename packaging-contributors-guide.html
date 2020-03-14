@@ -20,7 +20,8 @@
 
 <ul class="compact">
   <li><a href="#making_srcpackage">Making a package with cygport</a></li>
-  <li><a href="#installing">Installing your package for testing</a></li>
+  <li><a href="#installing">Locally installing your package for testing</a></li>
+  <li><a href="#test">Marking your package as a test version</a></li>
   <li><a href="#submitting">Submitting a package</a></li>
   <li><a href="#acceptance">Uploading an accepted package</a></li>
   <li><a href="#updating">Updating a package</a></li>
@@ -140,7 +141,7 @@ boffo-1.0-1.src/boffo.cygport
 <a href="https://cygwinports.github.io/cygport/toc_index.html">reference manual</a>
 and sample .cygport files.</p>
 
-<h2 class="cartouche" id="installing">Installing your package for testing</h2>
+<h2 class="cartouche" id="installing">Locally installing your package for testing</h2>
 
 <p>
 Unfortunately, there is no tool for directly installing package files, at the
@@ -164,6 +165,15 @@ moment.  Two common techniques to achieve this:
     server is not necessary.
   </li>
 </ul>
+
+<h2 class="cartouche" id="test">Marking your package as a test version</h2>
+
+Packages can be marked as test versions, which are not offered for installation
+by setup unless the use of test packages has been opted-into, by using
+<tt>cygport all-test</tt>, rather than <tt>cygport all</tt>.
+
+Building the packages in that way adds a
+<a href="packaging-hint-files.html#pvr.hint"><tt>test:</tt></a> hint.
 
 <h2 class="cartouche" id="submitting">Submitting a new package</h2>
 

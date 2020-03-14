@@ -18,7 +18,7 @@ This page documents how to upload packages to cygwin.com, after you have
 provided an <a href="packaging/key.html#sshkey">SSH key</a>.
 </p>
 
-<h2 class="cartouche" id="uploadingfiles">Uploading Files</h2>
+<h2 class="cartouche" id="uploadingfiles">Uploading packages</h2>
 
 <p>
 There are two ways to upload packages to cygwin.com.
@@ -138,6 +138,27 @@ be updated and the release area will remain unchanged.</p>
 <p>
   For historical reasons, this file can also be named <tt>!mail</tt>.
 </p>
+
+<h2 class="cartouche" id="untest">Removing the test label from a package</h2>
+
+Unfortunately, there's currently no mechanism to allow package maintainers to
+promote their own packages from test to current. Instead, you should:
+
+<ul>
+  <li>Ask on the <tt>#cygwin-developers</tt> IRC channel, or the
+  <tt>cygwin-apps</tt> mailing list, for the package to be <tt>untest</tt>-ed.
+  </li>
+
+  <li>If you still have the cygport build directory from when you built the test
+  packages, you can amend all the <tt>.hint</tt> files under
+  <tt><i>PVR</i>.<i>arch</i>/dist/</tt> to remove the <tt>test:</tt> line, and
+  <tt>cygport upload</tt> again.
+
+  <li>The package can be rebuilt with a bumped release number, and without using
+  <tt>cygport package-test</tt> (although this should be a last resort, because
+  unless the build is reproducible, this invalidates some of the testing your
+  package has received).</li>
+</ul>
 
 <h2 class="cartouche" id="deleting">Removing files from the Cygwin distribution</h2>
 

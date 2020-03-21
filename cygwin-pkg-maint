@@ -3737,8 +3737,8 @@ unace                                        Jari Aalto
 unalz                                        Jari Aalto
 unbound                                      Yaakov Selkowitz
 unfs3                                        Yaakov Selkowitz
-unicode-cldr-emoji-annotation                Yaakov Selkowitz
-unicode-ucd                                  Yaakov Selkowitz
+unicode-cldr-emoji-annotation                Thomas Wolff
+unicode-ucd                                  Thomas Wolff
 unifdef                                      Jari Aalto
 unifont                                      Yaakov Selkowitz
 unison2.27                                   Andrew Schulman
@@ -3955,7 +3955,7 @@ xsettingsd                                   Yaakov Selkowitz
 xsm                                          Jon Turney
 xstdcmap                                     Jon Turney
 xtail                                        Jari Aalto
-xterm                                        Yaakov Selkowitz
+xterm                                        Thomas Wolff
 XtoW                                         Jon Turney
 xtrans                                       Jon Turney
 xview                                        Jon Turney

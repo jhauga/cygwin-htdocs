@@ -1703,7 +1703,7 @@ mingw64-i686-editline                        Yaakov Selkowitz
 mingw64-i686-enca                            Yaakov Selkowitz
 mingw64-i686-enchant                         Yaakov Selkowitz
 mingw64-i686-exiv2                           Yaakov Selkowitz
-mingw64-i686-expat                           Yaakov Selkowitz
+mingw64-i686-expat                           Doug Henderson
 mingw64-i686-fdk-aac                         Yaakov Selkowitz
 mingw64-i686-fftw3                           Yaakov Selkowitz
 mingw64-i686-flac                            Yaakov Selkowitz
@@ -2050,7 +2050,7 @@ mingw64-x86_64-editline                      Yaakov Selkowitz
 mingw64-x86_64-enca                          Yaakov Selkowitz
 mingw64-x86_64-enchant                       Yaakov Selkowitz
 mingw64-x86_64-exiv2                         Yaakov Selkowitz
-mingw64-x86_64-expat                         Yaakov Selkowitz
+mingw64-x86_64-expat                         Doug Henderson
 mingw64-x86_64-fdk-aac                       Yaakov Selkowitz
 mingw64-x86_64-fftw3                         Yaakov Selkowitz
 mingw64-x86_64-flac                          Yaakov Selkowitz

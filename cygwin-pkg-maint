@@ -2629,7 +2629,7 @@ perl-Algorithm-Combinatorics                 Achim Gratz
 perl-Algorithm-Diff                          Achim Gratz
 perl-Alien-Build                             Achim Gratz
 perl-Alien-Libxml2                           Achim Gratz
-perl-Alien-wxWidgets                         Yaakov Selkowitz
+perl-Alien-wxWidgets                         Achim Gratz
 perl-Archive-Extract                         Achim Gratz
 perl-Archive-Zip                             Achim Gratz
 perl-Astro-FITS-CFITSIO                      Achim Gratz
@@ -2643,8 +2643,8 @@ perl-Business-ISBN                           Achim Gratz/Ken Brown
 perl-Business-ISBN-Data                      Achim Gratz/Ken Brown
 perl-Business-ISMN                           Achim Gratz/Ken Brown
 perl-Business-ISSN                           Achim Gratz/Ken Brown
-perl-Cairo                                   Yaakov Selkowitz
-perl-Cairo-GObject                           Yaakov Selkowitz
+perl-Cairo                                   Achim Gratz
+perl-Cairo-GObject                           Achim Gratz
 perl-Canary-Stability                        Achim Gratz
 perl-Capture-Tiny                            Achim Gratz/Ken Brown
 perl-Carp                                    Achim Gratz
@@ -2748,28 +2748,29 @@ perl-File-Which                              Achim Gratz
 perl-FileHandle-Unget                        Achim Gratz
 perl-Finance-Quote                           Achim Gratz
 perl-Font-AFM                                Achim Gratz
+perl-Font-FreeType                           Achim Gratz
 perl-Font-TTF                                Achim Gratz
-perl-GD                                      Yaakov Selkowitz/Marco Atzeri
+perl-GD                                      Achim Gratz
 perl-Getopt-ArgvFile                         Achim Gratz
 perl-gettext                                 Achim Gratz
-perl-Glib                                    Yaakov Selkowitz
-perl-Glib-Object-Introspection               Yaakov Selkowitz
-perl-Gnome2                                  Yaakov Selkowitz
-perl-Gnome2-Canvas                           Yaakov Selkowitz
-perl-Gnome2-GConf                            Yaakov Selkowitz
-perl-Gnome2-Rsvg                             Yaakov Selkowitz
-perl-Gnome2-VFS                              Yaakov Selkowitz
-perl-Gnome2-Vte                              Yaakov Selkowitz
-perl-Gnome2-Wnck                             Yaakov Selkowitz
-perl-GStreamer1                              Yaakov Selkowitz
-perl-Gtk2                                    Yaakov Selkowitz
-perl-Gtk2-GladeXML                           Yaakov Selkowitz
-perl-Gtk2-Notify                             Yaakov Selkowitz
-perl-Gtk2-SourceView2                        Yaakov Selkowitz
-perl-Gtk2-Spell                              Yaakov Selkowitz
-perl-Gtk2-Unique                             Yaakov Selkowitz
-perl-Gtk2-WebKit                             Yaakov Selkowitz
-perl-Gtk3                                    Yaakov Selkowitz
+perl-Glib                                    Achim Gratz
+perl-Glib-Object-Introspection               Achim Gratz
+perl-Gnome2                                  Achim Gratz
+perl-Gnome2-Canvas                           Achim Gratz
+perl-Gnome2-GConf                            Achim Gratz
+perl-Gnome2-Rsvg                             Achim Gratz
+perl-Gnome2-VFS                              Achim Gratz
+perl-Gnome2-Vte                              Achim Gratz
+perl-Gnome2-Wnck                             Achim Gratz
+perl-GStreamer1                              Achim Gratz
+perl-Gtk2                                    Achim Gratz
+perl-Gtk2-GladeXML                           Achim Gratz
+perl-Gtk2-Notify                             Achim Gratz
+perl-Gtk2-SourceView2                        Achim Gratz
+perl-Gtk2-Spell                              Achim Gratz
+perl-Gtk2-Unique                             Achim Gratz
+perl-Gtk2-WebKit                             Achim Gratz
+perl-Gtk3                                    Achim Gratz
 perl-HTML-Element-Extended                   Achim Gratz
 perl-HTML-Formatter                          Achim Gratz
 perl-HTML-Parser                             Achim Gratz
@@ -2863,7 +2864,7 @@ perl-Package-DeprecationManager              Achim Gratz/Ken Brown
 perl-Package-Stash                           Achim Gratz
 perl-Package-Stash-XS                        Achim Gratz
 perl-PadWalker                               Achim Gratz
-perl-Pango                                   Yaakov Selkowitz
+perl-Pango                                   Achim Gratz
 perl-PAR                                     Achim Gratz
 perl-PAR-Dist                                Achim Gratz
 perl-PAR-Packer                              Ken Brown
@@ -2887,7 +2888,7 @@ perl-Regexp-Common                           Achim Gratz/Ken Brown
 perl-Role-Tiny                               Achim Gratz
 perl-Scalar-List-Utils                       Achim Gratz
 perl-Scope-Guard                             Achim Gratz
-perl-SGMLSpm                                 Yaakov Selkowitz
+perl-SGMLSpm                                 Achim Gratz
 perl-Socket                                  Achim Gratz
 perl-Socket6                                 Achim Gratz
 perl-Sort-Key                                Achim Gratz/Ken Brown
@@ -2918,6 +2919,7 @@ perl-Test-Exception                          Achim Gratz
 perl-Test-Fatal                              Achim Gratz
 perl-Test-File                               Achim Gratz
 perl-Test-File-ShareDir                      Achim Gratz
+perl-Test-Fork                               Achim Gratz
 perl-Test-Harness                            Achim Gratz
 perl-Test-Inter                              Achim Gratz
 perl-Test-LeakTrace                          Achim Gratz
@@ -2972,10 +2974,10 @@ perl-User-Identity                           Achim Gratz
 perl-Variable-Magic                          Achim Gratz
 perl-Win32                                   Achim Gratz
 perl-Win32-API                               Achim Gratz
-perl-Win32-GUI                               Yaakov Selkowitz
+perl-Win32-GUI                               Achim Gratz
 perl-WWW-Curl                                Achim Gratz
 perl-WWW-RobotRules                          Achim Gratz
-perl-Wx                                      Yaakov Selkowitz
+perl-Wx                                      Achim Gratz
 perl-XML-DOM                                 Achim Gratz
 perl-XML-LibXML                              Achim Gratz
 perl-XML-LibXML-Simple                       Achim Gratz/Ken Brown

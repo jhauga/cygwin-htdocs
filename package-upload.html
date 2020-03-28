@@ -40,7 +40,6 @@ directory on cygwin.com will look like this:</p>
 
 <pre>
        Your Name                          # directory is currently your full name (you won't actually see this)
-        !packages                         # read-only file containing package names you are permitted to upload
         x86        x86_64    noarch       # arch directory
          release    release   release     # release directory
           pkg                             # package directory
@@ -54,7 +53,6 @@ directory on cygwin.com will look like this:</p>
     cd ok, cwd=/
 
     lftp cygwin.com:/> ls
-    -rw-rw-r--   1 root     cygstage      179 Sep  1 05:12 !packages
     drwxrwsr-x   4 root     cygstage     4096 Sep  1 05:16 .
     drwxrwxr-x  61 cygwin   root         4096 Sep  1 05:12 ..
     drwxrwsr-x.  3 cygwin   cygstage     4096 May  9 19:00 noarch

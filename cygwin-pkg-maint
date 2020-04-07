@@ -8,7 +8,7 @@ abiword                                      Yaakov Selkowitz
 abiword-docs                                 Yaakov Selkowitz
 abook                                        Jari Aalto
 accerciser                                   Yaakov Selkowitz
-activity-log-manager                         Yaakov Selkowitz
+activity-log-manager                         ORPHANED (Yaakov Selkowitz)
 adobe-source-code-pro-fonts                  Yaakov Selkowitz
 adobe-source-sans-pro-fonts                  Yaakov Selkowitz
 adobe-source-serif-pro-fonts                 Yaakov Selkowitz
@@ -54,7 +54,7 @@ arj                                          Jari Aalto
 ark                                          Yaakov Selkowitz
 arpack                                       Marco Atzeri
 artikulate                                   Yaakov Selkowitz
-arts                                         Yaakov Selkowitz
+arts                                         ORPHANED (Yaakov Selkowitz)
 artwiz-aleczapka-fonts                       Yaakov Selkowitz
 ascii                                        Yaakov Selkowitz
 asciidoc                                     ORPHANED (Eric Blake)
@@ -87,7 +87,7 @@ AtomicParsley                                ORPHANED (David Stacey)
 atomix                                       Yaakov Selkowitz
 atool                                        Andrew Schulman
 atril                                        Yaakov Selkowitz
-attica                                       Yaakov Selkowitz
+attica                                       ORPHANED (Yaakov Selkowitz)
 attr                                         Corinna Vinschen
 audacious                                    Yaakov Selkowitz
 audacious-plugins                            Yaakov Selkowitz
@@ -113,12 +113,12 @@ automake1.6                                  Yaakov Selkowitz
 automake1.7                                  Yaakov Selkowitz
 automake1.8                                  Yaakov Selkowitz
 automake1.9                                  Yaakov Selkowitz
-automoc4                                     Yaakov Selkowitz
+automoc4                                     ORPHANED (Yaakov Selkowitz)
 autossh                                      Andrew Schulman
 autotrace                                    Marco Atzeri
 avahi                                        Yaakov Selkowitz
 aview                                        Jari Aalto
-avogadro                                     Yaakov Selkowitz
+avogadro                                     ORPHANED (Yaakov Selkowitz)
 ayatana-ido3                                 Yaakov Selkowitz
 ayatana-indicator-application                Yaakov Selkowitz
 babl                                         Yaakov Selkowitz
@@ -228,9 +228,9 @@ clinfo                                       Yaakov Selkowitz
 clisp                                        Ken Brown
 cln                                          Yaakov Selkowitz
 cloc                                         Jari Aalto
-clutter-gst2.0                               Yaakov Selkowitz
+clutter-gst2.0                               ORPHANED (Yaakov Selkowitz)
 clutter-gst3.0                               Yaakov Selkowitz
-clutter-gtk0.10                              Yaakov Selkowitz
+clutter-gtk0.10                              ORPHANED (Yaakov Selkowitz)
 clutter-gtk1.0                               Yaakov Selkowitz
 clutter1.0                                   Yaakov Selkowitz
 cmake                                        Tony Kelman/Marco Atzeri
@@ -393,7 +393,7 @@ ELFIO                                        Serge Lamikhov-Center
 emacs                                        Ken Brown
 emacs-auctex                                 Ken Brown
 email                                        Corinna Vinschen
-empathy                                      Yaakov Selkowitz
+empathy                                      ORPHANED (Yaakov Selkowitz)
 enca                                         Yaakov Selkowitz
 enchant                                      Yaakov Selkowitz
 engauge-digitizer                            Mark Mitchell
@@ -405,7 +405,7 @@ eom                                          Yaakov Selkowitz
 eom-plugins                                  Yaakov Selkowitz
 epiphany                                     Yaakov Selkowitz
 epstool                                      Jari Aalto
-esound                                       Yaakov Selkowitz
+esound                                       ORPHANED (Yaakov Selkowitz)
 espeak                                       Yaakov Selkowitz
 eventlog                                     Corinna Vinschen
 evince                                       Yaakov Selkowitz
@@ -547,15 +547,15 @@ git-archive-all                              Yaakov Selkowitz
 git-oodiff                                   Jari Aalto
 git-review                                   David Rothenberger
 gitg                                         Yaakov Selkowitz
-gjs                                          Yaakov Selkowitz
+gjs                                          ORPHANED (Yaakov Selkowitz)
 gl2ps                                        Marco Atzeri
 glabels                                      Yaakov Selkowitz
 glade                                        Yaakov Selkowitz
-glade2                                       Yaakov Selkowitz
-glade3                                       Yaakov Selkowitz
+glade2                                       ORPHANED (Yaakov Selkowitz)
+glade3                                       ORPHANED (Yaakov Selkowitz)
 gle                                          Yaakov Selkowitz
 glew                                         Yaakov Selkowitz
-glib1.2                                      Yaakov Selkowitz
+glib1.2                                      ORPHANED (Yaakov Selkowitz)
 glib2.0                                      Yaakov Selkowitz
 glib2.0-networking                           Yaakov Selkowitz
 glib2.0-openssl                              Yaakov Selkowitz
@@ -572,17 +572,17 @@ gmpc                                         Yaakov Selkowitz
 gmpc-libnotify                               Yaakov Selkowitz
 gmpc-plugins                                 Yaakov Selkowitz
 gmult                                        Yaakov Selkowitz
-gnome-activity-journal                       Yaakov Selkowitz
+gnome-activity-journal                       ORPHANED (Yaakov Selkowitz)
 gnome-applets                                Yaakov Selkowitz
 gnome-autoar                                 Yaakov Selkowitz
 gnome-backgrounds                            Yaakov Selkowitz
 gnome-calculator                             Yaakov Selkowitz
 gnome-calendar                               Yaakov Selkowitz
-gnome-characters                             Yaakov Selkowitz
+gnome-characters                             ORPHANED (Yaakov Selkowitz)
 gnome-chess                                  Yaakov Selkowitz
 gnome-clocks                                 Yaakov Selkowitz
 gnome-code-assistance                        Yaakov Selkowitz
-gnome-commander                              Yaakov Selkowitz
+gnome-commander                              ORPHANED (Yaakov Selkowitz)
 gnome-common                                 Yaakov Selkowitz
 gnome-contacts                               Yaakov Selkowitz
 gnome-control-center                         Yaakov Selkowitz
@@ -603,16 +603,16 @@ gnome-klotski                                Yaakov Selkowitz
 gnome-kra-ora-thumbnailer                    Yaakov Selkowitz
 gnome-mahjongg                               Yaakov Selkowitz
 gnome-menus                                  Yaakov Selkowitz
-gnome-mime-data                              Yaakov Selkowitz
+gnome-mime-data                              ORPHANED (Yaakov Selkowitz)
 gnome-mines                                  Yaakov Selkowitz
 gnome-nds-thumbnailer                        Yaakov Selkowitz
 gnome-nibbles                                Yaakov Selkowitz
 gnome-online-accounts                        Yaakov Selkowitz
 gnome-online-miners                          Yaakov Selkowitz
 gnome-panel                                  Yaakov Selkowitz
-gnome-python                                 Yaakov Selkowitz
-gnome-python-desktop                         Yaakov Selkowitz
-gnome-python-extras                          Yaakov Selkowitz
+gnome-python                                 ORPHANED (Yaakov Selkowitz)
+gnome-python-desktop                         ORPHANED (Yaakov Selkowitz)
+gnome-python-extras                          ORPHANED (Yaakov Selkowitz)
 gnome-recipes                                Yaakov Selkowitz
 gnome-robots                                 Yaakov Selkowitz
 gnome-screenshot                             Yaakov Selkowitz
@@ -631,9 +631,9 @@ gnome-todo                                   Yaakov Selkowitz
 gnome-tweak-tool                             Yaakov Selkowitz
 gnome-user-docs                              Yaakov Selkowitz
 gnome-user-share                             Yaakov Selkowitz
-gnome-vfs2                                   Yaakov Selkowitz
-gnome-vfsmm2.6                               Yaakov Selkowitz
-gnome-weather                                Yaakov Selkowitz
+gnome-vfs2                                   ORPHANED (Yaakov Selkowitz)
+gnome-vfsmm2.6                               ORPHANED (Yaakov Selkowitz)
+gnome-weather                                ORPHANED (Yaakov Selkowitz)
 gnome-xcf-thumbnailer                        Yaakov Selkowitz
 gnome2048                                    Yaakov Selkowitz
 gnu-free-fonts                               Yaakov Selkowitz
@@ -649,12 +649,12 @@ gnupg2                                       Marco Atzeri
 gnuplot                                      Achim Gratz
 gnutls                                       Yaakov Selkowitz
 gob2                                         Yaakov Selkowitz
-gobby                                        Yaakov Selkowitz
+gobby                                        ORPHANED (Yaakov Selkowitz)
 gobby0.5                                     Yaakov Selkowitz
 gobject-introspection                        Yaakov Selkowitz
 goddard-backgrounds                          Yaakov Selkowitz
 goffice0.10                                  Yaakov Selkowitz
-goffice0.8                                   Yaakov Selkowitz
+goffice0.8                                   ORPHANED (Yaakov Selkowitz)
 gom                                          Yaakov Selkowitz
 gonvert                                      Yaakov Selkowitz
 goocanvas                                    Yaakov Selkowitz
@@ -705,21 +705,21 @@ gt5                                          Jari Aalto
 gthumb                                       Yaakov Selkowitz
 gtk-doc                                      Yaakov Selkowitz
 gtk-vnc                                      Yaakov Selkowitz
-gtk1.2                                       Yaakov Selkowitz
-gtk1.2-engines                               Yaakov Selkowitz
+gtk1.2                                       ORPHANED (Yaakov Selkowitz)
+gtk1.2-engines                               ORPHANED (Yaakov Selkowitz)
 gtk2.0                                       Yaakov Selkowitz
 gtk2.0-engines                               Yaakov Selkowitz
 gtk2.0-engines-murrine                       Yaakov Selkowitz
 gtk2.0-engines-smooth                        Yaakov Selkowitz
 gtk3                                         Yaakov Selkowitz
-gtkglarea2.0                                 Yaakov Selkowitz
+gtkglarea2.0                                 ORPHANED (Yaakov Selkowitz)
 gtkglext1.0                                  Yaakov Selkowitz
 gtkimageview                                 Yaakov Selkowitz
 gtkmathview                                  Yaakov Selkowitz
 gtkmm2.4                                     Yaakov Selkowitz
 gtkmm3.0                                     Yaakov Selkowitz
 gtkperf                                      Mike DePaulo
-gtksourceview2.0                             Yaakov Selkowitz
+gtksourceview2.0                             ORPHANED (Yaakov Selkowitz)
 gtksourceview3.0                             Yaakov Selkowitz
 gtksourceviewmm3.0                           Yaakov Selkowitz
 gtkspell                                     Yaakov Selkowitz
@@ -795,7 +795,7 @@ ibus-input-pad                               Yaakov Selkowitz
 ibus-kkc                                     Yaakov Selkowitz
 ibus-m17n                                    Yaakov Selkowitz
 ibus-pinyin                                  Yaakov Selkowitz
-ibus-qt                                      Yaakov Selkowitz
+ibus-qt                                      ORPHANED (Yaakov Selkowitz)
 ibus-skk                                     Yaakov Selkowitz
 ibus-typing-booster                          Yaakov Selkowitz
 ibus-unikey                                  Yaakov Selkowitz
@@ -817,7 +817,7 @@ ilmbase                                      Yaakov Selkowitz
 im-chooser                                   Yaakov Selkowitz
 ImageMagick                                  Marco Atzeri
 imake                                        Yaakov Selkowitz
-imlib                                        Yaakov Selkowitz
+imlib                                        ORPHANED (Yaakov Selkowitz)
 imlib2                                       Yaakov Selkowitz
 imlib2_loaders                               Yaakov Selkowitz
 imsettings                                   Yaakov Selkowitz
@@ -855,7 +855,7 @@ jovie                                        ORPHANED (Yaakov Selkowitz)
 jpegoptim                                    Federico Kircheis
 jq                                           Yaakov Selkowitz
 js-mathjax                                   Yaakov Selkowitz
-js185                                        Yaakov Selkowitz
+js185                                        ORPHANED (Yaakov Selkowitz)
 json-c                                       Yaakov Selkowitz
 json-glib1.0                                 Yaakov Selkowitz
 jsoncpp                                      Marco Atzeri
@@ -955,18 +955,18 @@ kde-l10n-vi                                  ORPHANED (Yaakov Selkowitz)
 kde-l10n-wa                                  ORPHANED (Yaakov Selkowitz)
 kde-l10n-zh_CN                               ORPHANED (Yaakov Selkowitz)
 kde-l10n-zh_TW                               ORPHANED (Yaakov Selkowitz)
-kde-runtime                                  Yaakov Selkowitz
+kde-runtime                                  ORPHANED (Yaakov Selkowitz)
 kde-workspace                                ORPHANED (Yaakov Selkowitz)
-kdeaddons                                    Yaakov Selkowitz
-kdebase3                                     Yaakov Selkowitz
+kdeaddons                                    ORPHANED (Yaakov Selkowitz)
+kdebase3                                     ORPHANED (Yaakov Selkowitz)
 kdebugsettings                               Yaakov Selkowitz
 kdecoration2                                 Yaakov Selkowitz
 kdeedu-data                                  Yaakov Selkowitz
-kdegames3                                    Yaakov Selkowitz
+kdegames3                                    ORPHANED (Yaakov Selkowitz)
 kdegraphics-mobipocket                       Yaakov Selkowitz
 kdegraphics-thumbnailers                     Yaakov Selkowitz
-kdelibs                                      Yaakov Selkowitz
-kdelibs3                                     Yaakov Selkowitz
+kdelibs                                      ORPHANED (Yaakov Selkowitz)
+kdelibs3                                     ORPHANED (Yaakov Selkowitz)
 kdepim-apps-libs                             Yaakov Selkowitz
 kdepimlibs                                   ORPHANED (Yaakov Selkowitz)
 kdeplasma-addons                             Yaakov Selkowitz
@@ -1230,8 +1230,8 @@ libatomic_ops                                Andy Li
 libayatana-appindicator                      Yaakov Selkowitz
 libayatana-indicator                         Yaakov Selkowitz
 libbinio                                     Yaakov Selkowitz
-libbonobo2                                   Yaakov Selkowitz
-libbonoboui2                                 Yaakov Selkowitz
+libbonobo2                                   ORPHANED (Yaakov Selkowitz)
+libbonoboui2                                 ORPHANED (Yaakov Selkowitz)
 libbs2b                                      Yaakov Selkowitz
 libcaca                                      Yaakov Selkowitz
 libcanberra                                  Yaakov Selkowitz
@@ -1296,7 +1296,7 @@ libgcrypt                                    Yaakov Selkowitz
 libgda5.0                                    Yaakov Selkowitz
 libgdamm5.0                                  Yaakov Selkowitz
 libgdata                                     Yaakov Selkowitz
-libgee                                       Yaakov Selkowitz
+libgee                                       ORPHANED (Yaakov Selkowitz)
 libgee0.8                                    Yaakov Selkowitz
 libgeotiff                                   Marco Atzeri
 libggi2                                      Peter Rosin
@@ -1309,13 +1309,13 @@ libglade2.0                                  Yaakov Selkowitz
 libglademm2.4                                Yaakov Selkowitz
 libgnome-games-support                       Yaakov Selkowitz
 libgnome-keyring                             Yaakov Selkowitz
-libgnome2                                    Yaakov Selkowitz
-libgnomecanvas2                              Yaakov Selkowitz
-libgnomecanvasmm2.6                          Yaakov Selkowitz
+libgnome2                                    ORPHANED (Yaakov Selkowitz)
+libgnomecanvas2                              ORPHANED (Yaakov Selkowitz)
+libgnomecanvasmm2.6                          ORPHANED (Yaakov Selkowitz)
 libgnomekbd                                  Yaakov Selkowitz
-libgnomemm2.6                                Yaakov Selkowitz
-libgnomeui2                                  Yaakov Selkowitz
-libgnomeuimm2.6                              Yaakov Selkowitz
+libgnomemm2.6                                ORPHANED (Yaakov Selkowitz)
+libgnomeui2                                  ORPHANED (Yaakov Selkowitz)
+libgnomeuimm2.6                              ORPHANED (Yaakov Selkowitz)
 libgpg-error                                 Yaakov Selkowitz/Marco Atzeri
 libgrss                                      Yaakov Selkowitz
 libgsf                                       Yaakov Selkowitz
@@ -1341,7 +1341,7 @@ libjpeg-turbo                                Yaakov Selkowitz
 libkate                                      David Rothenberger
 libkcddb                                     ORPHANED (Yaakov Selkowitz)
 libkdcraw                                    ORPHANED (Yaakov Selkowitz)
-libkdegames                                  Yaakov Selkowitz
+libkdegames                                  ORPHANED (Yaakov Selkowitz)
 libkeduvocdocument                           Yaakov Selkowitz
 libkexiv2                                    ORPHANED (Yaakov Selkowitz)
 libkipi                                      ORPHANED (Yaakov Selkowitz)
@@ -1451,7 +1451,7 @@ libtirpc                                     Yaakov Selkowitz
 libtommath                                   Jan Nijtmans
 libtool                                      Yaakov Selkowitz
 libtorrent                                   Marco Atzeri
-libtxc_dxtn                                  Yaakov Selkowitz
+libtxc_dxtn                                  ORPHANED (Yaakov Selkowitz)
 libuninameslist                              Yaakov Selkowitz
 libunique1.0                                 Yaakov Selkowitz
 libunique3.0                                 Yaakov Selkowitz
@@ -1516,7 +1516,7 @@ libXt                                        Jon Turney
 libXtst                                      Jon Turney
 libytnef                                     Yaakov Selkowitz
 libzapojit0.0                                Yaakov Selkowitz
-libzeitgeist1.0                              Yaakov Selkowitz
+libzeitgeist1.0                              ORPHANED (Yaakov Selkowitz)
 libzen                                       Yaakov Selkowitz
 libzip                                       Yaakov Selkowitz
 libzmf                                       Yaakov Selkowitz
@@ -1723,7 +1723,7 @@ mingw64-i686-gd                              Yaakov Selkowitz
 mingw64-i686-gdbm                            Yaakov Selkowitz
 mingw64-i686-gdk-pixbuf2.0                   Yaakov Selkowitz
 mingw64-i686-gdl3                            Yaakov Selkowitz
-mingw64-i686-gegl0.2                         Yaakov Selkowitz
+mingw64-i686-gegl0.2                         ORPHANED (Yaakov Selkowitz)
 mingw64-i686-gettext                         Yaakov Selkowitz
 mingw64-i686-giflib                          Yaakov Selkowitz
 mingw64-i686-glew                            Yaakov Selkowitz
@@ -1732,13 +1732,13 @@ mingw64-i686-glib2.0-networking              Yaakov Selkowitz
 mingw64-i686-glibmm2.4                       Yaakov Selkowitz
 mingw64-i686-glm                             Yaakov Selkowitz
 mingw64-i686-gmp                             Yaakov Selkowitz
-mingw64-i686-gnome-mime-data                 Yaakov Selkowitz
+mingw64-i686-gnome-mime-data                 ORPHANED (Yaakov Selkowitz)
 mingw64-i686-gnome-themes-standard           Yaakov Selkowitz
-mingw64-i686-gnome-vfs2                      Yaakov Selkowitz
-mingw64-i686-gnome-vfsmm2.6                  Yaakov Selkowitz
+mingw64-i686-gnome-vfs2                      ORPHANED (Yaakov Selkowitz)
+mingw64-i686-gnome-vfsmm2.6                  ORPHANED (Yaakov Selkowitz)
 mingw64-i686-gnutls                          Yaakov Selkowitz
 mingw64-i686-goffice0.10                     Yaakov Selkowitz
-mingw64-i686-goffice0.8                      Yaakov Selkowitz
+mingw64-i686-goffice0.8                      ORPHANED (Yaakov Selkowitz)
 mingw64-i686-goocanvas                       Yaakov Selkowitz
 mingw64-i686-goocanvas2.0                    Yaakov Selkowitz
 mingw64-i686-goocanvasmm2.0                  Yaakov Selkowitz
@@ -1759,7 +1759,7 @@ mingw64-i686-gtk3                            Yaakov Selkowitz
 mingw64-i686-gtkglext1.0                     Yaakov Selkowitz
 mingw64-i686-gtkmm2.4                        Yaakov Selkowitz
 mingw64-i686-gtkmm3.0                        Yaakov Selkowitz
-mingw64-i686-gtksourceview2.0                Yaakov Selkowitz
+mingw64-i686-gtksourceview2.0                ORPHANED (Yaakov Selkowitz)
 mingw64-i686-gtksourceview3.0                Yaakov Selkowitz
 mingw64-i686-gtksourceviewmm3.0              Yaakov Selkowitz
 mingw64-i686-gtkspell                        Yaakov Selkowitz
@@ -1779,7 +1779,7 @@ mingw64-i686-jasper                          Yaakov Selkowitz
 mingw64-i686-jbigkit                         Yaakov Selkowitz
 mingw64-i686-json-c                          Yaakov Selkowitz
 mingw64-i686-json-glib1.0                    Yaakov Selkowitz
-mingw64-i686-kqoauth                         Yaakov Selkowitz
+mingw64-i686-kqoauth                         ORPHANED (Yaakov Selkowitz)
 mingw64-i686-lame                            Yaakov Selkowitz
 mingw64-i686-lapack                          Yaakov Selkowitz
 mingw64-i686-lasem0.4                        Yaakov Selkowitz
@@ -1791,8 +1791,8 @@ mingw64-i686-libarchive                      Yaakov Selkowitz
 mingw64-i686-libart_lgpl2                    Yaakov Selkowitz
 mingw64-i686-libass                          Yaakov Selkowitz
 mingw64-i686-libatomic_ops                   Yaakov Selkowitz
-mingw64-i686-libbonobo2                      Yaakov Selkowitz
-mingw64-i686-libbonoboui2                    Yaakov Selkowitz
+mingw64-i686-libbonobo2                      ORPHANED (Yaakov Selkowitz)
+mingw64-i686-libbonoboui2                    ORPHANED (Yaakov Selkowitz)
 mingw64-i686-libbs2b                         Yaakov Selkowitz
 mingw64-i686-libcaca                         Yaakov Selkowitz
 mingw64-i686-libcddb                         Yaakov Selkowitz
@@ -1819,17 +1819,17 @@ mingw64-i686-libgcrypt                       Yaakov Selkowitz
 mingw64-i686-libgda5.0                       Yaakov Selkowitz
 mingw64-i686-libgdamm5.0                     Yaakov Selkowitz
 mingw64-i686-libgdata                        Yaakov Selkowitz
-mingw64-i686-libgee                          Yaakov Selkowitz
+mingw64-i686-libgee                          ORPHANED (Yaakov Selkowitz)
 mingw64-i686-libgee0.8                       Yaakov Selkowitz
 mingw64-i686-libgit2                         Yaakov Selkowitz
 mingw64-i686-libglade2.0                     Yaakov Selkowitz
 mingw64-i686-libglademm2.4                   Yaakov Selkowitz
-mingw64-i686-libgnome2                       Yaakov Selkowitz
-mingw64-i686-libgnomecanvas2                 Yaakov Selkowitz
-mingw64-i686-libgnomecanvasmm2.6             Yaakov Selkowitz
-mingw64-i686-libgnomemm2.6                   Yaakov Selkowitz
-mingw64-i686-libgnomeui2                     Yaakov Selkowitz
-mingw64-i686-libgnomeuimm2.6                 Yaakov Selkowitz
+mingw64-i686-libgnome2                       ORPHANED (Yaakov Selkowitz)
+mingw64-i686-libgnomecanvas2                 ORPHANED (Yaakov Selkowitz)
+mingw64-i686-libgnomecanvasmm2.6             ORPHANED (Yaakov Selkowitz)
+mingw64-i686-libgnomemm2.6                   ORPHANED (Yaakov Selkowitz)
+mingw64-i686-libgnomeui2                     ORPHANED (Yaakov Selkowitz)
+mingw64-i686-libgnomeuimm2.6                 ORPHANED (Yaakov Selkowitz)
 mingw64-i686-libgnurx                        Yaakov Selkowitz
 mingw64-i686-libgpg-error                    Yaakov Selkowitz
 mingw64-i686-libgsf1                         Yaakov Selkowitz
@@ -1935,11 +1935,11 @@ mingw64-i686-portaudio                       Yaakov Selkowitz
 mingw64-i686-postgresql                      Yaakov Selkowitz
 mingw64-i686-pthreads                        Jonathan Yong
 mingw64-i686-qca                             Yaakov Selkowitz
-mingw64-i686-qimageblitz                     Yaakov Selkowitz
+mingw64-i686-qimageblitz                     ORPHANED (Yaakov Selkowitz)
 mingw64-i686-qjson                           ORPHANED (Yaakov Selkowitz)
 mingw64-i686-qscintilla2                     Yaakov Selkowitz
-mingw64-i686-qt4                             Yaakov Selkowitz
-mingw64-i686-qt4-qmake                       Yaakov Selkowitz
+mingw64-i686-qt4                             ORPHANED (Yaakov Selkowitz)
+mingw64-i686-qt4-qmake                       ORPHANED (Yaakov Selkowitz)
 mingw64-i686-qt4-webkit                      ORPHANED (Yaakov Selkowitz)
 mingw64-i686-qt5-activeqt                    Yaakov Selkowitz
 mingw64-i686-qt5-base                        Yaakov Selkowitz
@@ -2006,7 +2006,7 @@ mingw64-i686-win-iconv                       Yaakov Selkowitz
 mingw64-i686-windows-default-manifest        Jonathan Yong
 mingw64-i686-winpthreads                     Jonathan Yong
 mingw64-i686-wv                              Yaakov Selkowitz
-mingw64-i686-wxWidgets2.8                    Yaakov Selkowitz
+mingw64-i686-wxWidgets2.8                    ORPHANED (Yaakov Selkowitz)
 mingw64-i686-wxWidgets3.0                    Yaakov Selkowitz
 mingw64-i686-xerces-c                        Yaakov Selkowitz
 mingw64-i686-xz                              Yaakov Selkowitz
@@ -2070,7 +2070,7 @@ mingw64-x86_64-gd                            Yaakov Selkowitz
 mingw64-x86_64-gdbm                          Yaakov Selkowitz
 mingw64-x86_64-gdk-pixbuf2.0                 Yaakov Selkowitz
 mingw64-x86_64-gdl3                          Yaakov Selkowitz
-mingw64-x86_64-gegl0.2                       Yaakov Selkowitz
+mingw64-x86_64-gegl0.2                       ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-gettext                       Yaakov Selkowitz
 mingw64-x86_64-giflib                        Yaakov Selkowitz
 mingw64-x86_64-glew                          Yaakov Selkowitz
@@ -2079,13 +2079,13 @@ mingw64-x86_64-glib2.0-networking            Yaakov Selkowitz
 mingw64-x86_64-glibmm2.4                     Yaakov Selkowitz
 mingw64-x86_64-glm                           Yaakov Selkowitz
 mingw64-x86_64-gmp                           Yaakov Selkowitz
-mingw64-x86_64-gnome-mime-data               Yaakov Selkowitz
+mingw64-x86_64-gnome-mime-data               ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-gnome-themes-standard         Yaakov Selkowitz
-mingw64-x86_64-gnome-vfs2                    Yaakov Selkowitz
-mingw64-x86_64-gnome-vfsmm2.6                Yaakov Selkowitz
+mingw64-x86_64-gnome-vfs2                    ORPHANED (Yaakov Selkowitz)
+mingw64-x86_64-gnome-vfsmm2.6                ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-gnutls                        Yaakov Selkowitz
 mingw64-x86_64-goffice0.10                   Yaakov Selkowitz
-mingw64-x86_64-goffice0.8                    Yaakov Selkowitz
+mingw64-x86_64-goffice0.8                    ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-goocanvas                     Yaakov Selkowitz
 mingw64-x86_64-goocanvas2.0                  Yaakov Selkowitz
 mingw64-x86_64-goocanvasmm2.0                Yaakov Selkowitz
@@ -2106,7 +2106,7 @@ mingw64-x86_64-gtk3                          Yaakov Selkowitz
 mingw64-x86_64-gtkglext1.0                   Yaakov Selkowitz
 mingw64-x86_64-gtkmm2.4                      Yaakov Selkowitz
 mingw64-x86_64-gtkmm3.0                      Yaakov Selkowitz
-mingw64-x86_64-gtksourceview2.0              Yaakov Selkowitz
+mingw64-x86_64-gtksourceview2.0              ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-gtksourceview3.0              Yaakov Selkowitz
 mingw64-x86_64-gtksourceviewmm3.0            Yaakov Selkowitz
 mingw64-x86_64-gtkspell                      Yaakov Selkowitz
@@ -2126,7 +2126,7 @@ mingw64-x86_64-jasper                        Yaakov Selkowitz
 mingw64-x86_64-jbigkit                       Yaakov Selkowitz
 mingw64-x86_64-json-c                        Yaakov Selkowitz
 mingw64-x86_64-json-glib1.0                  Yaakov Selkowitz
-mingw64-x86_64-kqoauth                       Yaakov Selkowitz
+mingw64-x86_64-kqoauth                       ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-lame                          Yaakov Selkowitz
 mingw64-x86_64-lapack                        Yaakov Selkowitz
 mingw64-x86_64-lasem0.4                      Yaakov Selkowitz
@@ -2138,8 +2138,8 @@ mingw64-x86_64-libarchive                    Yaakov Selkowitz
 mingw64-x86_64-libart_lgpl2                  Yaakov Selkowitz
 mingw64-x86_64-libass                        Yaakov Selkowitz
 mingw64-x86_64-libatomic_ops                 Yaakov Selkowitz
-mingw64-x86_64-libbonobo2                    Yaakov Selkowitz
-mingw64-x86_64-libbonoboui2                  Yaakov Selkowitz
+mingw64-x86_64-libbonobo2                    ORPHANED (Yaakov Selkowitz)
+mingw64-x86_64-libbonoboui2                  ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-libbs2b                       Yaakov Selkowitz
 mingw64-x86_64-libcaca                       Yaakov Selkowitz
 mingw64-x86_64-libcddb                       Yaakov Selkowitz
@@ -2166,17 +2166,17 @@ mingw64-x86_64-libgcrypt                     Yaakov Selkowitz
 mingw64-x86_64-libgda5.0                     Yaakov Selkowitz
 mingw64-x86_64-libgdamm5.0                   Yaakov Selkowitz
 mingw64-x86_64-libgdata                      Yaakov Selkowitz
-mingw64-x86_64-libgee                        Yaakov Selkowitz
+mingw64-x86_64-libgee                        ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-libgee0.8                     Yaakov Selkowitz
 mingw64-x86_64-libgit2                       Yaakov Selkowitz
 mingw64-x86_64-libglade2.0                   Yaakov Selkowitz
 mingw64-x86_64-libglademm2.4                 Yaakov Selkowitz
-mingw64-x86_64-libgnome2                     Yaakov Selkowitz
-mingw64-x86_64-libgnomecanvas2               Yaakov Selkowitz
-mingw64-x86_64-libgnomecanvasmm2.6           Yaakov Selkowitz
-mingw64-x86_64-libgnomemm2.6                 Yaakov Selkowitz
-mingw64-x86_64-libgnomeui2                   Yaakov Selkowitz
-mingw64-x86_64-libgnomeuimm2.6               Yaakov Selkowitz
+mingw64-x86_64-libgnome2                     ORPHANED (Yaakov Selkowitz)
+mingw64-x86_64-libgnomecanvas2               ORPHANED (Yaakov Selkowitz)
+mingw64-x86_64-libgnomecanvasmm2.6           ORPHANED (Yaakov Selkowitz)
+mingw64-x86_64-libgnomemm2.6                 ORPHANED (Yaakov Selkowitz)
+mingw64-x86_64-libgnomeui2                   ORPHANED (Yaakov Selkowitz)
+mingw64-x86_64-libgnomeuimm2.6               ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-libgnurx                      Yaakov Selkowitz
 mingw64-x86_64-libgpg-error                  Yaakov Selkowitz
 mingw64-x86_64-libgsf1                       Yaakov Selkowitz
@@ -2282,11 +2282,11 @@ mingw64-x86_64-portaudio                     Yaakov Selkowitz
 mingw64-x86_64-postgresql                    Yaakov Selkowitz
 mingw64-x86_64-pthreads                      Jonathan Yong
 mingw64-x86_64-qca                           Yaakov Selkowitz
-mingw64-x86_64-qimageblitz                   Yaakov Selkowitz
+mingw64-x86_64-qimageblitz                   ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-qjson                         ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-qscintilla2                   Yaakov Selkowitz
-mingw64-x86_64-qt4                           Yaakov Selkowitz
-mingw64-x86_64-qt4-qmake                     Yaakov Selkowitz
+mingw64-x86_64-qt4                           ORPHANED (Yaakov Selkowitz)
+mingw64-x86_64-qt4-qmake                     ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-qt4-webkit                    ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-qt5-activeqt                  Yaakov Selkowitz
 mingw64-x86_64-qt5-base                      Yaakov Selkowitz
@@ -2353,7 +2353,7 @@ mingw64-x86_64-win-iconv                     Yaakov Selkowitz
 mingw64-x86_64-windows-default-manifest      Jonathan Yong
 mingw64-x86_64-winpthreads                   Jonathan Yong
 mingw64-x86_64-wv                            Yaakov Selkowitz
-mingw64-x86_64-wxWidgets2.8                  Yaakov Selkowitz
+mingw64-x86_64-wxWidgets2.8                  ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-wxWidgets3.0                  Yaakov Selkowitz
 mingw64-x86_64-xerces-c                      Yaakov Selkowitz
 mingw64-x86_64-xz                            Yaakov Selkowitz
@@ -2378,7 +2378,7 @@ most                                         Jari Aalto
 motif                                        Yaakov Selkowitz
 mousepad                                     Yaakov Selkowitz
 mousetweaks                                  Yaakov Selkowitz
-mozjs24                                      Yaakov Selkowitz
+mozjs24                                      ORPHANED (Yaakov Selkowitz)
 mozo                                         Yaakov Selkowitz
 mp4v2                                        Yaakov Selkowitz
 mpc                                          Yaakov Selkowitz
@@ -2401,7 +2401,7 @@ mypaint-brushes                              Yaakov Selkowitz
 mysql                                        Yaakov Selkowitz
 naim                                         ORPHANED (Jonathan C. Allen)
 nano                                         Yaakov Selkowitz
-nas                                          Yaakov Selkowitz
+nas                                          ORPHANED (Yaakov Selkowitz)
 nasm                                         Michal Feix
 nautilus                                     Yaakov Selkowitz
 nc                                           Corinna Vinschen
@@ -2419,7 +2419,7 @@ neko                                         Andy Li
 neomutt                                      Federico Kircheis
 neon                                         ORPHANED (Dr. Volker Zell)
 net-snmp                                     David Rothenberger
-net6                                         Yaakov Selkowitz
+net6                                         ORPHANED (Yaakov Selkowitz)
 netcdf                                       Marco Atzeri
 netcdf-cxx4                                  Marco Atzeri
 netcdf-fortran                               Marco Atzeri
@@ -2447,7 +2447,7 @@ nss                                          Yaakov Selkowitz
 ntl                                          Yue Ren/Marco Atzeri
 nttcp                                        Jari Aalto
 nx-libs                                      Yaakov Selkowitz
-obby                                         Yaakov Selkowitz
+obby                                         ORPHANED (Yaakov Selkowitz)
 obconf                                       Yaakov Selkowitz
 obconf-qt                                    Yaakov Selkowitz
 ocaml                                        Yaakov Selkowitz
@@ -3173,7 +3173,7 @@ python-pynotify                              Yaakov Selkowitz
 python-pyparsing                             Yaakov Selkowitz
 python-pypdf                                 Yaakov Selkowitz
 python-pypsrp                                Yaakov Selkowitz
-python-pyqt4                                 Yaakov Selkowitz
+python-pyqt4                                 ORPHANED (Yaakov Selkowitz)
 python-pyqt5                                 Yaakov Selkowitz
 python-pyqt5-qt3d                            Yaakov Selkowitz
 python-pyqt5-qtchart                         Yaakov Selkowitz
@@ -3233,12 +3233,12 @@ python38-doc                                 Yaakov Selkowitz
 pyzy                                         Yaakov Selkowitz
 qca                                          Yaakov Selkowitz
 qhull                                        Marco Atzeri
-qimageblitz                                  Yaakov Selkowitz
+qimageblitz                                  ORPHANED (Yaakov Selkowitz)
 qiv                                          Jari Aalto
 qjson                                        ORPHANED (Yaakov Selkowitz)
 qmmp                                         Yaakov Selkowitz
 qmmp-plugin-pack                             Yaakov Selkowitz
-qmpdclient                                   Yaakov Selkowitz
+qmpdclient                                   ORPHANED (Yaakov Selkowitz)
 qoauth                                       Yaakov Selkowitz
 qpdf                                         Marco Atzeri
 qpdfview                                     Yaakov Selkowitz
@@ -3248,8 +3248,8 @@ qrupdate                                     Marco Atzeri
 qscintilla2                                  Yaakov Selkowitz
 qsf                                          Jari Aalto
 qt-gstreamer                                 Yaakov Selkowitz
-qt3                                          Yaakov Selkowitz
-qt4                                          Yaakov Selkowitz
+qt3                                          ORPHANED (Yaakov Selkowitz)
+qt4                                          ORPHANED (Yaakov Selkowitz)
 qt4-webkit                                   ORPHANED (Yaakov Selkowitz)
 qt5-base                                     Yaakov Selkowitz
 qt5-canvas3d                                 Yaakov Selkowitz
@@ -3378,7 +3378,7 @@ ruby-goocanvas2                              Yaakov Selkowitz
 ruby-gstreamer1.0                            Yaakov Selkowitz
 ruby-gtk2                                    Yaakov Selkowitz
 ruby-gtk3                                    Yaakov Selkowitz
-ruby-gtksourceview2                          Yaakov Selkowitz
+ruby-gtksourceview2                          ORPHANED (Yaakov Selkowitz)
 ruby-gtksourceview3                          Yaakov Selkowitz
 ruby-hike                                    ORPHANED (Yaakov Selkowitz)
 ruby-hitimes                                 ORPHANED (Yaakov Selkowitz)
@@ -3456,7 +3456,7 @@ ruby-turbolinks-source                       Yaakov Selkowitz
 ruby-tzinfo                                  Yaakov Selkowitz
 ruby-uglifier                                Yaakov Selkowitz
 ruby-unicorn                                 Yaakov Selkowitz
-ruby-vte                                     Yaakov Selkowitz
+ruby-vte                                     ORPHANED (Yaakov Selkowitz)
 ruby-vte3                                    Yaakov Selkowitz
 ruby-web-console                             Yaakov Selkowitz
 ruby-webkit-gtk                              Yaakov Selkowitz
@@ -3474,7 +3474,7 @@ rxvt                                         Yaakov Selkowitz
 rxvt-unicode                                 Yaakov Selkowitz/Jon Turney
 rzip                                         Jari Aalto
 R_autorebase                                 Marco Atzeri
-s2tc                                         Yaakov Selkowitz
+s2tc                                         ORPHANED (Yaakov Selkowitz)
 savi                                         Ken Brown
 schroedinger-cat-backgrounds                 Yaakov Selkowitz
 schroedinger1.0                              ORPHANED (Yaakov Selkowitz)
@@ -3569,7 +3569,7 @@ stellarium                                   Yaakov Selkowitz
 step                                         Yaakov Selkowitz
 stgit                                        Jari Aalto
 stow                                         Andrew Schulman
-strigi                                       Yaakov Selkowitz
+strigi                                       ORPHANED (Yaakov Selkowitz)
 stunnel                                      Andrew Schulman
 subversion                                   ORPHANED (David Rothenberger/Marco Atzeri)
 suck                                         Jari Aalto
@@ -3579,7 +3579,7 @@ suitesparseconfig                            Marco Atzeri
 sundials                                     Marco Atzeri
 suomi-malaga                                 Yaakov Selkowitz
 surf                                         Yue Ren/Marco Atzeri
-sushi                                        Yaakov Selkowitz
+sushi                                        ORPHANED (Yaakov Selkowitz)
 svgpart                                      Yaakov Selkowitz
 svm                                          Ken Brown
 svn-load                                     Jari Aalto
@@ -3615,14 +3615,14 @@ tcsh                                         Corinna Vinschen
 tdb                                          Yaakov Selkowitz
 teckit                                       Ken Brown
 ted                                          ORPHANED (Dr. Volker Zell)
-telepathy-farstream                          Yaakov Selkowitz
-telepathy-gabble                             Yaakov Selkowitz
-telepathy-glib                               Yaakov Selkowitz
-telepathy-haze                               Yaakov Selkowitz
-telepathy-idle                               Yaakov Selkowitz
-telepathy-logger                             Yaakov Selkowitz
-telepathy-mission-control                    Yaakov Selkowitz
-telepathy-qt                                 Yaakov Selkowitz
+telepathy-farstream                          ORPHANED (Yaakov Selkowitz)
+telepathy-gabble                             ORPHANED (Yaakov Selkowitz)
+telepathy-glib                               ORPHANED (Yaakov Selkowitz)
+telepathy-haze                               ORPHANED (Yaakov Selkowitz)
+telepathy-idle                               ORPHANED (Yaakov Selkowitz)
+telepathy-logger                             ORPHANED (Yaakov Selkowitz)
+telepathy-mission-control                    ORPHANED (Yaakov Selkowitz)
+telepathy-qt                                 ORPHANED (Yaakov Selkowitz)
 tellico                                      Yaakov Selkowitz
 tepl3                                        Yaakov Selkowitz
 terminator                                   Mike DePaulo
@@ -3776,7 +3776,7 @@ virt-top                                     Yaakov Selkowitz
 virt-viewer                                  Yaakov Selkowitz
 vorbis-tools                                 David Rothenberger
 vte                                          Yaakov Selkowitz
-vte2.90                                      Yaakov Selkowitz
+vte2.90                                      ORPHANED (Yaakov Selkowitz)
 vte2.91                                      Yaakov Selkowitz
 vttest                                       Brian Inglis
 w32api-headers                               Jonathan Yong
@@ -3804,7 +3804,7 @@ wput                                         Jari Aalto
 writerperfect                                Yaakov Selkowitz
 wtf                                          Marco Atzeri
 wv                                           Yaakov Selkowitz
-wxWidgets2.8                                 Yaakov Selkowitz
+wxWidgets2.8                                 ORPHANED (Yaakov Selkowitz)
 wxWidgets3.0                                 Yaakov Selkowitz
 x11perf                                      Yaakov Selkowitz
 x11vnc                                       Yaakov Selkowitz
@@ -3983,8 +3983,8 @@ zathura-djvu                                 Yaakov Selkowitz
 zathura-pdf-poppler                          Yaakov Selkowitz
 zathura-ps                                   Yaakov Selkowitz
 zbar                                         Yaakov Selkowitz
-zeitgeist                                    Yaakov Selkowitz
-zeitgeist-datasources                        Yaakov Selkowitz
+zeitgeist                                    ORPHANED (Yaakov Selkowitz)
+zeitgeist-datasources                        ORPHANED (Yaakov Selkowitz)
 zenity                                       Yaakov Selkowitz
 zeromq                                       Yaakov Selkowitz
 zim                                          Yaakov Selkowitz

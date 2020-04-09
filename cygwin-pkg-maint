@@ -3224,12 +3224,12 @@ python3-configobj                            Mike DePaulo/Marco Atzeri
 python3-h5py                                 Chris LeBlanc/Marco Atzeri
 python35                                     Yaakov Selkowitz
 python35-doc                                 Yaakov Selkowitz
-python36                                     Yaakov Selkowitz
-python36-doc                                 Yaakov Selkowitz
-python37                                     Yaakov Selkowitz
-python37-doc                                 Yaakov Selkowitz
-python38                                     Yaakov Selkowitz
-python38-doc                                 Yaakov Selkowitz
+python36                                     Marco Atzeri
+python36-doc                                 Marco Atzeri
+python37                                     Marco Atzeri
+python37-doc                                 Marco Atzeri
+python38                                     Marco Atzeri
+python38-doc                                 Marco Atzeri
 pyzy                                         Yaakov Selkowitz
 qca                                          Yaakov Selkowitz
 qhull                                        Marco Atzeri

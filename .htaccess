@@ -14,3 +14,9 @@ Redirect gone /win-9x.html
     ExpiresActive On
     ExpiresDefault "now"
 </FilesMatch>
+
+# discourage use of old setup versions by serving an empty mirrors list
+RewriteEngine On
+RewriteBase "/"
+RewriteCond "%{HTTP_USER_AGENT}" "^Cygwin Setup$"
+RewriteRule "^mirrors.lst$" "mirrors.empty.lst" [L,R]

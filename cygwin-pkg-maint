@@ -742,7 +742,7 @@ gwenhywfar                                   Yaakov Selkowitz
 gwenview                                     Yaakov Selkowitz
 gzip                                         Eric Blake
 hamster-time-tracker                         Yaakov Selkowitz
-harfbuzz                                     Yaakov Selkowitz
+harfbuzz                                     Ken Brown
 haxe                                         Andy Li
 hdf5                                         Marco Atzeri
 hdparm                                       ORPHANED (Christian Franke)
@@ -1397,7 +1397,7 @@ libopenraw                                   Yaakov Selkowitz
 libosinfo                                    Yaakov Selkowitz
 libotf                                       Yaakov Selkowitz
 libpagemaker0.0                              Yaakov Selkowitz
-libpaper                                     Yaakov Selkowitz
+libpaper                                     Ken Brown
 libpeas                                      Yaakov Selkowitz
 libpipeline                                  Erwin Waterlander
 libpng                                       Yaakov Selkowitz

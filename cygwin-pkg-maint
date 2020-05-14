@@ -1400,7 +1400,7 @@ libpagemaker0.0                              Yaakov Selkowitz
 libpaper                                     Ken Brown
 libpeas                                      Yaakov Selkowitz
 libpipeline                                  Erwin Waterlander
-libpng                                       Yaakov Selkowitz
+libpng                                       Ken Brown
 libpng12                                     Yaakov Selkowitz
 libpqxx                                      Yaakov Selkowitz
 libproxy                                     Yaakov Selkowitz
@@ -3217,7 +3217,7 @@ python-webkit                                Yaakov Selkowitz
 python-wheel                                 Yaakov Selkowitz
 python-whoosh                                Yaakov Selkowitz
 python-winrm                                 Yaakov Selkowitz
-python-wx                                    Yaakov Selkowitz
+python-wx                                    Hamish McIntyre-Bhatty
 python-xdg                                   Yaakov Selkowitz
 python-xmltodict                             Yaakov Selkowitz
 python-yaml                                  Yaakov Selkowitz

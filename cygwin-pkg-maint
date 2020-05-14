@@ -3930,7 +3930,7 @@ XmHTML                                       ORPHANED (Dr. Volker Zell)
 xmlsec1                                      Yaakov Selkowitz
 xmlstarlet                                   ORPHANED (David Stacey)
 xmlto                                        Ken Brown
-xmltoman                                     Yaakov Selkowitz
+xmltoman                                     Ken Brown
 xmodmap                                      Jon Turney
 xmon                                         Jon Turney
 xmore                                        Yaakov Selkowitz
@@ -4005,6 +4005,6 @@ zpaq                                         Achim Gratz
 zsh                                          Peter A. Castro
 zstd                                         Achim Gratz
 zsync                                        Jari Aalto
-zziplib                                      Yaakov Selkowitz
+zziplib                                      Ken Brown
 _autorebase                                  Achim Gratz
 _update-info-dir                             Ken Brown

@@ -173,8 +173,9 @@ c-ares                                       Yaakov Selkowitz
 ca-certificates                              Yaakov Selkowitz
 cabextract                                   Stuart Caie
 cadaver                                      ORPHANED (Dr. Volker Zell)
-cairo                                        Yaakov Selkowitz
-cairomm1.0                                   Yaakov Selkowitz
+cairo                                        Ken Brown
+cairomm                                      Ken Brown
+cairomm1.0                                   Ken Brown
 caja                                         Yaakov Selkowitz
 caja-extensions                              Yaakov Selkowitz
 caja-follow-symlink                          Yaakov Selkowitz

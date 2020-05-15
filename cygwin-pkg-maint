@@ -1426,7 +1426,8 @@ libsass                                      Marcos Vives Del Sol
 libsecret1                                   Yaakov Selkowitz
 libshout                                     Yaakov Selkowitz
 libsidplayfp                                 Yaakov Selkowitz
-libsigc2.0                                   Yaakov Selkowitz
+libsigc2.0                                   Ken Brown
+libsigc3.0                                   Ken Brown
 libsigsegv                                   Eric Blake
 libskk                                       Yaakov Selkowitz
 libSM                                        Jon Turney
@@ -2369,7 +2370,7 @@ mkfontdir                                    OBSOLETE
 mkfontscale                                  Jon Turney
 mksh                                         ORPHANED (Chris Sutcliffe)
 mkvtoolnix                                   ORPHANED (David Stacey)
-mm-common                                    Yaakov Selkowitz
+mm-common                                    Ken Brown
 mmv                                          Jari Aalto
 monotone                                     Yaakov Selkowitz
 moreutils                                    Adam Dinwoodie

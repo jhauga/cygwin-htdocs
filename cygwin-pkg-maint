@@ -2364,6 +2364,7 @@ mingw64-x86_64-zeromq                        Yaakov Selkowitz
 mingw64-x86_64-zlib                          Yaakov Selkowitz
 mingw64-x86_64-zstd                          Achim Gratz
 mingw64-x86_64-zziplib                       Yaakov Selkowitz
+minizip                                      Ken Brown
 mintty                                       Thomas Wolff
 minuet                                       Yaakov Selkowitz
 mkcomposecache                               Yaakov Selkowitz

@@ -16,7 +16,9 @@ Redirect gone /win-9x.html
 </FilesMatch>
 
 # discourage use of old setup versions by serving an empty mirrors list
+# (versions >=2.890 support setup-minimum-version: so we can discourage them more directly)
 RewriteEngine On
 RewriteBase "/"
 RewriteCond "%{HTTP_USER_AGENT}" "^Cygwin Setup$"
+RewriteCond "%{HTTP_USER_AGENT}" "^Cygwin-Setup/2.88"
 RewriteRule "^mirrors.lst$" "mirrors.empty.lst" [L,R]

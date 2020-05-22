@@ -17,16 +17,15 @@
 <ul class="compact">
   <li><a href="#pvr.hint"><tt>package-version-release.hint</tt> file</a></li>
   <li><a href="#advanced_pvr.hint"><tt>external-source:</tt></a></li>
+  <li><a href="#pvr-src.hint"><tt>package-version-release-src.hint</tt></a></li>
   <li><a href="#override.hint"><tt>override.hint</tt> file</a></li>
 </ul>
 
 <h2 class="cartouche" id="pvr.hint"><tt>package-version-release.hint</tt> file</h2>
 
-<p>Each package must be submitted with a file
-called <tt>package-version-release.hint</tt>. This file is used for information
-that cannot be inferred just from the context of the file name or package
-name. Lines in <tt>package-version-release.hint</tt> will consist of one of the
+<p>Lines in <tt>package-version-release.hint</tt> consist of one of the
 following:</p>
+
 <pre>
 # <i>comment</i>
 sdesc: <i>"some text"</i>
@@ -37,11 +36,9 @@ depends: <i>version-relation[, version-relation...]</i>
 obsoletes: <i>version-relation[, version-relation...]</i>
 provides: <i>package[, package...]</i>
 conflicts: <i>version-relation[, version-relation...]</i>
-build-depends: <i>dependency-atom[ dependency-atom...]</i>
 external-source: <i>package</i>
 message: <i>id</i> <i>"some text"</i>
 test:
-skip:
 version: <i>version</i>
 disable-check: <i>check-name [check-name...]</i>
 </pre>
@@ -243,16 +240,6 @@ No actual moles will be harmed during execution of this game."
 
   <li>
     <p>
-      <tt>build-depends</tt> indicates the binary packages that are needed to
-      build this source package.  This is a space-separated list
-      of <tt>cygport(1)</tt>
-      <a href="https://cygwin.github.io/cygport/check_funcs_cygpart.html#Information2fDEPEND">
-      dependency atoms.</a>
-    </p>
-  </li>
-
-  <li>
-    <p>
       <tt>external-source</tt>. See the section
       on <a href="#advanced_pvr.hint"><tt>external-source</tt></a>.
   </li>
@@ -284,17 +271,6 @@ No actual moles will be harmed during execution of this game."
       It is not required that your package have a <tt>test</tt> version. Use of
       a <tt>test</tt> version of a package is at the discretion of the package
       maintainer.
-    </p>
-  </li>
-
-  <li>
-    <p>
-      <tt>skip</tt> is obsolete.
-    </p>
-
-    <p>
-      It was only useful for indicating directories which contain source-only
-      packages, which are automatically recognized, irrespective of <tt>skip</tt>.
     </p>
   </li>
 
@@ -388,6 +364,55 @@ source: release/boffo/boffo-2.4.1-2-src.tar.xz
   The same logic is used to "match up" other versions with their external
   sources.
 </p>
+
+<h2 class="cartouche" id="pvr-src.hint"><tt>package-version-release-src.hint</tt> file</h2>
+
+<pre>
+# <i>comment</i>
+sdesc: <i>"some text"</i>
+ldesc: <i>"some text"</i>
+category: <i>name1[ name2...]</i>
+homepage: <i>url</i>
+build-depends: <i>dependency-atom[ dependency-atom...]</i>
+test:
+skip:
+version: <i>version</i>
+disable-check: <i>check-name [check-name...]</i>
+</pre>
+
+<p>
+  As above, and:
+</p>
+
+<ul class="spaced">
+  <li>
+    <p>
+      <tt>homepage</tt> records the URL of the upstream homepage.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <tt>build-depends</tt> indicates the binary packages that are needed to
+      build this source package.  This is a space-separated list
+      of <tt>cygport(1)</tt>
+      <a href="https://cygwin.github.io/cygport/check_funcs_cygpart.html#Information2fDEPEND">
+      dependency atoms.</a>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <tt>skip</tt> is obsolete.
+    </p>
+
+    <p>
+      It was only useful for indicating directories which contain source-only
+      packages, which are now automatically recognized, irrespective
+      of <tt>skip</tt>.
+    </p>
+  </li>
+</ul>
 
 <h2 class="cartouche" id="override.hint"><tt>override.hint</tt> file</h2>
 

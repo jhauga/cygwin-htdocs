@@ -276,8 +276,8 @@ No actual moles will be harmed during execution of this game."
 
   <li>
     <p>
-      <tt>version</tt> overrides the version, which is otherwise inferred from
-      the version-release part of the filename.
+      <tt>version</tt> overrides the version-release, which is otherwise
+      inferred from the version-release part of the filename.
     </p>
   </li>
 
@@ -393,11 +393,8 @@ disable-check: <i>check-name [check-name...]</i>
 
   <li>
     <p>
-      <tt>build-depends</tt> indicates the binary packages that are needed to
-      build this source package.  This is a space-separated list
-      of <tt>cygport(1)</tt>
-      <a href="https://cygwin.github.io/cygport/check_funcs_cygpart.html#Information2fDEPEND">
-      dependency atoms.</a>
+      <tt>build-depends</tt> is a space-separated list of packages that are
+      needed to build this source package.
     </p>
   </li>
 
@@ -423,7 +420,6 @@ disable-check: <i>check-name [check-name...]</i>
 
 <pre>
 # <i>comment</i>
-curr: <i>version</i>
 keep: <i>version</i>[ <i>version</i>...]
 keep-count: <i>count</i>
 keep-days: <i>days</i>
@@ -434,40 +430,6 @@ replace-versions: <i>version [version...]</i>
 <ul class="spaced">
   <li>
     <p>Lines that begin with '#' are comments and are ignored.</p>
-  </li>
-
-  <li>
-    <p>
-      The <tt>curr</tt> line indicates which version of that package should be
-      normally installed by setup. Use this setting <em>only</em> if you need to
-      circumvent the normal version ordering.
-    </p>
-
-    <p>
-      By default, the highest version-release number is used for the current
-      version of a package.
-    </p>
-
-    <p>
-      Use of <tt>curr</tt> is usually not required. e.g. if you had previously
-      released <tt>boffo-0.9-1</tt> and now have a new <tt>boffo-1.0-1</tt>,
-      there is no need to use <tt>curr</tt> as <tt>1.0-1</tt> is greater
-      than <tt>0.9-1</tt>.
-    </p>
-
-    <p>
-      However, if you had discovered a serious error in the <tt>boffo-1.0</tt>
-      release, and then decided that you want to drop back
-      to <tt>boffo-0.9-1</tt>, you could include an entry like this:
-    </p>
-
-<pre>
-curr: 0.9-1
-</pre>
-
-    <p>
-      This usage should be rare, however.
-    </p>
   </li>
 
   <li>

@@ -121,7 +121,7 @@ aview                                        Jari Aalto
 avogadro                                     ORPHANED (Yaakov Selkowitz)
 ayatana-ido3                                 Yaakov Selkowitz
 ayatana-indicator-application                Yaakov Selkowitz
-babl                                         Yaakov Selkowitz
+babl                                         Ken Brown
 balance                                      ORPHANED (Dr. Volker Zell)
 baloo                                        ORPHANED (Yaakov Selkowitz)
 baloo-widgets                                ORPHANED (Yaakov Selkowitz)
@@ -520,7 +520,7 @@ gedit-code-assistance                        Yaakov Selkowitz
 gedit-plugins                                Yaakov Selkowitz
 gegl                                         ORPHANED (Yaakov Selkowitz)
 gegl0.3                                      ORPHANED (Yaakov Selkowitz)
-gegl0.4                                      Yaakov Selkowitz
+gegl0.4                                      Ken Brown
 gendef                                       Jonathan Yong
 geoclue                                      Yaakov Selkowitz
 geocode-glib                                 Yaakov Selkowitz
@@ -1382,7 +1382,7 @@ libmspack                                    Stuart Caie
 libmspub0.1                                  Yaakov Selkowitz
 libmusicbrainz5                              Yaakov Selkowitz
 libmwaw0.3                                   Yaakov Selkowitz
-libmypaint                                   Yaakov Selkowitz
+libmypaint                                   Ken Brown
 libnfc                                       Marcos Vives Del Sol
 libnfs                                       Yaakov Selkowitz
 libnice                                      Yaakov Selkowitz
@@ -1438,7 +1438,7 @@ libsodium                                    Yaakov Selkowitz
 libsolv                                      Jon Turney
 libsoup2.4                                   Yaakov Selkowitz
 libspectre                                   Yaakov Selkowitz
-libspiro                                     Yaakov Selkowitz
+libspiro                                     Ken Brown
 libsrtp                                      Yaakov Selkowitz
 libssh                                       Yaakov Selkowitz
 libssh2                                      Yaakov Selkowitz
@@ -2400,7 +2400,7 @@ musepack                                     Yaakov Selkowitz
 mutt                                         Marco Atzeri
 mutter                                       Yaakov Selkowitz
 mypaint                                      Yaakov Selkowitz
-mypaint-brushes                              Yaakov Selkowitz
+mypaint-brushes                              Ken Brown
 mysql                                        Yaakov Selkowitz
 naim                                         ORPHANED (Jonathan C. Allen)
 nano                                         Yaakov Selkowitz

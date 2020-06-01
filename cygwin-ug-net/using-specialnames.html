@@ -22,8 +22,7 @@ pointing to another directory.  Consequentially none of the files from
 the above list, including the directory <code class="filename">/etc/fstab.d</code>
 is allowed to be a Cygwin symlink either.</p><p>However, native NTFS symlinks and reparse points are transparent
 when accessing the above files so all these files as well as
-<code class="filename">/etc</code> itself may be NTFS symlinks or reparse
-points.</p><p>Last but not least, make sure that these files are world-readable.
+<code class="filename">/etc</code> itself may be NTFS symlinks.</p><p>Last but not least, make sure that these files are world-readable.
 Every process of any user account has to read these files potentially,
 so world-readability is essential.  The only exception are the user
 specific files <code class="filename">/etc/fstab.d/$USER</code>, which only have

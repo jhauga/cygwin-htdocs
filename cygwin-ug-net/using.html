@@ -239,21 +239,32 @@ useful in setups where the administrator wants to write-protect the entire
 Cygwin directory.  The usertemp file system can be configured in /etc/fstab
 like this:</p><pre class="screen">
   none /tmp usertemp binary,posix=0 0 0
-</pre></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="pathnames-symlinks"></a>Symbolic links</h3></div></div></div><p>Symbolic links are not present and supported on Windows until Windows
-Vista/Server 2008, and then only on some filesystems.  Since POSIX applications
-are rightfully expecting to use symlinks and the
-<code class="literal">symlink(2)</code> system call, Cygwin had to find a
-workaround for this Windows flaw.</p><p>Cygwin creates symbolic links potentially in multiple different
-ways:</p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: bullet; "><li class="listitem" style="list-style-type: disc"><p>The default symlinks are plain files containing a magic cookie
-followed by the path to which the link points.  They are marked with the
-DOS SYSTEM attribute so that only files with that attribute have to be
-read to determine whether or not the file is a symbolic link.</p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>Cygwin symbolic links are using UTF-16 to encode the filename of
-the target file, to better support internationalization.  Symlinks created by
-old Cygwin releases can be read just fine.  However, you could run into
-problems with them if you're now using another character set than the one you
-used when creating these symlinks
-(see <a class="xref" href="setup-locale.html#setup-locale-problems" title="Potential Problems when using Locales">the section called “Potential Problems when using Locales”</a>).
-</p></div></li><li class="listitem" style="list-style-type: disc"><p>The shortcut style symlinks are Windows <code class="literal">.lnk</code>
+</pre></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="pathnames-symlinks"></a>Symbolic links</h3></div></div></div><p>Symbolic links are supported by Windows only on NTFS and have
+a lot of quirks making them (almost) unusable in a POSIX context.
+POSIX applications are rightfully expecting to use symlinks and the
+<code class="literal">symlink(2)</code> system call, so Cygwin has worked around
+the Windows shortcomings.</p><p>Cygwin creates symbolic links potentially in multiple different
+ways.</p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: bullet; "><li class="listitem" style="list-style-type: disc"><p>The default symlinks created by Cygwin are either special reparse
+points shared with WSL on Windows 10, or plain files containing a magic
+cookie followed by the path to which the link points.  The reparse point
+is used on NTFS, the plain file on almost any other filesystem.</p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>Symlinks created by really old Cygwin releases (prior to
+Cygwin 1.7.0) are usually readable.  However, you could run into problems
+if you're now using another character set than the one you used when
+creating these symlinks (see <a class="xref" href="setup-locale.html#setup-locale-problems" title="Potential Problems when using Locales">the section called “Potential Problems when using Locales”</a>).
+</p></div></li><li class="listitem" style="list-style-type: disc"><p>On filesystems mounted via Microsoft's NFS client, Cygwin always
+creates real NFS symlinks.</p></li><li class="listitem" style="list-style-type: disc"><p>Native Windows symlinks are only created on filesystems supporting
+reparse points.  Due to their weird restrictions and behaviour, they are
+only created if the user explicitely requests creating them.  This is done
+by setting the environment variable <code class="literal">CYGWIN</code> to contain
+the string <code class="literal">winsymlinks:native</code> or
+<code class="literal">winsymlinks:nativestrict</code>.  For the difference between
+these two settings, see <a class="xref" href="using-cygwinenv.html" title="The CYGWIN environment variable">the section called “The <code class="envar">CYGWIN</code> environment
+variable”</a>.
+On AFS, native symlinks are the only supported type of symlink due to
+AFS lacking support for DOS attributes.  This is independent from the
+<code class="literal">winsymlinks</code> setting.</p><p>Creation of native symlinks follows special rules to ensure the links
+are usable outside of Cygwin. This includes dereferencing any Cygwin-only
+symlinks that lie in the target path.</p></li><li class="listitem" style="list-style-type: disc"><p>Shortcut style symlinks are Windows <code class="literal">.lnk</code>
 shortcut files with a special header and the DOS READONLY attribute set.
 This symlink type is created if the environment variable
 <code class="literal">CYGWIN</code> (see <a class="xref" href="using-cygwinenv.html" title="The CYGWIN environment variable">the section called “The <code class="envar">CYGWIN</code> environment
@@ -262,27 +273,13 @@ is set to contain the string <code class="literal">winsymlinks</code> or
 <code class="literal">winsymlinks:lnk</code>.  On the MVFS filesystem, which does
 not support the DOS SYSTEM attribute, this is the one and only supported
 symlink type, independently from the <code class="literal">winsymlinks</code>
-setting.</p></li><li class="listitem" style="list-style-type: disc"><p>Native Windows symlinks are only created on Windows Vista/2008 and later,
-and only on filesystems supporting reparse points.  Due to to their weird
-restrictions and behaviour, they are only created if the user
-explicitely requests creating them.  This is done by setting the
-environment variable <code class="literal">CYGWIN</code> to contain the string
-<code class="literal">winsymlinks:native</code> or
-<code class="literal">winsymlinks:nativestrict</code>.  For the difference between
-these two settings, see <a class="xref" href="using-cygwinenv.html" title="The CYGWIN environment variable">the section called “The <code class="envar">CYGWIN</code> environment
-variable”</a>.
-On AFS, native symlinks are the only supported type of symlink due to
-AFS lacking support for DOS attributes.  This is independent from the
-<code class="literal">winsymlinks</code> setting.</p><p>Creation of native symlinks follows special rules to ensure the links
-are usable outside of Cygwin. This includes dereferencing any Cygwin-only
-symlinks that lie in the target path.</p></li><li class="listitem" style="list-style-type: disc"><p>On the NFS filesystem, Cygwin always creates real NFS symlinks.</p></li></ul></div><p>All of the above four symlink types are recognized and used as symlinks
+setting.</p></li></ul></div><p>All of the above symlink types are recognized and used as symlinks
 under all circumstances.  However, if the default plain file symlink type
 is lacking its DOS SYSTEM bit, or if the shortcut file is lacking the DOS
-READONLY attribute, they are not recognized as symlink.</p><p>Apart from these four types, there's also a fifth type, which is
-recognized as symlink but never generated by Cygwin, directory
-junctions.  This is an older reparse point type, supported by Windows
-since Windows 2000.  Filesystem junctions on the other hand are not
-handled as symlinks, since otherwise they would not be recognized as
+READONLY attribute, they are not recognized as symlink.</p><p>Apart from these types, there's also a Windows native type,
+so called directory junctions.  They are recognized as symlink but
+never generated by Cygwin.  Filesystem junctions on the other hand
+are not handled as symlinks, otherwise they would not be recognized as
 filesystem borders by commands like <span class="command"><strong>find -xdev</strong></span>.</p></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="pathnames-win32"></a>Using native Win32 paths</h3></div></div></div><p>Using native Win32 paths in Cygwin, while often possible, is generally
 inadvisable.  Those paths circumvent all internal integrity checking and
 bypass the information given in the Cygwin mount table.</p><p>The following paths are treated as native Win32 paths by the

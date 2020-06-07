@@ -3226,13 +3226,13 @@ python-xmltodict                             Yaakov Selkowitz
 python-yaml                                  Yaakov Selkowitz
 python-zmq                                   Yaakov Selkowitz
 python-zope.interface                        Yaakov Selkowitz
-python2                                      Yaakov Selkowitz
-python2-doc                                  Yaakov Selkowitz
-python3                                      Yaakov Selkowitz
+python2                                      Marco Atzeri
+python2-doc                                  Marco Atzeri
+python3                                      Marco Atzeri
 python3-configobj                            Mike DePaulo/Marco Atzeri
 python3-h5py                                 Chris LeBlanc/Marco Atzeri
-python35                                     Yaakov Selkowitz
-python35-doc                                 Yaakov Selkowitz
+python35                                     Marco Atzeri
+python35-doc                                 Marco Atzeri
 python36                                     Marco Atzeri
 python36-doc                                 Marco Atzeri
 python37                                     Marco Atzeri

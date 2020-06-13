@@ -3076,6 +3076,7 @@ putty                                        Yaakov Selkowitz
 pv                                           Aaron Schneider
 pwgen                                        Jari Aalto
 pwget                                        Jari Aalto
+py3c                                         David Rothenberger
 pylint                                       ORPHANED (Jari Aalto)
 python-alabaster                             Yaakov Selkowitz
 python-appdirs                               Yaakov Selkowitz

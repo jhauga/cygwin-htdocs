@@ -3079,7 +3079,7 @@ pwget                                        Jari Aalto
 py3c                                         David Rothenberger
 pylint                                       ORPHANED (Jari Aalto)
 python-alabaster                             Yaakov Selkowitz
-python-appdirs                               Yaakov Selkowitz
+python-appdirs                               Marco Atzeri
 python-asn1crypto                            Yaakov Selkowitz
 python-attrs                                 Yaakov Selkowitz
 python-automat                               Yaakov Selkowitz
@@ -3166,7 +3166,7 @@ python-pathlib2                              Yaakov Selkowitz
 python-pbr                                   Yaakov Selkowitz
 python-pexpect                               Yaakov Selkowitz
 python-pickleshare                           Yaakov Selkowitz
-python-pip                                   Yaakov Selkowitz
+python-pip                                   Marco Atzeri
 python-ply                                   Yaakov Selkowitz
 python-prompt_toolkit                        Yaakov Selkowitz
 python-ptyprocess                            Yaakov Selkowitz
@@ -3197,11 +3197,11 @@ python-requests_ntlm                         Yaakov Selkowitz
 python-rsa                                   Yaakov Selkowitz
 python-scandir                               Yaakov Selkowitz
 python-service_identity                      Yaakov Selkowitz
-python-setuptools                            Yaakov Selkowitz
+python-setuptools                            Marco Atzeri
 python-simplegeneric                         Yaakov Selkowitz
 python-simplejson                            Yaakov Selkowitz
 python-sip                                   Yaakov Selkowitz
-python-six                                   Yaakov Selkowitz
+python-six                                   Marco Atzeri
 python-snowballstemmer                       Yaakov Selkowitz
 python-sphinx                                Tony Kelman/Yaakov Selkowitz
 python-sphinx-notfound-page                  Yaakov Selkowitz
@@ -3214,11 +3214,11 @@ python-twisted                               Yaakov Selkowitz
 python-typing                                Yaakov Selkowitz
 python-unidecode                             Yaakov Selkowitz
 python-urllib3                               Yaakov Selkowitz
-python-virtualenv                            Yaakov Selkowitz
+python-virtualenv                            Marco Atzeri
 python-wcwidth                               Yaakov Selkowitz
 python-webencodings                          Yaakov Selkowitz
 python-webkit                                Yaakov Selkowitz
-python-wheel                                 Yaakov Selkowitz
+python-wheel                                 Marco Atzeri
 python-whoosh                                Yaakov Selkowitz
 python-winrm                                 Yaakov Selkowitz
 python-wx                                    Hamish McIntyre-Bhatty

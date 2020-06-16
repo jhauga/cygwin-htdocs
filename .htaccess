@@ -9,6 +9,9 @@ Redirect seeother /setup.exe /install.html
 Redirect /setup-snapshots /setup/
 Redirect gone /win-9x.html
 
+Redirect /readme_toc.html /index.html
+Redirect /license.html /licensing.html
+
 # https://cygwin.com/ml/cygwin/2010-02/msg00149.html
 <FilesMatch "^setup-(x86|x86_64)\.exe(|.sig)$">
     ExpiresActive On

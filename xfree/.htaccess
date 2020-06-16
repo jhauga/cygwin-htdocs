@@ -3,3 +3,5 @@ Redirect permanent /chat.html http://cygwin.com/irc.html
 Redirect permanent /faq.html http://x.cygwin.com/docs/faq/
 Redirect permanent /donations.html http://cygwin.com/donations.html
 Redirect permanent /ported-software.html http://cygwin.com/packages/
+Redirect permanent /mirrors.html http://cygwin.com/mirrors.html
+Redirect permanent /lists.html http://cygwin.com/lists.html

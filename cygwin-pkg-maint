@@ -3232,6 +3232,7 @@ python2-doc                                  Marco Atzeri
 python3                                      Marco Atzeri
 python3-configobj                            Mike DePaulo/Marco Atzeri
 python3-h5py                                 Chris LeBlanc/Marco Atzeri
+python3-wx                                   Hamish McIntyre-Bhatty
 python35                                     Marco Atzeri
 python35-doc                                 Marco Atzeri
 python36                                     Marco Atzeri

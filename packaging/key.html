@@ -19,31 +19,31 @@ If you are a package maintainer, you will need to provide an SSH key.
 
 <h2 class="cartouche" id="sshkey">Requesting upload privileges</h2>
 
-<p>Send your public SSH key to the <a href="http://cygwin.com/lists.html#cygwin-apps">cygwin-apps</a> mailing list using this format:</p>
+<p>Send your SSH public key to the <a href="http://cygwin.com/lists.html#cygwin-apps">cygwin-apps</a> mailing list using this format:</p>
 
-<pre><tt>
+<pre>
     Name: Your Name
     ---- BEGIN SSH2 PUBLIC KEY ----
-    &nbsp;&nbsp;&nbsp;<em>RFC 4716 format public ssh key here</em>
+    &nbsp;&nbsp;&nbsp;<em>RFC 4716 format ssh public key here</em>
     ---- END SSH2 PUBLIC KEY ----
-</tt></pre>
+</pre>
 
 <p>The SSH key above should be generated from one of your public keys, e.g.:</p>
-<pre><tt>    ssh-keygen -e -f ~/.ssh/id_ecdsa.pub</tt></pre>
+<pre>    ssh-keygen -e -f ~/.ssh/cygwin.pub</pre>
 
 <p>
   The format of this email is not optional.  It is read by a program so please
-  do not deviate from the above.  In particular, don't indent.
+  do not deviate from the above.  In particular:
 </p>
 
-<p>
-  <tt>Name:</tt> must use only ASCII characters.
-</p>
+<ul>
+  <li>Don't indent.</li>
+  <li><tt>Name:</tt> must use only ASCII characters.</li>
+</ul>
 
-<p><b>Note: Also send email in this format if you need to update your SSH key.</b></p>
-
 <p>
-  In that case, use your name as recorded in
+  <b>Note: Also send email in this format if you need to update your SSH key.</b>
+  In that case, please use your name as recorded in
   <a href="http://cygwin.com/cygwin-pkg-maint">http://cygwin.com/cygwin-pkg-maint</a>.
 </p>
 
@@ -54,17 +54,40 @@ response to email to the <tt>cygwin-apps</tt> mailing list.</p>
 
 <p>
 When connecting, make sure that you use the user <tt>cygwin</tt> with no password,
-and that you are using the same SSH key as the one that you specified previously.
+and that you are using the SSH private key corresponding to the SSH public key you
+provided.
 </p>
 
 <p>
-  Once the SSH key has been installed, you'll have limited access to cygwin.com:
+  Once the SSH public key has been installed on cygwin.com, you'll have limited
+  access:
 </p>
 
 <ul>
   <li><a href="http://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol#SFTP_client">SFTP</a> to upload packages.</li>
   <li><a href="http://en.wikipedia.org/wiki/Git">git</a> to push to packaging repositories.</li>
   <li><tt>ssh cygwin@cygwin.com alive</tt> to test connecting.</li>
+</ul>
+
+<p>
+  You may wish to:
+</p>
+
+<ul>
+  <li>
+    Add a section to <tt>~/.ssh/config</tt> selecting that SSH private key when
+    connecting to cygwin.com, e.g.:
+    <pre>
+Host cygwin.com
+  User cygwin
+  IdentityFile ~/.ssh/cygwin</pre>
+    and/or,
+  </li>
+  <li>
+    Set the value of <tt>SSH_KEY</tt>
+    in <a href="https://cygwin.github.io/cygport/cygport_conf.html"><tt>~/.cygport.conf</tt></a>
+    to the SSH private key file. e.g. <tt>SSH_KEY=~/.ssh/cygwin</tt>.
+  </li>
 </ul>
 
 <p>
@@ -82,7 +105,7 @@ matches one of the following hashes:
   <ul>
     <li>SHA256 (OpenSSH 6.8 or later): <tt>SHA256:4bqfulMjMg7/L/38MJBw7mVMMu6EH+3MgMitrCRdFho</tt></li>
     <li>MD5 (OpenSSH pre-6.8): <tt>MD5:b4:58:a4:51:c0:21:e8:10:61:da:3a:49:0b:c5:d6:63</tt></li>
-  <ul>
+  </ul>
 </ul>
 
 </div>

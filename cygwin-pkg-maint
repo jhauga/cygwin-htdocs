@@ -3738,8 +3738,8 @@ twm                                          Jon Turney
 twolame                                      Yaakov Selkowitz
 txt2regex                                    Jari Aalto
 typespeed                                    ORPHANED
-tzcode                                       Corinna Vinschen/Yaakov Selkowitz
-tzdata                                       Yaakov Selkowitz
+tzcode                                       Brian Inglis
+tzdata                                       Brian Inglis
 uchardet                                     Yaakov Selkowitz
 ucl                                          Achim Gratz
 udunits                                      Marco Atzeri

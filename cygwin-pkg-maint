@@ -1880,6 +1880,7 @@ mingw64-i686-libstaroffice0.0                Yaakov Selkowitz
 mingw64-i686-libtasn1                        Yaakov Selkowitz
 mingw64-i686-libtheora                       Yaakov Selkowitz
 mingw64-i686-libtiger                        Yaakov Selkowitz
+mingw64-i686-libtommath                      Jan Nijtmans
 mingw64-i686-libunistring                    Yaakov Selkowitz
 mingw64-i686-libusb                          Yaakov Selkowitz
 mingw64-i686-libusb1.0                       Yaakov Selkowitz
@@ -2227,6 +2228,7 @@ mingw64-x86_64-libstaroffice0.0              Yaakov Selkowitz
 mingw64-x86_64-libtasn1                      Yaakov Selkowitz
 mingw64-x86_64-libtheora                     Yaakov Selkowitz
 mingw64-x86_64-libtiger                      Yaakov Selkowitz
+mingw64-x86_64-libtommath                    Jan Nijtmans
 mingw64-x86_64-libunistring                  Yaakov Selkowitz
 mingw64-x86_64-libusb                        Yaakov Selkowitz
 mingw64-x86_64-libusb1.0                     Yaakov Selkowitz

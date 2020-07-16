@@ -14,8 +14,8 @@ urldecode() {
     if [ -z $2 ] ; then
         url_encoded="${1//+/ }"
     fi
-    printf '%b' "${url_encoded//%/\x}"
-} 
+    printf '%b' "${url_encoded//%/\\x}"
+}
 
 htmlencode() {
     echo "$1" | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g; s/'"'"'/\&#39;/g'
@@ -32,7 +32,7 @@ urlencode() {
 	esac
     done
 }
-  
+
 
 
 # defaults
@@ -65,7 +65,7 @@ fi
 param_grep_htmlencode=`htmlencode "$param_grep"`
 
 
-############################## print headerstuff 
+############################## print headerstuff
 
 if [ -n "$param_text" ]; then
     echo "Content-Type: text/plain; charset=utf-8"
@@ -167,7 +167,7 @@ cat "$tmpfile" | while read fullfile; do
 #    fi
 
     desc="$basedesc"
-    
+
     if [ -z "$param_text" ]; then
 	echo '<li><a href="package-cat.cgi?file='`urlencode $partfile`'&amp;grep='`urlencode $param_grep`'">'$file'</a> - '$desc'</li>'
     else

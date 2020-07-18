@@ -3132,7 +3132,7 @@ python-httplib2                              Yaakov Selkowitz
 python-hyperlink                             Yaakov Selkowitz
 python-idna                                  Yaakov Selkowitz
 python-imagesize                             Yaakov Selkowitz
-python-imaging                               Yaakov Selkowitz
+python-imaging                               Hamish McIntyre-Bhatty
 python-incremental                           Yaakov Selkowitz
 python-ipaddr                                Yaakov Selkowitz
 python-ipaddress                             Yaakov Selkowitz

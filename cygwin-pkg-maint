@@ -3106,7 +3106,7 @@ python-configobj                             Mike DePaulo/Marco Atzeri
 python-constantly                            Yaakov Selkowitz
 python-crypto                                Yaakov Selkowitz
 python-cryptography                          Yaakov Selkowitz
-python-cython                                Yaakov Selkowitz
+python-cython                                Marco Atzeri 
 python-dbus                                  Yaakov Selkowitz
 python-decorator                             Yaakov Selkowitz
 python-discid                                ORPHANED (Dr. Volker Zell)
@@ -3154,9 +3154,9 @@ python-mx                                    Yaakov Selkowitz
 python-nacl                                  Michael Wild
 python-nose                                  Yaakov Selkowitz
 python-ntlm-auth                             Yaakov Selkowitz
-python-numpy                                 Yaakov Selkowitz
+python-numpy                                 Marco Atzeri
 python-odf                                   Yaakov Selkowitz
-python-olefile                               Yaakov Selkowitz
+python-olefile                               Marco Atzeri
 python-opengl                                Yaakov Selkowitz
 python-opengl-accelerate                     Yaakov Selkowitz
 python-openssl                               Yaakov Selkowitz

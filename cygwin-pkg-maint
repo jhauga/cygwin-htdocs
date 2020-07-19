@@ -3169,13 +3169,13 @@ python-pbr                                   Yaakov Selkowitz
 python-pexpect                               Yaakov Selkowitz
 python-pickleshare                           Yaakov Selkowitz
 python-pip                                   Marco Atzeri
-python-ply                                   Yaakov Selkowitz
+python-ply                                   Marco Atzeri
 python-prompt_toolkit                        Yaakov Selkowitz
 python-ptyprocess                            Yaakov Selkowitz
 python-pyasn1                                Yaakov Selkowitz
 python-pyasn1-modules                        Yaakov Selkowitz
 python-pyatspi                               Yaakov Selkowitz
-python-pycparser                             Yaakov Selkowitz
+python-pycparser                             Marco Atzeri
 python-pygame                                Yaakov Selkowitz
 python-pygments                              Yaakov Selkowitz
 python-pykde4                                ORPHANED (Yaakov Selkowitz)

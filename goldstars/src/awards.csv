@@ -376,6 +376,7 @@ VZ,https://cygwin.com/ml/cygwin-apps/2003-11/msg00286.html,For packaging <tt>man
 WY,https://cygwin.com/ml/cygwin-apps/2012-03/msg00222.html,For redesigning the Cygwin logo in setup.
 WY,https://cygwin.com/ml/cygwin/2007-09/msg00525.html,For clearly explaining why security is hard.
 
+YS,https://cygwin.com/pipermail/cygwin-apps/2020-March/039883.html,"For maintaining <em>a lot</em> of packages for many years. Like, more than everyone else put together. Really.",,,,,,,1
 YS,https://cygwin.com/ml/cygwin-apps/2015-07/msg00253.html,For helping with the Great Perl Update of 2015.
 YS,https://cygwin.com/ml/cygwin-apps/2015-03/msg00001.html,For helping to clean obsolete packages from the distro.
 YS,https://cygwin.com/ml/cygwin-apps/2013-01/msg00010.html,For adopting the <tt>grace</tt> package.

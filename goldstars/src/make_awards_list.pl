@@ -105,6 +105,15 @@ foreach my $award (@awards) {
 		my %month = ('1' => '03', '2' => '06', '3' => '09', '4' => '12');
 		$award->{date} = "$1-$month{$2}-$3";
 	}
+	elsif ($award->{URL} =~ m{/pipermail/cygwin(?:|-\w+)/(\d+)-(\w+)/(\d+)}) {
+		my %month = (
+			'January' => '01', 'February' => '02', 'March' => '03',
+			'April' => '04', 'May' => '05', 'June' => '06',
+			'July' => '07', 'August' => '08', 'September' => '09',
+			'October' => '10', 'November' => '11', 'December' => '12'
+			);
+		$award->{date} = "$1-$month{$2}-$3";
+	}
 	elsif ($award->{URL} =~ m{^(\d+-\d+-\d+)$}) {
 		# Special case: There's no web URL that refers to the award, i.e. a maintainer
 		# just adopted a package and made a git commit to take it over, without

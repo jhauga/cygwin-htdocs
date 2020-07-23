@@ -3097,7 +3097,7 @@ python-bugzilla                              Yaakov Selkowitz
 python-cairo                                 Yaakov Selkowitz
 python-certifi                               Yaakov Selkowitz
 python-cffi                                  Marco Atzeri
-python-chardet                               Yaakov Selkowitz
+python-chardet                               Marco Atzeri
 python-chm                                   Yaakov Selkowitz
 python-clang                                 Yaakov Selkowitz
 python-cloudfiles                            Yaakov Selkowitz
@@ -3130,7 +3130,7 @@ python-html5lib                              Yaakov Selkowitz
 python-htmltmpl                              Yaakov Selkowitz
 python-httplib2                              Yaakov Selkowitz
 python-hyperlink                             Yaakov Selkowitz
-python-idna                                  Yaakov Selkowitz
+python-idna                                  Marco Atzeri
 python-imagesize                             Yaakov Selkowitz
 python-imaging                               Hamish McIntyre-Bhatty
 python-incremental                           Yaakov Selkowitz
@@ -3194,7 +3194,7 @@ python-pytz                                  Yaakov Selkowitz
 python-rdflib                                Yaakov Selkowitz
 python-recommonmark                          Yaakov Selkowitz
 python-reportlab                             Yaakov Selkowitz
-python-requests                              Yaakov Selkowitz
+python-requests                              Marco Atzeri
 python-requests_ntlm                         Yaakov Selkowitz
 python-rsa                                   Yaakov Selkowitz
 python-scandir                               Yaakov Selkowitz
@@ -3215,7 +3215,7 @@ python-traitlets                             Yaakov Selkowitz
 python-twisted                               Yaakov Selkowitz
 python-typing                                Yaakov Selkowitz
 python-unidecode                             Yaakov Selkowitz
-python-urllib3                               Yaakov Selkowitz
+python-urllib3                               Marco Atzeri
 python-virtualenv                            Marco Atzeri
 python-wcwidth                               Yaakov Selkowitz
 python-webencodings                          Yaakov Selkowitz

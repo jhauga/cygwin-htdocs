@@ -3108,9 +3108,9 @@ python-crypto                                Yaakov Selkowitz
 python-cryptography                          Yaakov Selkowitz
 python-cython                                Marco Atzeri 
 python-dbus                                  Yaakov Selkowitz
-python-decorator                             Yaakov Selkowitz
+python-decorator                             Marco Atzeri
 python-discid                                ORPHANED (Dr. Volker Zell)
-python-docutils                              Tony Kelman/Yaakov Selkowitz
+python-docutils                              Tony Kelman/Marco Atzeri
 python-dropbox                               Yaakov Selkowitz
 python-enchant                               Yaakov Selkowitz
 python-enum34                                Yaakov Selkowitz
@@ -3136,8 +3136,8 @@ python-imaging                               Hamish McIntyre-Bhatty
 python-incremental                           Yaakov Selkowitz
 python-ipaddr                                Yaakov Selkowitz
 python-ipaddress                             Yaakov Selkowitz
-python-ipython                               Yaakov Selkowitz
-python-ipython_genutils                      Yaakov Selkowitz
+python-ipython                               Marco Atzeri
+python-ipython_genutils                      Marco Atzeri
 python-isodate                               Yaakov Selkowitz
 python-jinja2                                Tony Kelman/Yaakov Selkowitz
 python-jmespath                              Yaakov Selkowitz
@@ -3166,18 +3166,18 @@ python-paramiko                              Michael Wild
 python-passlib                               Yaakov Selkowitz
 python-pathlib2                              Yaakov Selkowitz
 python-pbr                                   Yaakov Selkowitz
-python-pexpect                               Yaakov Selkowitz
-python-pickleshare                           Yaakov Selkowitz
+python-pexpect                               Marco Atzeri
+python-pickleshare                           Marco Atzeri
 python-pip                                   Marco Atzeri
 python-ply                                   Marco Atzeri
-python-prompt_toolkit                        Yaakov Selkowitz
-python-ptyprocess                            Yaakov Selkowitz
+python-prompt_toolkit                        Marco Atzeri
+python-ptyprocess                            Marco Atzeri
 python-pyasn1                                Yaakov Selkowitz
 python-pyasn1-modules                        Yaakov Selkowitz
 python-pyatspi                               Yaakov Selkowitz
 python-pycparser                             Marco Atzeri
 python-pygame                                Yaakov Selkowitz
-python-pygments                              Yaakov Selkowitz
+python-pygments                              Marco Atzeri
 python-pykde4                                ORPHANED (Yaakov Selkowitz)
 python-pylast                                Yaakov Selkowitz
 python-pynotify                              Yaakov Selkowitz
@@ -3200,7 +3200,7 @@ python-rsa                                   Yaakov Selkowitz
 python-scandir                               Yaakov Selkowitz
 python-service_identity                      Yaakov Selkowitz
 python-setuptools                            Marco Atzeri
-python-simplegeneric                         Yaakov Selkowitz
+python-simplegeneric                         Marco Atzeri
 python-simplejson                            Yaakov Selkowitz
 python-sip                                   Yaakov Selkowitz
 python-six                                   Marco Atzeri
@@ -3211,13 +3211,13 @@ python-sphinxcontrib-websupport              Yaakov Selkowitz
 python-sphinx_rtd_theme                      Yaakov Selkowitz
 python-sqlalchemy                            Yaakov Selkowitz
 python-straight.plugin                       Yaakov Selkowitz
-python-traitlets                             Yaakov Selkowitz
+python-traitlets                             Marco Atzeri
 python-twisted                               Yaakov Selkowitz
 python-typing                                Yaakov Selkowitz
 python-unidecode                             Yaakov Selkowitz
 python-urllib3                               Marco Atzeri
 python-virtualenv                            Marco Atzeri
-python-wcwidth                               Yaakov Selkowitz
+python-wcwidth                               Marco Atzeri
 python-webencodings                          Yaakov Selkowitz
 python-webkit                                Yaakov Selkowitz
 python-wheel                                 Marco Atzeri

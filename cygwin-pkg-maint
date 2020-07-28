@@ -3086,6 +3086,7 @@ python-asn1crypto                            Yaakov Selkowitz
 python-attrs                                 Yaakov Selkowitz
 python-automat                               Yaakov Selkowitz
 python-babel                                 Yaakov Selkowitz
+python-backcall                              Marco Atzeri
 python-backports.shutil_get_terminal_size    Yaakov Selkowitz
 python-backports.ssl_match_hostname          Yaakov Selkowitz
 python-bcrypt                                Michael Wild

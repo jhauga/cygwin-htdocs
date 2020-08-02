@@ -3095,7 +3095,7 @@ python-boto                                  Yaakov Selkowitz
 python-bs4                                   Yaakov Selkowitz
 python-bsddb3                                Yaakov Selkowitz
 python-bugzilla                              Yaakov Selkowitz
-python-cairo                                 Yaakov Selkowitz
+python-cairo                                 Marco Atzeri
 python-certifi                               Yaakov Selkowitz
 python-cffi                                  Marco Atzeri
 python-chardet                               Marco Atzeri
@@ -3153,7 +3153,7 @@ python-musicbrainzngs                        Yaakov Selkowitz
 python-mutagen                               Yaakov Selkowitz
 python-mx                                    Yaakov Selkowitz
 python-nacl                                  Michael Wild
-python-nose                                  Yaakov Selkowitz
+python-nose                                  Marco Atzeri
 python-ntlm-auth                             Yaakov Selkowitz
 python-numpy                                 Marco Atzeri
 python-odf                                   Yaakov Selkowitz
@@ -3212,6 +3212,7 @@ python-sphinxcontrib-websupport              Yaakov Selkowitz
 python-sphinx_rtd_theme                      Yaakov Selkowitz
 python-sqlalchemy                            Yaakov Selkowitz
 python-straight.plugin                       Yaakov Selkowitz
+python-testpath                              Marco Atzeri
 python-traitlets                             Marco Atzeri
 python-twisted                               Yaakov Selkowitz
 python-typing                                Yaakov Selkowitz
@@ -3228,7 +3229,7 @@ python-wx                                    Hamish McIntyre-Bhatty
 python-xdg                                   Yaakov Selkowitz
 python-xmltodict                             Yaakov Selkowitz
 python-yaml                                  Yaakov Selkowitz
-python-zmq                                   Yaakov Selkowitz
+python-zmq                                   Marco Atzeri
 python-zope.interface                        Yaakov Selkowitz
 python2                                      Marco Atzeri
 python2-doc                                  Marco Atzeri

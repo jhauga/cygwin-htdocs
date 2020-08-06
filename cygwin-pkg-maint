@@ -3080,12 +3080,12 @@ pwgen                                        Jari Aalto
 pwget                                        Jari Aalto
 py3c                                         David Rothenberger
 pylint                                       ORPHANED (Jari Aalto)
-python-alabaster                             Yaakov Selkowitz
+python-alabaster                             Marco Atzeri
 python-appdirs                               Marco Atzeri
 python-asn1crypto                            Yaakov Selkowitz
 python-attrs                                 Yaakov Selkowitz
 python-automat                               Yaakov Selkowitz
-python-babel                                 Yaakov Selkowitz
+python-babel                                 Marco Atzeri
 python-backcall                              Marco Atzeri
 python-backports.shutil_get_terminal_size    Yaakov Selkowitz
 python-backports.ssl_match_hostname          Yaakov Selkowitz
@@ -3132,7 +3132,7 @@ python-htmltmpl                              Yaakov Selkowitz
 python-httplib2                              Yaakov Selkowitz
 python-hyperlink                             Yaakov Selkowitz
 python-idna                                  Marco Atzeri
-python-imagesize                             Yaakov Selkowitz
+python-imagesize                             Marco Atzeri
 python-imaging                               Hamish McIntyre-Bhatty
 python-incremental                           Yaakov Selkowitz
 python-ipaddr                                Yaakov Selkowitz
@@ -3140,7 +3140,7 @@ python-ipaddress                             Yaakov Selkowitz
 python-ipython                               Marco Atzeri
 python-ipython_genutils                      Marco Atzeri
 python-isodate                               Yaakov Selkowitz
-python-jinja2                                Tony Kelman/Yaakov Selkowitz
+python-jinja2                                Tony Kelman/Marco Atzeri
 python-jmespath                              Yaakov Selkowitz
 python-libvirt                               Yaakov Selkowitz
 python-lockfile                              Yaakov Selkowitz
@@ -3148,7 +3148,7 @@ python-logilab-astng                         ORPHANED (Jari Aalto)
 python-logilab-common                        ORPHANED (Jari Aalto)
 python-lxml                                  Yaakov Selkowitz
 python-mako                                  Yaakov Selkowitz
-python-markupsafe                            Yaakov Selkowitz
+python-markupsafe                            Marco Atzeri
 python-musicbrainzngs                        Yaakov Selkowitz
 python-mutagen                               Yaakov Selkowitz
 python-mx                                    Yaakov Selkowitz
@@ -3162,7 +3162,7 @@ python-opengl                                Yaakov Selkowitz
 python-opengl-accelerate                     Yaakov Selkowitz
 python-openssl                               Yaakov Selkowitz
 python-orbit                                 Yaakov Selkowitz
-python-packaging                             Yaakov Selkowitz
+python-packaging                             Marco Atzeri
 python-paramiko                              Michael Wild
 python-passlib                               Yaakov Selkowitz
 python-pathlib2                              Yaakov Selkowitz
@@ -3182,7 +3182,7 @@ python-pygments                              Marco Atzeri
 python-pykde4                                ORPHANED (Yaakov Selkowitz)
 python-pylast                                Yaakov Selkowitz
 python-pynotify                              Yaakov Selkowitz
-python-pyparsing                             Yaakov Selkowitz
+python-pyparsing                             Marco Atzeri
 python-pypdf                                 Yaakov Selkowitz
 python-pypsrp                                Yaakov Selkowitz
 python-pyqt4                                 ORPHANED (Yaakov Selkowitz)
@@ -3191,7 +3191,7 @@ python-pyqt5-qt3d                            Yaakov Selkowitz
 python-pyqt5-qtchart                         Yaakov Selkowitz
 python-pyqt5-qtdatavisualization             Yaakov Selkowitz
 python-pyrex                                 Yaakov Selkowitz
-python-pytz                                  Yaakov Selkowitz
+python-pytz                                  Marco Atzeri
 python-rdflib                                Yaakov Selkowitz
 python-recommonmark                          Yaakov Selkowitz
 python-reportlab                             Yaakov Selkowitz
@@ -3205,11 +3205,11 @@ python-simplegeneric                         Marco Atzeri
 python-simplejson                            Yaakov Selkowitz
 python-sip                                   Yaakov Selkowitz
 python-six                                   Marco Atzeri
-python-snowballstemmer                       Yaakov Selkowitz
-python-sphinx                                Tony Kelman/Yaakov Selkowitz
+python-snowballstemmer                       Marco Atzeri
+python-sphinx                                Tony Kelman/Marco Atzeri
 python-sphinx-notfound-page                  Yaakov Selkowitz
 python-sphinxcontrib-websupport              Yaakov Selkowitz
-python-sphinx_rtd_theme                      Yaakov Selkowitz
+python-sphinx_rtd_theme                      Marco Atzeri
 python-sqlalchemy                            Yaakov Selkowitz
 python-straight.plugin                       Yaakov Selkowitz
 python-testpath                              Marco Atzeri

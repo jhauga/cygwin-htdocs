@@ -3208,9 +3208,9 @@ python-six                                   Marco Atzeri
 python-snowballstemmer                       Marco Atzeri
 python-sphinx                                Tony Kelman/Marco Atzeri
 python-sphinx-notfound-page                  Yaakov Selkowitz
-python-sphinxcontrib-websupport              Yaakov Selkowitz
+python-sphinxcontrib-websupport              Marco Atzeri
 python-sphinx_rtd_theme                      Marco Atzeri
-python-sqlalchemy                            Yaakov Selkowitz
+python-sqlalchemy                            Marco Atzeri
 python-straight.plugin                       Yaakov Selkowitz
 python-testpath                              Marco Atzeri
 python-traitlets                             Marco Atzeri
@@ -3223,7 +3223,7 @@ python-wcwidth                               Marco Atzeri
 python-webencodings                          Yaakov Selkowitz
 python-webkit                                Yaakov Selkowitz
 python-wheel                                 Marco Atzeri
-python-whoosh                                Yaakov Selkowitz
+python-whoosh                                Marco Atzeri
 python-winrm                                 Yaakov Selkowitz
 python-wx                                    Hamish McIntyre-Bhatty
 python-xdg                                   Yaakov Selkowitz

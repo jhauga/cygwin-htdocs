@@ -3208,6 +3208,7 @@ python-six                                   Marco Atzeri
 python-snowballstemmer                       Marco Atzeri
 python-sphinx                                Tony Kelman/Marco Atzeri
 python-sphinx-notfound-page                  Yaakov Selkowitz
+python-sphinxcontrib-serializinghtml         Marco Atzeri
 python-sphinxcontrib-websupport              Marco Atzeri
 python-sphinx_rtd_theme                      Marco Atzeri
 python-sqlalchemy                            Marco Atzeri

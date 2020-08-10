@@ -234,7 +234,7 @@ clutter-gst3.0                               Yaakov Selkowitz
 clutter-gtk0.10                              ORPHANED (Yaakov Selkowitz)
 clutter-gtk1.0                               Yaakov Selkowitz
 clutter1.0                                   Yaakov Selkowitz
-cmake                                        Tony Kelman/Marco Atzeri
+cmake                                        Tony Kelman/Marco Atzeri/Lemures Lemniscati
 cmark                                        ORPHANED (David Stacey)
 cmocka                                       Stephen Groat
 cocom                                        Yaakov Selkowitz
@@ -3207,7 +3207,11 @@ python-sip                                   Yaakov Selkowitz
 python-six                                   Marco Atzeri
 python-snowballstemmer                       Marco Atzeri
 python-sphinx                                Tony Kelman/Marco Atzeri
-python-sphinx-notfound-page                  Yaakov Selkowitz
+python-sphinx-notfound-page                  Marco Atzeri
+python-sphinxcontrib-applehelp               Marco Atzeri
+python-sphinxcontrib-devhelp                 Marco Atzeri
+python-sphinxcontrib-htmlhelp                Marco Atzeri
+python-sphinxcontrib-qthelp                  Marco Atzeri
 python-sphinxcontrib-serializinghtml         Marco Atzeri
 python-sphinxcontrib-websupport              Marco Atzeri
 python-sphinx_rtd_theme                      Marco Atzeri

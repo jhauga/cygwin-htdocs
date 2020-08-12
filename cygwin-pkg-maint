@@ -3082,14 +3082,14 @@ py3c                                         David Rothenberger
 pylint                                       ORPHANED (Jari Aalto)
 python-alabaster                             Marco Atzeri
 python-appdirs                               Marco Atzeri
-python-asn1crypto                            Yaakov Selkowitz
+python-asn1crypto                            Marco Atzeri
 python-attrs                                 Yaakov Selkowitz
 python-automat                               Yaakov Selkowitz
 python-babel                                 Marco Atzeri
 python-backcall                              Marco Atzeri
 python-backports.shutil_get_terminal_size    Yaakov Selkowitz
 python-backports.ssl_match_hostname          Yaakov Selkowitz
-python-bcrypt                                Michael Wild
+python-bcrypt                                Michael Wild/Marco Atzeri
 python-beautifulsoup                         Yaakov Selkowitz
 python-boto                                  Yaakov Selkowitz
 python-bs4                                   Yaakov Selkowitz
@@ -3105,8 +3105,8 @@ python-cloudfiles                            Yaakov Selkowitz
 python-commonmark                            Yaakov Selkowitz
 python-configobj                             Mike DePaulo/Marco Atzeri
 python-constantly                            Yaakov Selkowitz
-python-crypto                                Yaakov Selkowitz
-python-cryptography                          Yaakov Selkowitz
+python-crypto                                Marco Atzeri
+python-cryptography                          Marco Atzeri
 python-cython                                Marco Atzeri 
 python-dbus                                  Yaakov Selkowitz
 python-decorator                             Marco Atzeri
@@ -3121,7 +3121,7 @@ python-feedparser                            Yaakov Selkowitz
 python-future                                Jon Turney
 python-futures                               Yaakov Selkowitz
 python-gdata                                 ORPHANED (Chris Sutcliffe)
-python-gi                                    Yaakov Selkowitz
+python-gi                                    Marco Atzeri
 python-gobject                               Yaakov Selkowitz
 python-goocanvas                             Yaakov Selkowitz
 python-gtk2.0                                Yaakov Selkowitz
@@ -3143,7 +3143,7 @@ python-isodate                               Yaakov Selkowitz
 python-jinja2                                Tony Kelman/Marco Atzeri
 python-jmespath                              Yaakov Selkowitz
 python-libvirt                               Yaakov Selkowitz
-python-lockfile                              Yaakov Selkowitz
+python-lockfile                              Marco Atzeri
 python-logilab-astng                         ORPHANED (Jari Aalto)
 python-logilab-common                        ORPHANED (Jari Aalto)
 python-lxml                                  Yaakov Selkowitz
@@ -3160,7 +3160,7 @@ python-odf                                   Yaakov Selkowitz
 python-olefile                               Marco Atzeri
 python-opengl                                Yaakov Selkowitz
 python-opengl-accelerate                     Yaakov Selkowitz
-python-openssl                               Yaakov Selkowitz
+python-openssl                               Marco Atzeri
 python-orbit                                 Yaakov Selkowitz
 python-packaging                             Marco Atzeri
 python-paramiko                              Michael Wild
@@ -3173,8 +3173,8 @@ python-pip                                   Marco Atzeri
 python-ply                                   Marco Atzeri
 python-prompt_toolkit                        Marco Atzeri
 python-ptyprocess                            Marco Atzeri
-python-pyasn1                                Yaakov Selkowitz
-python-pyasn1-modules                        Yaakov Selkowitz
+python-pyasn1                                Marco Atzeri
+python-pyasn1-modules                        Marco Atzeri
 python-pyatspi                               Yaakov Selkowitz
 python-pycparser                             Marco Atzeri
 python-pygame                                Yaakov Selkowitz
@@ -3211,6 +3211,7 @@ python-sphinx-notfound-page                  Marco Atzeri
 python-sphinxcontrib-applehelp               Marco Atzeri
 python-sphinxcontrib-devhelp                 Marco Atzeri
 python-sphinxcontrib-htmlhelp                Marco Atzeri
+python-sphinxcontrib-jsmath                  Marco Atzeri
 python-sphinxcontrib-qthelp                  Marco Atzeri
 python-sphinxcontrib-serializinghtml         Marco Atzeri
 python-sphinxcontrib-websupport              Marco Atzeri

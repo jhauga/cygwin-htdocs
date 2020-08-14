@@ -1253,6 +1253,7 @@ libcxx                                       Yaakov Selkowitz
 libcxxabi                                    Yaakov Selkowitz
 libdaemon                                    Yaakov Selkowitz
 libdatrie                                    Yaakov Selkowitz
+libde256                                     Marco Atzeri
 libdbi                                       Yaakov Selkowitz
 libdbi-drivers                               Yaakov Selkowitz
 libdbusmenu                                  Yaakov Selkowitz
@@ -1325,6 +1326,7 @@ libgucharmap                                 Yaakov Selkowitz
 libgweather                                  Yaakov Selkowitz
 libgxps                                      Yaakov Selkowitz
 libhangul                                    Yaakov Selkowitz
+libheif                                      Marco Atzeri
 libical                                      Yaakov Selkowitz
 libICE                                       Jon Turney
 libiconv                                     Lemures Lemniscati

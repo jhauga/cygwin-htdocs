@@ -497,7 +497,7 @@ gamin                                        Yaakov Selkowitz
 garcon                                       Yaakov Selkowitz
 gawk                                         Corinna Vinschen
 gcab                                         Jon Turney
-gcc                                          Jonathan Yong
+gcc                                          Achim Gratz/Jonathan Yong
 gcc-tools-epoch1-autoconf                    ORPHANED (Charles Wilson)
 gcc-tools-epoch1-automake                    ORPHANED (Charles Wilson)
 gcc-tools-epoch2-autoconf                    ORPHANED (Charles Wilson)
@@ -1720,7 +1720,7 @@ mingw64-i686-freetype2                       Yaakov Selkowitz
 mingw64-i686-fribidi                         Yaakov Selkowitz
 mingw64-i686-game-music-emu                  Yaakov Selkowitz
 mingw64-i686-gc                              Yaakov Selkowitz
-mingw64-i686-gcc                             Jonathan Yong
+mingw64-i686-gcc                             Achim Gratz/Jonathan Yong
 mingw64-i686-gconf2                          Yaakov Selkowitz
 mingw64-i686-gconfmm2.6                      Yaakov Selkowitz
 mingw64-i686-gd                              Yaakov Selkowitz
@@ -2068,7 +2068,7 @@ mingw64-x86_64-freetype2                     Yaakov Selkowitz
 mingw64-x86_64-fribidi                       Yaakov Selkowitz
 mingw64-x86_64-game-music-emu                Yaakov Selkowitz
 mingw64-x86_64-gc                            Yaakov Selkowitz
-mingw64-x86_64-gcc                           Jonathan Yong
+mingw64-x86_64-gcc                           Achim Gratz/Jonathan Yong
 mingw64-x86_64-gconf2                        Yaakov Selkowitz
 mingw64-x86_64-gconfmm2.6                    Yaakov Selkowitz
 mingw64-x86_64-gd                            Yaakov Selkowitz

@@ -1506,7 +1506,7 @@ libxkbcommon                                 Jon Turney
 libxkbfile                                   Jon Turney
 libxklavier                                  Yaakov Selkowitz
 libxml++2.6                                  Yaakov Selkowitz
-libxml2                                      Yaakov Selkowitz
+libxml2                                      Marco Atzeri
 libxmp                                       Yaakov Selkowitz
 libXmu                                       Jon Turney
 libXpm                                       Jon Turney
@@ -3094,7 +3094,7 @@ python-backports.ssl_match_hostname          Yaakov Selkowitz
 python-bcrypt                                Michael Wild/Marco Atzeri
 python-beautifulsoup                         Yaakov Selkowitz
 python-boto                                  Yaakov Selkowitz
-python-bs4                                   Yaakov Selkowitz
+python-bs4                                   Marco Atzeri
 python-bsddb3                                Yaakov Selkowitz
 python-bugzilla                              Yaakov Selkowitz
 python-cairo                                 Marco Atzeri
@@ -3129,7 +3129,7 @@ python-goocanvas                             Yaakov Selkowitz
 python-gtk2.0                                Yaakov Selkowitz
 python-gtksourceview2                        Yaakov Selkowitz
 python-h5py                                  Chris LeBlanc/Marco Atzeri
-python-html5lib                              Yaakov Selkowitz
+python-html5lib                              Marco Atzeri
 python-htmltmpl                              Yaakov Selkowitz
 python-httplib2                              Yaakov Selkowitz
 python-hyperlink                             Yaakov Selkowitz
@@ -3148,7 +3148,7 @@ python-libvirt                               Yaakov Selkowitz
 python-lockfile                              Marco Atzeri
 python-logilab-astng                         ORPHANED (Jari Aalto)
 python-logilab-common                        ORPHANED (Jari Aalto)
-python-lxml                                  Yaakov Selkowitz
+python-lxml                                  Marco Atzeri
 python-mako                                  Yaakov Selkowitz
 python-markupsafe                            Marco Atzeri
 python-musicbrainzngs                        Yaakov Selkowitz
@@ -3208,6 +3208,7 @@ python-simplejson                            Yaakov Selkowitz
 python-sip                                   Yaakov Selkowitz
 python-six                                   Marco Atzeri
 python-snowballstemmer                       Marco Atzeri
+python-soupsieve                             Marco Atzeri
 python-sphinx                                Tony Kelman/Marco Atzeri
 python-sphinx-notfound-page                  Marco Atzeri
 python-sphinxcontrib-applehelp               Marco Atzeri
@@ -3228,7 +3229,7 @@ python-unidecode                             Yaakov Selkowitz
 python-urllib3                               Marco Atzeri
 python-virtualenv                            Marco Atzeri
 python-wcwidth                               Marco Atzeri
-python-webencodings                          Yaakov Selkowitz
+python-webencodings                          Marco Atzeri
 python-webkit                                Yaakov Selkowitz
 python-wheel                                 Marco Atzeri
 python-whoosh                                Marco Atzeri

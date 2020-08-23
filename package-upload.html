@@ -139,8 +139,11 @@ be updated and the release area will remain unchanged.</p>
 
 <h2 class="cartouche" id="untest">Removing the test label from a package</h2>
 
-Unfortunately, there's currently no mechanism to allow package maintainers to
-promote their own packages from test to current. Instead, you should:
+Package maintainers can promote their own packages from test to current using:
+
+<pre>    ssh cygwin@cygwin.com untest <i>package-version-release</i></pre>
+
+Historical alternatives were:
 
 <ul>
   <li>Ask on the <tt>#cygwin-developers</tt> IRC channel, or the

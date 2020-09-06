@@ -1697,7 +1697,7 @@ mingw64-i686-cogl                            Yaakov Selkowitz
 mingw64-i686-cppunit                         Yaakov Selkowitz
 mingw64-i686-crypt                           Yaakov Selkowitz
 mingw64-i686-CUnit                           Yaakov Selkowitz
-mingw64-i686-curl                            Yaakov Selkowitz
+mingw64-i686-curl                            Brian Inglis
 mingw64-i686-db                              Yaakov Selkowitz
 mingw64-i686-dbus                            Yaakov Selkowitz
 mingw64-i686-dbus-glib                       Yaakov Selkowitz
@@ -2045,7 +2045,7 @@ mingw64-x86_64-cogl                          Yaakov Selkowitz
 mingw64-x86_64-cppunit                       Yaakov Selkowitz
 mingw64-x86_64-crypt                         Yaakov Selkowitz
 mingw64-x86_64-CUnit                         Yaakov Selkowitz
-mingw64-x86_64-curl                          Yaakov Selkowitz
+mingw64-x86_64-curl                          Brian Inglis
 mingw64-x86_64-db                            Yaakov Selkowitz
 mingw64-x86_64-dbus                          Yaakov Selkowitz
 mingw64-x86_64-dbus-glib                     Yaakov Selkowitz

@@ -1793,7 +1793,7 @@ mingw64-i686-lcms                            Yaakov Selkowitz
 mingw64-i686-lcms2                           Yaakov Selkowitz
 mingw64-i686-libabw0.1                       Yaakov Selkowitz
 mingw64-i686-libao                           Yaakov Selkowitz
-mingw64-i686-libarchive                      Yaakov Selkowitz
+mingw64-i686-libarchive                      Achim Gratz
 mingw64-i686-libart_lgpl2                    Yaakov Selkowitz
 mingw64-i686-libass                          Yaakov Selkowitz
 mingw64-i686-libatomic_ops                   Yaakov Selkowitz
@@ -2141,7 +2141,7 @@ mingw64-x86_64-lcms                          Yaakov Selkowitz
 mingw64-x86_64-lcms2                         Yaakov Selkowitz
 mingw64-x86_64-libabw0.1                     Yaakov Selkowitz
 mingw64-x86_64-libao                         Yaakov Selkowitz
-mingw64-x86_64-libarchive                    Yaakov Selkowitz
+mingw64-x86_64-libarchive                    Achim Gratz
 mingw64-x86_64-libart_lgpl2                  Yaakov Selkowitz
 mingw64-x86_64-libass                        Yaakov Selkowitz
 mingw64-x86_64-libatomic_ops                 Yaakov Selkowitz

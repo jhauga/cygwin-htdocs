@@ -1222,7 +1222,7 @@ libao                                        David Rothenberger
 libappindicator                              ORPHANED (Yaakov Selkowitz)
 libapr1                                      David Rothenberger
 libaprutil1                                  David Rothenberger
-libarchive                                   Marco Atzeri
+libarchive                                   Achim Gratz
 libargp                                      Andrew Schulman
 libart_lgpl_2                                Yaakov Selkowitz
 libass                                       Yaakov Selkowitz

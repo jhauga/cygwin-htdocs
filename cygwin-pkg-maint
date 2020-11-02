@@ -1343,6 +1343,7 @@ libiodbc                                     Yaakov Selkowitz
 libiptcdata                                  Yaakov Selkowitz
 libisocodes                                  Yaakov Selkowitz
 libjpeg-turbo                                Yaakov Selkowitz
+libjwt                                       Daisuke Fujimura
 libkate                                      David Rothenberger
 libkcddb                                     ORPHANED (Yaakov Selkowitz)
 libkdcraw                                    ORPHANED (Yaakov Selkowitz)

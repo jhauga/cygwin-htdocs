@@ -1231,7 +1231,7 @@ libasyncns                                   Yaakov Selkowitz
 libatomic_ops                                Andy Li
 libayatana-appindicator                      Yaakov Selkowitz
 libayatana-indicator                         Yaakov Selkowitz
-libb2                                       Daisuke Fujimura
+libb2                                        Daisuke Fujimura
 libbinio                                     Yaakov Selkowitz
 libbonobo2                                   ORPHANED (Yaakov Selkowitz)
 libbonoboui2                                 ORPHANED (Yaakov Selkowitz)
@@ -1530,7 +1530,7 @@ libzip                                       Yaakov Selkowitz
 libzmf                                       Yaakov Selkowitz
 licensecheck                                 Jari Aalto
 lightsoff                                    Yaakov Selkowitz
-lighttpd                                     Yaakov Selkowitz
+lighttpd                                     Glenn Strauss
 lilypond                                     Marco Atzeri
 link-grammar                                 Yaakov Selkowitz
 linklint                                     Jari Aalto

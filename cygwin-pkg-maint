@@ -1938,7 +1938,7 @@ mingw64-i686-orc0.4                          Yaakov Selkowitz
 mingw64-i686-p11-kit                         Yaakov Selkowitz
 mingw64-i686-pango1.0                        Yaakov Selkowitz
 mingw64-i686-pangomm1.4                      Yaakov Selkowitz
-mingw64-i686-pcre                            Yaakov Selkowitz
+mingw64-i686-pcre                            Achim Gratz
 mingw64-i686-pcre2                           Yaakov Selkowitz
 mingw64-i686-pixman                          Jon Turney
 mingw64-i686-poppler                         Yaakov Selkowitz
@@ -2286,7 +2286,7 @@ mingw64-x86_64-orc0.4                        Yaakov Selkowitz
 mingw64-x86_64-p11-kit                       Yaakov Selkowitz
 mingw64-x86_64-pango1.0                      Yaakov Selkowitz
 mingw64-x86_64-pangomm1.4                    Yaakov Selkowitz
-mingw64-x86_64-pcre                          Yaakov Selkowitz
+mingw64-x86_64-pcre                          Achim Gratz
 mingw64-x86_64-pcre2                         Yaakov Selkowitz
 mingw64-x86_64-pixman                        Jon Turney
 mingw64-x86_64-poppler                       Yaakov Selkowitz
@@ -2640,7 +2640,7 @@ pax                                          Jari Aalto
 pbzip2                                       Marco Atzeri
 pcmanfm                                      Yaakov Selkowitz
 pcmanfm-qt                                   Yaakov Selkowitz
-pcre                                         Yaakov Selkowitz
+pcre                                         Achim Gratz
 pcre2                                        Yaakov Selkowitz
 pdf2djvu                                     Yaakov Selkowitz
 pdfgrep                                      Yaakov Selkowitz

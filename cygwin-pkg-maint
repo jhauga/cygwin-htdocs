@@ -3094,8 +3094,8 @@ pylint                                       ORPHANED (Jari Aalto)
 python-alabaster                             Marco Atzeri
 python-appdirs                               Marco Atzeri
 python-asn1crypto                            Marco Atzeri
-python-attrs                                 Yaakov Selkowitz
-python-automat                               Yaakov Selkowitz
+python-attrs                                 Marco Atzeri
+python-automat                               Marco Atzeri
 python-babel                                 Marco Atzeri
 python-backcall                              Marco Atzeri
 python-backports.shutil_get_terminal_size    Yaakov Selkowitz
@@ -3122,6 +3122,7 @@ python-cython                                Marco Atzeri
 python-dbus                                  Yaakov Selkowitz
 python-decorator                             Marco Atzeri
 python-discid                                ORPHANED (Dr. Volker Zell)
+python-distlib                               Marco Atzeri
 python-docutils                              Tony Kelman/Marco Atzeri
 python-dropbox                               Yaakov Selkowitz
 python-enchant                               Yaakov Selkowitz
@@ -3129,6 +3130,7 @@ python-enum34                                Yaakov Selkowitz
 python-fastimport                            Ken Brown
 python-faulthandler                          Yaakov Selkowitz
 python-feedparser                            Yaakov Selkowitz
+python-filelock                              Marco Atzeri
 python-future                                Jon Turney
 python-futures                               Yaakov Selkowitz
 python-gdata                                 ORPHANED (Chris Sutcliffe)
@@ -3142,9 +3144,11 @@ python-html5lib                              Marco Atzeri
 python-htmltmpl                              Yaakov Selkowitz
 python-httplib2                              Yaakov Selkowitz
 python-hyperlink                             Yaakov Selkowitz
+python-hyphotesis                            Marco Atzeri
 python-idna                                  Marco Atzeri
 python-imagesize                             Marco Atzeri
 python-imaging                               Hamish McIntyre-Bhatty
+python-importlib-metadata                    Marco Atzeri
 python-incremental                           Yaakov Selkowitz
 python-ipaddr                                Yaakov Selkowitz
 python-ipaddress                             Yaakov Selkowitz
@@ -3160,6 +3164,7 @@ python-logilab-common                        ORPHANED (Jari Aalto)
 python-lxml                                  Marco Atzeri
 python-mako                                  Yaakov Selkowitz
 python-markupsafe                            Marco Atzeri
+python-matplotlib                            Marco Atzeri
 python-musicbrainzngs                        Yaakov Selkowitz
 python-mutagen                               Yaakov Selkowitz
 python-mx                                    Yaakov Selkowitz
@@ -3181,6 +3186,7 @@ python-pbr                                   Yaakov Selkowitz
 python-pexpect                               Marco Atzeri
 python-pickleshare                           Marco Atzeri
 python-pip                                   Marco Atzeri
+python-pluggy                                Marco Atzeri
 python-ply                                   Marco Atzeri
 python-prompt_toolkit                        Marco Atzeri
 python-ptyprocess                            Marco Atzeri
@@ -3202,6 +3208,8 @@ python-pyqt5-qt3d                            Yaakov Selkowitz
 python-pyqt5-qtchart                         Yaakov Selkowitz
 python-pyqt5-qtdatavisualization             Yaakov Selkowitz
 python-pyrex                                 Yaakov Selkowitz
+python-py                                    Marco Atzeri
+python-pytest                                Marco Atzeri
 python-pytz                                  Marco Atzeri
 python-rdflib                                Yaakov Selkowitz
 python-recommonmark                          Yaakov Selkowitz
@@ -3214,7 +3222,7 @@ python-service_identity                      Yaakov Selkowitz
 python-setuptools                            Marco Atzeri
 python-simplegeneric                         Marco Atzeri
 python-simplejson                            Yaakov Selkowitz
-python-sip                                   Yaakov Selkowitz
+python-sip                                   Marco Atzeri
 python-six                                   Marco Atzeri
 python-snowballstemmer                       Marco Atzeri
 python-soupsieve                             Marco Atzeri
@@ -3231,6 +3239,8 @@ python-sphinx_rtd_theme                      Marco Atzeri
 python-sqlalchemy                            Marco Atzeri
 python-straight.plugin                       Yaakov Selkowitz
 python-testpath                              Marco Atzeri
+python-toml                                  Marco Atzeri
+python-tox                                   Marco Atzeri
 python-traitlets                             Marco Atzeri
 python-twisted                               Yaakov Selkowitz
 python-typing                                Yaakov Selkowitz
@@ -3246,8 +3256,10 @@ python-winrm                                 Yaakov Selkowitz
 python-wx                                    Hamish McIntyre-Bhatty
 python-xdg                                   Yaakov Selkowitz
 python-xmltodict                             Yaakov Selkowitz
+python-xtarfile                              Marco Atzeri
 python-yaml                                  Yaakov Selkowitz
 python-zmq                                   Marco Atzeri
+python-zstandard                             Marco Atzeri
 python-zope.interface                        Yaakov Selkowitz
 python2                                      Marco Atzeri
 python2-doc                                  Marco Atzeri

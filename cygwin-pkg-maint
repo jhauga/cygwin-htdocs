@@ -209,7 +209,7 @@ cfourcc                                      Jari Aalto
 cfv                                          Jari Aalto
 cgdb                                         Jari Aalto
 cgit                                         Yaakov Selkowitz
-check                                        Yaakov Selkowitz
+check                                        Achim Gratz
 checkbashisms                                Jari Aalto
 chemical-mime-data                           Yaakov Selkowitz
 chere                                        Dave Kilroy
@@ -1623,7 +1623,7 @@ makedepend                                   Jon Turney
 makepasswd                                   Jari Aalto
 makeself                                     Jari Aalto
 malaga                                       Yaakov Selkowitz
-man-db                                       Chris J. Breisch/Yaakov Selkowitz
+man-db                                       Chris J. Breisch/Achim Gratz
 man-pages-posix                              Corinna Vinschen
 manlint                                      ORPHANED
 marble                                       Yaakov Selkowitz

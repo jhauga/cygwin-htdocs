@@ -139,7 +139,7 @@ beforelight                                  Yaakov Selkowitz
 biber                                        Ken Brown
 bidiv                                        Yaakov Selkowitz
 bind                                         Yaakov Selkowitz
-binutils                                     Jonathan Yong
+binutils                                     Achim Gratz
 bison                                        Eric Blake
 bitmap                                       Jon Turney
 bitstream-vera-fonts                         Jon Turney
@@ -1688,7 +1688,7 @@ mingw64-i686-atk1.0                          Yaakov Selkowitz
 mingw64-i686-atkmm1.6                        Yaakov Selkowitz
 mingw64-i686-audiofile                       Yaakov Selkowitz
 mingw64-i686-babl0.1                         Yaakov Selkowitz
-mingw64-i686-binutils                        Jonathan Yong
+mingw64-i686-binutils                        Achim Gratz
 mingw64-i686-boost                           Yaakov Selkowitz
 mingw64-i686-botan1.10                       Yaakov Selkowitz
 mingw64-i686-bzip2                           Yaakov Selkowitz
@@ -2036,7 +2036,7 @@ mingw64-x86_64-atk1.0                        Yaakov Selkowitz
 mingw64-x86_64-atkmm1.6                      Yaakov Selkowitz
 mingw64-x86_64-audiofile                     Yaakov Selkowitz
 mingw64-x86_64-babl0.1                       Yaakov Selkowitz
-mingw64-x86_64-binutils                      Jonathan Yong
+mingw64-x86_64-binutils                      Achim Gratz
 mingw64-x86_64-boost                         Yaakov Selkowitz
 mingw64-x86_64-botan1.10                     Yaakov Selkowitz
 mingw64-x86_64-bzip2                         Yaakov Selkowitz

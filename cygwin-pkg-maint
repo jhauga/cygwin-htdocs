@@ -129,7 +129,7 @@ baobab                                       Yaakov Selkowitz
 base-cygwin                                  Corinna Vinschen
 base-files                                   Achim Gratz
 bash                                         Eric Blake
-bash-completion                              Eric Blake/Yaakov Selkowitz
+bash-completion                              Eric Blake
 bashdb                                       Eric Blake
 bc                                           Andrew Schulman
 bcrypt                                       Jari Aalto
@@ -256,7 +256,7 @@ copyright-update                             Jari Aalto
 corebird                                     Yaakov Selkowitz
 coreutils                                    Eric Blake
 corkscrew                                    Jari Aalto
-cpio                                         Corinna Vinschen/Yaakov Selkowitz
+cpio                                         Corinna Vinschen
 cppcheck                                     ORPHANED (David Stacey)
 cppi                                         Eric Blake
 cppunit                                      Yaakov Selkowitz
@@ -285,7 +285,7 @@ cygextreg                                    Joni Eskelinen
 cygport                                      Yaakov Selkowitz
 cygrunsrv                                    Corinna Vinschen
 cygutils                                     Mark Geisert
-cygwin                                       Corinna Vinschen/Yaakov Selkowitz/Ken Brown
+cygwin                                       Corinna Vinschen/Ken Brown
 cygwin-x-doc                                 Jon Turney
 cygwin32                                     Yaakov Selkowitz
 cygwin32-binutils                            Yaakov Selkowitz
@@ -448,7 +448,7 @@ fetchmail                                    Achim Gratz
 ffcall                                       Ken Brown
 fftw3                                        Marco Atzeri
 figlet                                       Jari Aalto
-file                                         Corinna Vinschen/Yaakov Selkowitz
+file                                         Corinna Vinschen
 file-roller                                  Yaakov Selkowitz
 filelight                                    Yaakov Selkowitz
 filemanager-actions                          Yaakov Selkowitz
@@ -511,7 +511,7 @@ gcovr                                        ORPHANED (David Stacey)
 gcr                                          Yaakov Selkowitz
 gd                                           Ken Brown
 gdal                                         Marco Atzeri
-gdb                                          Corinna Vinschen/Yaakov Selkowitz/Jon Turney
+gdb                                          Jon Turney
 gdbm                                         Yaakov Selkowitz
 gdk-pixbuf2.0                                Yaakov Selkowitz
 gdl3                                         Yaakov Selkowitz
@@ -754,7 +754,7 @@ hdparm                                       ORPHANED (Christian Franke)
 heisenbug-backgrounds                        Yaakov Selkowitz
 help2man                                     Yaakov Selkowitz
 hexalate                                     Yaakov Selkowitz
-hexchat                                      Yaakov Selkowitz/Marco Atzeri
+hexchat                                      Marco Atzeri
 hexedit                                      ORPHANED
 hicolor-icon-theme                           Yaakov Selkowitz
 hidapi                                       Wei-Ren Chen
@@ -1325,7 +1325,7 @@ libgnomekbd                                  Yaakov Selkowitz
 libgnomemm2.6                                ORPHANED (Yaakov Selkowitz)
 libgnomeui2                                  ORPHANED (Yaakov Selkowitz)
 libgnomeuimm2.6                              ORPHANED (Yaakov Selkowitz)
-libgpg-error                                 Yaakov Selkowitz/Marco Atzeri
+libgpg-error                                 Marco Atzeri
 libgrss                                      Yaakov Selkowitz
 libgsf                                       Yaakov Selkowitz
 libgtop2.0                                   Yaakov Selkowitz
@@ -1545,7 +1545,7 @@ llvm                                         Yaakov Selkowitz
 llvm3.5                                      ORPHANED (Yaakov Selkowitz)
 lmdb                                         Yaakov Selkowitz
 lndir                                        Yaakov Selkowitz
-login                                        Corinna Vinschen/Yaakov Selkowitz
+login                                        Corinna Vinschen
 lohit-assamese-fonts                         Yaakov Selkowitz
 lohit-bengali-fonts                          Yaakov Selkowitz
 lohit-devanagari-fonts                       Yaakov Selkowitz
@@ -2594,7 +2594,7 @@ openldap                                     Achim Gratz
 openmpi                                      Marco Atzeri
 OpenSP                                       Yaakov Selkowitz
 openssh                                      Corinna Vinschen
-openssl                                      Corinna Vinschen/Yaakov Selkowitz
+openssl                                      Corinna Vinschen
 openssl10                                    Yaakov Selkowitz
 openwsman                                    Yaakov Selkowitz
 optipng                                      Jari Aalto
@@ -3826,7 +3826,7 @@ vcdimager                                    Yaakov Selkowitz
 verne-backgrounds                            Yaakov Selkowitz
 vfu                                          Jari Aalto
 viewres                                      Yaakov Selkowitz
-vim                                          Yaakov Selkowitz/Marco Atzeri
+vim                                          Marco Atzeri
 vinagre                                      Yaakov Selkowitz
 vino                                         Yaakov Selkowitz
 VirtualGL                                    D. R. Commander

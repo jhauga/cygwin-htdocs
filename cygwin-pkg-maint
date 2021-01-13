@@ -3104,10 +3104,10 @@ python-bcrypt                                Michael Wild/Marco Atzeri
 python-beautifulsoup                         Yaakov Selkowitz
 python-boto                                  Yaakov Selkowitz
 python-bs4                                   Marco Atzeri
-python-bsddb3                                Yaakov Selkowitz
+python-bsddb3                                Marco Atzeri
 python-bugzilla                              Yaakov Selkowitz
 python-cairo                                 Marco Atzeri
-python-certifi                               Yaakov Selkowitz
+python-certifi                               Marco Atzeri
 python-cffi                                  Marco Atzeri
 python-chardet                               Marco Atzeri
 python-chm                                   Yaakov Selkowitz
@@ -3152,6 +3152,7 @@ python-imagesize                             Marco Atzeri
 python-imaging                               Hamish McIntyre-Bhatty
 python-importlib-metadata                    Marco Atzeri
 python-incremental                           Marco Atzeri
+python-iniconfig                             Marco Atzeri
 python-ipaddr                                Yaakov Selkowitz
 python-ipaddress                             Yaakov Selkowitz
 python-ipython                               Marco Atzeri

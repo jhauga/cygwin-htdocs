@@ -3090,10 +3090,11 @@ pv                                           Aaron Schneider
 pwgen                                        Jari Aalto
 pwget                                        Jari Aalto
 py3c                                         David Rothenberger
-pylint                                       ORPHANED (Jari Aalto)
+pylint                                       OBSOLETE (Jari Aalto)
 python-alabaster                             Marco Atzeri
 python-appdirs                               Marco Atzeri
 python-asn1crypto                            Marco Atzeri
+python-astroid                               Marco Atzeri
 python-attrs                                 Marco Atzeri
 python-automat                               Marco Atzeri
 python-babel                                 Marco Atzeri
@@ -3158,11 +3159,13 @@ python-ipaddress                             Yaakov Selkowitz
 python-ipython                               Marco Atzeri
 python-ipython_genutils                      Marco Atzeri
 python-isodate                               Yaakov Selkowitz
+python-isort                                 Marco Atzeri
 python-jinja2                                Tony Kelman/Marco Atzeri
 python-jmespath                              Yaakov Selkowitz
 python-jsonschema                            Marco Atzeri
 python-jupyter_core                          Marco Atzeri
 python-kiwisolver                            Marco Atzeri
+python-lazy-object-proxy                     Marco Atzeri
 python-libvirt                               Yaakov Selkowitz
 python-lockfile                              Marco Atzeri
 python-logilab-astng                         ORPHANED (Jari Aalto)
@@ -3172,6 +3175,7 @@ python-mako                                  Marco Atzeri
 python-markdown                              Marco Atzeri
 python-markupsafe                            Marco Atzeri
 python-matplotlib                            Marco Atzeri
+python-mccabe                                Marco Atzeri
 python-musicbrainzngs                        Yaakov Selkowitz
 python-mutagen                               Yaakov Selkowitz
 python-mx                                    Yaakov Selkowitz
@@ -3206,6 +3210,7 @@ python-pygame                                Yaakov Selkowitz
 python-pygments                              Marco Atzeri
 python-pykde4                                ORPHANED (Yaakov Selkowitz)
 python-pylast                                Yaakov Selkowitz
+python-pylint                                Marco Atzeri
 python-pynotify                              Yaakov Selkowitz
 python-pyparsing                             Marco Atzeri
 python-pypdf                                 Yaakov Selkowitz
@@ -3218,6 +3223,7 @@ python-pyqt5-qtdatavisualization             Yaakov Selkowitz
 python-pyrex                                 Yaakov Selkowitz
 python-py                                    Marco Atzeri
 python-pytest                                Marco Atzeri
+python-pytest-benchmark                      Marco Atzeri
 python-pytz                                  Marco Atzeri
 python-rdflib                                Yaakov Selkowitz
 python-recommonmark                          Yaakov Selkowitz
@@ -3262,6 +3268,7 @@ python-webkit                                Yaakov Selkowitz
 python-wheel                                 Marco Atzeri
 python-whoosh                                Marco Atzeri
 python-winrm                                 Yaakov Selkowitz
+python-wrapt                                 Marco Atzeri
 python-wx                                    Hamish McIntyre-Bhatty
 python-xdg                                   Yaakov Selkowitz
 python-xmltodict                             Yaakov Selkowitz
@@ -3629,7 +3636,7 @@ stgit                                        Jari Aalto
 stow                                         Andrew Schulman
 strigi                                       ORPHANED (Yaakov Selkowitz)
 stunnel                                      Andrew Schulman
-subversion                                   ORPHANED (David Rothenberger/Marco Atzeri)
+subversion                                   Marco Atzeri
 suck                                         Jari Aalto
 sudoku                                       Jari Aalto
 suite3270                                    Peter A. Castro

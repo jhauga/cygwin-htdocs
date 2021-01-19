@@ -3090,7 +3090,7 @@ pv                                           Aaron Schneider
 pwgen                                        Jari Aalto
 pwget                                        Jari Aalto
 py3c                                         David Rothenberger
-pylint                                       OBSOLETE (Jari Aalto)
+pylint                                       ORPHANED (Jari Aalto)
 python-alabaster                             Marco Atzeri
 python-appdirs                               Marco Atzeri
 python-asn1crypto                            Marco Atzeri

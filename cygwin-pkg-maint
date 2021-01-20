@@ -235,7 +235,7 @@ clutter-gtk0.10                              ORPHANED (Yaakov Selkowitz)
 clutter-gtk1.0                               Yaakov Selkowitz
 clutter1.0                                   Yaakov Selkowitz
 cmake                                        Tony Kelman/Marco Atzeri/Lemures Lemniscati
-cmark                                        ORPHANED (David Stacey)
+cmark                                        Marco Atzeri
 cmocka                                       Stephen Groat
 cocom                                        Yaakov Selkowitz
 code2html                                    Jari Aalto
@@ -3114,7 +3114,7 @@ python-chardet                               Marco Atzeri
 python-chm                                   Yaakov Selkowitz
 python-clang                                 Yaakov Selkowitz
 python-cloudfiles                            Yaakov Selkowitz
-python-commonmark                            Yaakov Selkowitz
+python-commonmark                            Marco Atzeri
 python-configobj                             Mike DePaulo/Marco Atzeri
 python-constantly                            Marco Atzeri
 python-crypto                                Marco Atzeri

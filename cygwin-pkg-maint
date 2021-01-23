@@ -3106,7 +3106,7 @@ python-beautifulsoup                         Yaakov Selkowitz
 python-boto                                  Yaakov Selkowitz
 python-bs4                                   Marco Atzeri
 python-bsddb3                                Marco Atzeri
-python-bugzilla                              Yaakov Selkowitz
+python-bugzilla                              Marco Atzeri
 python-cairo                                 Marco Atzeri
 python-certifi                               Marco Atzeri
 python-cffi                                  Marco Atzeri
@@ -3122,7 +3122,7 @@ python-cryptography                          Marco Atzeri
 python-cycler                                Marco Atzeri 
 python-cython                                Marco Atzeri 
 python-dateutil                              Marco Atzeri 
-python-dbus                                  Yaakov Selkowitz
+python-dbus                                  Marco Atzeri
 python-decorator                             Marco Atzeri
 python-discid                                ORPHANED (Dr. Volker Zell)
 python-distlib                               Marco Atzeri
@@ -3145,7 +3145,7 @@ python-gtksourceview2                        Yaakov Selkowitz
 python-h5py                                  Chris LeBlanc/Marco Atzeri
 python-html5lib                              Marco Atzeri
 python-htmltmpl                              Yaakov Selkowitz
-python-httplib2                              Yaakov Selkowitz
+python-httplib2                              Marco Atzeri
 python-hyperlink                             Marco Atzeri
 python-hypothesis                            Marco Atzeri
 python-idna                                  Marco Atzeri
@@ -3226,7 +3226,7 @@ python-pytest                                Marco Atzeri
 python-pytest-benchmark                      Marco Atzeri
 python-pytz                                  Marco Atzeri
 python-rdflib                                Yaakov Selkowitz
-python-recommonmark                          Yaakov Selkowitz
+python-recommonmark                          Marco Atzeri
 python-reportlab                             Yaakov Selkowitz
 python-requests                              Marco Atzeri
 python-requests_ntlm                         Yaakov Selkowitz

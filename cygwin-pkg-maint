@@ -3128,7 +3128,7 @@ python-discid                                ORPHANED (Dr. Volker Zell)
 python-distlib                               Marco Atzeri
 python-docutils                              Tony Kelman/Marco Atzeri
 python-dropbox                               Yaakov Selkowitz
-python-enchant                               Yaakov Selkowitz
+python-enchant                               Marco Atzeri
 python-enum34                                Yaakov Selkowitz
 python-fastimport                            Ken Brown
 python-faulthandler                          Yaakov Selkowitz

@@ -2899,6 +2899,7 @@ perl-Path-Tiny                               Achim Gratz
 perl-PerlIO-utf8_strict                      Achim Gratz/Ken Brown
 perl-Pod-Coverage                            Achim Gratz
 perl-Pod-Escapes                             Achim Gratz
+perl-Pod-Parser                              Achim Gratz
 perl-Pod-Simple                              Achim Gratz
 perl-POD2-Base                               Achim Gratz
 perl-Probe-Perl                              Achim Gratz

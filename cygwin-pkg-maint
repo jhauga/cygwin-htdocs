@@ -3260,7 +3260,7 @@ python-tox                                   Marco Atzeri
 python-traitlets                             Marco Atzeri
 python-twisted                               Marco Atzeri
 python-typing                                Yaakov Selkowitz
-python-unidecode                             Yaakov Selkowitz
+python-unidecode                             Marco Atzeri
 python-urllib3                               Marco Atzeri
 python-virtualenv                            Marco Atzeri
 python-wcwidth                               Marco Atzeri
@@ -3272,7 +3272,7 @@ python-winrm                                 Yaakov Selkowitz
 python-wrapt                                 Marco Atzeri
 python-wx                                    Hamish McIntyre-Bhatty
 python-xdg                                   Yaakov Selkowitz
-python-xmltodict                             Yaakov Selkowitz
+python-xmltodict                             Marco Atzeri
 python-xtarfile                              Marco Atzeri
 python-yaml                                  Yaakov Selkowitz
 python-zmq                                   Marco Atzeri

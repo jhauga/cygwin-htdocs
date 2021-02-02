@@ -3159,10 +3159,10 @@ python-ipaddr                                Yaakov Selkowitz
 python-ipaddress                             Yaakov Selkowitz
 python-ipython                               Marco Atzeri
 python-ipython_genutils                      Marco Atzeri
-python-isodate                               Yaakov Selkowitz
+python-isodate                               Marco Atzeri
 python-isort                                 Marco Atzeri
 python-jinja2                                Tony Kelman/Marco Atzeri
-python-jmespath                              Yaakov Selkowitz
+python-jmespath                              Marco Atzeri
 python-jsonschema                            Marco Atzeri
 python-jupyter_core                          Marco Atzeri
 python-kiwisolver                            Marco Atzeri
@@ -3228,7 +3228,7 @@ python-pytest-benchmark                      Marco Atzeri
 python-pytz                                  Marco Atzeri
 python-rdflib                                Yaakov Selkowitz
 python-recommonmark                          Marco Atzeri
-python-reportlab                             Yaakov Selkowitz
+python-reportlab                             Marco Atzeri
 python-requests                              Marco Atzeri
 python-requests_ntlm                         Yaakov Selkowitz
 python-rsa                                   Yaakov Selkowitz

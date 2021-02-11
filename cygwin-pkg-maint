@@ -1414,7 +1414,7 @@ libpipeline                                  Erwin Waterlander
 libpng                                       Ken Brown
 libpng12                                     Yaakov Selkowitz
 libpqxx                                      Yaakov Selkowitz
-libproxy                                     Yaakov Selkowitz
+libproxy                                     ORPHANED (Yaakov Selkowitz)
 libpsl                                       Yaakov Selkowitz
 libpst                                       Yaakov Selkowitz
 libqaccessibilityclient                      ORPHANED (Yaakov Selkowitz)
@@ -1536,7 +1536,7 @@ licensecheck                                 Jari Aalto
 lightsoff                                    Yaakov Selkowitz
 lighttpd                                     Glenn Strauss
 lilypond                                     Marco Atzeri
-link-grammar                                 Yaakov Selkowitz
+link-grammar                                 ORPHANED (Yaakov Selkowitz)
 linklint                                     Jari Aalto
 links                                        Jari Aalto
 linux-libertine-fonts                        Yaakov Selkowitz
@@ -1631,7 +1631,7 @@ marblewidget                                 ORPHANED (Yaakov Selkowitz)
 marco                                        Yaakov Selkowitz
 mariadb-connector-c                          Yaakov Selkowitz
 mariadb-connector-odbc                       Yaakov Selkowitz
-marisa                                       Yaakov Selkowitz
+marisa                                       ORPHANED (Yaakov Selkowitz)
 mate-applets                                 Yaakov Selkowitz
 mate-backgrounds                             Yaakov Selkowitz
 mate-calc                                    Yaakov Selkowitz
@@ -2444,7 +2444,7 @@ newmail                                      Jari Aalto
 nfrotz                                       Jon Turney
 nfs-server                                   Yaakov Selkowitz
 nghttp2                                      Yaakov Selkowitz
-nginx                                        Yaakov Selkowitz
+nginx                                        ORPHANED (Yaakov Selkowitz)
 ngspice                                      Marco Atzeri
 ninja                                        Jon Turney
 ninvaders                                    ORPHANED (David Stacey)
@@ -2596,7 +2596,7 @@ OpenSP                                       Yaakov Selkowitz
 openssh                                      Corinna Vinschen
 openssl                                      Corinna Vinschen
 openssl10                                    Yaakov Selkowitz
-openwsman                                    Yaakov Selkowitz
+openwsman                                    ORPHANED (Yaakov Selkowitz)
 optipng                                      Jari Aalto
 opus                                         Yaakov Selkowitz
 opus-tools                                   Yaakov Selkowitz
@@ -3956,7 +3956,7 @@ xfce4-weather-plugin                         Yaakov Selkowitz
 xfce4-whiskermenu-plugin                     Yaakov Selkowitz
 xfce4-wmdock-plugin                          Yaakov Selkowitz
 xfce4-xkb-plugin                             Yaakov Selkowitz
-xfconf                                       Yaakov Selkowitz
+xfconf                                       ORPHANED (Yaakov Selkowitz)
 xfd                                          Jon Turney
 xfdesktop                                    Yaakov Selkowitz
 xfig                                         Achim Gratz
@@ -4054,13 +4054,13 @@ zathura-cb                                   Yaakov Selkowitz
 zathura-djvu                                 Yaakov Selkowitz
 zathura-pdf-poppler                          Yaakov Selkowitz
 zathura-ps                                   Yaakov Selkowitz
-zbar                                         Yaakov Selkowitz
+zbar                                         ORPHANED (Yaakov Selkowitz)
 zeitgeist                                    ORPHANED (Yaakov Selkowitz)
 zeitgeist-datasources                        ORPHANED (Yaakov Selkowitz)
 zenity                                       Yaakov Selkowitz
 zeromq                                       Yaakov Selkowitz
 zim                                          Yaakov Selkowitz
-zinnia                                       Yaakov Selkowitz
+zinnia                                       ORPHANED (Yaakov Selkowitz)
 zinnia-tomoe                                 Yaakov Selkowitz
 zint                                         Yaakov Selkowitz
 zip                                          Yaakov Selkowitz

@@ -3203,6 +3203,7 @@ python-pluggy                                Marco Atzeri
 python-ply                                   Marco Atzeri
 python-prompt_toolkit                        Marco Atzeri
 python-ptyprocess                            Marco Atzeri
+python-py3c                                  Marco Atzeri
 python-pyasn1                                Marco Atzeri
 python-pyasn1-modules                        Marco Atzeri
 python-pyatspi                               Yaakov Selkowitz

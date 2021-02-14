@@ -3187,8 +3187,8 @@ python-ntlm-auth                             Yaakov Selkowitz
 python-numpy                                 Marco Atzeri
 python-odf                                   Yaakov Selkowitz
 python-olefile                               Marco Atzeri
-python-opengl                                Yaakov Selkowitz
-python-opengl-accelerate                     Yaakov Selkowitz
+python-opengl                                Marco Atzeri
+python-opengl-accelerate                     Marco Atzeri
 python-openssl                               Marco Atzeri
 python-orbit                                 Yaakov Selkowitz
 python-packaging                             Marco Atzeri
@@ -3209,7 +3209,7 @@ python-pyasn1                                Marco Atzeri
 python-pyasn1-modules                        Marco Atzeri
 python-pyatspi                               Yaakov Selkowitz
 python-pycparser                             Marco Atzeri
-python-pygame                                Yaakov Selkowitz
+python-pygame                                Marco Atzeri
 python-pygments                              Marco Atzeri
 python-pykde4                                ORPHANED (Yaakov Selkowitz)
 python-pylast                                Yaakov Selkowitz

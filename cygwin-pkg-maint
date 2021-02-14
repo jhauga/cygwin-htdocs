@@ -3199,6 +3199,7 @@ python-pbr                                   Yaakov Selkowitz
 python-pexpect                               Marco Atzeri
 python-pickleshare                           Marco Atzeri
 python-pip                                   Marco Atzeri
+python-pkgconfig                             Marco Atzeri
 python-pluggy                                Marco Atzeri
 python-ply                                   Marco Atzeri
 python-prompt_toolkit                        Marco Atzeri

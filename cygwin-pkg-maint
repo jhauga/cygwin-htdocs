@@ -3128,7 +3128,7 @@ python-decorator                             Marco Atzeri
 python-discid                                ORPHANED (Dr. Volker Zell)
 python-distlib                               Marco Atzeri
 python-docutils                              Tony Kelman/Marco Atzeri
-python-dropbox                               Yaakov Selkowitz
+python-dropbox                               Marco Atzeri
 python-enchant                               Marco Atzeri
 python-enum34                                Yaakov Selkowitz
 python-fastimport                            Ken Brown
@@ -3238,7 +3238,7 @@ python-scandir                               Yaakov Selkowitz
 python-service_identity                      Marco Atzeri
 python-setuptools                            Marco Atzeri
 python-simplegeneric                         Marco Atzeri
-python-simplejson                            Yaakov Selkowitz
+python-simplejson                            Marco Atzeri
 python-sip                                   Marco Atzeri
 python-six                                   Marco Atzeri
 python-sortedcontainers                      Marco Atzeri
@@ -3255,6 +3255,7 @@ python-sphinxcontrib-serializinghtml         Marco Atzeri
 python-sphinxcontrib-websupport              Marco Atzeri
 python-sphinx_rtd_theme                      Marco Atzeri
 python-sqlalchemy                            Marco Atzeri
+python-stone                                 Marco Atzeri
 python-straight.plugin                       Yaakov Selkowitz
 python-testpath                              Marco Atzeri
 python-toml                                  Marco Atzeri

@@ -3161,6 +3161,7 @@ python-ipython                               Marco Atzeri
 python-ipython_genutils                      Marco Atzeri
 python-isodate                               Marco Atzeri
 python-isort                                 Marco Atzeri
+python-jedi                                  Marco Atzeri
 python-jinja2                                Tony Kelman/Marco Atzeri
 python-jmespath                              Marco Atzeri
 python-jsonschema                            Marco Atzeri
@@ -3193,6 +3194,7 @@ python-openssl                               Marco Atzeri
 python-orbit                                 Yaakov Selkowitz
 python-packaging                             Marco Atzeri
 python-paramiko                              Michael Wild
+python-parso                                 Marco Atzeri
 python-passlib                               Yaakov Selkowitz
 python-pathlib2                              Yaakov Selkowitz
 python-pbr                                   Yaakov Selkowitz

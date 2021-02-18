@@ -3279,7 +3279,7 @@ python-wx                                    Hamish McIntyre-Bhatty
 python-xdg                                   Yaakov Selkowitz
 python-xmltodict                             Marco Atzeri
 python-xtarfile                              Marco Atzeri
-python-yaml                                  Yaakov Selkowitz
+python-yaml                                  Marco Atzeri
 python-zipp                                  Marco Atzeri
 python-zmq                                   Marco Atzeri
 python-zstandard                             Marco Atzeri
@@ -4047,7 +4047,7 @@ xz                                           Yaakov Selkowitz
 yad                                          Yaakov Selkowitz
 yajl                                         Yaakov Selkowitz
 yakuake                                      Yaakov Selkowitz
-yaml                                         Yaakov Selkowitz
+yaml                                         Marco Atzeri
 yasm                                         ORPHANED (David Stacey)
 yaz                                          Yaakov Selkowitz
 yelp                                         Yaakov Selkowitz

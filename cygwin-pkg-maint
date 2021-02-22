@@ -749,6 +749,7 @@ gzip                                         Eric Blake
 hamster-time-tracker                         Yaakov Selkowitz
 harfbuzz                                     Ken Brown
 haxe                                         Andy Li
+hdf4                                         Marco Atzeri
 hdf5                                         Marco Atzeri
 hdparm                                       ORPHANED (Christian Franke)
 heisenbug-backgrounds                        Yaakov Selkowitz
@@ -1219,6 +1220,7 @@ lensfun                                      Yaakov Selkowitz
 leptonica                                    Marco Atzeri
 less                                         Marco Atzeri
 lftp                                         Andrew Schulman
+libaec                                       Marco Atzeri
 libabw0.1                                    Yaakov Selkowitz
 libalkimia                                   ORPHANED (Yaakov Selkowitz)
 libao                                        David Rothenberger
@@ -3090,7 +3092,6 @@ putty                                        Yaakov Selkowitz
 pv                                           Aaron Schneider
 pwgen                                        Jari Aalto
 pwget                                        Jari Aalto
-py3c                                         David Rothenberger
 pylint                                       OBSOLETE (Jari Aalto)
 python-alabaster                             Marco Atzeri
 python-appdirs                               Marco Atzeri

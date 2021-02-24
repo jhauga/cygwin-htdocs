@@ -3185,9 +3185,9 @@ python-mx                                    Yaakov Selkowitz
 python-nacl                                  Michael Wild
 python-nbformat                              Marco Atzeri
 python-nose                                  Marco Atzeri
-python-ntlm-auth                             Yaakov Selkowitz
+python-ntlm-auth                             Marco Atzeri
 python-numpy                                 Marco Atzeri
-python-odf                                   Yaakov Selkowitz
+python-odf                                   Marco Atzeri
 python-olefile                               Marco Atzeri
 python-opengl                                Marco Atzeri
 python-opengl-accelerate                     Marco Atzeri
@@ -3770,7 +3770,8 @@ TeXmacs                                      Marco Atzeri
 tftp                                         Gernot Hillier
 the_silver_searcher                          Adam Dinwoodie
 Thunar                                       Yaakov Selkowitz
-tidy                                         Yaakov Selkowitz
+tidy                                         ORPHANED (Yaakov Selkowitz)
+tidy-html5                                   Marco Atzeri
 tiff                                         Lemures Lemniscati
 tig                                          Jari Aalto
 tigervnc                                     Yaakov Selkowitz

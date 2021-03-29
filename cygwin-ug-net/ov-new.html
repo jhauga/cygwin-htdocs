@@ -1,5 +1,49 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>What's new and what changed in Cygwin</title><link rel="stylesheet" type="text/css" href="docbook.css"><meta name="generator" content="DocBook XSL Stylesheets Vsnapshot"><link rel="home" href="cygwin-ug-net.html" title="Cygwin User's Guide"><link rel="up" href="overview.html" title="Chapter 1. Cygwin Overview"><link rel="prev" href="highlights.html" title="Highlights of Cygwin Functionality"><link rel="next" href="setup-net.html" title="Chapter 2. Setting Up Cygwin"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">What's new and what changed in Cygwin</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="highlights.html">Prev</a> </td><th width="60%" align="center">Chapter 1. Cygwin Overview</th><td width="20%" align="right"> <a accesskey="n" href="setup-net.html">Next</a></td></tr></table><hr></div><div class="sect1"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="ov-new"></a>What's new and what changed in Cygwin</h2></div></div></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="ov-new3.1"></a>What's new and what changed in 3.1</h3></div></div></div><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: bullet; "><li class="listitem" style="list-style-type: disc"><p>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>What's new and what changed in Cygwin</title><link rel="stylesheet" type="text/css" href="docbook.css"><meta name="generator" content="DocBook XSL Stylesheets Vsnapshot"><link rel="home" href="cygwin-ug-net.html" title="Cygwin User's Guide"><link rel="up" href="overview.html" title="Chapter 1. Cygwin Overview"><link rel="prev" href="highlights.html" title="Highlights of Cygwin Functionality"><link rel="next" href="setup-net.html" title="Chapter 2. Setting Up Cygwin"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">What's new and what changed in Cygwin</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="highlights.html">Prev</a> </td><th width="60%" align="center">Chapter 1. Cygwin Overview</th><td width="20%" align="right"> <a accesskey="n" href="setup-net.html">Next</a></td></tr></table><hr></div><div class="sect1"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="ov-new"></a>What's new and what changed in Cygwin</h2></div></div></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="ov-new3.2"></a>What's new and what changed in 3.2</h3></div></div></div><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: bullet; "><li class="listitem" style="list-style-type: disc"><p>
+Revamped pseudo console support.  Conditionally activating it only when
+a non-cygwin application is run.
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+New C11 threads API: call_once, cnd_broadcast, cnd_destroy, cnd_init,
+cnd_signal, cnd_timedwait, cnd_wait, mtx_destroy, mtx_init, mtx_lock,
+mtx_timedlock, mtx_trylock, mtx_unlock, thrd_create, thrd_current,
+thrd_detach, thrd_equal, thrd_exit, thrd_join, thrd_sleep, thrd_yield,
+tss_create, tss_delete, tss_get, tss_set.
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+In cygwin console, new thread which handles special keys/signals such
+as Ctrl-Z (VSUSP), Ctrl-\ (VQUIT), Ctrl-S (VSTOP), Ctrl-Q (VSTART) and
+SIGWINCH has been introduced. There have been a long standing issue
+that these keys/signals are handled only when app calls read() or
+select(). Now, these work even if app does not call read() or select().
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+Allow ~5000 child processes per process on 64 bit, ~1200 child processes
+per process on 32 bit.  So far, only 256 child processes per process were
+supported.
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+A few FAQ updates.
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+Have tmpfile(3) make use of Win32 FILE_ATTRIBUTE_TEMPORARY via open(2)
+flag O_TMPFILE.
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+Utilize Windows 10 1809 FILE_DISPOSITION_IGNORE_READONLY_ATTRIBUTE flag
+to allow simpler unlink of files with DOS readonly flags set.
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+fchmodat(2) now has limited support for the AT_SYMLINK_NOFOLLOW flag.
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+getdtablesize(3), sysconf(_SC_OPEN_MAX), and getrlimit(RLIMIT_NOFILE)
+now return the true limit on the number of open descriptors, 3200.
+Previously they returned the current size of Cygwin's internal file
+descriptor table, which can grow dynamically.
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+Cygwin now recognizes native Windows AF_UNIX sockets (as regular
+files, not as socket files).  This allows tools like 'ls' and 'rm' to
+work.
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+facl(2) now fails with EBADF on a file opened with O_PATH.
+</p></li><li class="listitem" style="list-style-type: disc"><p>
+- Allow to start Windows Store executables via their "app execution
+  aliases".  Handle these aliases (which are special reparse points)
+  as symlinks to the actual executables.
+</p></li></ul></div></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="ov-new3.1"></a>What's new and what changed in 3.1</h3></div></div></div><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: bullet; "><li class="listitem" style="list-style-type: disc"><p>
 FIFOs can now be opened multiple times for writing.
 </p></li><li class="listitem" style="list-style-type: disc"><p>
 Add 24 bit color support using xterm compatibility mode in Windows 10

@@ -1,6 +1,6 @@
 2048-cli                                     ORPHANED (Yaakov Selkowitz)
 2048-qt                                      ORPHANED (Yaakov Selkowitz)
-4ti2                                         Yue Ren/Marco Atzeri
+4ti2                                         Marco Atzeri
 a2ps                                         ORPHANED (Yaakov Selkowitz)
 a52dec                                       ORPHANED (Yaakov Selkowitz)
 aalib                                        ORPHANED (Dr. Volker Zell)
@@ -198,7 +198,7 @@ cccc                                         Jari Aalto
 ccolamd                                      Marco Atzeri
 ccrypt                                       Marco Atzeri
 cdargs                                       Jari Aalto
-cddlib                                       Yue Ren/Marco Atzeri
+cddlib                                       Marco Atzeri
 cdrkit                                       Christian Franke
 celestia                                     ORPHANED (Yaakov Selkowitz)
 celt051                                      ORPHANED (Yaakov Selkowitz)
@@ -460,7 +460,7 @@ flac                                         David Rothenberger
 flawfinder                                   Jari Aalto
 flex                                         Marco Atzeri
 flexdll                                      David Allsopp
-flint                                        Yue Ren/Marco Atzeri
+flint                                        Marco Atzeri
 flip                                         Jari Aalto
 flite                                        ORPHANED (Yaakov Selkowitz)
 flog                                         Jari Aalto
@@ -476,7 +476,7 @@ fontforge                                    Lemures Lemniscati
 fonttosfnt                                   Jon Turney
 foobillard                                   ORPHANED (David Stacey)
 fort77                                       ORPHANED (Yaakov Selkowitz)
-fortune-mod                                  Yitzchak Scott-Thoennes
+fortune-mod                                  ORPHANED (Yitzchak Scott-Thoennes)
 fossil                                       Jari Aalto
 four-in-a-row                                ORPHANED (Yaakov Selkowitz)
 free42                                       ORPHANED (Yaakov Selkowitz)
@@ -2462,7 +2462,7 @@ npth                                         Marco Atzeri
 nrss                                         Jari Aalto
 nspr                                         ORPHANED (Yaakov Selkowitz)
 nss                                          ORPHANED (Yaakov Selkowitz)
-ntl                                          Yue Ren/Marco Atzeri
+ntl                                          Marco Atzeri
 nttcp                                        Jari Aalto
 nx-libs                                      ORPHANED (Yaakov Selkowitz)
 obby                                         ORPHANED (Yaakov Selkowitz)
@@ -3591,7 +3591,7 @@ sidplayfp                                    ORPHANED (Yaakov Selkowitz)
 signify                                      Jari Aalto
 simsu                                        ORPHANED (Yaakov Selkowitz)
 since                                        Jari Aalto
-singular                                     Yue Ren/Marco Atzeri
+singular                                     Marco Atzeri
 sitecopy                                     Andrew Schulman
 sj-fonts                                     ORPHANED (Yaakov Selkowitz)
 skkdic                                       ORPHANED (Yaakov Selkowitz)
@@ -3651,7 +3651,7 @@ suite3270                                    Peter A. Castro
 suitesparseconfig                            Marco Atzeri
 sundials                                     Marco Atzeri
 suomi-malaga                                 ORPHANED (Yaakov Selkowitz)
-surf                                         Yue Ren/Marco Atzeri
+surf                                         Marco Atzeri
 sushi                                        ORPHANED (Yaakov Selkowitz)
 svgpart                                      ORPHANED (Yaakov Selkowitz)
 svm                                          Ken Brown

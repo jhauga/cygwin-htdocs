@@ -199,6 +199,7 @@ ccolamd                                      Marco Atzeri
 ccrypt                                       Marco Atzeri
 cdargs                                       Jari Aalto
 cddlib                                       Marco Atzeri
+cdo                                          Marco Atzeri
 cdrkit                                       Christian Franke
 celestia                                     ORPHANED (Yaakov Selkowitz)
 celt051                                      ORPHANED (Yaakov Selkowitz)
@@ -385,6 +386,7 @@ e2fsimage                                    ORPHANED (Yaakov Selkowitz)
 e2fsprogs                                    ORPHANED (Yaakov Selkowitz)
 easytag                                      ORPHANED (Yaakov Selkowitz)
 ebook-tools                                  ORPHANED (Yaakov Selkowitz)
+eccodes                                      Marco Atzeri
 ed                                           Marco Atzeri
 editres                                      Jon Turney
 editrights                                   Corinna Vinschen
@@ -2428,6 +2430,7 @@ ncdu                                         Christian Franke
 ncftp                                        Jari Aalto
 ncmpc                                        ORPHANED (Yaakov Selkowitz)
 ncmpcpp                                      ORPHANED (Yaakov Selkowitz)
+nco                                          Marco Atzeri
 ncompress                                    ORPHANED (Yaakov Selkowitz)
 ncurses                                      ORPHANED (Yaakov Selkowitz)
 ncview                                       Marco Atzeri
@@ -3230,6 +3233,8 @@ python-pyrex                                 ORPHANED (Yaakov Selkowitz)
 python-py                                    Marco Atzeri
 python-pytest                                Marco Atzeri
 python-pytest-benchmark                      Marco Atzeri
+python-pytest-env                            Marco Atzeri
+python-pytest-sugar                          Marco Atzeri
 python-pytz                                  Marco Atzeri
 python-rdflib                                ORPHANED (Yaakov Selkowitz)
 python-recommonmark                          Marco Atzeri
@@ -3260,6 +3265,7 @@ python-sphinx_rtd_theme                      Marco Atzeri
 python-sqlalchemy                            Marco Atzeri
 python-stone                                 Marco Atzeri
 python-straight.plugin                       ORPHANED (Yaakov Selkowitz)
+python-termcolor                             Marco Atzeri
 python-testpath                              Marco Atzeri
 python-toml                                  Marco Atzeri
 python-tox                                   Marco Atzeri

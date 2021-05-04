@@ -344,6 +344,11 @@ table.pkgtable th
     margin: auto;
 }
 
+#category-list p
+{
+    margin: 0;
+}
+
 /* packaging related --------------------------------------------------- */
 
 table.sample-email

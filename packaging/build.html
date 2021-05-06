@@ -1,3 +1,4 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
@@ -11,7 +12,7 @@
 <div id="main">
 <!--#include virtual="/top.html" -->
 
-<h1>(experimental) Package build service</h1>
+<h1>Package build service (experimental)</h1>
 
 <p>
   After pushing to a package <a href="repos.html">git repository</a>, an
@@ -19,7 +20,8 @@
 </p>
 
 <tt>
-  remote: scallywag: build <i>nnnn</i> queued
+  remote: scallywag: build <i>nnnn</i> queued<br>
+  remote: scallywag: https://cygwin.com/cgi-bin2/jobs.cgi?id=<i>nnnn</i>
 </tt>
 
 <p>
@@ -31,20 +33,16 @@
 <h2>Caveats</h2>
 
 <p>
-  Currently, many packages will fail to build correctly due to:
+  Currently, packages may fail to build correctly due to:
 </p>
 
-<ol>
+<ul>
   <li>missing or insufficient <tt>BUILD_REQUIRES</tt></li>
-  <li>missing prerequisites implied by an <tt>inherit</tt>, or other bugs</li>
+  <li>missing prerequisites implied by an <tt>inherit</tt>, or other bugs in
+  this service</li>
   <li>resource limits imposed by AppVeyor's free service, which is currently
     used to perform the actual builds</li>
-</ol>
-
-<p>
-  This is a <b>prototype</b> system, and at this stage, this is only probably
-  useful for verifying that <tt>BUILD_REQUIRES</tt> is correct.
-</p>
+</ul>
 
 <p>
   (Note that a successful build doesn't always mean that you have reproduced
@@ -62,8 +60,16 @@ the <tt>.cygport</tt> file:
 
 <ul>
   <li>
+    <tt>build</tt><br/>
+    Enables building packages.
+  </li>
+  <li>
     <tt>nobuild</tt><br/>
     Disables building packages.
+  </li>
+  <li>
+    <tt>test</tt><br/>
+    Enables running <tt>cygport test</tt>.
   </li>
   <li>
     <tt>notest</tt><br/>
@@ -73,11 +79,31 @@ the <tt>.cygport</tt> file:
     <tt>deploy</tt><br/>
     For the master branch, after a successful build, the built packages are
     handed-off to the package uploader.
-    <br/> <br/>
+    <br/>
     Note that currently, these packages are built using <tt>cygport
     all-test</tt>, and so will always be marked as test.
   </li>
+  <li>
+    <tt>nodeploy</tt><br/>
+    Take no action after a successful build.
+  </li>
 </ul>
+
+<h2>Per-maintainer default</h2>
+
+<p>
+  The default value for the <tt>SCALLYWAG</tt> variable may be specified in
+  a <tt>!scallywag</tt> file in the root of maintainer's upload directory tree.
+</p>
+
+<p>
+  Additionally, if that file contains <tt>disable</tt>, this service is
+  completely disabled for all that maintainer's pushes.
+</p>
+
+<p>
+  If that file is absent, the default value is <tt>build test</tt>.
+</p>
 
 </div>
 

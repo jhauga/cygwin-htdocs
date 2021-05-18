@@ -1889,7 +1889,7 @@ mingw64-i686-libsndfile                      ORPHANED (Yaakov Selkowitz)
 mingw64-i686-libsodium                       ORPHANED (Yaakov Selkowitz)
 mingw64-i686-libsolv                         Jon Turney
 mingw64-i686-libsoup2.4                      ORPHANED (Yaakov Selkowitz)
-mingw64-i686-libssh2                         ORPHANED (Yaakov Selkowitz)
+mingw64-i686-libssh2                         Brian Inglis
 mingw64-i686-libstaroffice0.0                ORPHANED (Yaakov Selkowitz)
 mingw64-i686-libtasn1                        ORPHANED (Yaakov Selkowitz)
 mingw64-i686-libtheora                       ORPHANED (Yaakov Selkowitz)
@@ -2237,7 +2237,7 @@ mingw64-x86_64-libsndfile                    ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-libsodium                     ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-libsolv                       Jon Turney
 mingw64-x86_64-libsoup2.4                    ORPHANED (Yaakov Selkowitz)
-mingw64-x86_64-libssh2                       ORPHANED (Yaakov Selkowitz)
+mingw64-x86_64-libssh2                       Brian Inglis
 mingw64-x86_64-libstaroffice0.0              ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-libtasn1                      ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-libtheora                     ORPHANED (Yaakov Selkowitz)

@@ -1344,7 +1344,7 @@ libiconv                                     Lemures Lemniscati
 libid3tag                                    ORPHANED (Yaakov Selkowitz)
 libIDL2                                      ORPHANED (Yaakov Selkowitz)
 libidn                                       ORPHANED (Yaakov Selkowitz)
-libidn2                                      ORPHANED (Yaakov Selkowitz)
+libidn2                                      Brian Inglis
 libimagequant                                ORPHANED (Yaakov Selkowitz)
 libindicator                                 ORPHANED (Yaakov Selkowitz)
 libinfinity0.6                               ORPHANED (Yaakov Selkowitz)
@@ -1419,7 +1419,7 @@ libpng                                       Ken Brown
 libpng12                                     ORPHANED (Yaakov Selkowitz)
 libpqxx                                      ORPHANED (Yaakov Selkowitz)
 libproxy                                     ORPHANED (Yaakov Selkowitz)
-libpsl                                       ORPHANED (Yaakov Selkowitz)
+libpsl                                       Brian Inglis
 libpst                                       ORPHANED (Yaakov Selkowitz)
 libqaccessibilityclient                      ORPHANED (Yaakov Selkowitz)
 libqalculate                                 ORPHANED (Yaakov Selkowitz)
@@ -1852,7 +1852,7 @@ mingw64-i686-libgsf1                         ORPHANED (Yaakov Selkowitz)
 mingw64-i686-libid3tag                       ORPHANED (Yaakov Selkowitz)
 mingw64-i686-libIDL2                         ORPHANED (Yaakov Selkowitz)
 mingw64-i686-libidn                          ORPHANED (Yaakov Selkowitz)
-mingw64-i686-libidn2                         ORPHANED (Yaakov Selkowitz)
+mingw64-i686-libidn2                         Brian Inglis
 mingw64-i686-libimagequant                   ORPHANED (Yaakov Selkowitz)
 mingw64-i686-libjpeg-turbo                   ORPHANED (Yaakov Selkowitz)
 mingw64-i686-libkate                         ORPHANED (Yaakov Selkowitz)
@@ -2200,7 +2200,7 @@ mingw64-x86_64-libgsf1                       ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-libid3tag                     ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-libIDL2                       ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-libidn                        ORPHANED (Yaakov Selkowitz)
-mingw64-x86_64-libidn2                       ORPHANED (Yaakov Selkowitz)
+mingw64-x86_64-libidn2                       Brian Inglis
 mingw64-x86_64-libimagequant                 ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-libjpeg-turbo                 ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-libkate                       ORPHANED (Yaakov Selkowitz)
@@ -3087,7 +3087,7 @@ psiconv                                      ORPHANED (Yaakov Selkowitz)
 psmisc                                       Corinna Vinschen
 pstoedit                                     Marco Atzeri
 pstotext                                     Jari Aalto
-publicsuffix-list                            ORPHANED (Yaakov Selkowitz)
+publicsuffix-list                            Brian Inglis
 pugixml                                      ORPHANED (David Stacey)
 pulseaudio                                   ORPHANED (Yaakov Selkowitz)
 pure-ftpd                                    Marco Atzeri

@@ -351,17 +351,13 @@ table.pkgtable th
 
 /* packaging related --------------------------------------------------- */
 
-table.sample-email
+.sample-email
 {
-    margin-left: 5%;
-    margin-right: 5%;
-    border-collapse: collapse;
-}
-
-table.sample-email td
-{
+    font-family: monospace;
     border-width: 1px;
     border-style: solid;
+    margin-left:5%;
+    margin-right:5%;
 }
 
 .sample-preformat

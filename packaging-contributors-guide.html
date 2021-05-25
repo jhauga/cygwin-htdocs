@@ -203,14 +203,13 @@ Building the packages in that way adds a
   </li>
   <li>
     <p>
-      In order to create a good <tt>.hint</tt> file do read and
+      In order to create a good <tt>.hint</tt> file, do read and
       follow <a href="packaging-hint-files.html#pvr.hint">the documentation</a>.
     </p>
-    A few things to take extra care to:
     <ul class="compact">
-      <li>In order to select an appropriate a correct <tt>Category</tt> you can look in the Debian package list and identify the section that your package is present in there - if it's available via Debian. If it's not, have a look and take a sensible guess. Use <a href="packaging-hint-files.html#categories">existing categories</a> if at all possible.</li>
+      <li>In order to select an appropriate a correct <tt>category</tt> you can look in the Debian package list and identify the section that your package is present in there - if it's available via Debian. If it's not, have a look and take a sensible guess. Use <a href="packaging-hint-files.html#categories">existing categories</a> if at all possible.</li>
       <li>Do not use the package name in <tt>sdesc</tt>, as it is added automatically by the setup program.</li>
-      <li>Opinion on whether to mark your initial version as a <tt>Test</tt> version is currently mixed. If you have doubts about the stability of your initial offering you may decide to mark it as <tt>Test</tt>. Then, once the package has no major bug reports from users, a current package may be introduced. Otherwise, it is perfectly acceptable to forgo the <tt>Test</tt> designation in your first release.</li>
+      <li>Opinion on whether to mark your initial version as a <tt>test</tt> version is currently mixed. If you have doubts about the stability of your initial offering you may decide to mark it as <tt>Test</tt>. Then, once the package has no major bug reports from users, the test label can be removed. Otherwise, it is perfectly acceptable to forgo the <tt>test</tt> designation in your first release.</li>
     </ul>
   </li>
   <li>
@@ -227,6 +226,7 @@ Building the packages in that way adds a
       <li><tt>myserver.com/whatever/x86/foo/foo-0.20.3-1.tar.xz</tt></li>
       <li><tt>myserver.com/whatever/x86/foo/foo-0.20.3-1-src.tar.xz</tt></li>
       <li><tt>myserver.com/whatever/x86/foo/foo-0.20.3-1.hint</tt></li>
+      <li><tt>myserver.com/whatever/x86/foo/foo-0.20.3-1-src.hint</tt></li>
       <li><tt>myserver.com/whatever/x86/foo/libfoo/libfoo-0.20.3-1.tar.xz</tt></li>
       <li><tt>myserver.com/whatever/x86/foo/libfoo/libfoo-0.20.3-1.hint</tt></li>
     </ul>
@@ -243,87 +243,83 @@ Building the packages in that way adds a
 <h2 class="cartouche" id="acceptance">Uploading an accepted package</h2>
 
 <ul class="spaced">
-  <li>Once you have your GTG,
-      follow <a href="package-upload.html">these
-      instructions</a> for submitting a ssh key and uploading your package files.</li>
+  <li>Once you have your GTG, follow the instructions for
+    <a href="packaging/key.html">submitting a ssh key</a> and
+    <a href="package-upload.html">uploading your package files</a>.</li>
+  <li>
+    Please remember to build and upload packages for all architectures (x86 and
+    x86_64).
+  </li>
   <li>
     <p>Announce via the <tt>cygwin-announce</tt> mailing list that the new
-    package is available. Use the <a href="#announcement">announce message
-    example</a> listed later in this page as a template for your announcement.
+    package is available. See the <a href="#announcement">announce message
+    template</a> later in this page.
     </p>
-    <p>
-      Be sure the unsubscribe instructions are included at the end of the email,
-      since cygwin-announce does not add any.
-    </p>
-    <p>
-      Once sent, your message will be reviewed by one of the cygwin-announce
-      moderators and, once approved, will be automatically forwarded to the
-      cygwin mailing list with an [ANNOUNCEMENT] prepended to the subject.
-    </p>
+  </li>
+  <li>
+    <p>If you encounter any problems, email the <tt>cygwin-apps</tt> mailing list.</p>
   </li>
   <li>Feel free to delete your local copy once the files have been uploaded to sourceware.org.</li>
 </ul>
 
 <h2 class="cartouche" id="updating">Updating a package</h2>
 
-<p>So you've got an updated package you want to submit. You should
-  already have upload privileges, and should be able to do the entire
-  process yourself, by
-  following <a href="package-upload.html">these
-  instructions</a>.  If you encounter any problems, email
-  the <tt>cygwin-apps</tt> mailing list.</p>
+<p>So you've got an updated package. You should already have upload privileges,
+  and should be able to do the entire process yourself.
+
 <ul class="spaced">
   <li>
     You <em>must</em> increase the version or release number.  Reset the release
     number to 1 on a version increase.
   </li>
   <li>
-    Follow <a href="package-upload.html#uploading-files">the instructions</a>
-    for uploading your package files.
-  </li>
-  <li>
-    <p>
-      After doing a upload, announce via the <tt>cygwin-announce</tt> mailing
-      list that the updated package is available. Use
-      the <a href="#announcement">announce message example</a> listed later in
-      this page as a template for your announcement.
-    </p>
-    <p>
-      Once sent, your message will be reviewed by one of the cygwin-announce
-      moderators and, once approved, will be automatically forwarded to the
-      cygwin mailing list with an [ANNOUNCEMENT] prepended to the subject.
-    </p>
+    Follow the <a href="#acceptance">steps to upload</a>, as above.
   </li>
 </ul>
-<p>NOTE: On any major version upgrade, you may want to mark the release as <tt>Test</tt>.</p>
-<h3><a id="announcement">Example announcement</a></h3>
+
+<p>NOTE: On any major version upgrade, you may want to mark the release as <tt>test</tt>.</p>
+
+<h2 class="cartouche" id="announcement">Composing an announcement mail</h3>
+
+<p>
+  <tt>cygport announce</tt> can help you compose and send an announcement mail,
+  based on the following template.
+</p>
+
+<div class="sample-email">
+Subject: foo-0.30.2-1<br/>
 <br/>
-<table class="sample-email">
-  <tr>
-    <td><i>Subject:</i></td>
-    <td><tt><b>New package: foo-0.30.2-1</b></tt><br />
-     <i>or</i><br />
-     <tt><b>Updated: foo-0.30.2-1</b></tt> </td>
-  </tr>
-  <tr>
-    <td colspan="2"><tt>Version 0.30.2-1 of "foo" has been uploaded.<br />
-    <br />
-     (a couple of lines about what "foo" is)<br />
-     (short changelog of important features or fixes; big emphasis for security fixes)<br />
-    <br />
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*** CYGWIN-ANNOUNCE UNSUBSCRIBE INFO ***<br />
-    <br />
-     If you want to unsubscribe from the cygwin-announce mailing list, look at the "List-Unsubscribe: " tag in the email header of this message. Send email to the address specified there. It will be in the format:<br />
-    <br />
-     cygwin-announce-unsubscribe-you=yourdomain.com &lt;at&gt; cygwin&#46;com<br />
-    <br />
-     If you need more information on unsubscribing, start reading here:<br />
-    <br />
-     https://sourceware.org/lists.html#unsubscribe-simple<br />
-    <br />
-     Please read *all* of the information on unsubscribing that is available starting at this URL.</tt> </td>
-  </tr>
-</table>
+The following packages have been uploaded to the Cygwin distribution:<br/>
+<br/>
+* foo 0.30.2-1<br/>
+<br/>
+(a couple of lines about what "foo" is)<br/>
+(short changelog of important features or fixes; big emphasis for security fixes)<br/>
+(paths or links to installed and online changelogs, with more details)<br/>
+<br/>
+-- <br/>
+<p class="center">*** CYGWIN-ANNOUNCE UNSUBSCRIBE INFO ***</p>
+If you want to unsubscribe from the cygwin-announce mailing list, look at the
+"List-Unsubscribe:" tag in the email header of this message. Send email to the
+address specified there. It will be in the format:<br/>
+<br/>
+cygwin-announce-unsubscribe-you=yourdomain.com&lt;at&gt;cygwin.com<br/>
+<br/>
+If you need more information on unsubscribing, start reading here:<br/>
+<br/>
+<a href="https://sourceware.org/lists.html#unsubscribe">https://sourceware.org/lists.html#unsubscribe</a><br/>
+<br/>
+</div>
+
+<p>
+  Be sure the unsubscribe instructions are included at the end of the email,
+  since cygwin-announce does not add any.
+</p>
+<p>
+  Once sent, your message will be reviewed by one of the cygwin-announce
+  moderators and, once approved, will be automatically forwarded to the
+  cygwin mailing list with <tt>[ANNOUNCEMENT]</tt> prepended to the subject.
+</p>
 
 </div>
 </body>

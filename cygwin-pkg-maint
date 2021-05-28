@@ -1926,7 +1926,7 @@ mingw64-i686-musepack                        ORPHANED (Yaakov Selkowitz)
 mingw64-i686-ncurses                         ORPHANED (Yaakov Selkowitz)
 mingw64-i686-neon                            ORPHANED (Yaakov Selkowitz)
 mingw64-i686-nettle                          ORPHANED (Yaakov Selkowitz)
-mingw64-i686-nghttp2                         ORPHANED (Yaakov Selkowitz)
+mingw64-i686-nghttp2                         Brian Inglis
 mingw64-i686-nspr                            ORPHANED (Yaakov Selkowitz)
 mingw64-i686-nss                             ORPHANED (Yaakov Selkowitz)
 mingw64-i686-openal                          ORPHANED (Yaakov Selkowitz)
@@ -2274,7 +2274,7 @@ mingw64-x86_64-musepack                      ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-ncurses                       ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-neon                          ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-nettle                        ORPHANED (Yaakov Selkowitz)
-mingw64-x86_64-nghttp2                       ORPHANED (Yaakov Selkowitz)
+mingw64-x86_64-nghttp2                       Brian Inglis
 mingw64-x86_64-nspr                          ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-nss                           ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-openal                        ORPHANED (Yaakov Selkowitz)
@@ -2448,7 +2448,7 @@ nettle                                       ORPHANED (Yaakov Selkowitz)
 newmail                                      Jari Aalto
 nfrotz                                       Jon Turney
 nfs-server                                   ORPHANED (Yaakov Selkowitz)
-nghttp2                                      ORPHANED (Yaakov Selkowitz)
+nghttp2                                      Brian Inglis
 nginx                                        ORPHANED (Yaakov Selkowitz)
 ngspice                                      Marco Atzeri
 ninja                                        Jon Turney

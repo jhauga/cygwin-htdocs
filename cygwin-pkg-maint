@@ -479,7 +479,7 @@ fontforge                                    Lemures Lemniscati
 fonttosfnt                                   Jon Turney
 foobillard                                   ORPHANED (David Stacey)
 fort77                                       ORPHANED (Yaakov Selkowitz)
-fortune-mod                                  ORPHANED (Yitzchak Scott-Thoennes)
+fortune-mod                                  Brian Inglis
 fossil                                       Jari Aalto
 four-in-a-row                                ORPHANED (Yaakov Selkowitz)
 free42                                       ORPHANED (Yaakov Selkowitz)
@@ -2657,6 +2657,7 @@ perl-Algorithm-Diff                          Achim Gratz
 perl-Alien-Build                             Achim Gratz
 perl-Alien-Libxml2                           Achim Gratz
 perl-Alien-wxWidgets                         Achim Gratz
+perl-App-XML-DocBook-Builder                 Brian Inglis
 perl-Archive-Extract                         Achim Gratz
 perl-Archive-Zip                             Achim Gratz
 perl-Astro-FITS-CFITSIO                      Achim Gratz

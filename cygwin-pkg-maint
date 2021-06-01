@@ -1288,8 +1288,8 @@ libepubgen                                   ORPHANED (Yaakov Selkowitz)
 liberation-fonts                             ORPHANED (Yaakov Selkowitz)
 libesmtp                                     ORPHANED (Yaakov Selkowitz)
 libetonyek0.1                                ORPHANED (Yaakov Selkowitz)
-libev                                        ORPHANED (Yaakov Selkowitz)
-libevent                                     ORPHANED (Yaakov Selkowitz)
+libev                                        Brian Inglis
+libevent                                     Brian Inglis
 libexif                                      Lemures Lemniscati
 libf2c                                       ORPHANED (Yaakov Selkowitz)
 libfakesu                                    Daniel Boland
@@ -1386,7 +1386,7 @@ libmaxminddb                                 ORPHANED (Yaakov Selkowitz)
 libmcrypt                                    ORPHANED (Dr. Volker Zell)
 libmediaart2.0                               ORPHANED (Yaakov Selkowitz)
 libmediainfo                                 ORPHANED (Yaakov Selkowitz)
-libmetalink                                  ORPHANED (Yaakov Selkowitz)
+libmetalink                                  Brian Inglis
 libmikmod                                    ORPHANED (Yaakov Selkowitz)
 libmng                                       ORPHANED (Dr. Volker Zell)
 libmodplug                                   ORPHANED (Yaakov Selkowitz)
@@ -1828,7 +1828,7 @@ mingw64-i686-libebml                         ORPHANED (Yaakov Selkowitz)
 mingw64-i686-libepoxy                        ORPHANED (Yaakov Selkowitz)
 mingw64-i686-libepubgen                      ORPHANED (Yaakov Selkowitz)
 mingw64-i686-libetonyek0.1                   ORPHANED (Yaakov Selkowitz)
-mingw64-i686-libevent                        ORPHANED (Yaakov Selkowitz)
+mingw64-i686-libevent                        Brian Inglis
 mingw64-i686-libexif                         ORPHANED (Yaakov Selkowitz)
 mingw64-i686-libffi                          ORPHANED (Yaakov Selkowitz)
 mingw64-i686-libfreehand0.1                  ORPHANED (Yaakov Selkowitz)
@@ -2176,7 +2176,7 @@ mingw64-x86_64-libebml                       ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-libepoxy                      ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-libepubgen                    ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-libetonyek0.1                 ORPHANED (Yaakov Selkowitz)
-mingw64-x86_64-libevent                      ORPHANED (Yaakov Selkowitz)
+mingw64-x86_64-libevent                      Brian Inglis
 mingw64-x86_64-libexif                       ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-libffi                        ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-libfreehand0.1                ORPHANED (Yaakov Selkowitz)

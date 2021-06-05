@@ -2657,7 +2657,7 @@ perl-Algorithm-Diff                          Achim Gratz
 perl-Alien-Build                             Achim Gratz
 perl-Alien-Libxml2                           Achim Gratz
 perl-Alien-wxWidgets                         Achim Gratz
-perl-App-XML-DocBook-Builder                 Brian Inglis
+perl-App-XML-DocBook-Builder                 Achim Gratz
 perl-Archive-Extract                         Achim Gratz
 perl-Archive-Zip                             Achim Gratz
 perl-Astro-FITS-CFITSIO                      Achim Gratz
@@ -2967,6 +2967,7 @@ perl-Test-Script                             Achim Gratz
 perl-Test-Simple                             Achim Gratz
 perl-Test-Toolbox                            Achim Gratz
 perl-Test-TrailingSpace                      Achim Gratz
+perl-Test-Trap                               Achim Gratz
 perl-Test-utf8                               Achim Gratz
 perl-Test-Warn                               Achim Gratz
 perl-Test-Warnings                           Achim Gratz

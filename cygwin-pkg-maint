@@ -3308,6 +3308,8 @@ python37                                     Marco Atzeri
 python37-doc                                 Marco Atzeri
 python38                                     Marco Atzeri
 python38-doc                                 Marco Atzeri
+python39                                     Marco Atzeri
+python39-doc                                 Marco Atzeri
 pyzy                                         ORPHANED (Yaakov Selkowitz)
 qca                                          ORPHANED (Yaakov Selkowitz)
 qhull                                        Marco Atzeri
@@ -4082,7 +4084,7 @@ zinnia-tomoe                                 ORPHANED (Yaakov Selkowitz)
 zint                                         ORPHANED (Yaakov Selkowitz)
 zip                                          ORPHANED (Yaakov Selkowitz)
 zlib                                         Ken Brown
-znc                                          Alexey Sokolov/Achim Gratz
+znc                                          Alexey Sokolov
 zoo                                          Jari Aalto
 zpaq                                         Achim Gratz
 zsh                                          Peter A. Castro

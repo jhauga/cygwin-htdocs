@@ -33,15 +33,15 @@
 <h2 class="cartouche">Caveats</h2>
 
 <p>
-  Currently, packages may fail to build correctly due to:
+  Packages may fail to build correctly due to:
 </p>
 
 <ul>
   <li>missing or insufficient <tt>BUILD_REQUIRES</tt></li>
-  <li>missing prerequisites implied by an <tt>inherit</tt>, or other bugs in
-  this service</li>
-  <li>resource limits imposed by AppVeyor's free service, which is currently
-    used to perform the actual builds</li>
+  <li>missing prerequisites implied by an <tt>inherit</tt></li>
+  <li>other bugs in this service</li>
+  <li>resource limits imposed by the free service used to perform the actual
+  builds</li>
 </ul>
 
 <p>
@@ -55,8 +55,36 @@
 
 <h2 class="cartouche">Controlling the build service</h2>
 
-The following tokens are recognized in the <tt>SCALLYWAG</tt> variable set in
-the <tt>.cygport</tt> file:
+The behaviour of the build service can be controlled, with the tokens described
+below:
+
+<ul>
+  <li>for an individual push</li>
+
+  <p>with <tt>git push --push-option="<i>token [token...]"</i></tt></li></p>
+
+  <li>for a package</li>
+
+  <p>by setting the value of the <tt>SCALLYWAG</tt> variable in
+  the <tt>.cygport</tt> file</p>
+
+  <li>per-maintainer</li>
+  <p>
+    The default value may be specified in a <tt>!scallywag</tt> file in the root
+    of a maintainer's upload directory tree.
+  </p>
+
+  <p>
+    Additionally, if that file contains <tt>disable</tt>, this service is
+    completely disabled for all that maintainer's pushes.
+  </p>
+</ul>
+
+<p>
+  The default value is <tt>build test</tt>.
+</p>
+
+<h2 class="cartouche">Build service tokens</h2>
 
 <ul>
   <li>
@@ -88,24 +116,6 @@ the <tt>.cygport</tt> file:
     Take no action after a successful build.
   </li>
 </ul>
-
-<h2 class="cartouche">Per-maintainer default</h2>
-
-<p>
-  The default value for the <tt>SCALLYWAG</tt> variable may be specified in
-  a <tt>!scallywag</tt> file in the root of maintainer's upload directory tree.
-</p>
-
-<p>
-  Additionally, if that file contains <tt>disable</tt>, this service is
-  completely disabled for all that maintainer's pushes.
-</p>
-
-<p>
-  If that file is absent, the default value is <tt>build test</tt>.
-</p>
-
-</div>
 
 </body>
 </html>

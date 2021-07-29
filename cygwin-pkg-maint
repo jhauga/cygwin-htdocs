@@ -537,7 +537,7 @@ geomview                                     Ken Brown
 geos                                         Marco Atzeri
 getent                                       Corinna Vinschen
 getmail                                      Jari Aalto
-gettext                                      ORPHANED (Yaakov Selkowitz)
+gettext                                      Brian Inglis
 gexiv2                                       ORPHANED (Yaakov Selkowitz)
 gfbgraph0.2                                  ORPHANED (Yaakov Selkowitz)
 ghex                                         ORPHANED (Yaakov Selkowitz)
@@ -1741,7 +1741,7 @@ mingw64-i686-gdbm                            ORPHANED (Yaakov Selkowitz)
 mingw64-i686-gdk-pixbuf2.0                   ORPHANED (Yaakov Selkowitz)
 mingw64-i686-gdl3                            ORPHANED (Yaakov Selkowitz)
 mingw64-i686-gegl0.2                         ORPHANED (Yaakov Selkowitz)
-mingw64-i686-gettext                         ORPHANED (Yaakov Selkowitz)
+mingw64-i686-gettext                         Brian Inglis
 mingw64-i686-giflib                          ORPHANED (Yaakov Selkowitz)
 mingw64-i686-glew                            ORPHANED (Yaakov Selkowitz)
 mingw64-i686-glib2.0                         ORPHANED (Yaakov Selkowitz)
@@ -2089,7 +2089,7 @@ mingw64-x86_64-gdbm                          ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-gdk-pixbuf2.0                 ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-gdl3                          ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-gegl0.2                       ORPHANED (Yaakov Selkowitz)
-mingw64-x86_64-gettext                       ORPHANED (Yaakov Selkowitz)
+mingw64-x86_64-gettext                       Brian Inglis
 mingw64-x86_64-giflib                        ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-glew                          ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-glib2.0                       ORPHANED (Yaakov Selkowitz)

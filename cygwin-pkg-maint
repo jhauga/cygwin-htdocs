@@ -340,8 +340,8 @@ dhttpd                                       Jari Aalto
 dia                                          ORPHANED (Yaakov Selkowitz)
 dia-shapes                                   ORPHANED (Yaakov Selkowitz)
 dialog                                       ORPHANED (Yaakov Selkowitz)
-diffstat                                     Eric Blake
-diffutils                                    Eric Blake
+diffstat                                     Eric Blake/Brian Inglis
+diffutils                                    Eric Blake/Brian Inglis
 discus                                       Andrew Schulman
 djgpp-binutils                               ORPHANED (Yaakov Selkowitz)
 djgpp-gcc                                    ORPHANED (Yaakov Selkowitz)
@@ -456,7 +456,7 @@ file-roller                                  ORPHANED (Yaakov Selkowitz)
 filelight                                    ORPHANED (Yaakov Selkowitz)
 filemanager-actions                          ORPHANED (Yaakov Selkowitz)
 filezilla                                    ORPHANED (Yaakov Selkowitz)
-findutils                                    Eric Blake
+findutils                                    Eric Blake/Brian Inglis
 fish                                         Andrew Schulman
 five-or-more                                 ORPHANED (Yaakov Selkowitz)
 flac                                         David Rothenberger

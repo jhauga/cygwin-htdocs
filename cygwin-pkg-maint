@@ -140,7 +140,7 @@ biber                                        Ken Brown
 bidiv                                        ORPHANED (Yaakov Selkowitz)
 bind                                         ORPHANED (Yaakov Selkowitz)
 binutils                                     Achim Gratz
-bison                                        Eric Blake
+bison                                        Eric Blake/Brian Inglis
 bitmap                                       Jon Turney
 bitstream-vera-fonts                         Jon Turney
 blinken                                      ORPHANED (Yaakov Selkowitz)
@@ -313,7 +313,7 @@ cygwin64-w32api-runtime                      ORPHANED (Yaakov Selkowitz)
 cygwin64-zlib                                ORPHANED (Yaakov Selkowitz)
 cyrus-sasl                                   David Rothenberger
 d-feet                                       ORPHANED (Yaakov Selkowitz)
-dash                                         Eric Blake
+dash                                         Eric Blake/Brian Inglis
 datefudge                                    ORPHANED (Yaakov Selkowitz)
 dateutils                                    ORPHANED (Yaakov Selkowitz)
 db                                           ORPHANED (Dr. Volker Zell)
@@ -683,7 +683,7 @@ GraphicsMagick                               Marco Atzeri
 graphite2                                    Ken Brown
 graphviz                                     ORPHANED (Yaakov Selkowitz)
 greed                                        Jari Aalto
-grep                                         Eric Blake
+grep                                         Eric Blake/Brian Inglis
 grepmail                                     Jari Aalto
 grilo0.2                                     ORPHANED (Yaakov Selkowitz)
 grilo0.2-plugins                             ORPHANED (Yaakov Selkowitz)
@@ -748,7 +748,7 @@ gvfs                                         ORPHANED (Yaakov Selkowitz)
 gweled                                       ORPHANED (Yaakov Selkowitz)
 gwenhywfar                                   ORPHANED (Yaakov Selkowitz)
 gwenview                                     ORPHANED (Yaakov Selkowitz)
-gzip                                         Eric Blake
+gzip                                         Eric Blake/Brian Inglis
 hamster-time-tracker                         ORPHANED (Yaakov Selkowitz)
 harfbuzz                                     Ken Brown
 haxe                                         Andy Li
@@ -1619,7 +1619,7 @@ lziprecover                                  Jonathan Yong
 lzop                                         Jari Aalto
 m17n-db                                      ORPHANED (Yaakov Selkowitz)
 m17n-lib                                     ORPHANED (Yaakov Selkowitz)
-m4                                           Eric Blake
+m4                                           Eric Blake/Brian Inglis
 madplay                                      ORPHANED (Yaakov Selkowitz)
 mailutils                                    Ken Brown
 mairix                                       Jari Aalto
@@ -3385,7 +3385,7 @@ rbio                                         Marco Atzeri
 rc                                           Jari Aalto
 rcs                                          Achim Gratz
 rdiff-backup                                 David Rothenberger
-readline                                     Eric Blake
+readline                                     Eric Blake/Brian Inglis
 rebase                                       Corinna Vinschen
 recode                                       Corinna Vinschen
 redland                                      ORPHANED (Yaakov Selkowitz)
@@ -3583,7 +3583,7 @@ SDL_sound                                    ORPHANED (Yaakov Selkowitz)
 SDL_ttf                                      ORPHANED (Yaakov Selkowitz)
 sdparm                                       ORPHANED (Yaakov Selkowitz)
 seahorse                                     ORPHANED (Yaakov Selkowitz)
-sed                                          Eric Blake
+sed                                          Eric Blake/Brian Inglis
 sendmail                                     Daniel Boland
 sendxmpp                                     Jari Aalto
 serf                                         ORPHANED (David Rothenberger)

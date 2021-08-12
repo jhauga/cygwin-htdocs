@@ -1865,7 +1865,7 @@ mingw64-i686-libmatroska                     ORPHANED (Yaakov Selkowitz)
 mingw64-i686-libmikmod                       ORPHANED (Yaakov Selkowitz)
 mingw64-i686-libmng                          ORPHANED (Yaakov Selkowitz)
 mingw64-i686-libmodplug                      ORPHANED (Yaakov Selkowitz)
-mingw64-i686-libmpc                          ORPHANED (Yaakov Selkowitz)
+mingw64-i686-libmpc                          Achim Gratz
 mingw64-i686-libmspub0.1                     ORPHANED (Yaakov Selkowitz)
 mingw64-i686-libmwaw0.3                      ORPHANED (Yaakov Selkowitz)
 mingw64-i686-liboauth                        ORPHANED (Yaakov Selkowitz)
@@ -2213,7 +2213,7 @@ mingw64-x86_64-libmatroska                   ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-libmikmod                     ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-libmng                        ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-libmodplug                    ORPHANED (Yaakov Selkowitz)
-mingw64-x86_64-libmpc                        ORPHANED (Yaakov Selkowitz)
+mingw64-x86_64-libmpc                        Achim Gratz
 mingw64-x86_64-libmspub0.1                   ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-libmwaw0.3                    ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-liboauth                      ORPHANED (Yaakov Selkowitz)
@@ -3564,7 +3564,7 @@ schroedinger-maeparser                       Lemures Lemniscati
 schroedinger1.0                              ORPHANED (Yaakov Selkowitz)
 scite                                        ORPHANED (Yaakov Selkowitz)
 scons                                        Marco Atzeri
-scowl                                        ORPHANED (Yaakov Selkowitz)
+scowl                                        Brian Inglis
 screen                                       Andrew Schulman
 screenruler                                  ORPHANED (Yaakov Selkowitz)
 scribus                                      ORPHANED (Yaakov Selkowitz)

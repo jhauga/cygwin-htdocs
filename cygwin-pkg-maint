@@ -328,7 +328,7 @@ ddd                                          Jon Turney
 ddir                                         Jari Aalto
 ddrescue                                     Christian Franke
 deja-dup                                     ORPHANED (Yaakov Selkowitz)
-dejagnu                                      ORPHANED (Yaakov Selkowitz)
+dejagnu                                      Brian Inglis
 dejavu-fonts                                 ORPHANED (Yaakov Selkowitz)
 delta                                        Jari Aalto
 deroff                                       Jari Aalto
@@ -756,7 +756,7 @@ hdf4                                         Marco Atzeri
 hdf5                                         Marco Atzeri
 hdparm                                       ORPHANED (Christian Franke)
 heisenbug-backgrounds                        ORPHANED (Yaakov Selkowitz)
-help2man                                     ORPHANED (Yaakov Selkowitz)
+help2man                                     Brian Inglis
 hexalate                                     ORPHANED (Yaakov Selkowitz)
 hexchat                                      Marco Atzeri
 hexedit                                      Marco Atzeri
@@ -2639,7 +2639,7 @@ parole                                       ORPHANED (Yaakov Selkowitz)
 pasystray                                    ORPHANED (Yaakov Selkowitz)
 patch                                        Corinna Vinschen
 patcher                                      Jari Aalto
-patchutils                                   Eric Blake
+patchutils                                   Eric Blake/Brian Inglis
 pavucontrol                                  ORPHANED (Yaakov Selkowitz)
 pavumeter                                    ORPHANED (Yaakov Selkowitz)
 pax                                          Jari Aalto
@@ -2772,6 +2772,7 @@ perl-File-ShareDir-Install                   Achim Gratz
 perl-File-Slurp                              Achim Gratz/Ken Brown
 perl-File-Slurp-Tiny                         Achim Gratz
 perl-File-Slurper                            Achim Gratz
+perl-File-TreeCreate                         Achim Gratz
 perl-File-Which                              Achim Gratz
 perl-FileHandle-Unget                        Achim Gratz
 perl-Finance-Quote                           Achim Gratz

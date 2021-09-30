@@ -769,7 +769,7 @@ hostname                                     Christian Franke
 hp2xx                                        ORPHANED (Dr. Volker Zell)
 hspell                                       ORPHANED (Yaakov Selkowitz)
 html2ps                                      ORPHANED (Yaakov Selkowitz)
-htmldoc                                      ORPHANED (Yaakov Selkowitz)
+htmldoc                                      Brian Inglis
 httpd                                        ORPHANED (Yaakov Selkowitz)
 httpd-mod_dnssd                              ORPHANED (Yaakov Selkowitz)
 httperf                                      ORPHANED (Dr. Volker Zell)
@@ -1629,6 +1629,7 @@ makepasswd                                   Jari Aalto
 makeself                                     Jari Aalto
 malaga                                       ORPHANED (Yaakov Selkowitz)
 man-db                                       Chris J. Breisch/Achim Gratz
+man-pages-linux                              Brian Inglis
 man-pages-posix                              Brian Inglis
 manlint                                      ORPHANED
 marble                                       ORPHANED (Yaakov Selkowitz)
@@ -3882,6 +3883,7 @@ webkitgtk                                    ORPHANED (Yaakov Selkowitz)
 webrtc-audio-processing                      ORPHANED (Yaakov Selkowitz)
 weechat                                      Sebastien Helleu
 wget                                         Brian Inglis
+wget2                                        Brian Inglis
 which                                        David Rothenberger
 whois                                        David Rothenberger
 wiggle                                       Jari Aalto

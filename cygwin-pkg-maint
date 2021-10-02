@@ -170,7 +170,7 @@ bzip2                                        ORPHANED (Yaakov Selkowitz)
 bzr                                          Jari Aalto
 bzr-fastimport                               Ken Brown
 c-ares                                       ORPHANED (Yaakov Selkowitz)
-ca-certificates                              ORPHANED (Yaakov Selkowitz)
+ca-certificates                              Achim Gratz
 cabextract                                   Stuart Caie
 cadaver                                      ORPHANED (Dr. Volker Zell)
 cairo                                        Ken Brown

@@ -1503,6 +1503,7 @@ libxcb                                       Jon Turney
 libXcomposite                                Jon Turney
 libxcrypt                                    Marco Atzeri
 libXcursor                                   Jon Turney
+libxcvt                                      Jon Turney
 libxcwm                                      Jon Turney
 libXdamage                                   Jon Turney
 libXdmcp                                     Jon Turney

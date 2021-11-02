@@ -151,21 +151,7 @@ cat "$tmpfile" | while read fullfile; do
     file=`echo $fullfile | cut -f5 -d/` # subtract ../packages/$ARCH/DIR/
     partfile=`echo $fullfile | cut -f3- -d/` # subtract only ../packages/
 
-    basedesc=`fgrep '<h1>' "$fullfile" | cut -f2 -d'>' | cut -f1 -d'<' `
-
-#    basefile=`echo $file | rev | cut -f3- -d- | rev` # subtract -V-R, rpm-style
-#    # subtract "$file: "
-#    filechars=`echo -n $basefile | wc -c`
-#    basedesc=`echo $basedesc | cut -c${filechars}- | cut -c4-`
-#
-#    if expr "$file" : '.*-src$' >/dev/null; then
-#	desc="Source code for $basedesc"
-#    elif expr "$file" : '.*-debuginfo$' >/dev/null; then
-#	desc="Debug information for $basedesc"
-#    else
-#	desc="$basedesc"
-#    fi
-
+    basedesc=`fgrep '<h1>' "$fullfile" | sed -e 's/<[^>]*>//g' `
     desc="$basedesc"
 
     if [ -z "$param_text" ]; then

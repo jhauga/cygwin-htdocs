@@ -38,8 +38,12 @@ if (substr($there, 0, length($here) + 1) ne "$here/" || !open(F, '<', $file)) {
     s!.*<html>(.*)</html>.*!$1!so;
     s!.*<body>(.*)</body>.*!$1!so;
 
-    s!($grep)!\<b\>$1\</b\>!mog if length($grep);
-    print $_;
+    foreach (split /\n/) {
+        if ($_ !~ /<h1>/) {
+            s!($grep)!\<b\>$1\</b\>!mog if length($grep);
+        }
+        print $_, "\n";
+    }
 }
 
 print '</div>';

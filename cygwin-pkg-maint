@@ -2816,6 +2816,7 @@ perl-HTTP-Date                               Achim Gratz
 perl-HTTP-Message                            Achim Gratz
 perl-HTTP-Negotiate                          Achim Gratz
 perl-HTTP-Tiny                               Achim Gratz
+perl-Image-ExifTool                          Achim Gratz
 perl-Importer                                Achim Gratz
 perl-inc-latest                              Achim Gratz
 perl-Inline                                  Achim Gratz

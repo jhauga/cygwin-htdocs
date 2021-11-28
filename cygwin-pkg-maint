@@ -1939,7 +1939,7 @@ mingw64-i686-opencv                          ORPHANED (Yaakov Selkowitz)
 mingw64-i686-openexr                         ORPHANED (Yaakov Selkowitz)
 mingw64-i686-openjpeg                        ORPHANED (Yaakov Selkowitz)
 mingw64-i686-openjpeg2                       ORPHANED (Yaakov Selkowitz)
-mingw64-i686-openssl                         ORPHANED (Yaakov Selkowitz)
+mingw64-i686-openssl                         Achim Gratz
 mingw64-i686-opus                            ORPHANED (Yaakov Selkowitz)
 mingw64-i686-opusfile                        ORPHANED (Yaakov Selkowitz)
 mingw64-i686-ORBit2                          ORPHANED (Yaakov Selkowitz)
@@ -2287,7 +2287,7 @@ mingw64-x86_64-opencv                        ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-openexr                       ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-openjpeg                      ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-openjpeg2                     ORPHANED (Yaakov Selkowitz)
-mingw64-x86_64-openssl                       ORPHANED (Yaakov Selkowitz)
+mingw64-x86_64-openssl                       Achim Gratz
 mingw64-x86_64-opus                          ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-opusfile                      ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-ORBit2                        ORPHANED (Yaakov Selkowitz)
@@ -2604,8 +2604,8 @@ openldap                                     Achim Gratz
 openmpi                                      Marco Atzeri
 OpenSP                                       ORPHANED (Yaakov Selkowitz)
 openssh                                      Corinna Vinschen
-openssl                                      Corinna Vinschen
-openssl10                                    ORPHANED (Yaakov Selkowitz)
+openssl                                      Corinna Vinschen/Achim Gratz
+openssl10                                    Achim Gratz
 openwsman                                    ORPHANED (Yaakov Selkowitz)
 optipng                                      Jari Aalto
 opus                                         ORPHANED (Yaakov Selkowitz)

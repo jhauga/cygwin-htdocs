@@ -95,10 +95,11 @@ audacious-plugins                            ORPHANED (Yaakov Selkowitz)
 audacity                                     ORPHANED (Yaakov Selkowitz)
 audiofile                                    ORPHANED (Yaakov Selkowitz)
 autobuild                                    ORPHANED (Charles Wilson)
-autoconf                                     ORPHANED (Yaakov Selkowitz)
-autoconf-archive                             ORPHANED (Yaakov Selkowitz)
-autoconf2.1                                  ORPHANED (Yaakov Selkowitz)
-autoconf2.5                                  ORPHANED (Yaakov Selkowitz)
+autoconf                                     Achim Gratz
+autoconf-archive                             Achim Gratz
+autoconf2.1                                  Achim Gratz
+autoconf2.5                                  Achim Gratz
+autoconf2.7                                  Achim Gratz
 autogen                                      ORPHANED (Yaakov Selkowitz)
 automake                                     ORPHANED (Yaakov Selkowitz)
 automake1.10                                 ORPHANED (Yaakov Selkowitz)

@@ -4,7 +4,7 @@ Harold L Hunt, II
 
 Jon Turney
 
-     Copyright (C) 2004 Harold L Hunt II. Copyright (C) 2009-2018 Jon
+     Copyright (C) 2004 Harold L Hunt II. Copyright (C) 2009-2021 Jon
      Turney. Permission is granted to copy, distribute and/or modify this
      document under the terms of the GNU Free Documentation License,
      Version 1.3 or any later version published by the Free Software
@@ -138,8 +138,6 @@ Source Code Tree Layout
      * fb contains the modern framebuffer drawing procedures used by
        Cygwin/X.
      * hw contains [drawing] hardware dependent functions.
-          + dmx contains the Distributed Multihead X X Server. The DMX X
-            server acts as a proxy for multiple back-end X servers.
           + kdrive
                o ephyr contains the Xephyr X Server which uses a window on
                  a host X Server as its framebuffer. Unlike Xnest it
@@ -515,21 +513,23 @@ Required Packages for Building
    packages.
      * Required tools:
        binutils, bison, cygport, flex, gcc-core, git, meson, ninja,
-       pkg-config, python3, tar
+       pkg-config,
      * Required protocol headers:
        windowsdriproto, xorgproto
      * Required development libraries:
-       libdmx-devel, libfontenc-devel, libfreetype-devel, libGL-devel,
-       libnettle-devel, libpixman1-devel, libtirpc-devel, libX11-devel,
-       libXRes-devel, libXau-devel, libXaw-devel, libXdmcp-devel,
-       libXext-devel, libXfont2-devel, libXi-devel, libXinerama-devel,
-       libXmu-devel, libXpm-devel, libXrender-devel, libXtst-devel,
-       libxcb-ewmh-devel, libxcb-icccm-devel, libxcb-image-devel,
-       libxcb-keysyms-devel, libxcb-randr-devel, libxcb-render-devel,
-       libxcb-render-util-devel, libxcb-shape-devel, libxcb-util-devel,
-       libxcb-xkb-devel, libxkbfile-devel, zlib-devel
+       libfontenc-devel, libfreetype-devel, libGL-devel, libnettle-devel,
+       libpixman1-devel, libtirpc-devel, libX11-devel, libXRes-devel,
+       libXau-devel, libXaw-devel, libXdmcp-devel, libXext-devel,
+       libXfont2-devel, libXi-devel, libXinerama-devel, libXmu-devel,
+       libXpm-devel, libXrender-devel, libXtst-devel, libxcb-aux-devel,
+       libxcb-composite-devel, libxcb-ewmh-devel, libxcb-icccm-devel,
+       libxcb-image-devel, libxcb-keysyms-devel, libxcb-randr-devel,
+       libxcb-render-devel, libxcb-render-util-devel, libxcb-shape-devel,
+       libxcb-util-devel, libxcb-xfixes-devel, libxcb-xkb-devel,
+       libxcvt-devel, libxkbfile-devel
      * Required miscellaneous packages:
-       font-util, khronos-opengl-registry, python3-lxml, xtrans
+       font-util, ImageMagick, khronos-opengl-registry, python3-lxml,
+       xkbcomp-devel, xtrans
      * Optional packages for building developer documentation:
        docbook-xml43, doxygen, fop, xmlto, xorg-sgml-doctools
 
@@ -1818,4 +1818,4 @@ Colophon
    the DocBook DSSSL Stylesheets.
 
    The production process for this instance of this document was started
-   at 2018-06-29 18:20 .
+   at 2021-12-12 20:05 .

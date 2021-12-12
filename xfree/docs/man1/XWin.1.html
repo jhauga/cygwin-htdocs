@@ -1,7 +1,7 @@
 <HTML><HEAD><TITLE>Manpage of XWIN</TITLE>
 </HEAD><BODY>
 <H1>XWIN</H1>
-Section: User Commands  (1)<BR>Updated: xorg-server 1.20.0<BR><A HREF="#index">Index</A>
+Section: User Commands  (1)<BR>Updated: xorg-server 21.1.1<BR><A HREF="#index">Index</A>
 <A HREF="../index.html">Return to Main Contents</A><HR>
 
 <A NAME="lbAB">&nbsp;</A>
@@ -95,7 +95,7 @@ Screen specific parameters can be applied as a
 default to all screens by placing those screen specific parameters
 before any <B>-screen</B> parameter.  Screen specific parameters placed after
 the first <B>-screen</B> parameter will apply only to the immediately
-preceeding <B>-screen</B> parameter.
+preceding <B>-screen</B> parameter.
 <DL COMPACT>
 <DT><B>-[no]multimonitors or -[no]multiplemonitors</B>
 
@@ -112,7 +112,7 @@ This option is currently enabled by default in <B>-multiwindow</B> mode.
 Create screen number
 <I>screen_number</I>
 
-and optionally specify it's
+and optionally specify its
 <I>height,</I>
 
 <I>width</I>
@@ -148,7 +148,7 @@ in <B>-multiwindow</B> or <B>-rootless</B> mode.
 <DT><B>-fullscreen</B>
 
 <DD>
-The X server window takes the full screen, covering completely the
+The X screen window takes the full screen, covering completely the
 <I>Windows</I> desktop.
 Currently <B>-fullscreen</B> may only be applied to one X screen.
 <DT><B>-icon </B><I>icon-specifier</I>
@@ -159,7 +159,7 @@ The <I>icon-specifier</I> is as defined in <I><A HREF="../man5/XWinrc.5.html">XW
 <DT><B>-nodecoration</B>
 
 <DD>
-Do not give the Cygwin/X window a <I>Windows</I> window border, title bar,
+Do not give the X screen window a <I>Windows</I> window border, title bar,
 etc.
 This parameter is ignored when the <B>-fullscreen</B> parameter is specified.
 <DT><B>-scrollbars</B>
@@ -285,8 +285,8 @@ Server instead of letting <I>Windows</I> handle them.
 
 <DD>
 Normally the <I>Windows</I> mouse cursor is hidden when the mouse is
-over an active Cygwin/X window.  This option causes the mouse cursor
-also to be hidden when it is over an inactive Cygwin/X window.  This
+over an active X window.  This option causes the mouse cursor
+also to be hidden when it is over an inactive X window.  This
 prevents the <I>Windows</I> mouse cursor from being drawn on top of the X
 cursor.
 This parameter has no effect unless <B>-swcursor</B> is also specified.
@@ -307,10 +307,6 @@ Do not create a tray icon.  Default is to create one
 icon per screen.  You can globally disable tray icons with
 <B>-notrayicon</B>, then enable it for specific screens with
 <B>-trayicon</B> for those screens.
-<DT><B>-nounicodeclipboard</B>
-
-<DD>
-Do not use Unicode clipboard even if on a NT-based platform.
 <DT><B>-[no]unixkill</B>
 
 <DD>
@@ -351,7 +347,7 @@ as they already perform GDI batching.
 <DT><B>-engine </B><I>engine_type_id</I>
 
 <DD>
-This option, which is intended for Cygwin/X developers,
+This option, which is intended for developers,
 overrides the server's automatically selected drawing engine type.  This
 parameter will be ignored if the specified drawing engine type is not
 supported on the current system.
@@ -591,6 +587,6 @@ Suhaib Siddiqi, Jack Tanner, Jon Turney and Nicholas Wourms.
 This document was created by
 <A HREF="http://savannah.nongnu.org/projects/man2html/">man2html</A>,
 using the manual pages.<BR>
-Time: 15:25:44 GMT, June 29, 2018
+Time: 19:03:14 GMT, December 12, 2021
 </BODY>
 </HTML>

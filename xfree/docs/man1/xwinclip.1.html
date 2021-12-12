@@ -1,7 +1,7 @@
 <HTML><HEAD><TITLE>Manpage of xwinclip</TITLE>
 </HEAD><BODY>
 <H1>xwinclip</H1>
-Section: User Commands  (1)<BR>Updated: xorg-server 1.20.0<BR><A HREF="#index">Index</A>
+Section: User Commands  (1)<BR>Updated: xorg-server 21.1.1<BR><A HREF="#index">Index</A>
 <A HREF="../index.html">Return to Main Contents</A><HR>
 
 <A NAME="lbAB">&nbsp;</A>
@@ -43,10 +43,6 @@ Do <I>NOT</I> run <I>xwinclip</I> unless <I><A HREF="../man1/XWin.1.html">XWin</
 
 <DD>
 Specifies the X server display to connect to.
-<DT><B>-nounicodeclipboard</B>
-
-<DD>
-Do not use unicode text on the clipboard.
 <DT><B>-noprimary</B>
 
 <DD>
@@ -67,7 +63,7 @@ The INCR (Incremental transfer) clipboard protocol for clipboard contents larger
 request (approximately 256K) is only supported for X -&gt; Windows clipboard transfers.
 <P>
 Some X clients, notably ones written in Tcl/Tk, do not re-assert ownership of the PRIMARY selection or update
-it's timestamp when it's contents change, which currently prevents <I>xwinclip</I> from correctly noticing that
+its timestamp when its contents change, which currently prevents <I>xwinclip</I> from correctly noticing that
 the PRIMARY selection's contents have changed.
 <P>
 Windows clipboard rendering is synchronous in the WM_RENDER*FORMAT message (that is, we must have placed the
@@ -76,7 +72,7 @@ client which owns the selection to convert the selection to our requested format
 using a fixed timeout.  After requesting conversion of the selection, if no events are received from the X
 client which owns the selection for one second, the conversion is assumed to have failed.
 <P>
-The <A HREF="../man1/XWin.1.html">XWin</A>(1) server should indicate somehow (by placing an atom on the root window?) that it is running with it's
+The <A HREF="../man1/XWin.1.html">XWin</A>(1) server should indicate somehow (by placing an atom on the root window?) that it is running with its
 internal clipboard integration enabled, and xwinclip should notice this and exit with an appropriate error.
 <P>
 Probably many other bugs.
@@ -109,6 +105,6 @@ Harold L Hunt II, Matsuzaki Kensuke, Jon Turney, Chris Twiner and Jeremy Wilkins
 This document was created by
 <A HREF="http://savannah.nongnu.org/projects/man2html/">man2html</A>,
 using the manual pages.<BR>
-Time: 15:25:45 GMT, June 29, 2018
+Time: 19:03:15 GMT, December 12, 2021
 </BODY>
 </HTML>

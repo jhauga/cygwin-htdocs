@@ -1,7 +1,7 @@
 <HTML><HEAD><TITLE>Manpage of XSERVER</TITLE>
 </HEAD><BODY>
 <H1>XSERVER</H1>
-Section: User Commands  (1)<BR>Updated: xorg-server 1.20.0<BR><A HREF="#index">Index</A>
+Section: User Commands  (1)<BR>Updated: xorg-server 21.1.1<BR><A HREF="#index">Index</A>
 <A HREF="../index.html">Return to Main Contents</A><HR>
 
 <A NAME="lbAB">&nbsp;</A>
@@ -43,7 +43,8 @@ The X server may also be started directly by the user, though this
 method is usually reserved for testing and is not recommended for
 normal operation.  On some platforms, the user must have special
 permission to start the X server, often because access to certain
-devices (e.g. <I>/dev/mouse</I>) is restricted.
+devices (e.g. <I>/dev/mouse</I>) is restricted.  Where applicable, the
+X server notifies systemd when it is ready to process requests.
 <P>
 
 When the X server starts up, it typically takes over the display.  If
@@ -176,14 +177,10 @@ a list of accepted extension names is printed.
 
 <DD>
 sets beep (bell) volume (allowable range: 0-100).
-<DT><B>-fc </B><I>cursorFont</I>
+<DT><B>-fakescreenfps </B>ps
 
 <DD>
-sets default cursor font.
-<DT><B>-fn </B><I>font</I>
-
-<DD>
-sets the default font.
+sets fake presenter screen default fps (allowable range: 1-600).
 <DT><B>-fp </B><I>fontPath</I>
 
 <DD>
@@ -307,7 +304,7 @@ connected to the system.
 <DD>
 sets pointer acceleration threshold in pixels (i.e. after how many pixels
 pointer acceleration should take effect).
-<DT><B>-terminate</B>
+<DT><B>-terminate </B><I>[delay]</I>
 
 <DD>
 causes the server to terminate at server reset, instead of continuing to run.
@@ -315,10 +312,9 @@ This overrides a previous
 <B>-noreset</B>
 
 command line option.
-<DT><B>-to </B><I>seconds</I>
-
-<DD>
-sets default connection timeout in seconds.
+If a delay in seconds is specified, the server waits for at least
+the delay. At the end of this grace period if no client is
+connected, the server terminates immediately.
 <DT><B>-tst</B>
 
 <DD>
@@ -335,18 +331,6 @@ sets video-off screen-saver preference.
 
 <DD>
 sets video-on screen-saver preference.
-<DT><B>-wm</B>
-
-<DD>
-forces the default backing-store of all windows to be WhenMapped.  This
-is a backdoor way of getting backing-store to apply to all windows.
-Although all mapped windows will have backing store, the backing store
-attribute value reported by the server for a window will be the last
-value established by a client.  If it has never been set by a client,
-the server will report the default value, NotUseful.  This behavior is
-required by the X protocol, which allows the server to exceed the
-client's backing store expectations but does not provide a way to tell
-the client that it is doing so.
 <DT><B>-wr</B>
 
 <DD>
@@ -768,7 +752,7 @@ Controlling the server once started: <I>xset</I>(1), <I>xsetroot</I>(1),
 <P>
 
 Server-specific man pages:
-<I>Xorg</I>(1), <I>Xdmx</I>(1), <I>Xephyr</I>(1), <I>Xnest</I>(1),
+<I>Xorg</I>(1), <I>Xephyr</I>(1), <I>Xnest</I>(1),
 <I>Xvfb</I>(1), <I>Xquartz</I>(1), <I><A HREF="../man1/XWin.1.html">XWin</A></I>(1).
 <P>
 
@@ -809,6 +793,6 @@ Dave Wiggins took over post-R5 and made substantial improvements.
 This document was created by
 <A HREF="http://savannah.nongnu.org/projects/man2html/">man2html</A>,
 using the manual pages.<BR>
-Time: 15:25:43 GMT, June 29, 2018
+Time: 19:03:12 GMT, December 12, 2021
 </BODY>
 </HTML>

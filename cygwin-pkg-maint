@@ -3211,7 +3211,7 @@ python-paramiko                              Michael Wild
 python-parso                                 Marco Atzeri
 python-passlib                               ORPHANED (Yaakov Selkowitz)
 python-pathlib2                              ORPHANED (Yaakov Selkowitz)
-python-pbr                                   ORPHANED (Yaakov Selkowitz)
+python-pbr                                   Marco Atzeri
 python-pexpect                               Marco Atzeri
 python-pickleshare                           Marco Atzeri
 python-pip                                   Marco Atzeri

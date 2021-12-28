@@ -3114,6 +3114,7 @@ python-attrs                                 Marco Atzeri
 python-automat                               Marco Atzeri
 python-babel                                 Marco Atzeri
 python-backcall                              Marco Atzeri
+python-backports                             Marco Atzeri
 python-backports.shutil_get_terminal_size    ORPHANED (Yaakov Selkowitz)
 python-backports.ssl_match_hostname          ORPHANED (Yaakov Selkowitz)
 python-bcrypt                                Michael Wild/Marco Atzeri
@@ -3218,6 +3219,7 @@ python-pexpect                               Marco Atzeri
 python-pickleshare                           Marco Atzeri
 python-pip                                   Marco Atzeri
 python-pkgconfig                             Marco Atzeri
+python-platformdirs                          Marco Atzeri
 python-pluggy                                Marco Atzeri
 python-ply                                   Marco Atzeri
 python-prompt_toolkit                        Marco Atzeri

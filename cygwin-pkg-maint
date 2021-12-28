@@ -3240,11 +3240,12 @@ python-pyparsing                             Marco Atzeri
 python-pypdf                                 Marco Atzeri
 python-pypsrp                                ORPHANED (Yaakov Selkowitz)
 python-pyqt4                                 ORPHANED (Yaakov Selkowitz)
-python-pyqt5                                 ORPHANED (Yaakov Selkowitz)
-python-pyqt5-qt3d                            ORPHANED (Yaakov Selkowitz)
-python-pyqt5-qtchart                         ORPHANED (Yaakov Selkowitz)
-python-pyqt5-qtdatavisualization             ORPHANED (Yaakov Selkowitz)
+python-pyqt5                                 Marco Atzeri
+python-pyqt5-qt3d                            Marco Atzeri
+python-pyqt5-qtchart                         Marco Atzeri
+python-pyqt5-qtdatavisualization             Marco Atzeri
 python-pyrex                                 ORPHANED (Yaakov Selkowitz)
+python-pyroma                                Marco Atzeri
 python-pytest                                Marco Atzeri
 python-pytest-benchmark                      Marco Atzeri
 python-pytest-env                            Marco Atzeri

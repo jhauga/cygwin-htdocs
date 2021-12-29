@@ -3244,6 +3244,7 @@ python-pyqt5                                 Marco Atzeri
 python-pyqt5-qt3d                            Marco Atzeri
 python-pyqt5-qtchart                         Marco Atzeri
 python-pyqt5-qtdatavisualization             Marco Atzeri
+python-pyqt-builder                          Marco Atzeri
 python-pyrex                                 ORPHANED (Yaakov Selkowitz)
 python-pyroma                                Marco Atzeri
 python-pytest                                Marco Atzeri

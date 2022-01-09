@@ -287,7 +287,7 @@ cvsutils                                     Eric Blake
 cxsparse                                     Marco Atzeri
 cygcheck-dep                                 Mikhail Usenko
 cygextreg                                    Joni Eskelinen
-cygport                                      Yaakov Selkowitz
+cygport                                      Yaakov Selkowitz/Jon Turney
 cygrunsrv                                    Corinna Vinschen
 cygutils                                     Mark Geisert
 cygwin                                       Corinna Vinschen/Ken Brown

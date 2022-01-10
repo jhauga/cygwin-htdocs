@@ -148,14 +148,8 @@ Installing Cygwin/X
 
    Cygwin has a nice setup program that downloads and installs the
    necessary Cygwin packages for you.
-    1. Open the Cygwin, http://cygwin.com/ page in your web browser
-    2. Click on the "setup-x86_64.exe" (64-bit installation) or
-       "setup-x86.exe" (32-bit installation) link to download the
-       appropriate setup program from the primary Cygwin server. Save it
-       to the directory that you would like to store the downloaded
-       packages in (e.g. c:\download). Do not save to c:\cygwin, as that
-       is the default directory for the extraction and installation of the
-       downloaded packages.
+    1. Open the Cygwin home page in your web browser.
+    2. Click on the setup-x86_64.exe link to download the setup program.
     3. Run the Cygwin setup program and you will see the welcome screen:
        [cyi01welcome.png]
     4. Click Next to proceed to the next screen.
@@ -164,9 +158,9 @@ Installing Cygwin/X
        any number of machines:
        [cyi02installoption.png]
     6. Click Next to proceed to the next screen.
-    7. The default Install Root is c:\cygwin which should be fine for most
-       installations. Leave Default Text File Type as UNIX. Leave Install
-       For set to All unless you lack local administrative privileges.
+    7. The default Root Directory should be fine for most installations.
+       Leave Install For set to All Users unless you lack local
+       administrative privileges.
        [cyi03installto.png]
     8. Click Next to proceed to the next screen.
     9. Local Package Directory should default to the directory that you
@@ -192,8 +186,11 @@ Installing Cygwin/X
             startxdmcp.bat )
           + xorg-docs (optional, man pages)
           + xlaunch (optional, a wizard for starting X sessions)
-          + You may also select any X client programs you want to use, and
-            any fonts you would like to have available.
+          + You may also select any X client programs you want to use, any
+            X Window Manager or Desktop Environment you want to use (see
+            the Section called Starting an X desktop environment session
+            or X window manager in windowed mode in Chapter 3), and any
+            fonts you would like to have available.
           + You may also want to ensure that the openssh package is
             selected if you wish to use ssh connections to run remote X
             clients.
@@ -215,7 +212,7 @@ Installing Cygwin/X
    19. Click Finish to close the setup program.
    20. (optional but recommended) Install the cygserver service. See the
        instructions in the Section called Shared memory support in Chapter
-       3).
+       3.
 
    You have now successfully installed Cygwin/X.
      __________________________________________________________________
@@ -260,6 +257,7 @@ mode
        package
      * KDE Plasma Desktop Environment: install the kde-workspace package
      * LXDE Desktop Environment: install the lxde-common package
+     * LXQT Desktop Environment: install the lxqt-session package
      * MATE Desktop Environment: install the mate-session-manager package
      * Xfce Desktop Environment: install the xfce4-session package
 
@@ -1274,7 +1272,7 @@ Colophon
    the DocBook DSSSL Stylesheets.
 
    The production process for this instance of this document was started
-   at 2021-12-12 20:05 .
+   at 2021-12-25 00:08 .
 
   Notes
 

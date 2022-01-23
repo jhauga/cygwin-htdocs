@@ -3261,6 +3261,7 @@ python-rsa                                   ORPHANED (Yaakov Selkowitz)
 python-scandir                               ORPHANED (Yaakov Selkowitz)
 python-service_identity                      Marco Atzeri
 python-setuptools                            Marco Atzeri
+python-sh                                    Marco Atzeri
 python-simplegeneric                         Marco Atzeri
 python-simplejson                            Marco Atzeri
 python-sip                                   Marco Atzeri
@@ -3280,7 +3281,7 @@ python-sphinxcontrib-websupport              Marco Atzeri
 python-sphinx_rtd_theme                      Marco Atzeri
 python-sqlalchemy                            Marco Atzeri
 python-stone                                 Marco Atzeri
-python-straight.plugin                       ORPHANED (Yaakov Selkowitz)
+python-straight.plugin                       Marco Atzeri
 python-termcolor                             Marco Atzeri
 python-testpath                              Marco Atzeri
 python-toml                                  Marco Atzeri

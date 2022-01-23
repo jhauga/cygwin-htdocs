@@ -30,7 +30,7 @@ text-align: left;
 overflow: hidden;
 }
 
-#navbar li:hover
+#navbar li:hover:not(.nohover)
 {
 overflow: hidden;
 background-color: #608080;

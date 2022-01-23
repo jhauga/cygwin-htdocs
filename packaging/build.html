@@ -58,16 +58,21 @@ The behaviour of the build service can be controlled, with the tokens described
 below:
 
 <ul>
-  <li>for an individual push</li>
+  <li>for an individual push<br/>
 
-  <p>with <code>git push --push-option="<i>token [token...]"</i></code></li></p>
+  <p>with <code>git push --push-option="<i>token [token...]"</i></code></p>
 
-  <li>for a package</li>
+  </li>
+
+  <li>for a package<br/>
 
   <p>by setting the value of the <code>SCALLYWAG</code> variable in
   the <code>.cygport</code> file</p>
 
-  <li>per-maintainer</li>
+  </li>
+
+  <li>per-maintainer<br/>
+
   <p>
     The default value may be specified in a <code>!scallywag</code> file in the root
     of a maintainer's upload directory tree.
@@ -77,6 +82,7 @@ below:
     Additionally, if that file contains <code>disable</code>, this service is
     completely disabled for all that maintainer's pushes.
   </p>
+  </li>
 </ul>
 
 <p>
@@ -115,6 +121,8 @@ below:
     Take no action after a successful build.
   </li>
 </ul>
+
+</div>
 
 </body>
 </html>

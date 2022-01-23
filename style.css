@@ -291,6 +291,11 @@ ul.compact li
     margin-bottom: 0em;
 }
 
+.underline
+{
+    text-decoration: underline;
+}
+
 /* pkglist related --------------------------------------------------- */
 
 /*
@@ -371,4 +376,11 @@ table.pkgtable th
 {
     margin-left:5%;
     margin-right:5%;
+}
+
+/* acronyms related --------------------------------------------------- */
+
+.acronyms tr
+{
+    vertical-align:top;
 }

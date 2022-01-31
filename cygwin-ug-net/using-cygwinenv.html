@@ -34,10 +34,10 @@ processes are being started while a user is logging off.
 to 9600-8-N-1 with no flow control when used. This is done at open
 time and when handles are inherited.  Defaults to set.</p></li><li class="listitem" style="list-style-type: disc"><p><code class="envar">(no)wincmdln</code> - if set, the windows complete command
 line (truncated to ~32K) will be passed on any processes that it creates
-in addition to the normal UNIX argv list.  Defaults to not set.</p></li><li class="listitem" style="list-style-type: disc"><p><code class="envar">winsymlinks:{lnk,native,nativestrict}</code> - if set to just
+in addition to the normal UNIX argv list.  Defaults to not set.</p></li><li class="listitem" style="list-style-type: disc"><p><code class="envar">winsymlinks:{lnk,native,nativestrict,sys}</code></p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: square; "><li class="listitem" style="list-style-type: square"><p>If set to just
 <code class="literal">winsymlinks</code> or <code class="literal">winsymlinks:lnk</code>,
 Cygwin creates symlinks as Windows shortcuts with a special header and
-the R/O attribute set.</p><p>If set to <code class="literal">winsymlinks:native</code> or
+the R/O attribute set.</p></li><li class="listitem" style="list-style-type: square"><p>If set to <code class="literal">winsymlinks:native</code> or
 <code class="literal">winsymlinks:nativestrict</code>, Cygwin creates symlinks as
 native Windows symlinks on filesystems and OS versions supporting them.</p><p>The difference between <code class="literal">winsymlinks:native</code> and
 <code class="literal">winsymlinks:nativestrict</code> is this:  If the filesystem
@@ -45,7 +45,10 @@ supports native symlinks and Cygwin fails to create a native symlink for
 some reason, it will fall back to creating Cygwin default symlinks
 with <code class="literal">winsymlinks:native</code>, while with
 <code class="literal">winsymlinks:nativestrict</code> the <code class="literal">symlink(2)</code>
-system call will immediately fail.</p><p>For more information on symbolic links, see
+system call will immediately fail.</p></li><li class="listitem" style="list-style-type: square"><p>If set to <code class="literal">winsymlinks:sys</code>, Cygwin creates symlinks as
+plain files with the <code class="literal">system</code> attribute, containing a magic
+cookie followed by the path to which the link points.</p></li></ul></div><p>Note that this setting has no effect where Cygwin knows that the
+filesystem only supports a creating symlinks in a specific way.</p><p>For more information on symbolic links, see
 <a class="xref" href="using.html#pathnames-symlinks" title="Symbolic links">the section called “Symbolic links”</a>.</p></li><li class="listitem" style="list-style-type: disc"><p><code class="envar">disable_pcon</code> - if set, pseudo console support in
 pty will be disabled.  This is for programs which do not work properly
 under pty with pseudo console enabled.  Defaults to not set.</p></li></ul></div></div><div class="sect2"><div class="titlepage"><div><div><h3 class="title"><a name="cygwinenv-removed-options"></a>Obsolete options</h3></div></div></div><p>

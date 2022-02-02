@@ -384,3 +384,52 @@ table.pkgtable th
 {
     vertical-align:top;
 }
+
+/* grid table style used for reports---------------------------------------- */
+
+table.grid {
+    width: 95%;
+    margin-left:auto;
+    margin-right:auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table.grid th {
+    text-align: left;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: black;
+    color: white;
+    padding: 0.3em;
+}
+
+table.grid tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table.grid tr.highlight {
+    background-color: #daa520;
+}
+
+table.grid td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0.3em;
+}
+
+table.grid tr:hover {
+    background-color: #fdd9b5;
+}
+
+table.grid td.succeeded, table.grid td.deployed {
+    background-color: #33a25c;
+}
+
+table.grid td.failed {
+    background-color: #a23336;
+}
+
+.pagination {
+    text-align: center;
+}

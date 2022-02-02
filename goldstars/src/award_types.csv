@@ -4,10 +4,10 @@
 # to be an entry for each type of award given in awards.csv.
 
 Name,Image,Alt,Default Count,Field Order
-Gold star,img/goldstar.png,*,1,1
-Plush hippo,img/plush_hippo.jpg,@,0,2
-Gold watch,img/goldwatch.png,$,0,3
-Platinum watch,img/platinumwatch.jpg,$$,0,4
-Silver star,img/silverstar.png,*,0,5
-Stinkbomb,img/dungbomb.png,&amp;,0,6
-Pink plush watch,img/pinkwatch.jpg,&num;,0,7
+Gold star,img/goldstar.webp,*,1,1
+Plush hippo,img/plush_hippo.webp,@,0,2
+Gold watch,img/goldwatch.webp,$,0,3
+Platinum watch,img/platinumwatch.webp,$$,0,4
+Silver star,img/silverstar.webp,*,0,5
+Stinkbomb,img/dungbomb.webp,&amp;,0,6
+Pink plush watch,img/pinkwatch.webp,&num;,0,7

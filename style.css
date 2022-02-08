@@ -380,9 +380,20 @@ table.pkgtable th
 
 /* acronyms related --------------------------------------------------- */
 
-.acronyms tr
+.valigntop td, .valigntop th
+{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.valigntop tr
 {
     vertical-align:top;
+}
+
+.valigntop p
+{
+    margin-top: 0px;
 }
 
 /* grid table style used for reports---------------------------------------- */

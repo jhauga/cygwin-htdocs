@@ -23,7 +23,8 @@
   <li><a href="#installing">Locally installing your package for testing</a></li>
   <li><a href="#test">Marking your package as a test version</a></li>
   <li><a href="#submitting">Submitting a package</a></li>
-  <li><a href="#acceptance">Uploading an accepted package</a></li>
+  <li><a href="#adopt">Adopting an orphaned package</a></li>
+  <li><a href="#acceptance">Uploading a package</a></li>
   <li><a href="#updating">Updating a package</a></li>
 </ul>
 
@@ -159,7 +160,7 @@ moment.  Two common techniques to achieve this:
       $ /etc/postinstall/boffo.sh</pre>
   </li>
   <li>
-    For packages with dependencies, you can use
+    For multiple packages with complex dependencies, you can use
     an <a href="package-server.html#overlay">overlay package server</a>.  Note
     that <code>setup</code> can accept <code>file://</code> URLs so an FTP or HTTP
     server is not necessary.
@@ -181,7 +182,18 @@ Building the packages in that way adds a
 <ul class="spaced">
   <li>
     <p><i>Do you have the time to maintain the package?</i></p>
-   Packages without active maintainers are pulled from the distribution. Generally speaking the time commitment is relatively low, simply subscribe to the <code>cygwin</code> mailing list. We'd prefer if you read the non-digest mode since prompt response to packaging issues is a plus. When a <i>bug</i> in your package is reported in the cygwin mailing list, address the bug (if it's a Cygwin-only bug) or pass back to the upstream. When a solution exists, create and upload an updated package with the fix in it. Note that you are not expected to be a helpdesk for the package - the users should be pointed to the upstream's lists if you've determined that the bug is not a Cygwin-related bug.</li>
+    <p>
+      Packages without an active maintainer may be pulled from the
+      distribution. Generally speaking the time commitment is relatively low,
+      simply subscribe to the <code>cygwin</code> mailing list. When
+      a <i>bug</i> in your package is reported in the cygwin mailing list,
+      address the bug (if it's a Cygwin-only bug) or pass back to the
+      upstream. When a solution exists, create and upload an updated package
+      with the fix in it. Note that you are not expected to be a helpdesk for
+      the package - the users should be pointed upstream if you've determined
+      that the bug is not a Cygwin-related bug.
+    </p>
+  </li>
   <li>
     <p>
       Propose on the <code>cygwin-apps</code> mailing list that you are interested
@@ -196,41 +208,32 @@ Building the packages in that way adds a
     </p>
     Submission rules:<br />
     <ul class="compact">
-      <li>If the new package is a well-known program already included in a major Linux distribution (e.g. Debian, Fedora, SuSE) please <b>include the URL</b> of the package page.  Note that "development", "test", and "unstable" packages are <b>not eligible</b> for this rule.</li>
+      <li>If the new package is a well-known program already included in a major
+      Linux distribution (e.g. Debian, Fedora, SuSE) please mention that.</li>
       <li>If the package is not included in any major Linux distro it must receive <b>five positive votes</b> from other package maintainers in order to be accepted.</li>
       <li>Mention which <a href="https://opensource.org/licenses">open source license</a> applies to the source.</li>
     </ul>
   </li>
   <li>
     <p>
-      In order to create a good <code>.hint</code> file, do read and
-      follow <a href="packaging-hint-files.html#pvr.hint">the documentation</a>.
+      Write good package metadata
     </p>
     <ul class="compact">
-      <li>In order to select an appropriate a correct <code>category</code> you can look in the Debian package list and identify the section that your package is present in there - if it's available via Debian. If it's not, have a look and take a sensible guess. Use <a href="packaging-hint-files.html#categories">existing categories</a> if at all possible.</li>
-      <li>Do not use the package name in <code>sdesc</code>, as it is added automatically by the setup program.</li>
-      <li>Opinion on whether to mark your initial version as a <code>test</code> version is currently mixed. If you have doubts about the stability of your initial offering you may decide to mark it as <code>Test</code>. Then, once the package has no major bug reports from users, the test label can be removed. Otherwise, it is perfectly acceptable to forgo the <code>test</code> designation in your first release.</li>
+      <li>In order to select an appropriate a correct <code>category</code> you
+      can look in e.g. the Debian package list and identify the section that
+      your package is present in there - if it's available via Debian. If it's
+      not, have a look and take a sensible
+      guess. Use <a href="packaging-hint-files.html#categories">existing
+      categories</a> if at all possible.</li>
+      <li>Do not use the package name in <code>sdesc</code>, as it is added
+      automatically by the <code>setup</code> program.</li>
     </ul>
   </li>
   <li>
     <p>
-      Place the package files in a web accessible HTTP/FTP site somewhere, and
-      provide the URL in your mail.
+      If at all possible, build the package and place the package files on a
+      publicly accessible HTTP/FTP site, and provide the URL in your mail.
     </p>
-    <p>
-      If at all possible, the files should have a directory structure in order
-      to get them all with a single command.  For example, if I am proposing
-      "foo" and "libfoo", an upload site should look like:
-    </p>
-    <ul class="compact">
-      <li><code>myserver.com/whatever/x86/foo/foo-0.20.3-1.tar.xz</code></li>
-      <li><code>myserver.com/whatever/x86/foo/foo-0.20.3-1.hint</code></li>
-      <li><code>myserver.com/whatever/x86/foo/foo-0.20.3-1-src.tar.xz</code></li>
-      <li><code>myserver.com/whatever/x86/foo/foo-0.20.3-1-src.hint</code></li>
-      <li><code>myserver.com/whatever/x86/foo/libfoo/libfoo-0.20.3-1.tar.xz</code></li>
-      <li><code>myserver.com/whatever/x86/foo/libfoo/libfoo-0.20.3-1.hint</code></li>
-    </ul>
-
   </li>
   <li>There is no need to increase the release number if the package has not
     been officially released.  So, if you are releasing a -1 release of a
@@ -240,7 +243,44 @@ Building the packages in that way adds a
 
 </ul>
 
-<h2 class="cartouche" id="acceptance">Uploading an accepted package</h2>
+<h2 class="cartouche" id="adopt">Adopting an orphaned package</h2>
+
+<p>
+  Unfortunately <a href="/packages/reports/unmaintained.html">some packages</a>
+  are without a maintainer, and volunteers to take over are welcome.
+</p>
+
+<ul class="spaced">
+  <li>
+    Find the appropriate source package in
+    the <a href="/packages/src_package_list.html">source package list</a>.
+  </li>
+  <li>
+    The package summary page should link to the packaging git repository,
+    containing the <code>.cygport</code> and patch files.
+    <code>git clone</code> that repository from the listed URL (for some older
+    packages, this repository may not exist yet, in which case, install the
+    source package using <code>setup</code> instead).
+  </li>
+  <li>
+    Edit the <code>.cygport</code> file to adjust the version appropriately.
+  </li>
+  <li>
+    <code>cygport <i>package</i>.cygport download all check</code>
+  </li>
+  <li>
+    Fix any problems! (Consider looking at e.g. upstream bug reports and fixes,
+    and patches applied in Linux distributions to avoid duplicating effort).
+  </li>
+  <li>
+    email the <code>cygwin-apps</code> mailing list, as
+    in <a href="/packaging-contributors-guide.html#submitting">submitting a new
+    package</a>, except use "[<a href="acronyms/#ITA">ITA</a>]" rather than
+    "[<a href="acronyms/#ITP">ITP</a>]" in the subject.
+  </li>
+</ul>
+
+<h2 class="cartouche" id="acceptance">Uploading a package</h2>
 
 <ul class="spaced">
   <li>Once you have your GTG, follow the instructions for

@@ -3252,6 +3252,7 @@ python-pyroma                                Marco Atzeri
 python-pytest                                Marco Atzeri
 python-pytest-benchmark                      Marco Atzeri
 python-pytest-env                            Marco Atzeri
+python-pytest-mock                           Marco Atzeri
 python-pytest-sugar                          Marco Atzeri
 python-pytz                                  Marco Atzeri
 python-rdflib                                ORPHANED (Yaakov Selkowitz)

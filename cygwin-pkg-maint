@@ -829,7 +829,7 @@ ii                                           Jari Aalto
 ilmbase                                      ORPHANED (Yaakov Selkowitz)
 im-chooser                                   ORPHANED (Yaakov Selkowitz)
 ImageMagick                                  Marco Atzeri
-imake                                        ORPHANED (Yaakov Selkowitz)
+imake                                        Jon Turney
 imlib                                        ORPHANED (Yaakov Selkowitz)
 imlib2                                       ORPHANED (Yaakov Selkowitz)
 imlib2_loaders                               ORPHANED (Yaakov Selkowitz)
@@ -1551,7 +1551,7 @@ link-grammar                                 ORPHANED (Yaakov Selkowitz)
 linklint                                     Jari Aalto
 links                                        Jari Aalto
 linux-libertine-fonts                        ORPHANED (Yaakov Selkowitz)
-listres                                      ORPHANED (Yaakov Selkowitz)
+listres                                      Jon Turney
 llvm                                         ORPHANED (Yaakov Selkowitz)
 llvm3.5                                      ORPHANED (Yaakov Selkowitz)
 lmdb                                         ORPHANED (Yaakov Selkowitz)
@@ -2391,7 +2391,7 @@ mingw64-x86_64-zziplib                       ORPHANED (Yaakov Selkowitz)
 minizip                                      Ken Brown
 mintty                                       Thomas Wolff
 minuet                                       ORPHANED (Yaakov Selkowitz)
-mkcomposecache                               ORPHANED (Yaakov Selkowitz)
+mkcomposecache                               Jon Turney
 mkfontdir                                    OBSOLETE
 mkfontscale                                  Jon Turney
 mksh                                         ORPHANED (Chris Sutcliffe)
@@ -2402,7 +2402,7 @@ monotone                                     ORPHANED (Yaakov Selkowitz)
 moreutils                                    Adam Dinwoodie
 mosh                                         Achim Gratz
 most                                         Jari Aalto
-motif                                        ORPHANED (Yaakov Selkowitz)
+motif                                        Jon Turney
 mousepad                                     ORPHANED (Yaakov Selkowitz)
 mousetweaks                                  ORPHANED (Yaakov Selkowitz)
 mozjs24                                      ORPHANED (Yaakov Selkowitz)
@@ -2509,7 +2509,7 @@ ocaml-result                                 ORPHANED (Yaakov Selkowitz)
 ocaml-topkg                                  ORPHANED (Yaakov Selkowitz)
 ocaml-xml-light                              ORPHANED (Yaakov Selkowitz)
 ocl-icd                                      ORPHANED (Yaakov Selkowitz)
-oclock                                       ORPHANED (Yaakov Selkowitz)
+oclock                                       Jon Turney
 octave                                       Marco Atzeri
 octave-bim                                   Marco Atzeri
 octave-bsltl                                 Marco Atzeri
@@ -3819,7 +3819,7 @@ tracker-miners                               ORPHANED (Yaakov Selkowitz)
 trader                                       John Zaitseff
 transmission                                 ORPHANED (Yaakov Selkowitz)
 transmission-remote-gtk                      ORPHANED (Yaakov Selkowitz)
-transset                                     ORPHANED (Yaakov Selkowitz)
+transset                                     Jon Turney
 trayer                                       ORPHANED (Yaakov Selkowitz)
 tree                                         Jari Aalto
 ttcp                                         Jari Aalto
@@ -3875,7 +3875,7 @@ varnish                                      Jorge Diaz
 vcdimager                                    ORPHANED (Yaakov Selkowitz)
 verne-backgrounds                            ORPHANED (Yaakov Selkowitz)
 vfu                                          Jari Aalto
-viewres                                      ORPHANED (Yaakov Selkowitz)
+viewres                                      Jon Turney
 vim                                          Marco Atzeri
 vinagre                                      ORPHANED (Yaakov Selkowitz)
 vino                                         ORPHANED (Yaakov Selkowitz)
@@ -3918,7 +3918,7 @@ wv                                           ORPHANED (Yaakov Selkowitz)
 wxWidgets2.8                                 ORPHANED (Yaakov Selkowitz)
 wxWidgets3.0                                 Hamish McIntyre-Bhatty
 wxWidgets3.1                                 Hamish McIntyre-Bhatty
-x11perf                                      ORPHANED (Yaakov Selkowitz)
+x11perf                                      Jon Turney
 x11vnc                                       ORPHANED (Yaakov Selkowitz)
 xapian-bindings                              ORPHANED (Yaakov Selkowitz)
 xapian-core                                  ORPHANED (Yaakov Selkowitz)
@@ -3942,7 +3942,7 @@ xclip                                        Jon Turney
 xclipboard                                   Jon Turney
 xclock                                       Jon Turney
 xcmsdb                                       Jon Turney
-xcompmgr                                     ORPHANED (Yaakov Selkowitz)
+xcompmgr                                     Jon Turney
 xconsole                                     Jon Turney
 xcursor-themes                               ORPHANED (Yaakov Selkowitz)
 xcursorgen                                   Jon Turney
@@ -4039,7 +4039,7 @@ xmlto                                        Ken Brown
 xmltoman                                     Ken Brown
 xmodmap                                      Jon Turney
 xmon                                         Jon Turney
-xmore                                        ORPHANED (Yaakov Selkowitz)
+xmore                                        Jon Turney
 xmp                                          ORPHANED (Yaakov Selkowitz)
 xorg-cf-files                                Jon Turney
 xorg-docs                                    Jon Turney
@@ -4060,9 +4060,9 @@ xprop                                        Jon Turney
 xrandr                                       Jon Turney
 xrdb                                         Jon Turney
 xrefresh                                     Jon Turney
-xscope                                       ORPHANED (Yaakov Selkowitz)
+xscope                                       Jon Turney
 xsd                                          ORPHANED (Yaakov Selkowitz)
-xsel                                         ORPHANED (Yaakov Selkowitz)
+xsel                                         Jon Turney
 xset                                         Jon Turney
 xsetroot                                     Jon Turney
 xsettingsd                                   ORPHANED (Yaakov Selkowitz)

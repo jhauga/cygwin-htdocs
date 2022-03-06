@@ -2034,7 +2034,7 @@ mingw64-i686-wv                              ORPHANED (Yaakov Selkowitz)
 mingw64-i686-wxWidgets2.8                    ORPHANED (Yaakov Selkowitz)
 mingw64-i686-wxWidgets3.0                    ORPHANED (Yaakov Selkowitz)
 mingw64-i686-xerces-c                        ORPHANED (Yaakov Selkowitz)
-mingw64-i686-xz                              ORPHANED (Yaakov Selkowitz)
+mingw64-i686-xz                              Achim Gratz
 mingw64-i686-yaml                            ORPHANED (Yaakov Selkowitz)
 mingw64-i686-zeromq                          Marco Atzeri
 mingw64-i686-zlib                            ORPHANED (Yaakov Selkowitz)
@@ -2382,7 +2382,7 @@ mingw64-x86_64-wv                            ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-wxWidgets2.8                  ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-wxWidgets3.0                  ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-xerces-c                      ORPHANED (Yaakov Selkowitz)
-mingw64-x86_64-xz                            ORPHANED (Yaakov Selkowitz)
+mingw64-x86_64-xz                            Achim Gratz
 mingw64-x86_64-yaml                          ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-zeromq                        Marco Atzeri
 mingw64-x86_64-zlib                          ORPHANED (Yaakov Selkowitz)
@@ -3052,7 +3052,7 @@ pinfo                                        Andrew Schulman
 ping                                         Marco Atzeri
 pinpoint                                     ORPHANED (Yaakov Selkowitz)
 pixman                                       Jon Turney
-pkgconf                                      ORPHANED (Yaakov Selkowitz)
+pkgconf                                      Achim Gratz
 pl                                           Corinna Vinschen
 planet                                       ORPHANED (Yaakov Selkowitz)
 plasma-desktop                               ORPHANED (Yaakov Selkowitz)
@@ -4079,7 +4079,7 @@ xwininfo                                     Jon Turney
 xwud                                         Jon Turney
 xxdiff                                       ORPHANED (Yaakov Selkowitz)
 xxhash                                       Doug Henderson
-xz                                           ORPHANED (Yaakov Selkowitz)
+xz                                           Achim Gratz
 yad                                          ORPHANED (Yaakov Selkowitz)
 yajl                                         ORPHANED (Yaakov Selkowitz)
 yakuake                                      ORPHANED (Yaakov Selkowitz)

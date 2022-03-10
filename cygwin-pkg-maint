@@ -288,6 +288,7 @@ cvsutils                                     Eric Blake
 cxsparse                                     Marco Atzeri
 cygcheck-dep                                 Mikhail Usenko
 cygextreg                                    Joni Eskelinen
+cygfuse                                      Mark Geisert
 cygport                                      Yaakov Selkowitz/Jon Turney
 cygrunsrv                                    Corinna Vinschen
 cygutils                                     Mark Geisert
@@ -555,6 +556,7 @@ gimp-help                                    ORPHANED (Yaakov Selkowitz)
 girara                                       ORPHANED (Yaakov Selkowitz)
 git                                          Adam Dinwoodie
 git-archive-all                              ORPHANED (Yaakov Selkowitz)
+git-filter-repo                              James Morris
 git-oodiff                                   Jari Aalto
 git-review                                   Marco Atzeri
 gitg                                         ORPHANED (Yaakov Selkowitz)
@@ -3664,6 +3666,7 @@ sqlite3                                      Jan Nijtmans
 sqliteman                                    ORPHANED (Yaakov Selkowitz)
 squid                                        ORPHANED (Dr. Volker Zell)
 ssh-pageant                                  Michael Wild
+sshfs                                        Mark Geisert
 sshpass                                      ORPHANED (Yaakov Selkowitz)
 ssmtp                                        Corinna Vinschen
 startup-notification                         ORPHANED (Yaakov Selkowitz)

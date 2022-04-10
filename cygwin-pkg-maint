@@ -2039,7 +2039,7 @@ mingw64-i686-xerces-c                        ORPHANED (Yaakov Selkowitz)
 mingw64-i686-xz                              Achim Gratz
 mingw64-i686-yaml                            ORPHANED (Yaakov Selkowitz)
 mingw64-i686-zeromq                          Marco Atzeri
-mingw64-i686-zlib                            ORPHANED (Yaakov Selkowitz)
+mingw64-i686-zlib                            Achim Gratz
 mingw64-i686-zstd                            Achim Gratz
 mingw64-i686-zziplib                         ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-a52dec                        ORPHANED (Yaakov Selkowitz)
@@ -2387,7 +2387,7 @@ mingw64-x86_64-xerces-c                      ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-xz                            Achim Gratz
 mingw64-x86_64-yaml                          ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-zeromq                        Marco Atzeri
-mingw64-x86_64-zlib                          ORPHANED (Yaakov Selkowitz)
+mingw64-x86_64-zlib                          Achim Gratz
 mingw64-x86_64-zstd                          Achim Gratz
 mingw64-x86_64-zziplib                       ORPHANED (Yaakov Selkowitz)
 minizip                                      Ken Brown
@@ -4108,7 +4108,7 @@ zinnia                                       ORPHANED (Yaakov Selkowitz)
 zinnia-tomoe                                 ORPHANED (Yaakov Selkowitz)
 zint                                         ORPHANED (Yaakov Selkowitz)
 zip                                          ORPHANED (Yaakov Selkowitz)
-zlib                                         Ken Brown
+zlib                                         Achim Gratz
 znc                                          Alexey Sokolov
 zoo                                          Jari Aalto
 zpaq                                         Achim Gratz

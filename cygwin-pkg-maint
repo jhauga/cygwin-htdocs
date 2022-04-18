@@ -3152,6 +3152,7 @@ python-dropbox                               Marco Atzeri
 python-enchant                               Marco Atzeri
 python-enum34                                ORPHANED (Yaakov Selkowitz)
 python-fastimport                            Ken Brown
+python-fasteners                             Libor Ukropec
 python-faulthandler                          ORPHANED (Yaakov Selkowitz)
 python-feedparser                            ORPHANED (Yaakov Selkowitz)
 python-filelock                              Marco Atzeri

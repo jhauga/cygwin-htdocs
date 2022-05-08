@@ -3157,7 +3157,7 @@ python-faulthandler                          ORPHANED (Yaakov Selkowitz)
 python-feedparser                            ORPHANED (Yaakov Selkowitz)
 python-filelock                              Marco Atzeri
 python-fonttools                             Marco Atzeri
-python-future                                Jon Turney
+python-future                                Libor Ukropec
 python-futures                               ORPHANED (Yaakov Selkowitz)
 python-gdata                                 ORPHANED (Chris Sutcliffe)
 python-gi                                    Marco Atzeri

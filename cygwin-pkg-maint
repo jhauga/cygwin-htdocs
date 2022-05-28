@@ -344,7 +344,7 @@ devhelp                                      ORPHANED (Yaakov Selkowitz)
 dhttpd                                       Jari Aalto
 dia                                          ORPHANED (Yaakov Selkowitz)
 dia-shapes                                   ORPHANED (Yaakov Selkowitz)
-dialog                                       ORPHANED (Yaakov Selkowitz)
+dialog                                       Brian Inglis
 diffstat                                     Eric Blake/Brian Inglis
 diffutils                                    Eric Blake/Brian Inglis
 discus                                       Andrew Schulman
@@ -3702,7 +3702,7 @@ systemsettings                               ORPHANED (Yaakov Selkowitz)
 sysvinit                                     ORPHANED (Dr. Volker Zell)
 t1lib                                        ORPHANED (Dr. Volker Zell)
 t1utils                                      ORPHANED (Yaakov Selkowitz)
-tack                                         ORPHANED
+tack                                         Brian Inglis
 taglib                                       ORPHANED (Yaakov Selkowitz)
 taglib-extras                                ORPHANED (Yaakov Selkowitz)
 tailor                                       Jari Aalto

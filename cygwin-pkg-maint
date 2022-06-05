@@ -497,8 +497,8 @@ freetype2                                    Ken Brown
 freexl                                       Daisuke Fujimura
 fribidi                                      ORPHANED (Yaakov Selkowitz)
 frogr                                        ORPHANED (Yaakov Selkowitz)
-fslsfonts                                    ORPHANED (Yaakov Selkowitz)
-fstobdf                                      ORPHANED (Yaakov Selkowitz)
+fslsfonts                                    Jon Turney
+fstobdf                                      Jon Turney
 fvwm                                         ORPHANED (Yaakov Selkowitz)
 fzf                                          ORPHANED (Adam Dinwoodie)
 galculator                                   ORPHANED (Yaakov Selkowitz)
@@ -3617,7 +3617,7 @@ shapelib                                     ORPHANED (Yaakov Selkowitz)
 shared-mime-info                             Lemures Lemniscati
 sharutils                                    Eric Blake
 shed                                         Jari Aalto
-showfont                                     ORPHANED (Yaakov Selkowitz)
+showfont                                     Jon Turney
 shutdown                                     Frank Fesevur
 sic                                          Jari Aalto
 sidplayfp                                    ORPHANED (Yaakov Selkowitz)

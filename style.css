@@ -274,6 +274,11 @@ ul.compact li
     font-size: smaller;
 }
 
+.floatleft
+{
+    float: left;
+}
+
 .center
 {
     text-align: center;
@@ -441,6 +446,8 @@ table.grid td.failed {
     background-color: #a23336;
 }
 
-.pagination {
-    text-align: center;
+.gridfooter {
+    width: 95%;
+    margin-left:auto;
+    margin-right:auto;
 }

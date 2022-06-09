@@ -2393,6 +2393,7 @@ mkcomposecache                               Jon Turney
 mkfontscale                                  Jon Turney
 mksh                                         ORPHANED (Chris Sutcliffe)
 mkvtoolnix                                   ORPHANED (David Stacey)
+mle                                          Adam Saponara
 mm-common                                    Ken Brown
 mmv                                          Jari Aalto
 monotone                                     ORPHANED (Yaakov Selkowitz)
@@ -3859,6 +3860,7 @@ urlgrabber                                   Jari Aalto
 urw-base35-fonts                             Ken Brown
 usbredir                                     ORPHANED (Yaakov Selkowitz)
 usbutils                                     ORPHANED (Yaakov Selkowitz)
+uthash                                       Adam Saponara
 util-linux                                   Mark Geisert
 uw-imap                                      ORPHANED (Dr. Volker Zell)
 vala                                         ORPHANED (Yaakov Selkowitz)

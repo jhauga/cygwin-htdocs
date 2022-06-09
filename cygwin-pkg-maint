@@ -1,6 +1,5 @@
 2048-cli                                     ORPHANED (Yaakov Selkowitz)
 2048-qt                                      ORPHANED (Yaakov Selkowitz)
-4ti2                                         Marco Atzeri
 a2ps                                         ORPHANED (Yaakov Selkowitz)
 a52dec                                       ORPHANED (Yaakov Selkowitz)
 aalib                                        ORPHANED (Dr. Volker Zell)
@@ -177,7 +176,6 @@ ca-certificates                              Achim Gratz
 cabextract                                   Stuart Caie
 cadaver                                      ORPHANED (Dr. Volker Zell)
 cairo                                        Ken Brown
-cairomm                                      Ken Brown
 cairomm1.0                                   Ken Brown
 caja                                         ORPHANED (Yaakov Selkowitz)
 caja-extensions                              ORPHANED (Yaakov Selkowitz)
@@ -744,7 +742,6 @@ gts                                          ORPHANED (Yaakov Selkowitz)
 gtypist                                      ORPHANED (Yaakov Selkowitz)
 guake                                        ORPHANED (Yaakov Selkowitz)
 gucharmap                                    ORPHANED (Yaakov Selkowitz)
-guile                                        Marco Atzeri
 guile1.8                                     Marco Atzeri
 guile2.0                                     Marco Atzeri
 guile2.2                                     Marco Atzeri
@@ -1579,7 +1576,6 @@ lovelock-backgrounds                         ORPHANED (Yaakov Selkowitz)
 lrzip                                        ORPHANED (Yaakov Selkowitz)
 lskat                                        ORPHANED (Yaakov Selkowitz)
 lua                                          Lemures Lemniscati
-lua-bit                                      ORPHANED (Yaakov Selkowitz)
 lua-crypto                                   Lemures Lemniscati
 lua-json                                     ORPHANED (Yaakov Selkowitz)
 lua-ldap                                     Lemures Lemniscati
@@ -1640,7 +1636,6 @@ malaga                                       ORPHANED (Yaakov Selkowitz)
 man-db                                       Chris J. Breisch/Achim Gratz
 man-pages-linux                              Brian Inglis
 man-pages-posix                              Brian Inglis
-manlint                                      ORPHANED
 marble                                       ORPHANED (Yaakov Selkowitz)
 marblewidget                                 ORPHANED (Yaakov Selkowitz)
 marco                                        ORPHANED (Yaakov Selkowitz)
@@ -2395,7 +2390,6 @@ minizip                                      Ken Brown
 mintty                                       Thomas Wolff
 minuet                                       ORPHANED (Yaakov Selkowitz)
 mkcomposecache                               Jon Turney
-mkfontdir                                    OBSOLETE
 mkfontscale                                  Jon Turney
 mksh                                         ORPHANED (Chris Sutcliffe)
 mkvtoolnix                                   ORPHANED (David Stacey)
@@ -2911,7 +2905,6 @@ perl-PAR-Packer                              Achim Gratz/Ken Brown
 perl-Params-Util                             Achim Gratz
 perl-Params-Validate                         Achim Gratz
 perl-Params-ValidationCompiler               Achim Gratz
-perl-Parse-CPAN-Meta                         Achim Gratz
 perl-Parse-RecDescent                        Achim Gratz
 perl-Path-Class                              Achim Gratz
 perl-Path-Tiny                               Achim Gratz
@@ -3052,7 +3045,6 @@ pidgin-indicator                             ORPHANED (Yaakov Selkowitz)
 pidgin-skypeweb                              ORPHANED (Yaakov Selkowitz)
 pinentry                                     Marco Atzeri
 pinfo                                        Andrew Schulman
-ping                                         Marco Atzeri
 pinpoint                                     ORPHANED (Yaakov Selkowitz)
 pixman                                       Jon Turney
 pkgconf                                      Achim Gratz
@@ -3065,7 +3057,6 @@ plasma-sdk                                   ORPHANED (Yaakov Selkowitz)
 plasma-workspace                             ORPHANED (Yaakov Selkowitz)
 plasma-workspace-wallpapers                  ORPHANED (Yaakov Selkowitz)
 ploticus                                     Andrew Schulman
-ploticus-doc                                 Andrew Schulman
 plotutils                                    Marco Atzeri
 pluma                                        ORPHANED (Yaakov Selkowitz)
 pluma-plugins                                ORPHANED (Yaakov Selkowitz)
@@ -3093,7 +3084,6 @@ poxml                                        ORPHANED (Yaakov Selkowitz)
 prison                                       ORPHANED (Yaakov Selkowitz)
 pristine-tar                                 Jari Aalto
 procmail                                     Daniel Boland
-procps                                       OBSOLETE (Corinna Vinschen)
 procps-ng                                    Achim Gratz
 proj                                         Marco Atzeri
 protobuf                                     Achim Gratz
@@ -3110,7 +3100,6 @@ putty                                        ORPHANED (Yaakov Selkowitz)
 pv                                           Andrew Schulman
 pwgen                                        Jari Aalto
 pwget                                        Jari Aalto
-pylint                                       OBSOLETE (Jari Aalto)
 python-alabaster                             Marco Atzeri
 python-appdirs                               Marco Atzeri
 python-asn1crypto                            Marco Atzeri
@@ -3318,8 +3307,6 @@ python-zope.interface                        Marco Atzeri
 python2                                      Marco Atzeri
 python2-doc                                  Marco Atzeri
 python3                                      Marco Atzeri
-python3-configobj                            Mike DePaulo/Marco Atzeri
-python3-h5py                                 Chris LeBlanc/Marco Atzeri
 python3-wx                                   Hamish McIntyre-Bhatty
 python35                                     Marco Atzeri
 python35-doc                                 Marco Atzeri
@@ -3576,7 +3563,6 @@ rxp                                          Jari Aalto
 rxvt                                         ORPHANED (Yaakov Selkowitz)
 rxvt-unicode                                 ORPHANED (Yaakov Selkowitz)
 rzip                                         Jari Aalto
-R_autorebase                                 Marco Atzeri
 s2tc                                         ORPHANED (Yaakov Selkowitz)
 savi                                         Ken Brown
 schroedinger-cat-backgrounds                 ORPHANED (Yaakov Selkowitz)
@@ -3861,7 +3847,6 @@ unison2.48                                   Andrew Schulman
 unison2.48+4.04.2                            Andrew Schulman
 unison2.48+4.08.1                            Andrew Schulman
 unison2.49                                   Andrew Schulman
-unison2.51                                   Andrew Schulman
 unison2.51+4.04.2                            Andrew Schulman
 unison2.51+4.10.0                            Andrew Schulman
 units                                        Brian Inglis

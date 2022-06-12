@@ -239,7 +239,6 @@ clutter-gtk1.0                               ORPHANED (Yaakov Selkowitz)
 clutter1.0                                   ORPHANED (Yaakov Selkowitz)
 cmake                                        Tony Kelman/Marco Atzeri/Lemures Lemniscati
 cmark                                        Marco Atzeri
-cmocka                                       Stephen Groat
 cmus                                         Federico Kircheis
 cocom                                        ORPHANED (Yaakov Selkowitz)
 code2html                                    Jari Aalto
@@ -555,7 +554,6 @@ gimp-help                                    ORPHANED (Yaakov Selkowitz)
 girara                                       ORPHANED (Yaakov Selkowitz)
 git                                          Adam Dinwoodie
 git-archive-all                              ORPHANED (Yaakov Selkowitz)
-git-filter-repo                              James Morris
 git-oodiff                                   Jari Aalto
 git-review                                   Marco Atzeri
 gitg                                         ORPHANED (Yaakov Selkowitz)
@@ -1443,7 +1441,6 @@ librsvg2                                     ORPHANED (Yaakov Selkowitz)
 librsync                                     David Rothenberger
 librvngabw0.0                                ORPHANED (Yaakov Selkowitz)
 libsamplerate                                ORPHANED (Yaakov Selkowitz)
-libsass                                      Marcos Vives Del Sol
 libsecret1                                   ORPHANED (Yaakov Selkowitz)
 libshout                                     ORPHANED (Yaakov Selkowitz)
 libsidplayfp                                 ORPHANED (Yaakov Selkowitz)
@@ -2415,7 +2412,6 @@ mscgen                                       ORPHANED (David Stacey)
 msitools                                     Jon Turney
 msmtp                                        Jari Aalto
 mt                                           Corinna Vinschen
-mtr                                          Brian Inglis
 multitail                                    Andrew Schulman
 muparser                                     ORPHANED (Yaakov Selkowitz)
 musepack                                     ORPHANED (Yaakov Selkowitz)

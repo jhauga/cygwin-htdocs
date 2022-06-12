@@ -11,7 +11,7 @@
 <div id="main">
 <!--#include virtual="/top.html" -->
 
-<h1>Package build service (experimental)</h1>
+<h1>Package build service</h1>
 
 <p>
   After pushing to a package <a href="repos.html">git repository</a>, an
@@ -101,6 +101,11 @@ below:
     Disables building packages.
   </li>
   <li>
+    <code>label</code><br/>
+    Label the packages as <code>test:</code> using <code>cygport
+    package-test</code>.
+  </li>
+  <li>
     <code>test</code><br/>
     Enables running <code>cygport test</code>.
   </li>
@@ -113,8 +118,6 @@ below:
     For the master branch, after a successful build, the built packages are
     handed-off to the package uploader.
     <br/>
-    Note that currently, these packages are built using <code>cygport
-    all-test</code>, and so will always be marked as test.
   </li>
   <li>
     <code>nodeploy</code><br/>

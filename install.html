@@ -14,19 +14,13 @@
 
 <h2 class="cartouche">Installing and Updating Cygwin for 64-bit versions of Windows</h2>
 
-<p>Run <a href="setup-x86_64.exe">setup-x86_64.exe</a> any time you want to update or
-install a Cygwin package for 64-bit windows. The <a href="setup-x86_64.exe.sig">signature</a> for <a
-href="setup-x86_64.exe">setup-x86_64.exe</a> can be used to verify the validity of
-this binary.</p>
+<p>Run <a href="setup-x86_64.exe">setup-x86_64.exe</a> any time you want to
+update or install a Cygwin package for 64-bit windows.</p>
 
-<h2 class="cartouche">Signing key transition</h2>
-
-<p>The key used to sign setup binaries has been updated. During the transition
-period, signatures are made using both old (676041BA) and new (1A698DE9E2E56300)
-public keys <a href="key/pubring.asc">here</a>.</p>
-
-<p>See <a href="https://sourceware.org/pipermail/cygwin-announce/2020-March/009447.html">this
-mail</a> for more details.</p>
+<p>The <a href="setup-x86_64.exe.sig">signature</a>
+for <a href="setup-x86_64.exe">setup-x86_64.exe</a> can be used to verify the
+validity of this binary using the public
+key <a href="key/pubring.asc">here</a>.</p>
 
 <h2 class="cartouche">General installation notes</h2>
 
@@ -116,15 +110,10 @@ gpg: Total number processed: 1
 gpg:               imported: 1  (RSA: 1)
 
 $ gpg --keyid-format=long --with-fingerprint --verify setup-x86_64.exe.sig setup-x86_64.exe
-gpg: Signature made 12 Mar 2020 16:26:58 GMT
-gpg:                using DSA key A9A262FF676041BA
-gpg: Good signature from "Cygwin &lt;cygwin@cygwin.com&gt;"
-Primary key fingerprint: 1169 DF9F 2273 4F74 3AA5  9232 A9A2 62FF 6760 41BA
+[...]
 gpg: Signature made 12 Mar 2020 16:26:58 GMT
 gpg:                using RSA key 1A698DE9E2E56300
 gpg: Good signature from "Cygwin &lt;cygwin@cygwin.com&gt;"
-gpg: WARNING: This key is not certified with a trusted signature!
-gpg:          There is no indication that the signature belongs to the owner.
 Primary key fingerprint: 5640 5CF6 FCC8 1574 682A  5D56 1A69 8DE9 E2E5 6300
 </pre>
 

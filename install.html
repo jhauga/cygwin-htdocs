@@ -122,6 +122,40 @@ Primary key fingerprint: 5640 5CF6 FCC8 1574 682A  5D56 1A69 8DE9 E2E5 6300
 A: See <a href="https://cygwin.com/sha512.sum">here</a>
 </p>
 
+<h2 class="cartouche" id="offline">Q: How can I do an offline install?</h2>
+
+<p>A1: Install without access to the internet, using a local package
+  repository</p>
+
+<ul>
+  <li>
+    Create a local copy of the package repository e.g. by
+    using <a href="package-server.html#local-mirror"><code>rsync</code> on one
+    of the mirrors</a>.
+  </li>
+  <li>
+    Move that copy to an accessible location, or copy it to removable media.
+  </li>
+  <li>
+    Run setup, and enter the URL, path or UNC path of that repository when
+    prompted to "Choose A Download Site".
+  </li>
+</ul>
+
+<p>A2: Install without access to the internet, using setup's separate download
+  and install actions.</p>
+
+<ul>
+  <li>
+    Run setup in "Download without installing" mode somewhere it can access a
+    mirror, with the desired packages selected.
+  </li>
+  <li>
+    Run setup again in "Install from local directory" mode, with the same "Local
+    package directory", and set of packages selected.
+  </li>
+</ul>
+
 <h2 class="cartouche" id="source">Q: How do I help improve setup?</h2>
 
 <p>

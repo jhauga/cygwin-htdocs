@@ -156,6 +156,82 @@ A: See <a href="https://cygwin.com/sha512.sum">here</a>
   </li>
 </ul>
 
+<h2 class="cartouche" id="unsupported">Q: How can I install the last Cygwin
+version for an old, unsupported Windows?</h2>
+
+<p>
+  A: Run setup with the options <code>--allow-unsupported-windows --no-verify
+  --only-site --site <i>circa_URL</i></code>:
+</p>
+
+<table class="deben">
+  <tr>
+    <th>
+      Windows version
+    </th>
+    <th>
+      Setup version
+    </th>
+    <th>
+      Cygwin DLL version
+    </th>
+    <th>
+      circa URL
+    </th>
+  </tr>
+  <tr>
+    <td>
+    Windows Vista<br/>Windows Server 2008<br/>(NT 6.0+)<br/>32-bit Windows
+    </td>
+    <td>
+      current
+    </td>
+    <td>
+      3.3.?
+    </td>
+    <td>
+      TBD
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://cygwin.com/ml/cygwin/2016-11/msg00071.html">Windows XP SP3<br/> Windows Server 2003<br/>(NT 5.1+)</a>
+    </td>
+    <td>
+      2.909
+    </td>
+    <td>
+      2.5.2
+    </td>
+    <td>
+      32-bit: http://ctm.crouchingtigerhiddenfruitbat.org/pub/cygwin/circa/2016/08/30/104223<br/>
+      64-bit: http://ctm.crouchingtigerhiddenfruitbat.org/pub/cygwin/circa/64bit/2016/08/30/104235
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Windows 2000<br/>
+      (NT 5.0+)<br/>
+      Windows XP SP2<br/>
+    </td>
+    <td>
+      <a href="http://ctm.crouchingtigerhiddenfruitbat.org/pub/cygwin/setup/snapshots/setup-2.774.exe">2.774</a>
+    </td>
+    <td>
+      1.7.18
+    </td>
+    <td>
+      32-bit: http://ctm.crouchingtigerhiddenfruitbat.org/pub/cygwin/circa/2013/06/04/121035
+    </td>
+  </tr>
+</table>
+
+<p>
+  Thanks to
+  the <a href="http://www.crouchingtigerhiddenfruitbat.org/Cygwin/timemachine.html">Cygwin
+  Time Machine</a> for providing this archive.
+</p>
+
 <h2 class="cartouche" id="source">Q: How do I help improve setup?</h2>
 
 <p>

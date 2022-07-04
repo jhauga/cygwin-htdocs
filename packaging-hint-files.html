@@ -373,15 +373,16 @@ source: release/boffo/boffo-2.4.1-2-src.tar.xz
 
 <pre>
 # <i>comment</i>
-sdesc: <i>"some text"</i>
-ldesc: <i>"some text"</i>
-category: <i>name1[ name2...]</i>
-homepage: <i>url</i>
 build-depends: <i>dependency-atom[ dependency-atom...]</i>
-test:
-skip:
-version: <i>version</i>
+category: <i>name1[ name2...]</i>
 disable-check: <i>check-name [check-name...]</i>
+homepage: <i>url</i>
+ldesc: <i>"some text"</i>
+license: <i>license-expression></i>
+sdesc: <i>"some text"</i>
+skip:
+test:
+version: <i>version</i>
 </pre>
 
 <p>
@@ -391,14 +392,23 @@ disable-check: <i>check-name [check-name...]</i>
 <ul class="spaced">
   <li>
     <p>
+      <code>build-depends</code> is a space-separated list of packages that are
+      needed to build this source package.
+    </p>
+  </li>
+
+  <li>
+    <p>
       <code>homepage</code> records the URL of the upstream homepage.
     </p>
   </li>
 
   <li>
     <p>
-      <code>build-depends</code> is a space-separated list of packages that are
-      needed to build this source package.
+      <code>license</code> is
+      a <a href="https://spdx.github.io/spdx-spec/SPDX-license-expressions/">SPDX
+      license expression</a> for the open source license(s) of the package
+      source code.
     </p>
   </li>
 

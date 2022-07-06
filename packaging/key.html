@@ -28,11 +28,14 @@ If you are a package maintainer, you will need to provide an SSH key.
     ---- END SSH2 PUBLIC KEY ----
 </pre>
 
-<p>The SSH key above should be generated from one of your public keys, e.g.:</p>
-<pre>    ssh-keygen -e -f ~/.ssh/cygwin.pub</pre>
+<p>An ssh key-pair can be generated, and the public key exported as follows:</p>
+<pre>
+    ssh-keygen -f ~/.ssh/cygwin
+    ssh-keygen -e -f ~/.ssh/cygwin.pub
+</pre>
 
 <p>
-  The format of this email is not optional.  It is read by a program so please
+  The format of this email is not optional.  It is read by a program, so please
   do not deviate from the above.  In particular:
 </p>
 

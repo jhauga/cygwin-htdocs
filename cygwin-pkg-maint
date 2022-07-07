@@ -826,7 +826,7 @@ ido3                                         ORPHANED (Yaakov Selkowitz)
 iec16022                                     ORPHANED (Yaakov Selkowitz)
 ifile                                        Jari Aalto
 ii                                           Jari Aalto
-ilmbase                                      ORPHANED (Yaakov Selkowitz)
+ilmbase                                      Marco Atzeri
 im-chooser                                   ORPHANED (Yaakov Selkowitz)
 ImageMagick                                  Marco Atzeri
 imake                                        Jon Turney
@@ -2593,9 +2593,9 @@ openbox                                      ORPHANED (Yaakov Selkowitz)
 opencdk                                      ORPHANED (Dr. Volker Zell)
 OpenColorIO                                  ORPHANED (Yaakov Selkowitz)
 opencv                                       Marco Atzeri
-openexr                                      ORPHANED (Yaakov Selkowitz)
-openexr_ctl                                  ORPHANED (Yaakov Selkowitz)
-openexr_viewers                              ORPHANED (Yaakov Selkowitz)
+openexr                                      Marco Atzeri
+openexr_ctl                                  Marco Atzeri
+openexr_viewers                              MArco Atzeri
 openjade                                     ORPHANED (Yaakov Selkowitz)
 openjpeg                                     ORPHANED (Yaakov Selkowitz)
 openjpeg2                                    Lemures Lemniscati

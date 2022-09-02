@@ -31,9 +31,8 @@ following:</p>
 sdesc: <i>"some text"</i>
 ldesc: <i>"some text"</i>
 category: <i>name1[ name2...]</i>
-requires: <i>package[ package...]</i>
-depends: <i>version-relation[, version-relation...]</i>
-obsoletes: <i>version-relation[, version-relation...]</i>
+requires: <i>version-relation[ version-relation...]</i>
+obsoletes: <i>version-relation[ version-relation...]</i>
 provides: <i>package[, package...]</i>
 conflicts: <i>version-relation[, version-relation...]</i>
 external-source: <i>package</i>
@@ -201,18 +200,18 @@ No actual moles will be harmed during execution of this game."
       email to cygwin-apps noting that fact.
     </p>
 
-    <p>
-      Multiple packages are separated by spaces. Do not enclose multiple package
-      names within quotation marks.
-    </p>
-  </li>
-
-  <li>
-    <p>
-      <code>depends</code> indicates the packages that this package relies upon, in
-      a more sophisticated way than <code>requires:</code>.
-      See <a href="https://sourceware.org/cygwin-apps/setup.ini.html#relationship">relationship
-      fields</a> for details of the syntax.
+    <ul>
+      <li>
+        Multiple packages may be separated by spaces or commas.
+      </li>
+      <li>
+        Do not enclose multiple package names within quotation marks.
+      </li>
+      <li>
+        See <a href="https://sourceware.org/cygwin-apps/setup.ini.html#relationship">relationship
+        fields</a> for details of the optional version-relation syntax.
+      </li>
+    </ul>
     </p>
   </li>
 
@@ -392,7 +391,7 @@ version: <i>version</i>
 <ul class="spaced">
   <li>
     <p>
-      <code>build-depends</code> is a space-separated list of packages that are
+      <code>build-depends</code> is a list of packages that are
       needed to build this source package.
     </p>
   </li>

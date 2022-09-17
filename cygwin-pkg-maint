@@ -2659,6 +2659,7 @@ perl                                         Achim Gratz
 perl-Algorithm-Combinatorics                 Achim Gratz
 perl-Algorithm-Diff                          Achim Gratz
 perl-Alien-Build                             Achim Gratz
+perl-Alien-CFITSIO                           Achim Gratz
 perl-Alien-Libxml2                           Achim Gratz
 perl-Alien-wxWidgets                         Achim Gratz
 perl-App-XML-DocBook-Builder                 Achim Gratz
@@ -2773,6 +2774,7 @@ perl-File-pushd                              Achim Gratz
 perl-File-Remove                             Achim Gratz
 perl-File-ShareDir                           Achim Gratz
 perl-File-ShareDir-Install                   Achim Gratz
+perl-File-ShouldUpdate                       Achim Gratz
 perl-File-Slurp                              Achim Gratz/Ken Brown
 perl-File-Slurp-Tiny                         Achim Gratz
 perl-File-Slurper                            Achim Gratz
@@ -2926,6 +2928,7 @@ perl-SGMLSpm                                 Achim Gratz
 perl-Socket                                  Achim Gratz
 perl-Socket6                                 Achim Gratz
 perl-Sort-Key                                Achim Gratz/Ken Brown
+perl-Sort-Versions                           Achim Gratz
 perl-Specio                                  Achim Gratz
 perl-Spiffy                                  Achim Gratz
 perl-String-Util                             Achim Gratz

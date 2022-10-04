@@ -2660,6 +2660,7 @@ perl                                         Achim Gratz
 perl-Algorithm-Combinatorics                 Achim Gratz
 perl-Algorithm-Diff                          Achim Gratz
 perl-Alien-Build                             Achim Gratz
+perl-Alien-Build-Plugin-Download-GitLab      Achim Gratz
 perl-Alien-CFITSIO                           Achim Gratz
 perl-Alien-Libxml2                           Achim Gratz
 perl-Alien-wxWidgets                         Achim Gratz

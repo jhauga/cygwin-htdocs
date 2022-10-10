@@ -2386,6 +2386,7 @@ mingw64-x86_64-zeromq                        Marco Atzeri
 mingw64-x86_64-zlib                          Achim Gratz
 mingw64-x86_64-zstd                          Achim Gratz
 mingw64-x86_64-zziplib                       ORPHANED (Yaakov Selkowitz)
+minisign                                     Chad Dougherty
 minizip                                      Ken Brown
 mintty                                       Thomas Wolff
 minuet                                       ORPHANED (Yaakov Selkowitz)

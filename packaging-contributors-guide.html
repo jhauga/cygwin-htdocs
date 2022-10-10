@@ -284,11 +284,27 @@ Building the packages in that way adds a
 
 <ul class="spaced">
   <li>Once you have your GTG, follow the instructions for
-    <a href="packaging/key.html">submitting a ssh key</a> and
-    <a href="package-upload.html">uploading your package files</a>.</li>
+    <a href="packaging/key.html">submitting a ssh key</a>.
+  </li>
+  <li>either
+    <ul>
   <li>
-    Please remember to build and upload packages for all architectures (x86 and
-    x86_64).
+    <a href="package-upload.html">Upload your package files</a>.
+  </li>
+  <li>
+    Please remember to build and upload packages for all architectures (i.e. x86
+    and x86_64).
+  </li>
+  <li>Feel free to delete your local copy once the files have been uploaded to sourceware.org.</li>
+    </ul>
+    <p>or</p>
+    <ul>
+      <li>push to the <a href="packaging/repos.html">packaging git
+          repository</a> with <code>'--push-option=deploy'</code>, which will
+          cause packages to be <a href="packaging/build.html"> built and
+          uploaded</a> for you.
+      </li>
+    </ul>
   </li>
   <li>
     <p>Announce via the <code>cygwin-announce</code> mailing list that the new
@@ -299,7 +315,6 @@ Building the packages in that way adds a
   <li>
     <p>If you encounter any problems, email the <code>cygwin-apps</code> mailing list.</p>
   </li>
-  <li>Feel free to delete your local copy once the files have been uploaded to sourceware.org.</li>
 </ul>
 
 <h2 class="cartouche" id="updating">Updating a package</h2>

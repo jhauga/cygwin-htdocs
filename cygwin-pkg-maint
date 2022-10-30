@@ -1618,7 +1618,7 @@ lxtask                                       ORPHANED (Yaakov Selkowitz)
 lxterminal                                   ORPHANED (Yaakov Selkowitz)
 lynx                                         Corinna Vinschen
 lyx                                          Marco Atzeri
-lz4                                          ORPHANED (Yaakov Selkowitz)
+lz4                                          Chad Dougherty
 lzip                                         Jonathan Yong
 lziprecover                                  Jonathan Yong
 lzop                                         Jari Aalto
@@ -1921,7 +1921,7 @@ mingw64-i686-libzip                          ORPHANED (Yaakov Selkowitz)
 mingw64-i686-libzmf                          ORPHANED (Yaakov Selkowitz)
 mingw64-i686-llvm                            ORPHANED (Yaakov Selkowitz)
 mingw64-i686-lua                             ORPHANED (Yaakov Selkowitz)
-mingw64-i686-lz4                             ORPHANED (Yaakov Selkowitz)
+mingw64-i686-lz4                             Chad Dougherty
 mingw64-i686-lzo2                            Achim Gratz
 mingw64-i686-mariadb-connector-c             ORPHANED (Yaakov Selkowitz)
 mingw64-i686-mdbtools                        ORPHANED (Yaakov Selkowitz)
@@ -2269,7 +2269,7 @@ mingw64-x86_64-libzip                        ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-libzmf                        ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-llvm                          ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-lua                           ORPHANED (Yaakov Selkowitz)
-mingw64-x86_64-lz4                           ORPHANED (Yaakov Selkowitz)
+mingw64-x86_64-lz4                           Chad Dougherty
 mingw64-x86_64-lzo2                          Achim Gratz
 mingw64-x86_64-mariadb-connector-c           ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-mdbtools                      ORPHANED (Yaakov Selkowitz)

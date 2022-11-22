@@ -160,8 +160,8 @@ A: See <a href="https://cygwin.com/sha512.sum">here</a>
 version for an old, unsupported Windows?</h2>
 
 <p>
-  A: Run setup with the options <code>--allow-unsupported-windows --no-verify
-  --only-site --site <i>circa_URL</i></code>:
+  A: Run setup with the options <code>--allow-unsupported-windows
+  --site <i>circa_URL</i></code>:
 </p>
 
 <table class="deben">
@@ -181,24 +181,30 @@ version for an old, unsupported Windows?</h2>
   </tr>
   <tr>
     <td>
-    Windows Vista<br/>Windows Server 2008<br/>(NT 6.0+)<br/>32-bit Windows
+    Windows Vista<br/>Windows Server 2008<br/>(NT 6.0)<br/>All 32-bit Windows
     </td>
     <td>
       current
     </td>
     <td>
-      3.3.?
+      3.3.6
     </td>
     <td>
-      TBD
+      <p>
+        32-bit: http://ctm.crouchingtigerhiddenfruitbat.org/pub/cygwin/circa/2022/11/23/063457<br>
+        The URL for any sourceware mirror, followed by cygwin-archive/20221123
+      </p>
+      <p>
+        64-bit: TBD
+      </p>
     </td>
   </tr>
   <tr>
     <td>
-      <a href="https://cygwin.com/ml/cygwin/2016-11/msg00071.html">Windows XP SP3<br/> Windows Server 2003<br/>(NT 5.1+)</a>
+      <a href="https://cygwin.com/ml/cygwin/2016-11/msg00071.html">Windows XP SP3<br/> Windows Server 2003<br/>(NT 5.1)</a>
     </td>
     <td>
-      2.909
+      current
     </td>
     <td>
       2.5.2
@@ -206,12 +212,15 @@ version for an old, unsupported Windows?</h2>
     <td>
       32-bit: http://ctm.crouchingtigerhiddenfruitbat.org/pub/cygwin/circa/2016/08/30/104223<br/>
       64-bit: http://ctm.crouchingtigerhiddenfruitbat.org/pub/cygwin/circa/64bit/2016/08/30/104235
+      <p>
+        Also use <code>--no-verify</code> with these URLs.
+      </p
     </td>
   </tr>
   <tr>
     <td>
       Windows 2000<br/>
-      (NT 5.0+)<br/>
+      (NT 5.0)<br/>
       Windows XP SP2<br/>
     </td>
     <td>
@@ -222,6 +231,10 @@ version for an old, unsupported Windows?</h2>
     </td>
     <td>
       32-bit: http://ctm.crouchingtigerhiddenfruitbat.org/pub/cygwin/circa/2013/06/04/121035
+      <p>
+        Also use <code>--no-verify</code> with these URLs.
+        Use <code>--only-site</code> rather than <code>--allow-unsupported-windows</code> with this setup version.
+      </p>
     </td>
   </tr>
 </table>

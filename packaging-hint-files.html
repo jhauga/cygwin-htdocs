@@ -435,7 +435,9 @@ version: <i>version</i>
 # <i>comment</i>
 keep: <i>version</i>[ <i>version</i>...]
 keep-count: <i>count</i>
+keep-count-test: <i>count</i>
 keep-days: <i>days</i>
+keep-superseded-versions:
 disable-check: <i>check-name [check-name...]</i>
 replace-versions: <i>version [version...]</i>
 </pre>
@@ -447,23 +449,41 @@ replace-versions: <i>version [version...]</i>
 
   <li>
     <p>
-      <code>keep</code>, <code>keep-count</code> and <code>keep-days</code> can be used to
-      override the default package expiry settings, which control when old
-      package versions are automatically removed.
+      The various <code>keep*</code> keys can be used to override the default
+      package expiry settings, which control when old package versions are
+      automatically removed.
     </p>
+  </li>
 
+  <li>
     <p>
-      All package versions listed in any <code>keep</code> line are always kept.
+      All package versions listed in a <code>keep</code> line are always kept.
     </p>
+  </li>
 
+  <li>
     <p>
       A <code>keep-count</code> line causes the highest <i>count</i> non-test
       versions to be kept.
     </p>
+  </li>
 
+  <li>
+    <code>keep-count-test</code>, likewise, for test versions.
+  </li>
+
+  <li>
     <p>
       A <code>keep-days</code> line causes the first version which is less
       than <i>days</i> days old, and all higher versions to be kept.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      By default, a version labelled <code>test:</code> is expired when a
+      superseding non-test version exists. <code>keep-superseded-versions</code>
+      disables that behaviour.
     </p>
   </li>
 

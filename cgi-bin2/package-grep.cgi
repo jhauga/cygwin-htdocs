@@ -97,16 +97,7 @@ pattern
 <input type="text" size="40" name="grep" value="'$param_grep_htmlencode'"/>
 <input type="submit" value="Go"/>
 </p>
-<p>'
-    echo '<input type="radio" name="arch" value="x86" '
-    if [ "$param_arch" = "x86" ]; then echo 'checked="checked"'; fi
-    echo '/>x86'
-
-    echo '<input type="radio" name="arch" value="x86_64" '
-    if [ "$param_arch" != "x86" ]; then echo 'checked="checked"'; fi
-    echo '/>x86_64'
-
-    echo '</p></form>'
+</form>'
 fi
 
 

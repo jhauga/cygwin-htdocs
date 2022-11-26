@@ -111,7 +111,7 @@ discussed and announced.
     #!/bin/sh
     mkdir custom-cygwin
     cd custom-cygwin
-    for ARCH in x86 x86_64 noarch ; do
+    for ARCH in x86_64 noarch ; do
       mkdir -p ${ARCH}/release
       cd ${ARCH}/release
       ln -s /var/www/cygwin/${ARCH}/release/* .
@@ -147,7 +147,7 @@ discussed and announced.
   <pre>
     #!/bin/sh
     cd /var/www/custom-cygwin/
-    for ARCH in x86 x86_64 ; do
+    for ARCH in x86_64 ; do
       mksetupini --arch ${ARCH} --inifile=${ARCH}/setup.ini --releasearea=.
       bzip2 &lt;${ARCH}/setup.ini &gt;${ARCH}/setup.bz2
       xz -6e &lt;${ARCH}/setup.ini &gt;${ARCH}/setup.xz

@@ -302,24 +302,12 @@ cygwin32-libtool                             ORPHANED (Yaakov Selkowitz)
 cygwin32-w32api-headers                      ORPHANED (Yaakov Selkowitz)
 cygwin32-w32api-runtime                      ORPHANED (Yaakov Selkowitz)
 cygwin32-zlib                                ORPHANED (Yaakov Selkowitz)
-cygwin64                                     ORPHANED (Yaakov Selkowitz)
-cygwin64-binutils                            ORPHANED (Yaakov Selkowitz)
-cygwin64-default-manifest                    ORPHANED (Yaakov Selkowitz)
-cygwin64-gcc                                 ORPHANED (Yaakov Selkowitz)
-cygwin64-gettext                             ORPHANED (Yaakov Selkowitz)
-cygwin64-libbfd                              ORPHANED (Yaakov Selkowitz)
-cygwin64-libiconv                            ORPHANED (Yaakov Selkowitz)
-cygwin64-libtool                             ORPHANED (Yaakov Selkowitz)
-cygwin64-w32api-headers                      ORPHANED (Yaakov Selkowitz)
-cygwin64-w32api-runtime                      ORPHANED (Yaakov Selkowitz)
-cygwin64-zlib                                ORPHANED (Yaakov Selkowitz)
 cyrus-sasl                                   David Rothenberger
 d-feet                                       ORPHANED (Yaakov Selkowitz)
 dash                                         Eric Blake/Brian Inglis
 datefudge                                    ORPHANED (Yaakov Selkowitz)
 dateutils                                    ORPHANED (Yaakov Selkowitz)
 db                                           ORPHANED (Dr. Volker Zell)
-db4.8                                        ORPHANED (Dr. Volker Zell)
 dblatex                                      Marco Atzeri
 dbus                                         ORPHANED (Yaakov Selkowitz)
 dbus-glib                                    ORPHANED (Yaakov Selkowitz)
@@ -590,7 +578,6 @@ gnome-autoar                                 ORPHANED (Yaakov Selkowitz)
 gnome-backgrounds                            ORPHANED (Yaakov Selkowitz)
 gnome-calculator                             ORPHANED (Yaakov Selkowitz)
 gnome-calendar                               ORPHANED (Yaakov Selkowitz)
-gnome-characters                             ORPHANED (Yaakov Selkowitz)
 gnome-chess                                  ORPHANED (Yaakov Selkowitz)
 gnome-clocks                                 ORPHANED (Yaakov Selkowitz)
 gnome-code-assistance                        ORPHANED (Yaakov Selkowitz)
@@ -758,7 +745,6 @@ harfbuzz                                     Ken Brown
 haxe                                         Andy Li
 hdf4                                         Marco Atzeri
 hdf5                                         Marco Atzeri
-hdparm                                       ORPHANED (Christian Franke)
 heisenbug-backgrounds                        ORPHANED (Yaakov Selkowitz)
 help2man                                     Brian Inglis
 hexalate                                     ORPHANED (Yaakov Selkowitz)
@@ -3682,7 +3668,6 @@ suitesparseconfig                            Marco Atzeri
 sundials                                     Marco Atzeri
 suomi-malaga                                 ORPHANED (Yaakov Selkowitz)
 surf                                         Marco Atzeri
-sushi                                        ORPHANED (Yaakov Selkowitz)
 svgpart                                      ORPHANED (Yaakov Selkowitz)
 svm                                          Ken Brown
 svn-load                                     Jari Aalto
@@ -3956,9 +3941,6 @@ xdg-utils                                    ORPHANED (Yaakov Selkowitz)
 xditview                                     Jon Turney
 xdpyinfo                                     Jon Turney
 xedit                                        Jon Turney
-xemacs                                       ORPHANED (Dr. Volker Zell)
-xemacs-mule-sumo                             ORPHANED (Dr. Volker Zell)
-xemacs-sumo                                  ORPHANED (Dr. Volker Zell)
 xerces-c                                     ORPHANED (Yaakov Selkowitz)
 xev                                          Jon Turney
 xeyes                                        Jon Turney
@@ -4073,7 +4055,6 @@ xtail                                        Jari Aalto
 xterm                                        Thomas Wolff
 XtoW                                         Jon Turney
 xtrans                                       Jon Turney
-xview                                        Jon Turney
 xwd                                          Jon Turney
 xwin-xdg-menu                                Jon Turney
 xwininfo                                     Jon Turney

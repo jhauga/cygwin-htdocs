@@ -291,17 +291,6 @@ cygrunsrv                                    Corinna Vinschen
 cygutils                                     Mark Geisert
 cygwin                                       Corinna Vinschen/Ken Brown
 cygwin-x-doc                                 Jon Turney
-cygwin32                                     ORPHANED (Yaakov Selkowitz)
-cygwin32-binutils                            ORPHANED (Yaakov Selkowitz)
-cygwin32-default-manifest                    ORPHANED (Yaakov Selkowitz)
-cygwin32-gcc                                 ORPHANED (Yaakov Selkowitz)
-cygwin32-gettext                             ORPHANED (Yaakov Selkowitz)
-cygwin32-libbfd                              ORPHANED (Yaakov Selkowitz)
-cygwin32-libiconv                            ORPHANED (Yaakov Selkowitz)
-cygwin32-libtool                             ORPHANED (Yaakov Selkowitz)
-cygwin32-w32api-headers                      ORPHANED (Yaakov Selkowitz)
-cygwin32-w32api-runtime                      ORPHANED (Yaakov Selkowitz)
-cygwin32-zlib                                ORPHANED (Yaakov Selkowitz)
 cyrus-sasl                                   David Rothenberger
 d-feet                                       ORPHANED (Yaakov Selkowitz)
 dash                                         Eric Blake/Brian Inglis

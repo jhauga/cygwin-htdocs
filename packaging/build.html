@@ -80,14 +80,16 @@ below:
 
   <p>
     Additionally, if that file contains <code>disable</code>, this service is
-    completely disabled for all that maintainer's pushes.
+    completely disabled for all of that maintainer's pushes.
   </p>
   </li>
 </ul>
 
 <p>
-  The default behaviour is <code>build test nodeploy</code>.
-</p>
+  Tokens from all the sources above are collected together, along with the
+  default set of <code>build test</code>.  The presence of a negated token takes
+  priority over the presence of an unnegated token.
+  </p>
 
 <h2 class="cartouche">Build service tokens</h2>
 

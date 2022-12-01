@@ -3199,7 +3199,7 @@ python-opengl-accelerate                     Marco Atzeri
 python-openssl                               Marco Atzeri
 python-orbit                                 ORPHANED (Yaakov Selkowitz)
 python-packaging                             Marco Atzeri
-python-paramiko                              Michael Wild
+python-paramiko                              Libor Ukropec
 python-parso                                 Marco Atzeri
 python-passlib                               ORPHANED (Yaakov Selkowitz)
 python-pathlib2                              ORPHANED (Yaakov Selkowitz)

@@ -453,38 +453,39 @@ replace-versions: <i>version [version...]</i>
       package expiry settings, which control when old package versions are
       automatically removed.
     </p>
-  </li>
+    <ul class="compact">
+      <li>
+        <p>
+          All package versions listed in a <code>keep</code> line are always kept.
+        </p>
+      </li>
 
-  <li>
-    <p>
-      All package versions listed in a <code>keep</code> line are always kept.
-    </p>
-  </li>
+      <li>
+        <p>
+          A <code>keep-count</code> line causes the highest <i>count</i> non-test
+          versions to be kept.
+        </p>
+      </li>
 
-  <li>
-    <p>
-      A <code>keep-count</code> line causes the highest <i>count</i> non-test
-      versions to be kept.
-    </p>
-  </li>
+      <li>
+        <code>keep-count-test</code>, likewise, for test versions.
+      </li>
 
-  <li>
-    <code>keep-count-test</code>, likewise, for test versions.
-  </li>
+      <li>
+        <p>
+          A <code>keep-days</code> line causes the first version which is less
+          than <i>days</i> days old, and all higher versions to be kept.
+        </p>
+      </li>
 
-  <li>
-    <p>
-      A <code>keep-days</code> line causes the first version which is less
-      than <i>days</i> days old, and all higher versions to be kept.
-    </p>
-  </li>
-
-  <li>
-    <p>
-      By default, a version labelled <code>test:</code> is expired when a
-      superseding non-test version exists. <code>keep-superseded-versions</code>
-      disables that behaviour.
-    </p>
+      <li>
+        <p>
+          By default, a version labelled <code>test:</code> is expired when a
+          superseding non-test version exists. <code>keep-superseded-test</code>
+          disables that behaviour.
+        </p>
+      </li>
+    </ul>
   </li>
 
   <li>

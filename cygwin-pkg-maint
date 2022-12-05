@@ -3094,7 +3094,7 @@ python-backcall                              Marco Atzeri
 python-backports.entry_points_selectable     Marco Atzeri
 python-backports.shutil_get_terminal_size    ORPHANED (Yaakov Selkowitz)
 python-backports.ssl_match_hostname          ORPHANED (Yaakov Selkowitz)
-python-bcrypt                                Michael Wild/Marco Atzeri
+python-bcrypt                                Libor Ukropec/Marco Atzeri
 python-beautifulsoup                         ORPHANED (Yaakov Selkowitz)
 python-boto                                  ORPHANED (Yaakov Selkowitz)
 python-bs4                                   Marco Atzeri
@@ -3176,7 +3176,7 @@ python-mccabe                                Marco Atzeri
 python-musicbrainzngs                        Marco Atzeri
 python-mutagen                               Marco Atzeri
 python-mx                                    ORPHANED (Yaakov Selkowitz)
-python-nacl                                  Michael Wild
+python-nacl                                  Libor Ukropec
 python-nbformat                              Marco Atzeri
 python-nose                                  Marco Atzeri
 python-ntlm-auth                             Marco Atzeri

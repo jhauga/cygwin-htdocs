@@ -1530,7 +1530,7 @@ listres                                      Jon Turney
 llvm                                         ORPHANED (Yaakov Selkowitz)
 llvm3.5                                      ORPHANED (Yaakov Selkowitz)
 lmdb                                         ORPHANED (Yaakov Selkowitz)
-lndir                                        ORPHANED (Yaakov Selkowitz)
+lndir                                        Jon Turney
 login                                        Corinna Vinschen
 lohit-assamese-fonts                         ORPHANED (Yaakov Selkowitz)
 lohit-bengali-fonts                          ORPHANED (Yaakov Selkowitz)
@@ -3907,6 +3907,7 @@ xcalc                                        Jon Turney
 xcb-proto                                    Jon Turney
 xcb-util                                     Jon Turney
 xcb-util-cursor                              Jon Turney
+xcb-util-errors                              Jon Turney
 xcb-util-image                               Jon Turney
 xcb-util-keysyms                             Jon Turney
 xcb-util-renderutil                          Jon Turney
@@ -3979,7 +3980,7 @@ xfs                                          Jon Turney
 xfsinfo                                      Jon Turney
 xfwm4                                        ORPHANED (Yaakov Selkowitz)
 xfwm4-themes                                 ORPHANED (Yaakov Selkowitz)
-xgc                                          ORPHANED (Yaakov Selkowitz)
+xgc                                          Jon Turney
 xgraph                                       Marco Atzeri
 xhost                                        Jon Turney
 xinetd                                       Corinna Vinschen

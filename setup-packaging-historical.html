@@ -12,6 +12,13 @@
 <!--#include virtual="top.html" -->
 <h1>Historical Cygwin Packaging</h1>
 
+<p>While older, hand-made packages exist, the only accepted way to make a new
+Cygwin package is using the cygport tool, which automatically handles most
+packaging requirements and issues for you.  It is also strongly recommended to
+convert existing packages to cygport when updating them; ask on
+the <code>cygwin-apps</code> list if you need help converting an existing package to
+use cygport.</p>
+
 <h2 class="cartouche" id="srcpackage_contents">Package Source</h2>
 
 <p>There are two previous ways of packaging source code for Cygwin packages.</p>
@@ -27,9 +34,9 @@ boffo-1.0-1/configure.in
 etc...
 </pre>
   </li>
-  <li>In your source package include the same foo-vendor-suffix.README as used in the binary package.</li>
+  <li>In your source package include the same foo-version-release.README as used in the binary package.</li>
   <li>Your source package already be patched with any necessary Cygwin specific changes. The user should be able to just ./configure; make; and go.</li>
-  <li>Include a single file foo-vendor-release.patch in your source package, that when applied (in reverse: 'patch -R') will remove all the patches you've applied to the package, leaving it as the vendor distributes it. This file should extract as : <code>/usr/src/foo-vendor-release.patch</code> (that is, since setup extracts everything into <code>/usr/src</code>, the patch should be a "top level" member of the -src tarball.)<br />
+  <li>Include a single file foo-version-release.patch in your source package, that when applied (in reverse: 'patch -R') will remove all the patches you've applied to the package, leaving it as the vendor distributes it. This file should extract as : <code>/usr/src/foo-version-release.patch</code> (that is, since setup extracts everything into <code>/usr/src</code>, the patch should be a "top level" member of the -src tarball.)<br />
     <br />
     Optionally, this patch could also unpack inside the source tree:
 <pre>
@@ -47,11 +54,11 @@ etc...
 </pre>
     To create the patch file described above, you might run
 <pre>
-diff -Nrup vendor-src-dir patched-src-dir &gt; foo-vendor-release.patch
+diff -Nrup vendor-src-dir patched-src-dir &gt; foo-version-release.patch
 </pre>
     To apply the generated patch (in reverse; that is, to remove the Cygwin specific changes from the unpacked -src tarball) the user would run (from within the source tree)
 <pre>
-patch -R -p1 &lt; ../foo-vendor-release.patch
+patch -R -p1 &lt; ../foo-version-release.patch
 </pre>
   </li>
   <li>In general, any Cygwin-specific "packaging" files -- such as cygwin-specific READMEs, a copy of the setup.hint file for your package, etc. -- should unpack within a /CYGWIN-PATCHES/ subdirectory in your sources. Naturally, applying the patch (in reverse, as described above) would remove these files from the source tree.</li>
@@ -76,9 +83,9 @@ boffo-1.0-1/CYGWIN-PATCHES/setup.hint
 <ul class="compact">
   <li>In a packaging technique inspired by rpms and debs, you may create a -src tarball which simply contains:
     <ul class="compact">
-      <li><code>foo-vendor.tar.[gz|bz2]</code>: The original source tarball, exactly as downloaded from the original vendor.</li>
-      <li><code>foo-vendor-release.patch</code>: the patch file as described in Method One, above.</li>
-      <li><code>foo-vendor-release.sh</code>: A build script that drives the entire unpacking, configuration, build, and packaging (binary and -src) process.</li>
+      <li><code>foo-version.tar.[gz|bz2]</code>: The original source tarball, exactly as downloaded from the original vendor.</li>
+      <li><code>foo-version-release.patch</code>: the patch file as described in Method One, above.</li>
+      <li><code>foo-version-release.sh</code>: A build script that drives the entire unpacking, configuration, build, and packaging (binary and -src) process.</li>
     </ul>
   </li>
   <li>You can adapt <a href="https://sourceware.org/viewvc/cygwin-apps/packaging/templates/generic-readme?view=co">this</a> generic readme file for script-driven -src packages.</li>

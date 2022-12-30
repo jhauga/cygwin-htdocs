@@ -38,8 +38,11 @@ downloaded from the boffo homepage, unpacks into <code>boffo-1.0/</code>.</p>
 you've got a patch file, which we will name <code>boffo-1.0-fix-whatever.patch</code>, and
 with that applied <code>boffo</code> builds and runs.</p>
 
-<p>All that remains is to write a <code>boffo.cygport</code> file which
-will describe how to unpack, configure, build and package:</p>
+<p>All that remains is to write a <code>boffo.cygport</code> file which will
+describe how to unpack, configure, build and package. See
+these <a href="https://cygwin.github.io/cygport/autotools_cygclass.html">examples</a>
+for a quick introduction to these files.
+</p>
 
 <pre class="sample-preformat">
 # package name
@@ -131,8 +134,15 @@ boffo-1.0-1.src/boffo.cygport
 <p>For more information on using <code>cygport</code> consult the
 <a href="https://cygwin.github.io/cygport/cygport.1.html">man page</a>,
 <a href="https://github.com/cygwin/cygport/blob/master/README">README</a>,
-<a href="https://cygwin.github.io/cygport/toc_index.html">reference manual</a>
+<a href="https://cygwin.github.io/cygport/toc_index.html">reference manual</a>,
+<a href="/packaging/cygport_tips.html">cygport tips</a> page
 and sample .cygport files.</p>
+
+<p>
+  The cygport file for any existing cygwin package can be found in
+  /usr/src/package_name after installing the source package, or in the
+  <a href=" https://cygwin.com/git-cygwin-packages/">packaging repositories<a>.
+</p>
 
 <h2 class="cartouche" id="installing">Locally installing your package for testing</h2>
 
@@ -220,6 +230,10 @@ Building the packages in that way adds a
       <li>Do not use the package name in <code>sdesc</code>, as it is added
       automatically by the <code>setup</code> program.</li>
     </ul>
+  </li>
+  <li>
+    If the package has a test-suite, run <code>cygport test</code> and note the
+    results: success, or failures you have determined are not significant.
   </li>
   <li>
     <p>

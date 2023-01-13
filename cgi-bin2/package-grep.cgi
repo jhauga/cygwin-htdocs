@@ -64,6 +64,19 @@ fi
 
 param_grep_htmlencode=`htmlencode "$param_grep"`
 
+############################## reject unsupported arch values
+
+if [ "$param_arch" = "x86" ]; then
+    echo "Content-Type: text/plain; charset=utf-8"
+    echo "Status: 410 Gone"
+    echo
+    echo "x86 package search is no longer available."
+    exit
+fi
+
+# silently ignores unknown arch values
+param_arch=x86_64
+dir=../packages/x86_64
 
 ############################## print headerstuff
 
@@ -103,13 +116,6 @@ fi
 
 
 ############################## do the search
-
-if [ "$param_arch" = "x86" ]; then
-    dir=../packages/x86
-else
-    param_arch=x86_64
-    dir=../packages/x86_64
-fi
 
 # We don't emulate the perlre /m modifier.
 

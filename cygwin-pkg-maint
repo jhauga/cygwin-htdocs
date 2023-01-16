@@ -170,7 +170,7 @@ bvi                                          Jari Aalto
 byacc                                        ORPHANED (Yaakov Selkowitz)
 bzip2                                        ORPHANED (Yaakov Selkowitz)
 bzr                                          Jari Aalto
-bzr-fastimport                               Ken Brown
+bzr-fastimport                               ORPHANED (Ken Brown)
 c-ares                                       ORPHANED (Yaakov Selkowitz)
 ca-certificates                              Achim Gratz
 cabextract                                   Stuart Caie
@@ -3112,7 +3112,7 @@ python-docutils                              Tony Kelman/Marco Atzeri
 python-dropbox                               Marco Atzeri
 python-enchant                               Marco Atzeri
 python-enum34                                ORPHANED (Yaakov Selkowitz)
-python-fastimport                            Ken Brown
+python-fastimport                            ORPHANED (Ken Brown)
 python-fasteners                             Libor Ukropec
 python-faulthandler                          ORPHANED (Yaakov Selkowitz)
 python-feedparser                            ORPHANED (Yaakov Selkowitz)

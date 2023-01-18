@@ -24,6 +24,21 @@
 <h2 class="cartouche" id="naming">Package naming scheme</h2>
 
 <p>
+  The character set for package naming consists of alphanumeric, dot, hyphen,
+  plus-sign and underscore characters.
+</p>
+
+<p>
+  A package name consist of a hyphen separated triplet of name, version and
+  release.
+</p>
+
+<ul class="compact">
+  <li>The name <b>must not</b> start with a digit.</li>
+  <li>The name <b>must not</b> contain a hyphen followed by a digit.</li>
+</ul>
+
+<p>
   Use the upstream's version followed by a release suffix (i.e. findutils 4.5.12
   becomes 4.5.12-1, 4.5.12-2, etc., until findutils 4.5.13 is packaged, which
   would be 4.5.13-1, etc).
@@ -37,19 +52,16 @@
   so they sort before released versions.
 </p>
 
-<p>
-To ensure there is no ambiguity in splitting a <i>package-version-release</i>
-into it's components:
-</p>
 <ul class="compact">
-  <li>The name <b>must not</b> contain a hyphen followed by a digit.</li>
   <li>The version and release <b>must</b> start with a digit.</li>
-  <li>The release <b>must not</b> contain a hyphen.</li>
+  <li>The version and release <b>must not</b> contain a hyphen.</li>
 </ul>
 
 <p>
-  Version and release sort according to the following rules:
+  Version and release sort according to the following rules (commonly known as
+  the <code>rpmvercmp</code> ordering):
 </p>
+
   <ul class="compact">
     <li>Contiguous chunks of digits or alphabetic characters are compared</li>
     <li>Non-alphanumeric separators for these contiguous chunks are ignored</li>

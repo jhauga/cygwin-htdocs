@@ -17,7 +17,8 @@
 <ul class="compact">
   <li><a href="#naming">Package naming scheme</a></li>
   <li><a href="#files">Package files</a></li>
-  <li><a href="#package_contents">Package contents</a></li>
+  <li><a href="#package_contents">Package contents (binary)</a></li>
+  <li><a href="#package_contents_src">Package contents (source)</a></li>
   <li><a href="#postinstall">Package post-install and pre-remove scripts</a></li>
 </ul>
 
@@ -78,11 +79,18 @@
 
 <h2 class="cartouche" id="files">Package files</h2>
 
-<p>A complete package currently consists of three files:</p>
+<p>A complete package currently consists of two files, either:</p>
+
 <ul class="compact">
   <li>a binary tar file, named <code>package-version-release.tar.xz</code></li>
-  <li>a source tar file, named <code>package-version-release-src.tar.xz</code></li>
   <li>a .hint file, named  <code>package-version-release.hint</code></li>
+</ul>
+
+<p>or:</p>
+
+<ul class="compact">
+  <li>a source tar file, named <code>package-version-release-src.tar.xz</code></li>
+  <li>a .hint file, named  <code>package-version-release-src.hint</code></li>
 </ul>
 
 <p>
@@ -91,32 +99,37 @@ e.g.:
 
 <pre>
 bash$ ls -1 release/boffo
-boffo-1.0-1.tar.xz
+boffo-1.0-1-src.hint
 boffo-1.0-1-src.tar.xz
 boffo-1.0-1.hint
+boffo-1.0-1.tar.xz
 </pre>
 
-<p>Binary tar files generally contain the executable files that will be
-  installed on a user's system plus any auxiliary files needed by the
-  package. See the <a href="#package_contents">package contents</a> section
-  below for more details on the contents of a binary tar file.
+<p>Binary tar files contain the files that will be installed on a user's system.
+  'binary' here refers to the result of building a source package (using
+   <code>cygport</code>), even though it may contain no actual binaries.
+  See the <a href="#package_contents">package contents</a> section below for
+  more details on the contents of a binary tar file.
 </p>
 
 <p>Source tar files should contain the source files, patches and scripts needed
-  to rebuild the package. While installing these files is optional, the
-  inclusion of a source tar file is part of the totality that makes up a Cygwin
-  package and so, these files are <em>not</em> optional. In some cases, there
-  may be multiple packages generated from the same source; for instance, one
-  might have a "boffo" package and its associated shared library in "libboffo7",
-  where both are generated from the same source tar file. See
-  the <a href="#package_contents">package contents</a> section below for more
-  details on the contents of a source tar file, and
+  to rebuild the package.  Installing these files is always optional.
+  As an open source project, providing this tar file is <em>not</em> optional.
+  See the <a href="#package_contents_src">package contents</a> section below for more
+  details on the contents of a source tar file.
+</p>
+
+<p>
+  In some cases, there may be multiple binary packages generated from the same
+  source; for instance, one might have a "boffo" package and its associated
+  shared library in "libboffo7", where both are generated from the same source
+  package. See
   the <a href="packaging-hint-files.html#advanced_pvr.hint">package-version-release.hint</a>
   section for information on the "external-source:" option.
 </p>
 
 <p>
-  Note that package files may be .bz2, .gz, .xz or .zst compressed.
+  Note that package tar files may be .bz2, .gz, .xz or .zst compressed.
   .gz is obsolete and .xz is preferred for new package submissions.
 </p>
 
@@ -126,7 +139,7 @@ boffo-1.0-1.hint
   server manifest</a> read by the setup program.
 </p>
 
-<h2 class="cartouche" id="package_contents">Package contents</h2>
+<h2 class="cartouche" id="package_contents">Package contents (binary)</h2>
 
 <p>
   The files paths within both the source and the binary package files are quite
@@ -156,20 +169,7 @@ etc...
 </pre>
   </li>
   <li>All executables in your binary package are stripped.</li>
-  <li>Source packages are extracted in /usr/src (so the paths in your source tar
-  file should not include /usr/src). On extraction, the tar file should put the
-  sources in a directory with the same name as the package tar file minus the
-  -src.tar.xz part:
-<pre>
-boffo-1.0-1/boffo.cygport
-boffo-1.0-1/boffo-1.0.tar.xz
-boffo-1.0-1/boffo-1.0-1.src.patch
-etc...
-</pre>
-  <p>Generally, this will contain the original source tar file, exactly as
-     downloaded from the original upstream, any needed patch files, and a
-     cygport script that drives the packaging process.</p>
-  </li>
+
   <li>In your binary package, you may choose to include a file
     /usr/share/doc/Cygwin/foo-vendor-suffix.README containing (at a minimum) the
     information needed for an end user to recreate the package. This includes
@@ -190,6 +190,24 @@ etc...
   overwriting with your defaults. </li>
   <li>Ensure that your package handles being installed on binary and text mounts
   correctly. </li>
+</ul>
+
+<h2 class="cartouche" id="package_contents_src">Package contents (source)</h2>
+
+<ul>
+  <li>Source packages are extracted in /usr/src (so the paths in your source tar
+  file should not include /usr/src). On extraction, the tar file should put the
+  sources in a directory with the same name as the package, e.g.:
+<pre>
+boffo-1.0-1/boffo.cygport
+boffo-1.0-1/boffo-1.0.tar.xz
+boffo-1.0-1/boffo-1.0-1.src.patch
+etc...
+</pre>
+  <p>Generally, this will contain the original source tar file, exactly as
+     downloaded from the original upstream, any needed patch files, and a
+     cygport script that drives the packaging process.</p>
+  </li>
 </ul>
 
 <h2 class="cartouche" id="postinstall">Package post-install and pre-remove scripts</h2>

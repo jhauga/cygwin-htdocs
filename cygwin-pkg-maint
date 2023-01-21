@@ -1429,7 +1429,7 @@ libsigsegv                                   Eric Blake
 libskk                                       ORPHANED (Yaakov Selkowitz)
 libSM                                        Jon Turney
 libsmi                                       ORPHANED (Dr. Volker Zell)
-libsndfile                                   ORPHANED (Yaakov Selkowitz)
+libsndfile                                   Takashi Yano
 libsodium                                    ORPHANED (Yaakov Selkowitz)
 libsolv                                      Jon Turney
 libsoup2.4                                   ORPHANED (Yaakov Selkowitz)
@@ -2387,7 +2387,7 @@ mpc                                          ORPHANED (Yaakov Selkowitz)
 mpclib                                       Achim Gratz
 mpd                                          ORPHANED (Yaakov Selkowitz)
 mpfr                                         Achim Gratz
-mpg123                                       ORPHANED (Yaakov Selkowitz)
+mpg123                                       Takashi Yano
 mscgen                                       ORPHANED (David Stacey)
 msitools                                     Jon Turney
 msmtp                                        Jari Aalto
@@ -2586,9 +2586,9 @@ openssl                                      Corinna Vinschen/Achim Gratz
 openssl10                                    Achim Gratz
 openwsman                                    ORPHANED (Yaakov Selkowitz)
 optipng                                      Jari Aalto
-opus                                         ORPHANED (Yaakov Selkowitz)
-opus-tools                                   ORPHANED (Yaakov Selkowitz)
-opusfile                                     ORPHANED (Yaakov Selkowitz)
+opus                                         Takashi Yano
+opus-tools                                   Takashi Yano
+opusfile                                     Takashi Yano
 orage                                        ORPHANED (Yaakov Selkowitz)
 ORBit2                                       ORPHANED (Yaakov Selkowitz)
 orc                                          ORPHANED (Yaakov Selkowitz)
@@ -3548,7 +3548,7 @@ screen                                       Andrew Schulman
 screenruler                                  ORPHANED (Yaakov Selkowitz)
 scribus                                      ORPHANED (Yaakov Selkowitz)
 SDL                                          ORPHANED (Yaakov Selkowitz)
-SDL2                                         ORPHANED (Yaakov Selkowitz)
+SDL2                                         Takashi Yano
 SDL2_image                                   ORPHANED (Yaakov Selkowitz)
 SDL2_mixer                                   ORPHANED (Yaakov Selkowitz)
 SDL2_net                                     ORPHANED (Yaakov Selkowitz)

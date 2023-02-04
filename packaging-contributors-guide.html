@@ -202,18 +202,19 @@ Building the packages in that way adds a
       in becoming a package maintainer for package "foo" using a subject like
       "[<a href="acronyms/#ITP">ITP</a>] foo 0.10".
     </p>
-    <p>
-      Some packages cannot be distributed via Cygwin's setup due to upstream
-      licence limitations. Other packages may not be appropriate for
-      Cygwin. This step will save time if, for some reason, we cannot accept the
-      package.
-    </p>
     Submission rules:<br />
     <ul class="compact">
-      <li>If the new package is a well-known program already included in a major
-      Linux distribution (e.g. Debian, Fedora, SuSE) please mention that.</li>
+      <li>If the new package is already included in a major Linux distribution
+        (e.g. Debian, Fedora, SuSE) please mention that.</li>
       <li>If the package is not included in any major Linux distro it must receive <b>five positive votes</b> from other package maintainers in order to be accepted.</li>
       <li>Mention which <a href="https://opensource.org/licenses">open source license</a> applies to the source.</li>
+      <li>
+        We generally follow
+        <a href="https://docs.fedoraproject.org/en-US/packaging-guidelines/what-can-be-packaged/">
+        Fedora guidelines</a> on what packages can be accepted, which excludes
+        content which potentially infringes on patents or trademarks, or is
+        illegal or offensive.
+      </li>
     </ul>
   </li>
   <li>

@@ -37,6 +37,7 @@ annoyance-filter                             Jari Aalto
 ansible                                      ORPHANED (Yaakov Selkowitz)
 anthy                                        ORPHANED (Yaakov Selkowitz)
 antiword                                     Jari Aalto
+aom                                          Takashi Yano
 apng2gif                                     Jari Aalto
 apngasm                                      Jari Aalto
 apngdis                                      Jari Aalto
@@ -420,6 +421,7 @@ f2c                                          ORPHANED (Yaakov Selkowitz)
 f30-backgrounds                              ORPHANED (Yaakov Selkowitz)
 faience-icon-theme                           ORPHANED (Yaakov Selkowitz)
 farstream0.2                                 ORPHANED (Yaakov Selkowitz)
+faad2                                        Takashi Yano
 fbpanel                                      ORPHANED (Yaakov Selkowitz)
 fbxkb                                        ORPHANED (Yaakov Selkowitz)
 fcgi                                         Ken Brown
@@ -430,6 +432,7 @@ fdupes                                       Jari Aalto
 feh                                          ORPHANED (Yaakov Selkowitz)
 fetchmail                                    Achim Gratz
 ffcall                                       Ken Brown
+ffmpeg                                       Takashi Yano
 fftw3                                        Marco Atzeri
 figlet                                       Jari Aalto
 file                                         Corinna Vinschen
@@ -2373,6 +2376,7 @@ mkvtoolnix                                   ORPHANED (David Stacey)
 mle                                          Adam Saponara
 mm-common                                    Ken Brown
 mmv                                          Jari Aalto
+moc                                          Takashi Yano
 monotone                                     ORPHANED (Yaakov Selkowitz)
 moreutils                                    Adam Dinwoodie
 mosh                                         Achim Gratz
@@ -2578,6 +2582,7 @@ openexr_viewers                              Marco Atzeri
 openjade                                     ORPHANED (Yaakov Selkowitz)
 openjpeg                                     ORPHANED (Yaakov Selkowitz)
 openjpeg2                                    Lemures Lemniscati
+openh264                                     Takashi Yano
 openldap                                     Achim Gratz
 openmpi                                      Marco Atzeri
 OpenSP                                       ORPHANED (Yaakov Selkowitz)
@@ -3065,7 +3070,7 @@ pstoedit                                     Marco Atzeri
 pstotext                                     Jari Aalto
 publicsuffix-list                            Brian Inglis
 pugixml                                      ORPHANED (David Stacey)
-pulseaudio                                   ORPHANED (Yaakov Selkowitz)
+pulseaudio                                   Takashi Yano
 pure-ftpd                                    Marco Atzeri
 putty                                        ORPHANED (Yaakov Selkowitz)
 pv                                           Andrew Schulman
@@ -4034,6 +4039,7 @@ xtail                                        Jari Aalto
 xterm                                        Thomas Wolff
 XtoW                                         Jon Turney
 xtrans                                       Jon Turney
+xvidcore                                     Takashi Yano
 xwd                                          Jon Turney
 xwin-xdg-menu                                Jon Turney
 xwininfo                                     Jon Turney

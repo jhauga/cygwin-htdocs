@@ -1230,6 +1230,7 @@ libbinio                                     ORPHANED (Yaakov Selkowitz)
 libbonobo2                                   ORPHANED (Yaakov Selkowitz)
 libbonoboui2                                 ORPHANED (Yaakov Selkowitz)
 libbs2b                                      ORPHANED (Yaakov Selkowitz)
+libbsd                                       Corinna Vinschen
 libcaca                                      ORPHANED (Yaakov Selkowitz)
 libcanberra                                  ORPHANED (Yaakov Selkowitz)
 libcbor                                      Corinna Vinschen

@@ -2412,6 +2412,8 @@ nano                                         ORPHANED (Yaakov Selkowitz)
 nas                                          ORPHANED (Yaakov Selkowitz)
 nasm                                         Michal Feix
 nautilus                                     ORPHANED (Yaakov Selkowitz)
+nc                                           OBSOLETE (Corinna Vinschen)
+nc6                                          OBSOLETE (Corinna Vinschen)
 nccmp                                        Remik Ziemlinski
 ncdu                                         Christian Franke
 ncftp                                        Jari Aalto

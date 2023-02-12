@@ -49,7 +49,6 @@ appstream                                    ORPHANED (Yaakov Selkowitz)
 appstream-glib                               ORPHANED (Yaakov Selkowitz)
 aqbanking                                    ORPHANED (Yaakov Selkowitz)
 arc                                          Jari Aalto
-archivemail                                  Jari Aalto
 argon2                                       ORPHANED (Yaakov Selkowitz)
 aria2                                        ORPHANED
 arj                                          Jari Aalto
@@ -165,14 +164,11 @@ bsfilter                                     Jari Aalto
 bsflite                                      ORPHANED (Dr. Volker Zell)
 btf                                          Marco Atzeri
 build-docbook-catalog                        ORPHANED (Yaakov Selkowitz)
-buildbot-slave                               Jon Turney
 buildbot-worker                              ORPHANED (Jon Turney)
 busybox                                      Christian Franke
 bvi                                          Jari Aalto
 byacc                                        ORPHANED (Yaakov Selkowitz)
 bzip2                                        ORPHANED (Yaakov Selkowitz)
-bzr                                          Jari Aalto
-bzr-fastimport                               ORPHANED (Ken Brown)
 c-ares                                       ORPHANED (Yaakov Selkowitz)
 ca-certificates                              Achim Gratz
 cabextract                                   Stuart Caie
@@ -208,7 +204,6 @@ cdrkit                                       Christian Franke
 celestia                                     ORPHANED (Yaakov Selkowitz)
 celt051                                      ORPHANED (Yaakov Selkowitz)
 cervisia                                     ORPHANED (Yaakov Selkowitz)
-cfget                                        Jari Aalto
 cfitsio                                      Achim Gratz
 cfourcc                                      Jari Aalto
 cfv                                          Jari Aalto
@@ -221,7 +216,6 @@ chere                                        Dave Kilroy
 chewmail                                     Jari Aalto
 chicken                                      Christian Kellermann
 chkconfig                                    Jari Aalto
-chm2pdf                                      ORPHANED (Yaakov Selkowitz)
 chmlib                                       ORPHANED (Yaakov Selkowitz)
 cholmod                                      Marco Atzeri
 choqok                                       ORPHANED (Yaakov Selkowitz)
@@ -244,7 +238,6 @@ cmark                                        Marco Atzeri
 cmus                                         Federico Kircheis
 cocom                                        ORPHANED (Yaakov Selkowitz)
 code2html                                    Jari Aalto
-codeville                                    Jari Aalto
 cogl                                         ORPHANED (Yaakov Selkowitz)
 colamd                                       Marco Atzeri
 colm                                         Ken Brown
@@ -281,7 +274,6 @@ CUnit                                        Marco Atzeri
 curl                                         Brian Inglis
 cutemaze                                     Lemures Lemniscati
 cvs                                          Marco Atzeri
-cvs2svn                                      ORPHANED (Yaakov Selkowitz)
 cvsps                                        ORPHANED (Eric Blake)
 cvsutils                                     Eric Blake
 cxsparse                                     Marco Atzeri
@@ -444,7 +436,6 @@ findutils                                    Eric Blake/Brian Inglis
 fish                                         Andrew Schulman
 five-or-more                                 ORPHANED (Yaakov Selkowitz)
 flac                                         David Rothenberger
-flawfinder                                   Jari Aalto
 flex                                         Marco Atzeri
 flexdll                                      David Allsopp
 flint                                        Marco Atzeri
@@ -520,7 +511,6 @@ geoipupdate                                  ORPHANED (Yaakov Selkowitz)
 geomview                                     Ken Brown
 geos                                         Marco Atzeri
 getent                                       Corinna Vinschen
-getmail                                      Jari Aalto
 gettext                                      Brian Inglis
 gexiv2                                       ORPHANED (Yaakov Selkowitz)
 gfbgraph0.2                                  ORPHANED (Yaakov Selkowitz)
@@ -581,7 +571,6 @@ gnome-desktop                                ORPHANED (Yaakov Selkowitz)
 gnome-devel-docs                             ORPHANED (Yaakov Selkowitz)
 gnome-dictionary                             ORPHANED (Yaakov Selkowitz)
 gnome-directory-thumbnailer                  ORPHANED (Yaakov Selkowitz)
-gnome-doc-utils                              ORPHANED (Yaakov Selkowitz)
 gnome-epub-thumbnailer                       ORPHANED (Yaakov Selkowitz)
 gnome-exe-thumbnailer                        ORPHANED (Yaakov Selkowitz)
 gnome-flashback                              ORPHANED (Yaakov Selkowitz)
@@ -710,7 +699,7 @@ gtkimageview                                 ORPHANED (Yaakov Selkowitz)
 gtkmathview                                  ORPHANED (Yaakov Selkowitz)
 gtkmm2.4                                     ORPHANED (Yaakov Selkowitz)
 gtkmm3.0                                     ORPHANED (Yaakov Selkowitz)
-gtkperf                                      Mike DePaulo
+gtkperf                                      ORPHANED (Mike DePaulo)
 gtksourceview2.0                             ORPHANED (Yaakov Selkowitz)
 gtksourceview3.0                             ORPHANED (Yaakov Selkowitz)
 gtksourceviewmm3.0                           ORPHANED (Yaakov Selkowitz)
@@ -2568,7 +2557,7 @@ odbc-mysql                                   ORPHANED (Yaakov Selkowitz)
 odbc-psql                                    ORPHANED (Yaakov Selkowitz)
 odbc-sqlite3                                 ORPHANED (Yaakov Selkowitz)
 odt2txt                                      Jari Aalto
-offlineimap                                  Jari Aalto
+offlineimap                                  ORPHANED (Jari Aalto)
 ogmtools                                     Jari Aalto
 okteta                                       ORPHANED (Yaakov Selkowitz)
 okteta4                                      ORPHANED (Yaakov Selkowitz)
@@ -3108,7 +3097,7 @@ python-chm                                   ORPHANED (Yaakov Selkowitz)
 python-clang                                 ORPHANED (Yaakov Selkowitz)
 python-cloudfiles                            ORPHANED (Yaakov Selkowitz)
 python-commonmark                            Marco Atzeri
-python-configobj                             Mike DePaulo/Marco Atzeri
+python-configobj                             Marco Atzeri
 python-constantly                            Marco Atzeri
 python-crypto                                Marco Atzeri
 python-cryptography                          Marco Atzeri
@@ -3124,7 +3113,6 @@ python-docutils                              Tony Kelman/Marco Atzeri
 python-dropbox                               Marco Atzeri
 python-enchant                               Marco Atzeri
 python-enum34                                ORPHANED (Yaakov Selkowitz)
-python-fastimport                            ORPHANED (Ken Brown)
 python-fasteners                             Libor Ukropec
 python-faulthandler                          ORPHANED (Yaakov Selkowitz)
 python-feedparser                            ORPHANED (Yaakov Selkowitz)
@@ -3397,7 +3385,7 @@ rocs                                         ORPHANED (Yaakov Selkowitz)
 rodent-icon-theme                            ORPHANED (Yaakov Selkowitz)
 rpcbind                                      ORPHANED (Yaakov Selkowitz)
 rpcsvc-proto                                 ORPHANED (Yaakov Selkowitz)
-rpm                                          Pavel Fedin
+rpm                                          ORPHANED (Pavel Fedin)
 rsh                                          Takashi Yano
 rsnapshot                                    Jari Aalto
 rstart                                       Jon Turney
@@ -3674,7 +3662,6 @@ t1utils                                      ORPHANED (Yaakov Selkowitz)
 tack                                         Brian Inglis
 taglib                                       ORPHANED (Yaakov Selkowitz)
 taglib-extras                                ORPHANED (Yaakov Selkowitz)
-tailor                                       Jari Aalto
 tali                                         ORPHANED (Yaakov Selkowitz)
 tanglet                                      ORPHANED (Yaakov Selkowitz)
 tar                                          Eric Blake/Achim Gratz
@@ -3702,7 +3689,6 @@ telepathy-mission-control                    ORPHANED (Yaakov Selkowitz)
 telepathy-qt                                 ORPHANED (Yaakov Selkowitz)
 tellico                                      ORPHANED (Yaakov Selkowitz)
 tepl3                                        ORPHANED (Yaakov Selkowitz)
-terminator                                   Mike DePaulo
 terminus-fonts                               ORPHANED (Yaakov Selkowitz)
 tesseract-ocr                                Marco Atzeri
 tesseract-ocr-languages                      Marco Atzeri
@@ -3839,7 +3825,7 @@ untex                                        Jari Aalto
 unzip                                        Takashi Yano
 upower                                       ORPHANED (Yaakov Selkowitz)
 upx                                          Achim Gratz
-urlgrabber                                   Jari Aalto
+urlgrabber                                   ORPHANED (Jari Aalto)
 urw-base35-fonts                             Ken Brown
 usbredir                                     ORPHANED (Yaakov Selkowitz)
 usbutils                                     ORPHANED (Yaakov Selkowitz)

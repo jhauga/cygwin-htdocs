@@ -30,6 +30,7 @@ alkimia5                                     ORPHANED (Yaakov Selkowitz)
 alternatives                                 ORPHANED (Charles Wilson)
 alure                                        Bastian Germann
 amd                                          Marco Atzeri
+AMF                                          Takashi Yano
 analitza                                     ORPHANED (Yaakov Selkowitz)
 anjuta                                       ORPHANED (Yaakov Selkowitz)
 anjuta-extras                                ORPHANED (Yaakov Selkowitz)
@@ -421,12 +422,11 @@ f2c                                          ORPHANED (Yaakov Selkowitz)
 f30-backgrounds                              ORPHANED (Yaakov Selkowitz)
 faience-icon-theme                           ORPHANED (Yaakov Selkowitz)
 farstream0.2                                 ORPHANED (Yaakov Selkowitz)
-faad2                                        Takashi Yano
 fbpanel                                      ORPHANED (Yaakov Selkowitz)
 fbxkb                                        ORPHANED (Yaakov Selkowitz)
 fcgi                                         Ken Brown
 fcrackzip                                    Jari Aalto
-fdk-aac                                      ORPHANED (Yaakov Selkowitz)
+fdk-aac                                      Takashi Yano
 fdkaac                                       ORPHANED (Yaakov Selkowitz)
 fdupes                                       Jari Aalto
 feh                                          ORPHANED (Yaakov Selkowitz)
@@ -1397,6 +1397,7 @@ libofx                                       ORPHANED (Yaakov Selkowitz)
 libogg                                       David Rothenberger
 libopenmpt                                   ORPHANED (Yaakov Selkowitz)
 libopenraw                                   ORPHANED (Yaakov Selkowitz)
+libopusenc                                   Takashi Yano
 libosinfo                                    ORPHANED (Yaakov Selkowitz)
 libotf                                       ORPHANED (Yaakov Selkowitz)
 libpagemaker0.0                              ORPHANED (Yaakov Selkowitz)
@@ -1666,6 +1667,7 @@ mesa-demos                                   Jon Turney
 meson                                        Jon Turney
 metacity                                     ORPHANED (Yaakov Selkowitz)
 metis                                        Marco Atzeri
+mfx_dispatch                                 Takashi Yano
 mhash                                        Jason Pyeron
 micro-httpd                                  Jari Aalto
 midori                                       ORPHANED (Yaakov Selkowitz)
@@ -2458,6 +2460,7 @@ nspr                                         ORPHANED (Yaakov Selkowitz)
 nss                                          ORPHANED (Yaakov Selkowitz)
 ntl                                          Marco Atzeri
 nttcp                                        Jari Aalto
+nv-codec-headers                             Takashi Yano
 nx-libs                                      ORPHANED (Yaakov Selkowitz)
 obby                                         ORPHANED (Yaakov Selkowitz)
 obconf                                       ORPHANED (Yaakov Selkowitz)

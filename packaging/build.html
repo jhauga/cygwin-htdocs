@@ -91,6 +91,32 @@ below:
   priority over the presence of an unnegated token.
   </p>
 
+<h2 class="cartouche">Interacting with build service jobs</h2>
+
+<p>
+  Interactions with build service jobs which require authentication can be done
+  with <code>ssh cygwin@cygwin.com jobs</code>. Available sub-commands are:
+</p>
+
+<ul>
+  <li>
+    <code>cancel</code><br/>
+    request termination of a build job.
+  </li>
+
+  <li>
+    <code>deploy</code><br/>
+    hand-off built packages from a job to the package uploader
+    (if it's suitable: i.e. successfully built, from master, etc.).
+  </li>
+
+  <li>
+    <code>rebuild</code><br/>
+    rebuild a job (e.g. if it failed due to some transient condition, or
+    optionally with different tokens).
+  </li>
+</ul>
+
 <h2 class="cartouche">Build service tokens</h2>
 
 <ul>

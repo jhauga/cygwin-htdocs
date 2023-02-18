@@ -87,12 +87,26 @@ override.hint</a>) will be removed automatically.
 </p>
 
 <p>
-However, if you do need to remove a file from the distribution, upload an empty
+  However, if you do need to remove file(s) from the distribution:
+</p>
+
+<ul>
+  <li>
+    <code>ssh cygwin@cygwin.com
+    vault <i>sourcepackage-version-release</i></code> requests the removal of
+    the given source package, and all install packages derived from it,
+    <br/>or
+  </li>
+
+  <li>
+upload an empty
 file with the name of the file that you want deleted, prefixed with a
 "<code>-</code>", in the same directory as the file that you want deleted.
 </p>
 
 <p>For example, if you want to delete the file <code>foo-1.2-1.tar.xz</code> then upload an empty file named <code>-foo-1.2-1.tar.xz</code></p>
+  </li>
+</ul>
 
 <p>
   Note that this will <b>not</b> cause setup to automatically downgrade to the
@@ -103,7 +117,12 @@ file with the name of the file that you want deleted, prefixed with a
   override.hint</a>.
 </p>
 
-<p>Note that files are not actually deleted; they are moved to a vault where they will be removed after some indeterminate amount of time.</p>
+<p>
+  Note that files are not actually deleted; they are moved to a vault. Current
+  policy is to retain those files indefinitely to ensure we are able to comply
+  with our GPL obligation to provide sources for binaries we have previously
+  distributed.
+</p>
 
 <h2 class="cartouche" id="manualupload">Uploading packages manually</h2>
 

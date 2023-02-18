@@ -349,7 +349,9 @@ Displaying local clients
        [cyu01appsmenu.png]
 
      Note: The alacarte package may be installed to edit the menu via
-     Preferences->Main Menu.
+     Preferences->Main Menu, or XDG_MENU_PREFIX="xwin-" alacarte from a
+     terminal.
+     Similarly, for other menu editor applications e.g. mozo.
      * Running the client from a Cygwin shell, e.g.
 
 $ xterm &
@@ -1272,7 +1274,7 @@ Colophon
    the DocBook DSSSL Stylesheets.
 
    The production process for this instance of this document was started
-   at 2021-12-25 00:08 .
+   at 2023-02-18 18:22 .
 
   Notes
 

@@ -594,7 +594,7 @@ Obtaining from version control
    currently held in a git repository. Intermediate versions between
    released packages can be obtained from there.
 Username@CygwinHost ~
-$ git clone https://github.com/jon-turney/xorg-server-cygport.git
+$ git clone https://cygwin.com/git/cygwin-packages/xorg-server.git
 
    This will obtain a .cygport file. and any .patch files. You can then
    add the source archive by downloading it with cygport.
@@ -1818,4 +1818,4 @@ Colophon
    the DocBook DSSSL Stylesheets.
 
    The production process for this instance of this document was started
-   at 2021-12-25 00:04 .
+   at 2023-02-18 18:22 .

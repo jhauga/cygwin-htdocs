@@ -5,3 +5,6 @@ Redirect permanent /donations.html http://cygwin.com/donations.html
 Redirect permanent /ported-software.html http://cygwin.com/packages/
 Redirect permanent /mirrors.html http://cygwin.com/mirrors.html
 Redirect permanent /lists.html http://cygwin.com/lists.html
+
+RewriteEngine On
+RewriteRule ^ml/(.*)$ https://cygwin.com/ml/$1 [R=permanent]

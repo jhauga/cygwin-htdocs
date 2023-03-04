@@ -347,11 +347,12 @@ table.pkgtable th
 {
   background-color: #80a0a0;
   color: white;
+  border-colour: black;
   border-width: 1px;
   border-style: solid;
 }
 
-table.pkgtable td,
+table.pkgtable td
 {
   border-width: 1px;
   border-style: solid;
@@ -362,7 +363,7 @@ table.pkgtable tr:nth-child(even) {
 }
 
 table.pkgtable tr:hover {
-    background-color: #99003f;
+    background-color: #fdd9b5;
 }
 
 /* category-list related --------------------------------------------------- */

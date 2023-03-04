@@ -343,11 +343,26 @@ table.pkgtable
   border:1px solid black;
 }
 
-table.pkgtable td,
 table.pkgtable th
+{
+  background-color: #80a0a0;
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+}
+
+table.pkgtable td,
 {
   border-width: 1px;
   border-style: solid;
+}
+
+table.pkgtable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table.pkgtable tr:hover {
+    background-color: #99003f;
 }
 
 /* category-list related --------------------------------------------------- */

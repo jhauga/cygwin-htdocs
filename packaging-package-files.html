@@ -303,6 +303,20 @@ etc...
     or <code>mkshortcut</code>, or in shell conditionals such as <code>test -z</code>
     or <code>test -n</code>.
   </li>
+
+  <li>
+    <b>CYGWIN_START_MENU_SUFFIX</b> contains the suffix that setup used for
+    Start Menu folder names, including any leading white-space (e.g. " (32-bit)"
+    when installing x86 Cygwin under WoW64, " (x86_64)" when installing x86_64
+    Cygwin on ARM64).
+  </li>
+
+  <li>
+    <b>CYGWIN_SETUP_OPTIONS</b> contains the long-names of a selected subset of
+    the setup options that are in force. Currently, the only option reported is
+    <code>no-startmenu</code>, if the creation of Start Menu shortcuts is
+    disabled.
+  </li>
 </ul>
 
 </div>

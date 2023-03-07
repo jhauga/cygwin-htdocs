@@ -147,6 +147,26 @@ src_compile() {
   </li>
 
   <li>
+    <p>If you need to programmatically generate a package name,
+      you can use <code>declare</code> to set it's contents etc., e.g.:
+    </p>
+
+<pre>
+inherit python3 meson
+...
+PKG_NAMES="foo libfoo1 libfoo-devel python3-foo python${PYTHON3_PKGVERSION}-foo"
+...
+python3_foo_SUMMARY="Python bindings for libfoo"
+python3_foo_REQUIRES="python-foo${PYTHON3_PKGVERSION}"
+python3_foo_CATEGORY="Virtual Python"
+
+declare python${PYTHON3_PKGVERSION}_foo_SUMMARY="Python ${PYTHON3_VERSION} bindings for libfoo"
+declare python${PYTHON3_PKGVERSION}_foo_CONTENTS="usr/lib/python*/"
+declare python${PYTHON3_PKGVERSION}_foo_CATEGORY="Python"
+</pre>
+
+  </li>
+  <li>
     If the build generates (or even modifies!) files in the source directory,
     those files should probably be listed
     in <a href="https://cygwin.github.io/cygport/pkg_pkg_cygpart.html#DIFF_EXCLUDES"><code>DIFF_EXCLUDES</code></a>

@@ -397,7 +397,7 @@ exif                                         Lemures Lemniscati
 exim                                         Pierre A. Humblet
 exiv2                                        Lemures Lemniscati
 exo                                          ORPHANED (Yaakov Selkowitz)
-expat                                        Doug Henderson
+expat                                        Marco Atzeri
 expect                                       ORPHANED (Yaakov Selkowitz)
 extra-cmake-modules                          ORPHANED (Yaakov Selkowitz)
 extractpdfmark                               Masamichi Hosoda
@@ -1698,7 +1698,7 @@ mingw64-i686-editline                        ORPHANED (Yaakov Selkowitz)
 mingw64-i686-enca                            ORPHANED (Yaakov Selkowitz)
 mingw64-i686-enchant                         ORPHANED (Yaakov Selkowitz)
 mingw64-i686-exiv2                           ORPHANED (Yaakov Selkowitz)
-mingw64-i686-expat                           Doug Henderson
+mingw64-i686-expat                           ORPHANED (Doug Henderson)
 mingw64-i686-fdk-aac                         ORPHANED (Yaakov Selkowitz)
 mingw64-i686-fftw3                           ORPHANED (Yaakov Selkowitz)
 mingw64-i686-flac                            ORPHANED (Yaakov Selkowitz)
@@ -2046,7 +2046,7 @@ mingw64-x86_64-editline                      ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-enca                          ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-enchant                       ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-exiv2                         ORPHANED (Yaakov Selkowitz)
-mingw64-x86_64-expat                         Doug Henderson
+mingw64-x86_64-expat                         ORPHANED (Doug Henderson)
 mingw64-x86_64-fdk-aac                       ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-fftw3                         ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-flac                          ORPHANED (Yaakov Selkowitz)
@@ -4038,7 +4038,7 @@ xwin-xdg-menu                                Jon Turney
 xwininfo                                     Jon Turney
 xwud                                         Jon Turney
 xxdiff                                       ORPHANED (Yaakov Selkowitz)
-xxhash                                       Doug Henderson
+xxhash                                       Marco Atzeri
 xz                                           Achim Gratz
 yad                                          ORPHANED (Yaakov Selkowitz)
 yajl                                         ORPHANED (Yaakov Selkowitz)

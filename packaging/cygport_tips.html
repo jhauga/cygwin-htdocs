@@ -166,6 +166,17 @@ declare python${PYTHON3_PKGVERSION}_foo_CATEGORY="Python"
 </pre>
 
   </li>
+
+  <li>
+    <p>
+      If your package installs shared libraries into a private directory (e.g to
+      be used as plugins by an executable in that or a different package),
+      you'll want to list that directory in
+      <a href="https://cygwin.github.io/cygport/pkg_info_cygpart.html#DEPS_PATH">DEPS_PATH</a>
+      so that they are checked for dependencies.
+    </p>
+  </li>
+
   <li>
     If the build generates (or even modifies!) files in the source directory,
     those files should probably be listed

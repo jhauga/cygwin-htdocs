@@ -103,6 +103,31 @@
   </li>
 
   <li>
+    <p>
+      When packaging a versioned shared library
+      like <strong>libboffo<em>N</em></strong> (where <em>N</em> is the
+      soversion), it's best practice to describe it's contents using glob(s)
+      which explicitly match against the soversion.  At it's simplest, this
+      means something like:
+    </p>
+
+<pre>
+libboffo0_CONTENTS="
+  usr/bin/*-0.dll
+  usr/share
+"
+</pre>
+
+    <p>
+      So that if and when the soversion changes, packaging fails, rather than
+      silently ploughing on to create a <strong>libboffo0</strong> containing
+      <code>cygboffo-1.dll</code> (which would, when installed, break any
+      packages depending on <strong>libboffo0</strong> to
+      provide <code>cygboffo-0.dll</code> ).
+    </p>
+  </li>
+
+  <li>
     Use <a href="https://cygwin.github.io/cygport/src_install_cygpart.html#make_etc_defaults"><code>make_etc_defaults</code></a>
     on files installed into <code>/etc</code> which are expected to be
     customized locally, so those customizations aren't lost when the package is

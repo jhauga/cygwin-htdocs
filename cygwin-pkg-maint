@@ -170,6 +170,7 @@ busybox                                      Christian Franke
 bvi                                          Jari Aalto
 byacc                                        ORPHANED (Yaakov Selkowitz)
 bzip2                                        ORPHANED (Yaakov Selkowitz)
+bzip3                                        Daisuke Fujimura
 c-ares                                       ORPHANED (Yaakov Selkowitz)
 ca-certificates                              Achim Gratz
 cabextract                                   Stuart Caie

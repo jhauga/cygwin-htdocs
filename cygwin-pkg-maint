@@ -45,7 +45,7 @@ apngdis                                      Jari Aalto
 apngopt                                      Jari Aalto
 apngtools                                    Jari Aalto
 appres                                       Jon Turney
-appstream                                    ORPHANED (Yaakov Selkowitz)
+appstream                                    Marco Atzeri
 appstream-glib                               ORPHANED (Yaakov Selkowitz)
 aqbanking                                    ORPHANED (Yaakov Selkowitz)
 arc                                          Jari Aalto
@@ -401,7 +401,7 @@ exiv2                                        Lemures Lemniscati
 exo                                          ORPHANED (Yaakov Selkowitz)
 expat                                        Marco Atzeri
 expect                                       ORPHANED (Yaakov Selkowitz)
-extra-cmake-modules                          ORPHANED (Yaakov Selkowitz)
+extra-cmake-modules                          MArco Atzeri
 extractpdfmark                               Masamichi Hosoda
 f21-backgrounds                              ORPHANED (Yaakov Selkowitz)
 f22-backgrounds                              ORPHANED (Yaakov Selkowitz)

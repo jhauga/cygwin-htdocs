@@ -3222,6 +3222,7 @@ python-pytest-env                            Marco Atzeri
 python-pytest-mock                           Marco Atzeri
 python-pytest-sugar                          Marco Atzeri
 python-pytz                                  Marco Atzeri
+python-railroad-diagrams                     Marco Atzeri
 python-rdflib                                ORPHANED (Yaakov Selkowitz)
 python-recommonmark                          Marco Atzeri
 python-reportlab                             Marco Atzeri
@@ -3259,6 +3260,7 @@ python-tox                                   Marco Atzeri
 python-traitlets                             Marco Atzeri
 python-twisted                               Marco Atzeri
 python-typing                                ORPHANED (Yaakov Selkowitz)
+python-typing_extension                      Marco Atzeri
 python-unidecode                             Marco Atzeri
 python-urllib3                               Marco Atzeri
 python-virtualenv                            Marco Atzeri

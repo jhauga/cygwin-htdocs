@@ -3116,6 +3116,7 @@ python-docutils                              Tony Kelman/Marco Atzeri
 python-dropbox                               Marco Atzeri
 python-enchant                               Marco Atzeri
 python-enum34                                ORPHANED (Yaakov Selkowitz)
+python-exceptiongroup                        Marco Atzeri
 python-fasteners                             Libor Ukropec
 python-faulthandler                          ORPHANED (Yaakov Selkowitz)
 python-feedparser                            ORPHANED (Yaakov Selkowitz)
@@ -3256,6 +3257,7 @@ python-straight.plugin                       Marco Atzeri
 python-termcolor                             Marco Atzeri
 python-testpath                              Marco Atzeri
 python-toml                                  Marco Atzeri
+python-tomli                                 Marco Atzeri
 python-tox                                   Marco Atzeri
 python-traitlets                             Marco Atzeri
 python-twisted                               Marco Atzeri

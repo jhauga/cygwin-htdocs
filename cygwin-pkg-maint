@@ -3165,6 +3165,7 @@ python-markdown                              Marco Atzeri
 python-markupsafe                            Marco Atzeri
 python-matplotlib                            Marco Atzeri
 python-mccabe                                Marco Atzeri
+python-mock                                  Marco Atzeri
 python-musicbrainzngs                        Marco Atzeri
 python-mutagen                               Marco Atzeri
 python-mx                                    ORPHANED (Yaakov Selkowitz)

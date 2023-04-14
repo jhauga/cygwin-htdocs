@@ -1,3 +1,6 @@
 RewriteEngine off
 Options Indexes
 IndexOrderDefault descending name
+
+# this URL is embedded in the setup program, redirected by us here in case we ever want to use a different site
+Redirect /setup/translate https://hosted.weblate.org/projects/cygwin-setup/cygwin-setup/

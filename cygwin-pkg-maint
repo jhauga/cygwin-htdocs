@@ -3536,7 +3536,7 @@ ruby-websocket-extensions                    ORPHANED (Yaakov Selkowitz)
 ruby-xmlrpc                                  ORPHANED (Yaakov Selkowitz)
 ruby-yajl                                    ORPHANED (Yaakov Selkowitz)
 ruby-zoom                                    ORPHANED (Yaakov Selkowitz)
-rubygems                                     ORPHANED (Yaakov Selkowitz)
+rubygems                                     Daisuke Fujimura
 run                                          Achim Gratz
 run2                                         ORPHANED (Charles Wilson)
 rxp                                          Jari Aalto

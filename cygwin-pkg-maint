@@ -2777,6 +2777,7 @@ perl-Glib                                    Achim Gratz
 perl-Glib-Object-Introspection               Achim Gratz
 perl-GStreamer1                              Achim Gratz
 perl-Gtk3                                    Achim Gratz
+perl-Hash-Ordered                            Achim Gratz
 perl-HTML-Element-Extended                   Achim Gratz
 perl-HTML-Formatter                          Achim Gratz
 perl-HTML-Parser                             Achim Gratz
@@ -2924,6 +2925,7 @@ perl-Test-Deep                               Achim Gratz
 perl-Test-Differences                        Achim Gratz
 perl-Test-EOL                                Achim Gratz
 perl-Test-Exception                          Achim Gratz
+perl-Test-FailWarnings                       Achim Gratz
 perl-Test-Fatal                              Achim Gratz
 perl-Test-File                               Achim Gratz
 perl-Test-File-ShareDir                      Achim Gratz

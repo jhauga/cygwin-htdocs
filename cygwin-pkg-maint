@@ -3502,7 +3502,7 @@ ruby-railties                                ORPHANED (Yaakov Selkowitz)
 ruby-raindrops                               ORPHANED (Yaakov Selkowitz)
 ruby-rake                                    ORPHANED (Yaakov Selkowitz)
 ruby-rake-compiler                           ORPHANED (Yaakov Selkowitz)
-ruby-rdoc                                    ORPHANED (Yaakov Selkowitz)
+ruby-rdoc                                    Daisuke Fujimura
 ruby-rdtool                                  ORPHANED (Yaakov Selkowitz)
 ruby-redcarpet                               ORPHANED (David Stacey)
 ruby-redis                                   ORPHANED (Yaakov Selkowitz)

@@ -3431,7 +3431,7 @@ ruby-coffee-script-source                    ORPHANED (Yaakov Selkowitz)
 ruby-columnize                               ORPHANED (Yaakov Selkowitz)
 ruby-concurrent-ruby                         ORPHANED (Yaakov Selkowitz)
 ruby-crass                                   ORPHANED (Yaakov Selkowitz)
-ruby-curses                                  ORPHANED (Yaakov Selkowitz)
+ruby-curses                                  Daisuke Fujimura
 ruby-dbus                                    ORPHANED (Yaakov Selkowitz)
 ruby-debug_inspector                         ORPHANED (Yaakov Selkowitz)
 ruby-did_you_mean                            ORPHANED (Yaakov Selkowitz)

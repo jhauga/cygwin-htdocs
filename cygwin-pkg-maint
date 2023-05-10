@@ -3433,7 +3433,7 @@ ruby-concurrent-ruby                         ORPHANED (Yaakov Selkowitz)
 ruby-crass                                   ORPHANED (Yaakov Selkowitz)
 ruby-curses                                  Daisuke Fujimura
 ruby-dbus                                    ORPHANED (Yaakov Selkowitz)
-ruby-debug_inspector                         ORPHANED (Yaakov Selkowitz)
+ruby-debug_inspector                         Daisuke Fujimura
 ruby-did_you_mean                            ORPHANED (Yaakov Selkowitz)
 ruby-erubi                                   ORPHANED (Yaakov Selkowitz)
 ruby-erubis                                  ORPHANED (Yaakov Selkowitz)

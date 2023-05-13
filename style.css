@@ -301,6 +301,17 @@ ul.compact li
     text-decoration: underline;
 }
 
+.container
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container span
+{
+    flex-basis: 100%;
+}
+
 /* pkglist related --------------------------------------------------- */
 
 /*

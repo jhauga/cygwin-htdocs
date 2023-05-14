@@ -2738,6 +2738,7 @@ perl-Eval-Closure                            Achim Gratz
 perl-Exception-Class                         Achim Gratz
 perl-Exporter-Tiny                           Achim Gratz
 perl-ExtUtils-CBuilder                       Achim Gratz
+perl-ExtUtils-CChecker			     Achim Gratz
 perl-ExtUtils-Config                         Achim Gratz
 perl-ExtUtils-Depends                        Achim Gratz
 perl-ExtUtils-F77                            Achim Gratz
@@ -2784,6 +2785,7 @@ perl-HTML-Parser                             Achim Gratz
 perl-HTML-TableExtract                       Achim Gratz
 perl-HTML-Tagset                             Achim Gratz
 perl-HTML-Tree                               Achim Gratz
+perl-HTTP-CookieJar                          Achim Gratz
 perl-HTTP-Cookies                            Achim Gratz
 perl-HTTP-Daemon                             Achim Gratz
 perl-HTTP-Date                               Achim Gratz
@@ -2913,6 +2915,7 @@ perl-Sub-Name                                Achim Gratz
 perl-Sub-Quote                               Achim Gratz
 perl-Sub-Uplevel                             Achim Gratz
 perl-SUPER                                   Achim Gratz
+perl-Syntax-Keyword-Try			     Achim Gratz
 perl-Tee                                     Achim Gratz
 perl-Term-ReadLine-Gnu                       Achim Gratz
 perl-Term-ReadLine-Perl                      Achim Gratz
@@ -3003,6 +3006,7 @@ perl-XML-Simple                              Achim Gratz
 perl-XML-Stream                              Achim Gratz
 perl-XML-Writer                              Achim Gratz/Ken Brown
 perl-XML-XPath                               Achim Gratz
+perl-XS-Parse-Keyword			     Achim Gratz
 perl-XSLoader                                Achim Gratz
 perl-YAML                                    Achim Gratz
 perl-YAML-LibYAML                            Achim Gratz

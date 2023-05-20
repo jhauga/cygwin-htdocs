@@ -3466,7 +3466,7 @@ ruby-imagesize                               ORPHANED (Yaakov Selkowitz)
 ruby-jbuilder                                ORPHANED (Yaakov Selkowitz)
 ruby-journey                                 ORPHANED (Yaakov Selkowitz)
 ruby-jquery-rails                            ORPHANED (Yaakov Selkowitz)
-ruby-kgio                                    ORPHANED (Yaakov Selkowitz)
+ruby-kgio                                    Daisuke Fujimura 
 ruby-listen                                  ORPHANED (Yaakov Selkowitz)
 ruby-locale                                  ORPHANED (Yaakov Selkowitz)
 ruby-loofah                                  ORPHANED (Yaakov Selkowitz)
@@ -3482,7 +3482,7 @@ ruby-mysql2                                  Daisuke Fujimura
 ruby-native-package-installer                ORPHANED (Yaakov Selkowitz)
 ruby-net-http-persistent                     ORPHANED (Yaakov Selkowitz)
 ruby-net-telnet                              ORPHANED (Yaakov Selkowitz)
-ruby-nio4r                                   ORPHANED (Yaakov Selkowitz)
+ruby-nio4r                                   Daisuke Fujimura
 ruby-nokogiri                                ORPHANED (Yaakov Selkowitz)
 ruby-oj                                      ORPHANED (Yaakov Selkowitz)
 ruby-pango                                   ORPHANED (Yaakov Selkowitz)

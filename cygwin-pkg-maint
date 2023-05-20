@@ -3478,7 +3478,7 @@ ruby-mime-types-data                         ORPHANED (Yaakov Selkowitz)
 ruby-minitest                                ORPHANED (Yaakov Selkowitz)
 ruby-molinillo                               ORPHANED (Yaakov Selkowitz)
 ruby-multi_json                              ORPHANED (Yaakov Selkowitz)
-ruby-mysql2                                  ORPHANED (Yaakov Selkowitz)
+ruby-mysql2                                  Daisuke Fujimura
 ruby-native-package-installer                ORPHANED (Yaakov Selkowitz)
 ruby-net-http-persistent                     ORPHANED (Yaakov Selkowitz)
 ruby-net-telnet                              ORPHANED (Yaakov Selkowitz)

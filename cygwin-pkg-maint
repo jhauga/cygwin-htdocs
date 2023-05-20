@@ -3457,7 +3457,7 @@ ruby-gtk3                                    ORPHANED (Yaakov Selkowitz)
 ruby-gtksourceview2                          ORPHANED (Yaakov Selkowitz)
 ruby-gtksourceview3                          ORPHANED (Yaakov Selkowitz)
 ruby-hike                                    ORPHANED (Yaakov Selkowitz)
-ruby-hitimes                                 ORPHANED (Yaakov Selkowitz)
+ruby-hitimes                                 Daisuke Fujimura
 ruby-hoe                                     ORPHANED (Yaakov Selkowitz)
 ruby-hpricot                                 ORPHANED (Yaakov Selkowitz)
 ruby-htmlentities                            ORPHANED (Yaakov Selkowitz)

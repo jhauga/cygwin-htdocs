@@ -3484,9 +3484,9 @@ ruby-net-http-persistent                     ORPHANED (Yaakov Selkowitz)
 ruby-net-telnet                              ORPHANED (Yaakov Selkowitz)
 ruby-nio4r                                   Daisuke Fujimura
 ruby-nokogiri                                ORPHANED (Yaakov Selkowitz)
-ruby-oj                                      ORPHANED (Yaakov Selkowitz)
+ruby-oj                                      Daisuke Fujimura
 ruby-pango                                   ORPHANED (Yaakov Selkowitz)
-ruby-pg                                      ORPHANED (Yaakov Selkowitz)
+ruby-pg                                      Daisuke Fujimura
 ruby-pkg-config                              ORPHANED (Yaakov Selkowitz)
 ruby-polyglot                                ORPHANED (Yaakov Selkowitz)
 ruby-poppler                                 ORPHANED (Yaakov Selkowitz)

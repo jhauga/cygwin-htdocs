@@ -3491,7 +3491,7 @@ ruby-pkg-config                              ORPHANED (Yaakov Selkowitz)
 ruby-polyglot                                ORPHANED (Yaakov Selkowitz)
 ruby-poppler                                 ORPHANED (Yaakov Selkowitz)
 ruby-power_assert                            ORPHANED (Yaakov Selkowitz)
-ruby-puma                                    ORPHANED (Yaakov Selkowitz)
+ruby-puma                                    Daisuke Fujimura
 ruby-puppet-lint                             ORPHANED (David Stacey)
 ruby-racc                                    ORPHANED (Yaakov Selkowitz)
 ruby-rack                                    ORPHANED (Yaakov Selkowitz)
@@ -3518,7 +3518,7 @@ ruby-sdoc                                    ORPHANED (Yaakov Selkowitz)
 ruby-sprockets                               ORPHANED (Yaakov Selkowitz)
 ruby-sprockets-rails                         ORPHANED (Yaakov Selkowitz)
 ruby-sqlite3                                 ORPHANED (Yaakov Selkowitz)
-ruby-syck                                    ORPHANED (Yaakov Selkowitz)
+ruby-syck                                    Daisuke Fujimura
 ruby-test-unit                               ORPHANED (Yaakov Selkowitz)
 ruby-text                                    ORPHANED (Yaakov Selkowitz)
 ruby-thor                                    ORPHANED (Yaakov Selkowitz)
@@ -3540,8 +3540,8 @@ ruby-webkit-gtk2                             ORPHANED (Yaakov Selkowitz)
 ruby-websocket-driver                        ORPHANED (Yaakov Selkowitz)
 ruby-websocket-extensions                    ORPHANED (Yaakov Selkowitz)
 ruby-xmlrpc                                  ORPHANED (Yaakov Selkowitz)
-ruby-yajl                                    ORPHANED (Yaakov Selkowitz)
-ruby-zoom                                    ORPHANED (Yaakov Selkowitz)
+ruby-yajl                                    Daisuke Fujimura
+ruby-zoom                                    Daisuke Fujimura
 rubygems                                     Daisuke Fujimura
 run                                          Achim Gratz
 run2                                         ORPHANED (Charles Wilson)

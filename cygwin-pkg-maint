@@ -3503,7 +3503,7 @@ ruby-rails-deprecated_sanitizer              ORPHANED (Yaakov Selkowitz)
 ruby-rails-dom-testing                       ORPHANED (Yaakov Selkowitz)
 ruby-rails-html-sanitizer                    ORPHANED (Yaakov Selkowitz)
 ruby-railties                                ORPHANED (Yaakov Selkowitz)
-ruby-raindrops                               ORPHANED (Yaakov Selkowitz)
+ruby-raindrops                               Daisuke Fujimura
 ruby-rake                                    ORPHANED (Yaakov Selkowitz)
 ruby-rake-compiler                           ORPHANED (Yaakov Selkowitz)
 ruby-rdoc                                    Daisuke Fujimura
@@ -3517,7 +3517,7 @@ ruby-sass-rails                              ORPHANED (Yaakov Selkowitz)
 ruby-sdoc                                    ORPHANED (Yaakov Selkowitz)
 ruby-sprockets                               ORPHANED (Yaakov Selkowitz)
 ruby-sprockets-rails                         ORPHANED (Yaakov Selkowitz)
-ruby-sqlite3                                 ORPHANED (Yaakov Selkowitz)
+ruby-sqlite3                                 Daisuke Fujimura
 ruby-syck                                    Daisuke Fujimura
 ruby-test-unit                               ORPHANED (Yaakov Selkowitz)
 ruby-text                                    ORPHANED (Yaakov Selkowitz)

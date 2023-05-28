@@ -3422,7 +3422,7 @@ ruby-bcrypt                                  Daisuke Fujimura
 ruby-bindex                                  Daisuke Fujimura
 ruby-binding_of_caller                       ORPHANED (Yaakov Selkowitz)
 ruby-builder                                 ORPHANED (Yaakov Selkowitz)
-ruby-byebug                                  ORPHANED (Yaakov Selkowitz)
+ruby-byebug                                  Daisuke Fujimura
 ruby-cairo                                   ORPHANED (Yaakov Selkowitz)
 ruby-cairo-gobject                           ORPHANED (Yaakov Selkowitz)
 ruby-clutter                                 ORPHANED (Yaakov Selkowitz)
@@ -3459,7 +3459,7 @@ ruby-gtksourceview3                          ORPHANED (Yaakov Selkowitz)
 ruby-hike                                    ORPHANED (Yaakov Selkowitz)
 ruby-hitimes                                 Daisuke Fujimura
 ruby-hoe                                     ORPHANED (Yaakov Selkowitz)
-ruby-hpricot                                 ORPHANED (Yaakov Selkowitz)
+ruby-hpricot                                 Daisuke Fujimura
 ruby-htmlentities                            ORPHANED (Yaakov Selkowitz)
 ruby-i18n                                    ORPHANED (Yaakov Selkowitz)
 ruby-imagesize                               ORPHANED (Yaakov Selkowitz)

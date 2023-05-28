@@ -3531,13 +3531,13 @@ ruby-turbolinks                              ORPHANED (Yaakov Selkowitz)
 ruby-turbolinks-source                       ORPHANED (Yaakov Selkowitz)
 ruby-tzinfo                                  ORPHANED (Yaakov Selkowitz)
 ruby-uglifier                                ORPHANED (Yaakov Selkowitz)
-ruby-unicorn                                 ORPHANED (Yaakov Selkowitz)
+ruby-unicorn                                 Daisuke Fujimura
 ruby-vte                                     ORPHANED (Yaakov Selkowitz)
 ruby-vte3                                    ORPHANED (Yaakov Selkowitz)
 ruby-web-console                             ORPHANED (Yaakov Selkowitz)
 ruby-webkit-gtk                              ORPHANED (Yaakov Selkowitz)
 ruby-webkit-gtk2                             ORPHANED (Yaakov Selkowitz)
-ruby-websocket-driver                        ORPHANED (Yaakov Selkowitz)
+ruby-websocket-driver                        Daisuke Fujimura
 ruby-websocket-extensions                    ORPHANED (Yaakov Selkowitz)
 ruby-xmlrpc                                  ORPHANED (Yaakov Selkowitz)
 ruby-yajl                                    Daisuke Fujimura

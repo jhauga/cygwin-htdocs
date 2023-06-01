@@ -208,7 +208,6 @@ celt051                                      ORPHANED (Yaakov Selkowitz)
 cervisia                                     ORPHANED (Yaakov Selkowitz)
 cfitsio                                      Achim Gratz
 cfourcc                                      Jari Aalto
-cfv                                          Jari Aalto
 cgdb                                         Jari Aalto
 cgit                                         ORPHANED (Yaakov Selkowitz)
 check                                        Achim Gratz
@@ -3660,7 +3659,6 @@ suomi-malaga                                 ORPHANED (Yaakov Selkowitz)
 surf                                         Marco Atzeri
 svgpart                                      ORPHANED (Yaakov Selkowitz)
 svm                                          Ken Brown
-svn-load                                     Jari Aalto
 svn_load_dirs                                ORPHANED (David Rothenberger)
 sweeper                                      ORPHANED (Yaakov Selkowitz)
 swell-foop                                   ORPHANED (Yaakov Selkowitz)
@@ -3870,7 +3868,6 @@ wavpack                                      ORPHANED
 wcd                                          Erwin Waterlander
 wcslib                                       ORPHANED (Yaakov Selkowitz)
 wdiff                                        Jari Aalto
-webcheck                                     Jari Aalto
 webkitgtk                                    ORPHANED (Yaakov Selkowitz)
 webrtc-audio-processing                      ORPHANED (Yaakov Selkowitz)
 weechat                                      Sebastien Helleu

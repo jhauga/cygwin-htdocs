@@ -38,7 +38,7 @@ conflicts: <i>version-relation[, version-relation...]</i>
 external-source: <i>package</i>
 message: <i>id</i> <i>"some text"</i>
 test:
-version: <i>version</i>
+version: <i>version-identifier</i>
 disable-check: <i>check-name [check-name...]</i>
 </pre>
 <p class="center">
@@ -265,7 +265,7 @@ No actual moles will be harmed during execution of this game."
   <li>
     <p>
       <code>test</code> indicates this is a test package.  When the use of test
-      packages is enabled in setup, the highest version marked as a test package
+      packages is enabled in setup, the highest version-release marked as a test package
       will be installed.
     </p>
     <p>
@@ -363,7 +363,7 @@ source: release/boffo/boffo-2.4.1-2-src.tar.xz
 
 <p>
   Note that both packages point to the same source tar file. Also, it is required
-  that the versions match (i.e. libboffo7-5.2 can't point to boffo-1.4-src).
+  that the version-release matches (i.e. libboffo7-5.2-1 can't point to boffo-1.4-1-src).
   The same logic is used to "match up" other versions with their external
   sources.
 </p>
@@ -381,7 +381,7 @@ license: <i>license-expression</i>
 sdesc: <i>"some text"</i>
 skip:
 test:
-version: <i>version</i>
+version: <i>version-identifier</i>
 </pre>
 
 <p>
@@ -433,13 +433,13 @@ version: <i>version</i>
 
 <pre>
 # <i>comment</i>
-keep: <i>version</i>[ <i>version</i>...]
+keep: <i>version-identifier</i>[ <i>version-identifier</i>...]
 keep-count: <i>count</i>
 keep-count-test: <i>count</i>
 keep-days: <i>days</i>
 keep-superseded-test:
 disable-check: <i>check-name [check-name...]</i>
-replace-versions: <i>version [version...]</i>
+replace-versions: <i>version-identifier [version-identifier...]</i>
 </pre>
 
 <ul class="spaced">
@@ -456,7 +456,7 @@ replace-versions: <i>version [version...]</i>
     <ul class="compact">
       <li>
         <p>
-          All package versions listed in a <code>keep</code> line are always kept.
+          All package version-releases listed in a <code>keep</code> line are always kept.
         </p>
       </li>
 
@@ -497,7 +497,7 @@ replace-versions: <i>version [version...]</i>
 
   <li>
     <p>
-      <code>replace-versions</code> lists versions which should always be replaced.
+      <code>replace-versions</code> lists version-releases which should always be replaced.
     </p>
 
     <p>

@@ -3422,8 +3422,8 @@ ruby-bindex                                  Daisuke Fujimura
 ruby-binding_of_caller                       ORPHANED (Yaakov Selkowitz)
 ruby-builder                                 ORPHANED (Yaakov Selkowitz)
 ruby-byebug                                  Daisuke Fujimura
-ruby-cairo                                   ORPHANED (Yaakov Selkowitz)
-ruby-cairo-gobject                           ORPHANED (Yaakov Selkowitz)
+ruby-cairo                                   Daisuke Fujimura
+ruby-cairo-gobject                           Daisuke Fujimura
 ruby-clutter                                 ORPHANED (Yaakov Selkowitz)
 ruby-clutter-gdk                             ORPHANED (Yaakov Selkowitz)
 ruby-clutter-gstreamer                       ORPHANED (Yaakov Selkowitz)
@@ -3471,10 +3471,12 @@ ruby-locale                                  ORPHANED (Yaakov Selkowitz)
 ruby-loofah                                  ORPHANED (Yaakov Selkowitz)
 ruby-mail                                    ORPHANED (Yaakov Selkowitz)
 ruby-marc                                    ORPHANED (Yaakov Selkowitz)
+ruby-matrix                                  Daisuke Fujimura
 ruby-method_source                           ORPHANED (Yaakov Selkowitz)
 ruby-mime-types                              ORPHANED (Yaakov Selkowitz)
 ruby-mime-types-data                         ORPHANED (Yaakov Selkowitz)
 ruby-minitest                                ORPHANED (Yaakov Selkowitz)
+ruby-mini-portile                            Daisuke Fujimura
 ruby-molinillo                               ORPHANED (Yaakov Selkowitz)
 ruby-multi_json                              ORPHANED (Yaakov Selkowitz)
 ruby-mysql2                                  Daisuke Fujimura
@@ -3482,7 +3484,7 @@ ruby-native-package-installer                ORPHANED (Yaakov Selkowitz)
 ruby-net-http-persistent                     ORPHANED (Yaakov Selkowitz)
 ruby-net-telnet                              ORPHANED (Yaakov Selkowitz)
 ruby-nio4r                                   Daisuke Fujimura
-ruby-nokogiri                                ORPHANED (Yaakov Selkowitz)
+ruby-nokogiri                                Daisuke Fujimura
 ruby-oj                                      Daisuke Fujimura
 ruby-pango                                   ORPHANED (Yaakov Selkowitz)
 ruby-pg                                      Daisuke Fujimura

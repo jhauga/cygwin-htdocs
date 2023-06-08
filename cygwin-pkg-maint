@@ -3477,7 +3477,7 @@ ruby-method_source                           ORPHANED (Yaakov Selkowitz)
 ruby-mime-types                              ORPHANED (Yaakov Selkowitz)
 ruby-mime-types-data                         ORPHANED (Yaakov Selkowitz)
 ruby-minitest                                ORPHANED (Yaakov Selkowitz)
-ruby-mini-portile                            Daisuke Fujimura
+ruby-mini-portile2                           Daisuke Fujimura
 ruby-molinillo                               ORPHANED (Yaakov Selkowitz)
 ruby-multi_json                              ORPHANED (Yaakov Selkowitz)
 ruby-mysql2                                  Daisuke Fujimura

@@ -630,7 +630,6 @@ gnupg2                                       Marco Atzeri
 gnuplot                                      Achim Gratz
 gnutls                                       ORPHANED (Yaakov Selkowitz)
 gob2                                         ORPHANED (Yaakov Selkowitz)
-gobby                                        ORPHANED (Yaakov Selkowitz)
 gobby0.5                                     ORPHANED (Yaakov Selkowitz)
 gobject-introspection                        ORPHANED (Yaakov Selkowitz)
 goddard-backgrounds                          ORPHANED (Yaakov Selkowitz)
@@ -700,7 +699,6 @@ gtkmathview                                  ORPHANED (Yaakov Selkowitz)
 gtkmm2.4                                     ORPHANED (Yaakov Selkowitz)
 gtkmm3.0                                     ORPHANED (Yaakov Selkowitz)
 gtkperf                                      ORPHANED (Mike DePaulo)
-gtksourceview2.0                             ORPHANED (Yaakov Selkowitz)
 gtksourceview3.0                             ORPHANED (Yaakov Selkowitz)
 gtksourceviewmm3.0                           ORPHANED (Yaakov Selkowitz)
 gtkspell                                     ORPHANED (Yaakov Selkowitz)
@@ -3135,7 +3133,6 @@ python-gi                                    Marco Atzeri
 python-gobject                               ORPHANED (Yaakov Selkowitz)
 python-goocanvas                             ORPHANED (Yaakov Selkowitz)
 python-gtk2.0                                ORPHANED (Yaakov Selkowitz)
-python-gtksourceview2                        ORPHANED (Yaakov Selkowitz)
 python-h5py                                  Chris LeBlanc/Marco Atzeri
 python-html5lib                              Marco Atzeri
 python-htmltmpl                              ORPHANED (Yaakov Selkowitz)
@@ -3454,7 +3451,6 @@ ruby-goocanvas2                              ORPHANED (Yaakov Selkowitz)
 ruby-gstreamer1.0                            ORPHANED (Yaakov Selkowitz)
 ruby-gtk2                                    ORPHANED (Yaakov Selkowitz)
 ruby-gtk3                                    ORPHANED (Yaakov Selkowitz)
-ruby-gtksourceview2                          ORPHANED (Yaakov Selkowitz)
 ruby-gtksourceview3                          ORPHANED (Yaakov Selkowitz)
 ruby-hike                                    ORPHANED (Yaakov Selkowitz)
 ruby-hitimes                                 Daisuke Fujimura

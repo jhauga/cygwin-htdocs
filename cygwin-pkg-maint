@@ -1,3 +1,7 @@
+# package groups
+@mesa                                        Jon Turney
+@xorg                                        Jon Turney
+# package maintainers
 2048-cli                                     ORPHANED (Yaakov Selkowitz)
 2048-qt                                      ORPHANED (Yaakov Selkowitz)
 a2ps                                         ORPHANED (Yaakov Selkowitz)
@@ -44,7 +48,7 @@ apngasm                                      Jari Aalto
 apngdis                                      Jari Aalto
 apngopt                                      Jari Aalto
 apngtools                                    Jari Aalto
-appres                                       Jon Turney
+appres                                       @xorg
 appstream                                    Marco Atzeri
 appstream-glib                               ORPHANED (Yaakov Selkowitz)
 aqbanking                                    ORPHANED (Yaakov Selkowitz)
@@ -135,17 +139,17 @@ bash-completion                              Eric Blake
 bashdb                                       Eric Blake
 bc                                           Andrew Schulman
 bcrypt                                       Jari Aalto
-bdftopcf                                     Jon Turney
+bdftopcf                                     @xorg
 beefy-miracle-backgrounds                    ORPHANED (Yaakov Selkowitz)
-beforelight                                  Jon Turney
+beforelight                                  @xorg
 biber                                        Ken Brown
 bidiv                                        ORPHANED (Yaakov Selkowitz)
 bind                                         ORPHANED (Yaakov Selkowitz)
 binutils                                     Achim Gratz
 biosig                                       Alois Schloegl
 bison                                        Eric Blake/Brian Inglis
-bitmap                                       Jon Turney
-bitstream-vera-fonts                         Jon Turney
+bitmap                                       @xorg
+bitstream-vera-fonts                         @xorg
 blinken                                      ORPHANED (Yaakov Selkowitz)
 bmp2png                                      Jari Aalto
 bogofilter                                   ORPHANED (Yaakov Selkowitz)
@@ -364,7 +368,7 @@ easytag                                      ORPHANED (Yaakov Selkowitz)
 ebook-tools                                  ORPHANED (Yaakov Selkowitz)
 eccodes                                      Marco Atzeri
 ed                                           Marco Atzeri
-editres                                      Jon Turney
+editres                                      @xorg
 editrights                                   Corinna Vinschen
 eekboard                                     ORPHANED (Yaakov Selkowitz)
 eigen2                                       ORPHANED (Yaakov Selkowitz)
@@ -448,11 +452,11 @@ fluidsynth                                   ORPHANED (Yaakov Selkowitz)
 fluxbox                                      ORPHANED (Yaakov Selkowitz)
 focuswriter                                  ORPHANED (Yaakov Selkowitz)
 folks                                        ORPHANED (Yaakov Selkowitz)
-font-util                                    Jon Turney
+font-util                                    @xorg
 fontawesome-fonts                            ORPHANED (Yaakov Selkowitz)
 fontconfig                                   ORPHANED (Yaakov Selkowitz)
 fontforge                                    Lemures Lemniscati
-fonttosfnt                                   Jon Turney
+fonttosfnt                                   @xorg
 foobillard                                   ORPHANED (David Stacey)
 fort77                                       ORPHANED (Yaakov Selkowitz)
 fortune-mod                                  Brian Inglis
@@ -467,8 +471,8 @@ freetype2                                    Ken Brown
 freexl                                       Daisuke Fujimura
 fribidi                                      ORPHANED (Yaakov Selkowitz)
 frogr                                        ORPHANED (Yaakov Selkowitz)
-fslsfonts                                    Jon Turney
-fstobdf                                      Jon Turney
+fslsfonts                                    @xorg
+fstobdf                                      @xorg
 fvwm                                         ORPHANED (Yaakov Selkowitz)
 fzf                                          ORPHANED (Adam Dinwoodie)
 galculator                                   ORPHANED (Yaakov Selkowitz)
@@ -545,8 +549,8 @@ glib2.0-openssl                              ORPHANED (Yaakov Selkowitz)
 glibmm2.4                                    ORPHANED (Yaakov Selkowitz)
 glm                                          Marco Atzeri
 glpk                                         Marco Atzeri
-glu                                          Jon Turney
-glw                                          Jon Turney
+glu                                          @mesa
+glw                                          @mesa
 gmic                                         ORPHANED (Yaakov Selkowitz)
 gmime2.6                                     ORPHANED (Yaakov Selkowitz)
 gmime3.0                                     ORPHANED (Yaakov Selkowitz)
@@ -778,8 +782,8 @@ ibus-skk                                     ORPHANED (Yaakov Selkowitz)
 ibus-typing-booster                          ORPHANED (Yaakov Selkowitz)
 ibus-unikey                                  ORPHANED (Yaakov Selkowitz)
 ibus-xkb                                     ORPHANED (Yaakov Selkowitz)
-iceauth                                      Jon Turney
-ico                                          Jon Turney
+iceauth                                      @xorg
+ico                                          @xorg
 icon-naming-utils                            ORPHANED (Yaakov Selkowitz)
 icoutils                                     ORPHANED (David Stacey)
 icu                                          Ken Brown
@@ -794,7 +798,7 @@ ii                                           Jari Aalto
 ilmbase                                      Marco Atzeri
 im-chooser                                   ORPHANED (Yaakov Selkowitz)
 ImageMagick                                  Marco Atzeri
-imake                                        Jon Turney
+imake                                        @xorg
 imlib                                        ORPHANED (Yaakov Selkowitz)
 imlib2                                       ORPHANED (Yaakov Selkowitz)
 imlib2_loaders                               ORPHANED (Yaakov Selkowitz)
@@ -1246,7 +1250,7 @@ libdeflate                                   Lemures Lemniscati
 libdiscid                                    ORPHANED (Dr. Volker Zell)
 libdmapsharing3.0                            ORPHANED (Yaakov Selkowitz)
 libdmtx                                      ORPHANED (Yaakov Selkowitz)
-libdmx                                       Jon Turney
+libdmx                                       @xorg
 libdv                                        ORPHANED (Yaakov Selkowitz)
 libdvdnav                                    ORPHANED (Yaakov Selkowitz)
 libdvdread                                   ORPHANED (Yaakov Selkowitz)
@@ -1271,10 +1275,10 @@ libfido2                                     Corinna Vinschen
 libfilezilla                                 ORPHANED (Yaakov Selkowitz)
 libfm                                        ORPHANED (Yaakov Selkowitz)
 libfm-qt                                     ORPHANED (Yaakov Selkowitz)
-libfontenc                                   Jon Turney
+libfontenc                                   @xorg
 libfpx                                       ORPHANED (Dr. Volker Zell)
 libfreehand0.1                               ORPHANED (Yaakov Selkowitz)
-libFS                                        Jon Turney
+libFS                                        @xorg
 libftdi1                                     Ake Rehnman
 libgadu                                      ORPHANED (Yaakov Selkowitz)
 libgames-support                             ORPHANED (Yaakov Selkowitz)
@@ -1314,7 +1318,7 @@ libhangul                                    ORPHANED (Yaakov Selkowitz)
 libheif                                      Marco Atzeri
 libhtp                                       Daisuke Fujimura
 libical                                      ORPHANED (Yaakov Selkowitz)
-libICE                                       Jon Turney
+libICE                                       @xorg
 libiconv                                     Lemures Lemniscati
 libid3tag                                    ORPHANED (Yaakov Selkowitz)
 libIDL2                                      ORPHANED (Yaakov Selkowitz)
@@ -1423,7 +1427,7 @@ libsigc2.0                                   Ken Brown
 libsigc3.0                                   Ken Brown
 libsigsegv                                   Eric Blake
 libskk                                       ORPHANED (Yaakov Selkowitz)
-libSM                                        Jon Turney
+libSM                                        @xorg
 libsmi                                       ORPHANED (Dr. Volker Zell)
 libsndfile                                   Takashi Yano
 libsodium                                    ORPHANED (Yaakov Selkowitz)
@@ -1471,44 +1475,44 @@ libwnck3                                     ORPHANED (Yaakov Selkowitz)
 libwpd0.10                                   ORPHANED (Yaakov Selkowitz)
 libwpg0.3                                    ORPHANED (Yaakov Selkowitz)
 libwps0.4                                    ORPHANED (Yaakov Selkowitz)
-libX11                                       Jon Turney
-libXau                                       Jon Turney
-libXaw                                       Jon Turney
-libXaw3d                                     Jon Turney
-libxcb                                       Jon Turney
-libXcomposite                                Jon Turney
+libX11                                       @xorg
+libXau                                       @xorg
+libXaw                                       @xorg
+libXaw3d                                     @xorg
+libxcb                                       @xorg
+libXcomposite                                @xorg
 libxcrypt                                    Marco Atzeri
-libXcursor                                   Jon Turney
-libxcvt                                      Jon Turney
-libxcwm                                      Jon Turney
-libXdamage                                   Jon Turney
-libXdmcp                                     Jon Turney
-libXext                                      Jon Turney
+libXcursor                                   @xorg
+libxcvt                                      @xorg
+libxcwm                                      @xorg
+libXdamage                                   @xorg
+libXdmcp                                     @xorg
+libXext                                      @xorg
 libxfce4ui                                   ORPHANED (Yaakov Selkowitz)
 libxfce4util                                 ORPHANED (Yaakov Selkowitz)
 libxfcegui4                                  ORPHANED (Yaakov Selkowitz)
-libXfixes                                    Jon Turney
+libXfixes                                    @xorg
 libXfont                                     ORPHANED (Yaakov Selkowitz)
-libXfont2                                    Jon Turney
-libXft                                       Jon Turney
-libXi                                        Jon Turney
-libXinerama                                  Jon Turney
-libxkbcommon                                 Jon Turney
-libxkbfile                                   Jon Turney
+libXfont2                                    @xorg
+libXft                                       @xorg
+libXi                                        @xorg
+libXinerama                                  @xorg
+libxkbcommon                                 @xorg
+libxkbfile                                   @xorg
 libxklavier                                  ORPHANED (Yaakov Selkowitz)
 libxml++2.6                                  ORPHANED (Yaakov Selkowitz)
 libxml2                                      Marco Atzeri
 libxmp                                       ORPHANED (Yaakov Selkowitz)
-libXmu                                       Jon Turney
-libXpm                                       Jon Turney
+libXmu                                       @xorg
+libXpm                                       @xorg
 libXpm-noX                                   Ken Brown
-libXrandr                                    Jon Turney
-libXrender                                   Jon Turney
-libXres                                      Jon Turney
-libXScrnSaver                                Jon Turney
+libXrandr                                    @xorg
+libXrender                                   @xorg
+libXres                                      @xorg
+libXScrnSaver                                @xorg
 libxslt                                      ORPHANED (Yaakov Selkowitz)
-libXt                                        Jon Turney
-libXtst                                      Jon Turney
+libXt                                        @xorg
+libXtst                                      @xorg
 libytnef                                     ORPHANED (Yaakov Selkowitz)
 libzapojit0.0                                ORPHANED (Yaakov Selkowitz)
 libzeitgeist1.0                              ORPHANED (Yaakov Selkowitz)
@@ -1523,11 +1527,11 @@ link-grammar                                 ORPHANED (Yaakov Selkowitz)
 linklint                                     Jari Aalto
 links                                        Jari Aalto
 linux-libertine-fonts                        ORPHANED (Yaakov Selkowitz)
-listres                                      Jon Turney
+listres                                      @xorg
 llvm                                         ORPHANED (Yaakov Selkowitz)
 llvm3.5                                      ORPHANED (Yaakov Selkowitz)
 lmdb                                         ORPHANED (Yaakov Selkowitz)
-lndir                                        Jon Turney
+lndir                                        @xorg
 login                                        Corinna Vinschen
 lohit-assamese-fonts                         ORPHANED (Yaakov Selkowitz)
 lohit-bengali-fonts                          ORPHANED (Yaakov Selkowitz)
@@ -1601,7 +1605,7 @@ madplay                                      ORPHANED (Yaakov Selkowitz)
 mailutils                                    Ken Brown
 mairix                                       Jari Aalto
 make                                         Marco Atzeri
-makedepend                                   Jon Turney
+makedepend                                   @xorg
 makepasswd                                   Jari Aalto
 makeself                                     Jari Aalto
 malaga                                       ORPHANED (Yaakov Selkowitz)
@@ -1651,8 +1655,8 @@ mediainfo                                    ORPHANED (Yaakov Selkowitz)
 meld                                         ORPHANED (Yaakov Selkowitz)
 menu-cache                                   ORPHANED (Yaakov Selkowitz)
 mercurial                                    Jari Aalto
-mesa                                         Jon Turney
-mesa-demos                                   Jon Turney
+mesa                                         @mesa
+mesa-demos                                   @mesa
 meson                                        Jon Turney
 metacity                                     ORPHANED (Yaakov Selkowitz)
 metis                                        Marco Atzeri
@@ -1923,7 +1927,7 @@ mingw64-i686-pango1.0                        ORPHANED (Yaakov Selkowitz)
 mingw64-i686-pangomm1.4                      ORPHANED (Yaakov Selkowitz)
 mingw64-i686-pcre                            Achim Gratz
 mingw64-i686-pcre2                           Achim Gratz
-mingw64-i686-pixman                          Jon Turney
+mingw64-i686-pixman                          @xorg
 mingw64-i686-poppler                         ORPHANED (Yaakov Selkowitz)
 mingw64-i686-popt                            ORPHANED (Yaakov Selkowitz)
 mingw64-i686-portablexdr                     ORPHANED (Yaakov Selkowitz)
@@ -2271,7 +2275,7 @@ mingw64-x86_64-pango1.0                      ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-pangomm1.4                    ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-pcre                          Achim Gratz
 mingw64-x86_64-pcre2                         Achim Gratz
-mingw64-x86_64-pixman                        Jon Turney
+mingw64-x86_64-pixman                        @xorg
 mingw64-x86_64-poppler                       ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-popt                          ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-portablexdr                   ORPHANED (Yaakov Selkowitz)
@@ -2363,8 +2367,8 @@ minisign                                     Chad Dougherty
 minizip                                      Ken Brown
 mintty                                       Thomas Wolff
 minuet                                       ORPHANED (Yaakov Selkowitz)
-mkcomposecache                               Jon Turney
-mkfontscale                                  Jon Turney
+mkcomposecache                               @xorg
+mkfontscale                                  @xorg
 mksh                                         ORPHANED (Chris Sutcliffe)
 mkvtoolnix                                   ORPHANED (David Stacey)
 mle                                          Adam Saponara
@@ -2485,7 +2489,7 @@ ocaml-result                                 ORPHANED (Yaakov Selkowitz)
 ocaml-topkg                                  ORPHANED (Yaakov Selkowitz)
 ocaml-xml-light                              ORPHANED (Yaakov Selkowitz)
 ocl-icd                                      ORPHANED (Yaakov Selkowitz)
-oclock                                       Jon Turney
+oclock                                       @xorg
 octave                                       Marco Atzeri
 octave-bim                                   Marco Atzeri
 octave-bsltl                                 Marco Atzeri
@@ -3025,7 +3029,7 @@ pidgin-skypeweb                              ORPHANED (Yaakov Selkowitz)
 pinentry                                     Marco Atzeri
 pinfo                                        Andrew Schulman
 pinpoint                                     ORPHANED (Yaakov Selkowitz)
-pixman                                       Jon Turney
+pixman                                       @xorg
 pkgconf                                      Achim Gratz
 pl                                           Corinna Vinschen
 planet                                       ORPHANED (Yaakov Selkowitz)
@@ -3384,8 +3388,8 @@ regina-rexx                                  Mark Hessling
 remmina                                      ORPHANED (Yaakov Selkowitz)
 renameutils                                  Jari Aalto
 renattach                                    Jari Aalto
-rendercheck                                  Jon Turney
-rgb                                          Jon Turney
+rendercheck                                  @xorg
+rgb                                          @xorg
 rhash                                        Marco Atzeri
 ristretto                                    ORPHANED (Yaakov Selkowitz)
 rlwrap                                       Corinna Vinschen
@@ -3399,7 +3403,7 @@ rpcsvc-proto                                 ORPHANED (Yaakov Selkowitz)
 rpm                                          ORPHANED (Pavel Fedin)
 rsh                                          Takashi Yano
 rsnapshot                                    Jari Aalto
-rstart                                       Jon Turney
+rstart                                       @xorg
 rsync                                        Chad Dougherty
 rtf2html-htdig                               Jari Aalto
 rtorrent                                     Marco Atzeri
@@ -3579,8 +3583,8 @@ sed                                          Eric Blake/Brian Inglis
 sendmail                                     Daniel Boland
 sendxmpp                                     Jari Aalto
 serf                                         ORPHANED (David Rothenberger)
-sessreg                                      Jon Turney
-setxkbmap                                    Jon Turney
+sessreg                                      @xorg
+setxkbmap                                    @xorg
 sg3_utils                                    ORPHANED (Yaakov Selkowitz)
 sgml-common                                  ORPHANED (Yaakov Selkowitz)
 sgrep                                        Jari Aalto
@@ -3588,7 +3592,7 @@ shapelib                                     ORPHANED (Yaakov Selkowitz)
 shared-mime-info                             Lemures Lemniscati
 sharutils                                    Eric Blake
 shed                                         Jari Aalto
-showfont                                     Jon Turney
+showfont                                     @xorg
 shutdown                                     Frank Fesevur
 sic                                          Jari Aalto
 sidplayfp                                    ORPHANED (Yaakov Selkowitz)
@@ -3608,7 +3612,7 @@ slv2                                         ORPHANED (Yaakov Selkowitz)
 smartmontools                                Christian Franke
 smpeg                                        ORPHANED (Yaakov Selkowitz)
 smpeg2                                       ORPHANED (Yaakov Selkowitz)
-smproxy                                      Jon Turney
+smproxy                                      @xorg
 snappy                                       ORPHANED (Yaakov Selkowitz)
 sng                                          Andrew Schulman
 snownews                                     ORPHANED (Yaakov Selkowitz)
@@ -3791,7 +3795,7 @@ tracker-miners                               ORPHANED (Yaakov Selkowitz)
 trader                                       John Zaitseff
 transmission                                 ORPHANED (Yaakov Selkowitz)
 transmission-remote-gtk                      ORPHANED (Yaakov Selkowitz)
-transset                                     Jon Turney
+transset                                     @xorg
 trayer                                       ORPHANED (Yaakov Selkowitz)
 tree                                         Jari Aalto
 tree-sitter                                  Ken Brown
@@ -3800,7 +3804,7 @@ ttf2pt1                                      ORPHANED (Yaakov Selkowitz)
 ttfautohint                                  ORPHANED (Yaakov Selkowitz)
 tty-clock                                    Daisuke Fujimura
 tumbler                                      ORPHANED (Yaakov Selkowitz)
-twm                                          Jon Turney
+twm                                          @xorg
 twolame                                      ORPHANED (Yaakov Selkowitz)
 txt2regex                                    Jari Aalto
 typespeed                                    ORPHANED
@@ -3849,7 +3853,7 @@ varnish                                      Jorge Diaz
 vcdimager                                    ORPHANED (Yaakov Selkowitz)
 verne-backgrounds                            ORPHANED (Yaakov Selkowitz)
 vfu                                          Jari Aalto
-viewres                                      Jon Turney
+viewres                                      @xorg
 vim                                          Marco Atzeri
 vinagre                                      ORPHANED (Yaakov Selkowitz)
 vino                                         ORPHANED (Yaakov Selkowitz)
@@ -3891,50 +3895,50 @@ wv                                           ORPHANED (Yaakov Selkowitz)
 wxWidgets2.8                                 ORPHANED (Yaakov Selkowitz)
 wxWidgets3.0                                 Hamish McIntyre-Bhatty
 wxWidgets3.1                                 Hamish McIntyre-Bhatty
-x11perf                                      Jon Turney
+x11perf                                      @xorg
 x11vnc                                       ORPHANED (Yaakov Selkowitz)
 xapian-bindings                              ORPHANED (Yaakov Selkowitz)
 xapian-core                                  ORPHANED (Yaakov Selkowitz)
 xapps                                        ORPHANED (Yaakov Selkowitz)
 xarchiver                                    ORPHANED (Yaakov Selkowitz)
-xauth                                        Jon Turney
-xbiff                                        Jon Turney
-xbitmaps                                     Jon Turney
+xauth                                        @xorg
+xbiff                                        @xorg
+xbitmaps                                     @xorg
 xboard                                       ORPHANED (Yaakov Selkowitz)
-xcalc                                        Jon Turney
-xcb-proto                                    Jon Turney
-xcb-util                                     Jon Turney
-xcb-util-cursor                              Jon Turney
-xcb-util-errors                              Jon Turney
-xcb-util-image                               Jon Turney
-xcb-util-keysyms                             Jon Turney
-xcb-util-renderutil                          Jon Turney
-xcb-util-wm                                  Jon Turney
+xcalc                                        @xorg
+xcb-proto                                    @xorg
+xcb-util                                     @xorg
+xcb-util-cursor                              @xorg
+xcb-util-errors                              @xorg
+xcb-util-image                               @xorg
+xcb-util-keysyms                             @xorg
+xcb-util-renderutil                          @xorg
+xcb-util-wm                                  @xorg
 xcftools                                     ORPHANED (Yaakov Selkowitz)
 xchm                                         ORPHANED (Yaakov Selkowitz)
 xclip                                        Jon Turney
-xclipboard                                   Jon Turney
-xclock                                       Jon Turney
-xcmsdb                                       Jon Turney
-xcompmgr                                     Jon Turney
-xconsole                                     Jon Turney
-xcursor-themes                               Jon Turney
-xcursorgen                                   Jon Turney
-xdbedizzy                                    Jon Turney
+xclipboard                                   @xorg
+xclock                                       @xorg
+xcmsdb                                       @xorg
+xcompmgr                                     @xorg
+xconsole                                     @xorg
+xcursor-themes                               @xorg
+xcursorgen                                   @xorg
+xdbedizzy                                    @xorg
 xdelta                                       Marco Atzeri
 xdelta3                                      Marco Atzeri
 xdg-user-dirs                                ORPHANED (Yaakov Selkowitz)
 xdg-user-dirs-gtk                            ORPHANED (Yaakov Selkowitz)
 xdg-utils                                    ORPHANED (Yaakov Selkowitz)
-xditview                                     Jon Turney
-xdpyinfo                                     Jon Turney
-xedit                                        Jon Turney
+xditview                                     @xorg
+xdpyinfo                                     @xorg
+xedit                                        @xorg
 xerces-c                                     ORPHANED (Yaakov Selkowitz)
-xev                                          Jon Turney
-xeyes                                        Jon Turney
-xf86-video-dummy                             Jon Turney
-xf86-video-nested                            Jon Turney
-xf86-video-qxl                               ORPHANED (Yaakov Selkowitz)
+xev                                          @xorg
+xeyes                                        @xorg
+xf86-video-dummy                             @xorg
+xf86-video-nested                            @xorg
+xf86-video-qxl                               @xorg
 xfce-themes                                  ORPHANED (Yaakov Selkowitz)
 xfce4-appfinder                              ORPHANED (Yaakov Selkowitz)
 xfce4-calculator-plugin                      ORPHANED (Yaakov Selkowitz)
@@ -3969,84 +3973,84 @@ xfce4-whiskermenu-plugin                     ORPHANED (Yaakov Selkowitz)
 xfce4-wmdock-plugin                          ORPHANED (Yaakov Selkowitz)
 xfce4-xkb-plugin                             ORPHANED (Yaakov Selkowitz)
 xfconf                                       ORPHANED (Yaakov Selkowitz)
-xfd                                          Jon Turney
+xfd                                          @xorg
 xfdesktop                                    ORPHANED (Yaakov Selkowitz)
 xfig                                         Achim Gratz
-xfontsel                                     Jon Turney
+xfontsel                                     @xorg
 xforms                                       Ken Brown
-xfs                                          Jon Turney
-xfsinfo                                      Jon Turney
+xfs                                          @xorg
+xfsinfo                                      @xorg
 xfwm4                                        ORPHANED (Yaakov Selkowitz)
 xfwm4-themes                                 ORPHANED (Yaakov Selkowitz)
-xgc                                          Jon Turney
+xgc                                          @xorg
 xgraph                                       Marco Atzeri
-xhost                                        Jon Turney
+xhost                                        @xorg
 xinetd                                       Corinna Vinschen
-xinit                                        Jon Turney
-xinput                                       Jon Turney
-xkbcomp                                      Jon Turney
-xkbevd                                       Jon Turney
-xkbprint                                     Jon Turney
-xkbutils                                     Jon Turney
-xkeyboard-config                             Jon Turney
-xkill                                        Jon Turney
+xinit                                        @xorg
+xinput                                       @xorg
+xkbcomp                                      @xorg
+xkbevd                                       @xorg
+xkbprint                                     @xorg
+xkbutils                                     @xorg
+xkeyboard-config                             @xorg
+xkill                                        @xorg
 xlaunch                                      Jon Turney
 xlhtml                                       Jari Aalto
-xload                                        Jon Turney
+xload                                        @xorg
 xloadimage                                   ORPHANED (David Stacey)
-xlogo                                        Jon Turney
-xlsatoms                                     Jon Turney
-xlsclients                                   Jon Turney
-xlsfonts                                     Jon Turney
+xlogo                                        @xorg
+xlsatoms                                     @xorg
+xlsclients                                   @xorg
+xlsfonts                                     @xorg
 xlsx2csv                                     Jari Aalto
-xmag                                         Jon Turney
-xman                                         Jon Turney
-xmessage                                     Jon Turney
-xmh                                          Jon Turney
+xmag                                         @xorg
+xman                                         @xorg
+xmessage                                     @xorg
+xmh                                          @xorg
 XmHTML                                       ORPHANED (Dr. Volker Zell)
 xmlsec1                                      ORPHANED (Yaakov Selkowitz)
 xmlstarlet                                   ORPHANED (David Stacey)
 xmlto                                        Ken Brown
 xmltoman                                     Ken Brown
-xmodmap                                      Jon Turney
+xmodmap                                      @xorg
 xmon                                         Jon Turney
-xmore                                        Jon Turney
+xmore                                        @xorg
 xmp                                          ORPHANED (Yaakov Selkowitz)
-xorg-cf-files                                Jon Turney
-xorg-docs                                    Jon Turney
-xorg-scripts                                 Jon Turney
-xorg-server                                  Jon Turney
+xorg-cf-files                                @xorg
+xorg-docs                                    @xorg
+xorg-scripts                                 @xorg
+xorg-server                                  @xorg
 xorg-server-cygwin-crashreporter             Jon Turney
-xorg-sgml-doctools                           Jon Turney
-xorg-util-macros                             Jon Turney
-xorg-x11-fonts                               Jon Turney
-xorgproto                                    Jon Turney
+xorg-sgml-doctools                           @xorg
+xorg-util-macros                             @xorg
+xorg-x11-fonts                               @xorg
+xorgproto                                    @xorg
 xpad                                         ORPHANED (Yaakov Selkowitz)
 xpdf                                         Ken Brown
 xplanet                                      ORPHANED (Yaakov Selkowitz)
 xplayer                                      ORPHANED (Yaakov Selkowitz)
 xplayer-plparser                             ORPHANED (Yaakov Selkowitz)
-xpr                                          Jon Turney
-xprop                                        Jon Turney
-xrandr                                       Jon Turney
-xrdb                                         Jon Turney
-xrefresh                                     Jon Turney
-xscope                                       Jon Turney
+xpr                                          @xorg
+xprop                                        @xorg
+xrandr                                       @xorg
+xrdb                                         @xorg
+xrefresh                                     @xorg
+xscope                                       @xorg
 xsd                                          ORPHANED (Yaakov Selkowitz)
-xsel                                         Jon Turney
-xset                                         Jon Turney
-xsetroot                                     Jon Turney
+xsel                                         @xorg
+xset                                         @xorg
+xsetroot                                     @xorg
 xsettingsd                                   ORPHANED (Yaakov Selkowitz)
-xsm                                          Jon Turney
-xstdcmap                                     Jon Turney
+xsm                                          @xorg
+xstdcmap                                     @xorg
 xtail                                        Jari Aalto
 xterm                                        Thomas Wolff
-xtrans                                       Jon Turney
+xtrans                                       @xorg
 xvidcore                                     Takashi Yano
-xwd                                          Jon Turney
+xwd                                          @xorg
 xwin-xdg-menu                                Jon Turney
-xwininfo                                     Jon Turney
-xwud                                         Jon Turney
+xwininfo                                     @xorg
+xwud                                         @xorg
 xxdiff                                       ORPHANED (Yaakov Selkowitz)
 xxhash                                       Marco Atzeri
 xz                                           Achim Gratz

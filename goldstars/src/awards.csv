@@ -112,6 +112,8 @@ DB,https://cygwin.com/ml/cygwin-apps/2015-04/msg00012.html,For adopting the <cod
 
 DD,https://cygwin.com/ml/cygwin-apps/2010-09/msg00046.html,For adopting the <code>ocaml</code> package.
 
+DF,https://cygwin.com/pipermail/cygwin-apps/2023-June/042977.html,For adopting ruby and its many associated packages.,3
+
 DK,https://cygwin.com/ml/cygwin-apps/2010-08/msg00012.html,"For recording zero-size tarballs as successfully installed in setup, thereby de-annoying CGF."
 DK,https://cygwin.com/ml/cygwin/2009-07/msg00453.html,For persistence to fix the Cygwin problems which turned up by working on the new gcc4 libstdc++ and libgfortran problems.
 DK,https://cygwin.com/ml/cygwin/2007-03/msg00908.html,For fixing a broken build of gcc 4.3.0.

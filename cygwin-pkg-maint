@@ -3449,7 +3449,7 @@ ruby-gettext                                 ORPHANED (Yaakov Selkowitz)
 ruby-gio2                                    ORPHANED (Yaakov Selkowitz)
 ruby-glib2                                   Daisuke Fujimura
 ruby-globalid                                ORPHANED (Yaakov Selkowitz)
-ruby-gobject-introspection                   ORPHANED (Yaakov Selkowitz)
+ruby-gobject-introspection                   Daisuke Fujimura
 ruby-goocanvas1                              ORPHANED (Yaakov Selkowitz)
 ruby-goocanvas2                              ORPHANED (Yaakov Selkowitz)
 ruby-gstreamer1.0                            ORPHANED (Yaakov Selkowitz)

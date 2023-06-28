@@ -3419,7 +3419,7 @@ ruby-activerecord                            ORPHANED (Yaakov Selkowitz)
 ruby-activerecord-deprecated_finders         ORPHANED (Yaakov Selkowitz)
 ruby-activesupport                           ORPHANED (Yaakov Selkowitz)
 ruby-arel                                    ORPHANED (Yaakov Selkowitz)
-ruby-atk                                     ORPHANED (Yaakov Selkowitz)
+ruby-atk                                     Daisuke Fujimura
 ruby-bcrypt                                  Daisuke Fujimura
 ruby-bindex                                  Daisuke Fujimura
 ruby-binding_of_caller                       ORPHANED (Yaakov Selkowitz)

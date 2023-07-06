@@ -3445,7 +3445,7 @@ ruby-erubi                                   ORPHANED (Yaakov Selkowitz)
 ruby-erubis                                  ORPHANED (Yaakov Selkowitz)
 ruby-execjs                                  ORPHANED (Yaakov Selkowitz)
 ruby-gdk3                                    ORPHANED (Yaakov Selkowitz)
-ruby-gdk_pixbuf2                             ORPHANED (Yaakov Selkowitz)
+ruby-gdk_pixbuf2                             Daisuke Fujimura
 ruby-gettext                                 ORPHANED (Yaakov Selkowitz)
 ruby-gio2                                    Daisuke Fujimura
 ruby-glib2                                   Daisuke Fujimura

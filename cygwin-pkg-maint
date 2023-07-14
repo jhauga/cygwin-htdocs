@@ -3454,7 +3454,7 @@ ruby-goocanvas1                              ORPHANED (Yaakov Selkowitz)
 ruby-goocanvas2                              ORPHANED (Yaakov Selkowitz)
 ruby-gstreamer1.0                            Daisuke Fujimura
 ruby-gtk2                                    Daisuke Fujimura
-ruby-gtk3                                    ORPHANED (Yaakov Selkowitz)
+ruby-gtk3                                    Daisuke Fujimura
 ruby-gtksourceview3                          ORPHANED (Yaakov Selkowitz)
 ruby-hike                                    ORPHANED (Yaakov Selkowitz)
 ruby-hitimes                                 Daisuke Fujimura

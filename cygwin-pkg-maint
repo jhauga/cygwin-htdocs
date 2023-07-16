@@ -3810,7 +3810,7 @@ txt2regex                                    Jari Aalto
 typespeed                                    ORPHANED
 tzcode                                       Brian Inglis
 tzdata                                       Brian Inglis
-uchardet                                     ORPHANED (Yaakov Selkowitz)
+uchardet                                     Achim Gratz
 ucl                                          Achim Gratz
 udunits                                      Marco Atzeri
 ufraw                                        ORPHANED (Yaakov Selkowitz)

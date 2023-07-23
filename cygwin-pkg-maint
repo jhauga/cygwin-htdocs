@@ -3450,7 +3450,7 @@ ruby-gio2                                    Daisuke Fujimura
 ruby-glib2                                   Daisuke Fujimura
 ruby-globalid                                ORPHANED (Yaakov Selkowitz)
 ruby-gobject-introspection                   Daisuke Fujimura
-ruby-goocanvas1                              ORPHANED (Yaakov Selkowitz)
+ruby-goocanvas1                              Daisuke Fujimura
 ruby-goocanvas2                              Daisuke Fujimura
 ruby-gstreamer1.0                            Daisuke Fujimura
 ruby-gtk2                                    Daisuke Fujimura

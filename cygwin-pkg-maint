@@ -2846,6 +2846,7 @@ perl-MIME-Base32                             Achim Gratz
 perl-MIME-Charset                            Achim Gratz/Ken Brown
 perl-MIME-tools                              Achim Gratz
 perl-MIME-Types                              Achim Gratz
+perl-Mixin-Linewise                          Achim Gratz
 perl-Mock-Config                             Achim Gratz
 perl-Module-Build                            Achim Gratz
 perl-Module-Build-Tiny                       Achim Gratz
@@ -2889,7 +2890,9 @@ perl-Path-Class                              Achim Gratz
 perl-Path-Tiny                               Achim Gratz
 perl-PerlIO-utf8_strict                      Achim Gratz/Ken Brown
 perl-Pod-Coverage                            Achim Gratz
+perl-Pod-Coverage-TrustPod                   Achim Gratz
 perl-Pod-Escapes                             Achim Gratz
+perl-Pod-Eventual                            Achim Gratz
 perl-Pod-Parser                              Achim Gratz
 perl-Pod-Simple                              Achim Gratz
 perl-POD2-Base                               Achim Gratz

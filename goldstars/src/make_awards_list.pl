@@ -92,6 +92,11 @@ foreach my $award (@awards) {
 		}
 	}
 
+	# Do a little markup conversion on the award descriptions:
+	#   `text` => <code>text</code>
+	$award->{Description} ||= '';
+	$award->{Description} =~ s:`([^`]*)`:<code>$1</code>:g;
+
 	# Get the award date, used for sorting awardees by latest award 
 	# and for sorting awards within each awardee. 
 	# The "date" is actually just a part of the award URL (yyyy-mm-nnnnn, where
@@ -162,7 +167,7 @@ foreach my $initials (sort { $awardees{$b}{latest_date} cmp $awardees{$a}{latest
 	foreach my $award (sort { $a->{date} cmp $b->{date} } @{$awardee{awards}}) {
 		$last_award = $award;
 		# Show the award description if any, with HTML tags stripped out, as the anchor title:
-		(my $title = $award->{Description} || '') =~ s/<[^>]*>//g;
+		(my $title = $award->{Description}) =~ s/<[^>]*>//g;
 		$title =~ s/"/&quot;/g;
 		my $text = "<a"
 			. ($award->{URL} ? " href=\"$award->{URL}\"" : "")

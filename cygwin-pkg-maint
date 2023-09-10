@@ -1420,7 +1420,7 @@ librsb                                       Marco Atzeri
 librsvg2                                     ORPHANED (Yaakov Selkowitz)
 librsync                                     David Rothenberger
 librvngabw0.0                                ORPHANED (Yaakov Selkowitz)
-libsamplerate                                ORPHANED (Yaakov Selkowitz)
+libsamplerate                                Takashi Yano
 libsecret1                                   ORPHANED (Yaakov Selkowitz)
 libshout                                     ORPHANED (Yaakov Selkowitz)
 libsidplayfp                                 ORPHANED (Yaakov Selkowitz)
@@ -3629,7 +3629,7 @@ soundfont-fluid                              ORPHANED (Yaakov Selkowitz)
 soundtouch                                   ORPHANED (Yaakov Selkowitz)
 source-highlight                             ORPHANED (Yaakov Selkowitz)
 sox                                          ORPHANED (Yaakov Selkowitz)
-soxr                                         ORPHANED (Yaakov Selkowitz)
+soxr                                         Takashi Yano
 spambayes                                    ORPHANED (Jari Aalto)
 spamoracle                                   Jari Aalto
 spectacle                                    ORPHANED (Yaakov Selkowitz)
@@ -3874,7 +3874,7 @@ vttest                                       Brian Inglis
 w32api-headers                               Jonathan Yong
 w32api-runtime                               Jonathan Yong
 w3m                                          ORPHANED (Bob Heckel)
-wavpack                                      ORPHANED
+wavpack                                      Takashi Yano
 wcd                                          Erwin Waterlander
 wcslib                                       ORPHANED (Yaakov Selkowitz)
 wdiff                                        Jari Aalto

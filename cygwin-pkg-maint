@@ -2491,7 +2491,7 @@ ocaml-result                                 ORPHANED (Yaakov Selkowitz)
 ocaml-stdlib-shims                           ORPHANED (Anon)
 ocaml-topkg                                  ORPHANED (Yaakov Selkowitz)
 ocaml-xml-light                              ORPHANED (Yaakov Selkowitz)
-ocl-icd                                      ORPHANED (Yaakov Selkowitz)
+ocl-icd                                      Takashi Yano
 oclock                                       @xorg
 octave                                       Marco Atzeri
 octave-bim                                   Marco Atzeri
@@ -2573,7 +2573,7 @@ okular                                       ORPHANED (Yaakov Selkowitz)
 onig                                         Marco Atzeri
 oodiff                                       Jari Aalto
 opam                                         Andy Li
-openal                                       ORPHANED (Yaakov Selkowitz)
+openal                                       Takashi Yano
 openbabel                                    Lemures Lemniscati
 openblas                                     Marco Atzeri
 openbox                                      ORPHANED (Yaakov Selkowitz)
@@ -3063,7 +3063,7 @@ polipo                                       Alexander Georgievskiy
 poppler                                      Ken Brown
 poppler-data                                 Ken Brown
 popt                                         Marco Atzeri
-portaudio                                    ORPHANED (Yaakov Selkowitz)
+portaudio                                    Takashi Yano
 portmidi                                     ORPHANED (Yaakov Selkowitz)
 posh                                         Jari Aalto
 postfix                                      Jason Pyeron

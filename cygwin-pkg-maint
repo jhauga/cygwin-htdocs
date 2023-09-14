@@ -186,7 +186,7 @@ caja-extensions                              ORPHANED (Yaakov Selkowitz)
 caja-follow-symlink                          ORPHANED (Yaakov Selkowitz)
 caja-python                                  ORPHANED (Yaakov Selkowitz)
 caladea-fonts                                ORPHANED (Yaakov Selkowitz)
-calf                                         ORPHANED (Yaakov Selkowitz)
+calf                                         Takashi Yano
 calligra                                     ORPHANED (Yaakov Selkowitz)
 calligraplan                                 ORPHANED (Yaakov Selkowitz)
 calm                                         Jon Turney
@@ -1176,12 +1176,12 @@ kwordquiz                                    ORPHANED (Yaakov Selkowitz)
 kwrited                                      ORPHANED (Yaakov Selkowitz)
 ladspa-blop                                  ORPHANED (Yaakov Selkowitz)
 ladspa-bs2b                                  ORPHANED (Yaakov Selkowitz)
-ladspa-caps                                  ORPHANED (Yaakov Selkowitz)
-ladspa-cmt                                   ORPHANED (Yaakov Selkowitz)
+ladspa-caps                                  Takashi Yano
+ladspa-cmt                                   Takashi Yano
 ladspa-njl-plugins                           ORPHANED (Yaakov Selkowitz)
 ladspa-pvoc                                  ORPHANED (Yaakov Selkowitz)
-ladspa-sdk                                   ORPHANED (Yaakov Selkowitz)
-ladspa-swh-plugins                           ORPHANED (Yaakov Selkowitz)
+ladspa-sdk                                   Takashi Yano
+ladspa-swh-plugins                           Takashi Yano
 ladspa-vcf                                   ORPHANED (Yaakov Selkowitz)
 lame                                         ORPHANED (Yaakov Selkowitz)
 lapack                                       Marco Atzeri
@@ -3810,7 +3810,7 @@ ttfautohint                                  ORPHANED (Yaakov Selkowitz)
 tty-clock                                    Daisuke Fujimura
 tumbler                                      ORPHANED (Yaakov Selkowitz)
 twm                                          @xorg
-twolame                                      ORPHANED (Yaakov Selkowitz)
+twolame                                      Takashi Yano
 txt2regex                                    Jari Aalto
 typespeed                                    ORPHANED
 tzcode                                       Brian Inglis

@@ -3099,8 +3099,6 @@ python-automat                               Marco Atzeri
 python-babel                                 Marco Atzeri
 python-backcall                              Marco Atzeri
 python-backports.entry_points_selectable     Marco Atzeri
-python-backports.shutil_get_terminal_size    ORPHANED (Yaakov Selkowitz)
-python-backports.ssl_match_hostname          ORPHANED (Yaakov Selkowitz)
 python-bcrypt                                Libor Ukropec/Marco Atzeri
 python-beautifulsoup                         ORPHANED (Yaakov Selkowitz)
 python-boto                                  ORPHANED (Yaakov Selkowitz)
@@ -3130,15 +3128,12 @@ python-distlib                               Marco Atzeri
 python-docutils                              Tony Kelman/Marco Atzeri
 python-dropbox                               Marco Atzeri
 python-enchant                               Marco Atzeri
-python-enum34                                ORPHANED (Yaakov Selkowitz)
 python-exceptiongroup                        Marco Atzeri
 python-fasteners                             Libor Ukropec
-python-faulthandler                          ORPHANED (Yaakov Selkowitz)
 python-feedparser                            ORPHANED (Yaakov Selkowitz)
 python-filelock                              Marco Atzeri
 python-fonttools                             Marco Atzeri
 python-future                                Libor Ukropec
-python-futures                               ORPHANED (Yaakov Selkowitz)
 python-gdata                                 ORPHANED (Chris Sutcliffe)
 python-gi                                    Marco Atzeri
 python-gobject                               ORPHANED (Yaakov Selkowitz)
@@ -3156,8 +3151,6 @@ python-imaging                               Hamish McIntyre-Bhatty
 python-importlib-metadata                    Marco Atzeri
 python-incremental                           Marco Atzeri
 python-iniconfig                             Marco Atzeri
-python-ipaddr                                ORPHANED (Yaakov Selkowitz)
-python-ipaddress                             ORPHANED (Yaakov Selkowitz)
 python-ipython                               Marco Atzeri
 python-ipython_genutils                      Marco Atzeri
 python-isodate                               Marco Atzeri
@@ -3245,7 +3238,6 @@ python-reportlab                             Marco Atzeri
 python-requests                              Marco Atzeri
 python-requests_ntlm                         ORPHANED (Yaakov Selkowitz)
 python-rsa                                   ORPHANED (Yaakov Selkowitz)
-python-scandir                               ORPHANED (Yaakov Selkowitz)
 python-service_identity                      Marco Atzeri
 python-setuptools                            Marco Atzeri
 python-sh                                    Marco Atzeri
@@ -3276,7 +3268,6 @@ python-tomli                                 Marco Atzeri
 python-tox                                   Marco Atzeri
 python-traitlets                             Marco Atzeri
 python-twisted                               Marco Atzeri
-python-typing                                ORPHANED (Yaakov Selkowitz)
 python-typing_extension                      Marco Atzeri
 python-unidecode                             Marco Atzeri
 python-urllib3                               Marco Atzeri

@@ -4019,7 +4019,6 @@ xorg-cf-files                                @xorg
 xorg-docs                                    @xorg
 xorg-scripts                                 @xorg
 xorg-server                                  @xorg
-xorg-server-cygwin-crashreporter             Jon Turney
 xorg-sgml-doctools                           @xorg
 xorg-util-macros                             @xorg
 xorg-x11-fonts                               @xorg

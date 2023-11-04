@@ -2677,6 +2677,7 @@ perl-Class-Accessor                          Achim Gratz
 perl-Class-Data-Inheritable                  Achim Gratz
 perl-Class-Factory-Util                      Achim Gratz/Ken Brown
 perl-Class-Inspector                         Achim Gratz
+perl-Class-Method-Modifiers                  Achim Gratz
 perl-Class-Singleton                         Achim Gratz
 perl-Class-Tiny                              Achim Gratz
 perl-Class-XSAccessor                        Achim Gratz
@@ -2862,6 +2863,7 @@ perl-Module-Runtime                          Achim Gratz
 perl-Module-ScanDeps                         Achim Gratz
 perl-Module-Signature                        Achim Gratz
 perl-Mojolicious                             Achim Gratz
+perl-Moo                                     Achim Gratz
 perl-Mozilla-CA                              Achim Gratz/Ken Brown
 perl-MRO-Compat                              Achim Gratz
 perl-namespace-autoclean                     Achim Gratz
@@ -2987,6 +2989,7 @@ perl-Tk-FontDialog                           Achim Gratz
 perl-Tk-Getopt                               Achim Gratz
 perl-Tk-Pod                                  Achim Gratz
 perl-Try-Tiny                                Achim Gratz
+perl-Type-Tiny                               Achim Gratz
 perl-Types-Serialiser                        Achim Gratz
 perl-Unicode-Collate                         Achim Gratz/Ken Brown
 perl-Unicode-LineBreak                       Achim Gratz/Ken Brown

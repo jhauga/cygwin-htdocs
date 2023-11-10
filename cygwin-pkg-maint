@@ -3240,6 +3240,7 @@ python-recommonmark                          Marco Atzeri
 python-reportlab                             Marco Atzeri
 python-requests                              Marco Atzeri
 python-requests_ntlm                         ORPHANED (Yaakov Selkowitz)
+python-rfc6555                               Adam Dinwoodie
 python-rsa                                   ORPHANED (Yaakov Selkowitz)
 python-service_identity                      Marco Atzeri
 python-setuptools                            Marco Atzeri

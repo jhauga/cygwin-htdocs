@@ -213,6 +213,7 @@ cervisia                                     ORPHANED (Yaakov Selkowitz)
 cfitsio                                      Achim Gratz
 cfourcc                                      Jari Aalto
 cgdb                                         Jari Aalto
+cgif                                         Daisuke Fujimura
 cgit                                         ORPHANED (Yaakov Selkowitz)
 check                                        Achim Gratz
 checkbashisms                                Jari Aalto
@@ -1272,6 +1273,7 @@ libevent                                     Brian Inglis
 libexif                                      Lemures Lemniscati
 libf2c                                       ORPHANED (Yaakov Selkowitz)
 libfakesu                                    Daniel Boland
+libfastjson                                  Daisuke Fujimura
 libffi                                       ORPHANED (Yaakov Selkowitz)
 libfido2                                     Corinna Vinschen
 libfilezilla                                 ORPHANED (Yaakov Selkowitz)
@@ -3597,6 +3599,7 @@ shutdown                                     Frank Fesevur
 sic                                          Jari Aalto
 sidplayfp                                    ORPHANED (Yaakov Selkowitz)
 signify                                      Jari Aalto
+simdjson                                     Daisuke Fujimura
 simsu                                        ORPHANED (Yaakov Selkowitz)
 since                                        Jari Aalto
 singular                                     Marco Atzeri

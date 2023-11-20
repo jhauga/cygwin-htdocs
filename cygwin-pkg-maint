@@ -520,6 +520,7 @@ getent                                       Corinna Vinschen
 gettext                                      Brian Inglis
 gexiv2                                       ORPHANED (Yaakov Selkowitz)
 gfbgraph0.2                                  ORPHANED (Yaakov Selkowitz)
+gflags                                       Daisuke Fujimura
 ghex                                         ORPHANED (Yaakov Selkowitz)
 ghostscript                                  Ken Brown
 ghostscript-fonts-other                      Ken Brown

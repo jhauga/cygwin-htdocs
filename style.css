@@ -334,7 +334,7 @@ table.pkglist {
 }
 
 .pkglist a {
-    background: url('https://sourceware.org/icons/ball.gray.gif')
+    background: url('/icons/ball.gray.gif')
                 no-repeat;
     background-size: 10px 10px;
     background-position: left center;

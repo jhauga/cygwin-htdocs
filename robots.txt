@@ -32,6 +32,7 @@ Disallow: /viewcvs/
 Disallow: /viewvc/
 Disallow: /git/
 Disallow: /git-cygwin-packages/
+Disallow: /cgit/
 Disallow: setup-x86.exe
 Disallow: setup-x86_64.exe
 Disallow: mirrors.lst

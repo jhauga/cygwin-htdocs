@@ -3106,7 +3106,6 @@ python-babel                                 Marco Atzeri
 python-backcall                              Marco Atzeri
 python-backports.entry_points_selectable     Marco Atzeri
 python-bcrypt                                Libor Ukropec/Marco Atzeri
-python-beautifulsoup                         ORPHANED (Yaakov Selkowitz)
 python-boto                                  ORPHANED (Yaakov Selkowitz)
 python-bs4                                   Marco Atzeri
 python-bsddb3                                Marco Atzeri
@@ -3115,9 +3114,7 @@ python-cairo                                 Marco Atzeri
 python-certifi                               Marco Atzeri
 python-cffi                                  Marco Atzeri
 python-chardet                               Marco Atzeri
-python-chm                                   ORPHANED (Yaakov Selkowitz)
 python-clang                                 ORPHANED (Yaakov Selkowitz)
-python-cloudfiles                            ORPHANED (Yaakov Selkowitz)
 python-commonmark                            Marco Atzeri
 python-configobj                             Marco Atzeri
 python-constantly                            Marco Atzeri
@@ -3129,25 +3126,20 @@ python-dateutil                              Marco Atzeri
 python-dbus                                  Marco Atzeri
 python-decorator                             Marco Atzeri
 python-defusedxml                            Marco Atzeri
-python-discid                                ORPHANED (Dr. Volker Zell)
 python-distlib                               Marco Atzeri
 python-docutils                              Tony Kelman/Marco Atzeri
 python-dropbox                               Marco Atzeri
 python-enchant                               Marco Atzeri
 python-exceptiongroup                        Marco Atzeri
 python-fasteners                             Libor Ukropec
-python-feedparser                            ORPHANED (Yaakov Selkowitz)
 python-filelock                              Marco Atzeri
 python-fonttools                             Marco Atzeri
 python-future                                Libor Ukropec
-python-gdata                                 ORPHANED (Chris Sutcliffe)
 python-gi                                    Marco Atzeri
 python-gobject                               ORPHANED (Yaakov Selkowitz)
-python-goocanvas                             ORPHANED (Yaakov Selkowitz)
 python-gtk2.0                                ORPHANED (Yaakov Selkowitz)
 python-h5py                                  Chris LeBlanc/Marco Atzeri
 python-html5lib                              Marco Atzeri
-python-htmltmpl                              ORPHANED (Yaakov Selkowitz)
 python-httplib2                              Marco Atzeri
 python-hyperlink                             Marco Atzeri
 python-hypothesis                            Marco Atzeri
@@ -3170,8 +3162,6 @@ python-kiwisolver                            Marco Atzeri
 python-lazy-object-proxy                     Marco Atzeri
 python-libvirt                               ORPHANED (Yaakov Selkowitz)
 python-lockfile                              Marco Atzeri
-python-logilab-astng                         ORPHANED (Jari Aalto)
-python-logilab-common                        ORPHANED (Jari Aalto)
 python-lxml                                  Marco Atzeri
 python-mako                                  Marco Atzeri
 python-markdown                              Marco Atzeri
@@ -3181,7 +3171,6 @@ python-mccabe                                Marco Atzeri
 python-mock                                  Marco Atzeri
 python-musicbrainzngs                        Marco Atzeri
 python-mutagen                               Marco Atzeri
-python-mx                                    ORPHANED (Yaakov Selkowitz)
 python-nacl                                  Libor Ukropec
 python-nbformat                              Marco Atzeri
 python-nose                                  Marco Atzeri
@@ -3219,7 +3208,6 @@ python-pygments                              Marco Atzeri
 python-pykde4                                ORPHANED (Yaakov Selkowitz)
 python-pylast                                ORPHANED (Yaakov Selkowitz)
 python-pylint                                Marco Atzeri
-python-pynotify                              ORPHANED (Yaakov Selkowitz)
 python-pyparsing                             Marco Atzeri
 python-pypdf                                 Marco Atzeri
 python-pypsrp                                ORPHANED (Yaakov Selkowitz)
@@ -3229,7 +3217,6 @@ python-pyqt5-qt3d                            Marco Atzeri
 python-pyqt5-qtchart                         Marco Atzeri
 python-pyqt5-qtdatavisualization             Marco Atzeri
 python-pyqt-builder                          Marco Atzeri
-python-pyrex                                 ORPHANED (Yaakov Selkowitz)
 python-pyroma                                Marco Atzeri
 python-pytest                                Marco Atzeri
 python-pytest-benchmark                      Marco Atzeri

@@ -31,7 +31,7 @@ alef-fonts                                   ORPHANED (Yaakov Selkowitz)
 alexandria                                   ORPHANED (Yaakov Selkowitz)
 algol68g                                     Thomas Wolff
 alkimia5                                     ORPHANED (Yaakov Selkowitz)
-alternatives                                 ORPHANED (Charles Wilson)
+alternatives                                 Marco Atzeri
 alure                                        Bastian Germann
 amd                                          Marco Atzeri
 AMF                                          Takashi Yano
@@ -173,7 +173,7 @@ buildbot-worker                              ORPHANED (Jon Turney)
 busybox                                      Christian Franke
 bvi                                          Jari Aalto
 byacc                                        ORPHANED (Yaakov Selkowitz)
-bzip2                                        ORPHANED (Yaakov Selkowitz)
+bzip2                                        Marco Atzeri
 bzip3                                        Daisuke Fujimura
 c-ares                                       ORPHANED (Yaakov Selkowitz)
 ca-certificates                              Achim Gratz
@@ -496,7 +496,7 @@ gcr                                          ORPHANED (Yaakov Selkowitz)
 gd                                           Ken Brown
 gdal                                         Marco Atzeri
 gdb                                          Jon Turney
-gdbm                                         ORPHANED (Yaakov Selkowitz)
+gdbm                                         Marco Atzeri
 gdk-pixbuf2.0                                ORPHANED (Yaakov Selkowitz)
 gdl3                                         ORPHANED (Yaakov Selkowitz)
 geany                                        ORPHANED (Yaakov Selkowitz)
@@ -1275,7 +1275,7 @@ libexif                                      Lemures Lemniscati
 libf2c                                       ORPHANED (Yaakov Selkowitz)
 libfakesu                                    Daniel Boland
 libfastjson                                  Daisuke Fujimura
-libffi                                       ORPHANED (Yaakov Selkowitz)
+libffi                                       Marco Atzeri
 libfido2                                     Corinna Vinschen
 libfilezilla                                 ORPHANED (Yaakov Selkowitz)
 libfm                                        ORPHANED (Yaakov Selkowitz)

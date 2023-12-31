@@ -2465,7 +2465,7 @@ obby                                         ORPHANED (Yaakov Selkowitz)
 obconf                                       ORPHANED (Yaakov Selkowitz)
 obconf-qt                                    ORPHANED (Yaakov Selkowitz)
 ocaml                                        William Hu
-ocaml-bigarray-compat                        ORPHANED (Anon)
+ocaml-bigarray-compat                        ORPHANED
 ocaml-cairo2                                 ORPHANED (Yaakov Selkowitz)
 ocaml-calendar                               ORPHANED (Yaakov Selkowitz)
 ocaml-camlp4                                 ORPHANED (Yaakov Selkowitz)
@@ -2492,7 +2492,7 @@ ocaml-num                                    ORPHANED (Yaakov Selkowitz)
 ocaml-ocamlbuild                             ORPHANED (Yaakov Selkowitz)
 ocaml-ounit                                  ORPHANED (Yaakov Selkowitz)
 ocaml-result                                 ORPHANED (Yaakov Selkowitz)
-ocaml-stdlib-shims                           ORPHANED (Anon)
+ocaml-stdlib-shims                           ORPHANED
 ocaml-topkg                                  ORPHANED (Yaakov Selkowitz)
 ocaml-xml-light                              ORPHANED (Yaakov Selkowitz)
 ocl-icd                                      Takashi Yano

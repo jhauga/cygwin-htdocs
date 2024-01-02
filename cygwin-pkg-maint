@@ -484,10 +484,6 @@ garcon                                       ORPHANED (Yaakov Selkowitz)
 gawk                                         Corinna Vinschen
 gcab                                         Jon Turney
 gcc                                          Achim Gratz/Jonathan Yong
-gcc-tools-epoch1-autoconf                    ORPHANED (Charles Wilson)
-gcc-tools-epoch1-automake                    ORPHANED (Charles Wilson)
-gcc-tools-epoch2-autoconf                    ORPHANED (Charles Wilson)
-gcc-tools-epoch2-automake                    ORPHANED (Charles Wilson)
 gccmakedep                                   ORPHANED (Yaakov Selkowitz)
 GConf2                                       ORPHANED (Yaakov Selkowitz)
 gconfmm2.6                                   ORPHANED (Yaakov Selkowitz)

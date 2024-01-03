@@ -86,7 +86,7 @@ astyle                                       ORPHANED (Chris Sutcliffe)
 asymptote                                    Ken Brown
 at-spi2-atk                                  ORPHANED (Yaakov Selkowitz)
 at-spi2-core                                 ORPHANED (Yaakov Selkowitz)
-atk1.0                                       ORPHANED (Yaakov Selkowitz)
+atk1.0                                       Takashi Yano
 atkmm1.6                                     ORPHANED (Yaakov Selkowitz)
 AtomicParsley                                ORPHANED (David Stacey)
 atomix                                       ORPHANED (Yaakov Selkowitz)
@@ -470,7 +470,7 @@ freerdp1.2                                   ORPHANED (Yaakov Selkowitz)
 freetds                                      ORPHANED (Yaakov Selkowitz)
 freetype2                                    Ken Brown
 freexl                                       Daisuke Fujimura
-fribidi                                      ORPHANED (Yaakov Selkowitz)
+fribidi                                      Takashi Yano
 frogr                                        ORPHANED (Yaakov Selkowitz)
 fslsfonts                                    @xorg
 fstobdf                                      @xorg
@@ -697,7 +697,7 @@ gtk2.0                                       ORPHANED (Yaakov Selkowitz)
 gtk2.0-engines                               ORPHANED (Yaakov Selkowitz)
 gtk2.0-engines-murrine                       ORPHANED (Yaakov Selkowitz)
 gtk2.0-engines-smooth                        ORPHANED (Yaakov Selkowitz)
-gtk3                                         ORPHANED (Yaakov Selkowitz)
+gtk3                                         Takashi Yano
 gtkglarea2.0                                 ORPHANED (Yaakov Selkowitz)
 gtkglext1.0                                  ORPHANED (Yaakov Selkowitz)
 gtkimageview                                 ORPHANED (Yaakov Selkowitz)
@@ -1236,7 +1236,7 @@ libcuefile                                   ORPHANED (Yaakov Selkowitz)
 libcxx                                       ORPHANED (Yaakov Selkowitz)
 libcxxabi                                    ORPHANED (Yaakov Selkowitz)
 libdaemon                                    ORPHANED (Yaakov Selkowitz)
-libdatrie                                    ORPHANED (Yaakov Selkowitz)
+libdatrie                                    Takashi Yano
 libde265                                     Marco Atzeri
 libdbi                                       ORPHANED (Yaakov Selkowitz)
 libdbi-drivers                               ORPHANED (Yaakov Selkowitz)
@@ -1414,7 +1414,7 @@ librest0.7                                   ORPHANED (Yaakov Selkowitz)
 libretls                                     Corinna Vinschen
 librevenge0.0                                ORPHANED (Yaakov Selkowitz)
 librsb                                       Marco Atzeri
-librsvg2                                     ORPHANED (Yaakov Selkowitz)
+librsvg2                                     Marco Atzeri
 librsync                                     David Rothenberger
 librvngabw0.0                                ORPHANED (Yaakov Selkowitz)
 libsamplerate                                Takashi Yano
@@ -1439,7 +1439,7 @@ libssh2                                      Brian Inglis
 libstaroffice0.0                             ORPHANED (Yaakov Selkowitz)
 libstatgrab                                  ORPHANED (Yaakov Selkowitz)
 libtasn1                                     ORPHANED (Yaakov Selkowitz)
-libthai                                      ORPHANED (Yaakov Selkowitz)
+libthai                                      Takashi Yano
 libtheora                                    David Rothenberger
 libtiger                                     ORPHANED (Yaakov Selkowitz)
 libtimidity                                  Takashi Yano
@@ -2613,7 +2613,7 @@ pal                                          ORPHANED (Jari Aalto)
 palapeli                                     ORPHANED (Yaakov Selkowitz)
 paman                                        ORPHANED (Yaakov Selkowitz)
 pamixer                                      ORPHANED (Yaakov Selkowitz)
-pango1.0                                     ORPHANED (Yaakov Selkowitz)
+pango1.0                                     Takashi Yano
 pangomm1.4                                   ORPHANED (Yaakov Selkowitz)
 pangox-compat                                ORPHANED (Yaakov Selkowitz)
 paprefs                                      ORPHANED (Yaakov Selkowitz)

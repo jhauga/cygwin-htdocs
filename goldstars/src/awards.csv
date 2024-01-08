@@ -292,6 +292,7 @@ LL,https://cygwin.com/ml/cygwin-apps/2006-01/msg00216.html,For reworking the set
 
 Lem,https://cygwin.com/pipermail/cygwin-apps/2021-April/041146.html,For updating the URLs in cygport to https.
 
+MA,2024-01-03,For (silently) adopting the `librsvg2` package.
 MA,https://cygwin.com/pipermail/cygwin-apps/2023-December/043337.html,"For adopting the `alternatives`, `bzip2`, `gdbm`, and `libffi` packages.",4
 MA,https://cygwin.com/pipermail/cygwin-apps/2023-May/042910.html,For strange and subtle manipulations.,,1
 MA,2019-12-26,For adopting the `aspell` package.

@@ -128,6 +128,19 @@ libboffo0_CONTENTS="
   </li>
 
   <li>
+    <p>
+      When removing a package name from
+      <a href="https://cygwin.github.io/cygport/pkg_pkg_cygpart.html#PKG_NAMES"><code>PKG_NAMES</code></a>
+      you should consider what you want to happen in Cygwin installations where
+      that package is already present.  Just remaining installed indefinitely is
+      not usually what's wanted, so a superseding or replacement package in the
+      same or a different cygport should
+      <a href="https://cygwin.github.io/cygport/pkg_pkg_cygpart.html#OBSOLETES"><code>OBSOLETES</code></a>
+      it.  Versioned shared libraries are an obvious exception to this rule.
+    </p>
+  </li>
+
+  <li>
     Use <a href="https://cygwin.github.io/cygport/src_install_cygpart.html#make_etc_defaults"><code>make_etc_defaults</code></a>
     on files installed into <code>/etc</code> which are expected to be
     customized locally, so those customizations aren't lost when the package is

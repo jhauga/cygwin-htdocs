@@ -373,6 +373,7 @@ TK,https://cygwin.com/ml/cygwin-apps/2014-08/msg00011.html,For adopting the `p7z
 TW,https://cygwin.com/ml/cygwin/2018-02/msg00053.html,For maintaining the workhorse `mintty` package.,,1
 TW,https://cygwin.com/ml/cygwin/2015-07/msg00110.html,For adopting the `mintty` package.
 
+TY,https://cygwin.com/pipermail/cygwin-apps/2024-January/043348.html,For adopting the `pocl` package.
 TY,https://cygwin.com/pipermail/cygwin-apps/2023-September/043150.html,"For adopting the `libsamplerate`, `soxr`, and `wavpack` packages.",3
 TY,https://cygwin.com/pipermail/cygwin-apps/2023-January/042535.html,"For adopting the `libsndfile`, `mpg123`, `opus`, `opus-tools`, `opusfile`, and `SDL2` packages.",6
 TY,https://cygwin.com/pipermail/cygwin/2021-November/249855.html,For overhauling the Cygwin pipe code to make XEmacs unusable.

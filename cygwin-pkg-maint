@@ -3227,6 +3227,7 @@ python-sortedcontainers                      Marco Atzeri
 python-snowballstemmer                       Marco Atzeri
 python-soupsieve                             Marco Atzeri
 python-sphinx                                Tony Kelman/Marco Atzeri
+python-sphinx-copybutton                     William Hu
 python-sphinx-notfound-page                  Marco Atzeri
 python-sphinxcontrib-applehelp               Marco Atzeri
 python-sphinxcontrib-devhelp                 Marco Atzeri

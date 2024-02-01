@@ -7,16 +7,29 @@ listed below, separated by blank characters. Many options can be turned off
 by prefixing with <code class="literal">no</code>.</p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: bullet; "><li class="listitem" style="list-style-type: disc"><p><code class="envar">(no)export</code> - If set, the final values of these
 settings are re-exported to the environment as <code class="envar">CYGWIN</code> again.
 Defaults to off.</p></li><li class="listitem" style="list-style-type: disc"><p>
-<code class="envar">error_start:Win32filepath</code> - if set, runs 
-<code class="filename">Win32filepath</code> when cygwin encounters a fatal error,
-which is useful for debugging.  <code class="filename">Win32filepath</code> is
-usually set to the path to <span class="command"><strong>gdb</strong></span> or
-<span class="command"><strong>dumper</strong></span>, for example
-<code class="filename">C:\cygwin\bin\gdb.exe</code>.
-There is no default set.
+<code class="envar">error_start:Win32filepath</code> - if set, runs
+<code class="filename">Win32filepath</code> when cygwin encounters a fatal error, which
+can be useful for debugging. Defaults to not set.
+</p><p>
+<code class="filename">Win32filepath</code> is typically set to <span class="command"><strong>gdb</strong></span> or
+<span class="command"><strong>dumper</strong></span>.  If giving a path in
+<code class="filename">Win32filepath</code>, note that it is a Windows-style path and not
+a Cygwin path.
 </p><p>
 The filename of the executing program and it's Windows process id are appended
 to the command as arguments.
+</p><p>
+  Note: This takes priority over writing core dump or .stackdump files, if
+  enabled by <code class="function">setrlimit(RLIMIT_CORE)</code> (e.g. via
+  <span class="command"><strong>ulimit -c</strong></span>).
+</p><p>
+  Note: This has no effect if a debugger is already attached when the fatal
+  error occurs.
+</p><p>
+  Note: The command invoked must either (i) attach to the errored process with
+  <code class="function">DebugActiveProcess()</code>, or (ii) forcibly terminate the
+  errored process (with <code class="function">TerminateProcess()</code> or similar), as
+  otherwise the errored process will wait forever for a debugger to attach.
 </p></li><li class="listitem" style="list-style-type: disc"><p><code class="envar">(no)glob[:ignorecase]</code> - if set, command line arguments
 containing UNIX-style file wildcard characters (brackets, braces, question mark,
 asterisk, escaped with \) are expanded into lists of files that match 

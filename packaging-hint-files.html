@@ -60,25 +60,17 @@ disable-check: <i>check-name [check-name...]</i>
     <p>
       <code>sdesc</code> is a one line description of the package, enclosed in
       double-quotes.  This is the information that will be displayed when
-      installing packages via setup.
+      installing packages via setup, e.g.
     </p>
+
+<pre>
+sdesc: "A whackamole simulation in ASCII art"
+</pre>
 
     <p>
       Please note that the package name should <em>not</em> be part of the
-      description, e.g. this is incorrect:
+      description
     </p>
-
-<pre>
-sdesc:      "boffo: A whackamole simulation in ASCII art"
-</pre>
-
-    <p>
-      This is correct:
-    </p>
-
-<pre>
-sdesc:      "A whackamole simulation in ASCII art"
-</pre>
 
     <p>
       <code>sdesc</code> is a mandatory line.
@@ -92,12 +84,24 @@ sdesc:      "A whackamole simulation in ASCII art"
     </p>
 
 <pre>
-ldesc:    "A whackamole simulation in ASCII art.
+ldesc: "A whackamole simulation in ASCII art.
+
 Intended for use on VT100 terminals at BAUD rates 1200 and
 above.  Uses arrow keys for positioning over moles.  Space
 bar whacks the mole.
+
 No actual moles will be harmed during execution of this game."
 </pre>
+
+    <p>
+      A very minimal subset of MarkDown-style markup can be used:
+    </p>
+    <ul class="compact">
+      <li>A blank line separates paragraphs</li>
+      <li>A line ending with two (or more) spaces is followed by a line break</li>
+      <li>Lines starting with <code>-</code>, <code>*</code>, or <code>+</code>
+      are bulleted lists. Nested lists are indented by four spaces</li>
+    </ul>
 
     <p>
       Note that there is currently no method for escaping double-quotes, so

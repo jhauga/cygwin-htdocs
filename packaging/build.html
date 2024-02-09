@@ -145,11 +145,22 @@ below:
     <code>deploy</code><br/>
     For the master branch, after a successful build, the built packages are
     handed-off to the package uploader.
-    <br/>
   </li>
   <li>
     <code>nodeploy</code><br/>
     Take no action after a successful build.
+  </li>
+  <li>
+    <code>announce</code><br/>
+    After a successful deploy, send a mail to the cygwin-announce mailing list.
+  </li>
+  <li>
+    <code>noannounce</code><br/>
+    Do not send an announce mail.
+  </li>
+  <li>
+    <code>mock</code><br/>
+    Any announcement mail will only be sent to the uploader, not the announce list.
   </li>
 </ul>
 

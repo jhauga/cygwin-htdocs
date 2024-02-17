@@ -1316,7 +1316,7 @@ libhtp                                       Daisuke Fujimura
 libical                                      ORPHANED (Yaakov Selkowitz)
 libICE                                       @xorg
 libiconv                                     Lemures Lemniscati
-libid3tag                                    ORPHANED (Yaakov Selkowitz)
+libid3tag                                    Takashi Yano
 libIDL2                                      ORPHANED (Yaakov Selkowitz)
 libidn                                       Brian Inglis
 libidn2                                      Brian Inglis
@@ -1351,7 +1351,7 @@ liblqr1                                      ORPHANED (Yaakov Selkowitz)
 liblrdf                                      ORPHANED (Yaakov Selkowitz)
 liblxqt                                      ORPHANED (Yaakov Selkowitz)
 liblzo2                                      Achim Gratz
-libmad                                       ORPHANED (Yaakov Selkowitz)
+libmad                                       Takashi Yano
 libmangle                                    Jonathan Yong
 libmatekbd                                   ORPHANED (Yaakov Selkowitz)
 libmatemixer                                 ORPHANED (Yaakov Selkowitz)
@@ -3655,8 +3655,8 @@ sysvinit                                     ORPHANED (Dr. Volker Zell)
 t1lib                                        ORPHANED (Dr. Volker Zell)
 t1utils                                      ORPHANED (Yaakov Selkowitz)
 tack                                         Brian Inglis
-taglib                                       ORPHANED (Yaakov Selkowitz)
-taglib-extras                                ORPHANED (Yaakov Selkowitz)
+taglib                                       Takashi Yano
+taglib-extras                                Takashi Yano
 tali                                         ORPHANED (Yaakov Selkowitz)
 tanglet                                      ORPHANED (Yaakov Selkowitz)
 tar                                          Eric Blake/Achim Gratz
@@ -3824,6 +3824,7 @@ urlgrabber                                   ORPHANED (Jari Aalto)
 urw-base35-fonts                             Ken Brown
 usbredir                                     ORPHANED (Yaakov Selkowitz)
 usbutils                                     ORPHANED (Yaakov Selkowitz)
+utf8cpp                                      Takashi Yano
 uthash                                       Adam Saponara
 util-linux                                   Mark Geisert
 uw-imap                                      ORPHANED (Dr. Volker Zell)

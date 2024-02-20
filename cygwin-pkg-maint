@@ -297,7 +297,7 @@ d-feet                                       ORPHANED (Yaakov Selkowitz)
 dash                                         Eric Blake/Brian Inglis
 datefudge                                    ORPHANED (Yaakov Selkowitz)
 dateutils                                    ORPHANED (Yaakov Selkowitz)
-db                                           ORPHANED (Dr. Volker Zell)
+db                                           Takashi Yano
 dblatex                                      Marco Atzeri
 dbus                                         ORPHANED (Yaakov Selkowitz)
 dbus-glib                                    ORPHANED (Yaakov Selkowitz)
@@ -3672,7 +3672,7 @@ tcl-togl                                     Jan Nijtmans
 tcm                                          ORPHANED (Dr. Volker Zell)
 tcp_wrappers                                 Takashi Yano
 tcsh                                         Corinna Vinschen
-tdb                                          ORPHANED (Yaakov Selkowitz)
+tdb                                          Takashi Yano
 teckit                                       Ken Brown
 ted                                          ORPHANED (Dr. Volker Zell)
 telepathy-farstream                          ORPHANED (Yaakov Selkowitz)

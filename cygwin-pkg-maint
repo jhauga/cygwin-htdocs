@@ -633,7 +633,7 @@ gnumeric                                     ORPHANED (Yaakov Selkowitz)
 gnupg                                        Marco Atzeri
 gnupg2                                       Marco Atzeri
 gnuplot                                      Achim Gratz
-gnutls                                       ORPHANED (Yaakov Selkowitz)
+gnutls                                       Takashi Yano
 gob2                                         ORPHANED (Yaakov Selkowitz)
 gobby0.5                                     ORPHANED (Yaakov Selkowitz)
 gobject-introspection                        ORPHANED (Yaakov Selkowitz)
@@ -1433,7 +1433,7 @@ libsoup2.4                                   ORPHANED (Yaakov Selkowitz)
 libspectre                                   Lemures Lemniscati
 libspiro                                     Ken Brown
 libsrtp                                      ORPHANED (Yaakov Selkowitz)
-libssh                                       ORPHANED (Yaakov Selkowitz)
+libssh                                       Takashi Yano
 libssh2                                      Brian Inglis
 libstaroffice0.0                             ORPHANED (Yaakov Selkowitz)
 libstatgrab                                  ORPHANED (Yaakov Selkowitz)
@@ -1464,6 +1464,7 @@ libvisio0.1                                  ORPHANED (Yaakov Selkowitz)
 libvncserver                                 ORPHANED (Yaakov Selkowitz)
 libvoikko                                    ORPHANED (Yaakov Selkowitz)
 libvorbis                                    David Rothenberger
+libvpl                                       Takashi Yano
 libvpx                                       Brian Inglis
 libwebp                                      Brian Inglis
 libwmf                                       ORPHANED (Dr. Volker Zell)
@@ -2424,7 +2425,7 @@ netcdf                                       Marco Atzeri
 netcdf-cxx4                                  Marco Atzeri
 netcdf-fortran                               Marco Atzeri
 netpbm                                       ORPHANED (Yaakov Selkowitz)
-nettle                                       ORPHANED (Yaakov Selkowitz)
+nettle                                       Takashi Yano
 newmail                                      Jari Aalto
 nfrotz                                       Jon Turney
 nfs-server                                   ORPHANED (Yaakov Selkowitz)
@@ -3798,7 +3799,7 @@ umbrello                                     ORPHANED (Yaakov Selkowitz)
 umfpack                                      Marco Atzeri
 unace                                        Jari Aalto
 unalz                                        Jari Aalto
-unbound                                      ORPHANED (Yaakov Selkowitz)
+unbound                                      Takashi Yano
 unfs3                                        ORPHANED (Yaakov Selkowitz)
 unicode-cldr                                 Thomas Wolff
 unicode-ucd                                  Thomas Wolff

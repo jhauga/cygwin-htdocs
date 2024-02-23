@@ -299,7 +299,7 @@ datefudge                                    ORPHANED (Yaakov Selkowitz)
 dateutils                                    ORPHANED (Yaakov Selkowitz)
 db                                           Takashi Yano
 dblatex                                      Marco Atzeri
-dbus                                         ORPHANED (Yaakov Selkowitz)
+dbus                                         Takashi Yano
 dbus-glib                                    ORPHANED (Yaakov Selkowitz)
 dconf                                        ORPHANED (Yaakov Selkowitz)
 dconf-editor                                 ORPHANED (Yaakov Selkowitz)
@@ -458,7 +458,7 @@ focuswriter                                  ORPHANED (Yaakov Selkowitz)
 folks                                        ORPHANED (Yaakov Selkowitz)
 font-util                                    @xorg
 fontawesome-fonts                            ORPHANED (Yaakov Selkowitz)
-fontconfig                                   ORPHANED (Yaakov Selkowitz)
+fontconfig                                   Takashi Yano
 fontforge                                    Lemures Lemniscati
 fonttosfnt                                   @xorg
 foobillard                                   ORPHANED (David Stacey)
@@ -1204,7 +1204,7 @@ libaprutil1                                  David Rothenberger
 libarchive                                   Achim Gratz
 libargp                                      Andrew Schulman
 libart_lgpl_2                                ORPHANED (Yaakov Selkowitz)
-libass                                       ORPHANED (Yaakov Selkowitz)
+libass                                       Takashi Yano
 libassuan                                    Marco Atzeri
 libasyncns                                   ORPHANED (Yaakov Selkowitz)
 libatomic_ops                                Andy Li
@@ -2578,7 +2578,7 @@ openexr                                      Marco Atzeri
 openexr_ctl                                  Marco Atzeri
 openexr_viewers                              Marco Atzeri
 openjade                                     ORPHANED (Yaakov Selkowitz)
-openjpeg                                     ORPHANED (Yaakov Selkowitz)
+openjpeg                                     Takashi Yano
 openjpeg2                                    Lemures Lemniscati
 openh264                                     Takashi Yano
 openldap                                     Achim Gratz
@@ -2594,7 +2594,7 @@ opus-tools                                   Takashi Yano
 opusfile                                     Takashi Yano
 orage                                        ORPHANED (Yaakov Selkowitz)
 ORBit2                                       ORPHANED (Yaakov Selkowitz)
-orc                                          ORPHANED (Yaakov Selkowitz)
+orc                                          Takashi Yano
 orpie                                        Andrew Schulman
 osinfo-db                                    ORPHANED (Yaakov Selkowitz)
 osinfo-db-tools                              ORPHANED (Yaakov Selkowitz)
@@ -3594,7 +3594,7 @@ smartmontools                                Christian Franke
 smpeg                                        ORPHANED (Yaakov Selkowitz)
 smpeg2                                       ORPHANED (Yaakov Selkowitz)
 smproxy                                      @xorg
-snappy                                       ORPHANED (Yaakov Selkowitz)
+snappy                                       Takashi Yano
 sng                                          Andrew Schulman
 snownews                                     ORPHANED (Yaakov Selkowitz)
 sobby                                        ORPHANED (Yaakov Selkowitz)

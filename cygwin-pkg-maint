@@ -3096,6 +3096,7 @@ python-backcall                              Marco Atzeri
 python-backports.entry_points_selectable     Marco Atzeri
 python-bcrypt                                Libor Ukropec/Marco Atzeri
 python-boto                                  ORPHANED (Yaakov Selkowitz)
+python-build                                 Marco Atzeri
 python-bs4                                   Marco Atzeri
 python-bsddb3                                Marco Atzeri
 python-bugzilla                              Marco Atzeri
@@ -3199,6 +3200,7 @@ python-pylast                                ORPHANED (Yaakov Selkowitz)
 python-pylint                                Marco Atzeri
 python-pyparsing                             Marco Atzeri
 python-pypdf                                 Marco Atzeri
+python-pyproject_hooks                       Marco Atzeri
 python-pypsrp                                ORPHANED (Yaakov Selkowitz)
 python-pyqt4                                 ORPHANED (Yaakov Selkowitz)
 python-pyqt5                                 Marco Atzeri
@@ -3223,6 +3225,7 @@ python-rfc6555                               Adam Dinwoodie
 python-rsa                                   ORPHANED (Yaakov Selkowitz)
 python-service_identity                      Marco Atzeri
 python-setuptools                            Marco Atzeri
+python-setuptools_scm                        Marco Atzeri
 python-sh                                    Marco Atzeri
 python-simplegeneric                         Marco Atzeri
 python-simplejson                            Marco Atzeri

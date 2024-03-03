@@ -129,6 +129,27 @@ libboffo0_CONTENTS="
 
   <li>
     <p>
+      If a library supports building as a shared or static library, usually only
+      a shared library should be built and packaged.
+    </p>
+    <p>
+      Common exceptions are:
+    </p>
+    <ul>
+      <li>
+        MinGW cross-packages should probably contain both, so that users can
+        choose to build monolithic, statically-linked executables, which can be
+        easily distributed without an installer.
+      </li>
+      <li>
+        soversion-less libraries where upstream recommends a static library,
+        e.g. because the API isn't stable.
+      </li>
+    </ul>
+  </li>
+
+  <li>
+    <p>
       When removing a package name from
       <a href="https://cygwin.github.io/cygport/pkg_pkg_cygpart.html#PKG_NAMES"><code>PKG_NAMES</code></a>
       you should consider what you want to happen in Cygwin installations where

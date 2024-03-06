@@ -1230,8 +1230,8 @@ libchewing                                   ORPHANED (Yaakov Selkowitz)
 libconfuse1                                  Ake Rehnman
 libcroco0.6                                  ORPHANED (Yaakov Selkowitz)
 libcryptui                                   ORPHANED (Yaakov Selkowitz)
-libcue                                       ORPHANED (Yaakov Selkowitz)
-libcuefile                                   ORPHANED (Yaakov Selkowitz)
+libcue                                       Takashi Yano
+libcuefile                                   Takashi Yano
 libcxx                                       ORPHANED (Yaakov Selkowitz)
 libcxxabi                                    ORPHANED (Yaakov Selkowitz)
 libdaemon                                    ORPHANED (Yaakov Selkowitz)

@@ -151,6 +151,7 @@ bison                                        Eric Blake/Brian Inglis
 bitmap                                       @xorg
 bitstream-vera-fonts                         @xorg
 blinken                                      ORPHANED (Yaakov Selkowitz)
+bmake                                        Christian Franke
 bmp2png                                      Jari Aalto
 bogofilter                                   ORPHANED (Yaakov Selkowitz)
 bomber                                       ORPHANED (Yaakov Selkowitz)

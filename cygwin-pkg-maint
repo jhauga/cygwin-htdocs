@@ -294,7 +294,7 @@ cygrunsrv                                    Corinna Vinschen
 cygutils                                     Mark Geisert
 cygwin                                       Corinna Vinschen/Ken Brown/Takashi Yano
 cygwin-x-doc                                 Jon Turney
-cyrus-sasl                                   David Rothenberger
+cyrus-sasl                                   ORPHANED (David Rothenberger)
 d-feet                                       ORPHANED (Yaakov Selkowitz)
 dash                                         Eric Blake/Brian Inglis
 datefudge                                    ORPHANED (Yaakov Selkowitz)
@@ -446,7 +446,7 @@ filezilla                                    ORPHANED (Yaakov Selkowitz)
 findutils                                    Eric Blake/Brian Inglis
 fish                                         Andrew Schulman
 five-or-more                                 ORPHANED (Yaakov Selkowitz)
-flac                                         David Rothenberger
+flac                                         ORPHANED (David Rothenberger)
 flex                                         Marco Atzeri
 flexdll                                      David Allsopp
 flint                                        Marco Atzeri
@@ -1196,10 +1196,10 @@ lib4ti2                                      Marco Atzeri
 libaec                                       Marco Atzeri
 libabw0.1                                    ORPHANED (Yaakov Selkowitz)
 libalkimia                                   ORPHANED (Yaakov Selkowitz)
-libao                                        David Rothenberger
+libao                                        ORPHANED (David Rothenberger)
 libappindicator                              ORPHANED (Yaakov Selkowitz)
-libapr1                                      David Rothenberger
-libaprutil1                                  David Rothenberger
+libapr1                                      ORPHANED (David Rothenberger)
+libaprutil1                                  ORPHANED (David Rothenberger)
 libarchive                                   Achim Gratz
 libargp                                      Andrew Schulman
 libart_lgpl_2                                ORPHANED (Yaakov Selkowitz)
@@ -1329,7 +1329,7 @@ libiptcdata                                  ORPHANED (Yaakov Selkowitz)
 libisocodes                                  ORPHANED (Yaakov Selkowitz)
 libjpeg-turbo                                Lemures Lemniscati
 libjwt                                       Daisuke Fujimura
-libkate                                      David Rothenberger
+libkate                                      ORPHANED (David Rothenberger)
 libkcddb                                     ORPHANED (Yaakov Selkowitz)
 libkdcraw                                    ORPHANED (Yaakov Selkowitz)
 libkdegames                                  ORPHANED (Yaakov Selkowitz)
@@ -1383,7 +1383,7 @@ libntlm                                      ORPHANED (Yaakov Selkowitz)
 liboauth                                     ORPHANED (Yaakov Selkowitz)
 libodfgen0.1                                 ORPHANED (Yaakov Selkowitz)
 libofx                                       ORPHANED (Yaakov Selkowitz)
-libogg                                       David Rothenberger
+libogg                                       ORPHANED (David Rothenberger)
 libopenmpt                                   Takashi Yano
 libopenraw                                   ORPHANED (Yaakov Selkowitz)
 libopusenc                                   Takashi Yano
@@ -1413,7 +1413,7 @@ libretls                                     Corinna Vinschen
 librevenge0.0                                ORPHANED (Yaakov Selkowitz)
 librsb                                       Marco Atzeri
 librsvg2                                     Marco Atzeri
-librsync                                     David Rothenberger
+librsync                                     ORPHANED (David Rothenberger)
 librvngabw0.0                                ORPHANED (Yaakov Selkowitz)
 libsamplerate                                Takashi Yano
 libsecret1                                   ORPHANED (Yaakov Selkowitz)
@@ -1438,7 +1438,7 @@ libstaroffice0.0                             ORPHANED (Yaakov Selkowitz)
 libstatgrab                                  ORPHANED (Yaakov Selkowitz)
 libtasn1                                     ORPHANED (Yaakov Selkowitz)
 libthai                                      Takashi Yano
-libtheora                                    David Rothenberger
+libtheora                                    ORPHANED (David Rothenberger)
 libtiger                                     ORPHANED (Yaakov Selkowitz)
 libtimidity                                  Takashi Yano
 libtirpc                                     Marco Atzeri
@@ -1462,7 +1462,7 @@ libvirt-glib1.0                              ORPHANED (Yaakov Selkowitz)
 libvisio0.1                                  ORPHANED (Yaakov Selkowitz)
 libvncserver                                 ORPHANED (Yaakov Selkowitz)
 libvoikko                                    ORPHANED (Yaakov Selkowitz)
-libvorbis                                    David Rothenberger
+libvorbis                                    ORPHANED (David Rothenberger)
 libvpl                                       Takashi Yano
 libvpx                                       Brian Inglis
 libwebp                                      Brian Inglis
@@ -3360,7 +3360,7 @@ rbio                                         Marco Atzeri
 rc                                           Jari Aalto
 rcs                                          Achim Gratz
 rdfind                                       Adam Dinwoodie
-rdiff-backup                                 David Rothenberger
+rdiff-backup                                 ORPHANED (David Rothenberger)
 readline                                     Eric Blake/Brian Inglis
 rebase                                       Corinna Vinschen
 recode                                       Corinna Vinschen
@@ -3611,8 +3611,8 @@ soxr                                         Takashi Yano
 spamoracle                                   Jari Aalto
 spectacle                                    ORPHANED (Yaakov Selkowitz)
 speech-dispatcher                            ORPHANED (Yaakov Selkowitz)
-speex                                        David Rothenberger
-speexdsp                                     David Rothenberger
+speex                                        ORPHANED (David Rothenberger)
+speexdsp                                     ORPHANED (David Rothenberger)
 spherical-cow-backgrounds                    ORPHANED (Yaakov Selkowitz)
 spice                                        ORPHANED (Yaakov Selkowitz)
 spice-gtk                                    ORPHANED (Yaakov Selkowitz)
@@ -3845,7 +3845,7 @@ VirtualGL                                    D. R. Commander
 virt-manager                                 Jason Pyeron
 virt-top                                     ORPHANED (Yaakov Selkowitz)
 virt-viewer                                  ORPHANED (Yaakov Selkowitz)
-vorbis-tools                                 David Rothenberger
+vorbis-tools                                 ORPHANED (David Rothenberger)
 vte                                          ORPHANED (Yaakov Selkowitz)
 vte2.90                                      ORPHANED (Yaakov Selkowitz)
 vte2.91                                      ORPHANED (Yaakov Selkowitz)
@@ -3862,8 +3862,8 @@ webrtc-audio-processing                      ORPHANED (Yaakov Selkowitz)
 weechat                                      Sebastien Helleu
 wget                                         Brian Inglis
 wget2                                        Brian Inglis
-which                                        David Rothenberger
-whois                                        David Rothenberger
+which                                        ORPHANED (David Rothenberger)
+whois                                        ORPHANED (David Rothenberger)
 wiggle                                       Jari Aalto
 wildmidi                                     ORPHANED (Yaakov Selkowitz)
 WindowMaker                                  ORPHANED (Yaakov Selkowitz)

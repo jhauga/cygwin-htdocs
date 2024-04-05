@@ -446,7 +446,7 @@ filezilla                                    ORPHANED (Yaakov Selkowitz)
 findutils                                    Eric Blake/Brian Inglis
 fish                                         Andrew Schulman
 five-or-more                                 ORPHANED (Yaakov Selkowitz)
-flac                                         ORPHANED (David Rothenberger)
+flac                                         Takashi Yano
 flex                                         Marco Atzeri
 flexdll                                      David Allsopp
 flint                                        Marco Atzeri
@@ -1196,7 +1196,7 @@ lib4ti2                                      Marco Atzeri
 libaec                                       Marco Atzeri
 libabw0.1                                    ORPHANED (Yaakov Selkowitz)
 libalkimia                                   ORPHANED (Yaakov Selkowitz)
-libao                                        ORPHANED (David Rothenberger)
+libao                                        Takashi Yano
 libappindicator                              ORPHANED (Yaakov Selkowitz)
 libapr1                                      ORPHANED (David Rothenberger)
 libaprutil1                                  ORPHANED (David Rothenberger)
@@ -1383,7 +1383,7 @@ libntlm                                      ORPHANED (Yaakov Selkowitz)
 liboauth                                     ORPHANED (Yaakov Selkowitz)
 libodfgen0.1                                 ORPHANED (Yaakov Selkowitz)
 libofx                                       ORPHANED (Yaakov Selkowitz)
-libogg                                       ORPHANED (David Rothenberger)
+libogg                                       Takashi Yano
 libopenmpt                                   Takashi Yano
 libopenraw                                   ORPHANED (Yaakov Selkowitz)
 libopusenc                                   Takashi Yano
@@ -1438,7 +1438,7 @@ libstaroffice0.0                             ORPHANED (Yaakov Selkowitz)
 libstatgrab                                  ORPHANED (Yaakov Selkowitz)
 libtasn1                                     ORPHANED (Yaakov Selkowitz)
 libthai                                      Takashi Yano
-libtheora                                    ORPHANED (David Rothenberger)
+libtheora                                    Takashi Yano
 libtiger                                     ORPHANED (Yaakov Selkowitz)
 libtimidity                                  Takashi Yano
 libtirpc                                     Marco Atzeri
@@ -1462,7 +1462,7 @@ libvirt-glib1.0                              ORPHANED (Yaakov Selkowitz)
 libvisio0.1                                  ORPHANED (Yaakov Selkowitz)
 libvncserver                                 ORPHANED (Yaakov Selkowitz)
 libvoikko                                    ORPHANED (Yaakov Selkowitz)
-libvorbis                                    ORPHANED (David Rothenberger)
+libvorbis                                    Takashi Yano
 libvpl                                       Takashi Yano
 libvpx                                       Brian Inglis
 libwebp                                      Brian Inglis
@@ -3611,8 +3611,8 @@ soxr                                         Takashi Yano
 spamoracle                                   Jari Aalto
 spectacle                                    ORPHANED (Yaakov Selkowitz)
 speech-dispatcher                            ORPHANED (Yaakov Selkowitz)
-speex                                        ORPHANED (David Rothenberger)
-speexdsp                                     ORPHANED (David Rothenberger)
+speex                                        Takashi Yano
+speexdsp                                     Takashi Yano
 spherical-cow-backgrounds                    ORPHANED (Yaakov Selkowitz)
 spice                                        ORPHANED (Yaakov Selkowitz)
 spice-gtk                                    ORPHANED (Yaakov Selkowitz)
@@ -3845,7 +3845,7 @@ VirtualGL                                    D. R. Commander
 virt-manager                                 Jason Pyeron
 virt-top                                     ORPHANED (Yaakov Selkowitz)
 virt-viewer                                  ORPHANED (Yaakov Selkowitz)
-vorbis-tools                                 ORPHANED (David Rothenberger)
+vorbis-tools                                 Takashi Yano
 vte                                          ORPHANED (Yaakov Selkowitz)
 vte2.90                                      ORPHANED (Yaakov Selkowitz)
 vte2.91                                      ORPHANED (Yaakov Selkowitz)

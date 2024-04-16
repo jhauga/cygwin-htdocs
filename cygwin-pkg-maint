@@ -512,9 +512,9 @@ gendef                                       Jonathan Yong
 gengetopt                                    Rafel Amer/Brian Inglis
 geoclue                                      ORPHANED (Yaakov Selkowitz)
 geocode-glib                                 ORPHANED (Yaakov Selkowitz)
-GeoIP                                        ORPHANED (Yaakov Selkowitz)
-GeoIP-database                               ORPHANED (Yaakov Selkowitz)
-geoipupdate                                  ORPHANED (Yaakov Selkowitz)
+GeoIP                                        Brian Inglis
+GeoIP-database                               Brian Inglis
+geoipupdate                                  Brian Inglis
 geomview                                     Ken Brown
 geos                                         Marco Atzeri
 getent                                       Corinna Vinschen

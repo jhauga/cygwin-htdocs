@@ -489,7 +489,7 @@ garcon                                       ORPHANED (Yaakov Selkowitz)
 gawk                                         Corinna Vinschen
 gcab                                         Jon Turney
 gcc                                          Achim Gratz/Jonathan Yong
-gccmakedep                                   ORPHANED (Yaakov Selkowitz)
+gccmakedep                                   @xorg
 GConf2                                       ORPHANED (Yaakov Selkowitz)
 gconfmm2.6                                   ORPHANED (Yaakov Selkowitz)
 gcovr                                        ORPHANED (David Stacey)

@@ -1226,7 +1226,7 @@ libcdr0.1                                    ORPHANED (Yaakov Selkowitz)
 libcerf                                      Achim Gratz
 libchamplain0.12                             ORPHANED (Yaakov Selkowitz)
 libchewing                                   ORPHANED (Yaakov Selkowitz)
-libconfuse1                                  Ake Rehnman
+libconfuse1                                  ORPHANED (Ake Rehnman)
 libcroco0.6                                  ORPHANED (Yaakov Selkowitz)
 libcryptui                                   ORPHANED (Yaakov Selkowitz)
 libcue                                       Takashi Yano
@@ -1275,7 +1275,7 @@ libfontenc                                   @xorg
 libfpx                                       ORPHANED (Dr. Volker Zell)
 libfreehand0.1                               ORPHANED (Yaakov Selkowitz)
 libFS                                        @xorg
-libftdi1                                     Ake Rehnman
+libftdi1                                     ORPHANED (Ake Rehnman)
 libgadu                                      ORPHANED (Yaakov Selkowitz)
 libgames-support                             ORPHANED (Yaakov Selkowitz)
 libgc                                        Andy Li

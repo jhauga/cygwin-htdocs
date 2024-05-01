@@ -1591,7 +1591,7 @@ lxtask                                       ORPHANED (Yaakov Selkowitz)
 lxterminal                                   ORPHANED (Yaakov Selkowitz)
 lynx                                         Corinna Vinschen
 lyx                                          Marco Atzeri
-lz4                                          Chad Dougherty
+lz4                                          ORPHANED (Chad Dougherty)
 lzip                                         Jonathan Yong
 lziprecover                                  Jonathan Yong
 lzop                                         Jari Aalto
@@ -1894,7 +1894,7 @@ mingw64-i686-libzip                          ORPHANED (Yaakov Selkowitz)
 mingw64-i686-libzmf                          ORPHANED (Yaakov Selkowitz)
 mingw64-i686-llvm                            ORPHANED (Yaakov Selkowitz)
 mingw64-i686-lua                             ORPHANED (Yaakov Selkowitz)
-mingw64-i686-lz4                             Chad Dougherty
+mingw64-i686-lz4                             ORPHANED (Chad Dougherty)
 mingw64-i686-lzo2                            Achim Gratz
 mingw64-i686-mariadb-connector-c             ORPHANED (Yaakov Selkowitz)
 mingw64-i686-mdbtools                        ORPHANED (Yaakov Selkowitz)
@@ -2241,7 +2241,7 @@ mingw64-x86_64-libzip                        ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-libzmf                        ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-llvm                          ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-lua                           ORPHANED (Yaakov Selkowitz)
-mingw64-x86_64-lz4                           Chad Dougherty
+mingw64-x86_64-lz4                           ORPHANED (Chad Dougherty)
 mingw64-x86_64-lzo2                          Achim Gratz
 mingw64-x86_64-mariadb-connector-c           ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-mdbtools                      ORPHANED (Yaakov Selkowitz)
@@ -2358,7 +2358,7 @@ mingw64-x86_64-zeromq                        Marco Atzeri
 mingw64-x86_64-zlib                          Achim Gratz
 mingw64-x86_64-zstd                          Achim Gratz
 mingw64-x86_64-zziplib                       ORPHANED (Yaakov Selkowitz)
-minisign                                     Chad Dougherty
+minisign                                     ORPHANED (Chad Dougherty)
 minizip                                      Ken Brown
 mintty                                       Thomas Wolff
 minuet                                       ORPHANED (Yaakov Selkowitz)
@@ -2622,7 +2622,7 @@ par2                                         Andrew Schulman
 parley                                       ORPHANED (Yaakov Selkowitz)
 parole                                       ORPHANED (Yaakov Selkowitz)
 pass                                         Christian Franke
-passwdqc                                     Chad Dougherty
+passwdqc                                     ORPHANED (Chad Dougherty)
 pasystray                                    ORPHANED (Yaakov Selkowitz)
 patch                                        Corinna Vinschen
 patcher                                      Jari Aalto

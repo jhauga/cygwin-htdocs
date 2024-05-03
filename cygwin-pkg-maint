@@ -136,7 +136,7 @@ baobab                                       ORPHANED (Yaakov Selkowitz)
 base-cygwin                                  Corinna Vinschen
 base-files                                   Achim Gratz
 bash                                         Eric Blake/Corinna Vinschen
-bash-completion                              Eric Blake
+bash-completion                              Eric Blake/Brian Inglis
 bashdb                                       Eric Blake
 bc                                           Andrew Schulman
 bcrypt                                       Jari Aalto

@@ -2530,7 +2530,6 @@ octave-ncarray                               Marco Atzeri
 octave-netcdf                                Marco Atzeri
 octave-nurbs                                 Marco Atzeri
 octave-ocs                                   Marco Atzeri
-octave-octcdf                                Marco Atzeri
 octave-octclip                               Marco Atzeri
 octave-octproj                               Marco Atzeri
 octave-odepkg                                Marco Atzeri
@@ -2619,7 +2618,6 @@ pangox-compat                                ORPHANED (Yaakov Selkowitz)
 paprefs                                      ORPHANED (Yaakov Selkowitz)
 par                                          David Levine
 par2                                         Andrew Schulman
-parley                                       ORPHANED (Yaakov Selkowitz)
 parole                                       ORPHANED (Yaakov Selkowitz)
 pass                                         Christian Franke
 passwdqc                                     ORPHANED (Chad Dougherty)
@@ -3067,7 +3065,6 @@ postgresql                                   Marco Atzeri
 potrace                                      Ken Brown
 poxml                                        ORPHANED (Yaakov Selkowitz)
 prison                                       ORPHANED (Yaakov Selkowitz)
-pristine-tar                                 Jari Aalto
 procmail                                     Daniel Boland
 procps-ng                                    Achim Gratz
 proj                                         Marco Atzeri
@@ -3686,7 +3683,6 @@ telepathy-idle                               ORPHANED (Yaakov Selkowitz)
 telepathy-logger                             ORPHANED (Yaakov Selkowitz)
 telepathy-mission-control                    ORPHANED (Yaakov Selkowitz)
 telepathy-qt                                 ORPHANED (Yaakov Selkowitz)
-tellico                                      ORPHANED (Yaakov Selkowitz)
 tepl3                                        ORPHANED (Yaakov Selkowitz)
 terminus-fonts                               ORPHANED (Yaakov Selkowitz)
 tesseract-ocr                                Marco Atzeri
@@ -4068,4 +4064,3 @@ zstd                                         Achim Gratz
 zsync                                        Jari Aalto
 zziplib                                      Ken Brown
 _autorebase                                  Achim Gratz
-_update-info-dir                             Ken Brown

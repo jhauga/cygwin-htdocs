@@ -736,7 +736,6 @@ hexalate                                     ORPHANED (Yaakov Selkowitz)
 hexchat                                      Marco Atzeri
 hexedit                                      Marco Atzeri
 hicolor-icon-theme                           ORPHANED (Yaakov Selkowitz)
-hidapi                                       Wei-Ren Chen
 highlight                                    ORPHANED (Yaakov Selkowitz)
 hitori                                       ORPHANED (Yaakov Selkowitz)
 homebank                                     ORPHANED (Yaakov Selkowitz)
@@ -1766,7 +1765,6 @@ mingw64-i686-gts                             ORPHANED (Yaakov Selkowitz)
 mingw64-i686-harfbuzz                        ORPHANED (Yaakov Selkowitz)
 mingw64-i686-headers                         Jonathan Yong
 mingw64-i686-hicolor-icon-theme              ORPHANED (Yaakov Selkowitz)
-mingw64-i686-hidapi                          Wei-Ren Chen
 mingw64-i686-hunspell                        ORPHANED (Yaakov Selkowitz)
 mingw64-i686-icu                             ORPHANED (Yaakov Selkowitz)
 mingw64-i686-id3lib                          ORPHANED (Yaakov Selkowitz)
@@ -2113,7 +2111,6 @@ mingw64-x86_64-gts                           ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-harfbuzz                      ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-headers                       Jonathan Yong
 mingw64-x86_64-hicolor-icon-theme            ORPHANED (Yaakov Selkowitz)
-mingw64-x86_64-hidapi                        Wei-Ren Chen
 mingw64-x86_64-hunspell                      ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-icu                           ORPHANED (Yaakov Selkowitz)
 mingw64-x86_64-id3lib                        ORPHANED (Yaakov Selkowitz)

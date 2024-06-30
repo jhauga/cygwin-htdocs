@@ -1607,6 +1607,7 @@ makedepend                                   @xorg
 makepasswd                                   Jari Aalto
 makeself                                     Jari Aalto
 malaga                                       ORPHANED (Yaakov Selkowitz)
+man                                          ORPHANED
 man-db                                       Chris J. Breisch/Achim Gratz
 man-pages-linux                              Brian Inglis
 man-pages-posix                              Brian Inglis

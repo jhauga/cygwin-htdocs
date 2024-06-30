@@ -289,7 +289,7 @@ cxsparse                                     Marco Atzeri
 cygcheck-dep                                 Mikhail Usenko
 cygextreg                                    Joni Eskelinen
 cygfuse                                      Mark Geisert
-cygport                                      Yaakov Selkowitz/Jon Turney
+cygport                                      Jon Turney
 cygrunsrv                                    Corinna Vinschen
 cygutils                                     Mark Geisert
 cygwin                                       Corinna Vinschen/Ken Brown/Takashi Yano

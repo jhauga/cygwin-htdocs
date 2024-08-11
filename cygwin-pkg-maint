@@ -2670,6 +2670,8 @@ perl-Class-Accessor                          Achim Gratz
 perl-Class-Data-Inheritable                  Achim Gratz
 perl-Class-Factory-Util                      Achim Gratz/Ken Brown
 perl-Class-Inspector                         Achim Gratz
+perl-Class-Load                              Achim Gratz
+perl-Class-Method-Modifiers                  Achim Gratz
 perl-Class-Method-Modifiers                  Achim Gratz
 perl-Class-Singleton                         Achim Gratz
 perl-Class-Tiny                              Achim Gratz
@@ -2677,16 +2679,20 @@ perl-Class-XSAccessor                        Achim Gratz
 perl-Clone                                   Achim Gratz
 perl-common-sense                            Achim Gratz
 perl-Compress-Bzip2                          Achim Gratz
+perl-Compress-Raw-Lzma                       Achim Gratz
+perl-Compress-Stream-Zstd                    Achim Gratz
 perl-Config-AutoConf                         Achim Gratz/Ken Brown
 perl-Config-Perl-V                           Achim Gratz
 perl-Config-Tiny                             Achim Gratz
 perl-CPAN-Changes                            Achim Gratz
+perl-CPAN-Checksums                          Achim Gratz
 perl-CPAN-DistnameInfo                       Achim Gratz
 perl-CPAN-Meta                               Achim Gratz
 perl-CPAN-Meta-Check                         Achim Gratz
 perl-CPAN-Meta-Requirements                  Achim Gratz
 perl-CPAN-Meta-YAML                          Achim Gratz
 perl-CPAN-Reporter                           Achim Gratz
+perl-CPAN-SQLite                             Achim Gratz
 perl-CPAN-Testers-Report                     Achim Gratz
 perl-Cpanel-JSON-XS                          Achim Gratz
 perl-Crypt-OpenSSL-Bignum                    Achim Gratz
@@ -2696,6 +2702,7 @@ perl-Crypt-OpenSSL-ECDSA                     Achim Gratz
 perl-Crypt-OpenSSL-Guess                     Achim Gratz
 perl-Crypt-OpenSSL-Random                    Achim Gratz
 perl-Crypt-OpenSSL-RSA                       Achim Gratz
+perl-Cwd-Guard                               Achim Gratz
 perl-Data-Alias                              Achim Gratz
 perl-Data-Compare                            Achim Gratz/Ken Brown
 perl-Data-Diver                              Achim Gratz/Ken Brown
@@ -2716,8 +2723,12 @@ perl-DBD-mysql                               Achim Gratz
 perl-DBD-SQLite                              Achim Gratz
 perl-DBI                                     Achim Gratz
 perl-Devel-Autoflush                         Achim Gratz
+perl-Devel-CheckBin                          Achim Gratz
+perl-Devel-CheckCompiler                     Achim Gratz
 perl-Devel-CheckLib                          Achim Gratz
+perl-Devel-Cycle                             Achim Gratz
 perl-Devel-GlobalDestruction                 Achim Gratz
+perl-Devel-Size                              Achim Gratz
 perl-Devel-StackTrace                        Achim Gratz
 perl-Devel-Symdump                           Achim Gratz
 perl-Digest-BubbleBabble                     Achim Gratz
@@ -2725,6 +2736,7 @@ perl-Digest-GOST                             Achim Gratz
 perl-Digest-HMAC                             Achim Gratz
 perl-Digest-SHA                              Achim Gratz
 perl-Digest-SHA1                             Achim Gratz
+perl-Digest-SHA2                             Achim Gratz
 perl-Dist-CheckConflicts                     Achim Gratz
 perl-Encode-compat                           Achim Gratz
 perl-Encode-EUCJPASCII                       Achim Gratz/Ken Brown
@@ -2738,7 +2750,7 @@ perl-Eval-Closure                            Achim Gratz
 perl-Exception-Class                         Achim Gratz
 perl-Exporter-Tiny                           Achim Gratz
 perl-ExtUtils-CBuilder                       Achim Gratz
-perl-ExtUtils-CChecker			     Achim Gratz
+perl-ExtUtils-CChecker                       Achim Gratz
 perl-ExtUtils-Config                         Achim Gratz
 perl-ExtUtils-Depends                        Achim Gratz
 perl-ExtUtils-F77                            Achim Gratz
@@ -2798,6 +2810,9 @@ perl-inc-latest                              Achim Gratz
 perl-Inline                                  Achim Gratz
 perl-Inline-Files                            Achim Gratz
 perl-IO-CaptureOutput                        Achim Gratz
+perl-IO-Compress                             Achim Gratz
+perl-IO-Compress-Lzma                        Achim Gratz
+perl-IO-Compress-Zstd                        Achim Gratz
 perl-IO-HTML                                 Achim Gratz/Ken Brown
 perl-IO-Prompt-Tiny                          Achim Gratz
 perl-IO-Socket-INET6                         Achim Gratz
@@ -2839,6 +2854,7 @@ perl-MailTools                               Achim Gratz
 perl-Math-Int64                              Achim Gratz
 perl-Metabase-Client-Simple                  Achim Gratz
 perl-Metabase-Fact                           Achim Gratz
+perl-MetaCPAN-Client                         Achim Gratz
 perl-MIME-Base32                             Achim Gratz
 perl-MIME-Charset                            Achim Gratz/Ken Brown
 perl-MIME-tools                              Achim Gratz
@@ -2847,6 +2863,7 @@ perl-Mixin-Linewise                          Achim Gratz
 perl-Mock-Config                             Achim Gratz
 perl-Module-Build                            Achim Gratz
 perl-Module-Build-Tiny                       Achim Gratz
+perl-Module-Build-XSUtil                     Achim Gratz
 perl-Module-Implementation                   Achim Gratz
 perl-Module-Install                          Achim Gratz
 perl-Module-Load-Conditional                 Achim Gratz
@@ -2886,20 +2903,29 @@ perl-Params-ValidationCompiler               Achim Gratz
 perl-Parse-RecDescent                        Achim Gratz
 perl-Path-Class                              Achim Gratz
 perl-Path-Tiny                               Achim Gratz
+perl-PDF-API2                                Achim Gratz
 perl-PerlIO-utf8_strict                      Achim Gratz/Ken Brown
+perl-PerlIO-Util                             Achim Gratz
 perl-Pod-Coverage                            Achim Gratz
 perl-Pod-Coverage-TrustPod                   Achim Gratz
 perl-Pod-Escapes                             Achim Gratz
 perl-Pod-Eventual                            Achim Gratz
+perl-Pod-LaTeX                               Achim Gratz
 perl-Pod-Parser                              Achim Gratz
+perl-Pod-Perldoc                             Achim Gratz
+perl-Pod-Plainer                             Achim Gratz
 perl-Pod-Simple                              Achim Gratz
 perl-POD2-Base                               Achim Gratz
+perl-pod2pdf                                 Achim Gratz
 perl-Probe-Perl                              Achim Gratz
 perl-Proc-ProcessTable                       Achim Gratz
 perl-Readonly                                Achim Gratz/Ken Brown
 perl-Readonly-XS                             Achim Gratz/Ken Brown
+perl-Ref-Util                                Achim Gratz
+perl-Ref-Util-XS                             Achim Gratz
 perl-Regexp-Common                           Achim Gratz/Ken Brown
 perl-Role-Tiny                               Achim Gratz
+perl-Safe-Isa                                Achim Gratz
 perl-Scalar-List-Utils                       Achim Gratz
 perl-Scope-Guard                             Achim Gratz
 perl-SGMLSpm                                 Achim Gratz
@@ -2919,7 +2945,7 @@ perl-Sub-Name                                Achim Gratz
 perl-Sub-Quote                               Achim Gratz
 perl-Sub-Uplevel                             Achim Gratz
 perl-SUPER                                   Achim Gratz
-perl-Syntax-Keyword-Try			     Achim Gratz
+perl-Syntax-Keyword-Try                      Achim Gratz
 perl-Tee                                     Achim Gratz
 perl-Term-ReadLine-Gnu                       Achim Gratz
 perl-Term-ReadLine-Perl                      Achim Gratz
@@ -2940,11 +2966,13 @@ perl-Test-Fork                               Achim Gratz
 perl-Test-Harness                            Achim Gratz
 perl-Test-Inter                              Achim Gratz
 perl-Test-LeakTrace                          Achim Gratz
+perl-Test-Memory-Cycle                       Achim Gratz
 perl-Test-MockModule                         Achim Gratz
 perl-Test-More-UTF8                          Achim Gratz
 perl-Test-Needs                              Achim Gratz
 perl-Test-NoTabs                             Achim Gratz
 perl-Test-NoWarnings                         Achim Gratz
+perl-Test-Output                             Achim Gratz
 perl-Test-Pod                                Achim Gratz
 perl-Test-Pod-Coverage                       Achim Gratz
 perl-Test-Reporter                           Achim Gratz
@@ -2953,6 +2981,7 @@ perl-Test-Requires                           Achim Gratz
 perl-Test-RequiresInternet                   Achim Gratz
 perl-Test-Script                             Achim Gratz
 perl-Test-Simple                             Achim Gratz
+perl-Test-TinyMocker                         Achim Gratz
 perl-Test-Toolbox                            Achim Gratz
 perl-Test-TrailingSpace                      Achim Gratz
 perl-Test-Trap                               Achim Gratz
@@ -2983,6 +3012,7 @@ perl-Tk-Getopt                               Achim Gratz
 perl-Tk-Pod                                  Achim Gratz
 perl-Try-Tiny                                Achim Gratz
 perl-Type-Tiny                               Achim Gratz
+perl-Type-Tiny                               Achim Gratz
 perl-Types-Serialiser                        Achim Gratz
 perl-Unicode-Collate                         Achim Gratz/Ken Brown
 perl-Unicode-LineBreak                       Achim Gratz/Ken Brown
@@ -3011,7 +3041,7 @@ perl-XML-Simple                              Achim Gratz
 perl-XML-Stream                              Achim Gratz
 perl-XML-Writer                              Achim Gratz/Ken Brown
 perl-XML-XPath                               Achim Gratz
-perl-XS-Parse-Keyword			     Achim Gratz
+perl-XS-Parse-Keyword                        Achim Gratz
 perl-XSLoader                                Achim Gratz
 perl-YAML                                    Achim Gratz
 perl-YAML-LibYAML                            Achim Gratz
@@ -3109,9 +3139,9 @@ python-configobj                             Marco Atzeri
 python-constantly                            Marco Atzeri
 python-crypto                                Marco Atzeri
 python-cryptography                          Marco Atzeri
-python-cycler                                Marco Atzeri 
-python-cython                                Marco Atzeri 
-python-dateutil                              Marco Atzeri 
+python-cycler                                Marco Atzeri
+python-cython                                Marco Atzeri
+python-dateutil                              Marco Atzeri
 python-dbus                                  Marco Atzeri
 python-decorator                             Marco Atzeri
 python-defusedxml                            Marco Atzeri
@@ -3446,7 +3476,7 @@ ruby-imagesize                               ORPHANED (Yaakov Selkowitz)
 ruby-jbuilder                                ORPHANED (Yaakov Selkowitz)
 ruby-journey                                 ORPHANED (Yaakov Selkowitz)
 ruby-jquery-rails                            ORPHANED (Yaakov Selkowitz)
-ruby-kgio                                    Daisuke Fujimura 
+ruby-kgio                                    Daisuke Fujimura
 ruby-listen                                  ORPHANED (Yaakov Selkowitz)
 ruby-locale                                  ORPHANED (Yaakov Selkowitz)
 ruby-loofah                                  ORPHANED (Yaakov Selkowitz)

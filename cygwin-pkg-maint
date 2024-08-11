@@ -115,12 +115,12 @@ automake1.14                                 Achim Gratz
 automake1.15                                 Achim Gratz
 automake1.16                                 Achim Gratz
 automake1.17                                 Achim Gratz
-automake1.4                                  Achim Gratz
-automake1.5                                  Achim Gratz
-automake1.6                                  Achim Gratz
-automake1.7                                  Achim Gratz
-automake1.8                                  Achim Gratz
-automake1.9                                  Achim Gratz
+automake1.4                                  OBSOLETE (Achim Gratz)
+automake1.5                                  OBSOLETE (Achim Gratz)
+automake1.6                                  OBSOLETE (Achim Gratz)
+automake1.7                                  OBSOLETE (Achim Gratz)
+automake1.8                                  OBSOLETE (Achim Gratz)
+automake1.9                                  OBSOLETE (Achim Gratz)
 automoc4                                     ORPHANED (Yaakov Selkowitz)
 autossh                                      Andrew Schulman
 autotrace                                    Marco Atzeri

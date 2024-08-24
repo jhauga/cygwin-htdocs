@@ -1,6 +1,7 @@
-# package groups
+j# package groups
 @mesa                                        Jon Turney
 @xorg                                        Jon Turney
+@perl                                        Achim Gratz
 # package maintainers
 2048-cli                                     ORPHANED (Yaakov Selkowitz)
 2048-qt                                      ORPHANED (Yaakov Selkowitz)
@@ -2638,414 +2639,420 @@ pcre2                                        Achim Gratz
 pdf2djvu                                     ORPHANED (Yaakov Selkowitz)
 pdfgrep                                      Jason Pyeron
 peg-e                                        ORPHANED (Yaakov Selkowitz)
-perl                                         Achim Gratz
-perl-Algorithm-Combinatorics                 Achim Gratz
-perl-Algorithm-Diff                          Achim Gratz
-perl-Alien-Build                             Achim Gratz
-perl-Alien-Build-Plugin-Download-GitLab      Achim Gratz
-perl-Alien-CFITSIO                           Achim Gratz
-perl-Alien-Libxml2                           Achim Gratz
-perl-Alien-wxWidgets                         Achim Gratz
-perl-App-XML-DocBook-Builder                 Achim Gratz
-perl-Archive-Extract                         Achim Gratz
-perl-Archive-Zip                             Achim Gratz
-perl-Astro-FITS-CFITSIO                      Achim Gratz
-perl-Authen-SASL                             Achim Gratz
-perl-Authen-SASL-XS                          Achim Gratz
-perl-autovivification                        Achim Gratz/Ken Brown
-perl-B-COW                                   Achim Gratz
-perl-B-Generate                              Achim Gratz
-perl-B-Hooks-EndOfScope                      Achim Gratz
-perl-Business-ISBN                           Achim Gratz/Ken Brown
-perl-Business-ISBN-Data                      Achim Gratz/Ken Brown
-perl-Business-ISMN                           Achim Gratz/Ken Brown
-perl-Business-ISSN                           Achim Gratz/Ken Brown
-perl-Cairo                                   Achim Gratz
-perl-Cairo-GObject                           Achim Gratz
-perl-Canary-Stability                        Achim Gratz
-perl-Capture-Tiny                            Achim Gratz/Ken Brown
-perl-Carp                                    Achim Gratz
-perl-CGI                                     Achim Gratz
-perl-Class-Accessor                          Achim Gratz
-perl-Class-Data-Inheritable                  Achim Gratz
-perl-Class-Factory-Util                      Achim Gratz/Ken Brown
-perl-Class-Inspector                         Achim Gratz
-perl-Class-Load                              Achim Gratz
-perl-Class-Method-Modifiers                  Achim Gratz
-perl-Class-Method-Modifiers                  Achim Gratz
-perl-Class-Singleton                         Achim Gratz
-perl-Class-Tiny                              Achim Gratz
-perl-Class-XSAccessor                        Achim Gratz
-perl-Clone                                   Achim Gratz
-perl-common-sense                            Achim Gratz
-perl-Compress-Bzip2                          Achim Gratz
-perl-Compress-Raw-Lzma                       Achim Gratz
-perl-Compress-Stream-Zstd                    Achim Gratz
-perl-Config-AutoConf                         Achim Gratz/Ken Brown
-perl-Config-Perl-V                           Achim Gratz
-perl-Config-Tiny                             Achim Gratz
-perl-CPAN-Changes                            Achim Gratz
-perl-CPAN-Checksums                          Achim Gratz
-perl-CPAN-DistnameInfo                       Achim Gratz
-perl-CPAN-Meta                               Achim Gratz
-perl-CPAN-Meta-Check                         Achim Gratz
-perl-CPAN-Meta-Requirements                  Achim Gratz
-perl-CPAN-Meta-YAML                          Achim Gratz
-perl-CPAN-Reporter                           Achim Gratz
-perl-CPAN-SQLite                             Achim Gratz
-perl-CPAN-Testers-Report                     Achim Gratz
-perl-Cpanel-JSON-XS                          Achim Gratz
-perl-Crypt-OpenSSL-Bignum                    Achim Gratz
-perl-Crypt-OpenSSL-DSA                       Achim Gratz
-perl-Crypt-OpenSSL-EC                        Achim Gratz
-perl-Crypt-OpenSSL-ECDSA                     Achim Gratz
-perl-Crypt-OpenSSL-Guess                     Achim Gratz
-perl-Crypt-OpenSSL-Random                    Achim Gratz
-perl-Crypt-OpenSSL-RSA                       Achim Gratz
-perl-Cwd-Guard                               Achim Gratz
-perl-Data-Alias                              Achim Gratz
-perl-Data-Compare                            Achim Gratz/Ken Brown
-perl-Data-Diver                              Achim Gratz/Ken Brown
-perl-Data-Dump                               Achim Gratz/Ken Brown
-perl-Data-GUID                               Achim Gratz
-perl-Data-OptList                            Achim Gratz
-perl-Data-Uniqid                             Achim Gratz
-perl-Data-UUID                               Achim Gratz
-perl-Date-Manip                              Achim Gratz
-perl-Date-Simple                             Achim Gratz/Ken Brown
-perl-DateTime                                Achim Gratz
-perl-DateTime-Calendar-Julian                Achim Gratz/Ken Brown
-perl-DateTime-Format-Builder                 Achim Gratz/Ken Brown
-perl-DateTime-Format-Strptime                Achim Gratz/Ken Brown
-perl-DateTime-Locale                         Achim Gratz
-perl-DateTime-TimeZone                       Achim Gratz
-perl-DBD-mysql                               Achim Gratz
-perl-DBD-SQLite                              Achim Gratz
-perl-DBI                                     Achim Gratz
-perl-Devel-Autoflush                         Achim Gratz
-perl-Devel-CheckBin                          Achim Gratz
-perl-Devel-CheckCompiler                     Achim Gratz
-perl-Devel-CheckLib                          Achim Gratz
-perl-Devel-Cycle                             Achim Gratz
-perl-Devel-GlobalDestruction                 Achim Gratz
-perl-Devel-Size                              Achim Gratz
-perl-Devel-StackTrace                        Achim Gratz
-perl-Devel-Symdump                           Achim Gratz
-perl-Digest-BubbleBabble                     Achim Gratz
-perl-Digest-GOST                             Achim Gratz
-perl-Digest-HMAC                             Achim Gratz
-perl-Digest-SHA                              Achim Gratz
-perl-Digest-SHA1                             Achim Gratz
-perl-Digest-SHA2                             Achim Gratz
-perl-Dist-CheckConflicts                     Achim Gratz
-perl-Encode-compat                           Achim Gratz
-perl-Encode-EUCJPASCII                       Achim Gratz/Ken Brown
-perl-Encode-HanExtra                         Achim Gratz/Ken Brown
-perl-Encode-ISO2022                          Achim Gratz
-perl-Encode-JIS2K                            Achim Gratz/Ken Brown
-perl-Encode-JISX0213                         Achim Gratz
-perl-Encode-Locale                           Achim Gratz
-perl-Error                                   Achim Gratz
-perl-Eval-Closure                            Achim Gratz
-perl-Exception-Class                         Achim Gratz
-perl-Exporter-Tiny                           Achim Gratz
-perl-ExtUtils-CBuilder                       Achim Gratz
-perl-ExtUtils-CChecker                       Achim Gratz
-perl-ExtUtils-Config                         Achim Gratz
-perl-ExtUtils-Depends                        Achim Gratz
-perl-ExtUtils-F77                            Achim Gratz
-perl-ExtUtils-Helpers                        Achim Gratz
-perl-ExtUtils-InstallPaths                   Achim Gratz
-perl-ExtUtils-LibBuilder                     Achim Gratz/Ken Brown
-perl-ExtUtils-MakeMaker                      Achim Gratz
-perl-ExtUtils-PkgConfig                      Achim Gratz
-perl-ExtUtils-XSpp                           Achim Gratz
-perl-FFI-CheckLib                            Achim Gratz
-perl-File-chdir                              Achim Gratz
-perl-File-Copy-Recursive                     Achim Gratz
-perl-File-Find-Object                        Achim Gratz
-perl-File-Find-Object-Rule                   Achim Gratz
-perl-File-Find-Rule                          Achim Gratz/Ken Brown
-perl-File-HomeDir                            Achim Gratz
-perl-File-Listing                            Achim Gratz
-perl-File-pushd                              Achim Gratz
-perl-File-Remove                             Achim Gratz
-perl-File-ShareDir                           Achim Gratz
-perl-File-ShareDir-Install                   Achim Gratz
-perl-File-ShouldUpdate                       Achim Gratz
-perl-File-Slurp                              Achim Gratz/Ken Brown
-perl-File-Slurp-Tiny                         Achim Gratz
-perl-File-Slurper                            Achim Gratz
-perl-File-TreeCreate                         Achim Gratz
-perl-File-Which                              Achim Gratz
-perl-FileHandle-Unget                        Achim Gratz
-perl-Finance-Quote                           ORPHANED (Achim Gratz)
-perl-Font-AFM                                Achim Gratz
-perl-Font-FreeType                           Achim Gratz
-perl-Font-TTF                                Achim Gratz
-perl-GD                                      Achim Gratz
-perl-Getopt-ArgvFile                         Achim Gratz
-perl-gettext                                 Achim Gratz
-perl-Glib                                    Achim Gratz
-perl-Glib-Object-Introspection               Achim Gratz
-perl-GStreamer1                              Achim Gratz
-perl-Gtk3                                    Achim Gratz
-perl-Hash-Ordered                            Achim Gratz
-perl-HTML-Element-Extended                   Achim Gratz
-perl-HTML-Formatter                          Achim Gratz
-perl-HTML-Parser                             Achim Gratz
-perl-HTML-TableExtract                       Achim Gratz
-perl-HTML-Tagset                             Achim Gratz
-perl-HTML-Tree                               Achim Gratz
-perl-HTTP-CookieJar                          Achim Gratz
-perl-HTTP-Cookies                            Achim Gratz
-perl-HTTP-Daemon                             Achim Gratz
-perl-HTTP-Date                               Achim Gratz
-perl-HTTP-Message                            Achim Gratz
-perl-HTTP-Negotiate                          Achim Gratz
-perl-HTTP-Tiny                               Achim Gratz
-perl-Image-ExifTool                          Achim Gratz
-perl-Importer                                Achim Gratz
-perl-inc-latest                              Achim Gratz
-perl-Inline                                  Achim Gratz
-perl-Inline-Files                            Achim Gratz
-perl-IO-CaptureOutput                        Achim Gratz
-perl-IO-Compress                             Achim Gratz
-perl-IO-Compress-Lzma                        Achim Gratz
-perl-IO-Compress-Zstd                        Achim Gratz
-perl-IO-HTML                                 Achim Gratz/Ken Brown
-perl-IO-Prompt-Tiny                          Achim Gratz
-perl-IO-Socket-INET6                         Achim Gratz
-perl-IO-Socket-IP                            Achim Gratz
-perl-IO-Socket-SSL                           Achim Gratz
-perl-IO-String                               Achim Gratz
-perl-IO-stringy                              Achim Gratz
-perl-IO-Tty                                  Achim Gratz
-perl-IPC-Cmd                                 Achim Gratz
-perl-IPC-Run                                 Achim Gratz
-perl-IPC-Run3                                Achim Gratz/Ken Brown
-perl-IPC-System-Simple                       Achim Gratz
-perl-JSON                                    Achim Gratz
-perl-JSON-MaybeXS                            Achim Gratz
-perl-JSON-Parse                              Achim Gratz
-perl-JSON-PP                                 Achim Gratz
-perl-JSON-XS                                 Achim Gratz
-perl-Lchown                                  Achim Gratz
-perl-libwww-perl                             Achim Gratz
-perl-libxml-perl                             Achim Gratz
-perl-Lingua-Translit                         Achim Gratz
-perl-List-AllUtils                           Achim Gratz/Ken Brown
-perl-List-MoreUtils                          Achim Gratz/Ken Brown
-perl-List-MoreUtils-XS                       Achim Gratz/Ken Brown
-perl-List-SomeUtils                          Achim Gratz
-perl-List-SomeUtils-XS                       Achim Gratz
-perl-List-UtilsBy                            Achim Gratz
-perl-Log-Log4perl                            Achim Gratz/Ken Brown
-perl-LWP-MediaTypes                          Achim Gratz
-perl-LWP-Online                              Achim Gratz
-perl-LWP-Protocol-https                      Achim Gratz/Ken Brown
-perl-Mail-Box                                Achim Gratz
-perl-Mail-Box-Parser-C                       Achim Gratz
-perl-Mail-IMAPClient                         Achim Gratz
-perl-Mail-Mbox-MessageParser                 Achim Gratz
-perl-Mail-Message                            Achim Gratz
-perl-Mail-Transport                          Achim Gratz
-perl-MailTools                               Achim Gratz
-perl-Math-Int64                              Achim Gratz
-perl-Metabase-Client-Simple                  Achim Gratz
-perl-Metabase-Fact                           Achim Gratz
-perl-MetaCPAN-Client                         Achim Gratz
-perl-MIME-Base32                             Achim Gratz
-perl-MIME-Charset                            Achim Gratz/Ken Brown
-perl-MIME-tools                              Achim Gratz
-perl-MIME-Types                              Achim Gratz
-perl-Mixin-Linewise                          Achim Gratz
-perl-Mock-Config                             Achim Gratz
-perl-Module-Build                            Achim Gratz
-perl-Module-Build-Tiny                       Achim Gratz
-perl-Module-Build-XSUtil                     Achim Gratz
-perl-Module-Implementation                   Achim Gratz
-perl-Module-Install                          Achim Gratz
-perl-Module-Load-Conditional                 Achim Gratz
-perl-Module-Metadata                         Achim Gratz
-perl-Module-Pluggable                        Achim Gratz
-perl-Module-Runtime                          Achim Gratz
-perl-Module-ScanDeps                         Achim Gratz
-perl-Module-Signature                        Achim Gratz
-perl-Mojolicious                             Achim Gratz
-perl-Moo                                     Achim Gratz
-perl-Mozilla-CA                              Achim Gratz/Ken Brown
-perl-MRO-Compat                              Achim Gratz
-perl-namespace-autoclean                     Achim Gratz
-perl-namespace-clean                         Achim Gratz
-perl-Net-DNS                                 Achim Gratz
-perl-Net-DNS-SEC                             Achim Gratz
-perl-Net-HTTP                                Achim Gratz
-perl-Net-IP                                  Achim Gratz
-perl-Net-SMTP-SSL                            Achim Gratz
-perl-Net-SSLeay                              Achim Gratz
-perl-Net-XMPP                                Achim Gratz
-perl-Number-Compare                          Achim Gratz/Ken Brown
-perl-Number-Misc                             Achim Gratz
-perl-Object-Realize-Later                    Achim Gratz
-perl-OpenGL                                  Achim Gratz
-perl-Package-DeprecationManager              Achim Gratz/Ken Brown
-perl-Package-Stash                           Achim Gratz
-perl-Package-Stash-XS                        Achim Gratz
-perl-PadWalker                               Achim Gratz
-perl-Pango                                   Achim Gratz
-perl-PAR                                     Achim Gratz
-perl-PAR-Dist                                Achim Gratz
-perl-PAR-Packer                              Achim Gratz/Ken Brown
-perl-Params-Util                             Achim Gratz
-perl-Params-Validate                         Achim Gratz
-perl-Params-ValidationCompiler               Achim Gratz
-perl-Parse-RecDescent                        Achim Gratz
-perl-Path-Class                              Achim Gratz
-perl-Path-Tiny                               Achim Gratz
-perl-PDF-API2                                Achim Gratz
-perl-PerlIO-utf8_strict                      Achim Gratz/Ken Brown
-perl-PerlIO-Util                             Achim Gratz
-perl-Pod-Coverage                            Achim Gratz
-perl-Pod-Coverage-TrustPod                   Achim Gratz
-perl-Pod-Escapes                             Achim Gratz
-perl-Pod-Eventual                            Achim Gratz
-perl-Pod-LaTeX                               Achim Gratz
-perl-Pod-Parser                              Achim Gratz
-perl-Pod-Perldoc                             Achim Gratz
-perl-Pod-Plainer                             Achim Gratz
-perl-Pod-Simple                              Achim Gratz
-perl-POD2-Base                               Achim Gratz
-perl-pod2pdf                                 Achim Gratz
-perl-Probe-Perl                              Achim Gratz
-perl-Proc-ProcessTable                       Achim Gratz
-perl-Readonly                                Achim Gratz/Ken Brown
-perl-Readonly-XS                             Achim Gratz/Ken Brown
-perl-Ref-Util                                Achim Gratz
-perl-Ref-Util-XS                             Achim Gratz
-perl-Regexp-Common                           Achim Gratz/Ken Brown
-perl-Role-Tiny                               Achim Gratz
-perl-Safe-Isa                                Achim Gratz
-perl-Scalar-List-Utils                       Achim Gratz
-perl-Scope-Guard                             Achim Gratz
-perl-SGMLSpm                                 Achim Gratz
-perl-Socket                                  Achim Gratz
-perl-Socket6                                 Achim Gratz
-perl-Sort-Key                                Achim Gratz/Ken Brown
-perl-Sort-Versions                           Achim Gratz
-perl-Specio                                  Achim Gratz
-perl-Spiffy                                  Achim Gratz
-perl-String-Util                             Achim Gratz
-perl-Sub-Exporter                            Achim Gratz
-perl-Sub-Exporter-Progressive                Achim Gratz
-perl-Sub-Identify                            Achim Gratz
-perl-Sub-Info                                Achim Gratz
-perl-Sub-Install                             Achim Gratz
-perl-Sub-Name                                Achim Gratz
-perl-Sub-Quote                               Achim Gratz
-perl-Sub-Uplevel                             Achim Gratz
-perl-SUPER                                   Achim Gratz
-perl-Syntax-Keyword-Try                      Achim Gratz
-perl-Tee                                     Achim Gratz
-perl-Term-ReadLine-Gnu                       Achim Gratz
-perl-Term-ReadLine-Perl                      Achim Gratz
-perl-Term-Table                              Achim Gratz
-perl-TermReadKey                             Achim Gratz
-perl-Test-Base                               Achim Gratz
-perl-Test-Compile                            Achim Gratz
-perl-Test-CPAN-Meta                          Achim Gratz
-perl-Test-Deep                               Achim Gratz
-perl-Test-Differences                        Achim Gratz
-perl-Test-EOL                                Achim Gratz
-perl-Test-Exception                          Achim Gratz
-perl-Test-FailWarnings                       Achim Gratz
-perl-Test-Fatal                              Achim Gratz
-perl-Test-File                               Achim Gratz
-perl-Test-File-ShareDir                      Achim Gratz
-perl-Test-Fork                               Achim Gratz
-perl-Test-Harness                            Achim Gratz
-perl-Test-Inter                              Achim Gratz
-perl-Test-LeakTrace                          Achim Gratz
-perl-Test-Memory-Cycle                       Achim Gratz
-perl-Test-MockModule                         Achim Gratz
-perl-Test-More-UTF8                          Achim Gratz
-perl-Test-Needs                              Achim Gratz
-perl-Test-NoTabs                             Achim Gratz
-perl-Test-NoWarnings                         Achim Gratz
-perl-Test-Output                             Achim Gratz
-perl-Test-Pod                                Achim Gratz
-perl-Test-Pod-Coverage                       Achim Gratz
-perl-Test-Reporter                           Achim Gratz
-perl-Test-Reporter-Transport-Metabase        Achim Gratz
-perl-Test-Requires                           Achim Gratz
-perl-Test-RequiresInternet                   Achim Gratz
-perl-Test-Script                             Achim Gratz
-perl-Test-Simple                             Achim Gratz
-perl-Test-TinyMocker                         Achim Gratz
-perl-Test-Toolbox                            Achim Gratz
-perl-Test-TrailingSpace                      Achim Gratz
-perl-Test-Trap                               Achim Gratz
-perl-Test-utf8                               Achim Gratz
-perl-Test-Warn                               Achim Gratz
-perl-Test-Warnings                           Achim Gratz
-perl-Test-Without-Module                     Achim Gratz
-perl-Test-YAML                               Achim Gratz
-perl-Test2-Plugin-NoWarnings                 Achim Gratz
-perl-Test2-Suite                             Achim Gratz
-perl-Text-BibTeX                             Achim Gratz/Ken Brown
-perl-Text-CharWidth                          Achim Gratz
-perl-Text-CSV                                Achim Gratz
-perl-Text-CSV_XS                             Achim Gratz
-perl-Text-Diff                               Achim Gratz
-perl-Text-Glob                               Achim Gratz/Ken Brown
-perl-Text-Roman                              Achim Gratz/Ken Brown
-perl-Text-Template                           Achim Gratz
-perl-Text-WrapI18N                           Achim Gratz
-perl-Tie-Cycle                               Achim Gratz/Ken Brown
-perl-TimeDate                                Achim Gratz
-perl-Tk                                      Achim Gratz
-perl-Tk-Canvas-GradientColor                 Achim Gratz
-perl-Tk-ColoredButton                        Achim Gratz
-perl-Tk-EntryCheck                           Achim Gratz
-perl-Tk-FontDialog                           Achim Gratz
-perl-Tk-Getopt                               Achim Gratz
-perl-Tk-Pod                                  Achim Gratz
-perl-Try-Tiny                                Achim Gratz
-perl-Type-Tiny                               Achim Gratz
-perl-Type-Tiny                               Achim Gratz
-perl-Types-Serialiser                        Achim Gratz
-perl-Unicode-Collate                         Achim Gratz/Ken Brown
-perl-Unicode-LineBreak                       Achim Gratz/Ken Brown
-perl-Unicode-Normalize                       Achim Gratz/Ken Brown
-perl-UNIVERSAL-require                       Achim Gratz
-perl-URI                                     Achim Gratz
-perl-User-Identity                           Achim Gratz
-perl-Variable-Magic                          Achim Gratz
-perl-Win32                                   Achim Gratz
-perl-Win32-API                               Achim Gratz
-perl-Win32-GUI                               Achim Gratz
-perl-WWW-Curl                                Achim Gratz
-perl-WWW-RobotRules                          Achim Gratz
-perl-Wx                                      Achim Gratz
-perl-XML-DOM                                 Achim Gratz
-perl-XML-LibXML                              Achim Gratz
-perl-XML-LibXML-Simple                       Achim Gratz/Ken Brown
-perl-XML-LibXSLT                             Achim Gratz/Ken Brown
-perl-XML-NamespaceSupport                    Achim Gratz
-perl-XML-Parser                              Achim Gratz
-perl-XML-RegExp                              Achim Gratz
-perl-XML-SAX                                 Achim Gratz
-perl-XML-SAX-Base                            Achim Gratz
-perl-XML-SAX-Expat                           Achim Gratz
-perl-XML-Simple                              Achim Gratz
-perl-XML-Stream                              Achim Gratz
-perl-XML-Writer                              Achim Gratz/Ken Brown
-perl-XML-XPath                               Achim Gratz
-perl-XS-Parse-Keyword                        Achim Gratz
-perl-XSLoader                                Achim Gratz
-perl-YAML                                    Achim Gratz
-perl-YAML-LibYAML                            Achim Gratz
-perl-YAML-Tiny                               Achim Gratz
+perl                                         @perl
+perl-Algorithm-Combinatorics                 @perl
+perl-Algorithm-Diff                          @perl
+perl-Alien-Build                             @perl
+perl-Alien-Build-Plugin-Download-GitLab      @perl
+perl-Alien-CFITSIO                           @perl
+perl-Alien-Libxml2                           @perl
+perl-Alien-wxWidgets                         @perl
+perl-App-XML-DocBook-Builder                 @perl
+perl-Archive-Extract                         @perl
+perl-Archive-Zip                             @perl
+perl-Astro-FITS-CFITSIO                      @perl
+perl-Authen-SASL                             @perl
+perl-Authen-SASL-XS                          @perl
+perl-autovivification                        @perl/Ken Brown
+perl-B-COW                                   @perl
+perl-B-Generate                              @perl
+perl-B-Hooks-EndOfScope                      @perl
+perl-Business-ISBN                           @perl/Ken Brown
+perl-Business-ISBN-Data                      @perl/Ken Brown
+perl-Business-ISMN                           @perl/Ken Brown
+perl-Business-ISSN                           @perl/Ken Brown
+perl-Cairo                                   @perl
+perl-Cairo-GObject                           @perl
+perl-Canary-Stability                        @perl
+perl-Capture-Tiny                            @perl/Ken Brown
+perl-Carp                                    OBSOLETE (@perl)
+perl-CGI                                     @perl
+perl-Class-Accessor                          @perl
+perl-Class-Data-Inheritable                  @perl
+perl-Class-Factory-Util                      @perl/Ken Brown
+perl-Class-Inspector                         @perl
+perl-Class-Load                              @perl
+perl-Class-Method-Modifiers                  @perl
+perl-Class-Singleton                         @perl
+perl-Class-Tiny                              @perl
+perl-Class-XSAccessor                        @perl
+perl-Clone                                   @perl
+perl-common-sense                            @perl
+perl-Compress-Bzip2                          @perl
+perl-Compress-Raw-Lzma                       @perl
+perl-Compress-Stream-Zstd                    @perl
+perl-Config-AutoConf                         @perl/Ken Brown
+perl-Config-Perl-V                           OBSOLETE (@perl)
+perl-Config-Tiny                             @perl
+perl-CPAN-Changes                            @perl
+perl-CPAN-Checksums                          @perl
+perl-CPAN-DistnameInfo                       @perl
+perl-CPAN-Meta                               OBSOLETE (@perl)
+perl-CPAN-Meta-Check                         @perl
+perl-CPAN-Meta-Requirements                  OBSOLETE (@perl)
+perl-CPAN-Meta-YAML                          OBSOLETE (@perl)
+perl-CPAN-Reporter                           @perl
+perl-CPAN-Requirements-Dynamic               @perl
+perl-CPAN-SQLite                             @perl
+perl-CPAN-Testers-Report                     @perl
+perl-Cpanel-JSON-XS                          @perl
+perl-Crypt-OpenSSL-Bignum                    @perl
+perl-Crypt-OpenSSL-DSA                       @perl
+perl-Crypt-OpenSSL-EC                        @perl
+perl-Crypt-OpenSSL-ECDSA                     @perl
+perl-Crypt-OpenSSL-Guess                     @perl
+perl-Crypt-OpenSSL-Random                    @perl
+perl-Crypt-OpenSSL-RSA                       @perl
+perl-Cwd-Guard                               @perl
+perl-Data-Alias                              OBSOLETE (@perl)
+perl-Data-Compare                            @perl/Ken Brown
+perl-Data-Diver                              @perl/Ken Brown
+perl-Data-Dump                               @perl/Ken Brown
+perl-Data-GUID                               @perl
+perl-Data-OptList                            @perl
+perl-Data-Uniqid                             @perl
+perl-Data-UUID                               @perl
+perl-Date-Manip                              @perl
+perl-Date-Simple                             @perl/Ken Brown
+perl-DateTime                                @perl
+perl-DateTime-Calendar-Julian                @perl/Ken Brown
+perl-DateTime-Format-Builder                 @perl/Ken Brown
+perl-DateTime-Format-Strptime                @perl/Ken Brown
+perl-DateTime-Locale                         @perl
+perl-DateTime-TimeZone                       @perl
+perl-DBD-mysql                               @perl
+perl-DBD-SQLite                              @perl
+perl-DBI                                     @perl
+perl-Devel-Autoflush                         @perl
+perl-Devel-CheckBin                          @perl
+perl-Devel-CheckCompiler                     @perl
+perl-Devel-CheckLib                          @perl
+perl-Devel-Cycle                             @perl
+perl-Devel-GlobalDestruction                 @perl
+perl-Devel-Size                              @perl
+perl-Devel-StackTrace                        @perl
+perl-Devel-Symdump                           @perl
+perl-Digest-BubbleBabble                     @perl
+perl-Digest-GOST                             @perl
+perl-Digest-HMAC                             @perl
+perl-Digest-SHA                              @perl
+perl-Digest-SHA1                             @perl
+perl-Digest-SHA2                             @perl
+perl-Dist-CheckConflicts                     @perl
+perl-Encode-compat                           @perl
+perl-Encode-EUCJPASCII                       @perl/Ken Brown
+perl-Encode-HanExtra                         @perl/Ken Brown
+perl-Encode-ISO2022                          @perl
+perl-Encode-JIS2K                            @perl/Ken Brown
+perl-Encode-JISX0213                         @perl
+perl-Encode-Locale                           @perl
+perl-Error                                   @perl
+perl-Eval-Closure                            @perl
+perl-Exception-Class                         @perl
+perl-Expect                                  @perl
+perl-Exporter-Tiny                           @perl
+perl-ExtUtils-CBuilder                       OBSOLETE (@perl)
+perl-ExtUtils-CChecker                       @perl
+perl-ExtUtils-Config                         @perl
+perl-ExtUtils-Depends                        @perl
+perl-ExtUtils-F77                            @perl
+perl-ExtUtils-HasCompiler                    @perl
+perl-ExtUtils-Helpers                        @perl
+perl-ExtUtils-InstallPaths                   @perl
+perl-ExtUtils-LibBuilder                     @perl/Ken Brown
+perl-ExtUtils-MakeMaker                      OBSOLETE (@perl)
+perl-ExtUtils-PkgConfig                      @perl
+perl-ExtUtils-XSpp                           @perl
+perl-Fennec-Lite                             @perl
+perl-FFI-CheckLib                            @perl
+perl-File-chdir                              @perl
+perl-File-Copy-Recursive                     @perl
+perl-File-Find-Object                        @perl
+perl-File-Find-Object-Rule                   @perl
+perl-File-Find-Rule                          @perl/Ken Brown
+perl-File-HomeDir                            @perl
+perl-File-Listing                            @perl
+perl-File-pushd                              @perl
+perl-File-Remove                             @perl
+perl-File-ShareDir                           @perl
+perl-File-ShareDir-Install                   @perl
+perl-File-ShouldUpdate                       @perl
+perl-File-Slurp                              @perl/Ken Brown
+perl-File-Slurp-Tiny                         @perl
+perl-File-Slurper                            @perl
+perl-File-TreeCreate                         @perl
+perl-File-Which                              @perl
+perl-FileHandle-Unget                        @perl
+perl-Finance-Quote                           ORPHANED (@perl)
+perl-Font-AFM                                @perl
+perl-Font-FreeType                           @perl
+perl-Font-TTF                                @perl
+perl-GD                                      @perl
+perl-Getopt-ArgvFile                         @perl
+perl-gettext                                 OBSOLETE (@perl)
+perl-Glib                                    @perl
+perl-Glib-Object-Introspection               @perl
+perl-GStreamer1                              @perl
+perl-Gtk3                                    @perl
+perl-Hash-Ordered                            @perl
+perl-HTML-Element-Extended                   @perl
+perl-HTML-Formatter                          @perl
+perl-HTML-Parser                             @perl
+perl-HTML-TableExtract                       @perl
+perl-HTML-Tagset                             @perl
+perl-HTML-Tree                               @perl
+perl-HTTP-CookieJar                          @perl
+perl-HTTP-Cookies                            @perl
+perl-HTTP-Daemon                             @perl
+perl-HTTP-Date                               @perl
+perl-HTTP-Message                            @perl
+perl-HTTP-Negotiate                          @perl
+perl-HTTP-Tiny                               OBSOLETE (@perl)
+perl-Image-ExifTool                          @perl
+perl-Importer                                @perl
+perl-inc-latest                              @perl
+perl-Inline                                  @perl
+perl-Inline-Files                            @perl
+perl-IO-CaptureOutput                        @perl
+perl-IO-Compress                             OBSOLETE (@perl)
+perl-IO-Compress-Lzma                        @perl
+perl-IO-Compress-Zstd                        @perl
+perl-IO-HTML                                 @perl/Ken Brown
+perl-IO-Prompt-Tiny                          @perl
+perl-IO-Socket-INET6                         @perl
+perl-IO-Socket-IP                            OBSOLETE (@perl)
+perl-IO-Socket-SSL                           @perl
+perl-IO-String                               @perl
+perl-IO-stringy                              @perl
+perl-IO-Tty                                  @perl
+perl-IPC-Cmd                                 OBSOLETE (@perl)
+perl-IPC-Run                                 @perl
+perl-IPC-Run3                                @perl/Ken Brown
+perl-IPC-System-Simple                       @perl
+perl-JSON                                    @perl
+perl-JSON-MaybeXS                            @perl
+perl-JSON-Parse                              @perl
+perl-JSON-PP                                 OBSOLETE (@perl)
+perl-JSON-XS                                 @perl
+perl-Lchown                                  @perl
+perl-libwww-perl                             @perl
+perl-libxml-perl                             @perl
+perl-Lingua-Translit                         @perl
+perl-List-AllUtils                           @perl/Ken Brown
+perl-List-MoreUtils                          @perl/Ken Brown
+perl-List-MoreUtils-XS                       @perl/Ken Brown
+perl-List-SomeUtils                          @perl
+perl-List-SomeUtils-XS                       @perl
+perl-List-UtilsBy                            @perl
+perl-Locale-gettext                          @perl
+perl-Log-Log4perl                            @perl/Ken Brown
+perl-LWP-MediaTypes                          @perl
+perl-LWP-Online                              @perl
+perl-LWP-Protocol-https                      @perl/Ken Brown
+perl-Mail-Box                                @perl
+perl-Mail-Box-Parser-C                       @perl
+perl-Mail-IMAPClient                         @perl
+perl-Mail-Mbox-MessageParser                 @perl
+perl-Mail-Message                            @perl
+perl-Mail-Transport                          @perl
+perl-MailTools                               @perl
+perl-Math-Int64                              @perl
+perl-Meta-Builder                            @perl
+perl-Metabase-Client-Simple                  @perl
+perl-Metabase-Fact                           @perl
+perl-MetaCPAN-Client                         @perl
+perl-MIME-Base32                             @perl
+perl-MIME-Charset                            @perl/Ken Brown
+perl-MIME-tools                              @perl
+perl-MIME-Types                              @perl
+perl-Mixin-Linewise                          @perl
+perl-Mock-Config                             @perl
+perl-Module-Build                            @perl
+perl-Module-Build-Tiny                       @perl
+perl-Module-Build-XSUtil                     @perl
+perl-Module-Implementation                   @perl
+perl-Module-Install                          @perl
+perl-Module-Load-Conditional                 OBSOLETE (@perl)
+perl-Module-Metadata                         OBSOLETE (@perl)
+perl-Module-Pluggable                        @perl
+perl-Module-Runtime                          @perl
+perl-Module-ScanDeps                         @perl
+perl-Module-Signature                        @perl
+perl-Mojolicious                             @perl
+perl-Moo                                     @perl
+perl-Mozilla-CA                              @perl/Ken Brown
+perl-MRO-Compat                              @perl
+perl-namespace-autoclean                     @perl
+perl-namespace-clean                         @perl
+perl-Net-DNS                                 @perl
+perl-Net-DNS-SEC                             @perl
+perl-Net-HTTP                                @perl
+perl-Net-IP                                  @perl
+perl-Net-SMTP-SSL                            @perl
+perl-Net-SSLeay                              @perl
+perl-Net-XMPP                                @perl
+perl-Number-Compare                          @perl/Ken Brown
+perl-Number-Misc                             @perl
+perl-Object-Realize-Later                    @perl
+perl-OpenGL                                  @perl
+perl-Package-DeprecationManager              @perl/Ken Brown
+perl-Package-Stash                           @perl
+perl-Package-Stash-XS                        @perl
+perl-PadWalker                               @perl
+perl-Pango                                   @perl
+perl-PAR                                     @perl
+perl-PAR-Dist                                @perl
+perl-PAR-Packer                              @perl/Ken Brown
+perl-Params-Util                             @perl
+perl-Params-Validate                         @perl
+perl-Params-ValidationCompiler               @perl
+perl-Parse-RecDescent                        @perl
+perl-Parse-Yapp                              @perl
+perl-Path-Class                              @perl
+perl-Path-Tiny                               @perl
+perl-PDF-API2                                @perl
+perl-PerlIO-utf8_strict                      @perl/Ken Brown
+perl-PerlIO-Util                             @perl
+perl-Pod-Coverage                            @perl
+perl-Pod-Coverage-TrustPod                   @perl
+perl-Pod-Escapes                             OBSOLETE (@perl)
+perl-Pod-Eventual                            @perl
+perl-Pod-LaTeX                               @perl
+perl-Pod-Markdown                            @perl
+perl-Pod-Parser                              @perl
+perl-Pod-Perldoc                             @perl
+perl-Pod-Plainer                             @perl
+perl-Pod-Simple                              OBSOLETE (@perl)
+perl-POD2-Base                               @perl
+perl-pod2pdf                                 @perl
+perl-Probe-Perl                              @perl
+perl-Proc-ProcessTable                       @perl
+perl-Readonly                                @perl/Ken Brown
+perl-Readonly-XS                             @perl/Ken Brown
+perl-Ref-Util                                @perl
+perl-Ref-Util-XS                             @perl
+perl-Regexp-Common                           @perl/Ken Brown
+perl-Role-Tiny                               @perl
+perl-Safe-Isa                                @perl
+perl-Scalar-List-Utils                       @perl
+perl-Scope-Guard                             @perl
+perl-SGMLSpm                                 @perl
+perl-Socket                                  OBSOLETE (@perl)
+perl-Socket6                                 @perl
+perl-Sort-Key                                @perl/Ken Brown
+perl-Sort-Versions                           @perl
+perl-Specio                                  @perl
+perl-Spiffy                                  @perl
+perl-String-Util                             @perl
+perl-Sub-Exporter                            @perl
+perl-Sub-Exporter-Progressive                @perl
+perl-Sub-Identify                            @perl
+perl-Sub-Info                                @perl
+perl-Sub-Install                             @perl
+perl-Sub-Name                                @perl
+perl-Sub-Quote                               @perl
+perl-Sub-Uplevel                             @perl
+perl-SUPER                                   @perl
+perl-Syntax-Keyword-Try                      @perl
+perl-Tee                                     @perl
+perl-Term-ReadLine-Gnu                       @perl
+perl-Term-ReadLine-Perl                      @perl
+perl-Term-Table                              @perl
+perl-TermReadKey                             @perl
+perl-Test-Base                               @perl
+perl-Test-Compile                            @perl
+perl-Test-CPAN-Meta                          @perl
+perl-Test-Deep                               @perl
+perl-Test-Differences                        @perl
+perl-Test-EOL                                @perl
+perl-Test-Exception                          @perl
+perl-Test-FailWarnings                       @perl
+perl-Test-Fatal                              @perl
+perl-Test-File                               @perl
+perl-Test-File-ShareDir                      @perl
+perl-Test-Fork                               @perl
+perl-Test-Harness                            OBSOLETE (@perl)
+perl-Test-Inter                              @perl
+perl-Test-LeakTrace                          @perl
+perl-Test-Memory-Cycle                       @perl
+perl-Test-MockModule                         @perl
+perl-Test-More-UTF8                          @perl
+perl-Test-Needs                              @perl
+perl-Test-NoTabs                             @perl
+perl-Test-NoWarnings                         @perl
+perl-Test-Output                             @perl
+perl-Test-Pod                                @perl
+perl-Test-Pod-Coverage                       @perl
+perl-Test-Reporter                           @perl
+perl-Test-Reporter-Transport-Metabase        @perl
+perl-Test-Requires                           @perl
+perl-Test-RequiresInternet                   @perl
+perl-Test-Script                             @perl
+perl-Test-Simple                             OBSOLETE (@perl)
+perl-Test-TinyMocker                         @perl
+perl-Test-Toolbox                            @perl
+perl-Test-TrailingSpace                      @perl
+perl-Test-Trap                               @perl
+perl-Test-utf8                               @perl
+perl-Test-Warn                               @perl
+perl-Test-Warnings                           @perl
+perl-Test-Without-Module                     @perl
+perl-Test-YAML                               @perl
+perl-Test2-Plugin-NoWarnings                 @perl
+perl-Test2-Suite                             OBSOLETE (@perl)
+perl-Text-BibTeX                             @perl/Ken Brown
+perl-Text-CharWidth                          @perl
+perl-Text-CSV                                @perl
+perl-Text-CSV_XS                             @perl
+perl-Text-Diff                               @perl
+perl-Text-Glob                               @perl/Ken Brown
+perl-Text-Roman                              @perl/Ken Brown
+perl-Text-Template                           @perl
+perl-Text-WrapI18N                           @perl
+perl-Tie-Cycle                               @perl/Ken Brown
+perl-TimeDate                                @perl
+perl-Tk                                      @perl
+perl-Tk-Canvas-GradientColor                 @perl
+perl-Tk-ColoredButton                        @perl
+perl-Tk-EntryCheck                           @perl
+perl-Tk-FontDialog                           @perl
+perl-Tk-Getopt                               @perl
+perl-Tk-Pod                                  @perl
+perl-Try-Tiny                                @perl
+perl-Type-Tiny                               @perl
+perl-Types-Serialiser                        @perl
+perl-Unicode-Collate                         OBSOLETE (@perl/Ken Brown)
+perl-Unicode-LineBreak                       @perl/Ken Brown
+perl-Unicode-Normalize                       OBSOLETE (@perl/Ken Brown)
+perl-UNIVERSAL-require                       @perl
+perl-URI                                     @perl
+perl-User-Identity                           @perl
+perl-Variable-Magic                          @perl
+perl-Win32                                   OBSOLETE (@perl)
+perl-Win32-API                               @perl
+perl-Win32-GUI                               @perl
+perl-WWW-Curl                                @perl
+perl-WWW-RobotRules                          @perl
+perl-Wx                                      @perl
+perl-XML-DOM                                 @perl
+perl-XML-LibXML                              @perl
+perl-XML-LibXML-Simple                       @perl/Ken Brown
+perl-XML-LibXSLT                             @perl/Ken Brown
+perl-XML-NamespaceSupport                    @perl
+perl-XML-Parser                              @perl
+perl-XML-RegExp                              @perl
+perl-XML-SAX                                 @perl
+perl-XML-SAX-Base                            @perl
+perl-XML-SAX-Expat                           @perl
+perl-XML-Simple                              @perl
+perl-XML-Stream                              @perl
+perl-XML-Writer                              @perl/Ken Brown
+perl-XML-XPath                               @perl
+perl-XS-Parse-Keyword                        @perl
+perl-XSLoader                                OBSOLETE (@perl)
+perl-YAML                                    @perl
+perl-YAML-LibYAML                            @perl
+perl-YAML-Tiny                               @perl
 phodav                                       ORPHANED (Yaakov Selkowitz)
 phonon                                       ORPHANED (Yaakov Selkowitz)
 phonon-backend-gstreamer                     ORPHANED (Yaakov Selkowitz)

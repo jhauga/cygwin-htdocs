@@ -216,6 +216,7 @@ celestia                                     ORPHANED (Yaakov Selkowitz)
 celt051                                      ORPHANED (Yaakov Selkowitz)
 cervisia                                     ORPHANED (Yaakov Selkowitz)
 cfitsio                                      Achim Gratz
+cflow                                        Brian Inglis
 cfourcc                                      Jari Aalto
 cgdb                                         Jari Aalto
 cgif                                         Daisuke Fujimura
@@ -288,6 +289,7 @@ cutemaze                                     Lemures Lemniscati
 cvs                                          Marco Atzeri
 cvsps                                        ORPHANED (Eric Blake)
 cvsutils                                     Eric Blake
+cxref                                        Brian Inglis
 cxsparse                                     Marco Atzeri
 cygcheck-dep                                 Mikhail Usenko
 cygextreg                                    Joni Eskelinen

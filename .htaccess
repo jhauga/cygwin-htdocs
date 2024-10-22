@@ -12,12 +12,6 @@ Redirect gone /win-9x.html
 Redirect /readme_toc.html /index.html
 Redirect /license.html /licensing.html
 
-# https://cygwin.com/ml/cygwin/2010-02/msg00149.html
-<FilesMatch "^setup-(x86|x86_64)\.exe(|.sig)$">
-    ExpiresActive On
-    ExpiresDefault "now"
-</FilesMatch>
-
 # discourage use of old setup versions by serving an empty mirrors list
 # (versions >=2.890 support setup-minimum-version: so we can discourage them more directly)
 RewriteEngine On

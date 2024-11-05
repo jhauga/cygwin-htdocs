@@ -3189,6 +3189,7 @@ python-jupyter_core                          Marco Atzeri
 python-kiwisolver                            Marco Atzeri
 python-lazy-object-proxy                     Marco Atzeri
 python-libvirt                               ORPHANED (Yaakov Selkowitz)
+python-license-expression                    Brian Inglis
 python-lockfile                              Marco Atzeri
 python-lxml                                  Marco Atzeri
 python-mako                                  Marco Atzeri

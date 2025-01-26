@@ -452,7 +452,7 @@ of Cygwin is as follows:
 </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>If you have any Cygwin services running, remove by repeating 
 the instructions in <a class="ulink" href="https://cygwin.com/faq/faq.html#faq.setup.uninstall-service" target="_top">https://cygwin.com/faq/faq.html#faq.setup.uninstall-service</a> for
 all services that you installed.  Common services that might have been
-installed are <code class="literal">sshd</code>, <code class="literal">cron</code>, 
+installed are <code class="literal">cygsshd</code>, <code class="literal">cron</code>, 
 <code class="literal">cygserver</code>, <code class="literal">inetd</code>, <code class="literal">apache</code>, 
 <code class="literal">postgresql</code>, and so on.
 </p></li><li class="listitem"><p>Stop the X11 server if it is running, and terminate any Cygwin programs 
@@ -663,7 +663,7 @@ notation in your PATH or startup files.  Using <code class="literal">//c</code> 
 to contact the <span class="emphasis"><em>network server</em></span> <code class="literal">c</code>, which
 will slow things down tremendously if it does not exist.  
 </p></td></tr><tr class="question"><td align="left" valign="top"><a name="faq.using.shares"></a><a name="id1378"></a><p><b>4.4.</b></p></td><td align="left" valign="top"><p>Why can't my services access network shares?</p></td></tr><tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>If your service is one of those which switch the user context
-(sshd, inetd, etc), then it depends on the method used to switch to
+(cygsshd, inetd, etc), then it depends on the method used to switch to
 another user.  This problem as well as its solution is described in
 detail in the Cygwin User's Guide, see
 <a class="ulink" href="https://cygwin.com/cygwin-ug-net/ntsec.html" target="_top">https://cygwin.com/cygwin-ug-net/ntsec.html</a>.
@@ -766,7 +766,9 @@ See the documentation for the option <code class="literal">-noleaf</code> in the
 </p></td></tr><tr class="question"><td align="left" valign="top"><a name="faq.using.su"></a><a name="id1387"></a><p><b>4.13.</b></p></td><td align="left" valign="top"><p>Why doesn't <code class="literal">su</code> work?</p></td></tr><tr class="answer"><td align="left" valign="top"></td><td align="left" valign="top"><p>The <code class="literal">su</code> command has been in and out of Cygwin distributions, but
 it has not been ported to Cygwin and has never worked.  It is
 currently installed as part of the sh-utils, but again, it does not work.
-</p><p>You should rather install <code class="literal">sshd</code> and use
+</p><p>You should rather install <code class="literal">sshd</code> as a service
+(the service will be called <code class="literal">cygsshd</code> so as not to
+collide with the Microsoft <code class="literal">sshd</code> service) and use
 <code class="literal">ssh username@localhost</code> as a <code class="literal">su</code>
 replacement.
 </p><p>For some technical background into why <code class="literal">su</code> doesn't
@@ -868,7 +870,7 @@ running at the same time which conflict with each other.  Apart from
 mixing executables of different Cygwin installations, this could also happen
 if you have one a single Cygwin installation, for example, if you update the
 Cygwin package without exiting <span class="emphasis"><em>all</em></span> Cygwin apps (including
-services like sshd) beforehand.</p><p>The only DLL that is sanctioned by the Cygwin project is the one that
+services like cygsshd) beforehand.</p><p>The only DLL that is sanctioned by the Cygwin project is the one that
 you get by running the <a class="ulink" href="https://cygwin.com/install.html" target="_top">Cygwin Setup program</a>,
 installed in a directory controlled by this program.  If you have other
 versions on your system and desire help from the cygwin project, you should

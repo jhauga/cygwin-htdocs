@@ -106,7 +106,7 @@ foreach my $award (@awards) {
 	if ($award->{URL} =~ m{/ml/cygwin(?:|-\w+)/(\d+)-(\d+)/msg(\d+)}) {
 		$award->{date} = "$1-$2-$3";
 	}
-	elsif ($award->{URL} =~ m{/ml/cygwin(?:|-\w+)/(\d+)-q(\d)/msg(\d+)}) {
+	elsif ($award->{URL} =~ m{/(?:ml|pipermail)/cygwin(?:|-\w+)/(\d+)-?q(\d)/(?:|msg)(\d+)}) {
 		my %month = ('1' => '03', '2' => '06', '3' => '09', '4' => '12');
 		$award->{date} = "$1-$month{$2}-$3";
 	}

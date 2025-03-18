@@ -98,6 +98,7 @@ the options, including their meaning, follows.</p><pre class="screen">
 	      (default for all other mount points).
   sparse    - Switch on support for sparse files.  This option only makes
               sense on NTFS and then only if you really need sparse files.
+	      This flag is always silently enabled on SSD drives.
 	      Cygwin does not try to create sparse files by default for
 	      performance reasons.
   text      - Files default to CRLF text mode line endings.
@@ -166,6 +167,17 @@ arguments:</p><div class="example"><a name="pathnames-mount-ex"></a><p class="ti
   E:/src on /usr/src type vfat (binary)
   C: on /cygdrive/c type ntfs (binary,posix=0,user,noumount,auto)
   E: on /cygdrive/e type vfat (binary,posix=0,user,noumount,auto)
+</pre></div></div><br class="example-break"><p>Starting with Cygwin 3.6.0, the <code class="function">getmntent(3)</code>
+function exposes Windows mount points of partitions mounted into a directory
+of another drive as if they are cygdrive mounts.  This affects the content
+of <code class="filename">/proc/mounts</code> as well as the output of
+<span class="command"><strong>mount</strong></span>.</p><p>For instance, consider you have two local disks, one containing the
+<code class="filename">C:</code> drive, the other disk has one partition mounted
+into <code class="filename">C:\docs</code>.  The output from mount will now show this
+mount point like this:</p><div class="example"><a name="pathnames-mount-dir"></a><p class="title"><b>Example 3.2. Displaying Windows mount points as cygdrives</b></p><div class="example-contents"><pre class="screen">
+  <code class="prompt">bash$</code> <strong class="userinput"><code>mount | grep cygdrive</code></strong>
+  C: on /cygdrive/c type ntfs (binary,posix=0,user,noumount,auto)
+  C:/docs on /cygdrive/c/docs type ntfs (binary,posix=0,user,noumount,auto)
 </pre></div></div><br class="example-break"><p>You can also use the <span class="command"><strong>mount</strong></span> command to add
 new mount points, and the <span class="command"><strong>umount</strong></span> to delete
 them.  However, since they are only stored in memory, these mount

@@ -248,6 +248,14 @@ table.deben th
   border-style: solid;
 }
 
+table.deben tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table.deben tr:hover {
+    background-color: #fdd9b5;
+}
+
 div#main .indent
 {
     position: relative;

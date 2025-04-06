@@ -22,7 +22,17 @@ mantainers to keep their cygwin packaging under version control.
 After you have provided an <a href="key.html#sshkey">SSH key</a>,
 package maintainers can push to these git repositories, like so:
 </p>
-<code>git push cygwin@cygwin.com:/git/cygwin-packages/<i>packagename</i></code>
+
+<code class="sample-preformat">
+  git push cygwin@cygwin.com:/git/cygwin-packages/<i>packagename</i>
+</code>
+
+<p>
+  or, you can configure that as the default URL for pushing with:
+</p>
+<code class="sample-preformat">
+  git remote set-url --push origin cygwin@cygwin.com:/git/cygwin-packages/<i>packagename</i>
+</code>
 
 <p>
 where <i>packagename</i> is a package name you are listed as a maintainer for in

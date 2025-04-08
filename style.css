@@ -248,7 +248,12 @@ table.deben th
   border-style: solid;
 }
 
-table.deben tr:nth-child(even) {
+table.deben th {
+    color: #99003f;
+    border-color: black;
+}
+
+table.deben tr:nth-child(odd) {
     background-color: #f2f2f2;
 }
 

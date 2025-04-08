@@ -17,7 +17,7 @@
 <p>Run <a href="setup-x86_64.exe">setup-x86_64.exe</a> any time you want to
 update or install a Cygwin package for 64-bit windows.</p>
 
-<p>The <a href="setup-x86_64.exe.sig">signature</a>
+<p>The gpg <a href="setup-x86_64.exe.sig">signature</a>
 for <a href="setup-x86_64.exe">setup-x86_64.exe</a> can be used to verify the
 validity of this binary using the public
 key <a href="key/pubring.asc">here</a>.</p>
@@ -162,7 +162,7 @@ A: See <a href="https://cygwin.com/sha512.sum">here</a>
 </ul>
 
 <h2 class="cartouche" id="unsupported">Q: How can I install the last Cygwin
-version for an old, unsupported Windows?</h2>
+version for an old, unsupported Windows version?</h2>
 
 <p>
   A: Run setup with the options <code>--allow-unsupported-windows
@@ -232,7 +232,9 @@ version for an old, unsupported Windows?</h2>
       <a href="https://cygwin.com/ml/cygwin/2016-11/msg00071.html">Windows XP SP3<br/> Windows Server 2003<br/>(NT 5.1)</a>
     </td>
     <td>
-      current
+      2.932<br/>
+      (<a href="https://cygwin.com/setup/setup-2.932.x86_64.exe">32-bit</a>,
+      <a href="https://cygwin.com/setup/setup-2.932.x86.exe">64-bit</a>)
     </td>
     <td>
       2.5.2
@@ -288,7 +290,7 @@ version for an old, unsupported Windows?</h2>
     <b>You have been warned.</b>  If you're still sure you really need a 32-bit
     Cygwin, and there's absolutely no way around it, you may use
     the <a href="setup-x86.exe">setup-x86.exe</a> installer, following the
-    instructions above.  The <a href="setup-x86.exe.sig">signature</a> can be
+    instructions above.  The gpg <a href="setup-x86.exe.sig">signature</a> can be
     used to verify the validity of this binary.
   </p>
 

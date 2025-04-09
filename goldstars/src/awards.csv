@@ -378,7 +378,7 @@ TK,https://cygwin.com/ml/cygwin-apps/2014-08/msg00011.html,For adopting the `p7z
 TW,https://cygwin.com/ml/cygwin/2018-02/msg00053.html,For maintaining the workhorse `mintty` package.,,1
 TW,https://cygwin.com/ml/cygwin/2015-07/msg00110.html,For adopting the `mintty` package.
 
-TY,https://cygwin.com/pipermail/cygwin-patches/2025q1/013457.html,For fixing complex and difficult to reproducs bugs.,,1
+TY,https://cygwin.com/pipermail/cygwin-patches/2025q1/013457.html,For fixing complex and difficult to reproduce bugs.,,1
 TY,2024-01-03,"For (silently) adopting the `atk1.0`, `fribidi`, `gtk3`, `libdatrie`, `libthai`, and `pango1.0` packages.",6
 TY,https://cygwin.com/pipermail/cygwin-apps/2024-January/043348.html,For adopting the `pocl` package.
 TY,https://cygwin.com/pipermail/cygwin-apps/2023-September/043150.html,"For adopting the `libsamplerate`, `soxr`, and `wavpack` packages.",3

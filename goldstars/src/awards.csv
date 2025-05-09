@@ -67,7 +67,7 @@ BF,https://cygwin.com/ml/cygwin/2004-11/msg00830.html,For spearheading the dwarf
 BF,https://cygwin.com/ml/cygwin/2004-06/msg00847.html,For fixing a mailing list gateway breakage.
 BF,https://cygwin.com/ml/cygwin/2003-11/msg00601.html,For explaining why people should help out.
 
-BI,2025-05-09,"For giving quick, concise, and helpful answers on the Cygwin lists."
+BI,https://cygwin.com/pipermail/cygwin/2025-May/258121.html,"For giving quick, concise, and helpful answers on the Cygwin lists."
 BI,https://cygwin.com/ml/cygwin-apps/2017-04/msg00071.html,For adopting the `units` package.
 
 CB,https://cygwin.com/ml/cygwin/2014-06/msg00295.html,For packaging `man-db`.
@@ -257,7 +257,7 @@ JTy,https://cygwin.com/ml/cygwin/2009-07/msg00451.html,For taking over maintaine
 JY,https://cygwin.com/ml/cygwin-apps/2012-10/msg00199.html,For adopting the `w32api` package.
 JY,https://cygwin.com/ml/cygwin-apps/2012-08/msg00029.html
 
-KB,https://cygwin.com/pipermail/cygwin-apps/2025-April/044264.html,For long service maintaining lots of packages for Cygwin.,,,1
+KB,https://cygwin.com/pipermail/cygwin-apps/2025-April/044264.html,For long service maintaining many packages for Cygwin.,,,1
 KB,https://cygwin.com/pipermail/cygwin-apps/2023-May/042910.html,For strange and subtle manipulations.,,1
 KB,https://cygwin.com/pipermail/cygwin/2021-November/249855.html,For overhauling the Cygwin pipe code to make XEmacs unusable.
 KB,https://cygwin.com/ml/cygwin/2019-12/msg00132.html,For revamping the FIFO code in Cygwin.,,1

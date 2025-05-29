@@ -403,18 +403,20 @@ table.pkgdetails tr td:first-child {
     white-space: nowrap;
 }
 
-/* category-list related --------------------------------------------------- */
+/* multicolumn list ----------------------------------------------------- */
 
-#category-list
+.multicolumn-list
 {
-    -moz-column-width: 5em;
-    -webkit-column-width: 5em;
-    column-width: 5em;
-    width: 50%;
+    -moz-column-width: 15em;
+    -webkit-column-width: 15em;
+    column-width: 15em;
+    column-rule-style: double;
+    column-rule-color: #99003f;
+    width: 90%;
     margin: auto;
 }
 
-#category-list p
+.multicolumn-list p
 {
     margin: 0;
 }

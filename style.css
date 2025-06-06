@@ -325,6 +325,18 @@ ul.compact li
     flex-basis: 100%;
 }
 
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.amber {
+    color: goldenrod;
+}
+
 /* pkglist related --------------------------------------------------- */
 
 /*

@@ -13,7 +13,7 @@ color: #000066;
 text-decoration: underline;
 }
 
-/* Navbar related --------------------------------------------------- */
+/* Navbar related -------------------------------------------------------- */
 
 #navbar
 {
@@ -72,13 +72,13 @@ color:gold;
   padding-left: 0.75em;
 }
 
-/* -------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------- */
 
 #top
 {
 }
 
-/* Two-column what is/isn't it layout --------------------------------------- */
+/* Two-column what is/isn't it layout ------------------------------------ */
 
 .no-vert-margins
 {
@@ -118,7 +118,7 @@ font-size: .9em;
     border-top: 2px solid #e8e8e8;
 }
 
-/* main --------------------------------------------------- */
+/* main ------------------------------------------------------------------ */
 
 #main
 {
@@ -182,7 +182,7 @@ left: -1.5em;
 overflow: visible;
 }
 
-/* Header/footer styles -----------------------------------------------*/
+/* Header/footer styles -------------------------------------------------- */
 
 #big-title
 {
@@ -213,7 +213,7 @@ border-top: 2px solid #e8e8e8;
 text-align: center;
 }
 
-/* rounded cartouche -------------------------------------------------------- */
+/* rounded cartouche ----------------------------------------------------- */
 
 .cartouche
 {
@@ -222,7 +222,7 @@ border-radius: 8px;
 padding: 4px;
 }
 
-/* miscellaneous styles ---------------------------------------------- */
+/* miscellaneous styles -------------------------------------------------- */
 
 table#mirroradmin
 {
@@ -337,7 +337,7 @@ ul.compact li
     color: goldenrod;
 }
 
-/* pkglist related --------------------------------------------------- */
+/* pkglist related ------------------------------------------------------- */
 
 /*
   use a fixed table layout because the table is huge, and so with auto layout it
@@ -366,7 +366,7 @@ table.pkglist {
     padding-left: 10px;
 }
 
-/* pkg summary related ---------------------------------------------------- */
+/* pkg summary related --------------------------------------------------- */
 
 .detail
 {
@@ -415,7 +415,7 @@ table.pkgdetails tr td:first-child {
     white-space: nowrap;
 }
 
-/* multicolumn list ----------------------------------------------------- */
+/* multicolumn list ------------------------------------------------------ */
 
 .multicolumn-list
 {
@@ -433,7 +433,7 @@ table.pkgdetails tr td:first-child {
     margin: 0;
 }
 
-/* packaging related --------------------------------------------------- */
+/* packaging related ----------------------------------------------------- */
 
 .sample-email
 {
@@ -450,7 +450,7 @@ table.pkgdetails tr td:first-child {
     margin-right:5%;
 }
 
-/* acronyms related --------------------------------------------------- */
+/* acronyms related ------------------------------------------------------ */
 
 .valigntop td, .valigntop th
 {
@@ -468,7 +468,7 @@ table.pkgdetails tr td:first-child {
     margin-top: 0px;
 }
 
-/* grid table style used for reports---------------------------------------- */
+/* grid table style used for reports-------------------------------------- */
 
 table.grid {
     width: 95%;

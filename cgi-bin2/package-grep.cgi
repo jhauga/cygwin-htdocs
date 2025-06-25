@@ -76,7 +76,7 @@ fi
 
 # silently ignores unknown arch values
 param_arch=x86_64
-dir=../packages/x86_64
+dir=x86_64
 
 ############################## print headerstuff
 
@@ -122,7 +122,7 @@ fi
 tmpfile=`mktemp`
 trap 'rm -f $tmpfile' 0 1 2 3 4 5 9 15
 if [ -n "$param_grep" ]; then
-    find $dir -mindepth 2 -maxdepth 2 -not -name '.*' | xargs -L1000 -P16 env LC_ALL=C grep --line-buffered -l -- "$param_grep" | sort > "$tmpfile"
+    find ../packages/{$dir,noarch,src} -mindepth 2 -maxdepth 2 -not -name '.*' -prune  | xargs -L1000 -P16 env LC_ALL=C grep --line-buffered -l -- "$param_grep" | sort > "$tmpfile"
     # 1000 is less than 1/16th of the number of $dir/*/* files
 else
     touch "$tmpfile"

@@ -86,6 +86,7 @@ CS,https://cygwin.com/ml/cygwin-apps/2007-07/msg00171.html,For adopting the `hex
 CS,https://cygwin.com/ml/cygwin-apps/2007-04/msg00030.html,For cleaning up the `mingw-runtime` package.
 CS,https://cygwin.com/ml/cygwin-apps/2006-11/msg00092.html,For adopting the `astyle` package.
 
+CV,https://cygwin.com/pipermail/cygwin/2025-June/258366.html,For finding and fixing her own 16-year-old bug.
 CV,https://cygwin.com/pipermail/cygwin-apps/2023-May/042910.html,For strange and subtle manipulations.,,1
 CV,https://cygwin.com/pipermail/cygwin/2021-November/249855.html,For overhauling the Cygwin pipe code to make XEmacs unusable.
 CV,http://cygwin.com/ml/cygwin/2019-03/msg00273.html,For fixing a long-standing bug in screen.

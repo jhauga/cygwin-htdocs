@@ -118,19 +118,14 @@ using <code>-p package</code> or <code>-e package1 package2 ...</code> options.
 <p>A: e.g.</p>
 
 <pre>
-$ gpg --recv-key 1A698DE9E2E56300
-gpg: requesting key 1A698DE9E2E56300 from hkp server keys.gnupg.net
+$ gpg --recv-key 56405CF6FCC81574682A5D561A698DE9E2E56300
 gpg: key 1A698DE9E2E56300: "Cygwin &lt;cygwin@cygwin.com&gt;" imported
-gpg: 3 marginal(s) needed, 1 complete(s) needed, PGP trust model
-gpg: depth: 0  valid:   8  signed:   2  trust: 0-, 0q, 0n, 0m, 0f, 8u
-gpg: depth: 1  valid:   2  signed:   0  trust: 2-, 0q, 0n, 0m, 0f, 0u
 gpg: Total number processed: 1
-gpg:               imported: 1  (RSA: 1)
+gpg:               imported: 1
 
 $ gpg --keyid-format=long --with-fingerprint --verify setup-x86_64.exe.sig setup-x86_64.exe
-[...]
-gpg: Signature made 12 Mar 2020 16:26:58 GMT
-gpg:                using RSA key 1A698DE9E2E56300
+gpg: Signature made 22 May 2025 15:49:21 BST
+gpg:                using RSA key 56405CF6FCC81574682A5D561A698DE9E2E56300
 gpg: Good signature from "Cygwin &lt;cygwin@cygwin.com&gt;"
 Primary key fingerprint: 5640 5CF6 FCC8 1574 682A  5D56 1A69 8DE9 E2E5 6300
 </pre>

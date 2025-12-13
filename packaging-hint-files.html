@@ -38,6 +38,7 @@ conflicts: <i>version-relation[, version-relation...]</i>
 external-source: <i>package</i>
 message: <i>id</i> <i>"some text"</i>
 test:
+epoch: <i>integer</i>
 version: <i>version-identifier</i>
 disable-check: <i>check-name [check-name...]</i>
 </pre>
@@ -282,6 +283,13 @@ No actual moles will be harmed during execution of this game."
 
   <li>
     <p>
+      <code>epoch</code> adds an upstream versioning epoch number to the version
+      inferred from the version-release part of the filename.
+    </p>
+  </li>
+
+  <li>
+    <p>
       <code>version</code> overrides the version-release, which is otherwise
       inferred from the version-release part of the filename.
     </p>
@@ -386,6 +394,7 @@ license: <i>license-expression</i>
 sdesc: <i>"some text"</i>
 skip:
 test:
+epoch: <i>integer</i>
 version: <i>version-identifier</i>
 </pre>
 

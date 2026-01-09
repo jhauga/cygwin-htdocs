@@ -253,9 +253,6 @@ Starting an X desktop environment session or X window manager in windowed
 mode
 
    Several X desktop environments are packaged for Cygwin.
-     * GNOME Flashback Desktop Environment: install the gnome-flashback
-       package
-     * KDE Plasma Desktop Environment: install the kde-workspace package
      * LXDE Desktop Environment: install the lxde-common package
      * LXQT Desktop Environment: install the lxqt-session package
      * MATE Desktop Environment: install the mate-session-manager package
@@ -1274,7 +1271,7 @@ Colophon
    the DocBook DSSSL Stylesheets.
 
    The production process for this instance of this document was started
-   at 2023-02-18 18:22 .
+   at 2026-01-09 20:08 .
 
   Notes
 

@@ -965,9 +965,8 @@ $ make distcheck
 
 Chapter 4. Web Site Maintenance
 
-   The Cygwin/X web site is stored in sourceware.org git. The repository
-   is git://sourceware.org/git/cygwin-htdocs.git and the path is
-   htdocs/xfree/
+   The Cygwin/X web site is stored in cygwin.com git. The repository is
+   git://cygwin.com/git/cygwin-htdocs.git and the path is htdocs/xfree/
      __________________________________________________________________
 
 Updating the documentation on the web site
@@ -977,7 +976,7 @@ Updating the documentation on the web site
    install it into a git checkout of the web site, and then check that in,
    e.g.:
 $ cd path-to-website-checkout
-$ git clone ssh://user@sourceware.org/git/cygwin-htdocs.git
+$ git clone ssh://user@cygwin.com/git/cygwin-htdocs.git
 $ cd path-to-cygwin-x-doc-checkout
 $ ./configure --enable-hardcopy --with-docdir=path-to-website-checkout/htdocs/xf
 ree/docs
@@ -1818,4 +1817,4 @@ Colophon
    the DocBook DSSSL Stylesheets.
 
    The production process for this instance of this document was started
-   at 2023-02-18 18:22 .
+   at 2026-01-09 20:08 .

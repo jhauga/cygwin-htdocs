@@ -1,6 +1,6 @@
 Cygwin/X Frequently Asked Questions
 
-2023-02-18 18:22
+2026-01-09 20:08
      __________________________________________________________________
 
    Table of Contents
@@ -227,8 +227,8 @@ Questions and Answers
         10.3. Are there common problems encountered when porting software
                 to Cygwin/X?
 
-        10.4. Problems linking OpenGL applications? Undefined reference to
-                _glsomething?
+        10.4. Problems building or linking OpenGL applications? Undefined
+                reference to _glsomething?
 
    11. Contributing
 
@@ -1627,8 +1627,8 @@ Fatal server error: Failed to activate core devices.
    desired header:
 #include "../../../include/extensions/XvMC.h"
 
-   10.4. Problems linking OpenGL applications? Undefined reference to
-   _glsomething?
+   10.4. Problems building or linking OpenGL applications? Undefined
+   reference to _glsomething?
 
    Cygwin has two OpenGL implementations:
     1. headers in /usr/include/w32api/GL, libraries (-lglut32 -lglu32
@@ -1637,13 +1637,13 @@ Fatal server error: Failed to activate core devices.
        interface (Win32) without any X server
     2. headers in /usr/include/GL, libraries (-lglut -lglu -lgl) from the
        Mesa libGL packages (libGL-devel, libGL1, libGLU-devel, libGLU1,
-       libglut-devel, libglut3, freeglut) which are for displaying OpenGL
-       graphics through an X server.
+       libglut-devel, libglut3) which are for displaying OpenGL graphics
+       through an X server.
 
-   These are incompatible, even the headers (as the native OpenGL API has
-   the stdcall calling convention on x86), so you must exercise care if
-   you have both sets of devel packages installed. An application must be
-   built using only one of these.
+   These are incompatible, even the headers (e.g. the native OpenGL API
+   has the stdcall calling convention on x86), so you must exercise care
+   if you have both sets of devel packages installed. An application must
+   be built using only one of these.
      * X applications using GLX must be built using option 2.
      * Applications using GLUT have a choice.
      * Applications using the WGL API must be built using option 1.

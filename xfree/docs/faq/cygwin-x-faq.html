@@ -25,7 +25,7 @@ NAME="article-info"
 ></H1
 ><H2
 CLASS="subtitle"
->2023-02-18 18:22</H2
+>2026-01-09 20:08</H2
 ><HR/></DIV
 ><DIV
 CLASS="TOC"
@@ -804,7 +804,7 @@ Cygwin/X?</A
 ><DT
 >10.4. <A
 HREF="cygwin-x-faq.html#q-opengl-link-problems"
->Problems linking OpenGL applications? Undefined reference to _gl<SPAN
+>Problems building or linking OpenGL applications? Undefined reference to _gl<SPAN
 CLASS="emphasis"
 ><I
 CLASS="emphasis"
@@ -6437,7 +6437,7 @@ NAME="q-opengl-link-problems"
 ></A
 ><B
 >10.4. </B
->Problems linking OpenGL applications? Undefined reference to _gl<SPAN
+>Problems building or linking OpenGL applications? Undefined reference to _gl<SPAN
 CLASS="emphasis"
 ><I
 CLASS="emphasis"
@@ -6465,13 +6465,13 @@ OpenGL graphics directly through the native Windows interface (Win32) without an
 ><LI
 ><P
 >&#13;headers in /usr/include/GL, libraries (-lglut -lglu -lgl) from the Mesa libGL packages
-(libGL-devel, libGL1, libGLU-devel, libGLU1, libglut-devel, libglut3, freeglut)
+(libGL-devel, libGL1, libGLU-devel, libGLU1, libglut-devel, libglut3)
 which are for displaying OpenGL graphics through an X server.
 </P
 ></LI
 ></OL
 ><P
->&#13;These are incompatible, even the headers (as the native OpenGL API has the stdcall calling convention on x86),
+>&#13;These are incompatible, even the headers (e.g. the native OpenGL API has the stdcall calling convention on x86),
 so you must exercise care if you have both sets of devel packages installed.  An application must be built using only one of these.
 </P
 ><UL

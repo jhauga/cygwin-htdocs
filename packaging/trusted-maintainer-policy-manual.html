@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <title>Trusted Maintainer Policy Guidelines</title>
+  </head>
+
+<body>
+<!--#include virtual="/navbar.html" -->
+<div id="main">
+<!--#include virtual="/top.html" -->
+
+<h1>Trusted Maintainer Policy Guidelines (draft)</h1>
+
+<h2 class="cartouche">Trusted Maintainers</h1>
+
+"trusted" maintainers have additional permissions, so they can:
+
+<ul class="spaced">
+  <li>
+    Modify the <a href="https://cygwin.com/cgit/cygwin-infra/pkg-maint/">package
+    maintainer database</a> to handle ITPs, package orphaning, adoption and
+    removal.
+    <br/><br/>
+    Since they could simply modify that to add themselves as a maintainer for
+    any package, to save steps they can also:
+  </li>
+  <li>
+    Upload, git push, deploy, vault, etc. all packages (orphaned or not), as if
+    they were the package maintainer.
+  </li>
+</ul>
+
+<h2 class="cartouche">Policy Notes</h1>
+
+Guidelines for trusted maintainers:
+
+<h3>On making changes to the package maintainer database</h3>
+
+<ul class="spaced">
+  <li>
+    Please keep the list alphabetically sorted (ideally we would have some sort
+    of pre-update hook to enforce this).
+  </li>
+  <li>
+    You can handle ITAs (of your own or others).
+  </li>
+  <li>
+    You can handle ITPs (of your own or others), which meet the
+    <a href="../packaging-contributors-guide.html#submitting">submission
+    rules</a> in the Packaging Guide (which perhaps needs to be broken out as
+    a separate section there).
+    <br/><br/>
+    You are expected to exercise good judgement and due diligence in checking
+    that the package license is compatible with our project mission, and that
+    the package content doesn't violate our hosting provider's legal guidelines
+    (i.e. no content which potentially infringes on patents or trademarks, or
+    is illegal or offensive).
+  </li>
+  <li>
+    You can handle requests from a maintainer to orphan their package.
+  </li>
+  <li>
+    You can vault versions of an orphaned package which are clearly useless or
+    obviously broken (e.g. the installation prerequisites have been removed).
+    <br/><br/> (Please ensure the packaging git repo is up to date before doing
+    this).
+  </li>
+  <li>
+    You can remove an package which has no versions left in the package
+    repository.
+  </li>
+</ul>
+
+<h3>On NMUs (Non-maintainer uploads)</h3>
+
+<ul class="spaced">
+  <li>
+    Ping on cygwin-apps, Bcc-ing the maintainer, politely asking for an
+    update...
+  </li>
+  <li>
+    ... and wait 7 days. (This step is optional in 'urgent' cases).
+  </li>
+</ul>
+
+<h3>On orphaning abandoned packages</h3>
+
+<ul class="spaced">
+  <li>
+    Ping on cygwin-apps, Bcc-ing the maintainer, politely asking if they intend
+    to continue as maintainer...
+  </li>
+  <li>
+    ... and wait 28 days.
+  </li>
+  <li>
+    If they reply in the negative or don't reply, you can orphan the package.
+    <br/><br/>
+    (It's a good idea to ensure that the packaging repo history is up-to-date
+    after taking that step).
+  </li>
+</ul>
+
+<p class="center">
+  ... and remember, only use your powers for good!
+</p>
+
+</div>
+</body>
+</html>

@@ -130,13 +130,14 @@ min-width: 45em;
 
 #main h1
 {
+font-size: 2em;
 font-weight: bold;
 color: #99003f;
 }
 
 #main h2
 {
-font-size: 1.2em;
+font-size: 1.3em;
 color: #99003f;
 }
 
@@ -149,8 +150,8 @@ margin-bottom: 0ex;
 
 #main h4
 {
-  font-size: .95em;
-  font-style: normal;
+font-size: 1em;
+color: #99003f;
 }
 
 #main .catchphrase

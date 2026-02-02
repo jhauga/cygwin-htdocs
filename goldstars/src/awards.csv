@@ -218,6 +218,7 @@ JDF,https://cygwin.com/ml/cygwin-apps/2006-12/msg00019.html,For his highly appre
 JDF,https://cygwin.com/ml/cygwin-apps/2006-12/msg00011.html,For improving Cygwin documentation.,2
 JDF,https://cygwin.com/ml/cygwin/2003-03/msg01935.html,For improving Cygwin documentation.
 
+JeD,https://cygwin.com/pipermail/cygwin-announce/2026-January/012823.html,For packaging `rust` for Cygwin.
 JeD,https://cygwin.com/pipermail/cygwin-apps/2025-August/044532.html,For packaging `llvm` and `clang` for Cygwin.
 
 JH,https://cygwin.com/ml/cygwin/2004-06/msg00115.html,For volunteering to take over `cURL`.
@@ -233,6 +234,7 @@ JRP,https://cygwin.com/ml/cygwin-apps/2006-02/msg00119.html,For adopting the `gh
 JT,https://cygwin.com/ml/cygwin-apps/2015-01/msg00086.html,For 14 years of contributions to Cygwin.,,,1
 JT,https://cygwin.com/ml/cygwin-apps/2004-10/msg00050.html,"For years of supporting `postgres`, and for just being a long time contributor to Cygwin.",2
 
+JTy,https://cygwin.com/pipermail/cygwin-announce/2026-January/012823.html,For packaging `rust` for Cygwin.
 JTy,https://cygwin.com/pipermail/cygwin-apps/2023-May/042916.html,For maintaining the Cygwin infrastructure.,,1
 JTy,https://cygwin.com/pipermail/cygwin-apps/2023-May/042910.html,For strange and subtle manipulations.,,1
 JTy,2019-12-29,For adopting the `xclip` package.
@@ -384,6 +386,7 @@ TK,https://cygwin.com/ml/cygwin-apps/2014-08/msg00011.html,For adopting the `p7z
 TW,https://cygwin.com/ml/cygwin/2018-02/msg00053.html,For maintaining the workhorse `mintty` package.,,1
 TW,https://cygwin.com/ml/cygwin/2015-07/msg00110.html,For adopting the `mintty` package.
 
+TY,https://cygwin.com/pipermail/cygwin-announce/2026-January/012823.html,For packaging `rust` for Cygwin.
 TY,https://cygwin.com/pipermail/cygwin-apps/2025-August/044532.html,For packaging `llvm` and `clang` for Cygwin.
 TY,https://cygwin.com/pipermail/cygwin-apps/2025-April/044176.html,For patching and debugging screen version 5 for Cygwin.
 TY,https://cygwin.com/pipermail/cygwin-patches/2025q1/013457.html,For fixing complex and difficult to reproduce bugs.,,1
@@ -437,6 +440,8 @@ YS,https://cygwin.com/ml/cygwin-apps/2005-09/msg00051.html,For adopting the `lib
 YST,https://cygwin.com/ml/cygwin/2006-01/msg01193.html,For pointing out that package maintainers should use snapshots.,2
 YST,https://cygwin.com/ml/cygwin-apps/2005-01/msg00083.html,For adopting the `fortune` package.,2
 YST,https://cygwin.com/ml/cygwin/2004-07/msg00671.html,For a clever use of utilities.
+
+YW,https://cygwin.com/pipermail/cygwin-announce/2026-January/012823.html,For packaging `rust` for Cygwin.
 
 anonymous,https://cygwin.com/ml/cygwin/2004-04/msg00321.html,For contributing a brand new 64-bit Windows system.,10
 

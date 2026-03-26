@@ -102,11 +102,13 @@ CLASS="parameter"
 support hardware-accelerated OpenGL.
 </P
 ><P
->&#13;The creation of indirect GLX contexts is disabled by default.
-The <CODE
+>&#13;(Since xserver 1.17, the creation of indirect GLX contexts is disabled by
+default.  The <CODE
 CLASS="option"
 >+iglx</CODE
-> option is required to allow them.
+> option is required to allow them.  Since
+Mesa 24.2, the DRI module loaded by the xserver is replaced by a stub which only
+supports direct contexts.)
 </P
 ><DIV
 CLASS="table"
@@ -133,6 +135,12 @@ WIDTH="33%"/><THEAD
         </TH
 ><TH
 >&#13;          <P
+>&#13;            hardware-accelerated rendering
+          </P
+>
+        </TH
+><TH
+>&#13;          <P
 >&#13;            software rendering
             <SUP
 >a</SUP
@@ -140,15 +148,36 @@ WIDTH="33%"/><THEAD
           </P
 >
         </TH
-><TH
->&#13;          <P
->&#13;            hardware-accelerated rendering
-          </P
->
-        </TH
 ></TR
 ></THEAD
 ><TBODY
+><TR
+><TD
+>&#13;          <P
+>&#13;            direct
+          </P
+>
+        </TD
+><TD
+>&#13;          <P
+>&#13;            start server with <CODE
+CLASS="parameter"
+>-wgl</CODE
+> option (default)
+          </P
+>
+          <P
+>&#13;            (local clients only)
+          </P
+>
+        </TD
+><TD
+>&#13;          <B
+CLASS="command"
+>export LIBGL_ALWAYS_SOFTWARE=1</B
+>
+        </TD
+></TR
 ><TR
 ><TD
 >&#13;          <P
@@ -159,20 +188,8 @@ WIDTH="33%"/><THEAD
 >&#13;            (Uses GLX protocol, limited to OpenGL 1.4)
           </P
 >
-        </TD
-><TD
->&#13;          <P
->&#13;            start server with <CODE
-CLASS="parameter"
->+iglx -nowgl</CODE
-> options
-          </P
->
           <P
->&#13;            <B
-CLASS="command"
->export LIBGL_ALWAYS_INDIRECT=1</B
->
+>&#13;            (No longer supported)
           </P
 >
         </TD
@@ -192,30 +209,19 @@ CLASS="command"
           </P
 >
         </TD
-></TR
-><TR
-><TD
->&#13;          <P
->&#13;            direct
-          </P
->
-        </TD
-><TD
->&#13;          <B
-CLASS="command"
->export LIBGL_ALWAYS_SOFTWARE=1</B
->
-        </TD
 ><TD
 >&#13;          <P
 >&#13;            start server with <CODE
 CLASS="parameter"
->-wgl</CODE
-> option (default)
+>+iglx -nowgl</CODE
+> options
           </P
 >
           <P
->&#13;            (local clients only)
+>&#13;            <B
+CLASS="command"
+>export LIBGL_ALWAYS_INDIRECT=1</B
+>
           </P
 >
         </TD
@@ -228,7 +234,7 @@ COLSPAN="3"
 NAME="FTN.footnote-software-rendering"
 >a. </A
 >
-                The software renderer used (e.g. llvmpipe, softpipe, swr) can be
+                The software renderer used (e.g. llvmpipe, softpipe) can be
                 selected using the GALLIUM_DRIVER environment variable.
               <BR/></TD
 ></TR
@@ -253,23 +259,6 @@ LIBGL_ALWAYS_SOFTWARE=1</B
 ><P
 >&#13;For remote clients, Mesa's libGL prefers to use client-side software rendering
 and then transfer the rendered image to the server.
-</P
-><P
->&#13;To force indirect rendering
-(which takes place on the server), you must start the server with the
-<CODE
-CLASS="parameter"
->+iglx</CODE
-> option and do <B
-CLASS="command"
->export
-LIBGL_ALWAYS_INDIRECT=1</B
-> before starting the client application.
-</P
-><P
->&#13;There is a performance trade-off between rendering performance and network
-latency, so you might wish to try both direct and indirect rendering and see which
-performs best in your specific circumstances.
 </P
 ></LI
 ></UL

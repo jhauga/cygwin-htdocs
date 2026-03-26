@@ -635,36 +635,40 @@ OpenGL (GLX)
    has no effect if your display driver does not support
    hardware-accelerated OpenGL.
 
-   The creation of indirect GLX contexts is disabled by default. The +iglx
-   option is required to allow them.
+   (Since xserver 1.17, the creation of indirect GLX contexts is disabled
+   by default. The +iglx option is required to allow them. Since Mesa
+   24.2, the DRI module loaded by the xserver is replaced by a stub which
+   only supports direct contexts.)
 
    Table 3-1. Summary of OpenGL rendering options
 
-        software rendering ^a
-
    hardware-accelerated rendering
+
+   software rendering ^a
+
+   direct
+
+   start server with -wgl option (default)
+
+   (local clients only)
+   export LIBGL_ALWAYS_SOFTWARE=1
 
    indirect
 
    (Uses GLX protocol, limited to OpenGL 1.4)
 
-   start server with +iglx -nowgl options
-
-   export LIBGL_ALWAYS_INDIRECT=1
+   (No longer supported)
 
    start server with +iglx -wgl options
 
    export LIBGL_ALWAYS_INDIRECT=1
 
-   direct
-   export LIBGL_ALWAYS_SOFTWARE=1
+   start server with +iglx -nowgl options
 
-   start server with -wgl option (default)
-
-   (local clients only)
+   export LIBGL_ALWAYS_INDIRECT=1
    Notes:
-   a. The software renderer used (e.g. llvmpipe, softpipe, swr) can be
-   selected using the GALLIUM_DRIVER environment variable.
+   a. The software renderer used (e.g. llvmpipe, softpipe) can be selected
+   using the GALLIUM_DRIVER environment variable.
 
    Currently the default configurations are:
      * For local clients the default is direct, hardware-accelerated
@@ -674,13 +678,6 @@ OpenGL (GLX)
      * For remote clients, Mesa's libGL prefers to use client-side
        software rendering and then transfer the rendered image to the
        server.
-       To force indirect rendering (which takes place on the server), you
-       must start the server with the +iglx option and do export
-       LIBGL_ALWAYS_INDIRECT=1 before starting the client application.
-       There is a performance trade-off between rendering performance and
-       network latency, so you might wish to try both direct and indirect
-       rendering and see which performs best in your specific
-       circumstances.
 
    If glxinfo | grep OpenGL outputs something mentioning your graphics
    card vendor, you have hardware-accelerated rendering. If it mentions
@@ -1271,7 +1268,7 @@ Colophon
    the DocBook DSSSL Stylesheets.
 
    The production process for this instance of this document was started
-   at 2026-01-09 20:08 .
+   at 2026-03-26 20:38 .
 
   Notes
 

@@ -338,6 +338,12 @@ ul.compact li
     color: goldenrod;
 }
 
+a:hover
+{
+  text-shadow: 1px 1px #80808050;
+  text-decoration: underline !important;
+}
+
 /* pkglist related ------------------------------------------------------- */
 
 /*

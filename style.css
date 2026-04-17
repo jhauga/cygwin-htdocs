@@ -17,12 +17,12 @@ text-decoration: underline;
 
 #navbar
 {
-position: absolute;
-left: 0.5em;
-max-width: 11em;
-background-color: #80a0a0;
-color: white;
-text-align: left;
+  position: fixed;
+  left: 0.5em;
+  max-width: 11em;
+  background-color: #80a0a0;
+  color: white;
+  text-align: left;
 }
 
 #navbar li

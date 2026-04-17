@@ -405,7 +405,7 @@ ul.compact li
 
 code
 {
-  background-color: #80a0a020;
+  background-color: var(--code);
   border-radius: 2px;
   padding: 0px 3px;
 }
@@ -419,7 +419,7 @@ pre.example, pre.screen
 
 pre.example, pre.screen
 {
-  background-color: #80a0a020;
+  background-color: var(--code);
 }
 
 /* link in code */
@@ -446,7 +446,7 @@ a:hover
 pre
 {
   width: 100%;
-  background-color: #80a0a020;
+  background-color: var(--code);
   border-radius: 4px;
   padding: 10px;
 }

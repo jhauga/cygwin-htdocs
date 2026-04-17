@@ -519,3 +519,22 @@ table.grid td.failed {
     margin-left:auto;
     margin-right:auto;
 }
+
+/* responsive styling ---------------------------------------------------- */
+
+@media (max-width: 800px)
+{
+  div#main
+  {
+    min-width: 20em;
+    width: 85%;
+  }
+}
+@media (max-width: 450px)
+{
+  div#main
+  {
+    width: 100%;
+    padding-right: 10px;
+  }
+}

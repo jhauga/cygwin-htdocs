@@ -82,6 +82,11 @@ text-align: left;
   color:gold;
 }
 
+#navbar a.gold:before
+{
+  content: "\2B50";
+}
+
 #navbar ul ul
 {
   margin-top: 0em;

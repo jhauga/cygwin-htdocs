@@ -185,6 +185,7 @@ div#top div.cartouche
 
 #main h1
 {
+  font-family: sans-serif;
   font-size: 2em;
   font-weight: bold;
   color: var(--heading);

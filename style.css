@@ -1,6 +1,21 @@
+/* CSS variables --------------------------------------------------------- */
+
+:root
+{
+  --black: black;
+  --white: white;
+  --big-title: #990033;
+  --nav-background: #80a0a0;
+  --heading: #99003f;
+  --code: #80a0a020;
+  --cartouche: #e8e8e8;
+  --table: #f2f2f2;
+  --table-hover: #fdd9b5;
+}
+
 body
 {
-  color: black;
+  color: var(--black);
 }
 
 a:link
@@ -22,8 +37,8 @@ a:visited
 position: absolute;
 left: 0.5em;
 max-width: 12em;
-background-color: #80a0a0;
-color: white;
+background-color: var(--nav-background);
+color: var(--white);
 text-align: left;
 }
 
@@ -57,7 +72,7 @@ text-align: left;
   overflow: hidden;
   font-size: small;
   font-weight: 500;
-  color: white;
+  color: var(--white);
   text-decoration: none;
   font-family: sans-serif;
 }
@@ -139,7 +154,7 @@ div#top div.cartouche
 #rightwhat
 {
   margin-left: 50%;
-  border-left: 2px solid #e8e8e8;
+  border-left: 2px solid var(--cartouche);
   padding: 0.1px; /* rounds down to 0, but prevents margin collapse */
   padding-left: 1.5em;
 }
@@ -155,7 +170,7 @@ div#top div.cartouche
 #endwrap
 {
   clear: both;
-  border-top: 2px solid #e8e8e8;
+  border-top: 2px solid var(--cartouche);
 }
 
 /* main ------------------------------------------------------------------ */
@@ -172,26 +187,26 @@ div#top div.cartouche
 {
   font-size: 2em;
   font-weight: bold;
-  color: #99003f;
+  color: var(--heading);
 }
 
 #main h2
 {
   font-size: 1.3em;
-  color: #99003f;
+  color: var(--heading);
 }
 
 #main h3
 {
   font-size: 1.1em;
-  color: #99003f;
+  color: var(--heading);
   margin-bottom: 0ex;
 }
 
 #main h4
 {
   font-size: 1em;
-  color: #99003f;
+  color: var(--heading);
 }
 
 #main .catchphrase
@@ -225,7 +240,7 @@ div#top div.cartouche
 {
   font-family: sans-serif;
   font-size: 5em;
-  color: #990033;
+  color: var(--big-title);
   margin-top: 0em;
   margin-bottom: 0em;
   margin-left: 6px;
@@ -246,7 +261,7 @@ div#top div.cartouche
 {
   position: relative;
   font-size: 0.7em;
-  border-top: 2px solid #e8e8e8;
+  border-top: 2px solid var(--cartouche);
   text-align: center;
 }
 
@@ -254,7 +269,7 @@ div#top div.cartouche
 
 .cartouche
 {
-  background: #e8e8e8;
+  background: var(--cartouche);
   border-radius: 8px;
   padding: 4px;
 }
@@ -266,7 +281,7 @@ table#mirroradmin
   width:90%;
   margin-left:5%;
   margin-right:5%;
-  border:2px solid black;
+  border:2px solid var(--black);
 }
 
 table.deben
@@ -274,7 +289,7 @@ table.deben
   width:85%;
   margin-left: 7.5%;
   margin-right: 7.5%;
-  border:1px solid black;
+  border:1px solid var(--black);
   border-collapse: collapse;
 }
 
@@ -287,18 +302,18 @@ table.deben th
 
 table.deben th
 {
-  color: #99003f;
-  border-color: black;
+  color: var(--heading);
+  border-color: var(--black);
 }
 
 table.deben tr:nth-child(odd)
 {
-  background-color: #f2f2f2;
+  background-color: var(--table);
 }
 
 table.deben tr:hover
 {
-  background-color: #fdd9b5;
+  background-color: var(--table-hover);
 }
 
 div#main .indent
@@ -435,7 +450,7 @@ table.pkglist
 
 .pkglist tr:hover
 {
-  background-color: #e8e8e8;
+  background-color: var(--cartouche);
 }
 
 .pkglist a
@@ -451,20 +466,20 @@ table.pkglist
 
 .detail
 {
-  color: #99003f;
+  color: var(--heading);
 }
 
 table.pkgtable
 {
   border-collapse: collapse;
-  border:1px solid black;
+  border:1px solid var(--black);
 }
 
 table.pkgtable th
 {
-  background-color: #80a0a0;
-  color: white;
-  border-color: black;
+  background-color: var(--nav-background);
+  color: var(--white);
+  border-color: var(--black);
   border-width: 1px;
   border-style: solid;
 }
@@ -477,12 +492,12 @@ table.pkgtable td
 
 table.pkgtable tr:nth-child(even)
 {
-  background-color: #f2f2f2;
+  background-color: var(--table);
 }
 
 table.pkgtable tr:hover
 {
-  background-color: #fdd9b5;
+  background-color: var(--table-hover);
 }
 
 table.pkgdetails p
@@ -509,7 +524,7 @@ table.pkgdetails tr td:first-child
   -webkit-column-width: 15em;
   column-width: 15em;
   column-rule-style: double;
-  column-rule-color: #99003f;
+  column-rule-color: var(--heading);
   width: 90%;
   margin: auto;
 }
@@ -561,23 +576,23 @@ table.grid
   width: 95%;
   margin-left:auto;
   margin-right:auto;
-  border: 1px solid black;
+  border: 1px solid var(--black);
   border-collapse: collapse;
 }
 
 table.grid th
 {
   text-align: left;
-  border: 1px solid black;
+  border: 1px solid var(--black);
   border-collapse: collapse;
-  background-color: black;
-  color: white;
+  background-color: var(--black);
+  color: var(--white);
   padding: 0.3em;
 }
 
 table.grid tr:nth-child(even)
 {
-  background-color: #f2f2f2;
+  background-color: var(--table);
 }
 
 table.grid tr.highlight
@@ -587,14 +602,14 @@ table.grid tr.highlight
 
 table.grid td
 {
-  border: 1px solid black;
+  border: 1px solid var(--black);
   border-collapse: collapse;
   padding: 0.3em;
 }
 
 table.grid tr:hover
 {
-  background-color: #fdd9b5;
+  background-color: var(--table-hover);
 }
 
 table.grid td.succeeded, table.grid td.deployed

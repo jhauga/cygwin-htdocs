@@ -74,6 +74,22 @@ a:visited
   padding-left: 0.75em;
 }
 
+/* top related ----------------------------------------------------------- */
+
+div.logo img
+{
+  display: inline-block;
+  position: absolute;
+  height: 70px;
+  top: 4px;
+  left: 10px;
+}
+/* move div.cartouche to accomodate logo using absolute positioning */
+div#top div.cartouche
+{
+  padding-left: 80px;
+}
+
 /* Two-column what is/isn't it layout ------------------------------------ */
 
 .no-vert-margins

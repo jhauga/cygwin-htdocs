@@ -1,0 +1,29 @@
+ style.css | 12 ++++++------
+ 1 file changed, 6 insertions(+), 6 deletions(-)
+
+diff --git a/style.css b/style.css
+index 5e815292..3b3647d5 100644
+--- a/style.css
++++ b/style.css
+@@ -17,12 +17,12 @@ text-decoration: underline;
+ 
+ #navbar
+ {
+-position: absolute;
+-left: 0.5em;
+-max-width: 11em;
+-background-color: #80a0a0;
+-color: white;
+-text-align: left;
++  position: fixed;
++  left: 0.5em;
++  max-width: 11em;
++  background-color: #80a0a0;
++  color: white;
++  text-align: left;
+ }
+ 
+ #navbar li
+-- 
+2.49.0.windows.1
+

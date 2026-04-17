@@ -1,0 +1,54 @@
+ style.css | 30 +++++++++++++++++++++++++++++-
+ 1 file changed, 29 insertions(+), 1 deletion(-)
+
+diff --git a/style.css b/style.css
+index 5e815292..6fef11ba 100644
+--- a/style.css
++++ b/style.css
+@@ -19,7 +19,7 @@ text-decoration: underline;
+ {
+ position: absolute;
+ left: 0.5em;
+-max-width: 11em;
++max-width: 12em;
+ background-color: #80a0a0;
+ color: white;
+ text-align: left;
+@@ -72,6 +72,34 @@ color:gold;
+   padding-left: 0.75em;
+ }
+ 
++/* Add menu hierarchy for sections */
++#navbar ul li a
++{
++  font-size: 13pt;
++  font-weight: bold;
++  padding: 2px;
++}
++
++/* Suppress style inside .nohover */
++#navbar ul li.nohover a
++{
++  font-size: initial;
++  font-weight: initial;
++  padding: initial;
++}
++
++#navbar ul li.nohover li
++{
++  margin-top: 5px;
++  line-height: 1.1;
++}
++
++div#main
++{
++  margin-left: 30px;
++}
++
++
+ /* ----------------------------------------------------------------------- */
+ 
+ #top
+-- 
+2.46.0.windows.1
+

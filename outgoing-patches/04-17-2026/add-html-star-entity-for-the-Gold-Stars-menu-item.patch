@@ -1,0 +1,24 @@
+ style.css | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+
+diff --git a/style.css b/style.css
+index 5e815292..9e680681 100644
+--- a/style.css
++++ b/style.css
+@@ -62,7 +62,12 @@ font-family: sans-serif;
+ 
+ #navbar a.gold
+ {
+-color:gold;
++  color:gold;
++}
++
++#navbar a.gold:before
++{
++  content: "\2B50";
+ }
+ 
+ #navbar ul ul
+-- 
+2.46.0.windows.1
+

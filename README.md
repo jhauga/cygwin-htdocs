@@ -1,72 +1,27 @@
 # cygwin-htdocs
 
-Static HTML site for the [Cygwin](https://cygwin.com/) project. Uses Apache `httpd` with Server Side Includes (SSI) to compose pages from shared fragments (`navbar.html`, `top.html`, `head.html`, etc.).
+Clone of [`cygwin-htdocs`](https://www.cygwin.com/cgit/cygwin-htdocs/), Cygwin's website files. This repo is to demonstrate proposed changes to [cygwin.com](https://www.cygwin.com/).
 
-## Patch Set Overview
+To view proposed changes; either follow the instructions step-by-step, or run:
 
-This branch represents a collection of patches submitted to the `cygwin-patches` mailing list under the subject **cygwin-htdocs: website fresh coat of paint**. The changes update the site's UI/UX and include:
+```bash
+bash ./.startSite.sh
+```
 
-- Clean `style.css` — consistent formatting
-- Fixed menu position
-- Logo added to `top.html` (improves brand recall)
-- Menu font weight applied hierarchically per section
-- Star entity prepended to the "Gold Stars" menu item
-- `h1` font family changed to sans-serif
-- `code` and `pre` element styling for documentation readability
-- Link hover effects
-- Responsive styling
-- CSS variables for color values (DRY)
+after starting a new codespace.
 
-## Local Development (GitHub Codespaces)
+## Instructions
 
-The site requires Apache `httpd` because pages use SSI directives (`<!--#include virtual="..." -->`). A plain file server will not render the includes.
+### 1. Open a new codespace
 
-### 1. Install Apache
+![new codespace](startCodespace.png)
+
+### 2. Install Apache
 
 ```bash
 sudo apt-get update
 sudo apt-get install -y apache2
 ```
-
-### 2. Create the `httpd.conf`
-
-Create a config file at the repo root that points Apache at the workspace:
-
-```bash
-cat > httpd.conf.local << 'EOF'
-ServerRoot "/usr/lib/apache2"
-Listen 8000
-ServerName localhost
-
-LoadModule mpm_prefork_module /usr/lib/apache2/modules/mod_mpm_prefork.so
-LoadModule rewrite_module     /usr/lib/apache2/modules/mod_rewrite.so
-LoadModule alias_module       /usr/lib/apache2/modules/mod_alias.so
-LoadModule mime_module        /usr/lib/apache2/modules/mod_mime.so
-LoadModule dir_module         /usr/lib/apache2/modules/mod_dir.so
-LoadModule include_module     /usr/lib/apache2/modules/mod_include.so
-LoadModule authz_core_module  /usr/lib/apache2/modules/mod_authz_core.so
-
-DocumentRoot "/workspaces/cygwin-htdocs"
-
-<Directory "/workspaces/cygwin-htdocs">
-    AllowOverride None
-    Options +Includes
-    Require all granted
-</Directory>
-
-AddType text/html .html
-AddOutputFilter INCLUDES .html
-DirectoryIndex index.html
-TypesConfig /etc/mime.types
-PidFile /workspaces/cygwin-htdocs/httpd.pid
-ErrorLog /workspaces/cygwin-htdocs/error.log
-CustomLog /workspaces/cygwin-htdocs/access.log common
-EOF
-```
-
-If `apache2 -t -f /workspaces/cygwin-htdocs/httpd.conf.local` reports that `log_config_module` is built-in, ensure the `LoadModule log_config_module ...` line is not present in your local config.
-
-> **Note:** The checked-in `httpd.conf` contains Windows-specific paths. The `httpd.conf.local` above is the Codespaces equivalent — it is `.gitignore`'d and will not affect the repo.
 
 ### 3. Start the Server
 
@@ -74,61 +29,28 @@ If `apache2 -t -f /workspaces/cygwin-htdocs/httpd.conf.local` reports that `log_
 /usr/sbin/apache2 -f /workspaces/cygwin-htdocs/httpd.conf.local -DFOREGROUND
 ```
 
-The site will be available at **port 8000**. Codespaces will auto-detect the forwarded port — click the link in the Ports tab or open `http://localhost:8000` in the Simple Browser.
+Open `http://localhost:8000` in the Browser.
 
 ### 4. Stop the Server
 
-Press `Ctrl+C` in the terminal running Apache, or:
+- Press `Ctrl+C` in the terminal running Apache, or:
 
-```bash
-kill $(cat httpd.pid)
-```
+## Patch Set Overview
 
-## Local Development (Windows)
+<details>
 
-### 1. Install Apache
+<summary>April 17th, 2026</summary>
 
-Install Apache via [WinGet](https://learn.microsoft.com/en-us/windows/package-manager/):
-
-```powershell
-winget install ApacheLounge.httpd
-```
-
-### 2. Configure
-
-Edit `httpd.conf` so that `ServerRoot`, `DocumentRoot`, `LoadModule` paths, `TypesConfig`, `PidFile`, and log paths match your local Apache installation and repo clone location.
-
-### 3. Start the Server
-
-```powershell
-httpd.exe -f "C:\path\to\cygwin-htdocs\httpd.conf" -DFOREGROUND
-```
-
-Then open <http://localhost:8000>.
-
-## Project Structure
-
-```
-├── index.html          # Home page
-├── head.html           # Shared <head> content (CSS, viewport meta)
-├── navbar.html         # Navigation sidebar (SSI included)
-├── top.html            # Header/logo banner (SSI included)
-├── style.css           # Main stylesheet
-├── httpd.conf          # Apache config (Windows paths — edit for your env)
-├── cygwin-api/         # Cygwin API reference docs
-├── cygwin-ug-net/      # Cygwin User's Guide
-├── faq/                # FAQ pages
-├── packages/           # Package listing
-└── outgoing-patches/   # Patch files for mailing list submission
-```
-
-## SSI (Server Side Includes)
-
-Pages use Apache SSI to include shared fragments:
-
-```html
-<!--#include virtual="navbar.html" -->
-<!--#include virtual="top.html" -->
-```
-
-This is why a plain file server (e.g., `python -m http.server`) will **not** work — the include directives won't be processed and the pages will render without navigation or headers.
+- [SUMMARY](outgoing-patches/04-17-2026/README.md)
+- [add-html-star-entity-for-the-Gold-Stars-menu-item.patch](outgoing-patches/04-17-2026/add-html-star-entity-for-the-Gold-Stars-menu-item.patch)
+- [add-logo-to-top.html.patch](outgoing-patches/04-17-2026/add-logo-to-top.html.patch)
+- [clean-style.css.patch](outgoing-patches/04-17-2026/clean-style.css.patch)
+- [css-variables-for-colors-to-keep-DRY.patch](outgoing-patches/04-17-2026/css-variables-for-colors-to-keep-DRY.patch)
+- [fixed-menu-position.patch](outgoing-patches/04-17-2026/fixed-menu-position.patch)
+- [font-weight-applied-hierarchically-per-menu-section.patch](outgoing-patches/04-17-2026/font-weight-applied-hierarchically-per-menu-section.patch)
+- [h1-header-s-font-family-to-sans-serif.patch](outgoing-patches/04-17-2026/h1-header-s-font-family-to-sans-serif.patch)
+- [link-hover-UX-effect.patch](outgoing-patches/04-17-2026/link-hover-UX-effect.patch)
+- [responsive-styling.patch](outgoing-patches/04-17-2026/responsive-styling.patch)
+- [style-code-HTML-elements.patch](outgoing-patches/04-17-2026/style-code-HTML-elements.patch)
+- [style-pre-code-blocks.patch](outgoing-patches/04-17-2026/style-pre-code-blocks.patch)
+</details>

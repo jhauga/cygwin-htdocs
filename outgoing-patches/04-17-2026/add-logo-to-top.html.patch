@@ -1,0 +1,60 @@
+ logo.svg  |  6 ++++++
+ style.css | 14 ++++++++++++--
+ top.html  |  3 +++
+ 3 files changed, 21 insertions(+), 2 deletions(-)
+ create mode 100644 logo.svg
+
+diff --git a/logo.svg b/logo.svg
+new file mode 100644
+index 00000000..b635bcfe
+--- /dev/null
++++ b/logo.svg
+@@ -0,0 +1,6 @@
++<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'>
++<g stroke-linejoin='round' stroke-width='4'>
++<path d='M94,19l-28-9h-39c-9,0-19,9-19,19v47c0,9,10,19,19,19h39l28-10l-28-9h-26c-9,0-13-3-13-13v-22c0-10,4-13,13-13h26z' fill='#000' stroke='#000'/>
++<path d='M94,52l-41-11h-13v3c10,0,10,16,0,16v3h13z' fill='#0F0' stroke='#0F0'/>
++</g>
++</svg>
+diff --git a/style.css b/style.css
+index 5e815292..e822119d 100644
+--- a/style.css
++++ b/style.css
+@@ -72,10 +72,20 @@ color:gold;
+   padding-left: 0.75em;
+ }
+ 
+-/* ----------------------------------------------------------------------- */
++/* top related ----------------------------------------------------------- */
+ 
+-#top
++div.logo img
+ {
++  display: inline-block;
++  position: absolute;
++  height: 70px;
++  top: 4px;
++  left: 10px;
++}
++/* move div.cartouche to accomodate logo using absolute positioning */
++div#top div.cartouche
++{
++  padding-left: 80px;
+ }
+ 
+ /* Two-column what is/isn't it layout ------------------------------------ */
+diff --git a/top.html b/top.html
+index 8d31a56d..08543164 100644
+--- a/top.html
++++ b/top.html
+@@ -1,4 +1,7 @@
+ <div id="top">
++  <div class="logo">
++   <a href="/index.html"><img src="/logo.svg"></a>
++  </div>
+   <div class="cartouche">
+    <h1 id="big-title">Cygwin</h1>
+    <p class="catchphrase">Get that <a href="https://www.linuxfoundation.org/">Linux</a> feeling - on Windows</p>
+-- 
+2.49.0.windows.1
+

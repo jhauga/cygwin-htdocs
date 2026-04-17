@@ -1,0 +1,51 @@
+ style.css | 34 ++++++++++++++++++++++++++++++++++
+ 1 file changed, 34 insertions(+)
+
+diff --git a/style.css b/style.css
+index 5e815292..abf6b8bb 100644
+--- a/style.css
++++ b/style.css
+@@ -338,6 +338,40 @@ ul.compact li
+     color: goldenrod;
+ }
+ 
++/* code and code-block styles -------------------------------------------- */
++
++code
++{
++  background-color: #80a0a020;
++  border-radius: 2px;
++  padding: 0px 3px;
++}
++
++/* quickly identify code */
++pre.example, pre.screen
++{
++  padding: 20px;
++  line-height: 1.25;
++}
++
++pre.example, pre.screen
++{
++  background-color: #80a0a020;
++}
++
++/* link in code */
++a > code
++{
++  font-weight: bold;
++  font-size-adjust:.56;
++}
++
++/* code elements in dark table background */
++table tr:nth-of-type(odd) td p code 
++{
++  background-color: white;
++}
++
+ /* pkglist related ------------------------------------------------------- */
+ 
+ /*
+-- 
+2.46.0.windows.1
+

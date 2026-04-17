@@ -1,0 +1,24 @@
+ style.css | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+
+diff --git a/style.css b/style.css
+index 5e815292..1eb7eb98 100644
+--- a/style.css
++++ b/style.css
+@@ -130,9 +130,10 @@ min-width: 45em;
+ 
+ #main h1
+ {
+-font-size: 2em;
+-font-weight: bold;
+-color: #99003f;
++  font-family: sans-serif;
++  font-size: 2em;
++  font-weight: bold;
++  color: #99003f;
+ }
+ 
+ #main h2
+-- 
+2.46.0.windows.1
+

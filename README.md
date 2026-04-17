@@ -17,8 +17,6 @@ This branch represents a collection of patches submitted to the `cygwin-patches`
 - Responsive styling
 - CSS variables for color values (DRY)
 
-See [outgoing-patches/cover-letter.patch](outgoing-patches/cover-letter.patch) for the full cover letter with rationale and UX research links.
-
 ## Local Development (GitHub Codespaces)
 
 The site requires Apache `httpd` because pages use SSI directives (`<!--#include virtual="..." -->`). A plain file server will not render the includes.

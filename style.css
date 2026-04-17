@@ -62,7 +62,12 @@ font-family: sans-serif;
 
 #navbar a.gold
 {
-color:gold;
+  color:gold;
+}
+
+#navbar a.gold:before
+{
+  content: "\2B50";
 }
 
 #navbar ul ul

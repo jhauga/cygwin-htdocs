@@ -19,12 +19,12 @@ a:visited
 
 #navbar
 {
-  position: fixed;
-  left: 0.5em;
-  max-width: 11em;
-  background-color: #80a0a0;
-  color: white;
-  text-align: left;
+position: absolute;
+left: 0.5em;
+max-width: 12em;
+background-color: #80a0a0;
+color: white;
+text-align: left;
 }
 
 #navbar li
@@ -74,6 +74,33 @@ a:visited
   padding-left: 0.75em;
 }
 
+/* Add menu hierarchy for sections */
+#navbar ul li a
+{
+  font-size: 13pt;
+  font-weight: bold;
+  padding: 2px;
+}
+
+/* Suppress style inside .nohover */
+#navbar ul li.nohover a
+{
+  font-size: initial;
+  font-weight: initial;
+  padding: initial;
+}
+
+#navbar ul li.nohover li
+{
+  margin-top: 5px;
+  line-height: 1.1;
+}
+
+div#main
+{
+  margin-left: 30px;
+}
+
 /* top related ----------------------------------------------------------- */
 
 div.logo img
@@ -84,6 +111,7 @@ div.logo img
   top: 4px;
   left: 10px;
 }
+
 /* move div.cartouche to accomodate logo using absolute positioning */
 div#top div.cartouche
 {

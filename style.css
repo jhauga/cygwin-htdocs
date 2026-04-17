@@ -19,7 +19,7 @@ a:visited
 
 #navbar
 {
-  position: absolute;
+  position: fixed;
   left: 0.5em;
   max-width: 11em;
   background-color: #80a0a0;

@@ -45,7 +45,6 @@ LoadModule mime_module        /usr/lib/apache2/modules/mod_mime.so
 LoadModule dir_module         /usr/lib/apache2/modules/mod_dir.so
 LoadModule include_module     /usr/lib/apache2/modules/mod_include.so
 LoadModule authz_core_module  /usr/lib/apache2/modules/mod_authz_core.so
-LoadModule log_config_module  /usr/lib/apache2/modules/mod_log_config.so
 
 DocumentRoot "/workspaces/cygwin-htdocs"
 
@@ -64,6 +63,8 @@ ErrorLog /workspaces/cygwin-htdocs/error.log
 CustomLog /workspaces/cygwin-htdocs/access.log common
 EOF
 ```
+
+If `apache2 -t -f /workspaces/cygwin-htdocs/httpd.conf.local` reports that `log_config_module` is built-in, ensure the `LoadModule log_config_module ...` line is not present in your local config.
 
 > **Note:** The checked-in `httpd.conf` contains Windows-specific paths. The `httpd.conf.local` above is the Codespaces equivalent — it is `.gitignore`'d and will not affect the repo.
 

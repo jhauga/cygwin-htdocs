@@ -1,0 +1,27 @@
+ServerRoot "/usr/lib/apache2"
+Listen 8000
+ServerName localhost
+
+LoadModule mpm_prefork_module /usr/lib/apache2/modules/mod_mpm_prefork.so
+LoadModule rewrite_module     /usr/lib/apache2/modules/mod_rewrite.so
+LoadModule alias_module       /usr/lib/apache2/modules/mod_alias.so
+LoadModule mime_module        /usr/lib/apache2/modules/mod_mime.so
+LoadModule dir_module         /usr/lib/apache2/modules/mod_dir.so
+LoadModule include_module     /usr/lib/apache2/modules/mod_include.so
+LoadModule authz_core_module  /usr/lib/apache2/modules/mod_authz_core.so
+
+DocumentRoot "/workspaces/cygwin-htdocs"
+
+<Directory "/workspaces/cygwin-htdocs">
+    AllowOverride None
+    Options +Includes
+    Require all granted
+</Directory>
+
+AddType text/html .html
+AddOutputFilter INCLUDES .html
+DirectoryIndex index.html
+TypesConfig /etc/mime.types
+PidFile /workspaces/cygwin-htdocs/httpd.pid
+ErrorLog /workspaces/cygwin-htdocs/error.log
+CustomLog /workspaces/cygwin-htdocs/access.log common

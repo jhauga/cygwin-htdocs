@@ -430,6 +430,12 @@ table tr:nth-of-type(odd) td p code
   background-color: white;
 }
 
+a:hover
+{
+  text-shadow: 1px 1px #80808050;
+  text-decoration: underline !important;
+}
+
 /* pkglist related ------------------------------------------------------- */
 
 /*

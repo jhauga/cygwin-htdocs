@@ -1,0 +1,286 @@
+name: Deploy to GitHub Pages
+# THANK YOU dscho!
+# Build the site for GitHub Pages *without* modifying any source files.
+#
+# Two things need fixing up relative to what Apache does on www.cygwin.com:
+#
+#   1. Apache SSI (`<!--#include virtual="..." -->` / `file="..."`) is not
+#      processed by GitHub Pages, so the CSS `<link>`, the navbar and the
+#      top banner (logo) would silently disappear. We inline the includes
+#      here, recursively.
+#
+#   2. The site uses root-absolute URLs like `/style.css`, `/logo.svg`,
+#      `/index.html`, ... When served as a *project* Pages site under
+#      `https://<user>.github.io/<repo>/`, those would resolve to the
+#      github.io root instead of the repo sub-path. We rewrite root-
+#      absolute URLs in HTML/CSS to be prefixed with `/<repo>`.
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build site (inline SSI, rewrite root-absolute URLs)
+        env:
+          SITE_PREFIX: /${{ github.event.repository.name }}
+          # Set RUNNER_DEBUG=1 on the workflow (or re-run with debug logging)
+          # to get per-include / per-file output.
+          BUILD_DEBUG: ${{ runner.debug }}
+        run: |
+          python3 - <<'PY'
+          import logging, os, re, shutil, sys
+          from pathlib import Path
+
+          # --- Logging ------------------------------------------------------------
+          # INFO-level gives a high-level summary (counts + warnings). Set
+          # BUILD_DEBUG=1 (or re-run the workflow with debug logging enabled) to
+          # get DEBUG-level traces: every include resolution and every file that
+          # gets rewritten, including the number of substitutions per file. This
+          # is what lets you see *where* double-processing happens without having
+          # to reproduce it locally.
+          level = logging.DEBUG if os.environ.get('BUILD_DEBUG') else logging.INFO
+          logging.basicConfig(
+              level=level,
+              format='%(levelname)s %(message)s',
+              stream=sys.stderr,
+          )
+          log = logging.getLogger('build')
+
+          src = os.getcwd()
+          dst = os.path.join(src, '_site')
+          prefix = os.environ.get('SITE_PREFIX', '').rstrip('/')
+          log.info('source=%s output=%s prefix=%r', src, dst, prefix)
+
+          # Copy the whole tree, skipping VCS / workflow / build output.
+          skip_top = {'.git', '.github', '_site'}
+          if os.path.isdir(dst):
+              shutil.rmtree(dst)
+          os.makedirs(dst)
+          copied_files = copied_dirs = 0
+          for name in os.listdir(src):
+              if name in skip_top:
+                  continue
+              s = os.path.join(src, name)
+              d = os.path.join(dst, name)
+              if os.path.isdir(s):
+                  shutil.copytree(s, d, symlinks=True)
+                  copied_dirs += 1
+              else:
+                  shutil.copy2(s, d)
+                  copied_files += 1
+          log.info('::group::copy summary')
+          log.info('copied %d top-level files and %d top-level directories to %s',
+                   copied_files, copied_dirs, dst)
+          log.info('::endgroup::')
+
+          # --- SSI include inlining ------------------------------------------------
+          # Matches: <!--#include virtual="path" --> and <!--#include file="path" -->
+          include_re = re.compile(
+              r'<!--\s*#\s*include\s+(virtual|file)\s*=\s*"([^"]+)"\s*-->',
+              re.IGNORECASE,
+          )
+
+          def resolve_include(kind, path, current_file):
+              # `file` is a path relative to the directory of the current doc.
+              # `virtual` is a URL-path: if it starts with "/" it is relative to
+              # the site root (DocumentRoot); otherwise it is relative to the
+              # URL of the current document (i.e. the directory containing the
+              # current file, *within* the build tree). Note that we never
+              # resolve out to the source repo.
+              if kind.lower() == 'virtual' and path.startswith('/'):
+                  target = os.path.normpath(os.path.join(dst, path[1:]))
+              else:
+                  target = os.path.normpath(
+                      os.path.join(os.path.dirname(current_file), path))
+              # Defense in depth: refuse includes that escape the build tree.
+              if os.path.commonpath([os.path.abspath(target), dst]) != dst:
+                  log.warning('refusing include %r from %s: resolves outside %s',
+                              path, current_file, dst)
+                  return None
+              return target
+
+          # Counters, populated by inline_includes / rewrite_urls.
+          stats = {
+              'includes_inlined': 0,
+              'includes_missing': 0,
+              'includes_cycles': 0,
+              'html_files': 0,
+              'html_files_changed': 0,
+              'css_files': 0,
+              'css_files_changed': 0,
+              'attr_substitutions': 0,
+              'css_url_substitutions': 0,
+              'files_skipped_symlink': 0,
+              'double_prefix_hits': 0,
+          }
+
+          def inline_includes(text, current_file, stack):
+              def repl(m):
+                  kind, path = m.group(1), m.group(2)
+                  target = resolve_include(kind, path, current_file)
+                  if target is None:
+                      stats['includes_missing'] += 1
+                      return ''
+                  if target in stack:
+                      log.warning('include cycle: %s -> %s', current_file, target)
+                      stats['includes_cycles'] += 1
+                      return ''
+                  if not os.path.isfile(target):
+                      log.warning('missing include %r (%s) referenced from %s',
+                                  path, kind, current_file)
+                      stats['includes_missing'] += 1
+                      return ''
+                  with open(target, 'r', encoding='utf-8', errors='replace') as f:
+                      inner = f.read()
+                  stats['includes_inlined'] += 1
+                  log.debug('inlined %s include %r into %s (-> %s)',
+                            kind, path, current_file, target)
+                  return inline_includes(inner, target, stack | {target})
+              return include_re.sub(repl, text)
+
+          # --- Root-absolute URL rewriting ----------------------------------------
+          # Rewrite href="/x", src="/x", and CSS url(/x) to "{prefix}/x".
+          # Leave protocol-relative ("//host/...") and absolute URLs alone.
+          attr_re = re.compile(r'''\b(href|src)\s*=\s*"/(?!/)''', re.IGNORECASE)
+          css_url_re = re.compile(r'''url\(\s*(['"]?)/(?!/)''', re.IGNORECASE)
+          # Sanity check: if we ever see the prefix twice in a row after rewriting,
+          # something is being processed more than once.
+          double_prefix_re = (
+              re.compile(re.escape(prefix) + re.escape(prefix) + '(?=/|\\b)')
+              if prefix else None
+          )
+
+          def rewrite_urls(text, where):
+              if not prefix:
+                  return text, 0, 0
+              text, n_attr = attr_re.subn(
+                  lambda m: f'{m.group(1)}="{prefix}/', text)
+              text, n_css = css_url_re.subn(
+                  lambda m: f'url({m.group(1)}{prefix}/', text)
+              if double_prefix_re is not None:
+                  dup = len(double_prefix_re.findall(text))
+                  if dup:
+                      stats['double_prefix_hits'] += dup
+                      log.error('%s: %d occurrence(s) of duplicated prefix %r -- '
+                                'content is being rewritten more than once',
+                                where, dup, prefix + prefix)
+              return text, n_attr, n_css
+
+          # --- Process files in _site ---------------------------------------------
+          # Two phases, to avoid double-processing content that gets inlined:
+          #   phase 1 expands SSI `#include` directives (reads include targets
+          #           while they are still unmodified, then writes the inlined
+          #           result to the including file);
+          #   phase 2 rewrites root-absolute URLs, once per underlying file
+          #           (using realpath so symlinks like xfree/cygx.css ->
+          #           ../style.css don't cause the same file to be rewritten
+          #           twice).
+
+          log.info('::group::phase 1: inline SSI includes')
+          for root, _, files in os.walk(dst):
+              for name in files:
+                  if os.path.splitext(name)[1].lower() not in ('.html', '.htm'):
+                      continue
+                  stats['html_files'] += 1
+                  p = os.path.join(root, name)
+                  real = os.path.realpath(p)
+                  try:
+                      with open(real, 'r', encoding='utf-8', errors='replace') as f:
+                          text = f.read()
+                  except OSError as e:
+                      log.warning('cannot read %s: %s', p, e)
+                      continue
+                  new_text = inline_includes(text, p, {real})
+                  if new_text != text:
+                      stats['html_files_changed'] += 1
+                      with open(real, 'w', encoding='utf-8') as f:
+                          f.write(new_text)
+                      log.debug('phase1 wrote %s (%+d bytes)',
+                                p, len(new_text) - len(text))
+          log.info('phase 1 done: %d html/htm files scanned, %d modified, '
+                   '%d includes inlined, %d missing, %d cycles',
+                   stats['html_files'], stats['html_files_changed'],
+                   stats['includes_inlined'], stats['includes_missing'],
+                   stats['includes_cycles'])
+          log.info('::endgroup::')
+
+          log.info('::group::phase 2: rewrite root-absolute URLs')
+          processed = set()
+          for root, _, files in os.walk(dst):
+              for name in files:
+                  ext = os.path.splitext(name)[1].lower()
+                  if ext not in ('.html', '.htm', '.css'):
+                      continue
+                  p = os.path.join(root, name)
+                  real = os.path.realpath(p)
+                  if real in processed:
+                      stats['files_skipped_symlink'] += 1
+                      log.debug('skip %s (symlink/alias of already-processed %s)',
+                                p, real)
+                      continue
+                  processed.add(real)
+                  if ext == '.css':
+                      stats['css_files'] += 1
+                  try:
+                      with open(real, 'r', encoding='utf-8', errors='replace') as f:
+                          text = f.read()
+                  except OSError as e:
+                      log.warning('cannot read %s: %s', p, e)
+                      continue
+                  new_text, n_attr, n_css = rewrite_urls(text, p)
+                  stats['attr_substitutions'] += n_attr
+                  stats['css_url_substitutions'] += n_css
+                  if new_text != text:
+                      if ext == '.css':
+                          stats['css_files_changed'] += 1
+                      with open(real, 'w', encoding='utf-8') as f:
+                          f.write(new_text)
+                      log.debug('phase2 rewrote %s (attr=%d css=%d)',
+                                p, n_attr, n_css)
+          log.info('phase 2 done: %d css files scanned (%d modified), '
+                   '%d href/src rewrites, %d url() rewrites, %d symlink duplicates skipped',
+                   stats['css_files'], stats['css_files_changed'],
+                   stats['attr_substitutions'], stats['css_url_substitutions'],
+                   stats['files_skipped_symlink'])
+          log.info('::endgroup::')
+
+          # Disable Jekyll processing so underscore-prefixed paths (if any) are served.
+          Path(dst, '.nojekyll').touch()
+
+          log.info('build summary: %s', stats)
+          if stats['double_prefix_hits']:
+              log.error('%d duplicated-prefix occurrence(s) detected; '
+                        'failing the build', stats['double_prefix_hits'])
+              sys.exit(1)
+          PY
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

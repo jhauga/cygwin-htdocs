@@ -407,6 +407,12 @@ pre
   padding: 10px;
 }
 
+a:hover
+{
+  text-shadow: 1px 1px #80808050;
+  text-decoration: underline !important;
+}
+
 /* pkglist related ------------------------------------------------------- */
 
 /*

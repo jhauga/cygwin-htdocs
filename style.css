@@ -363,6 +363,50 @@ ul.compact li
   color: goldenrod;
 }
 
+/* code and code-block styles -------------------------------------------- */
+
+code
+{
+  background-color: #80a0a020; /* same color as menu with 20% opacity */
+  border-radius: 2px;
+  padding: 0px 3px;
+}
+
+/* quickly identify code */
+pre.example, pre.screen
+{
+  padding: 20px;
+  line-height: 1.25;
+}
+
+pre.example, pre.screen
+{
+  background-color: #80a0a020; /* same color as menu with 20% opacity */
+}
+
+/* link in code */
+a > code
+{
+  font-weight: bold;
+  font-size-adjust:.56;
+}
+
+/* code elements in dark table background */
+table tr:nth-of-type(odd) td p code
+{
+  background-color: white;
+}
+
+/* code-block style ------------------------------------------------------ */
+
+pre
+{
+  width: 100%;
+  background-color: #80a0a020; /* same color as menu with 20% opacity */
+  border-radius: 4px;
+  padding: 10px;
+}
+
 /* pkglist related ------------------------------------------------------- */
 
 /*

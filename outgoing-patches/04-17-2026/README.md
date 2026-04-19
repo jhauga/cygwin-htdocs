@@ -27,7 +27,7 @@ Changes include:
 - Prepend a HTML star entity the "Gold Stars" menu item
   - add-html-star-entity-for-the-Gold-Stars-menu-item.patch
   - Draw attention to item and clearly labels it as not the current page - https://www.netwaveinteractive.com/blog/visual-hierarchy-in-ui-ux-design-principles-strategies-and-best-practices/#:~:text=enhance%20hierarchy%20by%20breaking%20up%20text
-- Change HTML `h1` header's font family to system-ui
+- Change HTML `h1` header's font family to sans-serif
   - h1-header-s-font-family-to-sans-serif.patch
   - Keeping other text as serif makes for good visual contrast
   - Sans serif is best for digital:

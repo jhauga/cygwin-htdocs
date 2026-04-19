@@ -4,11 +4,14 @@ Clone of [`cygwin-htdocs`](https://www.cygwin.com/cgit/cygwin-htdocs/), Cygwin's
 
 ## GitHub Pages
 
-If viewing in GitHub Pages, then the proposed changes can be toggled back to the current changes. To do so:
+> [!NOTE]
+> The proposed changes can be toggled and compared by pressing `cc` quickly.
+
+To view in GitHub Pages, and toggle changes:
 
 - `Ctrl + click` [HERE](https://jhauga.github.io/cygwin-htdocs/index.html) to see the proposed changes
-- The proposed changes can be toggled back to the current `style.css` by:
-  - Press the `C` key twice, and within one second i.e. press `cc` really quick-like
+- Press the `C` key twice, and within one second i.e. press `cc` quickly
+  - This toggles back and forth from the proposed changes to the current `style.css`
 
 ## Codespace Local Server
 
@@ -20,20 +23,20 @@ bash ./.startSite.sh
 
 after starting a new codespace.
 
-## Instructions
+### Instructions
 
-### 1. Open a new codespace
+#### 1. Open a new codespace
 
 ![new codespace](startCodespace.png)
 
-### 2. Install Apache
+#### 2. Install Apache
 
 ```bash
 sudo apt-get update
 sudo apt-get install -y apache2
 ```
 
-### 3. Start the Server
+#### 3. Start the Server
 
 ```bash
 /usr/sbin/apache2 -f /workspaces/cygwin-htdocs/httpd.conf.local -DFOREGROUND
@@ -41,7 +44,7 @@ sudo apt-get install -y apache2
 
 Open `http://localhost:8000` in the Browser.
 
-### 4. Stop the Server
+#### 4. Stop the Server
 
 - Press `Ctrl+C` in the terminal running Apache, or:
 

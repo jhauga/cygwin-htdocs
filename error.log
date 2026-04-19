@@ -1,5 +1,0 @@
-[Fri Apr 17 05:54:11.080434 2026] [mpm_prefork:notice] [pid 13800] AH00163: Apache/2.4.58 (Ubuntu) configured -- resuming normal operations
-[Fri Apr 17 05:54:11.080563 2026] [core:notice] [pid 13800] AH00094: Command line: '/usr/sbin/apache2 -f /workspaces/cygwin-htdocs/httpd.conf.local -D FOREGROUND'
-[Fri Apr 17 05:54:43.570063 2026] [mpm_prefork:notice] [pid 13800] AH00173: SIGHUP received.  Attempting to restart
-[Fri Apr 17 05:54:43.575698 2026] [mpm_prefork:notice] [pid 13800] AH00163: Apache/2.4.58 (Ubuntu) configured -- resuming normal operations
-[Fri Apr 17 05:54:43.575817 2026] [core:notice] [pid 13800] AH00094: Command line: '/usr/sbin/apache2 -f /workspaces/cygwin-htdocs/httpd.conf.local -D FOREGROUND'

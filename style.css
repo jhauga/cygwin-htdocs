@@ -657,7 +657,7 @@ table.grid td.failed
 
 /* responsive styling ---------------------------------------------------- */
 
-@media (max-width: 800px)
+@media (max-width: 800px) /* tablet display */
 {
   div#main
   {
@@ -665,7 +665,7 @@ table.grid td.failed
     width: 85%;
   }
 }
-@media (max-width: 450px)
+@media (max-width: 450px) /* phone display */
 {
   div#main
   {

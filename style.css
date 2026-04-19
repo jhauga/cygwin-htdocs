@@ -133,7 +133,7 @@ div.logo img
 }
 div.logo:hover
 {
-  opacity: 0.85;;
+  opacity: 0.85;
 }
 
 /* move div.cartouche to accomodate logo using absolute positioning */

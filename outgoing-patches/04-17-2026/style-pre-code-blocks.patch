@@ -14,7 +14,7 @@ index 5e815292..efb0ee69 100644
 +pre
 +{
 +  width: 100%;
-+  background-color: #80a0a020;
++  background-color: #80a0a020; /* same color as menu with 20% opacity */
 +  border-radius: 4px;
 +  padding: 10px;
 +}

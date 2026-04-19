@@ -15,7 +15,7 @@ index 5e815292..9e680681 100644
 +
 +#navbar a.gold:before
 +{
-+  content: "\2B50";
++  content: "\2B50"; /* medium star */
  }
  
  #navbar ul ul

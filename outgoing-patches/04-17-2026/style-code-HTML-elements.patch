@@ -13,7 +13,7 @@ index 5e815292..abf6b8bb 100644
 +
 +code
 +{
-+  background-color: #80a0a020;
++  background-color: #80a0a020; /* same color as menu with 20% opacity */
 +  border-radius: 2px;
 +  padding: 0px 3px;
 +}
@@ -27,7 +27,7 @@ index 5e815292..abf6b8bb 100644
 +
 +pre.example, pre.screen
 +{
-+  background-color: #80a0a020;
++  background-color: #80a0a020; /* same color as menu with 20% opacity */
 +}
 +
 +/* link in code */

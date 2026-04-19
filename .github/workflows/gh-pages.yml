@@ -219,6 +219,42 @@ jobs:
                    stats['includes_cycles'])
           log.info('::endgroup::')
 
+          log.info('::group::phase 1.5: inject favicon link and toggle script')
+          favicon_tag = '<link rel="icon" href="/favicon.ico">'
+          script_tag = '<script src="/toggle/toggle.js"></script>'
+          close_head_re = re.compile(r'</head>', re.IGNORECASE)
+          close_body_re = re.compile(r'</body>', re.IGNORECASE)
+          injected_phase15 = set()
+          favicon_count = inject_count = 0
+          for root, _, files in os.walk(dst):
+              for name in files:
+                  if os.path.splitext(name)[1].lower() not in ('.html', '.htm'):
+                      continue
+                  p = os.path.join(root, name)
+                  real = os.path.realpath(p)
+                  if real in injected_phase15:
+                      continue
+                  injected_phase15.add(real)
+                  try:
+                      with open(real, 'r', encoding='utf-8', errors='replace') as f:
+                          text = f.read()
+                  except OSError as e:
+                      log.warning('cannot read %s: %s', p, e)
+                      continue
+                  text, n_fav = close_head_re.subn(favicon_tag + '\n</head>', text)
+                  text, n_scr = close_body_re.subn(script_tag + '\n</body>', text)
+                  if n_fav or n_scr:
+                      favicon_count += n_fav
+                      inject_count += n_scr
+                      with open(real, 'w', encoding='utf-8') as f:
+                          f.write(text)
+                      log.debug('phase1.5 patched %s (favicon=%d toggle=%d)',
+                                p, n_fav, n_scr)
+          log.info('phase 1.5 done: favicon injected into %d file(s), '
+                   'toggle script injected into %d file(s)',
+                   favicon_count, inject_count)
+          log.info('::endgroup::')
+
           log.info('::group::phase 2: rewrite root-absolute URLs')
           processed = set()
           for root, _, files in os.walk(dst):

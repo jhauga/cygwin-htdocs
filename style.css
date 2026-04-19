@@ -34,12 +34,12 @@ a:visited
 
 #navbar
 {
-position: fixed;
-left: 0.5em;
-max-width: 12em;
-background-color: var(--nav-background);
-color: var(--white);
-text-align: left;
+  position: fixed;
+  left: 0.5em;
+  max-width: 12em;
+  background-color: var(--nav-background);
+  color: var(--white);
+  text-align: left;
 }
 
 #navbar li
@@ -130,6 +130,10 @@ div.logo img
   height: 70px;
   top: 4px;
   left: 10px;
+}
+div.logo:hover
+{
+  opacity: 0.85;;
 }
 
 /* move div.cartouche to accomodate logo using absolute positioning */

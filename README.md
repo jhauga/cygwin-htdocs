@@ -2,14 +2,25 @@
 
 Clone of [`cygwin-htdocs`](https://www.cygwin.com/cgit/cygwin-htdocs/), Cygwin's website files. This repo is to demonstrate proposed changes to [cygwin.com](https://www.cygwin.com/).
 
+### Responsive Preview
+
+<details>
+
+<summary>Show Preview</summary>
+
+![responsive preview](responsive-menu.gif)
+
+</details>
+
 ## GitHub Pages
+
+### `Ctrl + click` [HERE](https://jhauga.github.io/cygwin-htdocs/index.html) for Proposed Changes
 
 > [!NOTE]
 > The proposed changes can be toggled and compared by pressing `cc` quickly.
 
 To view in GitHub Pages, and toggle changes:
 
-- `Ctrl + click` [HERE](https://jhauga.github.io/cygwin-htdocs/index.html) to see the proposed changes
 - Press the `C` key twice, and within one second i.e. press `cc` quickly
   - This toggles back and forth from the proposed changes to the current `style.css`
 

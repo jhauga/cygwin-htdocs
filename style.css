@@ -1,5 +1,5 @@
 /* CSS variables --------------------------------------------------------- */
-
+/* PATCH */
 :root
 {
   --black: black;
@@ -11,6 +11,18 @@
   --cartouche: #e8e8e8;
   --table: #f2f2f2;
   --table-hover: #fdd9b5;
+}
+
+/* PATCH */
+:not(pre,code)
+{
+  font-family: sans-serif !important; /* all but not pre or code tag */
+}
+/* PATCH */
+/* Access */
+*
+{
+  line-height: 1.35; /* this is a bit more accessible reading */
 }
 
 body
@@ -66,7 +78,7 @@ a:visited
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
-
+/* PATCH */
 #navbar a
 {
   overflow: hidden;
@@ -74,9 +86,10 @@ a:visited
   font-weight: 500;
   color: var(--white);
   text-decoration: none;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
 }
-
+/* PATCH */
+/* 
 #navbar a.gold
 {
   color:gold;
@@ -85,6 +98,13 @@ a:visited
 #navbar a.gold:before
 {
   content: "\2B50";
+}
+*/
+/* PATCH */
+/* Access */
+#navbar *
+{
+  line-height: 1.1 !important; /* override the global hine-height */
 }
 
 #navbar ul ul
@@ -109,11 +129,10 @@ a:visited
   font-weight: initial;
   padding: initial;
 }
-
+/* PATCH */
 #navbar ul li.nohover li
 {
   margin-top: 5px;
-  line-height: 1.1;
 }
 
 div#main
@@ -191,10 +210,10 @@ div#top div.cartouche
   margin-right: 22em;
   min-width: 45em;
 }
-
+/* PATCH */
 #main h1
 {
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
   font-size: 2em;
   font-weight: bold;
   color: var(--heading);
@@ -228,13 +247,13 @@ div#top div.cartouche
   font-style: italic;
   padding-left: 6px;
 }
-
+/* PATCH */
 #main .command
 {
   margin-bottom: 1ex;
   margin-top: 1ex;
   text-align: center;
-  font-family: monospace;
+  /* font-family: monospace; */
 }
 
 #main li
@@ -244,11 +263,18 @@ div#top div.cartouche
   overflow: visible;
 }
 
-/* Header/footer styles -------------------------------------------------- */
+/* PATCH */
+/* Access */
+#main ul li ul *, #main ul li ul
+{
+  line-height: 1.25 !important; /* override accessible, looks organized  */
+}
 
+/* Header/footer styles -------------------------------------------------- */
+/* PATCH */
 #big-title
 {
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
   font-size: 5em;
   color: var(--big-title);
   margin-top: 0em;
@@ -257,10 +283,10 @@ div#top div.cartouche
   margin-right: 6px;
   padding-left: 4px;
 }
-
+/* PATCH */
 #medium-title
 {
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
   font-size: 3em;
   margin-bottom: 0.2em;
 }
@@ -415,14 +441,11 @@ code
 }
 
 /* quickly identify code */
+/* PATCH */
 pre.example, pre.screen
 {
   padding: 20px;
   line-height: 1.25;
-}
-
-pre.example, pre.screen
-{
   background-color: var(--code);
 }
 
@@ -561,10 +584,10 @@ table.pkgdetails tr td:first-child
 }
 
 /* packaging related ----------------------------------------------------- */
-
+/* PATCH */
 .sample-email
 {
-  font-family: monospace;
+  /* font-family: monospace; */
   border-width: 1px;
   border-style: solid;
   margin-left:5%;
@@ -656,20 +679,251 @@ table.grid td.failed
 }
 
 /* responsive styling ---------------------------------------------------- */
+/* PATCH */
+/* Updated: 2026-05-05 - add pure-CSS hamburger toggle for #navbar */
+
+/* hamburger toggle (hidden checkbox) ------------------------------------ */
+.navbar-toggle
+{
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  width: 0;
+  height: 0;
+}
+
+/* Background for hamburger menu. */
+div#hamburger-background
+{
+  display: none;
+  position: fixed;
+  z-index: 1001; /* ensure it stays over navbar and can close */
+  right: 11px;
+  background-color: var(--nav-background);
+  border-radius: 8px;
+  width: 50px;
+  height: 50px;
+}
+
+/* hamburger icon (3 stacked bars) - hidden on desktop, shown on small screens */
+.hamburger-icon
+{
+  display: none; /* shown via media query below */
+  position: fixed;
+  background-color: var(--white);
+  top: 0.85em;
+  right: 16px;
+  width: 2.5em;
+  height: 2.5em;
+  padding: 0.5em;
+  box-sizing: border-box;
+  border: 1px solid var(--nav-background);
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.hamburger-icon span
+{
+  display: block;
+  width: 100%;
+  height: 3px;
+  margin: 3px 0;
+  background-color: var(--nav-background);
+  border-radius: 2px;
+  transition: transform 0.25s ease, opacity 0.2s ease;
+}
+
+.hamburger-icon:hover
+{
+  background-color: #608080;
+}
+
+/* keyboard focus ring for accessibility */
+.navbar-toggle:focus-visible + .hamburger-icon
+{
+  outline: 2px solid var(--white);
+  outline-offset: 2px;
+}
 
 @media (max-width: 800px) /* tablet display */
 {
+  /* Fit content to screen. */
+  #main
+  {
+    left: 0em;         /* overrides current style */
+    margin-right: 0em; /* overrides current style */
+  }
+
   div#main
   {
+    margin-left: 0px; /* overrides current style */
     min-width: 20em;
     width: 85%;
   }
+
+  pre
+  {
+    width: fit-content;
+    overflow-x: scroll;
+  }
+
+  /* Show hamburger icon on small screens */
+  .hamburger-icon
+  {
+    display: block;
+  }
+
+  /* Show hamburger background */
+  div#hamburger-background
+  {
+    display: inline-block;
+    padding: 5px;   
+  }
+
+  /* Hide #navbar by default on small screens; reveal when toggled */
+  #navbar
+  {
+    position: fixed;
+    top: 2em;       /* below the hamburger icon */
+    left: 0;
+    right: 0;
+    max-width: none;   /* override desktop max-width */
+    max-height: calc(100vh - 3.25em);
+    overflow-y: auto;
+    z-index: 1000;
+    border-radius: 0;
+    transform: translateY(-110%);
+    transition: transform 0.25s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  /* Reveal navbar when checkbox is checked */
+  .navbar-toggle:checked ~ #navbar
+  {
+    transform: translateY(0);
+  }
+
+  /* Animate hamburger bars into an "X" when open */
+  .navbar-toggle:checked ~ .hamburger-icon span:nth-child(1)
+  {
+    transform: translateY(6px) rotate(45deg);
+  }
+
+  .navbar-toggle:checked ~ .hamburger-icon span:nth-child(2)
+  {
+    opacity: 0;
+  }
+
+  .navbar-toggle:checked ~ .hamburger-icon span:nth-child(3)
+  {
+    transform: translateY(-6px) rotate(-45deg);
+  }
 }
+
 @media (max-width: 450px) /* phone display */
 {
   div#main
   {
     width: 100%;
     padding-right: 10px;
+  }
+}
+
+/* global responsive rules ----------------------------------------------- */
+/* PATCH */
+/* Updated: 2026-05-05 - global responsive rules for tables, media, layout */
+
+/* Apply border-box so widths/paddings don't blow out their container */
+*, *::before, *::after
+{
+  box-sizing: border-box;
+}
+
+/* Prevent the page itself from horizontally scrolling */
+html, body
+{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Replaced media: images, video, iframes scale to their container */
+img, video, iframe, embed, object
+{
+  max-width: 100%;
+  height: auto;
+}
+
+/* Long URLs / unbroken strings should wrap rather than overflow */
+p, li, dd, dt, td, th, figcaption, blockquote
+{
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* <pre> blocks: keep formatting but never overflow their container */
+pre
+{
+  max-width: 100%;
+  overflow-x: auto;
+  white-space: pre;
+}
+
+/* Tables ---------------------------------------------------------------- */
+
+/* Cap every table to its container; permit horizontal scroll if needed */
+table
+{
+  max-width: 100%;
+  /* Wrap the table in its own scroll context via display:block at narrow
+     widths (see media query below). On wide screens keep native table layout. */
+}
+
+/* Cells: allow word breaking so long URLs in cells don't force the table wide */
+table td, table th
+{
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* On tablet and below, convert wide tables into a horizontally scrollable
+   block so the rest of the page (and the navbar) cannot be pushed off-screen.
+   This applies to ALL tables, not only the named ones. */
+@media (max-width: 800px)
+{
+  /* The table becomes a scroll container; its inner layout still renders
+     as a table because <thead>/<tbody>/<tr>/<td> keep their default display. */
+  table
+  {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Restore proper table semantics inside the scroll container so columns
+     still align. Wrapping the rows in an inner table-row-group keeps the
+     layout tabular while the outer block scrolls. */
+  table > caption
+  {
+    display: table-caption;
+  }
+
+  table > thead,
+  table > tbody,
+  table > tfoot
+  {
+    display: table-row-group;
+  }
+
+  table tr
+  {
+    display: table-row;
+  }
+
+  table th,
+  table td
+  {
+    display: table-cell;
   }
 }

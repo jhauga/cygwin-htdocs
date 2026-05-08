@@ -97,7 +97,7 @@
 e.g.:
 </p>
 
-<pre>
+<pre class="screen">
 bash$ ls -1 release/boffo
 boffo-1.0-1-src.hint
 boffo-1.0-1-src.tar.xz
@@ -150,7 +150,7 @@ boffo-1.0-1.tar.xz
   <li>
     Binary packages are extracted in /, include all file paths from the root in
     your archive, e.g.:
-<pre>
+<pre class="screen">
 usr/bin/boffo.exe
 usr/share/boffo/boffo.dat
 etc...
@@ -158,7 +158,7 @@ etc...
   </li>
   <li>
     The package is configured using (at a minimum) the following paths:
-<pre>
+<pre class="screen">
 --prefix=/usr
 --sysconfdir=/etc
 --libexecdir=/usr/lib
@@ -197,7 +197,7 @@ etc...
   <li>Source packages are extracted in /usr/src (so the paths in your source tar
   file should not include /usr/src). On extraction, the tar file should put the
   sources in a directory with the same name as the package, e.g.:
-<pre>
+<pre class="screen">
 boffo-1.0-1/boffo.cygport
 boffo-1.0-1/boffo-1.0.tar.xz
 boffo-1.0-1/boffo-1.0-1.src.patch

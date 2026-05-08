@@ -21,7 +21,7 @@ If you are a package maintainer, you will need to provide an SSH key.
 
 <p>Send your SSH public key to the <a href="http://cygwin.com/lists.html#cygwin-apps">cygwin-apps</a> mailing list using this format:</p>
 
-<pre>
+<pre class="screen">
     Name: Your Name
     ---- BEGIN SSH2 PUBLIC KEY ----
     &nbsp;&nbsp;&nbsp;<em>RFC 4716 format ssh public key here</em>
@@ -29,7 +29,7 @@ If you are a package maintainer, you will need to provide an SSH key.
 </pre>
 
 <p>An ssh key-pair can be generated, and the public key exported as follows:</p>
-<pre>
+<pre class="screen">
     ssh-keygen -f ~/.ssh/cygwin
     ssh-keygen -e -f ~/.ssh/cygwin.pub
 </pre>
@@ -86,7 +86,7 @@ provided.
   <li>
     Add a section to <code>~/.ssh/config</code> selecting that SSH private key when
     connecting to cygwin.com, e.g.:
-    <pre>
+    <pre class="screen">
 Host cygwin.com
   User cygwin
   IdentityFile ~/.ssh/cygwin</pre>

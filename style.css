@@ -912,12 +912,12 @@ table
     display: table-cell;
   }
 
-/* Cells: allow word breaking so long URLs in cells don't force the table wide */
-table td, table th
-{
-  overflow-wrap: anywhere;
-  word-break: break-word;
-}
+  /* Cells: allow word breaking so long URLs in cells don't force the table wide */
+  table td, table th
+  {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
 
   /* Long URLs / unbroken strings should wrap rather than overflow */
   p, li, dd, dt, td, th, figcaption, blockquote

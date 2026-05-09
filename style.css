@@ -853,13 +853,6 @@ img, video, iframe, embed, object
   height: auto;
 }
 
-/* Long URLs / unbroken strings should wrap rather than overflow */
-p, li, dd, dt, td, th, figcaption, blockquote
-{
-  overflow-wrap: anywhere;
-  word-break: break-word;
-}
-
 /* <pre> blocks: keep formatting but never overflow their container */
 pre
 {
@@ -876,13 +869,6 @@ table
   max-width: 100%;
   /* Wrap the table in its own scroll context via display:block at narrow
      widths (see media query below). On wide screens keep native table layout. */
-}
-
-/* Cells: allow word breaking so long URLs in cells don't force the table wide */
-table td, table th
-{
-  overflow-wrap: anywhere;
-  word-break: break-word;
 }
 
 /* On tablet and below, convert wide tables into a horizontally scrollable
@@ -924,5 +910,19 @@ table td, table th
   table td
   {
     display: table-cell;
+  }
+
+/* Cells: allow word breaking so long URLs in cells don't force the table wide */
+table td, table th
+{
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+  /* Long URLs / unbroken strings should wrap rather than overflow */
+  p, li, dd, dt, td, th, figcaption, blockquote
+  {
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
 }

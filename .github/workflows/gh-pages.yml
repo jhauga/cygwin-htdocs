@@ -220,10 +220,18 @@ jobs:
           log.info('::endgroup::')
 
           log.info('::group::phase 1.5: inject favicon link and toggle script')
+          # IMPORTANT: pages like faq.html SSI-include `faq/faq.html`, which is
+          # a full standalone DocBook HTML document with its *own* <head>/<body>
+          # tags. After phase 1, the parent file ends up with multiple </head>
+          # and </body> tags. We must inject exactly once per file:
+          #   - favicon goes before the FIRST </head>  (the outermost <head>)
+          #   - toggle script goes before the LAST </body>  (the outermost
+          #     </body>, after all nested content)
+          # Otherwise duplicate <script> tags register the keydown listener
+          # multiple times and the 'cc' toggle handlers cancel each other out
+          # (this was the bug visible on faq.html).
           favicon_tag = '<link rel="icon" href="/favicon.ico">'
           script_tag = '<script src="/toggle/toggle.js"></script>'
-          close_head_re = re.compile(r'</head>', re.IGNORECASE)
-          close_body_re = re.compile(r'</body>', re.IGNORECASE)
           injected_phase15 = set()
           favicon_count = inject_count = 0
           for root, _, files in os.walk(dst):
@@ -241,8 +249,25 @@ jobs:
                   except OSError as e:
                       log.warning('cannot read %s: %s', p, e)
                       continue
-                  text, n_fav = close_head_re.subn(favicon_tag + '\n</head>', text)
-                  text, n_scr = close_body_re.subn(script_tag + '\n</body>', text)
+                  lower = text.lower()
+                  n_fav = n_scr = 0
+                  # Inject favicon once, before the first </head>.
+                  if favicon_tag not in text:
+                      head_idx = lower.find('</head>')
+                      if head_idx >= 0:
+                          text = (text[:head_idx]
+                                  + favicon_tag + '\n'
+                                  + text[head_idx:])
+                          lower = text.lower()
+                          n_fav = 1
+                  # Inject toggle script once, before the LAST </body>.
+                  if script_tag not in text:
+                      body_idx = lower.rfind('</body>')
+                      if body_idx >= 0:
+                          text = (text[:body_idx]
+                                  + script_tag + '\n'
+                                  + text[body_idx:])
+                          n_scr = 1
                   if n_fav or n_scr:
                       favicon_count += n_fav
                       inject_count += n_scr

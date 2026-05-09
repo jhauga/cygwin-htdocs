@@ -1,0 +1,55 @@
+ style.css | 10 ++++++----
+ 1 file changed, 6 insertions(+), 4 deletions(-)
+
+diff --git a/style.css b/style.css
+index 1c5a1733..78baef51 100644
+--- a/style.css
++++ b/style.css
+@@ -5,6 +5,12 @@
+   line-height: 1.35; /* this is a bit more accessible reading       */
+ }
+ 
++/* apply font-family to all but pre and code tag */
++:not(pre,code)
++{
++  font-family: sans-serif !important; /* all but not pre or code tag */
++}
++
+ body
+ {
+   color: black;
+@@ -72,7 +78,6 @@ a:visited
+   font-weight: 500;
+   color: white;
+   text-decoration: none;
+-  font-family: sans-serif;
+ }
+ 
+ #navbar a.gold
+@@ -204,7 +209,6 @@ div#main
+   margin-bottom: 1ex;
+   margin-top: 1ex;
+   text-align: center;
+-  font-family: monospace;
+ }
+ 
+ #main li
+@@ -224,7 +228,6 @@ div#main
+ 
+ #big-title
+ {
+-  font-family: sans-serif;
+   font-size: 5em;
+   color: #990033;
+   margin-top: 0em;
+@@ -236,7 +239,6 @@ div#main
+ 
+ #medium-title
+ {
+-  font-family: sans-serif;
+   font-size: 3em;
+   margin-bottom: 0.2em;
+ }
+-- 
+2.49.0.windows.1
+

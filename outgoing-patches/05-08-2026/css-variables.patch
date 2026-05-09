@@ -1,0 +1,393 @@
+ style.css | 114 +++++++++++++++++++++++++++++++-----------------------
+ 1 file changed, 66 insertions(+), 48 deletions(-)
+
+diff --git a/style.css b/style.css
+index 654d4551..1c0908f2 100644
+--- a/style.css
++++ b/style.css
+@@ -1,3 +1,21 @@
++/* CSS variables --------------------------------------------------------- */
++
++:root
++{
++  --black: black;
++  --white: white;
++  --big-title: #990033;
++  --heading: #99003f;
++  --nav-background: #80a0a0;
++  --nav-hover: #608080;
++  --cartouche: #e8e8e8;
++  --table: #f2f2f2;
++  --table-hover: #fdd9b5;
++  --code: #80a0a020;
++  --green: green;
++  --red: red;
++}
++
+ /* Better reading for accessibliity */
+ *
+ {
+@@ -13,7 +31,7 @@
+ 
+ body
+ {
+-  color: black;
++  color: var(--black);
+ }
+ 
+ a:link
+@@ -35,8 +53,8 @@ a:visited
+   position: fixed;
+   left: 0.5em;
+   max-width: 12em;
+-  background-color: #80a0a0;
+-  color: white;
++  background-color: var(--nav-background);
++  color: var(--white);
+   text-align: left;
+ }
+ 
+@@ -54,7 +72,7 @@ a:visited
+ #navbar li:hover:not(.nohover)
+ {
+   overflow: hidden;
+-  background-color: #608080;
++  background-color: var(--nav-hover);
+ }
+ 
+ #navbar ul
+@@ -76,7 +94,7 @@ a:visited
+   overflow: hidden;
+   font-size: small;
+   font-weight: 500;
+-  color: white;
++  color: var(--white);
+   text-decoration: none;
+ }
+ 
+@@ -134,7 +152,7 @@ div#main
+ #rightwhat
+ {
+   margin-left: 50%;
+-  border-left: 2px solid #e8e8e8;
++  border-left: 2px solid var(--cartouche);
+   padding: 0.1px; /* rounds down to 0, but prevents margin collapse */
+   padding-left: 1.5em;
+ }
+@@ -150,7 +168,7 @@ div#main
+ #endwrap
+ {
+   clear: both;
+-  border-top: 2px solid #e8e8e8;
++  border-top: 2px solid var(--cartouche);
+ }
+ 
+ /* main ------------------------------------------------------------------ */
+@@ -167,26 +185,26 @@ div#main
+ {
+   font-size: 2em;
+   font-weight: bold;
+-  color: #99003f;
++  color: var(--heading);
+ }
+ 
+ #main h2
+ {
+   font-size: 1.3em;
+-  color: #99003f;
++  color: var(--heading);
+ }
+ 
+ #main h3
+ {
+   font-size: 1.1em;
+-  color: #99003f;
++  color: var(--heading);
+   margin-bottom: 0ex;
+ }
+ 
+ #main h4
+ {
+   font-size: 1em;
+-  color: #99003f;
++  color: var(--heading);
+ }
+ 
+ #main .catchphrase
+@@ -224,7 +242,7 @@ div#main
+ #big-title
+ {
+   font-size: 5em;
+-  color: #990033;
++  color: var(--big-title);
+   margin-top: 0em;
+   margin-bottom: 0em;
+   margin-left: 6px;
+@@ -244,7 +262,7 @@ div#main
+ {
+   position: relative;
+   font-size: 0.7em;
+-  border-top: 2px solid #e8e8e8;
++  border-top: 2px solid var(--cartouche);
+   text-align: center;
+ }
+ 
+@@ -252,7 +270,7 @@ div#main
+ 
+ .cartouche
+ {
+-  background: #e8e8e8;
++  background: var(--cartouche);
+   border-radius: 8px;
+   padding: 4px;
+ }
+@@ -264,7 +282,7 @@ table#mirroradmin
+   width:90%;
+   margin-left:5%;
+   margin-right:5%;
+-  border:2px solid black;
++  border:2px solid var(--black);
+ }
+ 
+ table.deben
+@@ -272,7 +290,7 @@ table.deben
+   width:85%;
+   margin-left: 7.5%;
+   margin-right: 7.5%;
+-  border:1px solid black;
++  border:1px solid var(--black);
+   border-collapse: collapse;
+ }
+ 
+@@ -285,18 +303,18 @@ table.deben th
+ 
+ table.deben th
+ {
+-  color: #99003f;
+-  border-color: black;
++  color: var(--heading);
++  border-color: var(--black);
+ }
+ 
+ table.deben tr:nth-child(odd)
+ {
+-  background-color: #f2f2f2;
++  background-color: var(--table);
+ }
+ 
+ table.deben tr:hover
+ {
+-  background-color: #fdd9b5;
++  background-color: var(--table-hover);
+ }
+ 
+ div#main .indent
+@@ -365,12 +383,12 @@ ul.compact li
+ 
+ .green
+ {
+-  color: green;
++  color: var(--green);
+ }
+ 
+ .red
+ {
+-  color: red;
++  color: var(--red);
+ }
+ 
+ .amber
+@@ -382,7 +400,7 @@ ul.compact li
+ 
+ code
+ {
+-  background-color: #80a0a020; /* same color as menu with 20% opacity */
++  background-color: var(--code); /* same color as menu with 20% opacity */
+   border-radius: 2px;
+   padding: 0px 3px;
+ }
+@@ -396,7 +414,7 @@ pre.example, pre.screen
+ 
+ pre.example, pre.screen
+ {
+-  background-color: #80a0a020; /* same color as menu with 20% opacity */
++  background-color: var(--code); /* same color as menu with 20% opacity */
+ }
+ 
+ /* link in code */
+@@ -409,7 +427,7 @@ a > code
+ /* code elements in dark table background */
+ table tr:nth-of-type(odd) td p code
+ {
+-  background-color: white;
++  background-color: var(--white);
+ }
+ 
+ /* code-block style ------------------------------------------------------ */
+@@ -417,7 +435,7 @@ table tr:nth-of-type(odd) td p code
+ pre
+ {
+   width: 100%;
+-  background-color: #80a0a020; /* same color as menu with 20% opacity */
++  background-color: var(--code); /* same color as menu with 20% opacity */
+   border-radius: 4px;
+   padding: 10px;
+ }
+@@ -449,7 +467,7 @@ table.pkglist
+ 
+ .pkglist tr:hover
+ {
+-  background-color: #e8e8e8;
++  background-color: var(--cartouche);
+ }
+ 
+ .pkglist a
+@@ -465,20 +483,20 @@ table.pkglist
+ 
+ .detail
+ {
+-  color: #99003f;
++  color: var(--heading);
+ }
+ 
+ table.pkgtable
+ {
+   border-collapse: collapse;
+-  border:1px solid black;
++  border:1px solid var(--black);
+ }
+ 
+ table.pkgtable th
+ {
+-  background-color: #80a0a0;
+-  color: white;
+-  border-color: black;
++  background-color: var(--nav-background);
++  color: var(--white);
++  border-color: var(--black);
+   border-width: 1px;
+   border-style: solid;
+ }
+@@ -491,12 +509,12 @@ table.pkgtable td
+ 
+ table.pkgtable tr:nth-child(even)
+ {
+-  background-color: #f2f2f2;
++  background-color: var(--table);
+ }
+ 
+ table.pkgtable tr:hover
+ {
+-  background-color: #fdd9b5;
++  background-color: var(--table-hover);
+ }
+ 
+ table.pkgdetails p
+@@ -523,7 +541,7 @@ table.pkgdetails tr td:first-child
+   -webkit-column-width: 15em;
+   column-width: 15em;
+   column-rule-style: double;
+-  column-rule-color: #99003f;
++  column-rule-color: var(--heading);
+   width: 90%;
+   margin: auto;
+ }
+@@ -575,23 +593,23 @@ table.grid
+   width: 95%;
+   margin-left:auto;
+   margin-right:auto;
+-  border: 1px solid black;
++  border: 1px solid var(--black);
+   border-collapse: collapse;
+ }
+ 
+ table.grid th
+ {
+   text-align: left;
+-  border: 1px solid black;
++  border: 1px solid var(--black);
+   border-collapse: collapse;
+-  background-color: black;
+-  color: white;
++  background-color: var(--black);
++  color: var(--white);
+   padding: 0.3em;
+ }
+ 
+ table.grid tr:nth-child(even)
+ {
+-  background-color: #f2f2f2;
++  background-color: var(--table);
+ }
+ 
+ table.grid tr.highlight
+@@ -601,14 +619,14 @@ table.grid tr.highlight
+ 
+ table.grid td
+ {
+-  border: 1px solid black;
++  border: 1px solid var(--black);
+   border-collapse: collapse;
+   padding: 0.3em;
+ }
+ 
+ table.grid tr:hover
+ {
+-  background-color: #fdd9b5;
++  background-color: var(--table-hover);
+ }
+ 
+ table.grid td.succeeded, table.grid td.deployed
+@@ -647,7 +665,7 @@ div#hamburger-background
+   position: fixed;
+   z-index: 1001; /* ensure it stays over navbar and can close */
+   right: 11px;
+-  background-color: #80a0a0;
++  background-color: var(--nav-background);
+   border-radius: 8px;
+   width: 50px;
+   height: 50px;
+@@ -658,14 +676,14 @@ div#hamburger-background
+ {
+   display: none; /* shown via media query below */
+   position: fixed;
+-  background-color: white;
++  background-color: var(--white);
+   top: 0.85em;
+   right: 16px;
+   width: 2.5em;
+   height: 2.5em;
+   padding: 0.5em;
+   box-sizing: border-box;
+-  border: 1px solid #80a0a0;
++  border: 1px solid var(--nav-background);
+   border-radius: 4px;
+   cursor: pointer;
+   user-select: none;
+@@ -677,20 +695,20 @@ div#hamburger-background
+   width: 100%;
+   height: 3px;
+   margin: 3px 0;
+-  background-color: #80a0a0;
++  background-color: var(--nav-background);
+   border-radius: 2px;
+   transition: transform 0.25s ease, opacity 0.2s ease;
+ }
+ 
+ .hamburger-icon:hover
+ {
+-  background-color: #608080;
++  background-color: var(--nav-hover);
+ }
+ 
+ /* keyboard focus ring for accessibility */
+ .navbar-toggle:focus-visible + .hamburger-icon
+ {
+-  outline: 2px solid white;
++  outline: 2px solid var(--white);
+   outline-offset: 2px;
+ }
+ 
+-- 
+2.49.0.windows.1
+

@@ -1,0 +1,22 @@
+ style.css | 5 -----
+ 1 file changed, 5 deletions(-)
+
+diff --git a/style.css b/style.css
+index 78baef51..b7429c79 100644
+--- a/style.css
++++ b/style.css
+@@ -80,11 +80,6 @@ a:visited
+   text-decoration: none;
+ }
+ 
+-#navbar a.gold
+-{
+-  color:gold;
+-}
+-
+ #navbar ul ul
+ {
+   margin-top: 0em;
+-- 
+2.49.0.windows.1
+

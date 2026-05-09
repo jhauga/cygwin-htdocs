@@ -47,7 +47,7 @@ you just want a copy of an existing directory tree. Simply follow these steps:
   public mirror and only add your own custom packages as described in the
   next section.  (Substitute your chosen mirror
   for <em>example.com</em> and your DocumentRoot for <em>/var/www/</em>):
-  <pre>
+  <pre class="screen">
     rsync -vaz rsync://<em>example.com/pub/cygwin/ /var/www/</em>cygwin
   </pre>
 </li>
@@ -85,7 +85,7 @@ script <code>mksetupini</code>.
   </li>
   <li>
     directly from  <a href="https://cygwin.com/cgit/cygwin-apps/calm/">Cygwin-apps git</a>.
-    <pre>
+    <pre class="screen">
       pip3 install git+https://cygwin.com/git/cygwin-apps/calm.git
     </pre>
   </li>
@@ -106,7 +106,7 @@ discussed and announced.
   Create a directory to store your files (i.e., the arch/release/ directory
   tree).  I use <code>/var/www/custom-cygwin/</code>.  If you also created a local
   mirror as described above, you can link those files:
-  <pre>
+  <pre class="screen">
     #!/bin/sh
     mkdir custom-cygwin
     cd custom-cygwin
@@ -127,7 +127,7 @@ discussed and announced.
   you can add an empty package in the <code>Base</code> category that depends on
   several other packages to automatically install them for anyone using your
   custom mirror. For example:
-  <pre>
+  <pre class="screen">
     #!/bin/sh
     mkdir custompackage
     cd custompackage
@@ -143,7 +143,7 @@ discussed and announced.
 <li>
   Run <code>mksetupini</code> and create compressed <code>setup.ini</code> files for the
   setup program:
-  <pre>
+  <pre class="screen">
     #!/bin/sh
     cd /var/www/custom-cygwin/
     for ARCH in x86_64 ; do

@@ -24,7 +24,7 @@ script for your packages, you can upload your finished packages
 using <a href="https://cygwin.github.io/cygport/pkg_upload_cygpart.html">
 <code>cygport up</code></a>, e.g.:</p>
 
-<pre>    cygport pkg.cygport up</pre>
+<pre class="screen">    cygport pkg.cygport up</pre>
 
 <p><code>calm</code> will scan the upload directories for packages that are ready,
 verify them, and, if there are no errors, move the packages into the real
@@ -55,7 +55,7 @@ area will remain unchanged.</p>
 
 Package maintainers can promote their own packages from test to current using:
 
-<pre>    ssh cygwin@cygwin.com untest <i>sourcepackage-version-release</i></pre>
+<pre class="screen">    ssh cygwin@cygwin.com untest <i>sourcepackage-version-release</i></pre>
 
 Historical alternatives were:
 
@@ -128,7 +128,7 @@ file with the name of the file that you want deleted, prefixed with a
 <p>You may also upload files directly, using an sftp client such as sftp or lftp. An upload
 directory on cygwin.com will look like this:</p>
 
-<pre>
+<pre class="screen">
        Your Name                          # directory is currently your full name (you won't actually see this)
         x86_64    noarch                  # arch directory
          release   release                # release directory
@@ -138,7 +138,7 @@ directory on cygwin.com will look like this:</p>
 
 <h4>Example using <a href="http://lftp.yar.ru/">lftp</a> to upload packages:</h4>
 
-<pre>
+<pre class="screen">
     % lftp sftp://cygwin@cygwin.com
     cd ok, cwd=/
 
@@ -180,7 +180,7 @@ directory on cygwin.com will look like this:</p>
 
 <h4>Example <code>lftp</code> upload command line</h4>
 
-<pre>
+<pre class="screen">
     # command line to upload the time packages
     cd wherever
     lftp -c 'connect sftp://cygwin@cygwin.com/; cd x86_64/release; mirror -eR time; put /dev/null -o !ready'

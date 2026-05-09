@@ -110,7 +110,7 @@
       means something like:
     </p>
 
-<pre>
+<pre class="screen">
 libboffo0_CONTENTS="
   usr/bin/*-0.dll
   usr/share
@@ -172,7 +172,7 @@ libboffo0_CONTENTS="
     use <a href="https://cygwin.github.io/cygport/src_compile_cygpart.html#lndirs"><code>lndirs</code></a>,
     e.g.:
 
-<pre>
+<pre class="screen">
 src_compile() {
   cd ${S}
   cygautoreconf
@@ -209,7 +209,7 @@ src_compile() {
       you can use <code>declare</code> to set it's contents etc., e.g.:
     </p>
 
-<pre>
+<pre class="screen">
 inherit python3 meson
 ...
 PKG_NAMES="foo libfoo1 libfoo-devel python3-foo python${PYTHON3_PKGVERSION}-foo"
@@ -246,7 +246,7 @@ declare python${PYTHON3_PKGVERSION}_foo_CATEGORY="Python"
     A data only package probably wants a <code>src_compile</code> function which
     does nothing, e.g.:
 
-<pre>
+<pre class="screen">
 src_compile() {
   true
 }

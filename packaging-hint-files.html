@@ -25,7 +25,7 @@
 <p>Lines in <code>package-version-release.hint</code> consist of one of the
 following:</p>
 
-<pre>
+<pre class="screen">
 # <i>comment</i>
 sdesc: <i>"some text"</i>
 ldesc: <i>"some text"</i>
@@ -63,7 +63,7 @@ disable-check: <i>check-name [check-name...]</i>
       installing packages via setup, e.g.
     </p>
 
-<pre>
+<pre class="screen">
 sdesc: "A whackamole simulation in ASCII art"
 </pre>
 
@@ -83,7 +83,7 @@ sdesc: "A whackamole simulation in ASCII art"
       package, enclosed in double-quotes.  e.g.:
     </p>
 
-<pre>
+<pre class="screen">
 ldesc: "A whackamole simulation in ASCII art.
 
 Intended for use on VT100 terminals at BAUD rates 1200 and
@@ -301,7 +301,7 @@ No actual moles will be harmed during execution of this game."
   </li>
 </ul>
 <p>Here's an example of a complete <i>release/boffo/boffo-1.0-1.hint</i>:</p>
-<pre>
+<pre class="screen">
 category: Games Text
 requires: libncurses6 cygwin
 sdesc:    "A whackamole simulation in ASCII art"
@@ -360,7 +360,7 @@ No actual moles will be harmed during execution of this game."</pre>
   </table>
 </div>
 <p>The setup.ini generated from these .hint files will include these lines (only relevant lines shown):</p>
-<pre>
+<pre class="screen">
 @ boffo
 requires: libboffo7 libncurses6 cygwin
 version: 2.4.1-2
@@ -382,7 +382,7 @@ source: release/boffo/boffo-2.4.1-2-src.tar.xz
 
 <h2 class="cartouche" id="pvr-src.hint"><code>package-version-release-src.hint</code> file</h2>
 
-<pre>
+<pre class="screen">
 # <i>comment</i>
 build-depends: <i>dependency-atom[ dependency-atom...]</i>
 category: <i>name1[ name2...]</i>
@@ -444,7 +444,7 @@ version: <i>version-identifier</i>
   with a specific <i>version-release</i>.
 </p>
 
-<pre>
+<pre class="screen">
 # <i>comment</i>
 keep: <i>version-identifier</i>[ <i>version-identifier</i>...]
 keep-count: <i>count</i>

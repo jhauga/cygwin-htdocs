@@ -21,7 +21,7 @@ build, and install gprof.</p>
 <p>Delete all of your <code>.o</code>'s in newlib and winsup.  Rebuild
 them all with profiling options:</p>
 
-<pre>
+<pre class="screen">
 make -k -w CFLAGS='-pg -O2 -g' CXXFLAGS='-pg -O2 -g'
 </pre>
 
@@ -47,7 +47,7 @@ modified to work for this context.</p>
 <p>Now that you have <code>libcpg.a</code>, <code>libwinpg.a</code>, and
 <code>malloc.o</code>, you can build your programs like this:</p>
 
-<pre>
+<pre class="screen">
 CFLAGS = -g -pg -O2
 
 D = djmalloc.o libwinpg.a libcpg.a libwinpg.a

@@ -25,7 +25,7 @@ use cygport.</p>
 <ul class="compact">
   <li>
     Source packages are extracted underneath /usr/src (so your -src tarball should not include /usr/src). On extraction, the tar file should put the sources in a directory with the same name as the package tar ball minus the -src.tar.bz2 part:
-<pre>
+<pre class="screen">
 boffo-1.0-1/Makefile.in
 boffo-1.0-1/README
 boffo-1.0-1/configure
@@ -38,31 +38,31 @@ etc...
   <li>Include a single file foo-version-release.patch in your source package, that when applied (in reverse: 'patch -R') will remove all the patches you've applied to the package, leaving it as the vendor distributes it. This file should extract as : <code>/usr/src/foo-version-release.patch</code> (that is, since setup extracts everything into <code>/usr/src</code>, the patch should be a "top level" member of the -src tarball.)<br />
     <br />
     Optionally, this patch could also unpack inside the source tree:
-<pre>
+<pre class="screen">
 boffo-1.0-1/README
 boffo-1.0-1/configure
 boffo-1.0-1/CYGWIN-PATCHES/boffo-1.0-1.patch
 etc...
 </pre>
     However, that tends to complicate actually <b>creating</b> the patch itself. Unless one enjoys recursion, one must move the .patch file OUT of the source tree, regenerate the patch to incorporate any new changes, and then copy the new patch back into .../CYGWIN-PATCHES/. This option is documented because some existing packages do it this way, but it is not recommended for new packages. Make boffo-1.0-1.patch a top-level member of the -src tarball instead:
-<pre>
+<pre class="screen">
 boffo-1.0-1.patch
 boffo-1.0-1/README
 boffo-1.0-1/configure
 etc...
 </pre>
     To create the patch file described above, you might run
-<pre>
+<pre class="screen">
 diff -Nrup vendor-src-dir patched-src-dir &gt; foo-version-release.patch
 </pre>
     To apply the generated patch (in reverse; that is, to remove the Cygwin specific changes from the unpacked -src tarball) the user would run (from within the source tree)
-<pre>
+<pre class="screen">
 patch -R -p1 &lt; ../foo-version-release.patch
 </pre>
   </li>
   <li>In general, any Cygwin-specific "packaging" files -- such as cygwin-specific READMEs, a copy of the setup.hint file for your package, etc. -- should unpack within a /CYGWIN-PATCHES/ subdirectory in your sources. Naturally, applying the patch (in reverse, as described above) would remove these files from the source tree.</li>
   <li>So, returning to the boffo example, boffo-1.0-1-src.tar.bz2 would contain:
-<pre>
+<pre class="screen">
 boffo-1.0-1.patch
 boffo-1.0-1/README
 boffo-1.0-1/configure
@@ -109,13 +109,13 @@ boffo-1.0-1/CYGWIN-PATCHES/setup.hint
       <li>Prepare the staging location for the -src package (yes, do the -src package first): From the directory above your boffo-1.0 tree (e.g. <code>~/sources/</code> in our example) execute '<code>./boffo-1.0-1.sh mkdirs</code>'</li>
       <li>Create the -src package: '<code>./boffo-1.0-1.sh spkg</code>'</li>
       <li>Now, let's go somewhere else and unpack this new -src package:
-<pre>
+<pre class="screen">
 cd /tmp
 tar xvjf ~/sources/boffo-1.0-1-src.tar.bz2
 </pre>
       </li>
       <li>Finally, rebuild the whole thing (you're still in /tmp):
-<pre>
+<pre class="screen">
 ./boffo-1.0-1.sh all
 </pre>
 	(Or, you may want to do each step in 'all' manually: prep, conf, build, (check), install, strip, pkg, spkg, finish.

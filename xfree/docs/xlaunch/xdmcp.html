@@ -27,18 +27,18 @@ On the remote *nix machine edit the following files, restart the X Display Manag
 <ul><li>
 Edit the file Xaccess (each Display Manager has its own).
 Make sure you have a line like this that is uncommented.
-<pre>*     	#any host can get a login window
+<pre class="screen">*     	#any host can get a login window
 </pre></li>
 <li>
 Edit the X Display Manager config file (kdmrc, gdm.config, xdm-config or wdm-config) and change
-<pre>[Xdmcp]
+<pre class="screen">[Xdmcp]
 Enable=false <i>(may be shown as 0 in some distributions)</i>
   <i>to</i>
 [Xdmcp]
 Enable=true <i>(or 1 in some distributions)</i>
 </pre>
 or for a xdm style configuration
-<pre>DisplayManager.requestPort:	0
+<pre class="screen">DisplayManager.requestPort:	0
   <i>to</i>
 !DisplayManager.requestPort:	0
 </pre></li></ul>

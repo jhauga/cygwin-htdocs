@@ -63,6 +63,21 @@ Open `http://localhost:8000` in the Browser.
 
 <details>
 
+<summary>May 8th, 2026</summary>
+
+- [SUMMARY](outgoing-patches/05-08-2026/README.md)
+- [access.patch](outgoing-patches/05-08-2026/access.patch)
+- [add-pre-class.patch](outgoing-patches/05-08-2026/add-pre-class.patch)
+- [cover-letter.patch.md](outgoing-patches/05-08-2026/cover-letter.patch.md)
+- [css-variables.patch](outgoing-patches/05-08-2026/css-variables.patch)
+- [font.patch](outgoing-patches/05-08-2026/font.patch)
+- [gold-stars.patch](outgoing-patches/05-08-2026/gold-stars.patch)
+- [responsive-styling.patch](outgoing-patches/05-08-2026/responsive-styling.patch)
+- [top-logo.patch](outgoing-patches/05-08-2026/top-logo.patch)
+</details>
+
+<details>
+
 <summary>April 17th, 2026</summary>
 
 - [SUMMARY](outgoing-patches/04-17-2026/README.md)

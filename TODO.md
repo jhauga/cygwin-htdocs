@@ -6,9 +6,6 @@
 - [x] code-style
   - [x] patch file subject
   - [x] comment
-- [ ] css-variables
-  - [ ] patch file subject
-  - [ ] comment
 - [x] fixed-menu-position
   - [x] patch file subject
   - [x] comment
@@ -24,29 +21,35 @@
 - [x] pre-style
   - [x] patch file subject
   - [x] comment
-- [ ] responsive-styling
-  - [ ] patch file subject
-  - [ ] comment
-- [ ] star-entity and menu
-  - [ ] patch file subject
-  - [ ] comment
-- [ ] top-logo
-  - [ ] patch file subject
-  - [ ] comment
-  - [ ] Add `hover` to style
-- [ ] Add class to `pre` tags where missing
-  - [ ] patch file subject
-  - [ ] comment
-- [ ] Apply sans-serif to all but `code` and `pre`
-  - [ ] patch file subject
-  - [ ] comment
-- [ ] Accessibility increasing `line-height`. Look for:
-  - [ ] patch file subject
-  - [ ] comment
+- [x] star-entity and menu
+  - [x] patch file subject
+  - [x] comment
+- [x] top-logo
+  - [x] patch file subject
+  - [x] comment
+  - [x] Add `hover` to style
+- [x] Add class to `pre` tags where missing
+  - [x] patch file subject
+  - [x] comment
+- [x] Apply sans-serif to all but `code` and `pre`
+  - [x] patch file subject
+  - [x] comment
+- [x] Accessibility increasing `line-height`. Look for:
+  - [x] patch file subject
+  - [x] comment
+- [x] responsive-styling
+  - [x] patch file subject
+  - [x] comment
+- [x] css-variables
+  - [x] patch file subject
+  - [x] comment
+- [x] add-menu to all pages
+  - [x] patch file subject
+  - [x] comment
 
 ## New Patch
 
-- [ ] Add class to `pre` with appropriate use-case. See
+- [x] Add class to `pre` with appropriate use-case. See
 
 ```text
 > - 0008-style-pre-code-blocks.patch
@@ -61,7 +64,7 @@ It's might be a good idea to add a class in those places to indicate how
 we're using it?
 ```
 
-- [ ] Update responsive styling. See:
+- [x] Update responsive styling. See:
 
 ```text
 > - 0010-responsive-styling.patch
@@ -77,7 +80,7 @@ very much like to fix, but I think that probably involves a lot more
 restructuring?)
 ```
 
-- [ ] Remove star text color. See:
+- [x] Remove star text color. See:
 
 ```text
 > - 0005-add-html-star-entity-for-the-Gold-Stars-menu-item.patch
@@ -93,7 +96,7 @@ by developer" that it's distinguished by colour at all.
 Maybe we ought to just drop that?
 ```
 
-- [ ] Apply sans-serif to all but `code` and `pre`
+- [x] Apply sans-serif to all but `code` and `pre`
 
 ```text
 > - 0006-h1-header-s-font-family-to-sans-serif.patch
@@ -107,7 +110,7 @@ I wonder if we should just switch to sans-serif throughout? or just stop
 specifying the font-family altogether?
 ```
 
-- [ ] Accessibility increasing `line-height`. Look for:
+- [x] Accessibility increasing `line-height`. Look for:
 
 ```text
 /* PATCH */
